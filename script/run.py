@@ -1,8 +1,8 @@
-from asyncio.log import logger
+import logging
 import os
 import logging
 import warnings
-from openai import BaseModel
+from pydantic import BaseModel
 import torch
 
 from aim2.xml.xml_parser import parse_xml
