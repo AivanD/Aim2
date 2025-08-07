@@ -1,6 +1,22 @@
+/models/
+
+__pycache__
+
+*.db
+*.obo
+*.safetensors
+*gz
+*sqlite
+*zip
+
+*.egg-info/
+build/
+*.egg-link
+*.dist-info/
+
 .env
 
-input/*
-output/*
+input/
+output/
 
-src/aim2.egg-info/
+.aim2/
