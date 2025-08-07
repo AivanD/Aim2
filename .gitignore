@@ -1,0 +1,6 @@
+.env
+
+input/*
+output/*
+
+src/aim2.egg-info/
