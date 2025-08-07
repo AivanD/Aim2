@@ -28,7 +28,6 @@ def main():
     logger.info("Model loaded successfully.")
 
     logger.info("Starting the XML processing...")
-    prompts = []
 
     # process each files in the input folder
     for filename in os.listdir(INPUT_DIR):
@@ -38,7 +37,7 @@ def main():
             output_path = os.path.join(OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # define a prompt list for batching
-            # prompts = []
+            prompts = []
 
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
@@ -63,15 +62,6 @@ def main():
 
                 # generate entities for each prompt
 
-    prompts = [
-    "What's the capital of Lithuania?",
-    "What's the capital of Latvia?",
-    "What's the capital of Estonia?"
-    ]
-    results = model.batch(prompts, output_type=Country)
-
-    for result in results:
-        logger.info(f"Generated entities for prompt: {result}")
 
 if __name__ == "__main__":
     main()
