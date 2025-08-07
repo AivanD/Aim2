@@ -20,12 +20,12 @@ quantization_config = BitsAndBytesConfig(
 model = outlines.from_transformers(
     AutoModelForCausalLM.from_pretrained("microsoft/Phi-3-mini-4k-instruct", 
                                          cache_dir=str(MODELS_DIR), 
-                                        #  local_files_only=True, 
+                                         local_files_only=True, 
                                          quantization_config=quantization_config,
                                          device_map="cuda"),
     AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct",
                                    cache_dir=str(MODELS_DIR),
-                                #    local_files_only=True
+                                   local_files_only=True
                                    )
 )
 # generator = Generator(model, Character)
