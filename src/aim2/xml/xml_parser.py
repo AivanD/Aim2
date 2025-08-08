@@ -45,8 +45,9 @@ def parse_xml(file_path, for_sentences=False):
 
             # all passages have a text element. Save it into the list so we can batch process it
             text_element = passage.find('text')
-            if text_element is not None:
-                all_passages.append(text_element.text)
+            offset_element = passage.find('offset')
+            if text_element is not None and offset_element is not None:
+                all_passages.append((text_element.text, (int(offset_element.text))))
             else: 
                 continue
 
