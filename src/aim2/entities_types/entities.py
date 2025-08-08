@@ -1,34 +1,38 @@
-from pydantic import BaseModel, Field
-from typing import List
+from pydantic import BaseModel, ConfigDict, Field
+from typing import List, Optional
 
-class Compound(BaseModel):
-    name: str = Field(description="A specific compound mentioned in the text.")
-
-class Chemicals(BaseModel):
-    name: str = Field(description="A specific chemical mentioned in the text.")
+# -------------------------
+# --- ENTITY DEFINITIONS --
+# -------------------------
 
 class Metabolite(BaseModel):
-    name: str = Field(description="A specific metabolite mentioned in the text.")
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
+        examples=["β-sitosterol", "abscisic acid", "gibberellin"]
+    )
+    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
-class BiologicalProcess(BaseModel):
-    name: str = Field(description="A biological process.")
-
-class Trait(BaseModel):
-    name: str = Field(description="An observable characteristic or trait.")
-
-class Tissue(BaseModel):
-    name: str = Field(description="A specific tissue type mentioned in the text.")
+class Pathway(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Metabolic pathways involving the transformation of metabolites.",
+        examples=["glycolysis", "TCA cycle", "photosynthetic electron transport"]
+    )
+    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
 class Species(BaseModel):
-    name: str = Field(description="A specific species mentioned in the text.")
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Species names.",
+        examples=["Arabidopsis thaliana", "Oryza sativa", "Zea mays", "Homo sapiens", "Mus musculus"]
+    )
+    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
-# 2. Create a main model to hold lists of all extracted entities
+# Create a main model to hold lists of all extracted entities
 class CustomExtractedEntities(BaseModel):
     """All entities extracted from the text."""
-    compound: List[Compound]
-    chemicals: List[Chemicals]
-    metabolites: List[Metabolite]
-    # biological_processes: List[BiologicalProcess]
-    traits: List[Trait]
-    tissues: List[Tissue]
-    species: List[Species]
+    model_config = ConfigDict(extra="forbid")
+    metabolites: List[Metabolite] = Field(default_factory=list, description="List of metabolite mentions.")
+    pathways: List[Pathway] = Field(default_factory=list, description="List of pathway mentions.")
+    species: List[Species] = Field(default_factory=list, description="List of species mentions.")
