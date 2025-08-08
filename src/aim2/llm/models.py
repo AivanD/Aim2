@@ -9,6 +9,7 @@ from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY
 from aim2.entities_types.entities import CustomExtractedEntities
 set_seed(42)
 
+# TODO: Check if this actually works.
 def load_local_model_via_outlinesVLLM():
     model_name = "meta-llama/Llama-3.1-8B-Instruct"
     model = outlines.from_vllm_offline(LLM(
@@ -54,7 +55,7 @@ def load_local_model_via_outlines():
 def load_openai_model():
     model = from_openai(
         openai.OpenAI(api_key=OPENAI_API_KEY),
-        model_name="gpt-4.1-mini"       # Replace with a more powerful model if needed
+        model_name="gpt-4.1"       # Replace with a more powerful model if needed
     )
     return model
 

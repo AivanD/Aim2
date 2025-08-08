@@ -3,13 +3,32 @@
 # Installation instructions
 ```bash 
 pip install -e .
-pip install -r requirements.txt
+pip install -r requirements.txt # use appropriate OS.
 
 # for models used for sentence splitting (can be use for other purposes)
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz # for transformer model which requires pytorch cuda
 
 ```
+# Installation for Mac (untested)
+```bash
+pip install -e .
+
+pip install scispacy
+# for models used for sentence splitting (can be use for other purposes)
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz # for transformer model which requires pytorch cuda
+pip install dotenv
+pip install schemic
+
+pip install bitsandbytes # don't know if this works for macOS
+pip install accelerate  # dont know if this works for macOS.
+
+pip install vllm # future use - has a lot of benefits for local inferencing - relationship step much later.
+pip install outlines # ignore the warning!
+```
+# API tokens
+use the `.env.example` to create a `.env` file to hold your API keys.
 
 ## vs. GPT-NER
 

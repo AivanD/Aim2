@@ -25,6 +25,7 @@ def _static_header():
         Rules:
         - Return ONLY a valid JSON object. Do not wrap it in quotes. No markdown or explanations.
         - Do not infer or guess entities; extract only verbatim mentions from the text. For example, if the text says "mouse", extract "mouse", not "Mus musculus".
+        - The examples below are for illustration only. Do not extract entities from the examples.
         - Each list may be empty if none are found.
                             
         Examples:

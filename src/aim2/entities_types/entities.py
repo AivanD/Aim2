@@ -1,36 +1,35 @@
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import ConfigDict, Field
+from schemic import SchemicModel
 from typing import List, Optional
 
 # -------------------------
 # --- ENTITY DEFINITIONS --
 # -------------------------
-
-class Metabolite(BaseModel):
+# TODO: add the rest of the entities. 
+# TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)
+class Metabolite(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
         examples=["β-sitosterol", "abscisic acid", "gibberellin"]
     )
-    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
-class Pathway(BaseModel):
+class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Metabolic pathways involving the transformation of metabolites.",
         examples=["glycolysis", "TCA cycle", "photosynthetic electron transport"]
     )
-    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
-class Species(BaseModel):
+class Species(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Species names.",
         examples=["Arabidopsis thaliana", "Oryza sativa", "Zea mays", "Homo sapiens", "Mus musculus"]
     )
-    span: Optional[tuple[int, int]] = Field(None, description="Start and end character offsets of the entity.")
 
 # Create a main model to hold lists of all extracted entities
-class CustomExtractedEntities(BaseModel):
+class CustomExtractedEntities(SchemicModel):
     """All entities extracted from the text."""
     model_config = ConfigDict(extra="forbid")
     metabolites: List[Metabolite] = Field(default_factory=list, description="List of metabolite mentions.")
