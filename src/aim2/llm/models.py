@@ -1,30 +1,52 @@
 from outlines import Generator, from_transformers, from_openai
+import outlines
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
 import torch
 import openai
+from vllm import LLM, SamplingParams
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY
 from aim2.entities_types.entities import CustomExtractedEntities
 set_seed(42)
 
+def load_local_model_via_outlinesVLLM():
+    model_name = "meta-llama/Llama-3.1-8B-Instruct"
+    model = outlines.from_vllm_offline(LLM(
+        model=model_name,
+        # quantization="awq_marlin",
+        quantization="bitsandbytes",
+        download_dir=str(MODELS_DIR),
+        # enforce_eager=True,  # Recommended for use with outlines
+        seed=42,
+        swap_space=2,
+        gpu_memory_utilization=0.80,
+        # max_model_len=4096,
+        # guided_decoding_backend="outlines", # dont use as it gives empty output let it use default xgrammar
+        kv_cache_dtype="fp8_e4m3"
+    ))
+
+    return model
 def load_local_model_via_outlines():
     # Initialize a model
     quantization_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_compute_dtype=torch.float16
         )
-    model_name = "microsoft/Phi-3-mini-4k-instruct"     # not only is it weak but it quantized so, it may not perform well on complex tasks
+    model_name = "meta-llama/Llama-3.1-8B-Instruct"     # not only is it weak but it quantized so, it may not perform well on complex tasks
     model = from_transformers(
-        AutoModelForCausalLM.from_pretrained(model_name,
-                                            cache_dir=str(MODELS_DIR),
-                                            device_map="auto",
-                                            local_files_only=True,
-                                            quantization_config=quantization_config,
-                                            ),
-        AutoTokenizer.from_pretrained(model_name,
-                                    cache_dir=str(MODELS_DIR),
-                                    # local_files_only=True,
-                                    ),
+        AutoModelForCausalLM.from_pretrained(
+            model_name,
+            cache_dir=str(MODELS_DIR),
+            device_map="auto",
+            local_files_only=True,
+            quantization_config=quantization_config,
+            token=HF_TOKEN
+        ),
+        AutoTokenizer.from_pretrained(
+            model_name,
+            cache_dir=str(MODELS_DIR),
+            local_files_only=True,
+        ),
     )
 
     return model
@@ -34,11 +56,11 @@ def load_openai_model():
         openai.OpenAI(api_key=OPENAI_API_KEY),
         model_name="gpt-4.1-mini"       # Replace with a more powerful model if needed
     )
-    return Generator(model, CustomExtractedEntities)
+    return model
 
 def main():
     # Load the model
-    generator = load_openai_model()
+    model = load_openai_model()
 
     isdone = False
 
@@ -59,10 +81,11 @@ def main():
         """
         
         # Generate a response.
-        result = generator(prompt,
-                        # max_new_tokens=200,       # not used in OpenAI models
-                        temperature=0,
-                        top_p=1)
+        result = model.batch(model_input=prompt,
+                             output_type=CustomExtractedEntities,
+                             max_new_tokens=200,       # not used in OpenAI models
+                             temperature=0,
+                             top_p=1)
 
         # Parse the JSON result into a Pydantic model
         try:
