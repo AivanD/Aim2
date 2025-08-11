@@ -4,6 +4,7 @@ from typing import List, Optional
 
 # -------------------------
 # --- ENTITY DEFINITIONS --
+# examples are not seen by the model. It is used for documentation purposes.
 # -------------------------
 # TODO: add the rest of the entities. 
 # TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)

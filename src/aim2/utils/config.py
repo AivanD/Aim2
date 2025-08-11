@@ -19,8 +19,10 @@ load_dotenv(dotenv_path=PROJECT_ROOT / '.env')
 
 INPUT_DIR       = PROJECT_ROOT / "input"
 OUTPUT_DIR      = PROJECT_ROOT / "output"
-
+DATA_DIR        = PROJECT_ROOT / "data"
 MODELS_DIR      = PROJECT_ROOT / "models"
+
+PO_OBO          = DATA_DIR / "plant-ontology.obo"
 
 HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")

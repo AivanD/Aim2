@@ -5,27 +5,36 @@ import warnings
 import json
 
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, MODELS_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
+from aim2.data.plant_ontology import load_plant_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
 def main():
     ensure_dirs()
     setup_logging()
+    
     logger = logging.getLogger(__name__)
 
     # load the model to use
     try:
         model = load_openai_model()
-        logger.info("Model loaded successfully.")
+        logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
         return
+
+    # load the plant-ontology (for future use)
+    try:
+        terms_dict, po_graph = load_plant_ontology(PO_OBO)
+        logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
+    except Exception as e:
+        logger.error(f"Error loading plant ontology: {e}")
     
     logger.info("Starting the XML processing...")
     # process each files in the input folder
@@ -64,14 +73,14 @@ def main():
                 # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
                 # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
                 # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                # openai_schema = CustomExtractedEntities.schemic_schema()
+                openai_schema = CustomExtractedEntities.schemic_schema()
 
                 # this inference doesnt use batching. CHATGPT API is fast enough
                 result = model(
                     model_input=prompt,
-                    output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the schema through response.
-                    # response_format=openai_schema,
-                    # max_tokens=512,  # switch to max_tokens if using gpt
+                    # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
+                    response_format=openai_schema,
+                    max_tokens=512,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
                     temperature=0.1,  # adjust as needed
                 )
 
