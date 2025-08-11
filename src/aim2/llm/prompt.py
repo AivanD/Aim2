@@ -16,9 +16,9 @@ def _static_header():
         - Genes: Plant gene names (e.g., MAP kinase 6, phytochrome B, FLC).
         - Anatomical Structures: Anatomical structures in plants (e.g., anther wall, root tip, plant cuticle, lenticel).
         - Species: Plant species names, including common and scientific names (e.g., Arabidopsis thaliana, Oryza sativa, Zea mays).
-        - Experimental Conditions: Experimental conditions or treatments applied in plant studies (e.g., salt stress, drought, cold exposure, heavy metal exposure).
+        - Experimental Conditions: Experimental conditions or treatments applied in plant studies (e.g., salt exposure, drought environment exposure, cold temperature exposure, cadmium chloride exposure).
         - Molecular Traits: Molecular-level traits or measurements in plants (e.g., protein abundance, enzyme activity, gene expression level).
-        - Plant Traits: Organism-level traits or qualities of a plant (e.g., plant height, leaf shattering, flowering time, drought resistance).
+        - Plant Traits: Organism-level traits or qualities of a plant (e.g., plant height, leaf shattering, flowering time trait, drought tolerance).
         - Human Traits: Traits of plants that are relevant to humans (e.g., nutritional quality, allergenicity, flavor, toxicity).
 
         Output format (JSON only):
