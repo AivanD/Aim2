@@ -24,6 +24,7 @@ MODELS_DIR      = PROJECT_ROOT / "models"
 
 HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
+GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
 
 def ensure_dirs():
     """
