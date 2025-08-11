@@ -20,10 +20,13 @@ def main():
     logger = logging.getLogger(__name__)
 
     # load the model to use
-    # model = load_local_model_via_outlines()
-    model = load_openai_model()
-    logger.info("Model loaded successfully.")
-
+    try:
+        model = load_openai_model()
+        logger.info("Model loaded successfully.")
+    except Exception as e:
+        logger.error(f"Error loading model: {e}")
+        return
+    
     logger.info("Starting the XML processing...")
     # process each files in the input folder
     for filename in os.listdir(INPUT_DIR):
@@ -61,14 +64,14 @@ def main():
                 # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
                 # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
                 # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                openai_schema = CustomExtractedEntities.schemic_schema()
+                # openai_schema = CustomExtractedEntities.schemic_schema()
 
                 # this inference doesnt use batching. CHATGPT API is fast enough
                 result = model(
                     model_input=prompt,
-                    # output_type=openai_schema # not supported for OPENAI. Just past the chema through response.
-                    response_format=openai_schema,
-                    max_tokens=512,  # switch to max_tokens if using gpt
+                    output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the schema through response.
+                    # response_format=openai_schema,
+                    # max_tokens=512,  # switch to max_tokens if using gpt
                     temperature=0.1,  # adjust as needed
                 )
 
