@@ -31,10 +31,13 @@ def main():
 
     # load the plant-ontology, peco, and trait_ontology (for future use)
     try:
+        # "plant ontology" which has 2 namespaces: 'plant_anatomy' and 'plant_structure_development_stage'
         plant_terms_dict, po_graph = load_ontology(PO_OBO)
         logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
+        # "experimental condition" ontology which has 1 namespace: 'plant_experimental_conditions_ontology'
         peco_terms_dict, peco_graph = load_ontology(PECO_OBO)
         logger.info(f"PECO ontology loaded successfully from {PECO_OBO}.")
+        # "plant trait" ontology which has 1 namespace: 'plant_trait_ontology'
         to_terms_dict, to_graph = load_ontology(TO_OBO)
         logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
     except Exception as e:
@@ -84,7 +87,7 @@ def main():
                     model_input=prompt,
                     # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
                     response_format=openai_schema,
-                    max_tokens=512,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
+                    max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
                     temperature=0.1,  # adjust as needed
                 )
 
@@ -97,8 +100,9 @@ def main():
                 result_list.append(result_with_spans)
 
             # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
-            # implement a way to dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
+            # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
             # rather than for each passage. 
+            # do normalization, then dedupe then merge
 
             # save the results to the output file
             with open(output_path, 'w') as f:

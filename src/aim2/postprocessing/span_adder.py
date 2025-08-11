@@ -50,16 +50,29 @@ def add_spans_to_entities(
         passage_text (str): The text of the passage from which entities were extracted.
         passage_offset (int): The offset to apply to entity spans within the passage text.
     Returns:
-        dict: A dictionary with keys "metabolites", "pathways", and "species", each containing a list of entities with added span information.
+        dict: A dictionary with keys for each entity category, each containing a list of entities with added span information.
     """
     output_data = {
         "metabolites": [],
         "pathways": [],
-        "species": []
+        "genes": [],
+        "anatomical_structures": [],
+        "species": [],
+        "experimental_conditions": [],
+        "molecular_traits": [],
+        "plant_traits": [],
+        "human_traits": [],
     }
 
     _process_entity_list(entities.metabolites, "metabolites", passage_text, passage_offset, output_data)
     _process_entity_list(entities.pathways, "pathways", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.genes, "genes", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.anatomical_structures, "anatomical_structures", passage_text, passage_offset, output_data)
     _process_entity_list(entities.species, "species", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.experimental_conditions, "experimental_conditions", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.molecular_traits, "molecular_traits", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.plant_traits, "plant_traits", passage_text, passage_offset, output_data)
+    _process_entity_list(entities.human_traits, "human_traits", passage_text, passage_offset, output_data)
+
 
     return output_data
