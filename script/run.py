@@ -5,13 +5,13 @@ import warnings
 import json
 
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
-from aim2.data.plant_ontology import load_plant_ontology
+from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
@@ -29,13 +29,17 @@ def main():
         logger.error(f"Error loading model: {e}")
         return
 
-    # load the plant-ontology (for future use)
+    # load the plant-ontology, peco, and trait_ontology (for future use)
     try:
-        terms_dict, po_graph = load_plant_ontology(PO_OBO)
+        plant_terms_dict, po_graph = load_ontology(PO_OBO)
         logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
+        peco_terms_dict, peco_graph = load_ontology(PECO_OBO)
+        logger.info(f"PECO ontology loaded successfully from {PECO_OBO}.")
+        to_terms_dict, to_graph = load_ontology(TO_OBO)
+        logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
     except Exception as e:
-        logger.error(f"Error loading plant ontology: {e}")
-    
+        logger.error(f"Error loading ontology: {e}")
+
     logger.info("Starting the XML processing...")
     # process each files in the input folder
     for filename in os.listdir(INPUT_DIR):
