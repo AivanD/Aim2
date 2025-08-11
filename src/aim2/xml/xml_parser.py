@@ -35,11 +35,11 @@ def parse_xml(file_path, for_sentences=False):
         for passage in document.findall('passage'):
             # skip passages under REF and title elements
             section_type_element = passage.find("infon[@key='section_type']")
-            # TODO: ADJUST THIS to only include the relevant section types
+            # ADJUST THIS to only include the relevant section types
             if section_type_element is not None and section_type_element.text.upper() not in ['ABSTRACT', 'INTRO', 'RESULTS', 'DISCUSS', 'CONCL']:
                 continue
             type_element = passage.find("infon[@key='type']")
-            # TODO: Adjust this to only include the relevant types
+            # Adjust this to only include the relevant types
             if type_element is not None and type_element.text.upper() not in ['ABSTRACT', 'PARAGRAPH']:
                 continue
 
