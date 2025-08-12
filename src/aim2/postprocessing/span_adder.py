@@ -1,6 +1,11 @@
 import re
-from aim2.entities_types.entities import CustomExtractedEntities
+import logging
 
+from aim2.entities_types.entities import CustomExtractedEntities
+from aim2.utils.logging_cfg import setup_logging
+
+setup_logging()
+logger = logging.getLogger(__name__)
 
 # A helper function to process each entity list
 def _process_entity_list(entity_list, category_name, passage_text, passage_offset, output_data):
@@ -17,25 +22,33 @@ def _process_entity_list(entity_list, category_name, passage_text, passage_offse
         None: The function modifies output_data in place by appending entities and their spans.
     """
     
-    # A map to quickly find an entity object by its name to append spans
-    entity_map = {}
+    # Get unique entity names from the list to avoid duplicate processing
+    unique_entity_names = {entity.name for entity in entity_list}
 
-    # First, create the unique entity entries in the map
-    for entity in entity_list:
-        if entity.name not in entity_map:
+    for entity_name in unique_entity_names:
+        spans = []
+        # Find all occurrences of this entity name in the passage, ignoring case
+        try:
+            for match in re.finditer(re.escape(entity_name), passage_text, re.IGNORECASE):
+                start, end = match.span()
+                spans.append((passage_offset + start, passage_offset + end))
+        except re.error as e:
+            logger.error(f"Regex error for entity '{entity_name}': {e}")
+            continue
+
+        # Only add the entity to the output if it was actually found in the text (i.e., has spans)
+        if spans:
             new_entity_obj = {
-                "name": entity.name,
-                "spans": []  # Initialize with an empty list for spans
+                "name": entity_name,
+                "spans": spans
             }
             output_data[category_name].append(new_entity_obj)
-            entity_map[entity.name] = new_entity_obj
-
-    # Now, find all occurrences and populate the spans
-    for entity_name, entity_obj in entity_map.items():
-        for match in re.finditer(re.escape(entity_name), passage_text, re.IGNORECASE):
-            start, end = match.span()
-            span = (passage_offset + start, passage_offset + end)
-            entity_obj["spans"].append(span)
+        else:
+            # This is where hallucinated entities are caught and discarded.
+            logger.warning(
+                f"Discarding entity '{entity_name}' (category: {category_name}) "
+                f"because it was not found in the passage text."
+            )
 
 
 def add_spans_to_entities(
