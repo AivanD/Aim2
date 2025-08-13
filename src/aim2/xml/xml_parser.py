@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import spacy
 import logging
-# from scispacy.abbreviation import AbbreviationDetector
+from scispacy.abbreviation import AbbreviationDetector
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -12,6 +12,7 @@ def parse_xml(file_path, for_sentences=False):
     Can also use en_core_sci_lg for non-transformer models.
     Args:
         file_path (str): The path to the XML file.
+        for_sentences (bool): If True, enables sentence splitting and abbreviation detection.
     Returns:
         list: A list of sentences extracted from the XML file.
     """
@@ -19,9 +20,9 @@ def parse_xml(file_path, for_sentences=False):
     root = tree.getroot()
 
     for document in root.findall('document'):
-        all_passages = []
+        all_passages = []       # passages along with their offsets
         all_sentences = []      # sentences from all passages
-        all_abbreviations = []  # abbreviations from all passages
+        abbreviations_dict = {}  # abbreviations from all passages
 
         # document id (for debugging purposes)
         doc_id_element = document.find('id')
@@ -51,7 +52,7 @@ def parse_xml(file_path, for_sentences=False):
             else: 
                 continue
 
-        # use nlp.pipe with batch processing and using multi core
+        # use nlp.pipe with batch processing and using multi core (multi core is only support if you dont need abbreviation)
         # for transformers, leave n_process at 1. For non-transformers, use any nproc processes
         if for_sentences:
             # if torch.cuda.is_available():
@@ -60,11 +61,16 @@ def parse_xml(file_path, for_sentences=False):
             # else:
             logger.info("Using CPU for processing...")
             nlp = spacy.load("en_core_sci_lg", disable=["tagger", "ner", "lemmatizer"])
-            # nlp.add_pipe("abbreviation_detector")
+            nlp.add_pipe("abbreviation_detector")
 
-            for doc in nlp.pipe(all_passages, n_process=2, batch_size=(min(len(all_passages), 128))):
+            # extracting only the text from all_passages for nlp.pipe
+            passage_texts = [text for text, offset in all_passages]
+
+            for doc in nlp.pipe(passage_texts, n_process=1, batch_size=(min(len(passage_texts), 128))):
                 for sent in doc.sents:
                     all_sentences.append(sent.text)
-                    # all_abbreviations.extend(doc._.abbreviations)
+                for abrv in doc._.abbreviations:
+                    abbreviations_dict[abrv.text] = str(abrv._.long_form)
+
 
     return all_passages, all_sentences

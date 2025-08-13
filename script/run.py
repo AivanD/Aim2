@@ -60,14 +60,14 @@ def main():
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
 
-            # parse the XML file to get the list of passages and sentences. Set True for sentences
-            passages, sentences = parse_xml(input_path, False)
+            # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences
+            passages_w_offsets, sentences = parse_xml(input_path, True)
 
             # print the number of passages and sentences found
-            logger.info(f"Processed {len(passages)} passages and {len(sentences)} sentences from {filename}")
+            logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences)} sentences from {filename}")
 
-            # process each passage. processing each sentence would be costly. 
-            for passage_text, passage_offset in passages:
+            # process each passage. processing each sentence would be costly.
+            for passage_text, passage_offset in passages_w_offsets:
                 # create a prompt for the passage
                 prompt = make_prompt(passage_text)
                 prompts.append(prompt)
