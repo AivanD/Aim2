@@ -77,15 +77,7 @@ def add_spans_to_entities(
         "human_traits": [],
     }
 
-    _process_entity_list(entities.metabolites, "metabolites", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.pathways, "pathways", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.genes, "genes", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.anatomical_structures, "anatomical_structures", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.species, "species", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.experimental_conditions, "experimental_conditions", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.molecular_traits, "molecular_traits", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.plant_traits, "plant_traits", passage_text, passage_offset, output_data)
-    _process_entity_list(entities.human_traits, "human_traits", passage_text, passage_offset, output_data)
-
+    for category in output_data.keys():
+        _process_entity_list(getattr(entities, category), category, passage_text, passage_offset, output_data)
 
     return output_data
