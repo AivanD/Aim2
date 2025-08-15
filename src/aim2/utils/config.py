@@ -30,6 +30,9 @@ HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
 
+# VLLM
+os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
+
 def ensure_dirs():
     """
     Ensures that the input and output directories exist.

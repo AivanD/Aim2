@@ -93,8 +93,6 @@ nvidia-nvjitlink-cu12==12.8.61
 nvidia-nvtx-cu12==12.8.55
 openai==1.90.0
 opencv-python-headless==4.11.0.86
-outlines==1.1.1
-outlines_core==0.1.26
 packaging==25.0
 partial-json-parser==0.2.1.1.post6
 pillow==11.3.0

@@ -1,6 +1,4 @@
-from math import e
-from outlines import Generator, from_transformers, from_openai
-import outlines
+from outlines import from_transformers, from_openai, from_vllm_offline
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
 import torch
 import openai
@@ -8,7 +6,6 @@ from vllm import LLM, SamplingParams
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY
 from aim2.entities_types.entities import CustomExtractedEntities
-set_seed(42)
 
 # use vllm for concurrency, pageattention, kv_caching, etc.
 def load_local_model_via_outlinesVLLM():
@@ -25,8 +22,9 @@ def load_local_model_via_outlinesVLLM():
         - Seed is set for reproducibility.
     """
     model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+    # model_name = "microsoft/Phi-3-mini-4k-instruct"
     try:
-        model = outlines.from_vllm_offline(LLM(
+        model = from_vllm_offline(LLM(
             model=model_name,                   
             quantization="awq_marlin",              # for quantized models using awq
             # quantization="bitsandbytes",          # for quantized models using bnb
@@ -95,45 +93,3 @@ def load_openai_model():
         return None
 
     return model
-
-def main():
-    # Load the model
-    model = load_local_model_via_outlinesVLLM()
-
-    isdone = False
-
-    while not isdone:
-        # prompt the user for article text
-        article_text = input("Enter the article text (or type 'exit' to quit): ")
-        if article_text.lower() == 'exit':
-            isdone = True
-            continue
-
-        # 3. Create a clear prompt for the model
-        prompt = f"""
-        Extract all entities from the following text based on the provided JSON schema. The entity types are: Compound, Stressor, Process, Trait, Stage, Structure, and Organoleptic.
-        If no entities of a type are found, return an empty list for that type.
-
-        Text:
-        {article_text}
-        """
-        
-        # Generate a response.
-        result = model.batch(model_input=prompt,
-                             output_type=CustomExtractedEntities,
-                             max_new_tokens=200,       # not used in OpenAI models
-                             temperature=0,
-                             top_p=1)
-
-        # Parse the JSON result into a Pydantic model
-        try:
-            extracted_entities = CustomExtractedEntities.model_validate_json(result)
-            # get the JSON output
-            json_output = extracted_entities.model_dump_json(indent=2)
-            print(json_output)
-        except Exception as e:
-            print(f"Error parsing model output: {e}")
-            print(f"Model returned: {result}")
-
-if __name__ == "__main__":
-    main()
