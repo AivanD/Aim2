@@ -2,7 +2,7 @@ from outlines import from_transformers, from_openai, from_vllm_offline
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
 import torch
 import openai
-from vllm import LLM, SamplingParams
+import vllm 
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY
 from aim2.entities_types.entities import CustomExtractedEntities
@@ -23,8 +23,9 @@ def load_local_model_via_outlinesVLLM():
     """
     model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
+    # model_name = "meta-llama/Llama-3.1-8B-Instruct"
     try:
-        model = from_vllm_offline(LLM(
+        model = from_vllm_offline(vllm.LLM(
             model=model_name,                   
             quantization="awq_marlin",              # for quantized models using awq
             # quantization="bitsandbytes",          # for quantized models using bnb
@@ -33,13 +34,14 @@ def load_local_model_via_outlinesVLLM():
             seed=42,
             swap_space=2,                           # defaults to 4. Uses ram for swapping data if things like kv_cache cant fit in vram. !MIGHT REDUCE PERF
             gpu_memory_utilization=0.85,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
-            max_model_len=1024,                     # adjust this for your usecase (1024 is enough for 8gb gpu)
+            max_model_len=1048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. V1 is faster but resort to V0 if V1 doesnt work
         ))
+    except ValueError as e:
+        raise ValueError(f"Error loading local model via outlines VLLM: {e}")
     except Exception as e:
-        print(f"Error loading local model via outlines VLLM: {e}")
-        return None
+        raise RuntimeError(f"Error loading local model via outlines VLLM: {e}")
     
     return model
 
@@ -72,8 +74,7 @@ def load_local_model_via_outlines():
             ),
         )
     except Exception as e:
-        print(f"Error loading local model: {e}")
-        return None
+        raise RuntimeError(f"Error loading local model via outlines VLLM: {e}")
 
     return model
 
@@ -89,7 +90,6 @@ def load_openai_model():
             model_name="gpt-4.1"       # Replace with a more powerful model if needed
         )
     except Exception as e:
-        print(f"Error loading OpenAI model: {e}")
-        return None
+        raise RuntimeError(f"Error loading local model via outlines VLLM: {e}")
 
     return model

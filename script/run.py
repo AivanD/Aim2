@@ -3,6 +3,7 @@ import os
 import logging
 import warnings
 import json
+from vllm import SamplingParams
 
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO
@@ -61,10 +62,10 @@ def main():
             logger.info(f"Processing file: {filename}")
 
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences
-            passages_w_offsets, sentences = parse_xml(input_path, True)
+            passages_w_offsets, sentences_w_offsets = parse_xml(input_path, True)
 
             # print the number of passages and sentences found
-            logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences)} sentences from {filename}")
+            logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
 
             # process each passage. processing each sentence would be costly.
             for passage_text, passage_offset in passages_w_offsets:
@@ -73,7 +74,7 @@ def main():
                 prompts.append(prompt)
 
                 # another option: use sentences instead of passages
-                # for sentence in sentences:
+                # for sentence_text, sentence_offset in sentences_w_offsets:
                 #     prompt = make_prompt(sentence)
                 #     prompts.append(prompt)
 
@@ -82,7 +83,7 @@ def main():
                 # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
                 openai_schema = CustomExtractedEntities.schemic_schema()
 
-                # this inference doesnt use batching. CHATGPT API is fast enough
+                # # this inference doesnt use batching. CHATGPT API is fast enough
                 result = model(
                     model_input=prompt,
                     # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
@@ -98,6 +99,20 @@ def main():
                 # add the spans to the extracted entities
                 result_with_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
                 result_list.append(result_with_spans)
+
+            # # VLLM batching. Disable the other one
+            # results = model.batch(
+            #     model_input=prompts,
+            #     output_type=CustomExtractedEntities,
+            #     sampling_params=SamplingParams(temperature=0.1, max_tokens=1024),
+            # )
+
+            # validate each one
+            # for result in results:
+            #     extracted_entities = CustomExtractedEntities.model_validate_json(result[0])
+            #     # add the spans to the extracted entities
+            #     result_with_spans = add_spans_to_entities(extracted_entities, sentence_text, sentence_offset)
+            #     result_list.append(result_with_spans)
 
             # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
             # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper

@@ -64,13 +64,12 @@ def parse_xml(file_path, for_sentences=False):
             nlp.add_pipe("abbreviation_detector")
 
             # extracting only the text from all_passages for nlp.pipe
-            passage_texts = [text for text, offset in all_passages]
 
-            for doc in nlp.pipe(passage_texts, n_process=1, batch_size=(min(len(passage_texts), 128))):
+            for doc, passage_offset in nlp.pipe(all_passages, as_tuples=True, n_process=1, batch_size=(min(len(all_passages), 128))):
                 for sent in doc.sents:
-                    all_sentences.append(sent.text)
+                    sentence_offset = passage_offset + sent.start_char
+                    all_sentences.append((sent.text, sentence_offset))
                 for abrv in doc._.abbreviations:
                     abbreviations_dict[abrv.text] = str(abrv._.long_form)
-
 
     return all_passages, all_sentences
