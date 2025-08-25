@@ -6,7 +6,7 @@ import json
 from vllm import SamplingParams
 
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
@@ -41,6 +41,9 @@ def main():
         # "plant trait" ontology which has 1 namespace: 'plant_trait_ontology'
         to_terms_dict, to_graph = load_ontology(TO_OBO)
         logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
+        # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
+        go_terms_dict, go_graph = load_ontology(GO_OBO)
+        logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
     except Exception as e:
         logger.error(f"Error loading ontology: {e}")
 
@@ -61,8 +64,8 @@ def main():
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
 
-            # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences
-            passages_w_offsets, sentences_w_offsets = parse_xml(input_path, True)
+            # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
+            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, False)
 
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
