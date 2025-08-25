@@ -11,27 +11,29 @@ def _static_header():
         Adhere strictly to the JSON schema enforced by the tool.
 
         Entity types to extract:
-        - Metabolites: Metabolites found in plants, including specialized plant compounds and phytohormones (e.g., salicylic acid, jasmonic acid, luteolin).
+        - Compounds: Compounds and/or metabolites found in plants, including specialized plant compounds and phytohormones (e.g., salicylic acid, jasmonic acid, luteolin).
         - Pathways: Metabolic pathways involving the transformation of metabolites (e.g., glycolysis, TCA cycle, photosynthetic electron transport).
         - Genes: Plant gene names (e.g., MAP kinase 6, phytochrome B, FLC).
         - Anatomical Structures: Anatomical structures in plants (e.g., anther wall, root tip, plant cuticle, lenticel).
         - Species: Plant species names, including common and scientific names (e.g., Arabidopsis thaliana, Oryza sativa, Zea mays).
         - Experimental Conditions: Experimental conditions or treatments applied in plant studies (e.g., salt exposure, drought environment exposure, cold temperature exposure, cadmium chloride exposure).
+        - Natural Product Classes: Classes of natural products found in plants (e.g, Alkylresorcinols, Flavonoids, Fluorenes, Diterpenoids,)
         - Molecular Traits: Molecular-level traits or measurements in plants (e.g., protein abundance, enzyme activity, gene expression level).
         - Plant Traits: Organism-level traits or qualities of a plant (e.g., plant height, leaf shattering, flowering time trait, drought tolerance).
         - Human Traits: Traits of plants that are relevant to humans (e.g., nutritional quality, allergenicity, flavor, toxicity).
 
         Output format (JSON only):
         {
-          "metabolites": [ { "name": "..." } ],
-          "pathways": [ { "name": "..." } ],
-          "genes": [ { "name": "..." } ],
-          "anatomical_structures": [ { "name": "..." } ],
-          "species": [ { "name": "..." } ],
-          "experimental_conditions": [ { "name": "..." } ],
-          "molecular_traits": [ { "name": "..." } ],
-          "plant_traits": [ { "name": "..." } ],
-          "human_traits": [ { "name": "..." } ]
+            "compounds": [ { "name": "..." } ],
+            "pathways": [ { "name": "..." } ],
+            "genes": [ { "name": "..." } ],
+            "anatomical_structures": [ { "name": "..." } ],
+            "species": [ { "name": "..." } ],
+            "experimental_conditions": [ { "name": "..." } ],
+            "natural_product_classes": [ { "name": "..." } ],
+            "molecular_traits": [ { "name": "..." } ],
+            "plant_traits": [ { "name": "..." } ],
+            "human_traits": [ { "name": "..." } ]
         }
 
         Rules:
@@ -41,11 +43,8 @@ def _static_header():
         - Each list may be empty if none are found.
                             
         Examples:
-        Text: "This study does not involve the use of any metabolites."
-        JSON: {"metabolites":[],"pathways":[],"genes":[],"anatomical_structures":[],"species":[],"experimental_conditions":[],"molecular_traits":[],"plant_traits":[],"human_traits":[]}
-
         Text: "In Arabidopsis thaliana, drought conditions led to increased protein abundance of the FLC gene in the root tip, affecting flowering time."
-        JSON: {"metabolites":[],"pathways":[],"genes":[{"name":"FLC"}],"anatomical_structures":[{"name":"root tip"}],"species":[{"name":"Arabidopsis thaliana"}],"experimental_conditions":[{"name":"drought"}],"molecular_traits":[{"name":"protein abundance"}],"plant_traits":[{"name":"flowering time trait"}],"human_traits":[]}
+        JSON: {"compounds":[],"pathways":[],"genes":[{"name":"FLC"}],"anatomical_structures":[{"name":"root tip"}],"species":[{"name":"Arabidopsis thaliana"}],"experimental_conditions":[{"name":"drought"}],"natural_product_classes":[],"molecular_traits":[{"name":"protein abundance"}],"plant_traits":[{"name":"flowering time trait"}],"human_traits":[]}
 
         Now, analyze the following text:
     """)

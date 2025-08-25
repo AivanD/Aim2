@@ -72,4 +72,4 @@ def parse_xml(file_path, for_sentences=False):
                 for abrv in doc._.abbreviations:
                     abbreviations_dict[abrv.text] = str(abrv._.long_form)
 
-    return all_passages, all_sentences
+    return all_passages, all_sentences, abbreviations_dict

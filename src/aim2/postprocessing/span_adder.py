@@ -66,12 +66,13 @@ def add_spans_to_entities(
         dict: A dictionary with keys for each entity category, each containing a list of entities with added span information.
     """
     output_data = {
-        "metabolites": [],
+        "compounds": [],
         "pathways": [],
         "genes": [],
         "anatomical_structures": [],
         "species": [],
         "experimental_conditions": [],
+        "natural_product_classes": [],
         "molecular_traits": [],
         "plant_traits": [],
         "human_traits": [],

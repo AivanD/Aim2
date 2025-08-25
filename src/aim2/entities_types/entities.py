@@ -8,10 +8,10 @@ from typing import List, Optional
 # -------------------------
 # TODO: add the rest of the entities. 
 # TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)
-class Metabolite(SchemicModel):
+class Compound(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
-        description="Metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
+        description="Compounds and/or metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
         examples=["β-sitosterol", "abscisic acid", "gibberellin"]
     )
 
@@ -50,6 +50,13 @@ class ExperimentalCondition(SchemicModel):
         examples=['nickel exposure', 'oxygen sensitivity', 'leaf shattering']
     )
 
+class NP_Class(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Natural product classes in plants.",
+        examples=["steroidal glycoalkaloid", "glycoalkaloid", "flavonoids"]
+    )
+
 class MolecularTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
@@ -77,12 +84,13 @@ class HumanTraits(SchemicModel):
 class CustomExtractedEntities(SchemicModel):
     """All entities extracted from the text."""
     model_config = ConfigDict(extra="forbid")
-    metabolites: List[Metabolite] = Field(default_factory=list, description="List of metabolite mentions.")
+    compounds: List[Compound] = Field(default_factory=list, description="List of compound mentions.")
     pathways: List[Pathway] = Field(default_factory=list, description="List of pathway mentions.")
     genes: List[Genes] = Field(default_factory=list, description="List of gene mentions.")
     anatomical_structures: List[AnatomicalStructure] = Field(default_factory=list, description="List of anatomical structure mentions.")
     species: List[Species] = Field(default_factory=list, description="List of species mentions.")
     experimental_conditions: List[ExperimentalCondition] = Field(default_factory=list, description="List of experimental condition mentions.")
+    natural_product_classes: List[NP_Class] = Field(default_factory=list, description="List of natural product class mentions.")
     molecular_traits: List[MolecularTraits] = Field(default_factory=list, description="List of molecular trait mentions.")
     plant_traits: List[PlantTraits] = Field(default_factory=list, description="List of plant trait mentions.")
     human_traits: List[HumanTraits] = Field(default_factory=list, description="List of human trait mentions.")
