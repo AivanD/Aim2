@@ -11,14 +11,14 @@ def _static_header():
         Adhere strictly to the JSON schema enforced by the tool.
 
         Entity types to extract:
-        - Compounds: Compounds and/or metabolites found in plants, including specialized plant compounds and phytohormones (e.g., salicylic acid, jasmonic acid, luteolin).
-        - Pathways: Metabolic pathways involving the transformation of metabolites (e.g., glycolysis, TCA cycle, photosynthetic electron transport).
-        - Genes: Plant gene names (e.g., MAP kinase 6, phytochrome B, FLC).
+        - Compounds: Compounds and/or metabolites found in plants, including specialized plant compounds and phytohormones (e.g., salicylic acids, jasmonic acids, sulfines).
+        - Pathways: Metabolic pathways involving the transformation of metabolites (e.g., thioredoxin pathway, TCA cycle, methiin metabolism).
+        - Genes: Plant gene names (e.g., HISN6A, AT2G46505, AT3G19450).
         - Anatomical Structures: Anatomical structures in plants (e.g., anther wall, root tip, plant cuticle, lenticel).
         - Species: Plant species names, including common and scientific names (e.g., Arabidopsis thaliana, Oryza sativa, Zea mays).
-        - Experimental Conditions: Experimental conditions or treatments applied in plant studies (e.g., salt exposure, drought environment exposure, cold temperature exposure, cadmium chloride exposure).
-        - Natural Product Classes: Classes of natural products found in plants (e.g, Alkylresorcinols, Flavonoids, Fluorenes, Diterpenoids,)
-        - Molecular Traits: Molecular-level traits or measurements in plants (e.g., protein abundance, enzyme activity, gene expression level).
+        - Experimental Conditions: Treatments, growing conditions, and/or study types used in plant biology experiments. (e.g., salt exposure, drought environment exposure, cold temperature exposure, IR light exposure).
+        - Natural Product Classes: Classes of natural products found in plants (e.g, Alkylresorcinols, Flavonoids, Fluorenes, Diterpenoids).
+        - Molecular Traits: Molecular-level traits or measurements in plants (e.g., metabolic process, metabolite repair, signal transduction).
         - Plant Traits: Organism-level traits or qualities of a plant (e.g., plant height, leaf shattering, flowering time trait, drought tolerance).
         - Human Traits: Traits of plants that are relevant to humans (e.g., nutritional quality, allergenicity, flavor, toxicity).
 
@@ -41,11 +41,7 @@ def _static_header():
         - Do not infer or guess entities; extract only verbatim mentions from the text. For example, if the text says "A. thaliana", extract "A. thaliana", not "Arabidopsis thaliana".
         - The examples below are for illustration only. Do not extract entities from the examples.
         - Each list may be empty if none are found.
-                            
-        Examples:
-        Text: "In Arabidopsis thaliana, drought conditions led to increased protein abundance of the FLC gene in the root tip, affecting flowering time."
-        JSON: {"compounds":[],"pathways":[],"genes":[{"name":"FLC"}],"anatomical_structures":[{"name":"root tip"}],"species":[{"name":"Arabidopsis thaliana"}],"experimental_conditions":[{"name":"drought"}],"natural_product_classes":[],"molecular_traits":[{"name":"protein abundance"}],"plant_traits":[{"name":"flowering time trait"}],"human_traits":[]}
-
+                    
         Now, analyze the following text:
     """)
     return prompt
