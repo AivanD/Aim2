@@ -37,11 +37,11 @@ def parse_xml(file_path, for_sentences=False):
             # skip passages under REF and title elements
             section_type_element = passage.find("infon[@key='section_type']")
             # ADJUST THIS to only include the relevant section types
-            if section_type_element is not None and section_type_element.text.upper() not in ['ABSTRACT', 'INTRO', 'RESULTS', 'DISCUSS', 'CONCL']:
+            if section_type_element is not None and section_type_element.text.upper() not in ['ABSTRACT', 'INTRO', 'RESULTS', 'DISCUSS', 'CONCL', 'FIG']:
                 continue
             type_element = passage.find("infon[@key='type']")
             # Adjust this to only include the relevant types
-            if type_element is not None and type_element.text.upper() not in ['ABSTRACT', 'PARAGRAPH']:
+            if type_element is not None and type_element.text.upper() not in ['ABSTRACT', 'PARAGRAPH', 'FIG_TITLE_CAPTION', 'FIG_CAPTION']:
                 continue
 
             # all passages have a text element. Save it into the list so we can batch process it
