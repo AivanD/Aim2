@@ -4,6 +4,7 @@ import logging
 import warnings
 import json
 from vllm import SamplingParams
+import time
 
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO
@@ -49,6 +50,7 @@ def main():
 
     logger.info("Starting the XML processing...")
     # process each files in the input folder
+    start_time = time.time()
     for filename in os.listdir(INPUT_DIR):
         if filename.endswith('.xml'):
             # define the input file and output file
@@ -126,7 +128,8 @@ def main():
             with open(output_path, 'w') as f:
                 json.dump(result_list, f, indent=2)
             logger.info(f"Results saved to {output_path}")
-
+    end_time = time.time()
+    logger.info(f"Processing time: {end_time - start_time:.2f} seconds")
 
 if __name__ == "__main__":
     main()
