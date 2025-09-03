@@ -3,7 +3,7 @@
 __pycache__
 
 *.db
-*.obo
+# *.obo
 *.safetensors
 *gz
 *sqlite
@@ -16,7 +16,8 @@ build/
 
 .env
 
-input/
-output/
+# input/
+# output/
 
 .aim2/
+.cspirit/
