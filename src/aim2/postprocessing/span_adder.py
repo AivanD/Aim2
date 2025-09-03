@@ -72,7 +72,7 @@ def add_spans_to_entities(
         "anatomical_structures": [],
         "species": [],
         "experimental_conditions": [],
-        "natural_product_classes": [],
+        # "natural_product_classes": [],
         "molecular_traits": [],
         "plant_traits": [],
         "human_traits": [],
