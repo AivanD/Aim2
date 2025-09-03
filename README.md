@@ -29,7 +29,111 @@ pip install outlines # ignore the warning!
 ```
 # API tokens
 use the `.env.example` to create a `.env` file to hold your API keys.
-
+# How to run (4 relevant steps)
+1. Place your input files in `input/` folder. The input files should be in BioC XML format.
+2. Run the pipeline using the following command:
+```bash
+cd scripts/
+python run.py
+```
+3. The output will be in `output/` folder. The output files will be in JSON format containing entities for each paragraph. So if a paper has 40 passages/paragraphs, the JSON will have a list of 40 JSON-formatted objects corresponding to each paragraph. Each object has entities under specific labels, and spans. Here is an example for one of the paragraphs:
+```
+{
+		"compounds": [
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[442, 455],
+					[621, 634],
+					[920, 933],
+					[998, 1011]
+				]
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[190, 204],
+					[394, 408]
+				]
+			},
+			{
+				"name": "SGA",
+				"spans": [
+					[284, 287],
+					[820, 823],
+					[1102, 1105]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [[621, 642]]
+			},
+			{
+				"name": "bitter SGA detoxification pathway",
+				"spans": [[1095, 1128]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[745, 751],
+					[1085, 1091]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruit",
+				"spans": [
+					[348, 360],
+					[529, 541],
+					[1257, 1269]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[113, 119],
+					[348, 354],
+					[529, 535],
+					[859, 865],
+					[963, 969],
+					[1184, 1190],
+					[1257, 1263]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "SGA-acetylation",
+				"spans": [[820, 835]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "sweet-tasting tomato",
+				"spans": [[1170, 1190]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "bitterness",
+				"spans": [[497, 507]]
+			},
+			{
+				"name": "toxicity",
+				"spans": [[512, 520]]
+			}
+		]
+	}
+```
+4. If you want to collect all the entities under a specific label across all the paragraphs (so essentially the whole paper), run `testing.py`. By default, it will compile entities under compounds. Change it as you see fit.
 ## vs. GPT-NER
 
 | Dimension                   | **Our BioC pipeline (v1)**                                                                                                     | **GPT-NER (paper/repo)**                                                                                                                                                                                 |
