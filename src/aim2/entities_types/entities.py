@@ -50,12 +50,12 @@ class ExperimentalCondition(SchemicModel):
         examples=['nickel exposure', 'oxygen sensitivity', 'leaf shattering']
     )
 
-class NP_Class(SchemicModel):
-    model_config = ConfigDict(extra="forbid")
-    name: str = Field(
-        description="Natural product classes in plants.",
-        examples=["steroidal glycoalkaloid", "glycoalkaloid", "flavonoids"]
-    )
+# class NP_Class(SchemicModel):
+#     model_config = ConfigDict(extra="forbid")
+#     name: str = Field(
+#         description="Natural product classes in plants.",
+#         examples=["steroidal glycoalkaloid", "glycoalkaloid", "flavonoids"]
+#     )
 
 class MolecularTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -90,7 +90,7 @@ class CustomExtractedEntities(SchemicModel):
     anatomical_structures: List[AnatomicalStructure] = Field(default_factory=list, description="List of anatomical structure mentions.")
     species: List[Species] = Field(default_factory=list, description="List of species mentions.")
     experimental_conditions: List[ExperimentalCondition] = Field(default_factory=list, description="List of experimental condition mentions.")
-    natural_product_classes: List[NP_Class] = Field(default_factory=list, description="List of natural product class mentions.")
+    # natural_product_classes: List[NP_Class] = Field(default_factory=list, description="List of natural product class mentions.")
     molecular_traits: List[MolecularTraits] = Field(default_factory=list, description="List of molecular trait mentions.")
     plant_traits: List[PlantTraits] = Field(default_factory=list, description="List of plant trait mentions.")
     human_traits: List[HumanTraits] = Field(default_factory=list, description="List of human trait mentions.")
