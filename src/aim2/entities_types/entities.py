@@ -10,16 +10,26 @@ from typing import List, Optional
 # TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)
 class Compound(SchemicModel):
     model_config = ConfigDict(extra="forbid")
+    CID: Optional[int] = Field(default=None, description="PubChem Compound ID (CID) for the compound.")
     name: str = Field(
         description="Compounds and/or metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
         examples=["β-sitosterol", "abscisic acid", "gibberellin"]
     )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the compound is mentioned in the passage."
+    )
+    SMILES: Optional[str] = Field(default=None, description="SMILES string for the compound.")
 
 class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Metabolic pathways involving the transformation of metabolites.",
         examples=["glycolysis", "TCA cycle", "photosynthetic electron transport"]
+    )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the pathway is mentioned in the passage."
     )
 
 class Genes(SchemicModel):
@@ -28,12 +38,20 @@ class Genes(SchemicModel):
         description="Plant gene names.",
         examples=["MAP kinase 6", "phytochrome B"]
     )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the gene is mentioned in the passage."
+    )
 
 class AnatomicalStructure(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Anatomical structures in plants.",
         examples=["plant embryo proper", 'lenticel', "root cortex"]
+    )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the anatomical structure is mentioned in the passage."
     )
 
 class Species(SchemicModel):
@@ -42,12 +60,20 @@ class Species(SchemicModel):
         description="Plant species names.",
         examples=["Arabidopsis thaliana", "Oryza sativa", "Zea mays"]
     )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the species is mentioned in the passage."
+    )
 
 class ExperimentalCondition(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Experimental conditions in plant studies.",
         examples=['nickel exposure', 'oxygen sensitivity', 'leaf shattering']
+    )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the experimental condition is mentioned in the passage."
     )
 
 # class NP_Class(SchemicModel):
@@ -62,6 +88,10 @@ class MolecularTraits(SchemicModel):
     name: str = Field(
         description="Molecular traits in plants.",
     )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the molecular trait is mentioned in the passage."
+    )
 
 class PlantTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -69,11 +99,19 @@ class PlantTraits(SchemicModel):
         description="Plant traits in plants.",
         examples=["chromium sensitivity", "mimic response", "stem strength"]
     )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the plant trait is mentioned in the passage."
+    )
 
 class HumanTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     name: str = Field(
         description="Human traits in plants.",
+    )
+    spans: Optional[List[List[int]]] = Field(
+        default=None,
+        description="Text spans where the human trait is mentioned in the passage."
     )
 
 # Create a main model to hold lists of all extracted entities

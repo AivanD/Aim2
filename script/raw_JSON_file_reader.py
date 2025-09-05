@@ -1,12 +1,10 @@
 import json
 
-from aim2.utils.config import RAW_OUTPUT_DIR
 from aim2.entities_types.entities import CustomExtractedEntities
 
 def main():
     # read user input for a raw json file path
-    raw_json_file = input("Enter the filename of the raw JSON file: ").strip()
-    raw_json_file_path = f"{RAW_OUTPUT_DIR}/{raw_json_file}.json"
+    raw_json_file_path = input("Enter the filename of the JSON file: ").strip()
 
     try:
         with open(raw_json_file_path, 'r', encoding='utf-8') as file:

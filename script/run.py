@@ -127,16 +127,14 @@ def main():
                 logger.info(f"Raw results saved to {raw_output_path}")
 
             # Post-processing:
-            # - adds spans to the extracted entities
-            # - (future) normalization, deduplication, merging
             # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
             # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
             # rather than for each passage. 
-            # do normalization, then dedupe then merge
+            # do span_adder, normalization, then dedupe then merge
 
             processed_result_list = []
 
-            # add spans to each of the extracted entities in the raw_result_list
+            # 1. add spans to each of the extracted entities in the raw_result_list
             # read the raw results from the raw output file
             with open(raw_output_path, 'r') as f:
                 raw_result_list = json.load(f)
@@ -151,6 +149,12 @@ def main():
                 # add spans to each of the extracted entities in the raw_result_list
                 extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
                 processed_result_list.append(extracted_entities_w_spans)
+
+            # 2. normalize
+            # - use PUBCHEM to normalize compounds 
+            
+            # 3. dedupe
+            # 4. merge
             
             # save the processed results to the output file
             with open(processed_output_path, 'w') as f:
