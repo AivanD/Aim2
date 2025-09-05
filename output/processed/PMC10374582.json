@@ -1,0 +1,3895 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[190, 204],
+					[394, 408]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[442, 455],
+					[621, 634],
+					[920, 933],
+					[998, 1011]
+				]
+			},
+			{
+				"name": "steroidal glycoalkaloid",
+				"spans": [[259, 282]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGA-acetylation",
+				"spans": [[820, 835]]
+			},
+			{
+				"name": "bitter SGA detoxification pathway",
+				"spans": [[1095, 1128]]
+			},
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [[621, 642]]
+			},
+			{
+				"name": "Esculeoside A biosynthetic pathway",
+				"spans": [[920, 954]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[745, 751],
+					[1085, 1091]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "fruit",
+				"spans": [
+					[141, 146],
+					[355, 360],
+					[536, 541],
+					[1264, 1269]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[113, 119],
+					[348, 354],
+					[529, 535],
+					[859, 865],
+					[963, 969],
+					[1184, 1190],
+					[1257, 1263]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "heterologous microbial and plant hosts",
+				"spans": [[1026, 1064]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "sweet-tasting tomato",
+				"spans": [[1170, 1190]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity",
+				"spans": [[512, 520]]
+			},
+			{
+				"name": "bitterness",
+				"spans": [[497, 507]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGAs",
+				"spans": [
+					[1344, 1348],
+					[1562, 1566]
+				]
+			},
+			{
+				"name": "steroidal glycoalkaloids",
+				"spans": [[1318, 1342]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthesis of non-bitter SGAs",
+				"spans": [[1535, 1566]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[1278, 1284],
+					[1570, 1576]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit ripening",
+				"spans": [[1285, 1299]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "bitter",
+				"spans": [
+					[1301, 1307],
+					[1370, 1376],
+					[1555, 1561]
+				]
+			},
+			{
+				"name": "less toxic",
+				"spans": [[1381, 1391]]
+			},
+			{
+				"name": "nonbitter",
+				"spans": [[1367, 1376]]
+			},
+			{
+				"name": "toxic",
+				"spans": [
+					[1312, 1317],
+					[1386, 1391]
+				]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[2167, 2181]]
+			},
+			{
+				"name": "Steroidal glycoalkaloids",
+				"spans": [[1591, 1615]]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[1617, 1621],
+					[1852, 1856],
+					[1992, 1996]
+				]
+			},
+			{
+				"name": "alpha-chaconine",
+				"spans": [[2095, 2110]]
+			},
+			{
+				"name": "cholesterol",
+				"spans": [[1627, 1638]]
+			},
+			{
+				"name": "alpha-solanine",
+				"spans": [[2076, 2090]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "fruit",
+				"spans": [
+					[2344, 2349],
+					[2508, 2513]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[1799, 1816]]
+			},
+			{
+				"name": "tomato",
+				"spans": [
+					[1760, 1766],
+					[2185, 2191],
+					[2316, 2322],
+					[2501, 2507]
+				]
+			},
+			{
+				"name": "potato",
+				"spans": [
+					[1791, 1797],
+					[2114, 2120]
+				]
+			},
+			{
+				"name": "Solanum melongena",
+				"spans": [[1832, 1849]]
+			},
+			{
+				"name": "Solanum",
+				"spans": [
+					[1709, 1716],
+					[1768, 1775],
+					[1799, 1806],
+					[1832, 1839]
+				]
+			},
+			{
+				"name": "eggplant",
+				"spans": [[1822, 1830]]
+			},
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[1768, 1788]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "sweetness",
+				"spans": [[2529, 2538]]
+			},
+			{
+				"name": "SGA content",
+				"spans": [[2558, 2569]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "marketability",
+				"spans": [[2301, 2314]]
+			},
+			{
+				"name": "anti-nutritional",
+				"spans": [[2015, 2031]]
+			},
+			{
+				"name": "bitterness",
+				"spans": [[2123, 2133]]
+			},
+			{
+				"name": "nutritional quality",
+				"spans": [[2277, 2296]]
+			},
+			{
+				"name": "unpleasant sensations",
+				"spans": [[2138, 2159]]
+			},
+			{
+				"name": "toxicity",
+				"spans": [[2060, 2068]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "Esculeoside A",
+				"spans": [[2648, 2661]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruit",
+				"spans": [[2669, 2681]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": [
+			{
+				"name": "non-bitter",
+				"spans": [[2622, 2632]]
+			},
+			{
+				"name": "less toxic",
+				"spans": [[2637, 2647]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "Xyl",
+				"spans": [
+					[3168, 3171],
+					[3173, 3176]
+				]
+			},
+			{
+				"name": "Gal",
+				"spans": [
+					[3152, 3155],
+					[3157, 3160]
+				]
+			},
+			{
+				"name": "Rhamnose",
+				"spans": [[3186, 3194]]
+			},
+			{
+				"name": "Acetoxy",
+				"spans": [[3200, 3207]]
+			},
+			{
+				"name": "Glu",
+				"spans": [
+					[3138, 3141],
+					[3143, 3146]
+				]
+			},
+			{
+				"name": "Xylose",
+				"spans": [[3173, 3179]]
+			},
+			{
+				"name": "Glucose",
+				"spans": [[3143, 3150]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [[2784, 2797]]
+			},
+			{
+				"name": "Galactose",
+				"spans": [[3157, 3166]]
+			},
+			{
+				"name": "Ac",
+				"spans": [
+					[2822, 2824],
+					[2906, 2908],
+					[3160, 3162],
+					[3196, 3198],
+					[3200, 3202]
+				]
+			},
+			{
+				"name": "Rha",
+				"spans": [
+					[3181, 3184],
+					[3186, 3189]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGAs biosynthesis",
+				"spans": [[3016, 3033]]
+			},
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [[2784, 2805]]
+			},
+			{
+				"name": "dehydro-SGA branch",
+				"spans": [[3049, 3067]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [[2831, 2837]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[2750, 2756]]
+			},
+			{
+				"name": "GAME40",
+				"spans": [[2758, 2764]]
+			},
+			{
+				"name": "GAME5",
+				"spans": [[2770, 2775]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[3009, 3015]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "Specific activity",
+				"spans": [[2897, 2914]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[3210, 3224],
+					[3393, 3407],
+					[3565, 3579],
+					[3899, 3913],
+					[3987, 4001],
+					[4309, 4323],
+					[4415, 4429],
+					[4714, 4728],
+					[4813, 4827]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[4831, 4846],
+					[4885, 4900],
+					[4973, 4988],
+					[5413, 5428]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[4965, 4988]]
+			},
+			{
+				"name": "alkaloids",
+				"spans": [[4398, 4407]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[3628, 3641],
+					[4099, 4112],
+					[4255, 4268],
+					[4434, 4447],
+					[5045, 5058],
+					[5299, 5312]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[4909, 4924],
+					[4946, 4961],
+					[5432, 5447]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGA pathway",
+				"spans": [[3795, 3806]]
+			},
+			{
+				"name": "Esculeoside A biosynthesis",
+				"spans": [[5299, 5325]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME40",
+				"spans": [[5165, 5171]]
+			},
+			{
+				"name": "GLYCOALKALOID METABOLISM31",
+				"spans": [[5128, 5154]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[5156, 5162]]
+			},
+			{
+				"name": "GORKY",
+				"spans": [[3809, 3814]]
+			},
+			{
+				"name": "GAME5",
+				"spans": [[5176, 5181]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "vacuole",
+				"spans": [
+					[3441, 3448],
+					[3919, 3926]
+				]
+			},
+			{
+				"name": "cytosolic compartment",
+				"spans": [[3649, 3670]]
+			},
+			{
+				"name": "seed",
+				"spans": [[4642, 4646]]
+			},
+			{
+				"name": "cytosol",
+				"spans": [
+					[3649, 3656],
+					[3931, 3938],
+					[4014, 4021]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[3322, 3328]]
+			},
+			{
+				"name": "fruit",
+				"spans": [
+					[3339, 3344],
+					[3539, 3544],
+					[3953, 3958],
+					[4151, 4156],
+					[4217, 4222],
+					[4500, 4505],
+					[4586, 4591],
+					[4736, 4741]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[3348, 3354],
+					[3946, 3952],
+					[4144, 4150],
+					[4579, 4585],
+					[5121, 5127],
+					[5500, 5506]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "glycosylation",
+				"spans": [[3718, 3731]]
+			},
+			{
+				"name": "catabolism",
+				"spans": [[4689, 4699]]
+			},
+			{
+				"name": "acetylation",
+				"spans": [
+					[3701, 3712],
+					[4870, 4881]
+				]
+			},
+			{
+				"name": "hydroxylation",
+				"spans": [
+					[3686, 3699],
+					[4796, 4809],
+					[4998, 5011],
+					[5216, 5229],
+					[5248, 5261]
+				]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "fruit ripening",
+				"spans": [
+					[3953, 3967],
+					[4217, 4231],
+					[4736, 4750]
+				]
+			},
+			{
+				"name": "fruit development",
+				"spans": [[4500, 4517]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity",
+				"spans": [
+					[3376, 3384],
+					[4562, 4570]
+				]
+			},
+			{
+				"name": "bitterness",
+				"spans": [[4547, 4557]]
+			},
+			{
+				"name": "palatability",
+				"spans": [[4602, 4614]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[5603, 5617],
+					[6108, 6122]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[5983, 5996],
+					[6129, 6142]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[5795, 5810]]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[5783, 5787],
+					[5971, 5975]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthetic pathway of non-bitter and less toxic SGAs",
+				"spans": [[5921, 5975]]
+			},
+			{
+				"name": "catabolism of the bitter alpha-tomatine",
+				"spans": [[5578, 5617]]
+			},
+			{
+				"name": "metabolic pathway from alpha-tomatine up to Esculeoside A",
+				"spans": [[6085, 6142]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[5726, 5732],
+					[5873, 5879]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruit",
+				"spans": [
+					[5621, 5633],
+					[6001, 6013],
+					[6277, 6289]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[5621, 5627],
+					[5840, 5846],
+					[6001, 6007],
+					[6277, 6283]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro",
+				"spans": [[6047, 6055]]
+			},
+			{
+				"name": "in vivo",
+				"spans": [[6035, 6042]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "ripening-associated metabolic shift in SGA composition",
+				"spans": [[6188, 6242]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "non-bitter forms of ripe tomato fruits",
+				"spans": [[6252, 6290]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "less toxic",
+				"spans": [[5960, 5970]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[6467, 6481]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[6660, 6675],
+					[6685, 6700],
+					[6833, 6848]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[6677, 6700]]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[6998, 7021]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[7068, 7091]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[6530, 6543],
+					[6705, 6718],
+					[6788, 6801],
+					[7513, 7526],
+					[8055, 8068],
+					[8799, 8812]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[6852, 6867],
+					[6903, 6918],
+					[7047, 7062],
+					[7406, 7421],
+					[7859, 7874],
+					[8910, 8925],
+					[9064, 9079],
+					[9613, 9628],
+					[9757, 9772]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[6788, 6809],
+					[7513, 7534],
+					[8799, 8820]
+				]
+			},
+			{
+				"name": "SGA pathway",
+				"spans": [
+					[7136, 7147],
+					[7782, 7793]
+				]
+			},
+			{
+				"name": "tomato SGA pathway",
+				"spans": [[7129, 7147]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME31",
+				"spans": [
+					[6614, 6620],
+					[7548, 7554],
+					[7889, 7895],
+					[8765, 8771]
+				]
+			},
+			{
+				"name": "GAME40",
+				"spans": [
+					[6622, 6628],
+					[7556, 7562],
+					[8082, 8088]
+				]
+			},
+			{
+				"name": "GAME5",
+				"spans": [
+					[6633, 6638],
+					[7568, 7573],
+					[8093, 8098],
+					[8776, 8781]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "tissues",
+				"spans": [
+					[9793, 9800],
+					[9878, 9885]
+				]
+			},
+			{
+				"name": "fruit",
+				"spans": [
+					[6491, 6496],
+					[7807, 7812],
+					[7972, 7977],
+					[8164, 8169]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "S. pennellii LA0716",
+				"spans": [[8418, 8437]]
+			},
+			{
+				"name": "S. lycopersicum cv. M82",
+				"spans": [[8383, 8406]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Introgression lines (ILs)",
+				"spans": [[8281, 8306]]
+			},
+			{
+				"name": "Backcross inbred lines (BILs)",
+				"spans": [[8311, 8340]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript expression profiles",
+				"spans": [[9815, 9845]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "acetoxytomatine content",
+				"spans": [[8910, 8933]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetoxytomatine",
+				"spans": [[10035, 10050]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [[9974, 9980]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[10074, 10080]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "biosynthesis",
+				"spans": [[10019, 10031]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[10978, 10992]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[10238, 10253],
+					[10411, 10426],
+					[10730, 10745]
+				]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [
+					[10117, 10140],
+					[11044, 11067]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[10125, 10140],
+					[11001, 11016],
+					[11052, 11067]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[10097, 10112],
+					[10549, 10564],
+					[11024, 11039]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Solyc08g075210",
+				"spans": [[10288, 10302]]
+			},
+			{
+				"name": "SlGAME31",
+				"spans": [
+					[11109, 11117],
+					[11326, 11334]
+				]
+			},
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[10861, 10869],
+					[11336, 11344]
+				]
+			},
+			{
+				"name": "SpGAME36",
+				"spans": [
+					[10923, 10931],
+					[11349, 11357]
+				]
+			},
+			{
+				"name": "GAME36",
+				"spans": [
+					[10280, 10286],
+					[10517, 10523],
+					[10863, 10869],
+					[10925, 10931],
+					[11338, 11344],
+					[11351, 11357],
+					[11548, 11554]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "green fruit",
+				"spans": [[10595, 10606]]
+			},
+			{
+				"name": "tissue",
+				"spans": [
+					[10154, 10160],
+					[11583, 11589],
+					[11812, 11818]
+				]
+			},
+			{
+				"name": "flower tissue",
+				"spans": [[11805, 11818]]
+			}
+		],
+		"species": [
+			{
+				"name": "S. pennellii",
+				"spans": [[10933, 10945]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [
+					[10189, 10204],
+					[10871, 10886]
+				]
+			},
+			{
+				"name": "Escherichia coli",
+				"spans": [[11919, 11935]]
+			},
+			{
+				"name": "E. coli",
+				"spans": [
+					[10323, 10330],
+					[10447, 10454],
+					[11154, 11161],
+					[11290, 11297],
+					[11910, 11917]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro assays",
+				"spans": [[10759, 10774]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression",
+				"spans": [[11555, 11570]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[12180, 12194]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[12213, 12228]]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [
+					[12155, 12178],
+					[12457, 12480],
+					[13162, 13185],
+					[13469, 13492]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[12101, 12114],
+					[12234, 12247],
+					[12635, 12648],
+					[12840, 12853]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[12163, 12178],
+					[12196, 12211],
+					[12465, 12480],
+					[13170, 13185],
+					[13477, 13492]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[12138, 12153],
+					[12437, 12452],
+					[12699, 12714],
+					[13018, 13033],
+					[13142, 13157],
+					[13449, 13464]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [[12101, 12122]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "flesh",
+				"spans": [
+					[12360, 12365],
+					[13390, 13395]
+				]
+			},
+			{
+				"name": "flowers",
+				"spans": [
+					[12286, 12293],
+					[12484, 12491]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[12272, 12278],
+					[12520, 12526]
+				]
+			},
+			{
+				"name": "skin",
+				"spans": [
+					[12351, 12355],
+					[13381, 13385]
+				]
+			},
+			{
+				"name": "stem",
+				"spans": [
+					[12280, 12284],
+					[12528, 12532]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "wild tomato",
+				"spans": [
+					[13225, 13236],
+					[13420, 13431],
+					[13529, 13540]
+				]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [
+					[12383, 12400],
+					[13086, 13103]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetyl-CoA",
+				"spans": [[15389, 15399]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[14662, 14677],
+					[14804, 14819],
+					[15281, 15296],
+					[15429, 15444],
+					[15709, 15724]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[15016, 15031],
+					[15343, 15358]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "acetoxytomatine biosynthesis",
+				"spans": [[14804, 14832]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [[15667, 15673]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[15106, 15112]]
+			},
+			{
+				"name": "Solyc08g075210",
+				"spans": [
+					[15224, 15238],
+					[15612, 15626]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[14267, 14272]]
+			},
+			{
+				"name": "flesh",
+				"spans": [
+					[14081, 14086],
+					[14459, 14464]
+				]
+			},
+			{
+				"name": "flower buds",
+				"spans": [
+					[14230, 14241],
+					[14603, 14614]
+				]
+			},
+			{
+				"name": "young leaf",
+				"spans": [[14218, 14228]]
+			},
+			{
+				"name": "young flower petals",
+				"spans": [[14243, 14262]]
+			},
+			{
+				"name": "skin",
+				"spans": [
+					[14072, 14076],
+					[14447, 14451]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[13964, 13970],
+					[14049, 14055],
+					[14884, 14890],
+					[15073, 15079],
+					[15540, 15546]
+				]
+			},
+			{
+				"name": "E. coli",
+				"spans": [[14922, 14929]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro acyltransferase activity",
+				"spans": [[14977, 15010]]
+			},
+			{
+				"name": "in vitro enzyme assays",
+				"spans": [[15564, 15586]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript expression level",
+				"spans": [[14572, 14599]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "fruit developmental stages",
+				"spans": [[14103, 14129]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[16511, 16525],
+					[16864, 16878],
+					[17702, 17716],
+					[18192, 18206]
+				]
+			},
+			{
+				"name": "tomatidine",
+				"spans": [
+					[16118, 16128],
+					[16544, 16554],
+					[16637, 16647],
+					[17126, 17136],
+					[17246, 17256],
+					[18389, 18399],
+					[18442, 18452]
+				]
+			},
+			{
+				"name": "alpha-ketoglutarate",
+				"spans": [[16892, 16911]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[15933, 15948],
+					[16588, 16603]
+				]
+			},
+			{
+				"name": "alpha-solamargine",
+				"spans": [
+					[16559, 16576],
+					[17261, 17278],
+					[18457, 18474]
+				]
+			},
+			{
+				"name": "ascorbate",
+				"spans": [[16913, 16922]]
+			},
+			{
+				"name": "Fe2+",
+				"spans": [[16928, 16932]]
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [
+					[16150, 16168],
+					[16652, 16670]
+				]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [
+					[17075, 17098],
+					[18250, 18273]
+				]
+			},
+			{
+				"name": "acetoxytomatidine",
+				"spans": [
+					[17119, 17136],
+					[18382, 18399]
+				]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [
+					[16086, 16109],
+					[16605, 16628],
+					[17467, 17490]
+				]
+			},
+			{
+				"name": "hydroxytomatidine",
+				"spans": [
+					[16111, 16128],
+					[16630, 16647]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[16094, 16109],
+					[16527, 16542],
+					[16613, 16628],
+					[17083, 17098],
+					[17229, 17244],
+					[17387, 17402],
+					[17475, 17490],
+					[18211, 18226],
+					[18258, 18273]
+				]
+			},
+			{
+				"name": "acetoxysolamargine",
+				"spans": [
+					[17173, 17191],
+					[18404, 18422]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[15889, 15904],
+					[16965, 16980],
+					[18230, 18245]
+				]
+			},
+			{
+				"name": "acetyl-coA",
+				"spans": [[16880, 16890]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SmGAME36",
+				"spans": [
+					[18594, 18602],
+					[18756, 18764]
+				]
+			},
+			{
+				"name": "Sopen08g023820",
+				"spans": [[17975, 17989]]
+			},
+			{
+				"name": "SlGAME31",
+				"spans": [
+					[16463, 16471],
+					[16754, 16762],
+					[17030, 17038],
+					[17336, 17344],
+					[18137, 18145],
+					[18342, 18350],
+					[18692, 18700],
+					[18810, 18818]
+				]
+			},
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[15869, 15877],
+					[16767, 16775],
+					[17043, 17051],
+					[17602, 17610],
+					[18052, 18060],
+					[18659, 18667],
+					[18934, 18942]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[16436, 16442],
+					[16465, 16471],
+					[16756, 16762],
+					[17032, 17038],
+					[17338, 17344],
+					[18139, 18145],
+					[18344, 18350],
+					[18694, 18700],
+					[18812, 18818]
+				]
+			},
+			{
+				"name": "SpGAME36",
+				"spans": [
+					[17965, 17973],
+					[18078, 18086],
+					[18355, 18363],
+					[18967, 18975]
+				]
+			},
+			{
+				"name": "GAME36",
+				"spans": [
+					[15861, 15867],
+					[15871, 15877],
+					[16769, 16775],
+					[17045, 17051],
+					[17604, 17610],
+					[17922, 17928],
+					[17967, 17973],
+					[18054, 18060],
+					[18080, 18086],
+					[18357, 18363],
+					[18596, 18602],
+					[18661, 18667],
+					[18758, 18764],
+					[18936, 18942],
+					[18969, 18975],
+					[19014, 19020],
+					[19123, 19129]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[15854, 15860],
+					[16072, 16078],
+					[16302, 16308],
+					[16455, 16461],
+					[17937, 17943],
+					[18955, 18961],
+					[18982, 18988],
+					[19053, 19059]
+				]
+			},
+			{
+				"name": "S. pennellii LA0716",
+				"spans": [[17944, 17963]]
+			},
+			{
+				"name": "eggplant",
+				"spans": [
+					[16134, 16142],
+					[16312, 16320],
+					[18620, 18628]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "expressed in E. coli",
+				"spans": [[18095, 18115]]
+			},
+			{
+				"name": "enzyme assays",
+				"spans": [[16721, 16734]]
+			},
+			{
+				"name": "in vitro",
+				"spans": [
+					[15905, 15913],
+					[16342, 16350],
+					[16704, 16712],
+					[19155, 19163]
+				]
+			},
+			{
+				"name": "recombinant enzymes",
+				"spans": [[16839, 16858]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "acyltransferase activity",
+				"spans": [[17634, 17658]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "malonyl CoA",
+				"spans": [
+					[19701, 19712],
+					[20028, 20039]
+				]
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [[19868, 19882]]
+			},
+			{
+				"name": "coumaroyl CoA",
+				"spans": [[19785, 19798]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[19951, 19966],
+					[20360, 20375],
+					[20592, 20607],
+					[21372, 21387]
+				]
+			},
+			{
+				"name": "butyryl CoA",
+				"spans": [
+					[19714, 19725],
+					[20539, 20550],
+					[20942, 20953]
+				]
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [[20759, 20777]]
+			},
+			{
+				"name": "cinnamoyl CoA",
+				"spans": [[19803, 19816]]
+			},
+			{
+				"name": "hexanoyl CoA",
+				"spans": [[19743, 19755]]
+			},
+			{
+				"name": "SGA",
+				"spans": [
+					[20083, 20086],
+					[20638, 20641],
+					[20677, 20680],
+					[20854, 20857]
+				]
+			},
+			{
+				"name": "isovalyryl CoA",
+				"spans": [[19727, 19741]]
+			},
+			{
+				"name": "octanoyl CoA",
+				"spans": [[19757, 19769]]
+			},
+			{
+				"name": "CoA",
+				"spans": [
+					[19696, 19699],
+					[19709, 19712],
+					[19722, 19725],
+					[19738, 19741],
+					[19752, 19755],
+					[19766, 19769],
+					[19795, 19798],
+					[19813, 19816],
+					[20036, 20039],
+					[20197, 20200],
+					[20422, 20425],
+					[20440, 20443],
+					[20531, 20534],
+					[20547, 20550],
+					[20934, 20937],
+					[20950, 20953],
+					[21269, 21272],
+					[21428, 21431]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[21225, 21240],
+					[21393, 21408]
+				]
+			},
+			{
+				"name": "acetyl CoA",
+				"spans": [
+					[19689, 19699],
+					[20524, 20534],
+					[20927, 20937]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SlGAME31",
+				"spans": [[19853, 19861]]
+			},
+			{
+				"name": "GAME36",
+				"spans": [
+					[19658, 19664],
+					[19917, 19923],
+					[20134, 20140],
+					[20327, 20333],
+					[20909, 20915],
+					[21034, 21040],
+					[21154, 21160],
+					[21445, 21451]
+				]
+			},
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[19656, 19664],
+					[19915, 19923],
+					[20132, 20140],
+					[20325, 20333],
+					[20907, 20915]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[19855, 19861],
+					[19968, 19974]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SlGAME36",
+				"spans": [[21528, 21536]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "butyryl CoA",
+				"spans": [[21699, 21710]]
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [[21608, 21626]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[21584, 21599]]
+			},
+			{
+				"name": "acetyl CoA",
+				"spans": [[21680, 21690]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[21570, 21578],
+					[21744, 21752]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[23011, 23025]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[22150, 22165],
+					[22294, 22309],
+					[22843, 22858]
+				]
+			},
+			{
+				"name": "butyryl CoA",
+				"spans": [
+					[22117, 22128],
+					[22566, 22577],
+					[22669, 22680]
+				]
+			},
+			{
+				"name": "alpha-solamargine",
+				"spans": [[23029, 23046]]
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [
+					[22170, 22188],
+					[22376, 22394],
+					[22863, 22881]
+				]
+			},
+			{
+				"name": "acetyl CoA",
+				"spans": [
+					[22105, 22115],
+					[22550, 22560],
+					[22612, 22622]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[22046, 22052],
+					[22248, 22254],
+					[22753, 22759],
+					[22937, 22943]
+				]
+			},
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[22044, 22052],
+					[22246, 22254]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[22992, 22998]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[22333, 22339]]
+			},
+			{
+				"name": "eggplant",
+				"spans": [[22415, 22423]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro enzyme assays",
+				"spans": [[22963, 22985]]
+			},
+			{
+				"name": "in vitro",
+				"spans": [
+					[22191, 22199],
+					[22767, 22775],
+					[22963, 22971]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "enzyme kinetic assays",
+				"spans": [[22492, 22513]]
+			},
+			{
+				"name": "catalytic efficiency",
+				"spans": [[22268, 22288]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[23697, 23711]]
+			},
+			{
+				"name": "Acetoxytomatine",
+				"spans": [
+					[23241, 23256],
+					[23400, 23415],
+					[23931, 23946],
+					[24152, 24167],
+					[24682, 24697],
+					[24916, 24931]
+				]
+			},
+			{
+				"name": "neorickiioside B",
+				"spans": [[23581, 23597]]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [
+					[23445, 23468],
+					[24169, 24192]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[23453, 23468],
+					[23605, 23620],
+					[23752, 23767],
+					[24135, 24150],
+					[24177, 24192]
+				]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[23275, 23279],
+					[23439, 23443],
+					[23812, 23816],
+					[24092, 24096]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[23473, 23486],
+					[23678, 23691],
+					[24197, 24210],
+					[24297, 24310]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A biosynthesis",
+				"spans": [[24297, 24323]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[24479, 24485],
+					[24553, 24559],
+					[24788, 24794]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "ripe fruit",
+				"spans": [
+					[23490, 23500],
+					[23839, 23849],
+					[24215, 24225]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[23828, 23834],
+					[23968, 23974],
+					[24003, 24009],
+					[24507, 24513],
+					[24705, 24711],
+					[24843, 24849]
+				]
+			},
+			{
+				"name": "fruit",
+				"spans": [
+					[23495, 23500],
+					[23844, 23849],
+					[24113, 24118],
+					[24220, 24225],
+					[24368, 24373]
+				]
+			},
+			{
+				"name": "leaf tissue",
+				"spans": [[24591, 24602]]
+			}
+		],
+		"species": [
+			{
+				"name": "S. neorickii",
+				"spans": [
+					[23520, 23532],
+					[23771, 23783],
+					[23853, 23865],
+					[23978, 23990],
+					[24229, 24241],
+					[24346, 24358],
+					[24539, 24551],
+					[24755, 24767]
+				]
+			},
+			{
+				"name": "tomato",
+				"spans": [
+					[23334, 23340],
+					[23513, 23519],
+					[23894, 23900],
+					[24028, 24034],
+					[24528, 24534],
+					[24617, 24623],
+					[24836, 24842]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "GAME36 expression levels",
+				"spans": [[24479, 24503]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetoxy-SGAs",
+				"spans": [[25737, 25749]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[25193, 25208],
+					[25369, 25384],
+					[25757, 25772]
+				]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[25777, 25800]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[25003, 25009],
+					[25263, 25269],
+					[25432, 25438],
+					[25534, 25540],
+					[25690, 25696]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "green fruit",
+				"spans": [[25105, 25116]]
+			},
+			{
+				"name": "flesh",
+				"spans": [[25619, 25624]]
+			},
+			{
+				"name": "flowers",
+				"spans": [[25121, 25128]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[25144, 25150]]
+			},
+			{
+				"name": "skin",
+				"spans": [[25610, 25614]]
+			},
+			{
+				"name": "red, ripe fruit",
+				"spans": [[25299, 25314]]
+			}
+		],
+		"species": [
+			{
+				"name": "wild tomato",
+				"spans": [[25484, 25495]]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [[25045, 25062]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit development",
+				"spans": [
+					[25447, 25464],
+					[25638, 25655]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetoxytomatine",
+				"spans": [[25953, 25968]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [[25927, 25933]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flowers",
+				"spans": [[25983, 25990]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[25972, 25978]]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[25994, 26000]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "CRISPR-cas9 mediated knockout",
+				"spans": [[25894, 25923]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[26557, 26571]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[26594, 26609],
+					[26691, 26706]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[26573, 26588]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[26032, 26038],
+					[26108, 26114],
+					[26162, 26168],
+					[26407, 26413],
+					[26497, 26503],
+					[26640, 26646],
+					[26731, 26737]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flowers",
+				"spans": [[26629, 26636]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[26618, 26624]]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[26228, 26234]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[27936, 27950]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[27855, 27870],
+					[28158, 28173]
+				]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[27506, 27529]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[27875, 27898]]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[27514, 27529],
+					[27883, 27898],
+					[27955, 27970]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [[27486, 27501]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[27237, 27243],
+					[27402, 27408],
+					[27575, 27581],
+					[28111, 28117]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flowers",
+				"spans": [
+					[27560, 27567],
+					[27664, 27671],
+					[27979, 27986],
+					[28096, 28103]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[27533, 27539],
+					[27690, 27696],
+					[27991, 27997],
+					[28085, 28091]
+				]
+			},
+			{
+				"name": "tissues",
+				"spans": [
+					[27998, 28005],
+					[28234, 28241]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[27314, 27320],
+					[27741, 27747]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "CRISPR-Cas9 genome editing",
+				"spans": [[27327, 27353]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "SGA profiles",
+				"spans": [[27452, 27464]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGA",
+				"spans": [[28340, 28343]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "game36",
+				"spans": [[28283, 28289]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "metabolism",
+				"spans": [[28344, 28354]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[28717, 28732],
+					[28759, 28774],
+					[28855, 28870]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[28847, 28870]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[28734, 28757]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [[28875, 28888]]
+			},
+			{
+				"name": "hydroxytomatine isomers",
+				"spans": [[28759, 28782]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [[28830, 28845]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGA pathway",
+				"spans": [[28609, 28620]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[28400, 28406],
+					[28451, 28457],
+					[28519, 28525],
+					[28648, 28654],
+					[28985, 28991]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "fruit tissues",
+				"spans": [[28900, 28913]]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[28533, 28539],
+					[28893, 28899]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "wild type",
+				"spans": [
+					[28561, 28570],
+					[29021, 29030],
+					[29126, 29135],
+					[29250, 29259]
+				]
+			},
+			{
+				"name": "game36 mutant",
+				"spans": [
+					[28519, 28532],
+					[28985, 28998]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[29577, 29591],
+					[30039, 30053]
+				]
+			},
+			{
+				"name": "hydroxytomatine isomer",
+				"spans": [[30637, 30659]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[29916, 29931],
+					[30222, 30237],
+					[30620, 30635],
+					[30637, 30652],
+					[30902, 30917],
+					[30953, 30968],
+					[31250, 31265],
+					[31294, 31309],
+					[31463, 31478]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [
+					[30214, 30237],
+					[30945, 30968]
+				]
+			},
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[30168, 30191]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [
+					[29936, 29959],
+					[30665, 30688]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[29629, 29642],
+					[29655, 29668],
+					[30978, 30991],
+					[31126, 31139],
+					[31505, 31518]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[29596, 29611],
+					[29944, 29959],
+					[30058, 30073],
+					[30176, 30191],
+					[30673, 30688]
+				]
+			},
+			{
+				"name": "dehydro-esculeoside A",
+				"spans": [[29647, 29668]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[30193, 30208],
+					[30267, 30282],
+					[30925, 30940],
+					[31482, 31497]
+				]
+			},
+			{
+				"name": "di-hydroxytomatine",
+				"spans": [[31247, 31265]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A biosynthetic pathway",
+				"spans": [[31505, 31539]]
+			},
+			{
+				"name": "SGA pathway",
+				"spans": [[30380, 30391]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[29713, 29719],
+					[29813, 29819],
+					[29864, 29870],
+					[30116, 30122],
+					[30320, 30326],
+					[30408, 30414],
+					[30563, 30569],
+					[30832, 30838],
+					[31018, 31024],
+					[31165, 31171],
+					[31427, 31433]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[29516, 29522],
+					[29820, 29826],
+					[30846, 30852],
+					[31420, 31426]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "SGA profile",
+				"spans": [[29784, 29795]]
+			},
+			{
+				"name": "SGA metabolism",
+				"spans": [[29752, 29766]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Esculeoside A",
+				"spans": [[31636, 31649]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A biosynthesis",
+				"spans": [[31636, 31662]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[31804, 31818],
+					[31992, 32006],
+					[32273, 32287]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[31822, 31835],
+					[32146, 32159],
+					[32318, 32331]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[32146, 32167],
+					[32318, 32339]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "SlGAME5",
+				"spans": [[31740, 31747]]
+			},
+			{
+				"name": "SlGAME31",
+				"spans": [[31706, 31714]]
+			},
+			{
+				"name": "SlGAME40",
+				"spans": [[31726, 31734]]
+			},
+			{
+				"name": "SlGAME36",
+				"spans": [[31716, 31724]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "E. coli",
+				"spans": [
+					[31781, 31788],
+					[32040, 32047]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro production",
+				"spans": [[32098, 32117]]
+			},
+			{
+				"name": "control reaction",
+				"spans": [[31939, 31955]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[32513, 32527],
+					[32859, 32873],
+					[33056, 33070],
+					[33646, 33660]
+				]
+			},
+			{
+				"name": "alpha-ketoglutarate",
+				"spans": [[33103, 33122]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[33302, 33317],
+					[33348, 33363],
+					[33784, 33799]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[33340, 33363]]
+			},
+			{
+				"name": "Fe2+",
+				"spans": [[33135, 33139]]
+			},
+			{
+				"name": "ascorbate",
+				"spans": [[33124, 33133]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[32531, 32544],
+					[32885, 32898],
+					[32921, 32934],
+					[33252, 33265],
+					[33479, 33492],
+					[33817, 33830]
+				]
+			},
+			{
+				"name": "UDP-glucose",
+				"spans": [[33156, 33167]]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [[33319, 33334]]
+			},
+			{
+				"name": "acetyl-CoA",
+				"spans": [[33141, 33151]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A biosynthetic pathway",
+				"spans": [[32921, 32955]]
+			},
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[33479, 33500],
+					[33817, 33838]
+				]
+			},
+			{
+				"name": "SGA pathway branch",
+				"spans": [[32483, 32501]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[32370, 32376],
+					[32712, 32718],
+					[33028, 33034]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[32443, 32449],
+					[32669, 32675],
+					[33020, 33026]
+				]
+			},
+			{
+				"name": "GAME40",
+				"spans": [
+					[32451, 32457],
+					[32680, 32686],
+					[33036, 33042]
+				]
+			},
+			{
+				"name": "GAME5",
+				"spans": [
+					[32462, 32467],
+					[32778, 32783],
+					[33048, 33053]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "E. Coli",
+				"spans": [[33005, 33012]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[34073, 34087],
+					[34104, 34118],
+					[34272, 34286],
+					[34544, 34558]
+				]
+			},
+			{
+				"name": "SGA",
+				"spans": [
+					[34888, 34891],
+					[34954, 34957],
+					[35285, 35288]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[33939, 33952],
+					[34297, 34310],
+					[34602, 34615],
+					[35102, 35115]
+				]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[34954, 34958],
+					[35285, 35289]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[34602, 34623],
+					[35102, 35123]
+				]
+			},
+			{
+				"name": "Esculeoside A biosynthesis",
+				"spans": [[33939, 33965]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[34204, 34210],
+					[35197, 35203]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[34196, 34202],
+					[35189, 35195]
+				]
+			},
+			{
+				"name": "GAME40",
+				"spans": [
+					[34212, 34218],
+					[35205, 35211]
+				]
+			},
+			{
+				"name": "GAME5",
+				"spans": [
+					[34223, 34228],
+					[35217, 35222]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[34007, 34013],
+					[34247, 34253]
+				]
+			},
+			{
+				"name": "tomato fruit",
+				"spans": [[35252, 35264]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. benthamiana",
+				"spans": [
+					[33992, 34006],
+					[34232, 34246]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "transient co-expression",
+				"spans": [[34162, 34185]]
+			},
+			{
+				"name": "in vitro reconstruction experiments",
+				"spans": [[33874, 33909]]
+			},
+			{
+				"name": "in planta",
+				"spans": [[33966, 33975]]
+			},
+			{
+				"name": "transient expression experiment",
+				"spans": [[34754, 34785]]
+			},
+			{
+				"name": "co-infiltration",
+				"spans": [
+					[34377, 34392],
+					[34699, 34714]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "accumulation",
+				"spans": [[34928, 34940]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "fruit ripening-associated",
+				"spans": [[35259, 35284]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [[35409, 35415]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[35402, 35408]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetoxytomatine",
+				"spans": [[35965, 35980]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[35989, 36004]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[35428, 35434],
+					[35701, 35707],
+					[35797, 35803],
+					[35881, 35887]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[36012, 36018]]
+			}
+		],
+		"species": [
+			{
+				"name": "S. peruvianum LA1278",
+				"spans": [[35750, 35770]]
+			},
+			{
+				"name": "tomato",
+				"spans": [
+					[35487, 35493],
+					[35616, 35622],
+					[35919, 35925],
+					[36042, 36048],
+					[36184, 36190]
+				]
+			},
+			{
+				"name": "S. huaylasense LA1983",
+				"spans": [[35724, 35745]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "LC-MS based profiling",
+				"spans": [[35940, 35961]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[37544, 37559],
+					[37846, 37861],
+					[38040, 38055],
+					[38259, 38274]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[37564, 37579],
+					[38010, 38025]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[36322, 36328],
+					[36533, 36539],
+					[36700, 36706],
+					[36823, 36829],
+					[36909, 36915],
+					[37215, 37221],
+					[37450, 37456],
+					[37497, 37503],
+					[37750, 37756],
+					[38194, 38200]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[37591, 37597],
+					[37720, 37726]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[36380, 36386],
+					[36469, 36475],
+					[36948, 36954],
+					[37621, 37627],
+					[37651, 37657],
+					[37894, 37900]
+				]
+			},
+			{
+				"name": "S. peruvianum LA1278",
+				"spans": [
+					[36646, 36666],
+					[37100, 37120],
+					[37225, 37245],
+					[37339, 37359],
+					[37407, 37427]
+				]
+			},
+			{
+				"name": "Solanum",
+				"spans": [[36495, 36502]]
+			},
+			{
+				"name": "S. huaylasense LA1983",
+				"spans": [
+					[36620, 36641],
+					[37066, 37087],
+					[37934, 37955],
+					[38074, 38095],
+					[38211, 38232]
+				]
+			},
+			{
+				"name": "S. lycopersicum cv. Moneymaker",
+				"spans": [[37659, 37689]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGAs",
+				"spans": [[38427, 38431]]
+			},
+			{
+				"name": "steroidal glycoalkaloids",
+				"spans": [[38401, 38425]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "detoxification pathway",
+				"spans": [[38368, 38390]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [[38436, 38442]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "bitter",
+				"spans": [[38394, 38400]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGA",
+				"spans": [[38496, 38499]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGA biosynthesis",
+				"spans": [[38496, 38512]]
+			}
+		],
+		"genes": [
+			{
+				"name": "HCT",
+				"spans": [[39252, 39255]]
+			},
+			{
+				"name": "FdAT1",
+				"spans": [
+					[39540, 39545],
+					[39601, 39606]
+				]
+			},
+			{
+				"name": "ASAT",
+				"spans": [[39219, 39223]]
+			},
+			{
+				"name": "AAT1",
+				"spans": [[39464, 39468]]
+			},
+			{
+				"name": "HQT",
+				"spans": [[39353, 39356]]
+			},
+			{
+				"name": "SHT",
+				"spans": [[39416, 39419]]
+			},
+			{
+				"name": "ACT2",
+				"spans": [[39499, 39503]]
+			},
+			{
+				"name": "DCR",
+				"spans": [[39317, 39320]]
+			},
+			{
+				"name": "GAME36",
+				"spans": [
+					[38444, 38450],
+					[39609, 39615]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. pennellii",
+				"spans": [[39153, 39165]]
+			},
+			{
+				"name": "S. tuberosum",
+				"spans": [[39119, 39131]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [[39076, 39091]]
+			},
+			{
+				"name": "S. melongena",
+				"spans": [[39198, 39210]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "hydroxysolamargine",
+				"spans": [[40727, 40745]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[40708, 40723]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "SGA biosynthesis",
+				"spans": [[40005, 40021]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[39710, 39716],
+					[39786, 39792],
+					[40178, 40184],
+					[40203, 40209],
+					[40313, 40319],
+					[40349, 40355],
+					[40447, 40453],
+					[40470, 40476],
+					[40630, 40636],
+					[40762, 40768],
+					[40835, 40841]
+				]
+			},
+			{
+				"name": "GAME36-like-1",
+				"spans": [[40313, 40326]]
+			},
+			{
+				"name": "GAME36-like",
+				"spans": [
+					[40203, 40214],
+					[40313, 40324],
+					[40349, 40360],
+					[40470, 40481],
+					[40630, 40641],
+					[40762, 40773]
+				]
+			},
+			{
+				"name": "GAME36-like-2",
+				"spans": [[40349, 40362]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum",
+				"spans": [[39758, 39765]]
+			},
+			{
+				"name": "tomato",
+				"spans": [
+					[39679, 39685],
+					[39818, 39824],
+					[40111, 40117],
+					[40399, 40405],
+					[40808, 40814]
+				]
+			},
+			{
+				"name": "S. pennellii",
+				"spans": [
+					[40406, 40418],
+					[40617, 40629]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "acyltransferase activity",
+				"spans": [[40666, 40690]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "volatile",
+				"spans": [[41892, 41900]]
+			},
+			{
+				"name": "anthocyanin",
+				"spans": [
+					[41918, 41929],
+					[42094, 42105]
+				]
+			},
+			{
+				"name": "amines",
+				"spans": [[42083, 42089]]
+			},
+			{
+				"name": "cutin",
+				"spans": [[41866, 41871]]
+			},
+			{
+				"name": "anthocyanins",
+				"spans": [[42094, 42106]]
+			},
+			{
+				"name": "hydroxylated SGAs",
+				"spans": [[41149, 41166]]
+			},
+			{
+				"name": "acyl-CoA",
+				"spans": [[41794, 41802]]
+			},
+			{
+				"name": "acyl sugar",
+				"spans": [[41689, 41699]]
+			},
+			{
+				"name": "primary alcohol",
+				"spans": [[42067, 42082]]
+			},
+			{
+				"name": "wax",
+				"spans": [[41876, 41879]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "cutin and wax metabolism",
+				"spans": [[41866, 41890]]
+			},
+			{
+				"name": "volatile biosynthesis",
+				"spans": [[41892, 41913]]
+			},
+			{
+				"name": "acyl sugar biosynthesis",
+				"spans": [[41689, 41712]]
+			}
+		],
+		"genes": [
+			{
+				"name": "HCT",
+				"spans": [[42005, 42008]]
+			},
+			{
+				"name": "FdAT1",
+				"spans": [[41839, 41844]]
+			},
+			{
+				"name": "ASAT1",
+				"spans": [[41653, 41658]]
+			},
+			{
+				"name": "ASAT4",
+				"spans": [[41662, 41667]]
+			},
+			{
+				"name": "AAT1",
+				"spans": [[41829, 41833]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[41087, 41093],
+					[41195, 41201]
+				]
+			},
+			{
+				"name": "HQT",
+				"spans": [[42019, 42022]]
+			},
+			{
+				"name": "SHT",
+				"spans": [[42010, 42013]]
+			},
+			{
+				"name": "DCR",
+				"spans": [[41824, 41827]]
+			},
+			{
+				"name": "GAME36",
+				"spans": [
+					[40923, 40929],
+					[40974, 40980],
+					[41235, 41241],
+					[41360, 41366],
+					[42249, 42255]
+				]
+			},
+			{
+				"name": "ACT",
+				"spans": [
+					[41127, 41130],
+					[41204, 41207],
+					[41642, 41645],
+					[42000, 42003]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[41480, 41486],
+					[41559, 41565],
+					[42218, 42224],
+					[42409, 42415]
+				]
+			},
+			{
+				"name": "wild S. pennellii",
+				"spans": [[41513, 41530]]
+			},
+			{
+				"name": "eggplant",
+				"spans": [
+					[41049, 41057],
+					[41292, 41300],
+					[41499, 41507]
+				]
+			},
+			{
+				"name": "cultivated potato",
+				"spans": [
+					[41001, 41018],
+					[41270, 41287]
+				]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [[41469, 41486]]
+			},
+			{
+				"name": "cultivated eggplant",
+				"spans": [[41488, 41507]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "acyltransferase activity",
+				"spans": [[41111, 41135]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[42461, 42475],
+					[42669, 42683],
+					[42920, 42934],
+					[43101, 43115],
+					[43497, 43511],
+					[43662, 43676]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[43706, 43721],
+					[43772, 43787],
+					[43949, 43964],
+					[44042, 44057],
+					[44690, 44705],
+					[44735, 44750],
+					[44782, 44797],
+					[44861, 44876],
+					[45022, 45037],
+					[45120, 45135],
+					[45405, 45420],
+					[45594, 45609],
+					[45638, 45653],
+					[45724, 45739],
+					[45845, 45860],
+					[45972, 45987],
+					[46157, 46172],
+					[46212, 46227]
+				]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [
+					[43941, 43964],
+					[44034, 44057],
+					[44727, 44750],
+					[45112, 45135],
+					[45397, 45420],
+					[45586, 45609],
+					[45837, 45860],
+					[46204, 46227]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[42687, 42700],
+					[42720, 42733],
+					[43043, 43056],
+					[43462, 43475],
+					[44089, 44102],
+					[44436, 44449],
+					[44607, 44620],
+					[44835, 44848],
+					[45200, 45213],
+					[45365, 45378],
+					[45865, 45878],
+					[45932, 45945]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[43817, 43832],
+					[44707, 44722],
+					[45271, 45286]
+				]
+			},
+			{
+				"name": "di-hydroxytomatine",
+				"spans": [
+					[44779, 44797],
+					[44858, 44876],
+					[45635, 45653],
+					[45721, 45739],
+					[45969, 45987],
+					[46154, 46172]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "acylsugar biosynthesis",
+				"spans": [[44231, 44253]]
+			},
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[42720, 42741],
+					[44436, 44457],
+					[44835, 44856],
+					[45200, 45221]
+				]
+			},
+			{
+				"name": "alpha-tomatine catabolic pathway",
+				"spans": [[43101, 43133]]
+			}
+		],
+		"genes": [
+			{
+				"name": "GAME36",
+				"spans": [
+					[43193, 43199],
+					[43723, 43729],
+					[44266, 44272],
+					[44500, 44506],
+					[45313, 45319],
+					[45743, 45749]
+				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[43630, 43636]]
+			},
+			{
+				"name": "GAME40",
+				"spans": [[43922, 43928]]
+			},
+			{
+				"name": "GAME5",
+				"spans": [[44013, 44018]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "fruit",
+				"spans": [
+					[42497, 42502],
+					[42794, 42799],
+					[42887, 42892],
+					[43535, 43540],
+					[43589, 43594],
+					[44149, 44154],
+					[44631, 44636],
+					[44925, 44930],
+					[44968, 44973],
+					[45304, 45309],
+					[45466, 45471],
+					[45528, 45533],
+					[45761, 45766],
+					[46027, 46032]
+				]
+			},
+			{
+				"name": "fruit tissues",
+				"spans": [[42794, 42807]]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[42490, 42496],
+					[43486, 43492],
+					[44257, 44263],
+					[44624, 44630],
+					[44918, 44924]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "knockout experiments",
+				"spans": [[44510, 44530]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": [
+			{
+				"name": "bitter",
+				"spans": [[42444, 42450]]
+			},
+			{
+				"name": "toxic",
+				"spans": [[42455, 42460]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[46331, 46345],
+					[46541, 46555],
+					[47800, 47814]
+				]
+			},
+			{
+				"name": "ethylene",
+				"spans": [
+					[46417, 46425],
+					[46441, 46449],
+					[46930, 46938],
+					[47059, 47067],
+					[47123, 47131],
+					[47539, 47547]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [[46763, 46778]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[46349, 46362],
+					[46517, 46530],
+					[46699, 46712],
+					[46898, 46911],
+					[47026, 47039],
+					[47275, 47288],
+					[47471, 47484]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [[46780, 46795]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A pathway",
+				"spans": [
+					[46898, 46919],
+					[47026, 47047],
+					[47275, 47296],
+					[47471, 47492]
+				]
+			},
+			{
+				"name": "SGA metabolism",
+				"spans": [[46301, 46315]]
+			}
+		],
+		"genes": [
+			{
+				"name": "E8",
+				"spans": [[46987, 46989]]
+			},
+			{
+				"name": "GAME40",
+				"spans": [[46965, 46971]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[47508, 47514]]
+			},
+			{
+				"name": "GAME36",
+				"spans": [[47519, 47525]]
+			},
+			{
+				"name": "GAME5",
+				"spans": [[47228, 47233]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "fruit",
+				"spans": [
+					[46471, 46476],
+					[46819, 46824],
+					[47091, 47096],
+					[47184, 47189],
+					[47362, 47367],
+					[47736, 47741],
+					[47823, 47828],
+					[47904, 47909]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[46464, 46470],
+					[46847, 46853],
+					[47627, 47633],
+					[47729, 47735]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "exogenous ethylene treatments",
+				"spans": [[46431, 46460]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": [
+			{
+				"name": "toxicity",
+				"spans": [[47892, 47900]]
+			},
+			{
+				"name": "bitter flavor",
+				"spans": [[47845, 47858]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [[48096, 48110]]
+			},
+			{
+				"name": "alpha-solasonine",
+				"spans": [[48171, 48187]]
+			},
+			{
+				"name": "alpha-solamargine",
+				"spans": [[48192, 48209]]
+			},
+			{
+				"name": "SGAs",
+				"spans": [[48078, 48082]]
+			},
+			{
+				"name": "alpha-chaconine",
+				"spans": [[48121, 48136]]
+			},
+			{
+				"name": "alpha-solanine",
+				"spans": [[48141, 48155]]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[48322, 48335],
+					[48391, 48404],
+					[48570, 48583],
+					[48720, 48733],
+					[48850, 48863]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruits",
+				"spans": [[48415, 48428]]
+			}
+		],
+		"species": [
+			{
+				"name": "tomato",
+				"spans": [
+					[48088, 48094],
+					[48415, 48421]
+				]
+			},
+			{
+				"name": "eggplant",
+				"spans": [[48161, 48169]]
+			},
+			{
+				"name": "potato",
+				"spans": [[48113, 48119]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro",
+				"spans": [[48958, 48966]]
+			},
+			{
+				"name": "in vivo",
+				"spans": [[48971, 48978]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": [
+			{
+				"name": "anti-carcinogenic potential",
+				"spans": [[48231, 48258]]
+			},
+			{
+				"name": "anti-nutritional effects",
+				"spans": [[48034, 48058]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[49007, 49021],
+					[49218, 49232],
+					[49338, 49352],
+					[49608, 49622]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[49266, 49279],
+					[49468, 49481],
+					[49626, 49639],
+					[49718, 49731]
+				]
+			},
+			{
+				"name": "SGAs",
+				"spans": [[49696, 49700]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Esculeoside A biosynthesis",
+				"spans": [[49468, 49494]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "fruit",
+				"spans": [
+					[49168, 49173],
+					[49368, 49373],
+					[49666, 49671]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "metabolic engineering",
+				"spans": [[49883, 49904]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "fruit maturation",
+				"spans": [[49168, 49184]]
+			},
+			{
+				"name": "fruit sweetness",
+				"spans": [[49666, 49681]]
+			},
+			{
+				"name": "ripening",
+				"spans": [[49189, 49197]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "bitter taste",
+				"spans": [[49033, 49045]]
+			},
+			{
+				"name": "health-promoting properties",
+				"spans": [[49763, 49790]]
+			}
+		]
+	}
+]

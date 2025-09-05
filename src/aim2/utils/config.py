@@ -22,6 +22,9 @@ OUTPUT_DIR      = PROJECT_ROOT / "output"
 DATA_DIR        = PROJECT_ROOT / "data"
 MODELS_DIR      = PROJECT_ROOT / "models"
 
+RAW_OUTPUT_DIR  = OUTPUT_DIR / "raw"
+PROCESSED_OUTPUT_DIR = OUTPUT_DIR / "processed"
+
 PO_OBO          = DATA_DIR / "plant-ontology.obo"
 TO_OBO          = DATA_DIR / "to.obo"
 PECO_OBO        = DATA_DIR / "peco.obo"
@@ -38,5 +41,5 @@ def ensure_dirs():
     """
     Ensures that the input and output directories exist.
     """
-    for directory in [INPUT_DIR, OUTPUT_DIR, MODELS_DIR]:
+    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR, MODELS_DIR]:
         directory.mkdir(parents=True, exist_ok=True)
