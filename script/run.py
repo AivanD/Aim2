@@ -121,7 +121,7 @@ def main():
                 # results = model.batch(
                 #     model_input=prompts,
                 #     output_type=CustomExtractedEntities,
-                #     sampling_params=SamplingParams(temperature=0.1, max_tokens=1024),
+                #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
                 # )
 
                 # validate each one
