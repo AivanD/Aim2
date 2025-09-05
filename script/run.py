@@ -6,6 +6,7 @@ import json
 from vllm import SamplingParams
 import time
 
+from aim2.postprocessing.compound_normalizer import normalize_compounds_with_pubchem
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
@@ -45,6 +46,14 @@ def main():
         # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
         go_terms_dict, go_graph = load_ontology(GO_OBO)
         logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
+    
+        ontologies = {
+            "po_graph": po_graph,
+            "peco_graph": peco_graph,
+            "to_graph": to_graph,
+            "go_graph": go_graph,
+        }
+
     except Exception as e:
         logger.error(f"Error loading ontology: {e}")
 
@@ -152,7 +161,10 @@ def main():
 
             # 2. normalize
             # - use PUBCHEM to normalize compounds 
-            
+            try:
+                processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+            except Exception as e:
+                logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
             # 3. dedupe
             # 4. merge
             
