@@ -10,7 +10,7 @@ from aim2.postprocessing.compound_normalizer import normalize_compounds_with_pub
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
+from aim2.llm.models import groq_inference, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
@@ -26,7 +26,7 @@ def main():
 
     # load the model to use
     try:
-        model = load_openai_model()
+        model = load_openai_model()     # for OPENAI or Local model
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -99,16 +99,19 @@ def main():
                     # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
                     # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
                     # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                    openai_schema = CustomExtractedEntities.schemic_schema()
+                    # openai_schema = CustomExtractedEntities.schemic_schema()
 
-                    # # this inference doesnt use batching. CHATGPT API is fast enough
-                    result = model(
-                        model_input=prompt,
-                        # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
-                        response_format=openai_schema,
-                        max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
-                        temperature=1e-67,  # adjust as needed
-                    )
+                    # # # this inference doesnt use batching. CHATGPT API is fast enough
+                    # result = model(
+                    #     model_input=prompt,
+                    #     # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
+                    #     response_format=openai_schema,
+                    #     max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
+                    #     temperature=1e-67,  # adjust as needed
+                    # )
+
+                    # OPTION 2: GROQ inference (no batching)
+                    result = groq_inference(passage_text)
 
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
@@ -117,7 +120,7 @@ def main():
                     # add the entities to the raw result list to be saved into a file
                     raw_result_list.append(extracted_entities.model_dump())
                 
-                # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
+                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
                 # results = model.batch(
                 #     model_input=prompts,
                 #     output_type=CustomExtractedEntities,
