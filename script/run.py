@@ -6,7 +6,7 @@ import json
 from vllm import SamplingParams
 import time
 
-from aim2.postprocessing.compound_normalizer import normalize_compounds_with_pubchem
+from aim2.postprocessing.compound_normalizer import get_np_class, normalize_compounds_with_pubchem
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
@@ -164,8 +164,10 @@ def main():
 
             # 2. normalize
             # - use PUBCHEM to normalize compounds 
+            # - use NP_CLASSIFIER to get the superclass/class
             try:
                 processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+                processed_result_list = get_np_class(processed_result_list)
             except Exception as e:
                 logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
             # 3. dedupe
