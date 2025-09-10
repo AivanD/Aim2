@@ -7,6 +7,7 @@ logger = logging.getLogger(__name__)
 
 # Base URL for PubChem PUG REST API
 API_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
+SMILES_TO_CLASS = "https://npclassifier.gnps2.org/classify"
 
 def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
@@ -53,11 +54,21 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]]) ->
                     smiles_response.raise_for_status()
                     
                     smiles_data = smiles_response.json()
-                    properties = smiles_data.get("PropertyTable", {}).get("Properties", [])
+                    smiles_properties = smiles_data.get("PropertyTable", {}).get("Properties", [])
                     
-                    if properties:
-                        compound['SMILES'] = properties[0].get("SMILES")
+                    if smiles_properties:
+                        compound['SMILES'] = smiles_properties[0].get("SMILES")
                         logger.debug(f"Normalized '{original_name}' to CID: {first_cid}")
+                    
+                    # Step 3: get superclass and class from SMILES
+                    np_class_url = f"{SMILES_TO_CLASS}?smiles={compound['SMILES']}"
+                    np_class_response = requests.get(np_class_url)
+                    np_class_response.raise_for_status()
+
+                    np_class_data = np_class_response.json()
+                    compound['NP_class'] = np_class_data.get("class_results", [])
+                    compound['NP_superclass'] = np_class_data.get("superclass_results", [])
+
                 else:
                     logger.warning(f"Could not find PubChem entry for compound: '{original_name}'")
 

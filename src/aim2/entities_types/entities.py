@@ -20,6 +20,8 @@ class Compound(SchemicModel):
         description="Text spans where the compound is mentioned in the passage."
     )
     SMILES: Optional[str] = Field(default=None, description="SMILES string for the compound.")
+    NP_class: Optional[List[str]] = Field(default=None, description="Natural product class(es) for the compound.")
+    NP_superclass: Optional[List[str]] = Field(default=None, description="Natural product superclass(es) for the compound.")
 
 class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
