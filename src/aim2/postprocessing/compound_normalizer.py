@@ -93,7 +93,7 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
             for attempt in range(MAX_ATTEMPTS):
                 try:
                     # Step 1: Get CID from compound name
-                    cid_url = f"{API_BASE}/compound/name/{original_name}/cids/JSON"
+                    cid_url = f"{API_BASE}/compound/name/{urllib.parse.quote(original_name)}/cids/JSON"
                     response = requests.get(cid_url)
                     response.raise_for_status()  # Raise an exception for bad status codes
                     
