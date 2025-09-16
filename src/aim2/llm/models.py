@@ -146,30 +146,30 @@ def groq_inference(body):
             # API errors
             if isinstance(e, APIStatusError):
                 if e.status_code == 400 and "json_validate_failed" in str(e.message):
-                        if attempt < MAX_RETRIES - 1:
-                            print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
-                            time.sleep(1)
-                            continue
-                        else:
-                            print(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                            sys.exit(1)
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
+                        time.sleep(1)
+                        continue
+                    else:
+                        print(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
                 elif e.status_code == 429:
-                        if attempt < MAX_RETRIES - 1:
-                            wait_time = _parse_retry_after(str(e.message))
-                            print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
-                            time.sleep(wait_time)
-                            continue
-                        else:
-                            print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                            sys.exit(1)
+                    if attempt < MAX_RETRIES - 1:
+                        wait_time = _parse_retry_after(str(e.message))
+                        print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
                 if e.status_code == 503:
-                        if attempt < MAX_RETRIES - 1:
-                            print(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
-                            time.sleep(1200)
-                            continue
-                        else:
-                            print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                            sys.exit(1)
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
+                        time.sleep(1200)
+                        continue
+                    else:
+                        print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
             # it is a validation error
             elif isinstance(e, ValidationError):
                 if attempt < MAX_RETRIES - 1:
