@@ -27,6 +27,7 @@ def main():
     # load the model to use
     try:
         model = load_openai_model()     # for OPENAI or Local model
+        # model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")

@@ -7,6 +7,7 @@ from typing import List, Optional
 # examples are not seen by the model. It is used for documentation purposes.
 # -------------------------
 # TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)
+# TODO: investigate why the output is now giving you fields that are supposed to be hidden.
 class Natural_Product_Class(SchemicModel):
     Np_class: Optional[List[str]] = Field(default=None, description="Natural product class(es) for the compound.")
     Np_superclass: Optional[List[str]] = Field(default=None, description="Natural product superclass(es) for the compound.")
@@ -16,8 +17,7 @@ class ClassyFire(SchemicModel):
     Superclass: Optional[str] = Field(default=None, description="Classyfire Superclass for the compound.")
     Class: Optional[str] = Field(default=None, description="Classyfire Class for the compound.")
     Subclass: Optional[str] = Field(default=None, description="Classyfire Subclass for the compound.")
-    Direct_parent: Optional[str] = Field(default=None, description="Classyfire Direct Parent for the compound.")
-    Molecular_framework: Optional[str] = Field(default=None, description="Classyfire Molecular Framework for the compound.")
+    Level_5: Optional[str] = Field(default=None, description="Classyfire Level 5 for the compound.")
 
 class Compound(SchemicModel):
     model_config = ConfigDict(extra="forbid")

@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 API_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug"      # to retreive CID and SMILES
 SMILES_TO_CLASS = "https://npclassifier.gnps2.org/classify" # to retreive NP_class and NP_superclass
 Classyfire = "https://structure.gnps2.org/classyfire"        # to retreive Classyfire classification using SMILES
+ClassyFire_Wishart = "http://classyfire.wishartlab.com"
 
 def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
     """
@@ -160,7 +161,7 @@ def get_classyfire_classification(smiles: str, MAX_ATTEMPTS=10) -> Dict[str, Any
     return NotImplementedError  # Placeholder for future implementation
     for attempt in range(MAX_ATTEMPTS):
         try:
-            classyfire_url = f"{Classyfire}?smiles={urllib.parse.quote(smiles)}"
+            classyfire_url = f"{Classyfire}?smiles={urllib.parse.quote(smiles)}"    # TODO: Switch to wisharts lab rather than gnps2 (latter doenst work)
             response = requests.get(classyfire_url)
             response.raise_for_status()
 

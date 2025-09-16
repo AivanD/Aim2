@@ -53,7 +53,7 @@ def load_local_model_via_outlinesVLLM():
             seed=42,
             swap_space=2,                           # defaults to 4. Uses ram for swapping data if things like kv_cache cant fit in vram. !MIGHT REDUCE PERF
             gpu_memory_utilization=0.85,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
-            max_model_len=1048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
+            max_model_len=2048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. V1 is faster but resort to V0 if V1 doesnt work
         ))
@@ -140,8 +140,10 @@ def groq_inference(body):
                 stop=None,
                 seed=42
             )
-            time.sleep (1)  # brief pause before returning the response
+            time.sleep (0.3)  # brief pause before returning the response
             CustomExtractedEntities.model_validate_json(response.choices[0].message.content)  # validate the response
+            # if no exception, break the loop and return the response
+            break
         except Exception as e:
             # API errors
             if isinstance(e, APIStatusError):
@@ -183,5 +185,5 @@ def groq_inference(body):
             else:
                 print(f"An unexpected error occurred: {e}. Exiting.")
                 sys.exit(1)
-
+    
     return response.choices[0].message.content
