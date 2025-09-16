@@ -2,6 +2,10 @@
 	{
 		"compounds": [
 			{
+				"name": "steroidal glycoalkaloid",
+				"spans": [[259, 282]]
+			},
+			{
 				"name": "Esculeoside A",
 				"spans": [
 					[442, 455],
@@ -11,12 +15,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "steroidal glycoalkaloid",
-				"spans": [[259, 282]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -26,8 +28,10 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -36,12 +40,12 @@
 				"spans": [[920, 954]]
 			},
 			{
-				"name": "bitter SGA detoxification pathway",
-				"spans": [[1095, 1128]]
-			},
-			{
 				"name": "SGA-acetylation",
 				"spans": [[820, 835]]
+			},
+			{
+				"name": "bitter SGA detoxification pathway",
+				"spans": [[1095, 1128]]
 			},
 			{
 				"name": "Esculeoside A pathway",
@@ -97,27 +101,27 @@
 		],
 		"human_traits": [
 			{
-				"name": "bitterness",
-				"spans": [[497, 507]]
-			},
-			{
 				"name": "toxicity",
 				"spans": [[512, 520]]
+			},
+			{
+				"name": "bitterness",
+				"spans": [[497, 507]]
 			}
 		]
 	},
 	{
 		"compounds": [
 			{
+				"name": "steroidal glycoalkaloids",
+				"spans": [[1318, 1342]]
+			},
+			{
 				"name": "SGAs",
 				"spans": [
 					[1344, 1348],
 					[1562, 1566]
 				]
-			},
-			{
-				"name": "steroidal glycoalkaloids",
-				"spans": [[1318, 1342]]
 			}
 		],
 		"pathways": [
@@ -174,24 +178,18 @@
 	{
 		"compounds": [
 			{
-				"name": "cholesterol",
-				"spans": [[1627, 1638]],
-				"CID": 5997,
-				"SMILES": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
-				"NP_class": ["Cholestane steroids"],
-				"NP_superclass": ["Steroids"]
-			},
-			{
 				"name": "Steroidal glycoalkaloids",
 				"spans": [[1591, 1615]]
 			},
 			{
-				"name": "alpha-tomatine",
-				"spans": [[2167, 2181]],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"name": "cholesterol",
+				"spans": [[1627, 1638]],
+				"CID": 5997,
+				"SMILES": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+				"Natural_product_class": {
+					"Np_class": ["Cholestane steroids"],
+					"Np_superclass": ["Steroids"]
+				}
 			},
 			{
 				"name": "SGAs",
@@ -206,16 +204,30 @@
 				"spans": [[2095, 2110]],
 				"CID": 442971,
 				"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-solanine",
 				"spans": [[2076, 2090]],
 				"CID": 9549171,
 				"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [[2167, 2181]],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
@@ -240,6 +252,10 @@
 				]
 			},
 			{
+				"name": "Solanum melongena",
+				"spans": [[1832, 1849]]
+			},
+			{
 				"name": "tomato",
 				"spans": [
 					[1760, 1766],
@@ -253,38 +269,46 @@
 				"spans": [[1799, 1816]]
 			},
 			{
-				"name": "potato",
-				"spans": [
-					[1791, 1797],
-					[2114, 2120]
-				]
-			},
-			{
-				"name": "Solanum melongena",
-				"spans": [[1832, 1849]]
+				"name": "eggplant",
+				"spans": [[1822, 1830]]
 			},
 			{
 				"name": "Solanum lycopersicum",
 				"spans": [[1768, 1788]]
 			},
 			{
-				"name": "eggplant",
-				"spans": [[1822, 1830]]
+				"name": "potato",
+				"spans": [
+					[1791, 1797],
+					[2114, 2120]
+				]
 			}
 		],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [
 			{
-				"name": "SGA content",
-				"spans": [[2558, 2569]]
-			},
-			{
 				"name": "sweetness",
 				"spans": [[2529, 2538]]
+			},
+			{
+				"name": "SGA content",
+				"spans": [[2558, 2569]]
 			}
 		],
 		"human_traits": [
+			{
+				"name": "marketability",
+				"spans": [[2301, 2314]]
+			},
+			{
+				"name": "bitterness",
+				"spans": [[2123, 2133]]
+			},
+			{
+				"name": "unpleasant sensations",
+				"spans": [[2138, 2159]]
+			},
 			{
 				"name": "nutritional quality",
 				"spans": [[2277, 2296]]
@@ -292,18 +316,6 @@
 			{
 				"name": "anti-nutritional",
 				"spans": [[2015, 2031]]
-			},
-			{
-				"name": "marketability",
-				"spans": [[2301, 2314]]
-			},
-			{
-				"name": "unpleasant sensations",
-				"spans": [[2138, 2159]]
-			},
-			{
-				"name": "bitterness",
-				"spans": [[2123, 2133]]
 			},
 			{
 				"name": "toxicity",
@@ -318,8 +330,10 @@
 				"spans": [[2648, 2661]],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
@@ -336,24 +350,31 @@
 		"plant_traits": [],
 		"human_traits": [
 			{
-				"name": "non-bitter",
-				"spans": [[2622, 2632]]
-			},
-			{
 				"name": "less toxic",
 				"spans": [[2637, 2647]]
+			},
+			{
+				"name": "non-bitter",
+				"spans": [[2622, 2632]]
 			}
 		]
 	},
 	{
 		"compounds": [
 			{
-				"name": "Esculeoside A",
-				"spans": [[2784, 2797]],
-				"CID": 10887728,
-				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"name": "Galactose",
+				"spans": [[3157, 3166]],
+				"CID": 6036,
+				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
 			},
 			{
 				"name": "Glu",
@@ -363,19 +384,30 @@
 				],
 				"CID": 33032,
 				"SMILES": "C(CC(=O)O)[C@@H](C(=O)O)N",
-				"NP_class": ["Aminoacids"],
-				"NP_superclass": ["Small peptides"]
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				}
 			},
 			{
-				"name": "Xyl",
-				"spans": [
-					[3168, 3171],
-					[3173, 3176]
-				],
-				"CID": 135191,
-				"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
+				"name": "Esculeoside A",
+				"spans": [[2784, 2797]],
+				"CID": 10887728,
+				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "Rhamnose",
+				"spans": [[3186, 3194]],
+				"CID": 25310,
+				"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			},
 			{
 				"name": "Rha",
@@ -385,50 +417,20 @@
 				],
 				"CID": 25310,
 				"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
-				"NP_class": ["Disaccharides", "Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
-			},
-			{
-				"name": "Galactose",
-				"spans": [[3157, 3166]],
-				"CID": 6036,
-				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-				"NP_class": [
-					"Disaccharides",
-					"Flavones",
-					"Monosaccharides",
-					"Polysaccharides"
-				],
-				"NP_superclass": ["Saccharides", "Flavonoids"]
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			},
 			{
 				"name": "Xylose",
 				"spans": [[3173, 3179]],
 				"CID": 135191,
 				"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
-			},
-			{
-				"name": "Glucose",
-				"spans": [[3143, 3150]],
-				"CID": 5793,
-				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-				"NP_class": [
-					"Disaccharides",
-					"Flavones",
-					"Monosaccharides",
-					"Polysaccharides"
-				],
-				"NP_superclass": ["Saccharides", "Flavonoids"]
-			},
-			{
-				"name": "Rhamnose",
-				"spans": [[3186, 3194]],
-				"CID": 25310,
-				"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
-				"NP_class": ["Disaccharides", "Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			},
 			{
 				"name": "Gal",
@@ -438,13 +440,47 @@
 				],
 				"CID": 6036,
 				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-				"NP_class": [
-					"Disaccharides",
-					"Flavones",
-					"Monosaccharides",
-					"Polysaccharides"
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
+			},
+			{
+				"name": "Glucose",
+				"spans": [[3143, 3150]],
+				"CID": 5793,
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
+			},
+			{
+				"name": "Acetoxy",
+				"spans": [[3200, 3207]]
+			},
+			{
+				"name": "Xyl",
+				"spans": [
+					[3168, 3171],
+					[3173, 3176]
 				],
-				"NP_superclass": ["Saccharides", "Flavonoids"]
+				"CID": 135191,
+				"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			},
 			{
 				"name": "Ac",
@@ -457,15 +493,17 @@
 				],
 				"CID": 23965,
 				"SMILES": "[Ac]",
-				"NP_class": [],
-				"NP_superclass": []
-			},
-			{
-				"name": "Acetoxy",
-				"spans": [[3200, 3207]]
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
 			}
 		],
 		"pathways": [
+			{
+				"name": "SGAs biosynthesis",
+				"spans": [[3016, 3033]]
+			},
 			{
 				"name": "dehydro-SGA branch",
 				"spans": [[3049, 3067]]
@@ -473,13 +511,13 @@
 			{
 				"name": "Esculeoside A pathway",
 				"spans": [[2784, 2805]]
-			},
-			{
-				"name": "SGAs biosynthesis",
-				"spans": [[3016, 3033]]
 			}
 		],
 		"genes": [
+			{
+				"name": "GAME40",
+				"spans": [[2758, 2764]]
+			},
 			{
 				"name": "GAME5",
 				"spans": [[2770, 2775]]
@@ -487,10 +525,6 @@
 			{
 				"name": "GAME31",
 				"spans": [[2750, 2756]]
-			},
-			{
-				"name": "GAME40",
-				"spans": [[2758, 2764]]
 			},
 			{
 				"name": "GAME36",
@@ -528,12 +562,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alkaloids",
-				"spans": [[4398, 4407]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -553,12 +585,10 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-hydroxytomatine",
-				"spans": [[4965, 4988]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -575,8 +605,18 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[4965, 4988]]
+			},
+			{
+				"name": "alkaloids",
+				"spans": [[4398, 4407]]
 			}
 		],
 		"pathways": [
@@ -591,43 +631,27 @@
 		],
 		"genes": [
 			{
-				"name": "GAME40",
-				"spans": [[5165, 5171]]
+				"name": "GAME31",
+				"spans": [[5156, 5162]]
 			},
 			{
 				"name": "GLYCOALKALOID METABOLISM31",
 				"spans": [[5128, 5154]]
 			},
 			{
-				"name": "GAME31",
-				"spans": [[5156, 5162]]
+				"name": "GAME5",
+				"spans": [[5176, 5181]]
+			},
+			{
+				"name": "GAME40",
+				"spans": [[5165, 5171]]
 			},
 			{
 				"name": "GORKY",
 				"spans": [[3809, 3814]]
-			},
-			{
-				"name": "GAME5",
-				"spans": [[5176, 5181]]
 			}
 		],
 		"anatomical_structures": [
-			{
-				"name": "cytosolic compartment",
-				"spans": [[3649, 3670]]
-			},
-			{
-				"name": "leaves",
-				"spans": [[3322, 3328]]
-			},
-			{
-				"name": "cytosol",
-				"spans": [
-					[3649, 3656],
-					[3931, 3938],
-					[4014, 4021]
-				]
-			},
 			{
 				"name": "fruit",
 				"spans": [
@@ -642,15 +666,31 @@
 				]
 			},
 			{
-				"name": "seed",
-				"spans": [[4642, 4646]]
-			},
-			{
 				"name": "vacuole",
 				"spans": [
 					[3441, 3448],
 					[3919, 3926]
 				]
+			},
+			{
+				"name": "cytosol",
+				"spans": [
+					[3649, 3656],
+					[3931, 3938],
+					[4014, 4021]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[3322, 3328]]
+			},
+			{
+				"name": "cytosolic compartment",
+				"spans": [[3649, 3670]]
+			},
+			{
+				"name": "seed",
+				"spans": [[4642, 4646]]
 			}
 		],
 		"species": [
@@ -669,14 +709,8 @@
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
-				"name": "hydroxylation",
-				"spans": [
-					[3686, 3699],
-					[4796, 4809],
-					[4998, 5011],
-					[5216, 5229],
-					[5248, 5261]
-				]
+				"name": "catabolism",
+				"spans": [[4689, 4699]]
 			},
 			{
 				"name": "acetylation",
@@ -686,12 +720,18 @@
 				]
 			},
 			{
-				"name": "catabolism",
-				"spans": [[4689, 4699]]
-			},
-			{
 				"name": "glycosylation",
 				"spans": [[3718, 3731]]
+			},
+			{
+				"name": "hydroxylation",
+				"spans": [
+					[3686, 3699],
+					[4796, 4809],
+					[4998, 5011],
+					[5216, 5229],
+					[5248, 5261]
+				]
 			}
 		],
 		"plant_traits": [
@@ -710,8 +750,8 @@
 		],
 		"human_traits": [
 			{
-				"name": "bitterness",
-				"spans": [[4547, 4557]]
+				"name": "palatability",
+				"spans": [[4602, 4614]]
 			},
 			{
 				"name": "toxicity",
@@ -721,19 +761,22 @@
 				]
 			},
 			{
-				"name": "palatability",
-				"spans": [[4602, 4614]]
+				"name": "bitterness",
+				"spans": [[4547, 4557]]
 			}
 		]
 	},
 	{
 		"compounds": [
 			{
-				"name": "SGAs",
-				"spans": [
-					[5783, 5787],
-					[5971, 5975]
-				]
+				"name": "hydroxytomatine",
+				"spans": [[5795, 5810]],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "Esculeoside A",
@@ -743,8 +786,17 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[5783, 5787],
+					[5971, 5975]
+				]
 			},
 			{
 				"name": "alpha-tomatine",
@@ -754,16 +806,10 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "hydroxytomatine",
-				"spans": [[5795, 5810]],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -812,12 +858,12 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "in vitro",
-				"spans": [[6047, 6055]]
-			},
-			{
 				"name": "in vivo",
 				"spans": [[6035, 6042]]
+			},
+			{
+				"name": "in vitro",
+				"spans": [[6047, 6055]]
 			}
 		],
 		"molecular_traits": [
@@ -842,6 +888,10 @@
 	{
 		"compounds": [
 			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[6998, 7021]]
+			},
+			{
 				"name": "Esculeoside A",
 				"spans": [
 					[6530, 6543],
@@ -853,8 +903,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -871,6 +923,10 @@
 				]
 			},
 			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[7068, 7091]]
+			},
+			{
 				"name": "hydroxytomatine",
 				"spans": [
 					[6660, 6675],
@@ -879,28 +935,24 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-dehydrotomatine",
-				"spans": [[6998, 7021]]
-			},
-			{
-				"name": "acetoxy-hydroxytomatine",
-				"spans": [[6677, 6700]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
 				"spans": [[6467, 6481]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
-				"name": "hydroxy-dehydrotomatine",
-				"spans": [[7068, 7091]]
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[6677, 6700]]
 			}
 		],
 		"pathways": [
@@ -912,19 +964,27 @@
 				]
 			},
 			{
-				"name": "tomato SGA pathway",
-				"spans": [[7129, 7147]]
-			},
-			{
 				"name": "Esculeoside A pathway",
 				"spans": [
 					[6788, 6809],
 					[7513, 7534],
 					[8799, 8820]
 				]
+			},
+			{
+				"name": "tomato SGA pathway",
+				"spans": [[7129, 7147]]
 			}
 		],
 		"genes": [
+			{
+				"name": "GAME40",
+				"spans": [
+					[6622, 6628],
+					[7556, 7562],
+					[8082, 8088]
+				]
+			},
 			{
 				"name": "GAME5",
 				"spans": [
@@ -941,14 +1001,6 @@
 					[7548, 7554],
 					[7889, 7895],
 					[8765, 8771]
-				]
-			},
-			{
-				"name": "GAME40",
-				"spans": [
-					[6622, 6628],
-					[7556, 7562],
-					[8082, 8088]
 				]
 			}
 		],
@@ -972,22 +1024,22 @@
 		],
 		"species": [
 			{
-				"name": "S. pennellii LA0716",
-				"spans": [[8418, 8437]]
-			},
-			{
 				"name": "S. lycopersicum cv. M82",
 				"spans": [[8383, 8406]]
+			},
+			{
+				"name": "S. pennellii LA0716",
+				"spans": [[8418, 8437]]
 			}
 		],
 		"experimental_conditions": [
 			{
-				"name": "Backcross inbred lines (BILs)",
-				"spans": [[8311, 8340]]
-			},
-			{
 				"name": "Introgression lines (ILs)",
 				"spans": [[8281, 8306]]
+			},
+			{
+				"name": "Backcross inbred lines (BILs)",
+				"spans": [[8311, 8340]]
 			}
 		],
 		"molecular_traits": [
@@ -1038,6 +1090,27 @@
 	{
 		"compounds": [
 			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [
+					[10117, 10140],
+					[11044, 11067]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[10125, 10140],
+					[11001, 11016],
+					[11052, 11067]
+				],
+				"CID": 122391230,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
 				"name": "acetoxytomatine",
 				"spans": [
 					[10097, 10112],
@@ -1054,57 +1127,24 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-dehydrotomatine",
-				"spans": [
-					[10117, 10140],
-					[11044, 11067]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
 				"spans": [[10978, 10992]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "dehydrotomatine",
-				"spans": [
-					[10125, 10140],
-					[11001, 11016],
-					[11052, 11067]
-				],
-				"CID": 122391230,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
 		"genes": [
-			{
-				"name": "SpGAME36",
-				"spans": [
-					[10923, 10931],
-					[11349, 11357]
-				]
-			},
-			{
-				"name": "Solyc08g075210",
-				"spans": [[10288, 10302]]
-			},
-			{
-				"name": "SlGAME31",
-				"spans": [
-					[11109, 11117],
-					[11326, 11334]
-				]
-			},
 			{
 				"name": "GAME36",
 				"spans": [
@@ -1123,9 +1163,31 @@
 					[10861, 10869],
 					[11336, 11344]
 				]
+			},
+			{
+				"name": "Solyc08g075210",
+				"spans": [[10288, 10302]]
+			},
+			{
+				"name": "SpGAME36",
+				"spans": [
+					[10923, 10931],
+					[11349, 11357]
+				]
+			},
+			{
+				"name": "SlGAME31",
+				"spans": [
+					[11109, 11117],
+					[11326, 11334]
+				]
 			}
 		],
 		"anatomical_structures": [
+			{
+				"name": "flower tissue",
+				"spans": [[11805, 11818]]
+			},
 			{
 				"name": "tissue",
 				"spans": [
@@ -1135,26 +1197,11 @@
 				]
 			},
 			{
-				"name": "flower tissue",
-				"spans": [[11805, 11818]]
-			},
-			{
 				"name": "green fruit",
 				"spans": [[10595, 10606]]
 			}
 		],
 		"species": [
-			{
-				"name": "S. pennellii",
-				"spans": [[10933, 10945]]
-			},
-			{
-				"name": "S. lycopersicum",
-				"spans": [
-					[10189, 10204],
-					[10871, 10886]
-				]
-			},
 			{
 				"name": "E. coli",
 				"spans": [
@@ -1168,6 +1215,17 @@
 			{
 				"name": "Escherichia coli",
 				"spans": [[11919, 11935]]
+			},
+			{
+				"name": "S. pennellii",
+				"spans": [[10933, 10945]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [
+					[10189, 10204],
+					[10871, 10886]
+				]
 			}
 		],
 		"experimental_conditions": [
@@ -1188,6 +1246,31 @@
 	{
 		"compounds": [
 			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [
+					[12155, 12178],
+					[12457, 12480],
+					[13162, 13185],
+					[13469, 13492]
+				]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[12163, 12178],
+					[12196, 12211],
+					[12465, 12480],
+					[13170, 13185],
+					[13477, 13492]
+				],
+				"CID": 122391230,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
 				"name": "Esculeoside A",
 				"spans": [
 					[12101, 12114],
@@ -1197,8 +1280,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -1216,39 +1301,20 @@
 				"spans": [[12213, 12228]],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-dehydrotomatine",
-				"spans": [
-					[12155, 12178],
-					[12457, 12480],
-					[13162, 13185],
-					[13469, 13492]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
 				"spans": [[12180, 12194]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "dehydrotomatine",
-				"spans": [
-					[12163, 12178],
-					[12196, 12211],
-					[12465, 12480],
-					[13170, 13185],
-					[13477, 13492]
-				],
-				"CID": 122391230,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -1274,10 +1340,10 @@
 				]
 			},
 			{
-				"name": "skin",
+				"name": "flesh",
 				"spans": [
-					[12351, 12355],
-					[13381, 13385]
+					[12360, 12365],
+					[13390, 13395]
 				]
 			},
 			{
@@ -1288,27 +1354,27 @@
 				]
 			},
 			{
-				"name": "flesh",
+				"name": "skin",
 				"spans": [
-					[12360, 12365],
-					[13390, 13395]
+					[12351, 12355],
+					[13381, 13385]
 				]
 			}
 		],
 		"species": [
-			{
-				"name": "cultivated tomato",
-				"spans": [
-					[12383, 12400],
-					[13086, 13103]
-				]
-			},
 			{
 				"name": "wild tomato",
 				"spans": [
 					[13225, 13236],
 					[13420, 13431],
 					[13529, 13540]
+				]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [
+					[12383, 12400],
+					[13086, 13103]
 				]
 			}
 		],
@@ -1320,12 +1386,17 @@
 	{
 		"compounds": [
 			{
-				"name": "acetyl-CoA",
-				"spans": [[15389, 15399]],
-				"CID": 444493,
-				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"name": "hydroxytomatine",
+				"spans": [
+					[15016, 15031],
+					[15343, 15358]
+				],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -1338,15 +1409,14 @@
 				]
 			},
 			{
-				"name": "hydroxytomatine",
-				"spans": [
-					[15016, 15031],
-					[15343, 15358]
-				],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"name": "acetyl-CoA",
+				"spans": [[15389, 15399]],
+				"CID": 444493,
+				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			}
 		],
 		"pathways": [
@@ -1357,15 +1427,15 @@
 		],
 		"genes": [
 			{
-				"name": "GAME31",
-				"spans": [[15106, 15112]]
-			},
-			{
 				"name": "Solyc08g075210",
 				"spans": [
 					[15224, 15238],
 					[15612, 15626]
 				]
+			},
+			{
+				"name": "GAME31",
+				"spans": [[15106, 15112]]
 			},
 			{
 				"name": "GAME36",
@@ -1374,17 +1444,6 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "skin",
-				"spans": [
-					[14072, 14076],
-					[14447, 14451]
-				]
-			},
-			{
-				"name": "young leaf",
-				"spans": [[14218, 14228]]
-			},
-			{
 				"name": "flower buds",
 				"spans": [
 					[14230, 14241],
@@ -1392,8 +1451,16 @@
 				]
 			},
 			{
+				"name": "young leaf",
+				"spans": [[14218, 14228]]
+			},
+			{
 				"name": "young flower petals",
 				"spans": [[14243, 14262]]
+			},
+			{
+				"name": "roots",
+				"spans": [[14267, 14272]]
 			},
 			{
 				"name": "flesh",
@@ -1403,15 +1470,14 @@
 				]
 			},
 			{
-				"name": "roots",
-				"spans": [[14267, 14272]]
+				"name": "skin",
+				"spans": [
+					[14072, 14076],
+					[14447, 14451]
+				]
 			}
 		],
 		"species": [
-			{
-				"name": "E. coli",
-				"spans": [[14922, 14929]]
-			},
 			{
 				"name": "tomato",
 				"spans": [
@@ -1421,16 +1487,20 @@
 					[15073, 15079],
 					[15540, 15546]
 				]
+			},
+			{
+				"name": "E. coli",
+				"spans": [[14922, 14929]]
 			}
 		],
 		"experimental_conditions": [
 			{
-				"name": "in vitro acyltransferase activity",
-				"spans": [[14977, 15010]]
-			},
-			{
 				"name": "in vitro enzyme assays",
 				"spans": [[15564, 15586]]
+			},
+			{
+				"name": "in vitro acyltransferase activity",
+				"spans": [[14977, 15010]]
 			}
 		],
 		"molecular_traits": [
@@ -1450,43 +1520,14 @@
 	{
 		"compounds": [
 			{
-				"name": "Fe2+",
-				"spans": [[16928, 16932]],
-				"CID": 27284,
-				"SMILES": "[Fe+2]",
-				"NP_class": [],
-				"NP_superclass": []
-			},
-			{
-				"name": "acetoxytomatine",
-				"spans": [
-					[15889, 15904],
-					[16965, 16980],
-					[18230, 18245]
-				]
-			},
-			{
-				"name": "hydroxytomatine",
-				"spans": [
-					[15933, 15948],
-					[16588, 16603]
-				],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alpha-solamargine",
-				"spans": [
-					[16559, 16576],
-					[17261, 17278],
-					[18457, 18474]
-				],
-				"CID": 146157935,
-				"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"name": "alpha-ketoglutarate",
+				"spans": [[16892, 16911]],
+				"CID": 164533,
+				"SMILES": "C(CC(=O)[O-])C(=O)C(=O)[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
 			},
 			{
 				"name": "acetoxy-dehydrotomatine",
@@ -1496,31 +1537,10 @@
 				]
 			},
 			{
-				"name": "alpha-tomatine",
-				"spans": [
-					[16511, 16525],
-					[16864, 16878],
-					[17702, 17716],
-					[18192, 18206]
-				],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
 				"name": "acetoxytomatidine",
 				"spans": [
 					[17119, 17136],
 					[18382, 18399]
-				]
-			},
-			{
-				"name": "hydroxy-dehydrotomatine",
-				"spans": [
-					[16086, 16109],
-					[16605, 16628],
-					[17467, 17490]
 				]
 			},
 			{
@@ -1538,8 +1558,109 @@
 				],
 				"CID": 122391230,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetyl-coA",
+				"spans": [[16880, 16890]],
+				"CID": 444493,
+				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "Fe2+",
+				"spans": [[16928, 16932]],
+				"CID": 27284,
+				"SMILES": "[Fe+2]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "hydroxytomatidine",
+				"spans": [
+					[16111, 16128],
+					[16630, 16647]
+				]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [
+					[16086, 16109],
+					[16605, 16628],
+					[17467, 17490]
+				]
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[15889, 15904],
+					[16965, 16980],
+					[18230, 18245]
+				]
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [
+					[16150, 16168],
+					[16652, 16670]
+				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[15933, 15948],
+					[16588, 16603]
+				],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "alpha-solamargine",
+				"spans": [
+					[16559, 16576],
+					[17261, 17278],
+					[18457, 18474]
+				],
+				"CID": 146157935,
+				"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetoxysolamargine",
+				"spans": [
+					[17173, 17191],
+					[18404, 18422]
+				]
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[16511, 16525],
+					[16864, 16878],
+					[17702, 17716],
+					[18192, 18206]
+				],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "tomatidine",
@@ -1554,70 +1675,24 @@
 				],
 				"CID": 65576,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetyl-coA",
-				"spans": [[16880, 16890]],
-				"CID": 444493,
-				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "acetoxysolamargine",
-				"spans": [
-					[17173, 17191],
-					[18404, 18422]
-				]
-			},
-			{
-				"name": "hydroxytomatidine",
-				"spans": [
-					[16111, 16128],
-					[16630, 16647]
-				]
-			},
-			{
-				"name": "hydroxysolamargine",
-				"spans": [
-					[16150, 16168],
-					[16652, 16670]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "ascorbate",
 				"spans": [[16913, 16922]],
 				"CID": 54679076,
 				"SMILES": "C([C@@H]([C@@H]1C(=C(C(=O)O1)[O-])O)O)O",
-				"NP_class": [],
-				"NP_superclass": ["Cyclic polyketides"]
-			},
-			{
-				"name": "alpha-ketoglutarate",
-				"spans": [[16892, 16911]],
-				"CID": 164533,
-				"SMILES": "C(CC(=O)[O-])C(=O)C(=O)[O-]",
-				"NP_class": [],
-				"NP_superclass": []
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": ["Cyclic polyketides"]
+				}
 			}
 		],
 		"pathways": [],
 		"genes": [
-			{
-				"name": "Sopen08g023820",
-				"spans": [[17975, 17989]]
-			},
-			{
-				"name": "SpGAME36",
-				"spans": [
-					[17965, 17973],
-					[18078, 18086],
-					[18355, 18363],
-					[18967, 18975]
-				]
-			},
 			{
 				"name": "GAME31",
 				"spans": [
@@ -1630,26 +1705,6 @@
 					[18344, 18350],
 					[18694, 18700],
 					[18812, 18818]
-				]
-			},
-			{
-				"name": "SlGAME31",
-				"spans": [
-					[16463, 16471],
-					[16754, 16762],
-					[17030, 17038],
-					[17336, 17344],
-					[18137, 18145],
-					[18342, 18350],
-					[18692, 18700],
-					[18810, 18818]
-				]
-			},
-			{
-				"name": "SmGAME36",
-				"spans": [
-					[18594, 18602],
-					[18756, 18764]
 				]
 			},
 			{
@@ -1685,14 +1740,43 @@
 					[18659, 18667],
 					[18934, 18942]
 				]
+			},
+			{
+				"name": "SmGAME36",
+				"spans": [
+					[18594, 18602],
+					[18756, 18764]
+				]
+			},
+			{
+				"name": "SpGAME36",
+				"spans": [
+					[17965, 17973],
+					[18078, 18086],
+					[18355, 18363],
+					[18967, 18975]
+				]
+			},
+			{
+				"name": "Sopen08g023820",
+				"spans": [[17975, 17989]]
+			},
+			{
+				"name": "SlGAME31",
+				"spans": [
+					[16463, 16471],
+					[16754, 16762],
+					[17030, 17038],
+					[17336, 17344],
+					[18137, 18145],
+					[18342, 18350],
+					[18692, 18700],
+					[18810, 18818]
+				]
 			}
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "S. pennellii LA0716",
-				"spans": [[17944, 17963]]
-			},
 			{
 				"name": "tomato",
 				"spans": [
@@ -1707,6 +1791,10 @@
 				]
 			},
 			{
+				"name": "S. pennellii LA0716",
+				"spans": [[17944, 17963]]
+			},
+			{
 				"name": "eggplant",
 				"spans": [
 					[16134, 16142],
@@ -1716,6 +1804,14 @@
 			}
 		],
 		"experimental_conditions": [
+			{
+				"name": "enzyme assays",
+				"spans": [[16721, 16734]]
+			},
+			{
+				"name": "expressed in E. coli",
+				"spans": [[18095, 18115]]
+			},
 			{
 				"name": "recombinant enzymes",
 				"spans": [[16839, 16858]]
@@ -1728,14 +1824,6 @@
 					[16704, 16712],
 					[19155, 19163]
 				]
-			},
-			{
-				"name": "enzyme assays",
-				"spans": [[16721, 16734]]
-			},
-			{
-				"name": "expressed in E. coli",
-				"spans": [[18095, 18115]]
 			}
 		],
 		"molecular_traits": [
@@ -1750,13 +1838,6 @@
 	{
 		"compounds": [
 			{
-				"name": "acetoxytomatine",
-				"spans": [
-					[21225, 21240],
-					[21393, 21408]
-				]
-			},
-			{
 				"name": "malonyl CoA",
 				"spans": [
 					[19701, 19712],
@@ -1764,90 +1845,20 @@
 				],
 				"CID": 644066,
 				"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)CC(=O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "coumaroyl CoA",
-				"spans": [[19785, 19798]]
-			},
-			{
-				"name": "butyryl CoA",
-				"spans": [
-					[19714, 19725],
-					[20539, 20550],
-					[20942, 20953]
-				],
-				"CID": 122283,
-				"SMILES": "CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			},
 			{
 				"name": "hexanoyl CoA",
 				"spans": [[19743, 19755]],
 				"CID": 449118,
 				"SMILES": "CCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "hydroxytomatine",
-				"spans": [
-					[19951, 19966],
-					[20360, 20375],
-					[20592, 20607],
-					[21372, 21387]
-				],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "cinnamoyl CoA",
-				"spans": [[19803, 19816]],
-				"CID": 195898,
-				"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC=CC=C4)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "SGA",
-				"spans": [
-					[20083, 20086],
-					[20638, 20641],
-					[20677, 20680],
-					[20854, 20857]
-				],
-				"CID": 444635,
-				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
-			},
-			{
-				"name": "alpha-tomatine",
-				"spans": [[19868, 19882]],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetyl CoA",
-				"spans": [
-					[19689, 19699],
-					[20524, 20534],
-					[20927, 20937]
-				],
-				"CID": 444493,
-				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "hydroxysolamargine",
-				"spans": [[20759, 20777]]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			},
 			{
 				"name": "CoA",
@@ -1873,8 +1884,79 @@
 				],
 				"CID": 87642,
 				"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCS)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "butyryl CoA",
+				"spans": [
+					[19714, 19725],
+					[20539, 20550],
+					[20942, 20953]
+				],
+				"CID": 122283,
+				"SMILES": "CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "acetyl CoA",
+				"spans": [
+					[19689, 19699],
+					[20524, 20534],
+					[20927, 20937]
+				],
+				"CID": 444493,
+				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "SGA",
+				"spans": [
+					[20083, 20086],
+					[20638, 20641],
+					[20677, 20680],
+					[20854, 20857]
+				],
+				"CID": 444635,
+				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [[20759, 20777]]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[19951, 19966],
+					[20360, 20375],
+					[20592, 20607],
+					[21372, 21387]
+				],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[21225, 21240],
+					[21393, 21408]
+				]
 			},
 			{
 				"name": "isovalyryl CoA",
@@ -1885,15 +1967,58 @@
 				"spans": [[19757, 19769]],
 				"CID": 445344,
 				"SMILES": "CCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "coumaroyl CoA",
+				"spans": [[19785, 19798]]
+			},
+			{
+				"name": "cinnamoyl CoA",
+				"spans": [[19803, 19816]],
+				"CID": 195898,
+				"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC=CC=C4)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [[19868, 19882]],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
 		"genes": [
 			{
+				"name": "SlGAME36",
+				"spans": [
+					[19656, 19664],
+					[19915, 19923],
+					[20132, 20140],
+					[20325, 20333],
+					[20907, 20915]
+				]
+			},
+			{
 				"name": "SlGAME31",
 				"spans": [[19853, 19861]]
+			},
+			{
+				"name": "GAME31",
+				"spans": [
+					[19855, 19861],
+					[19968, 19974]
+				]
 			},
 			{
 				"name": "GAME36",
@@ -1906,23 +2031,6 @@
 					[21034, 21040],
 					[21154, 21160],
 					[21445, 21451]
-				]
-			},
-			{
-				"name": "SlGAME36",
-				"spans": [
-					[19656, 19664],
-					[19915, 19923],
-					[20132, 20140],
-					[20325, 20333],
-					[20907, 20915]
-				]
-			},
-			{
-				"name": "GAME31",
-				"spans": [
-					[19855, 19861],
-					[19968, 19974]
 				]
 			}
 		],
@@ -1952,32 +2060,38 @@
 	{
 		"compounds": [
 			{
+				"name": "hydroxytomatine",
+				"spans": [[21584, 21599]],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
 				"name": "butyryl CoA",
 				"spans": [[21699, 21710]],
 				"CID": 122283,
 				"SMILES": "CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			},
 			{
 				"name": "acetyl CoA",
 				"spans": [[21680, 21690]],
 				"CID": 444493,
 				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			},
 			{
 				"name": "hydroxysolamargine",
 				"spans": [[21608, 21626]]
-			},
-			{
-				"name": "hydroxytomatine",
-				"spans": [[21584, 21599]],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
 			}
 		],
 		"pathways": [],
@@ -2000,18 +2114,6 @@
 	{
 		"compounds": [
 			{
-				"name": "hydroxytomatine",
-				"spans": [
-					[22150, 22165],
-					[22294, 22309],
-					[22843, 22858]
-				],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
 				"name": "butyryl CoA",
 				"spans": [
 					[22117, 22128],
@@ -2020,24 +2122,10 @@
 				],
 				"CID": 122283,
 				"SMILES": "CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
-				"name": "alpha-solamargine",
-				"spans": [[23029, 23046]],
-				"CID": 146157935,
-				"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alpha-tomatine",
-				"spans": [[23011, 23025]],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			},
 			{
 				"name": "acetyl CoA",
@@ -2048,8 +2136,20 @@
 				],
 				"CID": 444493,
 				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
+			},
+			{
+				"name": "alpha-solamargine",
+				"spans": [[23029, 23046]],
+				"CID": 146157935,
+				"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "hydroxysolamargine",
@@ -2058,10 +2158,41 @@
 					[22376, 22394],
 					[22863, 22881]
 				]
+			},
+			{
+				"name": "hydroxytomatine",
+				"spans": [
+					[22150, 22165],
+					[22294, 22309],
+					[22843, 22858]
+				],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [[23011, 23025]],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
 		"genes": [
+			{
+				"name": "SlGAME36",
+				"spans": [
+					[22044, 22052],
+					[22246, 22254]
+				]
+			},
 			{
 				"name": "GAME31",
 				"spans": [[22992, 22998]]
@@ -2073,13 +2204,6 @@
 					[22248, 22254],
 					[22753, 22759],
 					[22937, 22943]
-				]
-			},
-			{
-				"name": "SlGAME36",
-				"spans": [
-					[22044, 22052],
-					[22246, 22254]
 				]
 			}
 		],
@@ -2096,26 +2220,26 @@
 		],
 		"experimental_conditions": [
 			{
+				"name": "in vitro enzyme assays",
+				"spans": [[22963, 22985]]
+			},
+			{
 				"name": "in vitro",
 				"spans": [
 					[22191, 22199],
 					[22767, 22775],
 					[22963, 22971]
 				]
-			},
-			{
-				"name": "in vitro enzyme assays",
-				"spans": [[22963, 22985]]
 			}
 		],
 		"molecular_traits": [
 			{
-				"name": "enzyme kinetic assays",
-				"spans": [[22492, 22513]]
-			},
-			{
 				"name": "catalytic efficiency",
 				"spans": [[22268, 22288]]
+			},
+			{
+				"name": "enzyme kinetic assays",
+				"spans": [[22492, 22513]]
 			}
 		],
 		"plant_traits": [],
@@ -2133,8 +2257,30 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "Acetoxytomatine",
+				"spans": [
+					[23241, 23256],
+					[23400, 23415],
+					[23931, 23946],
+					[24152, 24167],
+					[24682, 24697],
+					[24916, 24931]
+				]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[23275, 23279],
+					[23439, 23443],
+					[23812, 23816],
+					[24092, 24096]
+				]
 			},
 			{
 				"name": "hydroxytomatine",
@@ -2147,15 +2293,10 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-hydroxytomatine",
-				"spans": [
-					[23445, 23468],
-					[24169, 24192]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "neorickiioside B",
@@ -2166,27 +2307,16 @@
 				"spans": [[23697, 23711]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
-				"name": "SGAs",
+				"name": "acetoxy-hydroxytomatine",
 				"spans": [
-					[23275, 23279],
-					[23439, 23443],
-					[23812, 23816],
-					[24092, 24096]
-				]
-			},
-			{
-				"name": "Acetoxytomatine",
-				"spans": [
-					[23241, 23256],
-					[23400, 23415],
-					[23931, 23946],
-					[24152, 24167],
-					[24682, 24697],
-					[24916, 24931]
+					[23445, 23468],
+					[24169, 24192]
 				]
 			}
 		],
@@ -2208,14 +2338,13 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "leaves",
+				"name": "fruit",
 				"spans": [
-					[23828, 23834],
-					[23968, 23974],
-					[24003, 24009],
-					[24507, 24513],
-					[24705, 24711],
-					[24843, 24849]
+					[23495, 23500],
+					[23844, 23849],
+					[24113, 24118],
+					[24220, 24225],
+					[24368, 24373]
 				]
 			},
 			{
@@ -2231,13 +2360,14 @@
 				]
 			},
 			{
-				"name": "fruit",
+				"name": "leaves",
 				"spans": [
-					[23495, 23500],
-					[23844, 23849],
-					[24113, 24118],
-					[24220, 24225],
-					[24368, 24373]
+					[23828, 23834],
+					[23968, 23974],
+					[24003, 24009],
+					[24507, 24513],
+					[24705, 24711],
+					[24843, 24849]
 				]
 			}
 		],
@@ -2312,38 +2442,38 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "flowers",
-				"spans": [[25121, 25128]]
-			},
-			{
-				"name": "skin",
-				"spans": [[25610, 25614]]
+				"name": "green fruit",
+				"spans": [[25105, 25116]]
 			},
 			{
 				"name": "red, ripe fruit",
 				"spans": [[25299, 25314]]
 			},
 			{
-				"name": "leaves",
-				"spans": [[25144, 25150]]
+				"name": "flowers",
+				"spans": [[25121, 25128]]
 			},
 			{
 				"name": "flesh",
 				"spans": [[25619, 25624]]
 			},
 			{
-				"name": "green fruit",
-				"spans": [[25105, 25116]]
+				"name": "leaves",
+				"spans": [[25144, 25150]]
+			},
+			{
+				"name": "skin",
+				"spans": [[25610, 25614]]
 			}
 		],
 		"species": [
 			{
-				"name": "cultivated tomato",
-				"spans": [[25045, 25062]]
-			},
-			{
 				"name": "wild tomato",
 				"spans": [[25484, 25495]]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [[25045, 25062]]
 			}
 		],
 		"experimental_conditions": [],
@@ -2375,12 +2505,12 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "leaves",
-				"spans": [[25972, 25978]]
-			},
-			{
 				"name": "flowers",
 				"spans": [[25983, 25990]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[25972, 25978]]
 			}
 		],
 		"species": [
@@ -2402,6 +2532,16 @@
 	{
 		"compounds": [
 			{
+				"name": "hydroxytomatine",
+				"spans": [[26573, 26588]],
+				"CID": 163184219,
+				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
 				"name": "acetoxytomatine",
 				"spans": [
 					[26594, 26609],
@@ -2413,16 +2553,10 @@
 				"spans": [[26557, 26571]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "hydroxytomatine",
-				"spans": [[26573, 26588]],
-				"CID": 163184219,
-				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
@@ -2442,12 +2576,12 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "leaves",
-				"spans": [[26618, 26624]]
-			},
-			{
 				"name": "flowers",
 				"spans": [[26629, 26636]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[26618, 26624]]
 			}
 		],
 		"species": [
@@ -2464,6 +2598,28 @@
 	{
 		"compounds": [
 			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[27506, 27529]]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[27514, 27529],
+					[27883, 27898],
+					[27955, 27970]
+				],
+				"CID": 122391230,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[27875, 27898]]
+			},
+			{
 				"name": "acetoxytomatine",
 				"spans": [[27486, 27501]]
 			},
@@ -2475,36 +2631,20 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-dehydrotomatine",
-				"spans": [[27506, 27529]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
 				"spans": [[27936, 27950]],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "hydroxy-dehydrotomatine",
-				"spans": [[27875, 27898]]
-			},
-			{
-				"name": "dehydrotomatine",
-				"spans": [
-					[27514, 27529],
-					[27883, 27898],
-					[27955, 27970]
-				],
-				"CID": 122391230,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
@@ -2521,12 +2661,10 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "leaves",
+				"name": "tissues",
 				"spans": [
-					[27533, 27539],
-					[27690, 27696],
-					[27991, 27997],
-					[28085, 28091]
+					[27998, 28005],
+					[28234, 28241]
 				]
 			},
 			{
@@ -2539,10 +2677,12 @@
 				]
 			},
 			{
-				"name": "tissues",
+				"name": "leaves",
 				"spans": [
-					[27998, 28005],
-					[28234, 28241]
+					[27533, 27539],
+					[27690, 27696],
+					[27991, 27997],
+					[28085, 28091]
 				]
 			}
 		],
@@ -2577,8 +2717,10 @@
 				"spans": [[28340, 28343]],
 				"CID": 444635,
 				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			}
 		],
 		"pathways": [],
@@ -2607,12 +2749,18 @@
 				"spans": [[28875, 28888]],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
 				"spans": [[28830, 28845]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [[28734, 28757]]
 			},
 			{
 				"name": "hydroxytomatine",
@@ -2623,20 +2771,18 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-hydroxytomatine",
-				"spans": [[28847, 28870]]
-			},
-			{
-				"name": "hydroxy-dehydrotomatine",
-				"spans": [[28734, 28757]]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "hydroxytomatine isomers",
 				"spans": [[28759, 28782]]
+			},
+			{
+				"name": "acetoxy-hydroxytomatine",
+				"spans": [[28847, 28870]]
 			}
 		],
 		"pathways": [
@@ -2674,19 +2820,19 @@
 		],
 		"experimental_conditions": [
 			{
+				"name": "game36 mutant",
+				"spans": [
+					[28519, 28532],
+					[28985, 28998]
+				]
+			},
+			{
 				"name": "wild type",
 				"spans": [
 					[28561, 28570],
 					[29021, 29030],
 					[29126, 29135],
 					[29250, 29259]
-				]
-			},
-			{
-				"name": "game36 mutant",
-				"spans": [
-					[28519, 28532],
-					[28985, 28998]
 				]
 			}
 		],
@@ -2696,6 +2842,30 @@
 	},
 	{
 		"compounds": [
+			{
+				"name": "acetoxy-dehydrotomatine",
+				"spans": [[30168, 30191]]
+			},
+			{
+				"name": "di-hydroxytomatine",
+				"spans": [[31247, 31265]]
+			},
+			{
+				"name": "dehydrotomatine",
+				"spans": [
+					[29596, 29611],
+					[29944, 29959],
+					[30058, 30073],
+					[30176, 30191],
+					[30673, 30688]
+				],
+				"CID": 122391230,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
 			{
 				"name": "Esculeoside A",
 				"spans": [
@@ -2707,8 +2877,21 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "hydroxytomatine isomer",
+				"spans": [[30637, 30659]]
+			},
+			{
+				"name": "hydroxy-dehydrotomatine",
+				"spans": [
+					[29936, 29959],
+					[30665, 30688]
+				]
 			},
 			{
 				"name": "acetoxytomatine",
@@ -2734,23 +2917,10 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-dehydrotomatine",
-				"spans": [[30168, 30191]]
-			},
-			{
-				"name": "alpha-tomatine",
-				"spans": [
-					[29577, 29591],
-					[30039, 30053]
-				],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxy-hydroxytomatine",
@@ -2760,37 +2930,21 @@
 				]
 			},
 			{
-				"name": "dehydrotomatine",
+				"name": "alpha-tomatine",
 				"spans": [
-					[29596, 29611],
-					[29944, 29959],
-					[30058, 30073],
-					[30176, 30191],
-					[30673, 30688]
+					[29577, 29591],
+					[30039, 30053]
 				],
-				"CID": 122391230,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "hydroxy-dehydrotomatine",
-				"spans": [
-					[29936, 29959],
-					[30665, 30688]
-				]
-			},
-			{
-				"name": "di-hydroxytomatine",
-				"spans": [[31247, 31265]]
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "dehydro-esculeoside A",
 				"spans": [[29647, 29668]]
-			},
-			{
-				"name": "hydroxytomatine isomer",
-				"spans": [[30637, 30659]]
 			}
 		],
 		"pathways": [
@@ -2854,8 +3008,10 @@
 				"spans": [[31636, 31649]],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -2883,8 +3039,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -2895,8 +3053,10 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -2910,16 +3070,16 @@
 		],
 		"genes": [
 			{
-				"name": "SlGAME40",
-				"spans": [[31726, 31734]]
-			},
-			{
 				"name": "SlGAME5",
 				"spans": [[31740, 31747]]
 			},
 			{
 				"name": "SlGAME36",
 				"spans": [[31716, 31724]]
+			},
+			{
+				"name": "SlGAME40",
+				"spans": [[31726, 31734]]
 			},
 			{
 				"name": "SlGAME31",
@@ -2938,12 +3098,12 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "control reaction",
-				"spans": [[31939, 31955]]
-			},
-			{
 				"name": "in vitro production",
 				"spans": [[32098, 32117]]
+			},
+			{
+				"name": "control reaction",
+				"spans": [[31939, 31955]]
 			}
 		],
 		"molecular_traits": [],
@@ -2953,12 +3113,24 @@
 	{
 		"compounds": [
 			{
+				"name": "alpha-ketoglutarate",
+				"spans": [[33103, 33122]],
+				"CID": 164533,
+				"SMILES": "C(CC(=O)[O-])C(=O)C(=O)[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
 				"name": "Fe2+",
 				"spans": [[33135, 33139]],
 				"CID": 27284,
 				"SMILES": "[Fe+2]",
-				"NP_class": [],
-				"NP_superclass": []
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
 			},
 			{
 				"name": "Esculeoside A",
@@ -2972,16 +3144,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "UDP-glucose",
-				"spans": [[33156, 33167]],
-				"CID": 8629,
-				"SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
-				"NP_class": ["Aminosugars"],
-				"NP_superclass": ["Aminosugars and aminoglycosides"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -2996,8 +3162,20 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "UDP-glucose",
+				"spans": [[33156, 33167]],
+				"CID": 8629,
+				"SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Aminosugars"],
+					"Np_superclass": ["Aminosugars and aminoglycosides"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -3009,36 +3187,34 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxy-hydroxytomatine",
 				"spans": [[33340, 33363]]
 			},
 			{
-				"name": "acetyl-CoA",
-				"spans": [[33141, 33151]],
-				"CID": 444493,
-				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
-				"NP_class": ["Fatty acyl CoAs"],
-				"NP_superclass": ["Fatty esters"]
-			},
-			{
 				"name": "ascorbate",
 				"spans": [[33124, 33133]],
 				"CID": 54679076,
 				"SMILES": "C([C@@H]([C@@H]1C(=C(C(=O)O1)[O-])O)O)O",
-				"NP_class": [],
-				"NP_superclass": ["Cyclic polyketides"]
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": ["Cyclic polyketides"]
+				}
 			},
 			{
-				"name": "alpha-ketoglutarate",
-				"spans": [[33103, 33122]],
-				"CID": 164533,
-				"SMILES": "C(CC(=O)[O-])C(=O)C(=O)[O-]",
-				"NP_class": [],
-				"NP_superclass": []
+				"name": "acetyl-CoA",
+				"spans": [[33141, 33151]],
+				"CID": 444493,
+				"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Fatty acyl CoAs"],
+					"Np_superclass": ["Fatty esters"]
+				}
 			}
 		],
 		"pathways": [
@@ -3047,15 +3223,15 @@
 				"spans": [[32921, 32955]]
 			},
 			{
+				"name": "SGA pathway branch",
+				"spans": [[32483, 32501]]
+			},
+			{
 				"name": "Esculeoside A pathway",
 				"spans": [
 					[33479, 33500],
 					[33817, 33838]
 				]
-			},
-			{
-				"name": "SGA pathway branch",
-				"spans": [[32483, 32501]]
 			}
 		],
 		"genes": [
@@ -3065,6 +3241,14 @@
 					[32462, 32467],
 					[32778, 32783],
 					[33048, 33053]
+				]
+			},
+			{
+				"name": "GAME40",
+				"spans": [
+					[32451, 32457],
+					[32680, 32686],
+					[33036, 33042]
 				]
 			},
 			{
@@ -3081,14 +3265,6 @@
 					[32370, 32376],
 					[32712, 32718],
 					[33028, 33034]
-				]
-			},
-			{
-				"name": "GAME40",
-				"spans": [
-					[32451, 32457],
-					[32680, 32686],
-					[33036, 33042]
 				]
 			}
 		],
@@ -3115,28 +3291,10 @@
 				],
 				"CID": 444635,
 				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
-			},
-			{
-				"name": "Esculeoside A",
-				"spans": [
-					[33939, 33952],
-					[34297, 34310],
-					[34602, 34615],
-					[35102, 35115]
-				],
-				"CID": 10887728,
-				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "SGAs",
-				"spans": [
-					[34954, 34958],
-					[35285, 35289]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -3148,8 +3306,32 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[34954, 34958],
+					[35285, 35289]
+				]
+			},
+			{
+				"name": "Esculeoside A",
+				"spans": [
+					[33939, 33952],
+					[34297, 34310],
+					[34602, 34615],
+					[35102, 35115]
+				],
+				"CID": 10887728,
+				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -3166,6 +3348,13 @@
 			}
 		],
 		"genes": [
+			{
+				"name": "GAME40",
+				"spans": [
+					[34212, 34218],
+					[35205, 35211]
+				]
+			},
 			{
 				"name": "GAME5",
 				"spans": [
@@ -3186,26 +3375,19 @@
 					[34204, 34210],
 					[35197, 35203]
 				]
-			},
-			{
-				"name": "GAME40",
-				"spans": [
-					[34212, 34218],
-					[35205, 35211]
-				]
 			}
 		],
 		"anatomical_structures": [
+			{
+				"name": "tomato fruit",
+				"spans": [[35252, 35264]]
+			},
 			{
 				"name": "leaves",
 				"spans": [
 					[34007, 34013],
 					[34247, 34253]
 				]
-			},
-			{
-				"name": "tomato fruit",
-				"spans": [[35252, 35264]]
 			}
 		],
 		"species": [
@@ -3219,27 +3401,27 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "transient expression experiment",
-				"spans": [[34754, 34785]]
+				"name": "co-infiltration",
+				"spans": [
+					[34377, 34392],
+					[34699, 34714]
+				]
 			},
 			{
 				"name": "in planta",
 				"spans": [[33966, 33975]]
 			},
 			{
-				"name": "transient co-expression",
-				"spans": [[34162, 34185]]
+				"name": "transient expression experiment",
+				"spans": [[34754, 34785]]
 			},
 			{
 				"name": "in vitro reconstruction experiments",
 				"spans": [[33874, 33909]]
 			},
 			{
-				"name": "co-infiltration",
-				"spans": [
-					[34377, 34392],
-					[34699, 34714]
-				]
+				"name": "transient co-expression",
+				"spans": [[34162, 34185]]
 			}
 		],
 		"molecular_traits": [
@@ -3280,16 +3462,18 @@
 	{
 		"compounds": [
 			{
-				"name": "acetoxytomatine",
-				"spans": [[35965, 35980]]
-			},
-			{
 				"name": "hydroxytomatine",
 				"spans": [[35989, 36004]],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [[35965, 35980]]
 			}
 		],
 		"pathways": [],
@@ -3312,10 +3496,6 @@
 		],
 		"species": [
 			{
-				"name": "S. huaylasense LA1983",
-				"spans": [[35724, 35745]]
-			},
-			{
 				"name": "tomato",
 				"spans": [
 					[35487, 35493],
@@ -3328,6 +3508,10 @@
 			{
 				"name": "S. peruvianum LA1278",
 				"spans": [[35750, 35770]]
+			},
+			{
+				"name": "S. huaylasense LA1983",
+				"spans": [[35724, 35745]]
 			}
 		],
 		"experimental_conditions": [
@@ -3343,15 +3527,6 @@
 	{
 		"compounds": [
 			{
-				"name": "acetoxytomatine",
-				"spans": [
-					[37544, 37559],
-					[37846, 37861],
-					[38040, 38055],
-					[38259, 38274]
-				]
-			},
-			{
 				"name": "hydroxytomatine",
 				"spans": [
 					[37564, 37579],
@@ -3359,8 +3534,19 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "acetoxytomatine",
+				"spans": [
+					[37544, 37559],
+					[37846, 37861],
+					[38040, 38055],
+					[38259, 38274]
+				]
 			}
 		],
 		"pathways": [],
@@ -3392,16 +3578,6 @@
 		],
 		"species": [
 			{
-				"name": "S. peruvianum LA1278",
-				"spans": [
-					[36646, 36666],
-					[37100, 37120],
-					[37225, 37245],
-					[37339, 37359],
-					[37407, 37427]
-				]
-			},
-			{
 				"name": "Solanum",
 				"spans": [[36495, 36502]]
 			},
@@ -3417,6 +3593,20 @@
 				]
 			},
 			{
+				"name": "S. lycopersicum cv. Moneymaker",
+				"spans": [[37659, 37689]]
+			},
+			{
+				"name": "S. peruvianum LA1278",
+				"spans": [
+					[36646, 36666],
+					[37100, 37120],
+					[37225, 37245],
+					[37339, 37359],
+					[37407, 37427]
+				]
+			},
+			{
 				"name": "S. huaylasense LA1983",
 				"spans": [
 					[36620, 36641],
@@ -3425,10 +3615,6 @@
 					[38074, 38095],
 					[38211, 38232]
 				]
-			},
-			{
-				"name": "S. lycopersicum cv. Moneymaker",
-				"spans": [[37659, 37689]]
 			}
 		],
 		"experimental_conditions": [],
@@ -3439,12 +3625,12 @@
 	{
 		"compounds": [
 			{
-				"name": "SGAs",
-				"spans": [[38427, 38431]]
-			},
-			{
 				"name": "steroidal glycoalkaloids",
 				"spans": [[38401, 38425]]
+			},
+			{
+				"name": "SGAs",
+				"spans": [[38427, 38431]]
 			}
 		],
 		"pathways": [
@@ -3478,8 +3664,10 @@
 				"spans": [[38496, 38499]],
 				"CID": 444635,
 				"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
-				"NP_class": ["Monosaccharides"],
-				"NP_superclass": ["Saccharides"]
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
 			}
 		],
 		"pathways": [
@@ -3490,35 +3678,8 @@
 		],
 		"genes": [
 			{
-				"name": "DCR",
-				"spans": [[39317, 39320]]
-			},
-			{
-				"name": "ACT2",
-				"spans": [[39499, 39503]]
-			},
-			{
 				"name": "HQT",
 				"spans": [[39353, 39356]]
-			},
-			{
-				"name": "ASAT",
-				"spans": [[39219, 39223]]
-			},
-			{
-				"name": "FdAT1",
-				"spans": [
-					[39540, 39545],
-					[39601, 39606]
-				]
-			},
-			{
-				"name": "AAT1",
-				"spans": [[39464, 39468]]
-			},
-			{
-				"name": "HCT",
-				"spans": [[39252, 39255]]
 			},
 			{
 				"name": "GAME36",
@@ -3528,12 +3689,47 @@
 				]
 			},
 			{
+				"name": "DCR",
+				"spans": [[39317, 39320]]
+			},
+			{
+				"name": "AAT1",
+				"spans": [[39464, 39468]]
+			},
+			{
+				"name": "ACT2",
+				"spans": [[39499, 39503]]
+			},
+			{
+				"name": "FdAT1",
+				"spans": [
+					[39540, 39545],
+					[39601, 39606]
+				]
+			},
+			{
 				"name": "SHT",
 				"spans": [[39416, 39419]]
+			},
+			{
+				"name": "HCT",
+				"spans": [[39252, 39255]]
+			},
+			{
+				"name": "ASAT",
+				"spans": [[39219, 39223]]
 			}
 		],
 		"anatomical_structures": [],
 		"species": [
+			{
+				"name": "S. tuberosum",
+				"spans": [[39119, 39131]]
+			},
+			{
+				"name": "S. melongena",
+				"spans": [[39198, 39210]]
+			},
 			{
 				"name": "S. pennellii",
 				"spans": [[39153, 39165]]
@@ -3541,14 +3737,6 @@
 			{
 				"name": "S. lycopersicum",
 				"spans": [[39076, 39091]]
-			},
-			{
-				"name": "S. melongena",
-				"spans": [[39198, 39210]]
-			},
-			{
-				"name": "S. tuberosum",
-				"spans": [[39119, 39131]]
 			}
 		],
 		"experimental_conditions": [],
@@ -3559,16 +3747,18 @@
 	{
 		"compounds": [
 			{
-				"name": "hydroxysolamargine",
-				"spans": [[40727, 40745]]
-			},
-			{
 				"name": "hydroxytomatine",
 				"spans": [[40708, 40723]],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "hydroxysolamargine",
+				"spans": [[40727, 40745]]
 			}
 		],
 		"pathways": [
@@ -3578,6 +3768,17 @@
 			}
 		],
 		"genes": [
+			{
+				"name": "GAME36-like",
+				"spans": [
+					[40203, 40214],
+					[40313, 40324],
+					[40349, 40360],
+					[40470, 40481],
+					[40630, 40641],
+					[40762, 40773]
+				]
+			},
 			{
 				"name": "GAME36-like-1",
 				"spans": [[40313, 40326]]
@@ -3599,34 +3800,12 @@
 				]
 			},
 			{
-				"name": "GAME36-like",
-				"spans": [
-					[40203, 40214],
-					[40313, 40324],
-					[40349, 40360],
-					[40470, 40481],
-					[40630, 40641],
-					[40762, 40773]
-				]
-			},
-			{
 				"name": "GAME36-like-2",
 				"spans": [[40349, 40362]]
 			}
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "Solanum",
-				"spans": [[39758, 39765]]
-			},
-			{
-				"name": "S. pennellii",
-				"spans": [
-					[40406, 40418],
-					[40617, 40629]
-				]
-			},
 			{
 				"name": "tomato",
 				"spans": [
@@ -3636,6 +3815,17 @@
 					[40399, 40405],
 					[40808, 40814]
 				]
+			},
+			{
+				"name": "S. pennellii",
+				"spans": [
+					[40406, 40418],
+					[40617, 40629]
+				]
+			},
+			{
+				"name": "Solanum",
+				"spans": [[39758, 39765]]
 			}
 		],
 		"experimental_conditions": [],
@@ -3651,24 +3841,12 @@
 	{
 		"compounds": [
 			{
-				"name": "anthocyanins",
-				"spans": [[42094, 42106]],
-				"CID": 145858,
-				"SMILES": "C1=CC=C(C=C1)C2=[O+]C3=CC=CC=C3C=C2",
-				"NP_class": ["Anthocyanidins"],
-				"NP_superclass": ["Flavonoids"]
-			},
-			{
-				"name": "wax",
-				"spans": [[41876, 41879]],
-				"CID": 6485064,
-				"SMILES": "C1COCCN1C(=O)C2=CC(=CC=C2)N",
-				"NP_class": [],
-				"NP_superclass": []
-			},
-			{
 				"name": "acyl sugar",
 				"spans": [[41689, 41699]]
+			},
+			{
+				"name": "cutin",
+				"spans": [[41866, 41871]]
 			},
 			{
 				"name": "amines",
@@ -3679,23 +3857,10 @@
 				"spans": [[42067, 42082]],
 				"CID": 887,
 				"SMILES": "CO",
-				"NP_class": [],
-				"NP_superclass": []
-			},
-			{
-				"name": "anthocyanin",
-				"spans": [
-					[41918, 41929],
-					[42094, 42105]
-				],
-				"CID": 145858,
-				"SMILES": "C1=CC=C(C=C1)C2=[O+]C3=CC=CC=C3C=C2",
-				"NP_class": ["Anthocyanidins"],
-				"NP_superclass": ["Flavonoids"]
-			},
-			{
-				"name": "cutin",
-				"spans": [[41866, 41871]]
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
 			},
 			{
 				"name": "acyl-CoA",
@@ -3706,28 +3871,61 @@
 				"spans": [[41149, 41166]]
 			},
 			{
+				"name": "wax",
+				"spans": [[41876, 41879]],
+				"CID": 6485064,
+				"SMILES": "C1COCCN1C(=O)C2=CC(=CC=C2)N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "anthocyanin",
+				"spans": [
+					[41918, 41929],
+					[42094, 42105]
+				],
+				"CID": 145858,
+				"SMILES": "C1=CC=C(C=C1)C2=[O+]C3=CC=CC=C3C=C2",
+				"Natural_product_class": {
+					"Np_class": ["Anthocyanidins"],
+					"Np_superclass": ["Flavonoids"]
+				}
+			},
+			{
+				"name": "anthocyanins",
+				"spans": [[42094, 42106]],
+				"CID": 145858,
+				"SMILES": "C1=CC=C(C=C1)C2=[O+]C3=CC=CC=C3C=C2",
+				"Natural_product_class": {
+					"Np_class": ["Anthocyanidins"],
+					"Np_superclass": ["Flavonoids"]
+				}
+			},
+			{
 				"name": "volatile",
 				"spans": [[41892, 41900]]
 			}
 		],
 		"pathways": [
 			{
-				"name": "cutin and wax metabolism",
-				"spans": [[41866, 41890]]
+				"name": "volatile biosynthesis",
+				"spans": [[41892, 41913]]
 			},
 			{
 				"name": "acyl sugar biosynthesis",
 				"spans": [[41689, 41712]]
 			},
 			{
-				"name": "volatile biosynthesis",
-				"spans": [[41892, 41913]]
+				"name": "cutin and wax metabolism",
+				"spans": [[41866, 41890]]
 			}
 		],
 		"genes": [
 			{
-				"name": "DCR",
-				"spans": [[41824, 41827]]
+				"name": "ASAT4",
+				"spans": [[41662, 41667]]
 			},
 			{
 				"name": "GAME31",
@@ -3737,20 +3935,38 @@
 				]
 			},
 			{
-				"name": "HQT",
-				"spans": [[42019, 42022]]
+				"name": "GAME36",
+				"spans": [
+					[40923, 40929],
+					[40974, 40980],
+					[41235, 41241],
+					[41360, 41366],
+					[42249, 42255]
+				]
 			},
 			{
-				"name": "FdAT1",
-				"spans": [[41839, 41844]]
+				"name": "ASAT1",
+				"spans": [[41653, 41658]]
+			},
+			{
+				"name": "DCR",
+				"spans": [[41824, 41827]]
 			},
 			{
 				"name": "AAT1",
 				"spans": [[41829, 41833]]
 			},
 			{
-				"name": "ASAT1",
-				"spans": [[41653, 41658]]
+				"name": "FdAT1",
+				"spans": [[41839, 41844]]
+			},
+			{
+				"name": "HQT",
+				"spans": [[42019, 42022]]
+			},
+			{
+				"name": "SHT",
+				"spans": [[42010, 42013]]
 			},
 			{
 				"name": "ACT",
@@ -3764,24 +3980,6 @@
 			{
 				"name": "HCT",
 				"spans": [[42005, 42008]]
-			},
-			{
-				"name": "GAME36",
-				"spans": [
-					[40923, 40929],
-					[40974, 40980],
-					[41235, 41241],
-					[41360, 41366],
-					[42249, 42255]
-				]
-			},
-			{
-				"name": "SHT",
-				"spans": [[42010, 42013]]
-			},
-			{
-				"name": "ASAT4",
-				"spans": [[41662, 41667]]
 			}
 		],
 		"anatomical_structures": [],
@@ -3789,19 +3987,6 @@
 			{
 				"name": "cultivated eggplant",
 				"spans": [[41488, 41507]]
-			},
-			{
-				"name": "tomato",
-				"spans": [
-					[41480, 41486],
-					[41559, 41565],
-					[42218, 42224],
-					[42409, 42415]
-				]
-			},
-			{
-				"name": "cultivated tomato",
-				"spans": [[41469, 41486]]
 			},
 			{
 				"name": "wild S. pennellii",
@@ -3815,12 +4000,25 @@
 				]
 			},
 			{
+				"name": "tomato",
+				"spans": [
+					[41480, 41486],
+					[41559, 41565],
+					[42218, 42224],
+					[42409, 42415]
+				]
+			},
+			{
 				"name": "eggplant",
 				"spans": [
 					[41049, 41057],
 					[41292, 41300],
 					[41499, 41507]
 				]
+			},
+			{
+				"name": "cultivated tomato",
+				"spans": [[41469, 41486]]
 			}
 		],
 		"experimental_conditions": [],
@@ -3835,6 +4033,17 @@
 	},
 	{
 		"compounds": [
+			{
+				"name": "di-hydroxytomatine",
+				"spans": [
+					[44779, 44797],
+					[44858, 44876],
+					[45635, 45653],
+					[45721, 45739],
+					[45969, 45987],
+					[46154, 46172]
+				]
+			},
 			{
 				"name": "Esculeoside A",
 				"spans": [
@@ -3853,8 +4062,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -3888,21 +4099,10 @@
 				],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "acetoxy-hydroxytomatine",
-				"spans": [
-					[43941, 43964],
-					[44034, 44057],
-					[44727, 44750],
-					[45112, 45135],
-					[45397, 45420],
-					[45586, 45609],
-					[45837, 45860],
-					[46204, 46227]
-				]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-tomatine",
@@ -3916,29 +4116,33 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
-				"name": "di-hydroxytomatine",
+				"name": "acetoxy-hydroxytomatine",
 				"spans": [
-					[44779, 44797],
-					[44858, 44876],
-					[45635, 45653],
-					[45721, 45739],
-					[45969, 45987],
-					[46154, 46172]
+					[43941, 43964],
+					[44034, 44057],
+					[44727, 44750],
+					[45112, 45135],
+					[45397, 45420],
+					[45586, 45609],
+					[45837, 45860],
+					[46204, 46227]
 				]
 			}
 		],
 		"pathways": [
 			{
-				"name": "acylsugar biosynthesis",
-				"spans": [[44231, 44253]]
-			},
-			{
 				"name": "alpha-tomatine catabolic pathway",
 				"spans": [[43101, 43133]]
+			},
+			{
+				"name": "acylsugar biosynthesis",
+				"spans": [[44231, 44253]]
 			},
 			{
 				"name": "Esculeoside A pathway",
@@ -3956,6 +4160,10 @@
 				"spans": [[44013, 44018]]
 			},
 			{
+				"name": "GAME40",
+				"spans": [[43922, 43928]]
+			},
+			{
 				"name": "GAME31",
 				"spans": [[43630, 43636]]
 			},
@@ -3969,10 +4177,6 @@
 					[45313, 45319],
 					[45743, 45749]
 				]
-			},
-			{
-				"name": "GAME40",
-				"spans": [[43922, 43928]]
 			}
 		],
 		"anatomical_structures": [
@@ -4046,8 +4250,10 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "acetoxytomatine",
@@ -4058,20 +4264,10 @@
 				"spans": [[46763, 46778]],
 				"CID": 163184219,
 				"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alpha-tomatine",
-				"spans": [
-					[46331, 46345],
-					[46541, 46555],
-					[47800, 47814]
-				],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "ethylene",
@@ -4085,8 +4281,24 @@
 				],
 				"CID": 6325,
 				"SMILES": "C=C",
-				"NP_class": [],
-				"NP_superclass": []
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [
+					[46331, 46345],
+					[46541, 46555],
+					[47800, 47814]
+				],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -4106,8 +4318,12 @@
 		],
 		"genes": [
 			{
-				"name": "GAME40",
-				"spans": [[46965, 46971]]
+				"name": "GAME36",
+				"spans": [[47519, 47525]]
+			},
+			{
+				"name": "E8",
+				"spans": [[46987, 46989]]
 			},
 			{
 				"name": "GAME31",
@@ -4118,12 +4334,8 @@
 				"spans": [[47228, 47233]]
 			},
 			{
-				"name": "GAME36",
-				"spans": [[47519, 47525]]
-			},
-			{
-				"name": "E8",
-				"spans": [[46987, 46989]]
+				"name": "GAME40",
+				"spans": [[46965, 46971]]
 			}
 		],
 		"anatomical_structures": [
@@ -4162,12 +4374,12 @@
 		"plant_traits": [],
 		"human_traits": [
 			{
-				"name": "toxicity",
-				"spans": [[47892, 47900]]
-			},
-			{
 				"name": "bitter flavor",
 				"spans": [[47845, 47858]]
+			},
+			{
+				"name": "toxicity",
+				"spans": [[47892, 47900]]
 			}
 		]
 	},
@@ -4184,32 +4396,20 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alpha-solasonine",
-				"spans": [[48171, 48187]],
-				"CID": 537159,
-				"SMILES": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-solamargine",
 				"spans": [[48192, 48209]],
 				"CID": 146157935,
 				"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
-			},
-			{
-				"name": "alpha-tomatine",
-				"spans": [[48096, 48110]],
-				"CID": 28523,
-				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "SGAs",
@@ -4220,16 +4420,40 @@
 				"spans": [[48121, 48136]],
 				"CID": 442971,
 				"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			},
 			{
 				"name": "alpha-solanine",
 				"spans": [[48141, 48155]],
 				"CID": 9549171,
 				"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "alpha-solasonine",
+				"spans": [[48171, 48187]],
+				"CID": 537159,
+				"SMILES": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "alpha-tomatine",
+				"spans": [[48096, 48110]],
+				"CID": 28523,
+				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [],
@@ -4259,33 +4483,29 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "in vitro",
-				"spans": [[48958, 48966]]
-			},
-			{
 				"name": "in vivo",
 				"spans": [[48971, 48978]]
+			},
+			{
+				"name": "in vitro",
+				"spans": [[48958, 48966]]
 			}
 		],
 		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": [
 			{
-				"name": "anti-carcinogenic potential",
-				"spans": [[48231, 48258]]
-			},
-			{
 				"name": "anti-nutritional effects",
 				"spans": [[48034, 48058]]
+			},
+			{
+				"name": "anti-carcinogenic potential",
+				"spans": [[48231, 48258]]
 			}
 		]
 	},
 	{
 		"compounds": [
-			{
-				"name": "SGAs",
-				"spans": [[49696, 49700]]
-			},
 			{
 				"name": "Esculeoside A",
 				"spans": [
@@ -4296,8 +4516,14 @@
 				],
 				"CID": 10887728,
 				"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
+			},
+			{
+				"name": "SGAs",
+				"spans": [[49696, 49700]]
 			},
 			{
 				"name": "alpha-tomatine",
@@ -4309,8 +4535,10 @@
 				],
 				"CID": 28523,
 				"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
-				"NP_class": ["Steroidal alkaloids"],
-				"NP_superclass": ["Pseudoalkaloids"]
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				}
 			}
 		],
 		"pathways": [
@@ -4340,26 +4568,26 @@
 		],
 		"plant_traits": [
 			{
-				"name": "fruit sweetness",
-				"spans": [[49666, 49681]]
-			},
-			{
 				"name": "fruit maturation",
 				"spans": [[49168, 49184]]
 			},
 			{
 				"name": "ripening",
 				"spans": [[49189, 49197]]
+			},
+			{
+				"name": "fruit sweetness",
+				"spans": [[49666, 49681]]
 			}
 		],
 		"human_traits": [
 			{
-				"name": "health-promoting properties",
-				"spans": [[49763, 49790]]
-			},
-			{
 				"name": "bitter taste",
 				"spans": [[49033, 49045]]
+			},
+			{
+				"name": "health-promoting properties",
+				"spans": [[49763, 49790]]
 			}
 		]
 	}
