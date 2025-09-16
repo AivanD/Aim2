@@ -12,7 +12,7 @@ from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_O
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import groq_inference, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
-from aim2.entities_types.entities import CustomExtractedEntities
+from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
 
@@ -100,7 +100,7 @@ def main():
                     # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
                     # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
                     # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                    openai_schema = CustomExtractedEntities.schemic_schema()
+                    openai_schema = SimpleExtractedEntities().schemic_schema()
 
                     # # # this inference doesnt use batching. CHATGPT API is fast enough
                     result = model(
@@ -116,7 +116,7 @@ def main():
 
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
-                    extracted_entities = CustomExtractedEntities.model_validate_json(result)
+                    extracted_entities = SimpleExtractedEntities().model_validate_json(result)
 
                     # add the entities to the raw result list to be saved into a file
                     raw_result_list.append(extracted_entities.model_dump())

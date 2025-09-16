@@ -145,3 +145,80 @@ class CustomExtractedEntities(SchemicModel):
     molecular_traits: List[MolecularTraits] = Field(default_factory=list, description="List of molecular trait mentions.")
     plant_traits: List[PlantTraits] = Field(default_factory=list, description="List of plant trait mentions.")
     human_traits: List[HumanTraits] = Field(default_factory=list, description="List of human trait mentions.")
+
+# --- Simplified Models for LLM Extraction ---
+
+class SimpleCompound(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Compounds and/or metabolites found in plants, including specialized plant compounds, phytohormones, etc.",
+        examples=["β-sitosterol", "abscisic acid", "gibberellin"]
+    )    
+
+class SimplePathway(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Metabolic pathways involving the transformation of metabolites.",
+        examples=["glycolysis", "TCA cycle", "photosynthetic electron transport"]
+    )
+
+class SimpleGenes(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Plant gene names.",
+        examples=["MAP kinase 6", "phytochrome B"]
+    )
+
+class SimpleAnatomicalStructure(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Anatomical structures in plants.",
+        examples=["plant embryo proper", 'lenticel', "root cortex"]
+    )
+
+class SimpleSpecies(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Plant species names.",
+        examples=["Arabidopsis thaliana", "Oryza sativa", "Zea mays"]
+    )
+
+class SimpleExperimentalCondition(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Experimental conditions in plant studies.",
+        examples=['nickel exposure', 'oxygen sensitivity', 'leaf shattering']
+    )
+
+class SimpleMolecularTraits(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Molecular traits in plants.",
+    )
+
+class SimplePlantTraits(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Plant traits in plants.",
+        examples=["chromium sensitivity", "mimic response", "stem strength"]
+    )
+
+class SimpleHumanTraits(SchemicModel):
+    model_config = ConfigDict(extra="forbid")
+    name: str = Field(
+        description="Human traits in plants.",
+    )
+
+class SimpleExtractedEntities(SchemicModel):
+    """A simplified version of entities for initial LLM extraction, containing only names."""
+    model_config = ConfigDict(extra="forbid")
+    compounds: List[SimpleCompound] = Field(default_factory=list, description="List of compound mentions.")
+    pathways: List[SimplePathway] = Field(default_factory=list, description="List of pathway mentions.")
+    genes: List[SimpleGenes] = Field(default_factory=list, description="List of gene mentions.")
+    anatomical_structures: List[SimpleAnatomicalStructure] = Field(default_factory=list, description="List of anatomical structure mentions.")
+    species: List[SimpleSpecies] = Field(default_factory=list, description="List of species mentions.")
+    experimental_conditions: List[SimpleExperimentalCondition] = Field(default_factory=list, description="List of experimental condition mentions.")
+    # natural_product_classes: List[NP_Class] = Field(default_factory=list, description="List of natural product class mentions.")
+    molecular_traits: List[SimpleMolecularTraits] = Field(default_factory=list, description="List of molecular trait mentions.")
+    plant_traits: List[SimplePlantTraits] = Field(default_factory=list, description="List of plant trait mentions.")
+    human_traits: List[SimpleHumanTraits] = Field(default_factory=list, description="List of human trait mentions.")
