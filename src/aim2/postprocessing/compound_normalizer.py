@@ -7,8 +7,9 @@ import urllib.parse
 logger = logging.getLogger(__name__)
 
 # Base URL for PubChem PUG REST API
-API_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
-SMILES_TO_CLASS = "https://npclassifier.gnps2.org/classify"
+API_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug"      # to retreive CID and SMILES
+SMILES_TO_CLASS = "https://npclassifier.gnps2.org/classify" # to retreive NP_class and NP_superclass
+Classyfire = "https://structure.gnps2.org/classyfire"        # to retreive Classyfire classification using SMILES
 
 def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
     """
@@ -44,8 +45,10 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
                     np_class_response.raise_for_status()
 
                     np_class_data = np_class_response.json()
-                    compound['NP_class'] = np_class_data.get("class_results", [])
-                    compound['NP_superclass'] = np_class_data.get("superclass_results", [])
+                    compound['Natural_product_class'] = {
+                        "Np_class": np_class_data.get("class_results", []),
+                        "Np_superclass": np_class_data.get("superclass_results", [])
+                    }
 
                     time.sleep(0.3)
                     break
@@ -62,7 +65,6 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
                     logger.error(f"Error querying NPCLASSIFIER for '{original_name}': {e}")
                     break # Non-HTTP error, break loop
     return processed_results
-
 
 def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
     """
@@ -140,3 +142,43 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
                     break
 
     return processed_results
+
+def get_classyfire_classification(smiles: str, MAX_ATTEMPTS=10) -> Dict[str, Any]:
+    """
+    Fetches Classyfire classification for a given SMILES string.
+
+    This function queries the Classyfire API to retrieve the classification
+    information for a compound represented by its SMILES string.
+
+    Args:
+        smiles: The SMILES string of the compound.
+        MAX_ATTEMPTS: Maximum number of retry attempts for transient errors.
+    Returns:
+        A dictionary containing the Classyfire classification data.
+    """
+    # copy the structure of get_np_class()
+    return NotImplementedError  # Placeholder for future implementation
+    for attempt in range(MAX_ATTEMPTS):
+        try:
+            classyfire_url = f"{Classyfire}?smiles={urllib.parse.quote(smiles)}"
+            response = requests.get(classyfire_url)
+            response.raise_for_status()
+
+            classification_data = response.json()
+            return classification_data
+
+        except requests.exceptions.HTTPError as http_err:
+            if http_err.response.status_code == 404:
+                logger.warning(f"Classyfire classification not found for SMILES: '{smiles}' (404 Not Found)")
+                return {}
+            elif http_err.response.status_code in [500, 502, 503, 504] and attempt < MAX_ATTEMPTS - 1:
+                logger.warning(f"Server error for SMILES '{smiles}' (attempt {attempt + 1}/{MAX_ATTEMPTS}). Retrying in 10s...")
+                time.sleep(10)
+                continue
+            else:
+                logger.error(f"HTTP error querying Classyfire for SMILES '{smiles}': {http_err}")
+                return {}
+        except Exception as e:
+            logger.error(f"Error querying Classyfire for SMILES '{smiles}': {e}")
+            return {}
+    return {}

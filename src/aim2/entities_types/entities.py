@@ -6,8 +6,19 @@ from typing import List, Optional
 # --- ENTITY DEFINITIONS --
 # examples are not seen by the model. It is used for documentation purposes.
 # -------------------------
-# TODO: add the rest of the entities. 
 # TODO: for each entity class, check if built-in validation is necessary. (you wrote this in run.py as well)
+class Natural_Product_Class(SchemicModel):
+    Np_class: Optional[List[str]] = Field(default=None, description="Natural product class(es) for the compound.")
+    Np_superclass: Optional[List[str]] = Field(default=None, description="Natural product superclass(es) for the compound.")
+
+class ClassyFire(SchemicModel):
+    Kingdom: Optional[str] = Field(default=None, description="Classyfire Kingdom for the compound.")
+    Superclass: Optional[str] = Field(default=None, description="Classyfire Superclass for the compound.")
+    Class: Optional[str] = Field(default=None, description="Classyfire Class for the compound.")
+    Subclass: Optional[str] = Field(default=None, description="Classyfire Subclass for the compound.")
+    Direct_parent: Optional[str] = Field(default=None, description="Classyfire Direct Parent for the compound.")
+    Molecular_framework: Optional[str] = Field(default=None, description="Classyfire Molecular Framework for the compound.")
+
 class Compound(SchemicModel):
     model_config = ConfigDict(extra="forbid")
     CID: Optional[int] = Field(default=None, description="PubChem Compound ID (CID) for the compound.")
@@ -20,8 +31,8 @@ class Compound(SchemicModel):
         description="Text spans where the compound is mentioned in the passage."
     )
     SMILES: Optional[str] = Field(default=None, description="SMILES string for the compound.")
-    NP_class: Optional[List[str]] = Field(default=None, description="Natural product class(es) for the compound.")
-    NP_superclass: Optional[List[str]] = Field(default=None, description="Natural product superclass(es) for the compound.")
+    Natural_product_class: Optional[Natural_Product_Class] = Field(default=None, description="Natural product class and superclass for the compound.")
+    Classyfire: Optional[ClassyFire] = Field(default=None, description="Classyfire classification for the compound.")
 
 class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
