@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+    <source>BioC-API</source>
+    <date>20250917</date>
+    <key>collection.key</key>
+    <document>
+        <id>PMC7384185</id>
+        <infon key="license">CC BY</infon>
+        <passage>
+            <infon key="article-id_doi">10.1111/nph.16089</infon>
+            <infon key="article-id_other">2019-30265</infon>
+            <infon key="article-id_pmc">PMC7384185</infon>
+            <infon key="article-id_pmid">31369159</infon>
+            <infon key="article-id_publisher-id">NPH16089</infon>
+            <infon key="fn">See also the Commentary on this article by Gandia-Herrero &amp; Garcia-Carmona, 227: 664-666.</infon>
+            <infon key="fpage">914</infon>
+            <infon key="issue">3</infon>
+            <infon key="kwd">anthocyanins betalains Caryophyllales convergent evolution gene duplication l-DOPA 4, 5-dioxygenase (DODA) metabolic operon plant pigments specialised metabolism</infon>
+            <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+            <infon key="lpage">929</infon>
+            <infon key="name_0">surname:Sheehan;given-names:Hester</infon>
+            <infon key="name_1">surname:Feng;given-names:Tao</infon>
+            <infon key="name_10">surname:Tiley;given-names:Helene</infon>
+            <infon key="name_11">surname:Copetti;given-names:Dario</infon>
+            <infon key="name_12">surname:Sanderson;given-names:Michael J.</infon>
+            <infon key="name_13">surname:Cushman;given-names:John C.</infon>
+            <infon key="name_14">surname:Moore;given-names:Michael J.</infon>
+            <infon key="name_15">surname:Smith;given-names:Stephen A.</infon>
+            <infon key="name_16">surname:Brockington;given-names:Samuel F.</infon>
+            <infon key="name_2">surname:Walker-Hale;given-names:Nathanael</infon>
+            <infon key="name_3">surname:Lopez-Nieves;given-names:Samuel</infon>
+            <infon key="name_4">surname:Pucker;given-names:Boas</infon>
+            <infon key="name_5">surname:Guo;given-names:Rui</infon>
+            <infon key="name_6">surname:Yim;given-names:Won C.</infon>
+            <infon key="name_7">surname:Badgami;given-names:Roshani</infon>
+            <infon key="name_8">surname:Timoneda;given-names:Alfonso</infon>
+            <infon key="name_9">surname:Zhao;given-names:Lijun</infon>
+            <infon key="section_type">TITLE</infon>
+            <infon key="type">front</infon>
+            <infon key="volume">227</infon>
+            <infon key="year">2020</infon>
+            <offset>0</offset>
+            <text>Evolution of l-DOPA 4,5-dioxygenase activity allows for recurrent specialisation to betalain pigmentation in Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract_title_1</infon>
+            <offset>128</offset>
+            <text>Summary</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>136</offset>
+            <text>The evolution of l-DOPA 4,5-dioxygenase activity, encoded by the gene DODA, was a key step in the origin of betalain biosynthesis in Caryophyllales. We previously proposed that l-DOPA 4,5-dioxygenase activity evolved via a single Caryophyllales-specific neofunctionalisation event within the DODA gene lineage. However, this neofunctionalisation event has not been confirmed and the DODA gene lineage exhibits numerous gene duplication events, whose evolutionary significance is unclear.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>634</offset>
+            <text>To address this, we functionally characterised 23 distinct DODA proteins for l-DOPA 4,5-dioxygenase activity, from four betalain-pigmented and five anthocyanin-pigmented species, representing key evolutionary transitions across Caryophyllales. By mapping these functional data to an updated DODA phylogeny, we then explored the evolution of l-DOPA 4,5-dioxygenase activity.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>1020</offset>
+            <text>We find that low l-DOPA 4,5-dioxygenase activity is distributed across the DODA gene lineage. In this context, repeated gene duplication events within the DODA gene lineage give rise to polyphyletic occurrences of elevated l-DOPA 4,5-dioxygenase activity, accompanied by convergent shifts in key functional residues and distinct genomic patterns of micro-synteny.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>1394</offset>
+            <text>In the context of an updated organismal phylogeny and newly inferred pigment reconstructions, we argue that repeated convergent acquisition of elevated l-DOPA 4,5-dioxygenase activity is consistent with recurrent specialisation to betalain synthesis in Caryophyllales.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">ABSTRACT</infon>
+            <infon key="type">abstract</infon>
+            <offset>1667</offset>
+            <text>See also the Commentary on this article by Gandia-Herrero &amp; Garcia-Carmona, 227: 664-666.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">title_1</infon>
+            <offset>1765</offset>
+            <text>Introduction</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>1778</offset>
+            <text>As sessile organisms, plants have exploited metabolic systems to produce a plethora of diverse specialised metabolites (Weng, 2014). Specialised metabolites are critical for survival in particular ecological niches and are often taxonomically restricted (Weng, 2014). In flowering plants, one remarkable example of a taxonomically restricted specialised metabolite occurs in the angiosperm order Caryophyllales (Brockington et al., 2011; Timoneda et al., 2019). Here, tyrosine-derived betalain pigments have evolved to replace anthocyanins, which are otherwise ubiquitous across flowering plants (Bischoff, 1876; Clement &amp; Mabry, 1996). Betalains are also present in the fungal lineage Basidiomycota (Musso, 1979) and the bacterial species Gluconacetobacter diazotrophicus (Contreras-Llano et al., 2019).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>2590</offset>
+            <text>The phylogenetic distribution of betalain pigmentation within Caryophyllales is complex (Brockington et al., 2011). In betalain-producing families within the core Caryophyllales, anthocyanins have not been found (Bate-Smith, 1962; Clement &amp; Mabry, 1996), although earlier substrates and associated enzymes in the flavonoid pathway have been detected (Shimada et al., 2004, 2005; Polturak et al., 2018). However, anthocyanins have been reported in six core Caryophyllales families, namely Caryophyllaceae, Molluginaceae, Kewaceae, Limeaceae, Macarthuriaceae and Simmondsiaceae (Clement &amp; Mabry, 1996; Thulin et al., 2016). In these six anthocyanic lineages, betalains have not been detected, indicating that anthocyanins and betalains are mutually exclusive (Stafford, 1994; Clement &amp; Mabry, 1996). The six anthocyanic lineages are intercalated with betalain-pigmented lineages resulting in a homoplastic distribution of these two pigments (Brockington et al., 2011). The distribution of anthocyanin and betalain-pigmented lineages is consistent with multiple origins of betalain pigmentation, a single origin of betalain pigmentation with multiple reversals to anthocyanin, or a combination of these scenarios (Brockington et al., 2011).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>3842</offset>
+            <text>In contrast to the anthocyanin pathway, the betalain biosynthetic pathway is relatively simple, involving as few as four enzymatic steps to proceed from tyrosine to stable betalain pigments: yellow betaxanthins and violet betacyanins (Fig. 1). The core genes encoding betalain synthesis enzymes have been elucidated, primarily through heterologous assays in Saccharomyces cerevisiae and Nicotiana benthamiana, which has emerged as an essential tool for betalain research in planta (Polturak et al., 2016; Timoneda et al., 2018). The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004). Within Caryophyllales, a gene duplication in the LigB/DODA gene lineage gave rise to the DODAalpha and DODAbeta clades, with l-DOPA 4,5-dioxygenase activity previously inferred to have evolved at the base of the DODAalpha lineage (Brockington et al., 2015). On the basis of this Caryophyllales-specific DODAalpha/DODAbeta duplication, and subsequent losses of DODA alpha loci in anthocyanic lineages, we previously argued for a single origin of betalain pigmentation, with multiple reversals to anthocyanin pigmentation (Brockington et al., 2015).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g001.jpg</infon>
+            <infon key="id">nph16089-fig-0001</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>5211</offset>
+            <text>The betalain biosynthetic pathway. A schematic showing the enzymatic and spontaneous reactions that form the specialised metabolites, betalains. The focus of this study is l-DOPA 4,5-dioxygenase (DODA; highlighted in red) which catalyses the formation of betalamic acid, the core chromophore of betalain pigments, from l
+-3,4-dihydroxyphenylalanine (l-DOPA). This figure was adapted from Timoneda et al. (2019).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>5634</offset>
+            <text>However, evolutionary patterns within the DODAalpha lineage are complex (Brockington et al., 2015). In addition to the DODAalpha/DODAbeta duplication, there have been at least nine duplications in the DODAalpha lineage resulting in all betalain-pigmented lineages of Caryophyllales containing at least three DODA genes - at least one homologue from the DODAbeta lineage and at least two paralogues from the DODAalpha lineage, with Beta vulgaris containing five copies of DODA alpha. In B. vulgaris, only two DODAalpha paralogues have been studied (Sasaki et al., 2009; Gandia-Herrero &amp; Garcia-Carmona, 2012; Hatlestad et al., 2012; Chung et al., 2015; Bean et al., 2018), with one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity and the other paralogue, BvDODA2 (hereafter termed BvDODAalpha2), exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity. Bean et al. (2018) compared BvDODAalpha1 and BvDODAalpha2 and identified seven divergent residues that, when altered in BvDODAalpha2, were sufficient to allow BvDODAalpha2 to convert l-DOPA to betalamic acid in yeast. Like BvDODAalpha2, two DODAalpha paralogues from other species (Parakeelya mirabilis and a Ptilotus hybrid) have also been shown to have limited or no capacity to produce betalamic acid (Chung et al., 2015). Extensive gene duplication within the DODAalpha lineage and the conserved presence of paralogues exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity suggests further sub- and/or neofunctionalisation events occurring within the DODAalpha clade, although the evolutionary significance of this is unclear.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">INTRO</infon>
+            <infon key="type">paragraph</infon>
+            <offset>7301</offset>
+            <text>In the current study, we explore the evolution of l-DOPA 4,5-dioxygenase activity in Caryophyllales, focusing on paralogy within the DODA lineage. In the context of an updated organismal phylogeny and new pigment data, we select species representing key inferred transitions in pigment gain and loss. We then assess their DODA paralogues for levels of l-DOPA 4,5-dioxygenase activity using an established heterologous assay in N. benthamiana. We use the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between paralogues. By mapping activity to a comprehensive DODA phylogeny, we reveal that multiple acquisitions of high l-DOPA 4,5-dioxygenase activity are linked with repeated gene duplication events within the DODAalpha lineage. Furthermore, we find that marginal levels of l-DOPA 4,5-dioxygenase activity are distributed across the DODAalpha lineage, implying that marginal levels of activity were present prior to multiple origins of high activity. Recurrent origins of high activity are accompanied by convergent shifts in residues known to be sufficient to confer l-DOPA 4,5-dioxygenase activity. We reconcile these data with inferred patterns of pigment evolution and argue that recurrent acquisition of high l-DOPA 4,5-dioxygenase activity underlies polyphyletic patterns of betalain pigmentation in Caryophyllales.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_1</infon>
+            <offset>8826</offset>
+            <text>Materials and Methods</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>8848</offset>
+            <text>Plant materials and growth conditions</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>8886</offset>
+            <text> Beta vulgaris subsp. vulgaris 'Bolivar' (referred to as B. vulgaris) was obtained from Thompson &amp; Morgan (Ipswich, UK), and B. vulgaris subsp. vulgaris 'YTiBv' was obtained from Syngenta (Basel, Switzerland). Beet plants were grown at the Cambridge University Botanic Garden under natural light and temperature conditions. The seeds of Limeum aethiopicum Burm. f., Kewa bowkeriana (Sond.) Christenh., Macarthuria australis Hugel ex Endl., Spergularia marina (L.) Besser, Cardionema ramosissimum Weinm. A. Nelson &amp; J.F. Macbr., Telephium imperati L., Pollichia campestris Aiton, Corrigiola litoralis L., Spergula arvensis L. and Simmondsia chinensis Link C.K. were grown at the Cambridge University Botanic Garden under natural conditions. Fresh tissue of Polycarpon tetraphyllum (L.) L. was collected in Florida (Lake Wauburg Recreation Area, Alachua County, FL, USA). N. benthamiana is a standard laboratory line that is maintained by selfing and plants were grown in controlled growth rooms with the following conditions: long-day (16 h : 8 h, light : dark), 20  C and 60% humidity.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>9995</offset>
+            <text>DNA/RNA extraction and cDNA synthesis</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>10033</offset>
+            <text>Tissue sampled for extraction was snap frozen and ground frozen using a Tissue Lyser II homogeniser (Qiagen). DNA was extracted using the Qiagen DNeasy Plant Mini Kit and RNA was removed by the Qiagen DNase-Free RNase Set. RNA extraction was carried out using PureLink Plant RNA Reagent (Invitrogen) and a TURBO DNA-free kit (Ambion). Both DNA and RNA quantity and quality were assessed by NanoDrop (Thermo Fisher Scientific, Waltham, MA, USA) and agarose gel electrophoresis. An Agilent Technologies Bioanalyzer (Santa Clara, CA, USA) was used to assess the quantity and quality of RNA for transcriptome sequencing. First-strand cDNA synthesis was performed using BioScript Reverse Transcriptase (Bioline Reagents, London, UK) and an oligo dT primer. All protocols were carried out according to the manufacturers' specifications unless otherwise specified.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>10899</offset>
+            <text>Transcriptome and genome sequencing and assembly</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>10948</offset>
+            <text>Transcriptomes of fresh young leaves of S. chinensis and fresh young leaves and flowers of K. bowkeriana were sequenced at BGI using BGISEQ (Hong Kong, China). Downstream processing and assembly optimisation were performed following Haak et al. (2018). Genome sequencing of C. litoralis, L. aethiopicum, S. chinensis and S. arvensis was performed on a HiSeq X-Ten with one sample per lane and assembled following Pucker et al. (2019). Full details can be found in Supporting Information Methods S1.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>11457</offset>
+            <text>Isolating DODA genes for functional analysis</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>11502</offset>
+            <text>For species with sequenced genomes (B. vulgaris, Mesembryanthemum crystallinum, Carnegiea gigantea, Kewa caespitosa), DODA sequences were identified by blast searches of genomes and annotated gene files. Annotated gene sequences were checked manually and adjusted if necessary (see Methods S2). For species for which no published genome was available, diverse strategies were used to obtain the full-length coding sequences. For Stegnosperma halimifolium, M. australis, P. tetraphyllum and L. aethiopicum, full-length coding sequences were recovered from transcriptomes. For C. ramosissimum, a partial coding sequence was recovered from RNAseq, and then RACE PCR was performed using the RACE System for Rapid Amplification of cDNA Ends Kit (Thermo Fisher Scientific) according to the manufacturer's instructions in order to amplify the 3' end of CrDODAa. For P. campestris, S. marina and T. imperati, degenerate PCR primers were designed based on known DODA alpha sequences in order to amplify a partial sequence, then inverse PCR was used to obtain the full-length coding sequences, following the protocol described by Ren et al. (2005). The full-length coding sequences for DODA genes were isolated from cDNA or gDNA by PCR using Phusion High-Fidelity DNA polymerase (Thermo Fisher Scientific), and then cloned into pBlueScript SK (New England Biolabs, Hitchin, UK) and verified by Sanger sequencing (Source BioScience, Nottingham, UK); for M. crystallinum, C. gigantea and S. halimifolium, DODA genes were synthesised by BioMatik (Cambridge, Canada), Twist Bioscience (San Francisco, CA, USA) and Integrated DNA Technologies (Iowa, IA, USA), respectively. Oligonucleotides are listed in Table S1 and the sequences have been deposited in GenBank (Table S2).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>13284</offset>
+            <text>Species phylogeny and pigment reconstruction</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>13329</offset>
+            <text>To enable trait reconstruction across the order Caryophyllales, we generated a comprehensive genus-level species tree using publicly available sequence data compiled by pyphlawd (Smith &amp; Walker, 2019), with constraints of the backbone topology from Walker et al. (2018) and Thulin et al. (2016, 2018). We calibrated branch lengths to time using treepl (Smith &amp; O'Meara, 2012), which implements the penalised likelihood approach of Sanderson (2002). Full details can be found in Methods S3. Pigment data at genus resolution were used to reconstruct the evolution of betalain pigmentation on the time-calibrated genus-level phylogeny of Caryophyllales. We surveyed the literature for pigment data and determined the pigmentation status of 174 genera, classifying them as anthocyanin-pigmented, betalain-pigmented or unknown (Table S3). We reconstructed ancestral states using maximum likelihood (Pagel, 1994, 1999) and Bayesian inference via stochastic mapping (Huelsenbeck et al., 2003; Bollback, 2006), using the R packages ape v.5.0 and phytools v.0.6-70, respectively in r v.3.6.0 (Revell, 2012; Paradis &amp; Schliep, 2019; R Core Team, 2019) under an equal rate and an asymmetric rate model. For stochastic mapping, we enforced a prior that the root of Caryophyllales was anthocyanin-pigmented. Full details can be found in Methods S4.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>14682</offset>
+            <text>DODA gene phylogeny and ancestral sequence reconstruction</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>14740</offset>
+            <text>We compiled a dataset of publicly available and early release genome and transcriptome assemblies (Table S4) and used a baited search approach with iterative refinement (Lopez-Nieves et al., 2018) to infer a gene tree of DODA sequences in Caryophyllales. Full details can be found in Methods S5. To create a sequence dataset computationally and numerically tractable for ancestral sequence reconstruction, we used a custom python script to subsample the DODA alpha gene tree (Fig. S1), using a strategy designed to maintain within-paralogue diversity. We created a final dataset of 198 sequences (indicated in Table S5), ensuring that a representative of all functionally characterised DODA alpha loci was included. Ancestral sequence reconstructions were conducted for codons and amino acids in iq-tree v.1.6.10 (Nguyen et al., 2015; Kalyaanamoorthy et al., 2017). All scripts, alignments and trees are available on GitHub (https://github.com/NatJWalker-Hale/DODA). Full details can be found in Methods S6.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>15751</offset>
+            <text>Vector generation and transient expression assay</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>15800</offset>
+            <text>Construction of the multigene vectors containing the genes of the betalain biosynthetic pathway (DODA, BvCYP76AD1, MjcDOPA-5GT) was carried out using MoClo GoldenGate cloning following the protocol described (Engler et al., 2014; Timoneda et al., 2018) in order to produce level 2 binary vectors (Fig. S2). DODA genes were cloned into level 0 vectors using their coding sequence, except PtDODAa for which the gDNA sequence was used. Level 1 vectors were verified by sequencing and level 2 vectors were verified by restriction digests. Transient expression using agroinfiltration of N. benthamiana was performed as described previously (Timoneda et al., 2018). The following were used as controls in every experiment: positive, pBC-BvDODAalpha1; negative, pLUC (Fig. S2). Upon transient transformation in N. benthamiana, DODA genes encoding enzymes that carry out the l-DOPA 4,5-dioxgenase reaction necessary for betalamic acid production will produce betalains. For instance, the previously characterised B. vulgaris DODA, BvDODAalpha1 (Hatlestad et al., 2012), exhibits high levels of l-DOPA 4,5-dioxygenase activity as inferred by a high level of betacyanin production under heterologous expression (Polturak et al., 2016; Timoneda et al., 2018). Accordingly, we use the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci. The assay is designed to give a clear comparative measure of biologically relevant levels of l-DOPA 4,5-dioxygenase activity in planta. We categorise the levels as high l-DOPA 4,5-dioxygenase activity (hereafter also referred to as 'high activity'), low or marginal l-DOPA 4,5-dioxygenase activity (hereafter also referred to simply as 'marginal activity'), or no l-DOPA 4,5-dioxygenase activity (hereafter also referred to as 'no activity').</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>17801</offset>
+            <text>Betalain quantification using HPLC</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>17836</offset>
+            <text>A single sample was taken from each infiltration spot 4 d post-infiltration, snap frozen in liquid nitrogen and stored at -80  C until needed. Samples were homogenised frozen using a single 5 mm glass bead in a Tissue Lyser II homogeniser (Qiagen). Betalains were extracted overnight at 4 C in 80% aqueous methanol containing 50 mM ascorbic acid with a volume of 1 ml extraction buffer per 50 mg fresh weight of leaf tissue. After extraction, the samples were clarified twice by centrifugation at 21 130 g for 10 min. HPLC analysis was performed using a Thermo Fisher Scientific Accela HPLC autosampler and pump system incorporating a photodiode array detector. Betalains were separated using a Luna Omega column (100 A, 5 mum, 4.6 x 150 mm) from Phenomenex (Torrance, CA, USA) under the following conditions: 3 min, 0% B; 3-19 min, 0-75% B; 7 min, 0% B where mobile phase A was 0.1% formic acid in 1% acetonitrile and solvent B was 100% acetonitrile, and at a flow rate of 500 mul min-1. We quantified the betacyanin compound, betanin, because it has been shown to be the predominant pigment arising from the transient expression assay (Timoneda et al., 2018). Betanin was detected by UV/VIS absorbance at a wavelength of 540 nm. Identification and quantification of betanin was carried out using a commercially available B. vulgaris extract (Tokyo Chemical Industry UK Ltd, Oxford, UK) and a pure betanin standard (provided by F. Gandia-Herrero, Universidad de Murcia, Spain). Negative controls (uninfiltrated tissue or pLUC) were set as background and removed from all other samples.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">title_2</infon>
+            <offset>19462</offset>
+            <text>Synteny analysis of gene cluster</text>
+        </passage>
+        <passage>
+            <infon key="section_type">METHODS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>19495</offset>
+            <text>Synteny from sequenced genomes was evaluated to explore the conservation of clustering of BvDODA alpha 1 and BvCYP76AD1 as observed in B. vulgaris (Brockington et al., 2015). BvDODA alpha 1 (Hatlestad et al., 2012) and BvCYP76AD1 (DeLoache et al., 2015; Polturak et al., 2016; Sunnadeniya et al., 2016) were identified from the B. vulgaris genome and the related microsynteny was visualised by mcscanx (Wang et al., 2012). Pairs of homologous genes from the genomes of Amaranthus hypochondriacus, Chenopodium quinoa, B. vulgaris and M. crystallinum were identified using last with default parameters (Kielbasa et al., 2011). Only restricted syntenic regions containing collinear genes along with their neighbouring genes were evaluated.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_1</infon>
+            <offset>20238</offset>
+            <text>Results</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>20246</offset>
+            <text>Ancestral state reconstruction of pigmentation in Caryophyllales suggests at least four origins of betalain pigmentation</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>20367</offset>
+            <text>We inferred a time-calibrated, genus-level maximum likelihood species tree for 640 genera of Caryophyllales, constraining our inference to match the most recent phylogenomic hypotheses (Walker et al., 2018). Our inferred topology and divergence times agree well with the current understanding of Caryophyllales (Walker et al., 2018), with some minor or unsupported incongruences (Figs 2, S3). Our updated pigmentation dataset contains data for 174 genera or 27% of genera represented in the tree topology. Maximum likelihood reconstruction under a symmetric (ER) and an asymmetric (ARD) model produced the same inferences with four transitions from anthocyanins to betalains predicted - in Stegnospermataceae, Amaranthaceae, the raphide clade (sensu Stevens, 2017) and the Portulacineae - and one reversal from betalains to anthocyanins in Kewaceae (Fig. S4). The ER model generated slightly more equivocal reconstructions along the backbone of Caryophyllales than the ARD model but statistical support for each model is nearly equivalent (DeltaAICARD-ER = 0.23). Posterior probabilities of node states from Bayesian reconstruction under both models similarly suggested four transitions from anthocyanins to betalains along the backbone of the tree and one reversal (Figs 2, S4).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g002.jpg</infon>
+            <infon key="id">nph16089-fig-0002</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>21660</offset>
+            <text>Reconstruction of pigment state across the Caryophyllales supports four origins of betalain pigmentation. (a) Bayesian ancestral state reconstructions of pigmentation on a time-calibrated, genus-level maximum likelihood species tree of Caryophyllales, inferred from seven nuclear and plastid markers. Tips are coloured according to pigmentation state: anthocyanin (blue), betalain (pink) and unknown (grey). Pie charts at nodes give posterior probabilities at nodes for anthocyanin (blue) and betalain (pink), inferred from n = 1000 stochastic mapping simulations under the asymmetric (ARD) model of character evolution. (b) The reconstruction shown in (a) simplified to show family-level relationships. Numbers represent the four inferred origins of betalain pigmentation. Branches in bold indicate relationships that were constrained during tree inference.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>22528</offset>
+            <text>Betalain-pigmented species are inferred to contain a minimum of three DODA genes with at least two DODAalpha and one DODAbeta </text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>22655</offset>
+            <text>We used a baited search approach to populate an expanded DODA gene tree containing 318 Caryophyllales species from 34 families (increased from the 95 species and 26 families previously analysed; Brockington et al., 2015). The phylogeny includes denser sampling from the anthocyanin-pigmented lineages Caryophyllaceae and Molluginaceae, and additionally samples the anthocyanin-pigmented lineages Macarthuriaceae, Kewaceae and Limeaceae, and the betalain-pigmented lineage Stegnospermataceae. The phylogeny is mostly congruent with earlier analyses, revealing a gene duplication after the divergence of Physenaceae, resulting in two well-supported paralogues corresponding to DODAalpha and DODAbeta clades in Brockington et al. (2015) (Figs S5, S6). Further duplications have occurred, particularly in the DODAalpha lineage, so that betalain-pigmented species are inferred to contain at least three genes predicted to encode a full-length DODA protein, with at least two DODAalpha and one DODAbeta (Figs S5, S6).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>23668</offset>
+            <text>DODAalpha homologues are present in a wide range of anthocyanic lineages across the Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>23767</offset>
+            <text>We performed a search for DODA loci across all anthocyanic lineages (Macarthuriaceae, Limeaceae, Kewaceae, Caryophyllaceae and Molluginaceae). Here, we recovered single DODA alpha genes from seven species representing four early diverging lineages of Caryophyllaceae: P. tetraphyllum (Polycarpaeae), C. ramosissimum and P. campestris (Paronychieae), T. imperati and C. litoralis (Corrigioleae), and S. marina and S. arvensis (Sperguleae; Figs S5, S6). The DODA alpha genes from two of these species, C. litoralis and P. campestris, were found to have mutations causing premature stop codons (Fig. S7). We then searched for DODA genes in anthocyanic M. australis (Macarthuriaceae), L. aethiopicum (Limeaceae), K. caespitosa (Kewaceae) and P. exiguum (Molluginaceae) using trancriptome and genome sequencing. We detected a DODAbeta gene in all four species (Figs S5, S6). Single DODA alpha genes were recovered from M. australis and L. aethiopicum, and two DODA alpha homologues were recovered from K. caespitosa. A DODA alpha gene could not be detected in P. exiguum despite c. 206x short read coverage based on its estimated genome size (Pucker et al., 2019).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>24929</offset>
+            <text>DODAbeta homologues exhibit no or negligible amounts of l-DOPA 4,5-dioxygenase activity</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>25019</offset>
+            <text>We selected four betalain-pigmented species that represent each of the inferred origins of betalain pigmentation, three of which are represented by complete annotated genomes: S. halimifolium (Stegnospermataceae), B. vulgaris (Amaranthaceae; Dohm et al., 2014), M. crystallinum (Aizoaceae; W. C. Yim, unpublished) and C. gigantea (Cactaceae; Copetti et al., 2017). S. halimifolium, M. crystallinum and C. gigantea each contain one DODAbeta and two DODA alpha genes, and B. vulgaris contains one DODAbeta and five DODA alpha genes (Figs S5, S6). The DODA genes for all four species were separately cloned into multigene vectors containing all necessary genes for betalain biosynthesis and these vectors were transiently transformed into N. benthamiana to test their heterologous expression (Fig. S1; Timoneda et al., 2018). We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci. Upon heterologous expression, none of the DODAbeta genes from S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea produced visible betacyanin pigmentation (Fig. 3a; Timoneda et al., 2018). Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (&lt; 0.1%; Fig. 3b).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g003.jpg</infon>
+            <infon key="id">nph16089-fig-0003</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>26453</offset>
+            <text>Betalain-pigmented species have a single DODA that has high activity when heterologously expressed in Nicotiana benthamiana and other DODA that have no or marginal activity. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Stegnosperma halimifolium, Beta vulgaris, Carnegiea gigantea and Mesembryanthemum crystallinum. The DODA coding sequences were cloned into multigene constructs containing the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The infiltration spots are labelled according to the DODA variant. For all species, the pBC-BvDODAalpha1 multigene vector is included as a positive control (P). (b) The betanin content of the infiltration spots was measured using HPLC and data were represented relative to the BvDODAalpha1 spot present in each biological replicate. The data were combined after calculating relative amounts (RQ) for each species from individual species-specific experiments (Supporting Information Figs S8-S11). Bars show means +- SD; n = 5 for S. halimifolium, B. vulgaris, C. gigantea and M. crystallinum, except for BvDODAalpha2 (n = 4) and BvDODAalpha3 (n = 4). (c) A representative HPLC trace for the DODA
+alpha
+1 gene from each species. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl which was used to validate the retention time of betanin in these samples.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>28069</offset>
+            <text>A single DODAalpha homologue in each betalain-pigmented species exhibits high levels of l-DOPA 4,5-dioxygenase activity</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>28192</offset>
+            <text>Using the same procedure as that used to test the DODAbeta enzymes, we found that only a single DODAalpha from each study species showed a strong production of betalain pigmentation including BvDODAalpha1 (Figs 3, S8-S11). All paralogues exhibiting high production of betanin in the heterologous assay (which we term as having high levels of l-DOPA 4,5-dioxygenase activity) are hereafter named &quot;alpha1&quot;. The amount of betanin produced by the different orthologues of DODAalpha1 varies relative to BvDODAalpha1, indicating that there may be differences in the effectiveness of these DODAalpha enzymes to convert l-DOPA to betalamic acid (Fig. 3b). For example, ShDODAalpha1 produced a comparable amount of pigment to BvDODAalpha1, CgDODAalpha1 produced c. 60% as much as BvDODAalpha1, and McDODAalpha1 produced c. 80% more than BvDODAalpha1.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>29034</offset>
+            <text>Numerous DODAalpha homologues in both betalain-pigmented and anthocyanin-pigmented lineages exhibit marginal levels of l-DOPA 4,5-dioxygenase activity</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>29190</offset>
+            <text>We found that in each betalain-pigmented species there is at least one DODAalpha paralogue that exhibits marginal activity (consistent with Chung et al., 2015 and Bean et al., 2018). For example, in M. crystallinum, pigmentation was also observed for McDODAalpha2, albeit at a much lower level than DODAalpha1 from M. crystallinum or any other species (Figs 3a,b, S8-S11). Depending on the strength of transient expression in particular leaves, faint pigment was also sometimes observed for BvDODAalpha2 and CgDODAalpha2, from B. vulgaris and C. gigantea respectively (Fig. 3a). Quantification of betanin in these infiltration spots showed that McDODAalpha2 produced c. 5% the amount of betanin as BvDODAalpha1, whereas BvDODAalpha2 and CgDODAalpha2 showed below 3% the amount of BvDODAalpha1 (Figs 3b, S9-S11). Despite being visually undetectable, betanin could also be detected by HPLC in ShDODAalpha2 and BvDODAalpha4 (Figs 3b, S8, S9). For two B. vulgaris paralogues, BvDODAalpha3 and BvDODAalpha5, betanin was undetectable (Figs 3b, S9). DODAalpha enzymes from anthocyanic species M. australis and K. caespitosa were also found to produce a small amount of betanin, as detected by HPLC (Figs 4, S12). MaDODAalpha produces c. 2.5% the amount of BvDODAalpha1, and KcDODAalpha1 and KcDODAalpha2 produce c. 12% and 2% of BvDODAalpha1, respectively. Within Caryophyllaceae, DODAalpha from C. ramosissimum and T. imperati produced a small amount of betanin (6% and 2.5% of BvDODAalpha1, respectively; Figs 4b,c, S12).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g004.jpg</infon>
+            <infon key="id">nph16089-fig-0004</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>30707</offset>
+            <text>
+l-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA
+alpha), Telephium imperati (TiDODA
+alpha), Polycarpon tetraphyllum (PtDODA
+alpha), Cardionema ramosissimum (CrDODA
+alpha), Spergularia marina (SmDODA
+alpha), Limeum aethiopicum (LaDODA
+alpha) and Kewa caespitosa (KcDODA
+alpha
+1, KcDODA
+alpha
+2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n &gt;= 3. (c) A representative HPLC trace for each DODA
+alpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>32238</offset>
+            <text>Betalain biosynthetic genes, DODAalpha1 and CYP76AD1, , are colocalised in Amaranthaceae but not in the representative Aizoaceae genome</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>32374</offset>
+            <text>We previously showed that BvDODA alpha 1 and BvCYP76AD1 are part of a putative gene cluster, being located close to one another (&lt; 50 kb) and also in close linkage with the MYB that regulates both of these genes (Keller, 1936; Goldman &amp; Austin, 2000; Hatlestad et al., 2014; Brockington et al., 2015). In C. quinoa and A. hypochondriacus, other Amaranthaceae species for which there is a genome sequence available (Yasui et al., 2016; Lightfoot et al., 2017), these genes are also colocalised (Fig. 5). However, in M. crystallinum in the family Aizoaceae, the locus encoding the high-activity DODAalpha, McDODA alpha 1, is located on a different chromosome from the McCYP76AD1 orthologue, and the genes are not colocalised despite considerable conservation of synteny between putatively homologous chromosomes (Fig. 5). This analysis is limited to two of the four betalain-pigmented study species because they are currently the only species for which genome assemblies are of sufficient quality to allow syntenic analysis.</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g005.jpg</infon>
+            <infon key="id">nph16089-fig-0005</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>33404</offset>
+            <text>Betalain biosynthesis genes are colocalised in the genomes of three Amaranthaceae species but not in the Aizoaceae species, Mesembryanthemum crystallinum. Shown are the genomic regions containing the betalain biosynthetic genes, DODA
+alpha
+1 and CYP76AD1, from Amaranthus hypochondriacus, Beta vulgaris, Chenopodium quinoa and M. crystallinum. Rectangles show predicted gene models, and blue (+ strand) and green (- strand) colours indicate relative orientations. Matching gene pairs are displayed as grey connections, and purple and red connections indicate DODA
+alpha
+1 and CYP76AD1 correspondence, respectively. Whole genome duplication is marked with a dotted line.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>34074</offset>
+            <text>Homologues exhibiting high levels of l-DOPA 4,5-dioxgenase activity are not monophyletic</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>34167</offset>
+            <text>To understand the evolution of l-DOPA 4,5-dioxgenase activity, we mapped our functional data to the DODA gene tree (Fig. 6), and also mapped functional data from studies for which DODA activity has been tested in planta, either in heterologous transient assays or stable transgenics, or using recombinant expression in Escherichia coli or yeast (Figs 3, 4; Table S6). Mapping the functional data to the tree reveals that DODAalpha homologues exhibiting l-DOPA 4,5-dioxgenase activity have a homoplastic distribution across the DODA phylogeny (Fig. 6). In total, there are three polyphyletic gene lineages containing high levels of l-DOPA 4,5-dioxygenase activity (DODAalpha1): a lineage specific to Stegnosperma singly represented by ShDODAalpha1, a clade arising by duplication within Amaranthaceae containing BvDODAalpha1 and CqDODA-1, and a clade representing the remaining betalain-pigmented lineages, and containing CgDODA1, MjDODA alpha 1, McDODA alpha 1, PmDOD and PgDODA (Table S6). Each clade containing high-activity DODAalpha paralogues is sister to clades containing marginal activity DODAalpha paralogues, and in the case of Amaranthaceae, the DODAalpha1 clade is nested within clades exhibiting no or only marginal levels of l-DOPA 4,5-dioxgenase activity (Fig. 6).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g006.jpg</infon>
+            <infon key="id">nph16089-fig-0006</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>35447</offset>
+            <text>The DODA gene tree shows a homoplasious distribution of functionally characterised DODA genes that produce a high level of betalain pigments. The maximum likelihood phylogeny of Caryophyllales l-DOPA 4,5-dioxygenase (DODA) genes was inferred from coding sequences derived from genomes and transcriptomes. Branch lengths are expected number of substitutions per site. Scale bar gives 0.2 expected substitutions per site. Branch labels are support values for major paralogous clades from rapid bootstrapping and the SH-like Approximate Likelihood Ratio Test, respectively, given as RBS/SH-aLRT. Putative major duplication nodes are highlighted with stars. Branches are coloured according to the putative pigmentation state of the taxa (blue, anthocyanin; pink, betalain). Labelled tips show functionally characterised DODAs and shaded squares correspond to DODA activity (white, no activity; grey, marginal activity; black, high activity). Asterisks indicate putative pseudogenes. Annotated at tips is a colour-coded alignment of the seven residues conferring high activity reported in Bean et al. (2018). XxDODA: Bv, Beta vulgaris; Cg, Carnegiea gigantea; Cr, Cardionema ramosissimum; Ds, Dianthus superbus; Kc, Kewa caespitosa; La, Limeum aethiopicum; Mc, Mesembryanthemum crystallinum; Ma, Macarthuria australis; Mj, Mirabilis jalapa; Pg, Portulaca grandiflora; Phyb, Ptilotus hybrid; Pm, Parakeelya mirabilis; Pt, Polycarpon tetraphyllum; Sh, Stegnosperma halimifolium; Sm, Spergularia marina; Ti, Telephium imperati.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">title_2</infon>
+            <offset>36979</offset>
+            <text>Ancestral sequence reconstruction indicates that high l-DOPA 4,5-dioxygenase activity is a derived state within the DODAalpha lineage</text>
+        </passage>
+        <passage>
+            <infon key="section_type">RESULTS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>37114</offset>
+            <text>A recent study characterised seven residues that are important for l-DOPA 4,5-dioxygenase activity (Bean et al., 2018). We carried out ancestral sequence reconstruction using coding sequences on a reduced DODA alpha gene tree (Figs S13, S14) and observed that the three putative origins of highly active DODAalpha are marked by three convergent shifts in these seven residues (Figs 6, 7), which occur post-gene duplication. For the residues inferred for the clade containing the M. crystallinum and C. gigantea highly active DODAalpha (DDFNDDI; Fig. 7), four out of seven of the predicted residues are identical to those inferred for the Amaranthaceae highly active DODAalpha clade (DDYNDET). For Stegnosperma, the motif is more divergent, with three residues identical to the Amaranthaceae betalain-producing DODAalpha clade and two residues identical to the clade containing the M. crystallinum and C. gigantea highly active DODAalpha. The highly active DODAalpha are derived from ancestral nodes with inferred motifs that share more similarity with the marginal or no activity DODAalpha lineages (XGFNN[N/D]T), and this motif is highly conserved across the backbone and represented at almost all ancestral nodes (Figs 6, 7). Amino acid reconstruction gave similar results (Figs S15, S16).</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g007.jpg</infon>
+            <infon key="id">nph16089-fig-0007</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>38406</offset>
+            <text>Reconstruction of seven functionally important amino acids on the l-DOPA 4,5-dioxygenase (DODA) phylogeny showing a shift in patterns associated with DODA genes of high l-DOPA 4,5-dioxygenase activity. (a) Proportional logo plots of the seven residues identified by Bean et al. (2018) across functionally characterised high activity (left) and no or only marginal activity (right) paralogues included in this study. 1: ShDODAalpha1 vs ShDODAalpha2 (Stegnospermataceae); 2: CqDODA-1, BvDODAalpha1 vs PhybDODAalpha, BvDODAalpha2-5 (Amaranthaceae); 3: McDODAalpha1, PmDODAalpha1, CgDODAalpha1, PgDODAalpha1 vs McDODAalpha2, PmDODAalpha2, CgDODAalpha2 (Portulacineae and Aizoaceae). Residue numbering is according to Bean et al. (2018). (b) Ancestral sequence reconstructions of codons by empirical Bayesian inference on a maximum likelihood phylogeny of a reduced DODA
+alpha sequence alignment. Logo plots at tips give the proportional representation of a given amino acid across all sequences in each collapsed clade for each of the sites identified by Bean et al. (2018). Numbers at nodes match the ancestor of the high-activity paralogues summarised in (a).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">title_1</infon>
+            <offset>39564</offset>
+            <text>Discussion</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">title_2</infon>
+            <offset>39575</offset>
+            <text>Polyphyletic patterns of elevated l-DOPA 4,5-dioxygenase activity support the recurrent specialisation to betalain pigmentation</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>39707</offset>
+            <text>Since our earlier ancestral state pigment reconstructions (Brockington et al., 2011, 2015), phylogenomic data have advanced new hypotheses for relationships within Caryophyllales (Walker et al., 2018) and the previously uncharacterised Limeaceae and Simmondsiaceae have been shown to be anthocyanic (Thulin et al., 2016). Here, we explicitly account for the large number of taxa for which pigmentation status is unknown and constrain our phylogenetic hypothesis to match the latest phylogenomic study of Walker et al. (2018), which places betalain-pigmented Stegnospermataceae as sister to anthocyanic Macarthuriaceae. In the context of these new data (Fig. 2), our reconstructions do not infer a single evolution of betalains, as previously suggested (Brockington et al., 2015), but rather imply up to four separate origins of betalain pigmentation in Caryophyllales.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>40584</offset>
+            <text>To explore the hypothesis of multiple origins of betalain pigmentation suggested by our reconstructions, we then selected four species that represent each of the putative origins: S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea. Using heterologous transient assays, we inferred relative levels of l-DOPA 4,5-dioxygenase activity based on the proxy of betanin production (Fig. 3). Our data show that activity is barely detectable in DODAbeta loci from betalain-pigmented species, supporting our original hypothesis that the high levels of l-DOPA 4,5-dioxygenase activity evolved exclusively within the DODAalpha lineage (Brockington et al., 2015). However, although betalain-pigmented species have multiple paralogues of DODAalpha genes, only one of these DODAalpha in each species encodes a protein which exhibits high levels of l-DOPA 4,5-dioxygenase activity. All betalain-pigmented species also exhibit DODAalpha paralogues with no or only marginal l-DOPA 4,5-dioxygenase activity and we also detected marginal activity in several anthocyanic taxa (Fig. 4). Thus, marginal activity is widespread among Caryophyllales DODAalpha enzymes, suggesting broader underlying catalytic promiscuity in the DODAalpha lineage. Catalytic promiscuity is well documented in the broader protocatechuate dioxygenase gene family of which the LigB/DODA lineage is a member (Burroughs et al., 2019). Such promiscuity is an important feature of metabolic evolution, potentially conferring evolvability (Weng &amp; Noel, 2012; Leong &amp; Last, 2017), and may have significant implications for the recurrent evolution of betalain pigmentation, as discussed below.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>42244</offset>
+            <text>Previous analysis of the genome of B. vulgaris revealed a putative 'gene cluster' (sensu Osbourn, 2010) in which DODAalpha and CYP76AD1 are colocalised in chromosome 2 (Brockington et al., 2015). The B. vulgaris locus with high levels of l-DOPA 4,5-dioxygenase activity falls within this operon, while the paralogues with no or only marginal l-DOPA 4,5-dioxygenase activity occur outside of the gene cluster, supporting the concept of a betalain gene cluster in B. vulgaris. Our analysis, which describes the relative synteny of homologous loci between genomes, also shows that the betalain gene cluster appears to be conserved in the genomes of C. quinoa and A. hypochondriacus (Fig. 5). These divergent species all belong to the family Amaranthaceae and represent one putative origin of betalain pigmentation (Fig. 2, origin no. 2). However, CYP76AD1 and DODAalpha1 are not clustered in the genome of M. crystallinum, which represents a different putative origin (Fig. 2, origin no. 3). Therefore, the absence of colocalisation in M. crystallinum highlights interesting structural genomic differences among putative betalain origins.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>43397</offset>
+            <text>Mapping loci encoding functionally characterised DODA proteins to a comprehensively taxon-sampled DODA gene tree, we found that within the DODAalpha lineage, loci encoding proteins with high levels of l-DOPA 4,5-dioxygenase activity are not monophyletic (Fig. 6). Specifically, each clade containing high-activity DODAalpha paralogues is sister to clades containing marginal activity DODAalpha, suggesting polyphyletic origins of high activity, associated with gene duplication within the DODAalpha lineage. Previous research identified residues in seven sites which were necessary and sufficient to confer higher levels of l-DOPA 4,5-dioxygenase activity (Bean et al., 2018). Phylogenetic reconstruction of these seven residues across the DODAalpha clade showed that polyphyletic clades containing proteins with high activity have distinctive motifs for these seven residues (Figs 6, 7). Furthermore, motifs associated with high activity evolved at least three times from a background of motifs more similar to those proteins with no or marginal l-DOPA 4,5-dioxygenase activity. The diversity we recognise at these motifs in high-activity DODAalpha sequences (e.g. between BvDODAalpha1 and ShDODAalpha1) indicates that high activity may arise from divergent sequence motifs and represent molecular convergence at key functional residues.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>44736</offset>
+            <text>Intriguingly, the origins of high l-DOPA 4,5-dioxygenase activity following gene duplication, and associated residue shifts, are congruent with at least three of the four origins of betalain pigmentation inferred from our pigment reconstructions (Fig. 8). On the basis of these integrated observations we argue that betalain biosynthesis evolved multiple times in concert with recurrent gene duplication and neofunctionalisation within the DODAalpha clade, rather than as a single event at the base of the DODAalpha clade. Specifically, data in support of this model include: a background of marginal levels of l-DOPA 4,5-dioxygenase activity implying inherent evolvability of the ancestral enzyme (see following paragraph); polyphyletic origins of high l-DOPA 4,5-dioxygenase activity coincident with multiple inferred origins of betalain pigmentation; and derived and convergent shifts in key residues underpinning high l-DOPA 4,5-dioxygenase activity. Together, this model explains and conceptually links the homoplastic distribution of betalain lineages and the high levels of gene duplication observed in the DODAalpha clade.</text>
+        </passage>
+        <passage>
+            <infon key="file">NPH-227-914-g008.jpg</infon>
+            <infon key="id">nph16089-fig-0008</infon>
+            <infon key="section_type">FIG</infon>
+            <infon key="type">fig_caption</infon>
+            <offset>45875</offset>
+            <text>Summary of the major evolutionary changes inferred with respect to transitions in pigment type and corresponding transitions in l-DOPA 4,5-dioxygenase activity. (a) Simplified pigment reconstruction shows family-level relationships with numbers in purple circles representing the four inferred origins of betalain pigmentation. Tips are coloured according to pigmentation state: anthocyanin (blue), betalain (pink) and unknown (grey). (b) Mirror image of pigment reconstruction topology. A black star marks the initial DODA
+alpha/DODA
+beta duplication. Purple stars indicate inferred phylogenetic locations of DODA
+alpha gene duplications giving rise to paralogues with high l-DOPA 4,5-dioxygenase activity. Black crosses indicate loss of a DODAalpha paralogue. Tips show inferred presence or absence of DODA
+alpha/DODA
+beta: black squares indicate presence of DODA
+alpha/DODA
+beta, white squares with a cross indicate loss of DODA
+alpha, and white squares with a dashed boundary indicate missing data; DODAalpha squares coloured purple are inferred to have high L-DOPA 4,5-dioxygenase activity.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>46971</offset>
+            <text>Polyphyletic origins of betalain pigmentation occur only within Caryophyllales (Fig. 2), while polyphyletic origins of high l-DOPA 4,5-dioxygenase activity are constrained to the Caryophyllales-specific DODAalpha clade (Fig. 6). Both patterns link to the concept of evolutionary precursors in which underlying evolutionary state(s) potentiate recurrent evolution of subsequent complex traits (sensu Marazzi et al., 2012). In this scenario, we propose that an initial precursor step was the evolution of tyrosine hydroxylase activity by duplication in the CYP76AD lineage, leading to an abundance of l-DOPA (DeLoache et al., 2015; Polturak et al., 2016; Sunnadeniya et al., 2016), the necessary substrate for betalamic acid biosynthesis. Given an abundance of l-DOPA, a subsequent precursor step was duplication in the DODA lineage that gave rise to a clade of DODAalpha enzymes, whose ancestral function is currently unknown, but presumably with some promiscuous ability to act on l-DOPA to produce trace betalamic acid. Subsequently, further repeated duplication within the DODAalpha lineage led to recurrent neofunctionalisation towards high levels of l-DOPA 4,5-dioxygenase activity and the production of betalamic acid.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>48208</offset>
+            <text>Such a model, in which similar enzymatic function has arisen repeatedly from homologous but nonorthologous enzymes, is not unprecedented. Many studies indicate that this form of convergent evolution is widespread in specialised plant metabolism (Pichersky &amp; Lewinsohn, 2011). For example, the enzymes that methylate purine intermediates in caffeine biosynthesis in Coffea vs Thea evolved from different branches of the SABATH carboxyl methyltransferase family (Yoneyama et al., 2006); and disparate origins of pyrrolizidine alkaloids have arisen through recurrent evolution of homospermidine synthase from the ubiquitous enzyme deoxyhypusine synthase (Reimann et al., 2004). However, the detection of this same phenomenon in the evolution of betalains is perhaps surprising, because the retention of enzymes for anthocyanin biosynthesis in betalain-pigmented species (Shimada et al., 2004, 2005) has encouraged the assumption that reversals to anthocyanin are more likely than multiple shifts to betalain pigmentation (Brockington et al., 2011, 2015).</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">title_2</infon>
+            <offset>49266</offset>
+            <text>Reconciling polyphyletic origins of high l-DOPA 4,5-dioxygenase activity with DODAalpha gene loss</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>49365</offset>
+            <text>It has always been striking that each major betalain-pigmentated clade is subtended at, or towards, its base by an anthocyanic lineage (Brockington et al., 2011). Given this essential pattern, our trait reconstructions suggest multiple origins of betalain pigmentation. In turn, this implies that many lineages are anthocyanic through retention of an ancestral state, rather than through reversal from betalain pigmentation (Brockington et al., 2011; Fig. 2). Yet, we earlier reported that DODA alpha are lost or down-regulated in anthocyanic Caryophyllaceae and Molluginaceae, and previously argued that loss of DODA alpha in these anthocyanic lineages is consistent with reversals from betalain pigmentation to anthocyanin pigmentation (Brockington et al., 2015). However, the emerging picture is more complex, and with new data presented here, we find: evidence of DODA alpha loci in all but one of the anthocyanic lineages in Caryophyllales; evidence of DODA alpha gene loss in Caryophyllaceae and Molluginaceae, but no evidence of DODA alpha gene loss in the anthocyanin-pigmented lineages, K. caespitosa, M. australis and L. aethiopicum; and evidence of DODA alpha loci with marginal l-DOPA 4,5-dioxygenase activity within anthocyanic M. australis, K. caespitosa, C. ramosissimum and T. imperati. Clearly, evolutionarily disparate anthocyanic lineages show different patterns of molecular evolution with respect to DODA alpha. Given this complex evolutionary milieu, and in the face of compelling evidence for polyphyletic origins of elevated l-DOPA 4,5-dioxygenase activity, below we propose two alternative hypotheses to explain loss of DODA alpha loci in anthocyanic lineages.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>51052</offset>
+            <text>The patterns we detect may suggest lability in early stages of betalain evolution. Anthocyanins and betalains have never been found to co-occur, but it is possible that the two classes of pigments did co-occur in early evolutionary stages. In this scenario, repeated evolution of increased l-DOPA 4,5-dioxygenase activity allowed for betalain pigmentation, initially co-occurring with anthocyanins. However, evolution of an integrated betalain pathway requires more than biosynthetic enzymes (e.g. the recruitment of the MYB transcriptional regulators; Hatlestad et al., 2014). Therefore, establishment and enhancement of the betalain pathway was only achieved in certain lineages, those which specialised to betalain pigmentation. By contrast, other lineages arising close to the origins of elevated l-DOPA 4,5-dioxygenase activity specialised to anthocyanins rather than betalains, ultimately losing the DODAalpha paralogues with elevated l-DOPA 4,5-dioxygenase activity. In these cases, anthocyanic lineages may have retained anthocyanins from ancestors in which both pigments coexisted, and inferences of reversals to anthocyanins based on DODA alpha loss are misleading. This scenario is appealing because we do not see any anthocyanin lineages that are nested deeply within the betalain-pigmented clades that stem from each inferred origin (Fig. 2), and so shifts to anthocyanin pigmentation seem less likely with evolutionary distance from inferred origins of betalain pigmentation.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>52558</offset>
+            <text>Previously, Lopez-Nieves et al. (2018) speculated that the evolution of tyrosine-derived betalains occurred in a metabolic environment enriched for tyrosine. The arogenate dehydrogenase enzyme (ADHalpha) responsible for increased tyrosine availability is also lost and/or down-regulated in the anthocyanic Caryophyllaceae and Molluginaceae lineages (Lopez-Nieves et al., 2018). Therefore, the shift to anthocyanins in these taxa may indicate deeper shifts away from a tyrosine-rich metabolism towards a metabolism in which phenylalanine plays a canonical role. The primary function of the DODAalpha paralogues with marginal l-DOPA 4,5-dioxygenase activity is unknown, but may catalyse production of tyrosine-derived metabolites, other than betalains. In this scenario, the duplication that gave rise to the DODAbeta and DODAalpha lineages led to neofunctionalisation in the DODAalpha lineage towards an unknown but tyrosine-derived enzymatic activity, with marginal l-DOPA 4,5-dioxygenase activity. Loss of DODA alpha in Caryophyllaceae and Molluginaceae could instead reflect loss of the unknown tyrosine-derived enzymatic activity, in the context of shifts towards more phenylalanine-biased metabolism, independent of origins of high l-DOPA 4,5-dioxygenase activity.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">title_2</infon>
+            <offset>53842</offset>
+            <text>Conclusion</text>
+        </passage>
+        <passage>
+            <infon key="section_type">DISCUSS</infon>
+            <infon key="type">paragraph</infon>
+            <offset>53853</offset>
+            <text>The evolutionary origin of betalain pigments in Caryophyllales and the processes that led to their homoplastic distribution have been the subject of much debate. Our new data and analyses offer compelling evidence for recurrent specialisation to betalain biosynthesis. Specifically: a background of marginal levels of l-DOPA 4,5-dioxygenase activity implying inherent evolvability; polyphyletic origins of high l-DOPA 4,5-dioxygenase activity coincident with multiple inferred origins of betalain pigmentation; derived and convergent shifts in key residues underpinning high l-DOPA 4,5-dioxygenase activity; and a lack of conservation of the betalain metabolic gene cluster between putative origins of betalain pigmentation. However, our hypothesis requires future experimentation. First, it will be important to identify the primary function of those DODAalpha proteins that only exhibit marginal l-DOPA 4,5-dioxygenase activity. Elucidation of this unknown function will further inform the inferences made in this study and direct future hypotheses. Further validation could also emerge by considering other aspects of the betalain biosynthesis pathway. For example, as exemplified by our syntenic analyses, it may be possible to discern the signal of multiple origins at different hierarchical levels of the betalain pathway, including: patterns of gene clustering by genomic colocalisation; patterns of co-option of transcriptional regulators and other genes; and the dissection of the molecular convergence signal at key residues. It is fortunate here that three of the putative origins of betalain biosynthesis are represented by well-resourced experimental systems: Portulaca grandiflora, Mirabilis jalapa and B. vulgaris, which together promise rapid progress in this era of betalain renaissance.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">AUTH_CONT</infon>
+            <infon key="type">title_1</infon>
+            <offset>55676</offset>
+            <text>Author contributions</text>
+        </passage>
+        <passage>
+            <infon key="section_type">AUTH_CONT</infon>
+            <infon key="type">paragraph</infon>
+            <offset>55697</offset>
+            <text>SFB, HS, TF and NWH planned and designed the research; SFB, HS and NWH wrote the manuscript; HS, TF, NWH, SLN, BP, RG, WCY, AT, RB, MJS and SAS performed experiments and analysed the data; MJM, HT, LZ, SAS, WCY, MJS, DC and JCC provided sequence data. All authors read and approved the manuscript. HS, TF and NW-H contributed equally to this work.</text>
+        </passage>
+        <passage>
+            <infon key="section_type">SUPPL</infon>
+            <infon key="type">title_1</infon>
+            <offset>56047</offset>
+            <text>Supporting information</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">title</infon>
+            <offset>56070</offset>
+            <text>References</text>
+        </passage>
+        <passage>
+            <infon key="fpage">325</infon>
+            <infon key="lpage">356</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Botanical Journal of the Linnaean Society</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">60</infon>
+            <infon key="year">1962</infon>
+            <offset>56081</offset>
+            <text>The phenolic constituents of plants and their taxonomic significance</text>
+        </passage>
+        <passage>
+            <infon key="fpage">287</infon>
+            <infon key="lpage">296</infon>
+            <infon key="pub-id_pmid">29754447</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">219</infon>
+            <infon key="year">2018</infon>
+            <offset>56150</offset>
+            <text>Gain-of-function mutations in beet DODA2 identify key residues for betalain pigment evolution</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">ref</infon>
+            <infon key="year">1876</infon>
+            <offset>56248</offset>
+            <text>Das Caryophyllinenroth</text>
+        </passage>
+        <passage>
+            <infon key="fpage">88</infon>
+            <infon key="pub-id_pmid">16504105</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">BMC Bioinformatics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">7</infon>
+            <infon key="year">2006</infon>
+            <offset>56271</offset>
+            <text>SIMMAP: stochastic character mapping of discrete traits on phylogenies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">854</infon>
+            <infon key="lpage">864</infon>
+            <infon key="pub-id_pmid">21714182</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">190</infon>
+            <infon key="year">2011</infon>
+            <offset>56342</offset>
+            <text>Complex pigment evolution in the Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1170</infon>
+            <infon key="lpage">1180</infon>
+            <infon key="pub-id_pmid">25966996</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">207</infon>
+            <infon key="year">2015</infon>
+            <offset>56390</offset>
+            <text>Lineage-specific gene radiations underlie the evolution of novel betalain pigmentation in Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">10211</infon>
+            <infon key="lpage">10235</infon>
+            <infon key="pub-id_pmid">31092555</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Journal of Biological Chemistry</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">294</infon>
+            <infon key="year">2019</infon>
+            <offset>56497</offset>
+            <text>Oxidative opening of the aromatic ring: tracing the natural history of a large superfamily of dioxygenase domains and their relatives</text>
+        </passage>
+        <passage>
+            <infon key="fpage">265</infon>
+            <infon key="lpage">274</infon>
+            <infon key="pub-id_pmid">14730069</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant Physiology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">134</infon>
+            <infon key="year">2004</infon>
+            <offset>56631</offset>
+            <text>Characterization and functional identification of a novel plant 4,5-extradiol dioxygenase involved in betalain pigment biosynthesis in Portulaca grandiflora </text>
+        </passage>
+        <passage>
+            <infon key="fpage">1</infon>
+            <infon key="lpage">16</infon>
+            <infon key="pub-id_pmid">25653664</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Frontiers in Plant Science</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">6</infon>
+            <infon key="year">2015</infon>
+            <offset>56791</offset>
+            <text>Characterisation of betalain biosynthesis in Parakeelya flowers identifies the key biosynthetic gene DOD as belonging to an expanded LigB gene family that is conserved in betalain-producing species</text>
+        </passage>
+        <passage>
+            <infon key="fpage">360</infon>
+            <infon key="lpage">367</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Botanica Acta</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">109</infon>
+            <infon key="year">1996</infon>
+            <offset>56991</offset>
+            <text>Pigment evolution in the Caryophyllales: a systematic overview</text>
+        </passage>
+        <passage>
+            <infon key="elocation-id">e00345</infon>
+            <infon key="fpage">19</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">American Society for Microbiology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">10</infon>
+            <infon key="year">2019</infon>
+            <offset>57054</offset>
+            <text>First betalain-producing bacteria break the exclusive presence of the pigments in the plant kingdom</text>
+        </passage>
+        <passage>
+            <infon key="fpage">12003</infon>
+            <infon key="lpage">12008</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Proceedings of the National Academy of Sciences, USA</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">114</infon>
+            <infon key="year">2017</infon>
+            <offset>57154</offset>
+            <text>Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti</text>
+        </passage>
+        <passage>
+            <infon key="fpage">465</infon>
+            <infon key="lpage">471</infon>
+            <infon key="pub-id_pmid">25984720</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature Chemical Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">11</infon>
+            <infon key="year">2015</infon>
+            <offset>57252</offset>
+            <text>An enzyme-coupled biosensor enables (S)-reticuline production in yeast from glucose</text>
+        </passage>
+        <passage>
+            <infon key="fpage">546</infon>
+            <infon key="lpage">549</infon>
+            <infon key="pub-id_pmid">24352233</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">505</infon>
+            <infon key="year">2014</infon>
+            <offset>57340</offset>
+            <text>The genome of the recently domesticated crop plant sugar beet (Beta vulgaris)</text>
+        </passage>
+        <passage>
+            <infon key="fpage">839</infon>
+            <infon key="lpage">843</infon>
+            <infon key="pub-id_pmid">24933124</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">ACS Synthetic Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">3</infon>
+            <infon key="year">2014</infon>
+            <offset>57418</offset>
+            <text>A Golden Gate modular cloning toolbox for plants</text>
+        </passage>
+        <passage>
+            <infon key="fpage">91</infon>
+            <infon key="lpage">100</infon>
+            <infon key="pub-id_pmid">22270561</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Planta</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">236</infon>
+            <infon key="year">2012</infon>
+            <offset>57467</offset>
+            <text>Characterization of recombinant Beta vulgaris 4,5-DOPA-extradiol-dioxygenase active in the biosynthesis of betalains</text>
+        </passage>
+        <passage>
+            <infon key="fpage">337</infon>
+            <infon key="lpage">343</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Theoretical and Applied Genetics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">100</infon>
+            <infon key="year">2000</infon>
+            <offset>57590</offset>
+            <text>Linkage among the R, Y and Bl loci in table beet</text>
+        </passage>
+        <passage>
+            <infon key="fpage">62</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Frontiers in Molecular Bioscience</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">5</infon>
+            <infon key="year">2018</infon>
+            <offset>57639</offset>
+            <text>High quality de novo transcriptome assembly of Croton tiglium </text>
+        </passage>
+        <passage>
+            <infon key="fpage">92</infon>
+            <infon key="lpage">96</infon>
+            <infon key="pub-id_pmid">25436858</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature Genetics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">47</infon>
+            <infon key="year">2014</infon>
+            <offset>57702</offset>
+            <text>The beet Y locus encodes an anthocyanin MYB-like protein that activates the betalain red pigment pathway</text>
+        </passage>
+        <passage>
+            <infon key="fpage">816</infon>
+            <infon key="lpage">820</infon>
+            <infon key="pub-id_pmid">22660548</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature Genetics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">44</infon>
+            <infon key="year">2012</infon>
+            <offset>57809</offset>
+            <text>The beet R locus encodes a new cytochrome P450 required for red betalain production</text>
+        </passage>
+        <passage>
+            <infon key="fpage">131</infon>
+            <infon key="lpage">158</infon>
+            <infon key="pub-id_pmid">12746144</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Systematic Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">52</infon>
+            <infon key="year">2003</infon>
+            <offset>57893</offset>
+            <text>Stochastic mapping of morphological characters</text>
+        </passage>
+        <passage>
+            <infon key="fpage">587</infon>
+            <infon key="lpage">589</infon>
+            <infon key="pub-id_pmid">28481363</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nature Methods</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">14</infon>
+            <infon key="year">2017</infon>
+            <offset>57940</offset>
+            <text>ModelFinder: fast model selection for accurate phylogenetic estimates</text>
+        </passage>
+        <passage>
+            <infon key="fpage">27</infon>
+            <infon key="lpage">38</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Journal of Agricultural Research</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">52</infon>
+            <infon key="year">1936</infon>
+            <offset>58010</offset>
+            <text>Inheritance of some major color types in beets</text>
+        </passage>
+        <passage>
+            <infon key="fpage">487</infon>
+            <infon key="lpage">493</infon>
+            <infon key="pub-id_pmid">21209072</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Genome Research</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">21</infon>
+            <infon key="year">2011</infon>
+            <offset>58057</offset>
+            <text>Adaptive seeds tame genomic sequence comparison</text>
+        </passage>
+        <passage>
+            <infon key="fpage">105</infon>
+            <infon key="lpage">112</infon>
+            <infon key="pub-id_pmid">28822280</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Current Opinion in Structural Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">47</infon>
+            <infon key="year">2017</infon>
+            <offset>58105</offset>
+            <text>Promiscuity, impersonation and accommodation: evolution of plant specialized metabolism</text>
+        </passage>
+        <passage>
+            <infon key="fpage">74</infon>
+            <infon key="pub-id_pmid">28854926</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">BMC Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">15</infon>
+            <infon key="year">2017</infon>
+            <offset>58193</offset>
+            <text>Single-molecule sequencing and Hi-C-based proximity-guided assembly of amaranth (Amaranthus hypochondriacus) chromosomes provide insights into genome evolution</text>
+        </passage>
+        <passage>
+            <infon key="fpage">896</infon>
+            <infon key="lpage">908</infon>
+            <infon key="pub-id_pmid">28990194</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">217</infon>
+            <infon key="year">2018</infon>
+            <offset>58361</offset>
+            <text>Relaxation of tyrosine pathway regulation underlies the evolution of betalain pigmentation in Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">3918</infon>
+            <infon key="lpage">3930</infon>
+            <infon key="pub-id_pmid">23206146</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Evolution</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">66</infon>
+            <infon key="year">2012</infon>
+            <offset>58470</offset>
+            <text>Locating evolutionary precursors on a phylogenetic tree</text>
+        </passage>
+        <passage>
+            <infon key="fpage">2843</infon>
+            <infon key="lpage">2853</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Tetrahedron</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">35</infon>
+            <infon key="year">1979</infon>
+            <offset>58526</offset>
+            <text>The pigments of fly agaric, Amanita muscaria </text>
+        </passage>
+        <passage>
+            <infon key="fpage">268</infon>
+            <infon key="lpage">274</infon>
+            <infon key="pub-id_pmid">25371430</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Molecular Biology and Evolution</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">32</infon>
+            <infon key="year">2015</infon>
+            <offset>58572</offset>
+            <text>IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">531</infon>
+            <infon key="lpage">535</infon>
+            <infon key="pub-id_pmid">20921179</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant Physiology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">154</infon>
+            <infon key="year">2010</infon>
+            <offset>58673</offset>
+            <text>Gene clusters for secondary metabolic pathways: an emerging theme in plant biology</text>
+        </passage>
+        <passage>
+            <infon key="fpage">37</infon>
+            <infon key="lpage">45</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Proceedings of the Royal Society B</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">255</infon>
+            <infon key="year">1994</infon>
+            <offset>58756</offset>
+            <text>Detecting correlated evolution on phylogenies: a general method for the comparative analysis of discrete characters</text>
+        </passage>
+        <passage>
+            <infon key="fpage">612</infon>
+            <infon key="lpage">622</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Systematic Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">48</infon>
+            <infon key="year">1999</infon>
+            <offset>58872</offset>
+            <text>The maximum likelihood approach to reconstructing ancestral character states of discrete characters on phylogenies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">526</infon>
+            <infon key="lpage">528</infon>
+            <infon key="pub-id_pmid">30016406</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Bioinformatics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">35</infon>
+            <infon key="year">2019</infon>
+            <offset>58987</offset>
+            <text>Ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R</text>
+        </passage>
+        <passage>
+            <infon key="fpage">549</infon>
+            <infon key="lpage">566</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Annual Review of Plant Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">62</infon>
+            <infon key="year">2011</infon>
+            <offset>59067</offset>
+            <text>Convergent evolution in plant specialized metabolism</text>
+        </passage>
+        <passage>
+            <infon key="fpage">269</infon>
+            <infon key="lpage">283</infon>
+            <infon key="pub-id_pmid">26683006</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">210</infon>
+            <infon key="year">2016</infon>
+            <offset>59120</offset>
+            <text>Elucidation of the first committed step in betalain biosynthesis enables the heterologous engineering of betalain pigments in plants</text>
+        </passage>
+        <passage>
+            <infon key="fpage">189</infon>
+            <infon key="lpage">204</infon>
+            <infon key="pub-id_pmid">29247705</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Molecular Plant</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">11</infon>
+            <infon key="year">2018</infon>
+            <offset>59253</offset>
+            <text>Transcriptome and metabolic profiling provides insights into betalain biosynthesis and evolution in Mirabilis jalapa </text>
+        </passage>
+        <passage>
+            <infon key="pub-id_doi">10.1101/646133</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">bioRxiv</infon>
+            <infon key="type">ref</infon>
+            <infon key="year">2019</infon>
+            <offset>59371</offset>
+            <text>Next generation sequencing to investigate genomic diversity in Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="source">R: a language and environment for statistical computing</infon>
+            <infon key="type">ref</infon>
+            <infon key="year">2019</infon>
+            <offset>59449</offset>
+        </passage>
+        <passage>
+            <infon key="fpage">2772</infon>
+            <infon key="lpage">2784</infon>
+            <infon key="pub-id_pmid">15466410</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant Cell</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">16</infon>
+            <infon key="year">2004</infon>
+            <offset>59450</offset>
+            <text>Repeated evolution of the pyrrolizidine alkaloid-mediated defense system in separate angiosperm lineages</text>
+        </passage>
+        <passage>
+            <infon key="fpage">95</infon>
+            <infon key="lpage">101</infon>
+            <infon key="pub-id_pmid">15920279</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Molecular Biotechnology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">30</infon>
+            <infon key="year">2005</infon>
+            <offset>59557</offset>
+            <text>Successive chromosome walking by compatible ends ligation inverse PCR</text>
+        </passage>
+        <passage>
+            <infon key="fpage">217</infon>
+            <infon key="lpage">223</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Methods in Ecology and Evolution</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">3</infon>
+            <infon key="year">2012</infon>
+            <offset>59627</offset>
+            <text>phytools: an R package for phylogenetic comparative biology (and other things)</text>
+        </passage>
+        <passage>
+            <infon key="fpage">101</infon>
+            <infon key="lpage">109</infon>
+            <infon key="pub-id_pmid">11752195</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Molecular Biology and Evolution</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">19</infon>
+            <infon key="year">2002</infon>
+            <offset>59706</offset>
+            <text>Estimating absolute rates of molecular evolution and divergence times: a penalized likelihood approach</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1012</infon>
+            <infon key="lpage">1016</infon>
+            <infon key="pub-id_pmid">19366710</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant Cell Physiology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">50</infon>
+            <infon key="year">2009</infon>
+            <offset>59809</offset>
+            <text>Detection of DOPA 4,5-dioxygenase (DOD) activity using recombinant protein prepared from Escherichia coli cells harboring cDNA encoding DOD from Mirabilis jalapa </text>
+        </passage>
+        <passage>
+            <infon key="fpage">950</infon>
+            <infon key="lpage">959</infon>
+            <infon key="pub-id_pmid">16359388</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">The Plant Journal</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">44</infon>
+            <infon key="year">2005</infon>
+            <offset>59974</offset>
+            <text>Anthocyanidin synthase in non-anthocyanin-producing Caryophyllales species</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1290</infon>
+            <infon key="lpage">1298</infon>
+            <infon key="pub-id_pmid">15509852</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant &amp; Cell Physiology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">45</infon>
+            <infon key="year">2004</infon>
+            <offset>60053</offset>
+            <text>Dihydroflavonol 4-reductase cDNA from non-anthocyanin-producing species in the Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">2689</infon>
+            <infon key="lpage">2690</infon>
+            <infon key="pub-id_pmid">22908216</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Bioinformatics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">28</infon>
+            <infon key="year">2012</infon>
+            <offset>60153</offset>
+            <text>TreePL: divergence time estimation using penalized likelihood for large phylogenies</text>
+        </passage>
+        <passage>
+            <infon key="fpage">104</infon>
+            <infon key="lpage">108</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Methods in Ecology and Evolution</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">10</infon>
+            <infon key="year">2019</infon>
+            <offset>60237</offset>
+            <text>PyPHLAWD: a python tool for phylogenetic dataset construction</text>
+        </passage>
+        <passage>
+            <infon key="fpage">91</infon>
+            <infon key="lpage">98</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Plant Science</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">101</infon>
+            <infon key="year">1994</infon>
+            <offset>60299</offset>
+            <text>Anthocyanins and betalains: evolution of the mutually exclusive pathways</text>
+        </passage>
+        <passage>
+            <infon key="section_type">REF</infon>
+            <infon key="type">ref</infon>
+            <infon key="year">2017</infon>
+            <offset>60372</offset>
+            <text> Angiosperm phylogeny website </text>
+        </passage>
+        <passage>
+            <infon key="fpage">e0149417</infon>
+            <infon key="pub-id_pmid">26890886</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">PLoS ONE</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">11</infon>
+            <infon key="year">2016</infon>
+            <offset>60403</offset>
+            <text>Tyrosine hydroxylation in betalain pigment biosynthesis is performed by cytochrome P450 enzymes in beets (Beta vulgaris)</text>
+        </passage>
+        <passage>
+            <infon key="fpage">689</infon>
+            <infon key="lpage">700</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Systematic Botany</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">43</infon>
+            <infon key="year">2018</infon>
+            <offset>60524</offset>
+            <text>Phylogeny and systematics of Kewa (Kewaceae)</text>
+        </passage>
+        <passage>
+            <infon key="fpage">775</infon>
+            <infon key="lpage">793</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Taxon</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">65</infon>
+            <infon key="year">2016</infon>
+            <offset>60569</offset>
+            <text>Phylogeny and generic delimitation in Molluginaceae, new pigment data in Caryophyllales, and the new family Corbichoniaceae</text>
+        </passage>
+        <passage>
+            <infon key="fpage">71</infon>
+            <infon key="lpage">85</infon>
+            <infon key="pub-id_pmid">31172524</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">224</infon>
+            <infon key="year">2019</infon>
+            <offset>60693</offset>
+            <text>The evolution of betalain biosynthesis in Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">17256</infon>
+            <infon key="pub-id_pmid">30467357</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Scientific Reports</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">8</infon>
+            <infon key="year">2018</infon>
+            <offset>60750</offset>
+            <text>Redirecting primary metabolism to boost production of tyrosine-derived specialised metabolites in planta </text>
+        </passage>
+        <passage>
+            <infon key="fpage">446</infon>
+            <infon key="lpage">462</infon>
+            <infon key="pub-id_pmid">29738076</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">American Journal of Botany</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">105</infon>
+            <infon key="year">2018</infon>
+            <offset>60858</offset>
+            <text>From cacti to carnivores: improved phylotranscriptomic sampling and hierarchical homology inference provides further insight to the evolution of Caryophyllales</text>
+        </passage>
+        <passage>
+            <infon key="fpage">e49</infon>
+            <infon key="pub-id_pmid">22217600</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Nucleic Acids Research</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">40</infon>
+            <infon key="year">2012</infon>
+            <offset>61018</offset>
+            <text>MCScanX: a toolkit for detection and evolutionary analysis of gene synteny and collinearity</text>
+        </passage>
+        <passage>
+            <infon key="fpage">1141</infon>
+            <infon key="lpage">1149</infon>
+            <infon key="pub-id_pmid">23889087</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">New Phytologist</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">201</infon>
+            <infon key="year">2014</infon>
+            <offset>61110</offset>
+            <text>The evolutionary paths towards complexity: a metabolic perspective</text>
+        </passage>
+        <passage>
+            <infon key="fpage">309</infon>
+            <infon key="lpage">320</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Cold Spring Harbour Symposia on Quantitative Biology</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">77</infon>
+            <infon key="year">2012</infon>
+            <offset>61177</offset>
+            <text>The remarkable pliability and promiscuity of specialized metabolism</text>
+        </passage>
+        <passage>
+            <infon key="fpage">535</infon>
+            <infon key="lpage">546</infon>
+            <infon key="pub-id_pmid">27458999</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">DNA Research</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">23</infon>
+            <infon key="year">2016</infon>
+            <offset>61245</offset>
+            <text>Draft genome sequence of an inbred line of Chenopodium quinoa, an allotetraploid crop with great environmental adaptability and outstanding nutritional properties</text>
+        </passage>
+        <passage>
+            <infon key="fpage">125</infon>
+            <infon key="lpage">135</infon>
+            <infon key="pub-id_pmid">16333668</infon>
+            <infon key="section_type">REF</infon>
+            <infon key="source">Molecular Genetics and Genomics</infon>
+            <infon key="type">ref</infon>
+            <infon key="volume">275</infon>
+            <infon key="year">2006</infon>
+            <offset>61408</offset>
+            <text>Substrate specificity of N-methyltransferase involved in purine alkaloids synthesis is dependent upon one amino acid residue of the enzyme</text>
+        </passage>
+    </document>
+</collection>

@@ -8,15 +8,12 @@
 				"name": "Esculeoside A"
 			},
 			{
-				"name": "steroidal glycoalkaloid"
+				"name": "SGA"
 			}
 		],
 		"pathways": [
 			{
 				"name": "Esculeoside A pathway"
-			},
-			{
-				"name": "SGA-acetylation"
 			},
 			{
 				"name": "bitter SGA detoxification pathway"
@@ -28,11 +25,17 @@
 		"genes": [
 			{
 				"name": "GAME36"
+			},
+			{
+				"name": "GLYCOALKALOID METABOLISM36"
 			}
 		],
 		"anatomical_structures": [
 			{
 				"name": "fruit"
+			},
+			{
+				"name": "tomato fruit"
 			}
 		],
 		"species": [
@@ -48,15 +51,18 @@
 		"molecular_traits": [],
 		"plant_traits": [
 			{
-				"name": "sweet-tasting tomato"
+				"name": "bitter-tasting"
+			},
+			{
+				"name": "sweet-tasting"
 			}
 		],
 		"human_traits": [
 			{
-				"name": "bitterness"
+				"name": "toxicity"
 			},
 			{
-				"name": "toxicity"
+				"name": "bitterness"
 			}
 		]
 	},
@@ -75,7 +81,11 @@
 			}
 		],
 		"genes": [],
-		"anatomical_structures": [],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruit"
+			}
+		],
 		"species": [
 			{
 				"name": "tomato"
@@ -166,9 +176,6 @@
 		],
 		"human_traits": [
 			{
-				"name": "anti-nutritional"
-			},
-			{
 				"name": "toxicity"
 			},
 			{
@@ -201,20 +208,29 @@
 		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
-		"plant_traits": [],
-		"human_traits": [
+		"plant_traits": [
 			{
 				"name": "non-bitter"
 			},
 			{
 				"name": "less toxic"
+			},
+			{
+				"name": "development"
+			},
+			{
+				"name": "ripening"
 			}
-		]
+		],
+		"human_traits": []
 	},
 	{
 		"compounds": [
 			{
 				"name": "Esculeoside A"
+			},
+			{
+				"name": "SGAs"
 			},
 			{
 				"name": "Glu"
@@ -256,6 +272,9 @@
 			},
 			{
 				"name": "dehydro-SGA branch"
+			},
+			{
+				"name": "GLYCOALKALOID METABOLISM"
 			}
 		],
 		"genes": [
@@ -279,11 +298,7 @@
 			}
 		],
 		"experimental_conditions": [],
-		"molecular_traits": [
-			{
-				"name": "Specific activity"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
 	},
@@ -305,7 +320,7 @@
 				"name": "acetoxy-hydroxytomatine"
 			},
 			{
-				"name": "alkaloids"
+				"name": "ethylene"
 			}
 		],
 		"pathways": [
@@ -338,7 +353,7 @@
 				"name": "leaves"
 			},
 			{
-				"name": "fruit"
+				"name": "green fruit"
 			},
 			{
 				"name": "vacuole"
@@ -350,6 +365,9 @@
 				"name": "cytosol"
 			},
 			{
+				"name": "red, ripe tomato fruit"
+			},
+			{
 				"name": "seed"
 			}
 		],
@@ -359,20 +377,7 @@
 			}
 		],
 		"experimental_conditions": [],
-		"molecular_traits": [
-			{
-				"name": "hydroxylation"
-			},
-			{
-				"name": "acetylation"
-			},
-			{
-				"name": "glycosylation"
-			},
-			{
-				"name": "catabolism"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [
 			{
 				"name": "fruit ripening"
@@ -427,6 +432,9 @@
 		"anatomical_structures": [
 			{
 				"name": "tomato fruit"
+			},
+			{
+				"name": "fruits"
 			}
 		],
 		"species": [
@@ -442,17 +450,16 @@
 				"name": "in vitro"
 			}
 		],
-		"molecular_traits": [
+		"molecular_traits": [],
+		"plant_traits": [
 			{
 				"name": "ripening-associated metabolic shift in SGA composition"
 			}
 		],
-		"plant_traits": [
-			{
-				"name": "non-bitter forms of ripe tomato fruits"
-			}
-		],
 		"human_traits": [
+			{
+				"name": "non-bitter forms"
+			},
 			{
 				"name": "less toxic"
 			}
@@ -528,11 +535,7 @@
 				"name": "Backcross inbred lines (BILs)"
 			}
 		],
-		"molecular_traits": [
-			{
-				"name": "transcript expression profiles"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [
 			{
 				"name": "acetoxytomatine content"
@@ -546,7 +549,11 @@
 				"name": "acetoxytomatine"
 			}
 		],
-		"pathways": [],
+		"pathways": [
+			{
+				"name": "biosynthesis of acetoxytomatine"
+			}
+		],
 		"genes": [
 			{
 				"name": "GAME36"
@@ -555,15 +562,14 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "tomato"
+				"name": "cultivated tomato"
+			},
+			{
+				"name": "wild tomato"
 			}
 		],
 		"experimental_conditions": [],
-		"molecular_traits": [
-			{
-				"name": "biosynthesis"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
 	},
@@ -619,30 +625,35 @@
 				"name": "S. lycopersicum"
 			},
 			{
-				"name": "S. pennellii"
+				"name": "Micro Tom"
 			},
 			{
 				"name": "E. coli"
 			},
 			{
-				"name": "Escherichia coli"
+				"name": "S. pennellii"
 			}
 		],
 		"experimental_conditions": [
 			{
-				"name": "in vitro assays"
-			}
-		],
-		"molecular_traits": [
+				"name": "control reaction"
+			},
 			{
-				"name": "gene expression"
+				"name": "in vitro assays"
+			},
+			{
+				"name": "enzyme assays"
 			}
 		],
+		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
 	},
 	{
 		"compounds": [
+			{
+				"name": "Esculeoside A"
+			},
 			{
 				"name": "acetoxytomatine"
 			},
@@ -657,9 +668,6 @@
 			},
 			{
 				"name": "hydroxytomatine"
-			},
-			{
-				"name": "Esculeoside A"
 			}
 		],
 		"pathways": [
@@ -679,6 +687,9 @@
 				"name": "flowers"
 			},
 			{
+				"name": "fruit"
+			},
+			{
 				"name": "skin"
 			},
 			{
@@ -693,7 +704,32 @@
 				"name": "wild tomato"
 			}
 		],
-		"experimental_conditions": [],
+		"experimental_conditions": [
+			{
+				"name": "green fruit"
+			},
+			{
+				"name": "red ripe fruit"
+			},
+			{
+				"name": "fruit developmental stages"
+			},
+			{
+				"name": "fruit maturation"
+			},
+			{
+				"name": "immature green"
+			},
+			{
+				"name": "mature green"
+			},
+			{
+				"name": "breaker"
+			},
+			{
+				"name": "ripe"
+			}
+		],
 		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
@@ -756,15 +792,12 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "in vitro acyltransferase activity"
-			},
-			{
 				"name": "in vitro enzyme assays"
 			}
 		],
 		"molecular_traits": [
 			{
-				"name": "transcript expression level"
+				"name": "acyltransferase activity"
 			}
 		],
 		"plant_traits": [
@@ -916,10 +949,19 @@
 				"name": "hydroxytomatine"
 			},
 			{
-				"name": "SGA"
+				"name": "acylated SGA metabolites"
+			},
+			{
+				"name": "aromatic CoA thioesters"
 			},
 			{
 				"name": "hydroxysolamargine"
+			},
+			{
+				"name": "acetylated- SGAs"
+			},
+			{
+				"name": "butyrylated- SGAs"
 			},
 			{
 				"name": "acetoxytomatine"
@@ -945,8 +987,19 @@
 		],
 		"anatomical_structures": [],
 		"species": [],
-		"experimental_conditions": [],
-		"molecular_traits": [],
+		"experimental_conditions": [
+			{
+				"name": "coupled assays"
+			},
+			{
+				"name": "enzyme assay"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "acyltransferase activity"
+			}
+		],
 		"plant_traits": [],
 		"human_traits": []
 	},
@@ -1048,7 +1101,7 @@
 				"name": "catalytic efficiency"
 			},
 			{
-				"name": "enzyme kinetic assays"
+				"name": "preferred specificity"
 			}
 		],
 		"plant_traits": [],
@@ -1090,16 +1143,13 @@
 		],
 		"anatomical_structures": [
 			{
+				"name": "fruit"
+			},
+			{
 				"name": "leaves"
 			},
 			{
-				"name": "ripe fruit"
-			},
-			{
 				"name": "leaf tissue"
-			},
-			{
-				"name": "fruit"
 			}
 		],
 		"species": [
@@ -1113,10 +1163,14 @@
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
-				"name": "GAME36 expression levels"
+				"name": "enzyme activities"
 			}
 		],
-		"plant_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit ripening"
+			}
+		],
 		"human_traits": []
 	},
 	{
@@ -1218,6 +1272,9 @@
 			},
 			{
 				"name": "acetoxytomatine"
+			},
+			{
+				"name": "SGAs"
 			}
 		],
 		"pathways": [],
@@ -1263,12 +1320,18 @@
 			},
 			{
 				"name": "dehydrotomatine"
+			},
+			{
+				"name": "hydroxytomatine isomers"
 			}
 		],
 		"pathways": [],
 		"genes": [
 			{
 				"name": "GAME36"
+			},
+			{
+				"name": "game36"
 			}
 		],
 		"anatomical_structures": [
@@ -1292,11 +1355,7 @@
 				"name": "CRISPR-Cas9 genome editing"
 			}
 		],
-		"molecular_traits": [
-			{
-				"name": "SGA profiles"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
 	},
@@ -1312,14 +1371,18 @@
 				"name": "game36"
 			}
 		],
-		"anatomical_structures": [],
-		"species": [],
-		"experimental_conditions": [],
-		"molecular_traits": [
+		"anatomical_structures": [
 			{
-				"name": "metabolism"
+				"name": "Fruit"
 			}
 		],
+		"species": [
+			{
+				"name": "tomato"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
 	},
@@ -1366,10 +1429,7 @@
 		],
 		"experimental_conditions": [
 			{
-				"name": "game36 mutant"
-			},
-			{
-				"name": "wild type"
+				"name": "LC-MS"
 			}
 		],
 		"molecular_traits": [],
@@ -1425,22 +1485,34 @@
 				"name": "GAME36"
 			}
 		],
-		"anatomical_structures": [],
+		"anatomical_structures": [
+			{
+				"name": "fruit"
+			}
+		],
 		"species": [
 			{
 				"name": "tomato"
 			}
 		],
-		"experimental_conditions": [],
-		"molecular_traits": [
+		"experimental_conditions": [
 			{
-				"name": "SGA metabolism"
+				"name": "in vivo"
 			},
 			{
-				"name": "SGA profile"
+				"name": "in vitro"
 			}
 		],
-		"plant_traits": [],
+		"molecular_traits": [
+			{
+				"name": "acetylation"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "ripening"
+			}
+		],
 		"human_traits": []
 	},
 	{
@@ -1457,7 +1529,11 @@
 		"genes": [],
 		"anatomical_structures": [],
 		"species": [],
-		"experimental_conditions": [],
+		"experimental_conditions": [
+			{
+				"name": "in vitro"
+			}
+		],
 		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
@@ -1602,6 +1678,9 @@
 		],
 		"genes": [
 			{
+				"name": "GAME"
+			},
+			{
 				"name": "GAME31"
 			},
 			{
@@ -1616,7 +1695,7 @@
 		],
 		"anatomical_structures": [
 			{
-				"name": "leaves"
+				"name": "N. benthamiana leaves"
 			},
 			{
 				"name": "tomato fruit"
@@ -1642,13 +1721,12 @@
 			},
 			{
 				"name": "transient expression experiment"
-			}
-		],
-		"molecular_traits": [
+			},
 			{
-				"name": "accumulation"
+				"name": "reconstitution experiments"
 			}
 		],
+		"molecular_traits": [],
 		"plant_traits": [
 			{
 				"name": "fruit ripening-associated"
@@ -1706,11 +1784,7 @@
 				"name": "S. peruvianum LA1278"
 			}
 		],
-		"experimental_conditions": [
-			{
-				"name": "LC-MS based profiling"
-			}
-		],
+		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
@@ -1779,7 +1853,11 @@
 			}
 		],
 		"experimental_conditions": [],
-		"molecular_traits": [],
+		"molecular_traits": [
+			{
+				"name": "BAHD acyltransferase activity"
+			}
+		],
 		"plant_traits": [
 			{
 				"name": "bitter"
@@ -1791,11 +1869,35 @@
 		"compounds": [
 			{
 				"name": "SGA"
+			},
+			{
+				"name": "hydroxycinnamoyl-CoA"
+			},
+			{
+				"name": "hydroxycinnamoyl CoA"
+			},
+			{
+				"name": "quinate"
+			},
+			{
+				"name": "spermidine"
+			},
+			{
+				"name": "alcohol"
+			},
+			{
+				"name": "aliphatic amine"
+			},
+			{
+				"name": "Flavonoid-3-O-rutinoside-4\"'-phenylacyltransferase 1"
 			}
 		],
 		"pathways": [
 			{
 				"name": "SGA biosynthesis"
+			},
+			{
+				"name": "glycoalkaloid metabolism"
 			}
 		],
 		"genes": [
@@ -1827,7 +1929,11 @@
 				"name": "FdAT1"
 			}
 		],
-		"anatomical_structures": [],
+		"anatomical_structures": [
+			{
+				"name": "cuticular ridges"
+			}
+		],
 		"species": [
 			{
 				"name": "S. lycopersicum"
@@ -1875,7 +1981,11 @@
 				"name": "GAME36-like-2"
 			}
 		],
-		"anatomical_structures": [],
+		"anatomical_structures": [
+			{
+				"name": "chromosome 8"
+			}
+		],
 		"species": [
 			{
 				"name": "tomato"
@@ -1938,6 +2048,9 @@
 			},
 			{
 				"name": "volatile biosynthesis"
+			},
+			{
+				"name": "anthocyanin decoration"
 			}
 		],
 		"genes": [
@@ -2030,6 +2143,9 @@
 			},
 			{
 				"name": "di-hydroxytomatine"
+			},
+			{
+				"name": "acylsugar"
 			}
 		],
 		"pathways": [
@@ -2041,6 +2157,9 @@
 			},
 			{
 				"name": "acylsugar biosynthesis"
+			},
+			{
+				"name": "alternative Esculeoside A pathway"
 			}
 		],
 		"genes": [
@@ -2055,6 +2174,9 @@
 			},
 			{
 				"name": "GAME5"
+			},
+			{
+				"name": "ASATs"
 			}
 		],
 		"anatomical_structures": [
@@ -2063,6 +2185,27 @@
 			},
 			{
 				"name": "fruit"
+			},
+			{
+				"name": "fruit set"
+			},
+			{
+				"name": "mature green fruit"
+			},
+			{
+				"name": "red, ripe fruit"
+			},
+			{
+				"name": "orange and red ripe fruits"
+			},
+			{
+				"name": "red fruit"
+			},
+			{
+				"name": "green and red fruit"
+			},
+			{
+				"name": "mutant red fruits"
 			}
 		],
 		"species": [
@@ -2072,6 +2215,9 @@
 		],
 		"experimental_conditions": [
 			{
+				"name": "metabolomics experiments"
+			},
+			{
 				"name": "knockout experiments"
 			}
 		],
@@ -2079,15 +2225,18 @@
 		"plant_traits": [],
 		"human_traits": [
 			{
-				"name": "toxic"
+				"name": "bitter"
 			},
 			{
-				"name": "bitter"
+				"name": "toxic"
 			}
 		]
 	},
 	{
 		"compounds": [
+			{
+				"name": "SGA"
+			},
 			{
 				"name": "alpha-tomatine"
 			},
@@ -2145,7 +2294,11 @@
 			}
 		],
 		"molecular_traits": [],
-		"plant_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit ripening"
+			}
+		],
 		"human_traits": [
 			{
 				"name": "bitter flavor"
@@ -2205,7 +2358,11 @@
 				"name": "in vivo"
 			}
 		],
-		"molecular_traits": [],
+		"molecular_traits": [
+			{
+				"name": "hyaluronidase activity"
+			}
+		],
 		"plant_traits": [],
 		"human_traits": [
 			{
@@ -2241,11 +2398,7 @@
 		],
 		"species": [],
 		"experimental_conditions": [],
-		"molecular_traits": [
-			{
-				"name": "metabolic engineering"
-			}
-		],
+		"molecular_traits": [],
 		"plant_traits": [
 			{
 				"name": "fruit maturation"
@@ -2255,6 +2408,9 @@
 			},
 			{
 				"name": "fruit sweetness"
+			},
+			{
+				"name": "bitterness"
 			}
 		],
 		"human_traits": [
