@@ -16,7 +16,7 @@ def _static_header():
         - Genes: Plant gene names (e.g., HISN6A, AT2G46505, AT3G19450).
         - Anatomical Structures: Physical anatomical structures in plants, including organs, tissues, cells, cell parts and anatomical spaces (e.g., anther wall, root tip, plant cuticle, lenticel).
         - Species: Plant species names, including common and scientific names (e.g., Arabidopsis thaliana, Oryza sativa, Zea mays).
-        - Experimental Conditions: Treatments, growing conditions, and/or study types used in plant biology experiments. (e.g., salt exposure, drought environment exposure, cold temperature exposure, IR light exposure).
+        - Experimental Conditions: Treatments, growing conditions, and/or study types used in plant biology experiments (e.g., salt exposure, drought environment exposure, cold temperature exposure, IR light exposure).
         - Molecular Traits: Molecular-level traits or molecular functions in plants (e.g., oxidoreductase activity, glycosyltransferase activity, GTP binding).
         - Plant Traits: Observable phenotypic traits of a plant, distinguishable features, characteristics or qualities of a developing or maturing plant (e.g., plant height, leaf shattering, flowering time trait, drought tolerance).
         - Human Traits: Traits of plants that are relevant to humans (e.g., nutritional quality, allergenicity, flavor, toxicity).
@@ -37,6 +37,7 @@ def _static_header():
         Rules:
         - Return ONLY a valid JSON object. Do not wrap it in quotes. No markdown or explanations.
         - Do not infer or guess entities; extract only verbatim mentions from the text. For example, if the text says "A. thaliana", extract "A. thaliana", not "Arabidopsis thaliana".
+        - If an entity name is followed by an abbreviation or alternative name in parentheses, extract only the name outside the parentheses.
         - Each list may be empty if none are found.
                     
         Now, analyze the following text:

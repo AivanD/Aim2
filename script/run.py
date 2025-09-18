@@ -110,6 +110,7 @@ def main():
                         max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
                         temperature=1e-67,  # adjust as needed
                     )
+                    time.sleep(0.1)
 
                     # OPTION 2: GROQ inference (no batching)
                     # result = groq_inference(passage_text)

@@ -43,11 +43,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -120,6 +116,9 @@
 	},
 	{
 		"compounds": [
+			{
+				"name": "specialised metabolites"
+			},
 			{
 				"name": "betalain pigments"
 			},
@@ -209,7 +208,10 @@
 				"name": "betacyanins"
 			},
 			{
-				"name": "l-3,4-dihydroxyphenylalanine (l-DOPA)"
+				"name": "l-3,4-dihydroxyphenylalanine"
+			},
+			{
+				"name": "l-DOPA"
 			},
 			{
 				"name": "betalamic acid"
@@ -282,9 +284,6 @@
 			},
 			{
 				"name": "betalamic acid"
-			},
-			{
-				"name": "l-3,4-dihydroxyphenylalanine"
 			}
 		],
 		"pathways": [
@@ -475,10 +474,7 @@
 		"molecular_traits": [],
 		"plant_traits": [
 			{
-				"name": "pigmentation state"
-			},
-			{
-				"name": "betalain pigmentation"
+				"name": "pigmentation"
 			}
 		],
 		"human_traits": []
@@ -700,19 +696,13 @@
 	{
 		"compounds": [
 			{
-				"name": "betalain"
-			},
-			{
-				"name": "l-DOPA"
-			},
-			{
-				"name": "betacyanin"
-			},
-			{
 				"name": "betanin"
 			},
 			{
 				"name": "isobetanin"
+			},
+			{
+				"name": "l-DOPA"
 			}
 		],
 		"pathways": [],
@@ -734,9 +724,6 @@
 			},
 			{
 				"name": "BvDODAalpha3"
-			},
-			{
-				"name": "firefly luciferase"
 			}
 		],
 		"anatomical_structures": [
@@ -795,9 +782,6 @@
 			},
 			{
 				"name": "BvDODAalpha1"
-			},
-			{
-				"name": "DODAalpha1"
 			},
 			{
 				"name": "ShDODAalpha1"
@@ -926,9 +910,6 @@
 				"name": "l-DOPA"
 			},
 			{
-				"name": "betacyanin"
-			},
-			{
 				"name": "betanin"
 			},
 			{
@@ -980,9 +961,6 @@
 		"anatomical_structures": [
 			{
 				"name": "leaf"
-			},
-			{
-				"name": "infiltration spots"
 			},
 			{
 				"name": "hypocotyl"
@@ -1044,6 +1022,9 @@
 				"name": "MYB"
 			},
 			{
+				"name": "DODAalpha"
+			},
+			{
 				"name": "McDODA alpha 1"
 			},
 			{
@@ -1089,15 +1070,6 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Amaranthaceae"
-			},
-			{
-				"name": "Aizoaceae"
-			},
-			{
-				"name": "Mesembryanthemum crystallinum"
-			},
-			{
 				"name": "Amaranthus hypochondriacus"
 			},
 			{
@@ -1107,7 +1079,7 @@
 				"name": "Chenopodium quinoa"
 			},
 			{
-				"name": "M. crystallinum"
+				"name": "Mesembryanthemum crystallinum"
 			}
 		],
 		"experimental_conditions": [],
@@ -1128,6 +1100,9 @@
 			},
 			{
 				"name": "DODAalpha"
+			},
+			{
+				"name": "DODAalpha1"
 			},
 			{
 				"name": "ShDODAalpha1"
@@ -1191,7 +1166,7 @@
 	{
 		"compounds": [
 			{
-				"name": "betalain"
+				"name": "betalain pigments"
 			},
 			{
 				"name": "l-DOPA"
@@ -1295,9 +1270,6 @@
 			},
 			{
 				"name": "Stegnosperma"
-			},
-			{
-				"name": "Amaranthaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1418,7 +1390,7 @@
 				"name": "betalain"
 			},
 			{
-				"name": "l-DOPA"
+				"name": "l-DOPA 4,5-dioxygenase"
 			},
 			{
 				"name": "betanin"
@@ -1470,6 +1442,9 @@
 		"plant_traits": [
 			{
 				"name": "betalain pigmentation"
+			},
+			{
+				"name": "anthocyanic"
 			}
 		],
 		"human_traits": []
@@ -1478,9 +1453,6 @@
 		"compounds": [
 			{
 				"name": "betalain"
-			},
-			{
-				"name": "l-DOPA 4,5-dioxygenase"
 			}
 		],
 		"pathways": [],
@@ -1526,7 +1498,7 @@
 	{
 		"compounds": [
 			{
-				"name": "l-DOPA"
+				"name": "l-DOPA 4,5-dioxygenase"
 			}
 		],
 		"pathways": [],
@@ -1593,12 +1565,6 @@
 		"compounds": [
 			{
 				"name": "l-DOPA"
-			},
-			{
-				"name": "betalain"
-			},
-			{
-				"name": "anthocyanin"
 			}
 		],
 		"pathways": [],
@@ -1623,7 +1589,10 @@
 		],
 		"plant_traits": [
 			{
-				"name": "pigmentation state"
+				"name": "betalain pigmentation"
+			},
+			{
+				"name": "anthocyanin"
 			}
 		],
 		"human_traits": []
@@ -1874,7 +1843,7 @@
 	{
 		"compounds": [
 			{
-				"name": "betalain"
+				"name": "betalain pigments"
 			},
 			{
 				"name": "l-DOPA"
@@ -1885,14 +1854,13 @@
 				"name": "betalain biosynthesis"
 			},
 			{
+				"name": "betalain biosynthesis pathway"
+			},
+			{
 				"name": "betalain pathway"
 			}
 		],
-		"genes": [
-			{
-				"name": "DODAalpha"
-			}
-		],
+		"genes": [],
 		"anatomical_structures": [],
 		"species": [
 			{
