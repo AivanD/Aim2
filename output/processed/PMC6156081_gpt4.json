@@ -1,0 +1,3486 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "carboxyblumenol",
+				"spans": [[533, 548]]
+			},
+			{
+				"name": "blumenols",
+				"spans": [[700, 709]]
+			},
+			{
+				"name": "C-glucosides",
+				"spans": [[549, 561]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[756, 762]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[198, 203],
+					[747, 752]
+				]
+			},
+			{
+				"name": "leaf",
+				"spans": [[314, 318]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[497, 502]]
+			},
+			{
+				"name": "root",
+				"spans": [[569, 573]]
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[865, 885]]
+			},
+			{
+				"name": "Medicago truncatula",
+				"spans": [[942, 961]]
+			},
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[887, 904]]
+			},
+			{
+				"name": "Triticum aestivum",
+				"spans": [[923, 940]]
+			},
+			{
+				"name": "Brachypodium distachyon",
+				"spans": [[966, 989]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[906, 921]]
+			},
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[594, 613]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "field-based QTL mapping",
+				"spans": [[1084, 1107]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "AMF-colonization",
+				"spans": [[574, 590]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphorus",
+				"spans": [
+					[1177, 1187],
+					[1208, 1218],
+					[1506, 1516]
+				],
+				"CID": 5462309,
+				"SMILES": "P",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "sugars",
+				"spans": [[1551, 1557]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[1489, 1494]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphate",
+				"spans": [[1721, 1730]],
+				"CID": 1061,
+				"SMILES": "[O-]P(=O)([O-])[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "plant roots",
+				"spans": [[2066, 2077]]
+			}
+		],
+		"species": [
+			{
+				"name": "barley",
+				"spans": [[1619, 1625]]
+			},
+			{
+				"name": "potatoes",
+				"spans": [[1630, 1638]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[2358, 2367],
+					[2662, 2671]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[2408, 2414]]
+			},
+			{
+				"name": "roots",
+				"spans": [[2386, 2391]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[2419, 2425]]
+			}
+		],
+		"species": [
+			{
+				"name": "coyote tobacco",
+				"spans": [[2199, 2213]]
+			},
+			{
+				"name": "barley",
+				"spans": [[2608, 2614]]
+			},
+			{
+				"name": "potato",
+				"spans": [[2597, 2603]]
+			},
+			{
+				"name": "tomato",
+				"spans": [[2589, 2595]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[2803, 2812],
+					[2954, 2963]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "plant root samples",
+				"spans": [[2923, 2941]]
+			},
+			{
+				"name": "plant shoots",
+				"spans": [[2816, 2828]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[2833, 2839]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "amino acids",
+				"spans": [[3834, 3845]]
+			},
+			{
+				"name": "phosphorous",
+				"spans": [[3369, 3380]],
+				"CID": 5462309,
+				"SMILES": "P",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "nitrogen",
+				"spans": [[3389, 3397]],
+				"CID": 947,
+				"SMILES": "N#N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "proteins",
+				"spans": [[3820, 3828]]
+			},
+			{
+				"name": "phytohormones",
+				"spans": [[3884, 3897]]
+			},
+			{
+				"name": "carbon",
+				"spans": [[3434, 3440]],
+				"CID": 5462310,
+				"SMILES": "C",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "secondary metabolites",
+				"spans": [[3858, 3879]]
+			},
+			{
+				"name": "carbohydrates",
+				"spans": [[3805, 3818]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[3593, 3598]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[3928, 3943]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance to various abiotic and biotic stresses",
+				"spans": [[3483, 3532]]
+			},
+			{
+				"name": "whole-plant performance",
+				"spans": [[3615, 3638]]
+			},
+			{
+				"name": "plant growth",
+				"spans": [
+					[3466, 3478],
+					[4205, 4217]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "apocarotenoids",
+				"spans": [[4354, 4368]]
+			},
+			{
+				"name": "blumenol-type metabolites",
+				"spans": [[4265, 4290]]
+			},
+			{
+				"name": "C13 cyclohexenone derivatives",
+				"spans": [[4384, 4413]]
+			},
+			{
+				"name": "carotenoids",
+				"spans": [[4443, 4454]],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "C13 cyclohexenone",
+				"spans": [
+					[4384, 4401],
+					[4565, 4582],
+					[4658, 4675]
+				]
+			},
+			{
+				"name": "C40 carotenoid",
+				"spans": [[4482, 4496]]
+			},
+			{
+				"name": "C27 apocarotenoid",
+				"spans": [[4589, 4606]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "CCD1",
+				"spans": [[4635, 4639]]
+			},
+			{
+				"name": "carotenoid cleavage dioxygenase 7",
+				"spans": [[4511, 4544]]
+			},
+			{
+				"name": "CCD7",
+				"spans": [[4546, 4550]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[4305, 4310],
+					[4728, 4733],
+					[5008, 5013]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Ornithogalum umbellatum",
+				"spans": [[5214, 5237]]
+			},
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[5110, 5130]]
+			},
+			{
+				"name": "Medicago truncatula",
+				"spans": [[5192, 5211]]
+			},
+			{
+				"name": "Nicotiana tabacum",
+				"spans": [[5135, 5152]]
+			},
+			{
+				"name": "Lotus japonicus",
+				"spans": [[5172, 5187]]
+			},
+			{
+				"name": "Allium porrum",
+				"spans": [[5240, 5253]]
+			},
+			{
+				"name": "Zea mays",
+				"spans": [[5161, 5169]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[5091, 5106]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-colonized",
+				"spans": [[4737, 4750]]
+			},
+			{
+				"name": "AMF colonization",
+				"spans": [[4462, 4478]]
+			},
+			{
+				"name": "AMF inoculation",
+				"spans": [[4317, 4332]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[4845, 4863]]
+			},
+			{
+				"name": "abiotic stresses",
+				"spans": [[4868, 4884]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucuronic acid",
+				"spans": [[5954, 5969]],
+				"CID": 94715,
+				"SMILES": "[C@@H]1([C@@H]([C@H](OC([C@@H]1O)O)C(=O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "Glc",
+				"spans": [[5913, 5916]],
+				"CID": 5793,
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[5904, 5911],
+					[6131, 6138],
+					[6148, 6155],
+					[6159, 6166],
+					[6176, 6183]
+				],
+				"CID": 5793,
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
+			},
+			{
+				"name": "3-hydroxy-3-methylglutarate",
+				"spans": [[6031, 6058]],
+				"CID": 1662,
+				"SMILES": "CC(CC(=O)O)(CC(=O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Dicarboxylic acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				}
+			},
+			{
+				"name": "glycosyl moiety",
+				"spans": [[5847, 5862]]
+			},
+			{
+				"name": "blumenol A",
+				"spans": [[5306, 5316]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[5318, 5328]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol C-based aglycone",
+				"spans": [[5440, 5465]]
+			},
+			{
+				"name": "7,8-didehydro versions of blumenol C",
+				"spans": [[5638, 5674]]
+			},
+			{
+				"name": "aglycone",
+				"spans": [
+					[5457, 5465],
+					[5527, 5535]
+				],
+				"CID": 139597845,
+				"SMILES": "CC[C@@H](C)[C@H]1[C@@H](C=C[C@]2(O1)C[C@@H]3C[C@H](O2)CC=C([C@H]([C@H](C=CC=C4CO[C@H]5[C@]4([C@@H](C=C([C@H]5O)C)C(=O)O3)O)C)O)C)C",
+				"Natural_product_class": {
+					"Np_class": ["Avermectins"],
+					"Np_superclass": ["Macrolides"]
+				}
+			},
+			{
+				"name": "arabinose",
+				"spans": [[5937, 5946]],
+				"CID": 439195,
+				"SMILES": "C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "apiose",
+				"spans": [[5929, 5935]],
+				"CID": 12306753,
+				"SMILES": "C1[C@@]([C@H](C(O1)O)O)(CO)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "malonylated",
+				"spans": [[6006, 6017]]
+			},
+			{
+				"name": "blumenol C",
+				"spans": [
+					[5333, 5343],
+					[5440, 5450],
+					[5664, 5674]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "rhamnose",
+				"spans": [[5919, 5927]],
+				"CID": 25310,
+				"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "O-glycoside",
+				"spans": [[5734, 5745]]
+			},
+			{
+				"name": "blumenol glycosides",
+				"spans": [[5407, 5426]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[6398, 6406]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol B",
+				"spans": [[6481, 6491]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol C",
+				"spans": [
+					[6496, 6506],
+					[6522, 6532]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "glycoside",
+				"spans": [[6552, 6561]]
+			},
+			{
+				"name": "blumenol A",
+				"spans": [[6469, 6479]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol compounds",
+				"spans": [[6974, 6992]]
+			},
+			{
+				"name": "blumenol A",
+				"spans": [
+					[6596, 6606],
+					[6608, 6618]
+				],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol A-9-O-Glc",
+				"spans": [[6608, 6626]]
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[6628, 6638]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[6578, 6587],
+					[7202, 7211],
+					[7415, 7424]
+				]
+			},
+			{
+				"name": "blumenol derivatives",
+				"spans": [[7500, 7520]]
+			},
+			{
+				"name": "blumenol C",
+				"spans": [
+					[6640, 6650],
+					[6655, 6665]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol C-9-O-Glc",
+				"spans": [[6655, 6673]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial parts",
+				"spans": [[6710, 6722]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[7302, 7308]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization",
+				"spans": [
+					[6938, 6954],
+					[7336, 7352],
+					[7576, 7592]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[8046, 8052]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[7941, 7946]]
+			},
+			{
+				"name": "aerial plant tissues",
+				"spans": [[7648, 7668]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[7827, 7831],
+					[8009, 8013]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc",
+				"spans": [
+					[10021, 10049],
+					[10129, 10157]
+				]
+			},
+			{
+				"name": "nicotine",
+				"spans": [[9205, 9213]],
+				"CID": 89594,
+				"SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+				"Natural_product_class": {
+					"Np_class": ["Pyridine alkaloids"],
+					"Np_superclass": ["Nicotinic acid alkaloids"]
+				}
+			},
+			{
+				"name": "11-carboxyblumenol C-9-O-Glc",
+				"spans": [[10075, 10103]]
+			},
+			{
+				"name": "blumenol C-9-O-Glc-Glc",
+				"spans": [[10176, 10198]]
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[9218, 9231]],
+				"CID": 6140,
+				"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				}
+			},
+			{
+				"name": "blumenol C-9-O-Glc",
+				"spans": [
+					[10176, 10194],
+					[10216, 10234]
+				]
+			},
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc-Glc",
+				"spans": [[10129, 10161]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[8708, 8713]]
+			},
+			{
+				"name": "root tissues",
+				"spans": [[8222, 8234]]
+			}
+		],
+		"species": [
+			{
+				"name": "Rhizophagus irregularis",
+				"spans": [[8412, 8435]]
+			},
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[8259, 8278]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[9759, 9783]]
+			},
+			{
+				"name": "co-cultured with or without Rhizophagus irregularis",
+				"spans": [[8384, 8435]]
+			},
+			{
+				"name": "AMF-association",
+				"spans": [[8507, 8522]]
+			},
+			{
+				"name": "AMF associations",
+				"spans": [[9849, 9865]]
+			},
+			{
+				"name": "plant-fungus interactions",
+				"spans": [[8646, 8671]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol derivatives",
+				"spans": [[10269, 10289]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[10264, 10268],
+					[10317, 10321]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "AMF colonization",
+				"spans": [[10322, 10338]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [
+					[10429, 10440],
+					[10683, 10694]
+				]
+			},
+			{
+				"name": "blumenol derivatives",
+				"spans": [[11098, 11118]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PT4",
+				"spans": [[10896, 10899]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[10872, 10876]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[10797, 10803]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[10878, 10885]]
+			},
+			{
+				"name": "NaIF-5a",
+				"spans": [[11024, 11031]]
+			},
+			{
+				"name": "STR1",
+				"spans": [[10887, 10891]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[10459, 10464]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[10754, 10768]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[10556, 10571]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol derivatives",
+				"spans": [[11276, 11296]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[11355, 11360]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[11365, 11371]]
+			}
+		],
+		"species": [
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[11375, 11394]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phenylalanine",
+				"spans": [[11736, 11749]],
+				"CID": 6140,
+				"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				}
+			},
+			{
+				"name": "nicotine",
+				"spans": [[11726, 11734]],
+				"CID": 89594,
+				"SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+				"Natural_product_class": {
+					"Np_class": ["Pyridine alkaloids"],
+					"Np_superclass": ["Nicotinic acid alkaloids"]
+				}
+			},
+			{
+				"name": "phenolics",
+				"spans": [[11762, 11771]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[12203, 12209]]
+			},
+			{
+				"name": "roots",
+				"spans": [[12193, 12198]]
+			},
+			{
+				"name": "root",
+				"spans": [[11549, 11553]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[11498, 11512]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculated",
+				"spans": [[11471, 11481]]
+			},
+			{
+				"name": "co-cultured",
+				"spans": [[11455, 11466]]
+			},
+			{
+				"name": "AMF inoculation",
+				"spans": [[12237, 12252]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-glycosides",
+				"spans": [[12505, 12526]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "arbuscular mycorrhizal symbiosis",
+				"spans": [[12731, 12763]]
+			}
+		],
+		"genes": [
+			{
+				"name": "PT4",
+				"spans": [[12857, 12860]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[12842, 12846]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[12805, 12811]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[12833, 12840]]
+			},
+			{
+				"name": "STR1",
+				"spans": [[12848, 12852]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[13148, 13157]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[13110, 13115]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[13083, 13089],
+					[13179, 13185],
+					[13419, 13425]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol",
+				"spans": [[15677, 15685]]
+			},
+			{
+				"name": "Compound 2",
+				"spans": [[15158, 15168]]
+			},
+			{
+				"name": "Compound 1",
+				"spans": [
+					[14163, 14173],
+					[15114, 15124]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "AMF-marker-genes",
+				"spans": [[13963, 13979]]
+			},
+			{
+				"name": "irCCaMK",
+				"spans": [
+					[14673, 14680],
+					[14760, 14767],
+					[15054, 15061]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem pieces",
+				"spans": [[15783, 15794]]
+			},
+			{
+				"name": "aerial plant parts",
+				"spans": [[15980, 15998]]
+			},
+			{
+				"name": "leaf positions",
+				"spans": [[15767, 15781]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[13929, 13934],
+					[14015, 14020],
+					[14269, 14274],
+					[15376, 15381],
+					[15702, 15707]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[13719, 13725],
+					[13866, 13872],
+					[14045, 14051],
+					[14659, 14665],
+					[14909, 14915]
+				]
+			},
+			{
+				"name": "flowers",
+				"spans": [[15796, 15803]]
+			},
+			{
+				"name": "plant tissues",
+				"spans": [[15732, 15745]]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[15109, 15113],
+					[15767, 15771]
+				]
+			},
+			{
+				"name": "shoot",
+				"spans": [[15888, 15893]]
+			},
+			{
+				"name": "root",
+				"spans": [[13614, 13618]]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[15362, 15372]]
+			},
+			{
+				"name": "capsules",
+				"spans": [[15808, 15816]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[13752, 13766],
+					[14360, 14374],
+					[14555, 14569],
+					[14825, 14839]
+				]
+			},
+			{
+				"name": "Funneliformis mosseae",
+				"spans": [[14529, 14550]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[16058, 16070]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "planted into the plant's natural environment in Utah",
+				"spans": [[14988, 15040]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [[15522, 15531]]
+			},
+			{
+				"name": "inoculum-gradient experiment",
+				"spans": [[14070, 14098]]
+			},
+			{
+				"name": "natural inoculum",
+				"spans": [[14603, 14619]]
+			},
+			{
+				"name": "mycorrhizal inoculum",
+				"spans": [[14392, 14412]]
+			},
+			{
+				"name": "co-cultured with the AMF",
+				"spans": [[14926, 14950]]
+			},
+			{
+				"name": "inoculation with a single AMF species",
+				"spans": [[14321, 14358]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[15533, 15551]]
+			},
+			{
+				"name": "drought stress",
+				"spans": [[15556, 15570]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "differential colonization of roots",
+				"spans": [[14240, 14274]]
+			},
+			{
+				"name": "colonization level of the roots",
+				"spans": [[13903, 13934]]
+			},
+			{
+				"name": "degree of mycorrhizal colonization",
+				"spans": [[16020, 16054]]
+			},
+			{
+				"name": "root colonization rates",
+				"spans": [[13614, 13637]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "quality marker",
+				"spans": [[15187, 15201]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol derivatives",
+				"spans": [[16123, 16143]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[16147, 16152]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[16157, 16163]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[16167, 16179]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-induced",
+				"spans": [[16095, 16106]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 2",
+				"spans": [[16725, 16735]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[16278, 16283],
+					[16743, 16748]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[16303, 16309],
+					[16768, 16774]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[16368, 16382],
+					[16385, 16399],
+					[16833, 16847]
+				]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[16325, 16337],
+					[16790, 16802]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation with R. irregularis",
+				"spans": [
+					[16351, 16382],
+					[16816, 16847]
+				]
+			},
+			{
+				"name": "untreated control",
+				"spans": [[16424, 16441]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[17149, 17160]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[17180, 17186]]
+			},
+			{
+				"name": "roots",
+				"spans": [[17170, 17175]]
+			},
+			{
+				"name": "root",
+				"spans": [[17086, 17090]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[17190, 17202]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[17435, 17446]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[17456, 17461]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[17470, 17476]]
+			},
+			{
+				"name": "hyphae",
+				"spans": [[17320, 17326]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[17346, 17354]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[17208, 17212],
+					[17369, 17373]
+				]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[17331, 17341]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[17287, 17301],
+					[17539, 17553]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation with R. irregularis",
+				"spans": [
+					[17270, 17301],
+					[17522, 17553]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root length colonization",
+				"spans": [[17369, 17393]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1",
+				"spans": [[17756, 17766]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCCaMK",
+				"spans": [[17805, 17812]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "Root",
+				"spans": [[17717, 17721]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1",
+				"spans": [[18150, 18160]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[18055, 18060],
+					[18171, 18176]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[18181, 18187]]
+			},
+			{
+				"name": "hyphae",
+				"spans": [[17893, 17899]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[17919, 17927]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[17823, 17827],
+					[17942, 17946]
+				]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[17904, 17914]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[18102, 18116],
+					[18229, 18243]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 2",
+				"spans": [[18362, 18372]]
+			},
+			{
+				"name": "Compound 1",
+				"spans": [[18297, 18307]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field samples",
+				"spans": [[18335, 18348]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1",
+				"spans": [[18676, 18686]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "Leaf",
+				"spans": [[18374, 18378]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field-grown",
+				"spans": [[18434, 18445]]
+			},
+			{
+				"name": "glasshouse",
+				"spans": [[18407, 18417]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[18710, 18714]]
+			},
+			{
+				"name": "root",
+				"spans": [[18726, 18730]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[18751, 18763]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "WGA-488",
+				"spans": [[19731, 19738]]
+			},
+			{
+				"name": "Compounds 1",
+				"spans": [
+					[18797, 18808],
+					[19020, 19031],
+					[19236, 19247],
+					[19557, 19568],
+					[19801, 19812],
+					[19984, 19995]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCCaMK",
+				"spans": [
+					[18901, 18908],
+					[18938, 18945],
+					[19280, 19287],
+					[19610, 19617]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "root length",
+				"spans": [[19909, 19920]]
+			},
+			{
+				"name": "roots",
+				"spans": [[19747, 19752]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[18818, 18824]]
+			},
+			{
+				"name": "hyphae",
+				"spans": [[19870, 19876]]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[19001, 19005],
+					[19257, 19261],
+					[19578, 19582],
+					[19796, 19800]
+				]
+			},
+			{
+				"name": "tissues",
+				"spans": [[20018, 20025]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[19890, 19898]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[19849, 19853],
+					[19909, 19913]
+				]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[19878, 19888]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculum isolated from the plant's native habitat",
+				"spans": [[19330, 19383]]
+			},
+			{
+				"name": "inoculum concentrations",
+				"spans": [[19085, 19108]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [
+					[18878, 18893],
+					[18921, 18936],
+					[20102, 20117]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root colonization",
+				"spans": [[19849, 19866]]
+			},
+			{
+				"name": "total root length colonization",
+				"spans": [[19903, 19933]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20268, 20274]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[20302, 20314]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PT4",
+				"spans": [[20707, 20710]]
+			},
+			{
+				"name": "CCaMK",
+				"spans": [[20691, 20696]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[20721, 20725]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[20641, 20647]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[20698, 20705]]
+			},
+			{
+				"name": "NaIF-5a",
+				"spans": [[20361, 20368]]
+			},
+			{
+				"name": "STR1",
+				"spans": [[20712, 20716]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "Leaf",
+				"spans": [[20727, 20731]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[20417, 20423]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[20383, 20387],
+					[20530, 20534]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[20465, 20479],
+					[20553, 20567],
+					[20598, 20612]
+				]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[20427, 20439]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "control",
+				"spans": [[20506, 20513]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[20914, 20925]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20935, 20941]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "abiotic stresses",
+				"spans": [[20866, 20882]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[21376, 21387]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20964, 20970]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[20974, 20986]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Dehydration",
+				"spans": [[21270, 21281]]
+			},
+			{
+				"name": "Botrytis cinerea infection",
+				"spans": [[21130, 21156]]
+			},
+			{
+				"name": "Manduca sexta feeding",
+				"spans": [[21091, 21112]]
+			},
+			{
+				"name": "Agrobacterium tumefaciens carrying the Tobacco Rattle Virus",
+				"spans": [[21205, 21264]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "apocarotenoids",
+				"spans": [
+					[21538, 21552],
+					[21860, 21874]
+				]
+			},
+			{
+				"name": "Compound 6",
+				"spans": [
+					[22838, 22848],
+					[22951, 22961]
+				]
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[21524, 21533],
+					[22003, 22012],
+					[22184, 22193],
+					[23133, 23142]
+				]
+			},
+			{
+				"name": "dexamethasone",
+				"spans": [[22379, 22392]],
+				"CID": 5743,
+				"SMILES": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+				"Natural_product_class": {
+					"Np_class": ["Pregnane steroids"],
+					"Np_superclass": ["Steroids"]
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid pathway",
+				"spans": [[21591, 21609]]
+			}
+		],
+		"genes": [
+			{
+				"name": "phytoene desaturase",
+				"spans": [[22437, 22456]]
+			},
+			{
+				"name": "PDS",
+				"spans": [
+					[22458, 22461],
+					[22572, 22575]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem pieces",
+				"spans": [[22099, 22110]]
+			},
+			{
+				"name": "leaf position",
+				"spans": [[22498, 22511]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[23323, 23329]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[21685, 21690],
+					[21933, 21938],
+					[22783, 22788],
+					[23154, 23159],
+					[23304, 23309]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[21703, 21709],
+					[22521, 22527],
+					[22943, 22949]
+				]
+			},
+			{
+				"name": "stem sap",
+				"spans": [[22016, 22024]]
+			},
+			{
+				"name": "tissues",
+				"spans": [
+					[22743, 22750],
+					[22888, 22895]
+				]
+			},
+			{
+				"name": "aerial tissues",
+				"spans": [[22881, 22895]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[21713, 21725],
+					[22253, 22265]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "overnight incubation",
+				"spans": [[23223, 23243]]
+			},
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[21748, 21772]]
+			},
+			{
+				"name": "DEX-treated",
+				"spans": [
+					[22486, 22497],
+					[22931, 22942]
+				]
+			},
+			{
+				"name": "genetically manipulated",
+				"spans": [[22198, 22221]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "PDS silencing",
+				"spans": [[22572, 22585]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "bleaching",
+				"spans": [[22550, 22559]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[23403, 23414]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[23438, 23443]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "dexamethasone",
+				"spans": [[25570, 25583]],
+				"CID": 5743,
+				"SMILES": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+				"Natural_product_class": {
+					"Np_class": ["Pregnane steroids"],
+					"Np_superclass": ["Steroids"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [[26134, 26143]]
+			},
+			{
+				"name": "lanolin",
+				"spans": [[25601, 25608]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid biosynthesis",
+				"spans": [[25248, 25271]]
+			},
+			{
+				"name": "apocarotenoid pathway",
+				"spans": [[23481, 23502]]
+			}
+		],
+		"genes": [
+			{
+				"name": "HDR",
+				"spans": [[24740, 24743]]
+			},
+			{
+				"name": "HDS",
+				"spans": [[24684, 24687]]
+			},
+			{
+				"name": "GGPPs",
+				"spans": [[24150, 24155]]
+			},
+			{
+				"name": "PDS",
+				"spans": [
+					[24218, 24221],
+					[25773, 25776]
+				]
+			},
+			{
+				"name": "CYP711A1",
+				"spans": [[24388, 24396]]
+			},
+			{
+				"name": "MAX1",
+				"spans": [[24347, 24351]]
+			},
+			{
+				"name": "CCD",
+				"spans": [[24309, 24312]]
+			},
+			{
+				"name": "MCT",
+				"spans": [[24498, 24501]]
+			},
+			{
+				"name": "ZDS",
+				"spans": [[24244, 24247]]
+			},
+			{
+				"name": "CMK",
+				"spans": [[24561, 24564]]
+			},
+			{
+				"name": "D27",
+				"spans": [[24797, 24800]]
+			},
+			{
+				"name": "CRTISO",
+				"spans": [[24120, 24126]]
+			},
+			{
+				"name": "Z-ISO",
+				"spans": [[24276, 24281]]
+			},
+			{
+				"name": "MDS",
+				"spans": [[24624, 24627]]
+			},
+			{
+				"name": "PSY",
+				"spans": [[24194, 24197]]
+			},
+			{
+				"name": "DXR",
+				"spans": [[24444, 24447]]
+			},
+			{
+				"name": "DXS",
+				"spans": [[24398, 24401]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf tissues",
+				"spans": [[23915, 23927]]
+			},
+			{
+				"name": "stem leaf",
+				"spans": [[25524, 25533]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[26010, 26016]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[23873, 23878],
+					[25989, 25994],
+					[26048, 26053]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[25652, 25658],
+					[25724, 25730]
+				]
+			},
+			{
+				"name": "stem sap fluid",
+				"spans": [[24925, 24939]]
+			}
+		],
+		"species": [
+			{
+				"name": "tobacco",
+				"spans": [[23570, 23577]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[24943, 24955]]
+			},
+			{
+				"name": "Arabidopsis",
+				"spans": [[23554, 23565]]
+			},
+			{
+				"name": "tomato",
+				"spans": [[23546, 23552]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[24084, 24098],
+					[24969, 24983]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "DEX-treated leaf",
+				"spans": [[25279, 25295]]
+			},
+			{
+				"name": "chemically-inducible silencing of the phytoene desaturase",
+				"spans": [[25389, 25446]]
+			},
+			{
+				"name": "local silencing of the carotenoid biosynthesis",
+				"spans": [[25225, 25271]]
+			},
+			{
+				"name": "empty vector (EV) plants",
+				"spans": [[25474, 25498]]
+			},
+			{
+				"name": "AMF-inoculated",
+				"spans": [[25197, 25211]]
+			},
+			{
+				"name": "RNA-seq",
+				"spans": [[23712, 23719]]
+			},
+			{
+				"name": "inoculations with R. irregularis",
+				"spans": [[24066, 24098]]
+			},
+			{
+				"name": "untreated control plants",
+				"spans": [[25026, 25050]]
+			},
+			{
+				"name": "aqueous solution with or without addition of the respective blumenols",
+				"spans": [[26074, 26143]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript abundance",
+				"spans": [[23449, 23469]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "bleaching",
+				"spans": [[25742, 25751]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 6",
+				"spans": [[26331, 26341]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[26372, 26378]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[26382, 26394]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 6",
+				"spans": [
+					[26513, 26523],
+					[26733, 26743],
+					[26903, 26913],
+					[27143, 27153],
+					[27574, 27584],
+					[27673, 27683],
+					[28011, 28021],
+					[28130, 28140]
+				]
+			},
+			{
+				"name": "blumenol A-9-O-glucoside",
+				"spans": [[26586, 26610]]
+			},
+			{
+				"name": "roseoside",
+				"spans": [[26612, 26621]],
+				"CID": 9930064,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Megastigmanes"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PT4",
+				"spans": [[27870, 27873]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[27846, 27850]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[27771, 27777]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[27852, 27859]]
+			},
+			{
+				"name": "NaIF-5a",
+				"spans": [[27936, 27943]]
+			},
+			{
+				"name": "STR1",
+				"spans": [[27861, 27865]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[27467, 27471]]
+			},
+			{
+				"name": "roots",
+				"spans": [[26747, 26752]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[26527, 26533],
+					[26917, 26923],
+					[27157, 27163]
+				]
+			},
+			{
+				"name": "plant tissues",
+				"spans": [[28154, 28167]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[27728, 27742]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[26537, 26549]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "5 weeks-post-inoculation",
+				"spans": [[27251, 27275]]
+			},
+			{
+				"name": "8 weeks after planting",
+				"spans": [[27536, 27558]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [
+					[26818, 26833],
+					[26987, 27002],
+					[27030, 27045],
+					[28259, 28274]
+				]
+			},
+			{
+				"name": "different inoculum concentrations",
+				"spans": [[27190, 27223]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1",
+				"spans": [[28350, 28361]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[28371, 28377]]
+			},
+			{
+				"name": "roots",
+				"spans": [[28419, 28424]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[29277, 29286],
+					[29430, 29439]
+				]
+			},
+			{
+				"name": "MEP",
+				"spans": [[28533, 28536]]
+			},
+			{
+				"name": "methylerythritol 4-phosphate",
+				"spans": [[28503, 28531]],
+				"CID": 657101,
+				"SMILES": "CC([C@@H]([C@@H](COP(=O)(O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Aminosugars"],
+					"Np_superclass": ["Aminosugars and aminoglycosides"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PDS",
+				"spans": [[28971, 28974]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [
+					[28755, 28759],
+					[28761, 28765],
+					[28881, 28885],
+					[28893, 28897],
+					[29017, 29021]
+				]
+			},
+			{
+				"name": "shoots",
+				"spans": [[29147, 29153]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[29137, 29142],
+					[29173, 29178]
+				]
+			},
+			{
+				"name": "stem",
+				"spans": [[28750, 28754]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[29461, 29473],
+					[29527, 29539]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated",
+				"spans": [[28688, 28702]]
+			},
+			{
+				"name": "AMF colonization",
+				"spans": [[29377, 29393]]
+			},
+			{
+				"name": "DEX-containing paste",
+				"spans": [[28795, 28815]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript abundance",
+				"spans": [[28466, 28486]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "bleaching",
+				"spans": [[28951, 28960]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 2",
+				"spans": [
+					[30065, 30075],
+					[30428, 30438],
+					[30576, 30586]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NaNOPE1",
+				"spans": [[30798, 30805]]
+			},
+			{
+				"name": "NIATv7_g02911",
+				"spans": [[30681, 30694]]
+			},
+			{
+				"name": "NOPE1",
+				"spans": [[30674, 30679]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[30831, 30836]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[29817, 29823],
+					[30128, 30134],
+					[30896, 30902]
+				]
+			},
+			{
+				"name": "root",
+				"spans": [[29998, 30002]]
+			}
+		],
+		"species": [
+			{
+				"name": "rice",
+				"spans": [[30777, 30781]]
+			},
+			{
+				"name": "maize",
+				"spans": [[30767, 30772]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[30258, 30270]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "glasshouse",
+				"spans": [[30446, 30456]]
+			},
+			{
+				"name": "field-grown",
+				"spans": [[30138, 30149]]
+			},
+			{
+				"name": "AMF inoculation",
+				"spans": [[30843, 30858]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[30332, 30356]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "phenotypes",
+				"spans": [[31135, 31145]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[31361, 31366]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[31441, 31455]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[31221, 31233]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization",
+				"spans": [[31381, 31397]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[31675, 31684]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant part",
+				"spans": [[31688, 31705]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[31858, 31866]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "H. vulgare",
+				"spans": [[31966, 31976]]
+			},
+			{
+				"name": "B. distachyon",
+				"spans": [[32095, 32108]]
+			},
+			{
+				"name": "T. aestivum",
+				"spans": [[31935, 31946]]
+			},
+			{
+				"name": "M. truncatula",
+				"spans": [[32127, 32140]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [
+					[31997, 32012],
+					[32043, 32058]
+				]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [[32064, 32078]]
+			},
+			{
+				"name": "F. mossae",
+				"spans": [[32018, 32027]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[31918, 31933]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[32290, 32299]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant parts",
+				"spans": [[32303, 32321]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[33199, 33207]]
+			},
+			{
+				"name": "Compound 2",
+				"spans": [
+					[32768, 32778],
+					[32922, 32932]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NaNOPE1",
+				"spans": [[33105, 33112]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[32732, 32737],
+					[32782, 32787]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[32792, 32798]]
+			},
+			{
+				"name": "hyphae",
+				"spans": [[32551, 32557]]
+			},
+			{
+				"name": "Root",
+				"spans": [
+					[32481, 32485],
+					[32600, 32604]
+				]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[32577, 32585]]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[32562, 32572]]
+			}
+		],
+		"species": [
+			{
+				"name": "S. tuberosum",
+				"spans": [[33398, 33410]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[32515, 32527]]
+			},
+			{
+				"name": "H. vulgare",
+				"spans": [[33333, 33343]]
+			},
+			{
+				"name": "B. distachyon",
+				"spans": [[33429, 33442]]
+			},
+			{
+				"name": "T. aestivum",
+				"spans": [[33311, 33322]]
+			},
+			{
+				"name": "M. truncatula",
+				"spans": [[33364, 33377]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [[33286, 33301]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculation",
+				"spans": [[32836, 32851]]
+			},
+			{
+				"name": "AMF inoculation",
+				"spans": [[33269, 33284]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-derivatives",
+				"spans": [[33719, 33741]]
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[34244, 34253],
+					[34370, 34379]
+				]
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[34445, 34455]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol",
+				"spans": [
+					[33719, 33727],
+					[33838, 33846],
+					[34090, 34098],
+					[34445, 34453],
+					[34618, 34626]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial parts",
+				"spans": [[33858, 33870]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[34428, 34433]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[33745, 33750],
+					[34112, 34117],
+					[34596, 34601]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[34122, 34128],
+					[34261, 34267]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[33940, 33960]]
+			},
+			{
+				"name": "Medicago truncatula",
+				"spans": [[34271, 34290]]
+			},
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[34292, 34309]]
+			},
+			{
+				"name": "Triticum aestivum",
+				"spans": [[33962, 33979]]
+			},
+			{
+				"name": "F. mosseae",
+				"spans": [[34836, 34846]]
+			},
+			{
+				"name": "Glomus versiforme",
+				"spans": [[34851, 34868]]
+			},
+			{
+				"name": "Brachypodium distachyon",
+				"spans": [[34314, 34337]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [[34820, 34834]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[33984, 33999]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[34024, 34039]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[36021, 36030]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "systemic aerial tissues",
+				"spans": [[36077, 36100]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[35230, 35235],
+					[35498, 35503]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[36060, 36066]]
+			},
+			{
+				"name": "root tissues",
+				"spans": [[35619, 35631]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[36738, 36747],
+					[36862, 36871],
+					[37268, 37277],
+					[37884, 37893],
+					[38021, 38030],
+					[38565, 38574],
+					[38610, 38619]
+				]
+			},
+			{
+				"name": "apocarotenoids",
+				"spans": [[38676, 38690]]
+			},
+			{
+				"name": "mycorradicin",
+				"spans": [
+					[38621, 38633],
+					[38788, 38800]
+				],
+				"CID": 6444309,
+				"SMILES": "C/C(=C\\C=C\\C=C(\\C=C\\C(=O)O)/C)/C=C/C(=O)O",
+				"Natural_product_class": {
+					"Np_class": ["Miscellaneous apocarotenoids"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [
+					[36975, 36979],
+					[38560, 38564]
+				]
+			},
+			{
+				"name": "shoot",
+				"spans": [[36755, 36760]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[36590, 36595],
+					[37320, 37325],
+					[37457, 37462],
+					[37901, 37906],
+					[38094, 38099],
+					[38736, 38741]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[38071, 38077]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[38121, 38133]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA",
+				"spans": [[40748, 40751]],
+				"CID": 5280896,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "carotenoid",
+				"spans": [
+					[39303, 39313],
+					[39458, 39468],
+					[39695, 39705]
+				],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "strigolactones",
+				"spans": [
+					[39496, 39510],
+					[40956, 40970]
+				],
+				"CID": 324475,
+				"SMILES": "CC1=CC(OC1=O)OC=C2C3CC4=CC=CC=C4C3OC2=O",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "cytokinins",
+				"spans": [[40941, 40951]]
+			},
+			{
+				"name": "Compound 6",
+				"spans": [[39819, 39829]]
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[38941, 38950],
+					[39383, 39392],
+					[40123, 40132],
+					[40188, 40197],
+					[40336, 40345],
+					[40806, 40815],
+					[40980, 40989]
+				]
+			},
+			{
+				"name": "apocarotenoid",
+				"spans": [[38997, 39010]]
+			},
+			{
+				"name": "blumenol glucosides",
+				"spans": [[40422, 40441]]
+			},
+			{
+				"name": "Compound 1",
+				"spans": [[40011, 40021]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "apocarotenoid biosynthesis pathway",
+				"spans": [[38997, 39031]]
+			},
+			{
+				"name": "carotenoid pathway",
+				"spans": [[39303, 39321]]
+			}
+		],
+		"genes": [
+			{
+				"name": "PDS",
+				"spans": [[39681, 39684]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "xylem",
+				"spans": [[40369, 40374]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[39057, 39062],
+					[40054, 40059]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[39264, 39270],
+					[39857, 39863]
+				]
+			},
+			{
+				"name": "leaf",
+				"spans": [[39740, 39744]]
+			},
+			{
+				"name": "stem sap",
+				"spans": [[40136, 40144]]
+			},
+			{
+				"name": "shoot",
+				"spans": [
+					[38958, 38963],
+					[40219, 40224],
+					[40729, 40734]
+				]
+			},
+			{
+				"name": "seedlings",
+				"spans": [[40165, 40174]]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[40207, 40211],
+					[40721, 40725]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated plants",
+				"spans": [
+					[39066, 39087],
+					[39748, 39769]
+				]
+			},
+			{
+				"name": "hydroponic solution",
+				"spans": [[40230, 40249]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "ATP-binding",
+				"spans": [[40652, 40663]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[41128, 41137],
+					[41647, 41656],
+					[41724, 41733],
+					[41951, 41960],
+					[42041, 42050],
+					[42219, 42228]
+				]
+			},
+			{
+				"name": "vomifoliol",
+				"spans": [[41772, 41782]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "abscisic acid",
+				"spans": [[41922, 41935]],
+				"CID": 5280896,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[41187, 41192]]
+			},
+			{
+				"name": "shoot tissues",
+				"spans": [[41737, 41750]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated",
+				"spans": [[42299, 42313]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [[41217, 41232]]
+			},
+			{
+				"name": "inoculation with different AMF species",
+				"spans": [[41392, 41430]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[42353, 42371]]
+			},
+			{
+				"name": "drought",
+				"spans": [[42342, 42349]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination",
+				"spans": [[41983, 41999]]
+			},
+			{
+				"name": "plant growth",
+				"spans": [[42004, 42016]]
+			},
+			{
+				"name": "differential susceptibility",
+				"spans": [[42268, 42295]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphate rock",
+				"spans": [[43165, 43179]],
+				"CID": 10207414,
+				"SMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[F-].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "phosphate",
+				"spans": [
+					[43128, 43137],
+					[43165, 43174]
+				],
+				"CID": 1061,
+				"SMILES": "[O-]P(=O)([O-])[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [[42786, 42795]]
+			},
+			{
+				"name": "gibberellin",
+				"spans": [[43588, 43599]],
+				"CID": 522636,
+				"SMILES": "CC12C(C=CC3(C1C(C45C3CCC(C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				}
+			},
+			{
+				"name": "Pi",
+				"spans": [[43651, 43653]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoot",
+				"spans": [[42803, 42808]]
+			},
+			{
+				"name": "root",
+				"spans": [[43689, 43693]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field conditions",
+				"spans": [[42981, 42997]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "high yields",
+				"spans": [[43351, 43362]]
+			},
+			{
+				"name": "P-efficient",
+				"spans": [[43084, 43095]]
+			},
+			{
+				"name": "mycorrhiza-responsive",
+				"spans": [[43058, 43079]]
+			},
+			{
+				"name": "high-yielding",
+				"spans": [[43096, 43109]]
+			},
+			{
+				"name": "root colonization rates",
+				"spans": [[43689, 43712]]
+			}
+		],
+		"human_traits": []
+	}
+]

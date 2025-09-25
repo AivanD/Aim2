@@ -1,0 +1,2221 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "hydroxyblumenol C-glucosides"
+			},
+			{
+				"name": "carboxyblumenol C-glucosides"
+			},
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Nicotiana attenuata"
+			},
+			{
+				"name": "Solanum lycopersicum"
+			},
+			{
+				"name": "Solanum tuberosum"
+			},
+			{
+				"name": "Hordeum vulgare"
+			},
+			{
+				"name": "Triticum aestivum"
+			},
+			{
+				"name": "Medicago truncatula"
+			},
+			{
+				"name": "Brachypodium distachyon"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "field-based"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "AMF-colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphorus"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "plant roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphate"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "plant roots"
+			}
+		],
+		"species": [
+			{
+				"name": "barley"
+			},
+			{
+				"name": "potatoes"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "tomato"
+			},
+			{
+				"name": "potato"
+			},
+			{
+				"name": "barley"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "plant shoots"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "plant root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbon"
+			},
+			{
+				"name": "phosphorous"
+			},
+			{
+				"name": "nitrogen"
+			},
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "proteins"
+			},
+			{
+				"name": "amino acids"
+			},
+			{
+				"name": "phytohormones"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "abiotic stresses"
+			},
+			{
+				"name": "biotic stresses"
+			},
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol-type metabolites"
+			},
+			{
+				"name": "apocarotenoids"
+			},
+			{
+				"name": "C13 cyclohexenone"
+			},
+			{
+				"name": "carotenoids"
+			},
+			{
+				"name": "C40 carotenoid"
+			},
+			{
+				"name": "C27 apocarotenoid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid cleavage"
+			}
+		],
+		"genes": [
+			{
+				"name": "CCD7"
+			},
+			{
+				"name": "CCD1"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Hordeum vulgare"
+			},
+			{
+				"name": "Solanum lycopersicum"
+			},
+			{
+				"name": "Nicotiana tabacum"
+			},
+			{
+				"name": "Zea mays"
+			},
+			{
+				"name": "Lotus japonicus"
+			},
+			{
+				"name": "Medicago truncatula"
+			},
+			{
+				"name": "Ornithogalum umbellatum"
+			},
+			{
+				"name": "Allium porrum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation"
+			},
+			{
+				"name": "pathogen infection"
+			},
+			{
+				"name": "abiotic stresses"
+			},
+			{
+				"name": "AMF colonization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol A"
+			},
+			{
+				"name": "blumenol B"
+			},
+			{
+				"name": "blumenol C"
+			},
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "rhamnose"
+			},
+			{
+				"name": "apiose"
+			},
+			{
+				"name": "arabinose"
+			},
+			{
+				"name": "glucuronic acid"
+			},
+			{
+				"name": "3-hydroxy-3-methylglutarate"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol A"
+			},
+			{
+				"name": "blumenol B"
+			},
+			{
+				"name": "blumenol C"
+			},
+			{
+				"name": "glycoside"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol A"
+			},
+			{
+				"name": "blumenol A-9-O-Glc"
+			},
+			{
+				"name": "blumenol B"
+			},
+			{
+				"name": "blumenol C"
+			},
+			{
+				"name": "blumenol C-9-O-Glc"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial parts"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root"
+			},
+			{
+				"name": "shoot"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nicotine"
+			},
+			{
+				"name": "phenylalanine"
+			},
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc"
+			},
+			{
+				"name": "11-carboxyblumenol C-9-O-Glc"
+			},
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc-Glc"
+			},
+			{
+				"name": "blumenol C-9-O-Glc-Glc"
+			},
+			{
+				"name": "blumenol C-9-O-Glc"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root tissues"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Nicotiana attenuata"
+			},
+			{
+				"name": "Rhizophagus irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF association"
+			},
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			},
+			{
+				"name": "Compounds 3"
+			},
+			{
+				"name": "Compounds 4"
+			},
+			{
+				"name": "Compounds 5"
+			},
+			{
+				"name": "blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Ri-tub"
+			},
+			{
+				"name": "RAM1"
+			},
+			{
+				"name": "Vapyrin"
+			},
+			{
+				"name": "STR1"
+			},
+			{
+				"name": "PT4"
+			},
+			{
+				"name": "NaIF-5a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Nicotiana attenuata"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nicotine"
+			},
+			{
+				"name": "phenylalanine"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation"
+			},
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-glycosides"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Ri-tub"
+			},
+			{
+				"name": "Vapyrin"
+			},
+			{
+				"name": "RAM1"
+			},
+			{
+				"name": "STR1"
+			},
+			{
+				"name": "PT4"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal colonization"
+			},
+			{
+				"name": "mycorrhizal development"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "Compound 3"
+			},
+			{
+				"name": "Compound 4"
+			},
+			{
+				"name": "Compound 5"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCCaMK"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "flowers"
+			},
+			{
+				"name": "capsules"
+			},
+			{
+				"name": "arbuscules"
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis"
+			},
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "Funneliformis mosseae"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation"
+			},
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "pathogen infection"
+			},
+			{
+				"name": "drought stress"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol derivatives"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-induced"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 3"
+			},
+			{
+				"name": "Compounds 4"
+			},
+			{
+				"name": "Compounds 5"
+			},
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation with R. irregularis"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation with R. irregularis"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root length colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "hyphae"
+			},
+			{
+				"name": "arbuscules"
+			},
+			{
+				"name": "vesicles"
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculated with R. irregularis"
+			},
+			{
+				"name": "six wpi"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "glasshouse"
+			},
+			{
+				"name": "field-grown"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "root"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root AMF colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCCaMK"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "hyphae"
+			},
+			{
+				"name": "arbuscules"
+			},
+			{
+				"name": "vesicles"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculation"
+			},
+			{
+				"name": "EV plants"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "root colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "symbiosis-marker genes"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal"
+			},
+			{
+				"name": "control"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Ri-tub"
+			},
+			{
+				"name": "CCaMK"
+			},
+			{
+				"name": "Vapyrin"
+			},
+			{
+				"name": "PT4"
+			},
+			{
+				"name": "STR1"
+			},
+			{
+				"name": "RAM1"
+			},
+			{
+				"name": "NaIF-5a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "root"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "root colonization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "Manduca sexta"
+			},
+			{
+				"name": "Botrytis cinerea"
+			},
+			{
+				"name": "Agrobacterium tumefaciens"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Manduca sexta feeding"
+			},
+			{
+				"name": "Botrytis cinerea infection"
+			},
+			{
+				"name": "Agrobacterium tumefaciens carrying the Tobacco Rattle Virus infection"
+			},
+			{
+				"name": "Dehydration"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			},
+			{
+				"name": "carotenoid"
+			},
+			{
+				"name": "dexamethasone"
+			},
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "Compound 6"
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "PDS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "stem sap"
+			},
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal colonization"
+			},
+			{
+				"name": "DEX-treated"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "foliar"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carotenoid"
+			},
+			{
+				"name": "geranylgeranyl diphosphate"
+			},
+			{
+				"name": "phytoene"
+			},
+			{
+				"name": "zeta-carotene"
+			},
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "Compound 6"
+			},
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [
+			{
+				"name": "MEP pathway"
+			},
+			{
+				"name": "apocarotenoid pathway"
+			},
+			{
+				"name": "carotenoid biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "CRTISO"
+			},
+			{
+				"name": "GGPPs"
+			},
+			{
+				"name": "PSY"
+			},
+			{
+				"name": "PDS"
+			},
+			{
+				"name": "ZDS"
+			},
+			{
+				"name": "Z-ISO"
+			},
+			{
+				"name": "CCD"
+			},
+			{
+				"name": "MAX1"
+			},
+			{
+				"name": "DXS"
+			},
+			{
+				"name": "DXR"
+			},
+			{
+				"name": "MCT"
+			},
+			{
+				"name": "CMK"
+			},
+			{
+				"name": "MDS"
+			},
+			{
+				"name": "HDS"
+			},
+			{
+				"name": "HDR"
+			},
+			{
+				"name": "D27"
+			},
+			{
+				"name": "CYP711A1"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaf tissues"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			},
+			{
+				"name": "tomato"
+			},
+			{
+				"name": "tobacco"
+			},
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculations with R. irregularis"
+			},
+			{
+				"name": "DEX-treated"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "cytochrome P450-type monooxygenase"
+			},
+			{
+				"name": "citridylyltransferase"
+			},
+			{
+				"name": "reductoisomerase"
+			},
+			{
+				"name": "kinase"
+			},
+			{
+				"name": "synthase"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "bleaching"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 6"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 6"
+			},
+			{
+				"name": "blumenol A-9-O-glucoside"
+			},
+			{
+				"name": "roseoside"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Ri-tub"
+			},
+			{
+				"name": "NaIF-5a"
+			},
+			{
+				"name": "RAM1"
+			},
+			{
+				"name": "Vapyrin"
+			},
+			{
+				"name": "STR1"
+			},
+			{
+				"name": "PT4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "plant tissues"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compounds 1"
+			},
+			{
+				"name": "Compounds 2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "methylerythritol 4-phosphate"
+			},
+			{
+				"name": " Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "Compound 6"
+			},
+			{
+				"name": "DEX"
+			},
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [
+			{
+				"name": "MEP"
+			},
+			{
+				"name": "(apo)carotenoid biosynthetic"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stem leaf"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated"
+			},
+			{
+				"name": "DEX-containing paste"
+			},
+			{
+				"name": "AMF-indicative blumenols"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "PDS silencing"
+			},
+			{
+				"name": "bleaching"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NOPE1"
+			},
+			{
+				"name": "NaNOPE1"
+			},
+			{
+				"name": "NIATv7_g02911"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "field-grown"
+			},
+			{
+				"name": "glasshouse"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "mycorrhizal colonization"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field plot planting design"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "phenotypes"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "rosette"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "R. irregularis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "growth"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant part"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "T. aestivum"
+			},
+			{
+				"name": "H. vulgare"
+			},
+			{
+				"name": "S. lycopersicum"
+			},
+			{
+				"name": "F. mossae"
+			},
+			{
+				"name": "R. irregularis"
+			},
+			{
+				"name": "B. distachyon"
+			},
+			{
+				"name": "M. truncatula"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant parts"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "Blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NaNOPE1"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			},
+			{
+				"name": "S. lycopersicum"
+			},
+			{
+				"name": "T. aestivum"
+			},
+			{
+				"name": "H. vulgare"
+			},
+			{
+				"name": "M. truncatula"
+			},
+			{
+				"name": "S. tuberosum"
+			},
+			{
+				"name": "B. distachyon"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-derivatives"
+			},
+			{
+				"name": "blumenol B"
+			},
+			{
+				"name": "blumenols"
+			},
+			{
+				"name": "blumenol"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "aerial parts"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "shoot"
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum lycopersicum"
+			},
+			{
+				"name": "Triticum aestivum"
+			},
+			{
+				"name": "Hordeum vulgare"
+			},
+			{
+				"name": "Medicago truncatula"
+			},
+			{
+				"name": "Solanum tuberosum"
+			},
+			{
+				"name": "Brachypodium distachyon"
+			},
+			{
+				"name": "R. irregularis"
+			},
+			{
+				"name": "F. mosseae"
+			},
+			{
+				"name": "Glomus versiforme"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [
+			{
+				"name": "primary metabolism"
+			},
+			{
+				"name": "secondary metabolism"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "whole-plant performance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			},
+			{
+				"name": "mycorradicin"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			},
+			{
+				"name": "strigolactones"
+			},
+			{
+				"name": "Compound 6"
+			},
+			{
+				"name": "Compound 1"
+			},
+			{
+				"name": "Compound 2"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "carotenoid"
+			},
+			{
+				"name": "blumenol glucosides"
+			}
+		],
+		"pathways": [
+			{
+				"name": "apocarotenoid biosynthesis pathway"
+			},
+			{
+				"name": "carotenoid pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "PDS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "xylem"
+			},
+			{
+				"name": "membranes"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated"
+			},
+			{
+				"name": "hydroponic solution"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "ATP-binding"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols"
+			},
+			{
+				"name": "vomifoliol"
+			},
+			{
+				"name": "abscisic acid"
+			},
+			{
+				"name": "Compound 6"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoot tissues"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "pathogen infection"
+			},
+			{
+				"name": "AMF-inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "stomatal closure"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphate"
+			},
+			{
+				"name": "gibberellin"
+			},
+			{
+				"name": "blumenols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "high-yielding"
+			},
+			{
+				"name": "mycorrhiza-responsive"
+			},
+			{
+				"name": "P-efficient"
+			}
+		],
+		"human_traits": []
+	}
+]

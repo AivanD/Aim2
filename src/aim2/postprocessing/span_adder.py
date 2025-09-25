@@ -29,7 +29,9 @@ def _process_entity_list(entity_list, category_name, passage_text, passage_offse
         spans = []
         # Find all occurrences of this entity name in the passage, ignoring case
         try:
-            for match in re.finditer(re.escape(entity_name), passage_text, re.IGNORECASE):
+            # Use word boundaries (\b) to match whole words only
+            pattern = r'\b' + re.escape(entity_name) + r'\b'
+            for match in re.finditer(pattern, passage_text, re.IGNORECASE):
                 start, end = match.span()
                 spans.append((passage_offset + start, passage_offset + end))
         except re.error as e:

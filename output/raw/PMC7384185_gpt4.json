@@ -43,11 +43,15 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [],
+		"species": [
+			{
+				"name": "Caryophyllales"
+			}
+		],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
-				"name": "l-DOPA 4,5-dioxygenase activity"
+				"name": "4,5-dioxygenase activity"
 			}
 		],
 		"plant_traits": [],
@@ -117,10 +121,10 @@
 	{
 		"compounds": [
 			{
-				"name": "specialised metabolites"
+				"name": "tyrosine"
 			},
 			{
-				"name": "betalain pigments"
+				"name": "betalain"
 			},
 			{
 				"name": "anthocyanins"
@@ -152,6 +156,9 @@
 			},
 			{
 				"name": "anthocyanins"
+			},
+			{
+				"name": "anthocyanin"
 			}
 		],
 		"pathways": [
@@ -199,7 +206,7 @@
 				"name": "tyrosine"
 			},
 			{
-				"name": "betalain pigments"
+				"name": "betalain"
 			},
 			{
 				"name": "betaxanthins"
@@ -215,6 +222,9 @@
 			},
 			{
 				"name": "betalamic acid"
+			},
+			{
+				"name": "anthocyanin"
 			}
 		],
 		"pathways": [
@@ -284,6 +294,9 @@
 			},
 			{
 				"name": "betalamic acid"
+			},
+			{
+				"name": "3,4-dihydroxyphenylalanine"
 			}
 		],
 		"pathways": [
@@ -352,9 +365,6 @@
 			},
 			{
 				"name": "Parakeelya mirabilis"
-			},
-			{
-				"name": "Ptilotus hybrid"
 			}
 		],
 		"experimental_conditions": [],
@@ -437,9 +447,6 @@
 			},
 			{
 				"name": "Amaranthaceae"
-			},
-			{
-				"name": "raphide clade"
 			},
 			{
 				"name": "Portulacineae"
@@ -609,14 +616,7 @@
 				"name": "P. exiguum"
 			}
 		],
-		"experimental_conditions": [
-			{
-				"name": "trancriptome and genome sequencing"
-			},
-			{
-				"name": "c. 206x short read coverage"
-			}
-		],
+		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [],
 		"human_traits": []
@@ -630,7 +630,7 @@
 				"name": "betacyanin"
 			},
 			{
-				"name": "l-DOPA 4,5-dioxygenase"
+				"name": "l-DOPA"
 			},
 			{
 				"name": "betanin"
@@ -696,13 +696,19 @@
 	{
 		"compounds": [
 			{
+				"name": "betalain"
+			},
+			{
+				"name": "l-DOPA"
+			},
+			{
+				"name": "betacyanin"
+			},
+			{
 				"name": "betanin"
 			},
 			{
 				"name": "isobetanin"
-			},
-			{
-				"name": "l-DOPA"
 			}
 		],
 		"pathways": [],
@@ -724,6 +730,9 @@
 			},
 			{
 				"name": "BvDODAalpha3"
+			},
+			{
+				"name": "firefly luciferase"
 			}
 		],
 		"anatomical_structures": [
@@ -782,6 +791,9 @@
 			},
 			{
 				"name": "BvDODAalpha1"
+			},
+			{
+				"name": "DODAalpha1"
 			},
 			{
 				"name": "ShDODAalpha1"
@@ -1005,7 +1017,14 @@
 				"name": "l-DOPA 4,5-dioxygenase activity"
 			}
 		],
-		"plant_traits": [],
+		"plant_traits": [
+			{
+				"name": "anthocyanin-producing"
+			},
+			{
+				"name": "betacyanin production"
+			}
+		],
 		"human_traits": []
 	},
 	{
@@ -1020,9 +1039,6 @@
 			},
 			{
 				"name": "MYB"
-			},
-			{
-				"name": "DODAalpha"
 			},
 			{
 				"name": "McDODA alpha 1"
@@ -1040,7 +1056,13 @@
 				"name": "A. hypochondriacus"
 			},
 			{
+				"name": "Amaranthaceae"
+			},
+			{
 				"name": "M. crystallinum"
+			},
+			{
+				"name": "Aizoaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1056,7 +1078,7 @@
 		],
 		"pathways": [
 			{
-				"name": "betalain biosynthesis"
+				"name": "Betalain biosynthesis"
 			}
 		],
 		"genes": [
@@ -1070,6 +1092,15 @@
 		"anatomical_structures": [],
 		"species": [
 			{
+				"name": "Amaranthaceae"
+			},
+			{
+				"name": "Aizoaceae"
+			},
+			{
+				"name": "Mesembryanthemum crystallinum"
+			},
+			{
 				"name": "Amaranthus hypochondriacus"
 			},
 			{
@@ -1079,7 +1110,7 @@
 				"name": "Chenopodium quinoa"
 			},
 			{
-				"name": "Mesembryanthemum crystallinum"
+				"name": "M. crystallinum"
 			}
 		],
 		"experimental_conditions": [],
@@ -1166,7 +1197,7 @@
 	{
 		"compounds": [
 			{
-				"name": "betalain pigments"
+				"name": "betalain"
 			},
 			{
 				"name": "l-DOPA"
@@ -1183,6 +1214,9 @@
 		],
 		"anatomical_structures": [],
 		"species": [
+			{
+				"name": "Caryophyllales"
+			},
 			{
 				"name": "Beta vulgaris"
 			},
@@ -1270,6 +1304,9 @@
 			},
 			{
 				"name": "Stegnosperma"
+			},
+			{
+				"name": "Amaranthaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1333,7 +1370,20 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [],
+		"species": [
+			{
+				"name": "Stegnospermataceae"
+			},
+			{
+				"name": "Amaranthaceae"
+			},
+			{
+				"name": "Portulacineae"
+			},
+			{
+				"name": "Aizoaceae"
+			}
+		],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -1346,10 +1396,13 @@
 	{
 		"compounds": [
 			{
-				"name": "betalains"
+				"name": "anthocyanic"
 			},
 			{
-				"name": "anthocyanic"
+				"name": "betalain"
+			},
+			{
+				"name": "betalains"
 			}
 		],
 		"pathways": [],
@@ -1390,7 +1443,7 @@
 				"name": "betalain"
 			},
 			{
-				"name": "l-DOPA 4,5-dioxygenase"
+				"name": "l-DOPA"
 			},
 			{
 				"name": "betanin"
@@ -1424,6 +1477,9 @@
 			},
 			{
 				"name": "C. gigantea"
+			},
+			{
+				"name": "Caryophyllales"
 			}
 		],
 		"experimental_conditions": [
@@ -1442,9 +1498,6 @@
 		"plant_traits": [
 			{
 				"name": "betalain pigmentation"
-			},
-			{
-				"name": "anthocyanic"
 			}
 		],
 		"human_traits": []
@@ -1467,7 +1520,23 @@
 				"name": "DODAalpha1"
 			}
 		],
-		"anatomical_structures": [],
+		"anatomical_structures": [
+			{
+				"name": "chromosome 2"
+			},
+			{
+				"name": "locus"
+			},
+			{
+				"name": "operon"
+			},
+			{
+				"name": "genome"
+			},
+			{
+				"name": "loci"
+			}
+		],
 		"species": [
 			{
 				"name": "B. vulgaris"
@@ -1480,6 +1549,9 @@
 			},
 			{
 				"name": "M. crystallinum"
+			},
+			{
+				"name": "Amaranthaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1498,7 +1570,7 @@
 	{
 		"compounds": [
 			{
-				"name": "l-DOPA 4,5-dioxygenase"
+				"name": "l-DOPA"
 			}
 		],
 		"pathways": [],
@@ -1565,6 +1637,12 @@
 		"compounds": [
 			{
 				"name": "l-DOPA"
+			},
+			{
+				"name": "betalain"
+			},
+			{
+				"name": "anthocyanin"
 			}
 		],
 		"pathways": [],
@@ -1589,10 +1667,7 @@
 		],
 		"plant_traits": [
 			{
-				"name": "betalain pigmentation"
-			},
-			{
-				"name": "anthocyanin"
+				"name": "pigmentation state"
 			}
 		],
 		"human_traits": []
@@ -1712,6 +1787,9 @@
 				"name": "Molluginaceae"
 			},
 			{
+				"name": "Caryophyllales"
+			},
+			{
 				"name": "K. caespitosa"
 			},
 			{
@@ -1725,9 +1803,6 @@
 			},
 			{
 				"name": "T. imperati"
-			},
-			{
-				"name": "Caryophyllales"
 			}
 		],
 		"experimental_conditions": [],
@@ -1755,7 +1830,7 @@
 				"name": "anthocyanins"
 			},
 			{
-				"name": "l-DOPA 4,5-dioxygenase"
+				"name": "l-DOPA"
 			}
 		],
 		"pathways": [
@@ -1764,9 +1839,6 @@
 			}
 		],
 		"genes": [
-			{
-				"name": "MYB"
-			},
 			{
 				"name": "DODAalpha"
 			},
@@ -1813,6 +1885,9 @@
 		"pathways": [],
 		"genes": [
 			{
+				"name": "arogenate dehydrogenase"
+			},
+			{
 				"name": "ADHalpha"
 			},
 			{
@@ -1843,7 +1918,7 @@
 	{
 		"compounds": [
 			{
-				"name": "betalain pigments"
+				"name": "betalain"
 			},
 			{
 				"name": "l-DOPA"
@@ -1854,13 +1929,17 @@
 				"name": "betalain biosynthesis"
 			},
 			{
-				"name": "betalain biosynthesis pathway"
+				"name": "betalain pathway"
 			},
 			{
-				"name": "betalain pathway"
+				"name": "betalain biosynthesis pathway"
 			}
 		],
-		"genes": [],
+		"genes": [
+			{
+				"name": "DODAalpha"
+			}
+		],
 		"anatomical_structures": [],
 		"species": [
 			{

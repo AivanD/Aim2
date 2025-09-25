@@ -1,0 +1,5595 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[700, 709]]
+			},
+			{
+				"name": "carboxyblumenol C-glucosides",
+				"spans": [[533, 561]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[756, 762]]
+			},
+			{
+				"name": "leaf",
+				"spans": [[314, 318]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[198, 203],
+					[747, 752]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Medicago truncatula",
+				"spans": [[942, 961]]
+			},
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[594, 613]]
+			},
+			{
+				"name": "Triticum aestivum",
+				"spans": [[923, 940]]
+			},
+			{
+				"name": "Brachypodium distachyon",
+				"spans": [[966, 989]]
+			},
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[887, 904]]
+			},
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[865, 885]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[906, 921]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "pharmacologic manipulations",
+				"spans": [[630, 657]]
+			},
+			{
+				"name": "field-based QTL mapping",
+				"spans": [[1084, 1107]]
+			},
+			{
+				"name": "targeted metabolomics",
+				"spans": [[461, 482]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphorus",
+				"spans": [
+					[1177, 1187],
+					[1208, 1218],
+					[1506, 1516]
+				],
+				"CID": 5462309,
+				"SMILES": "P",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "sugars",
+				"spans": [[1551, 1557]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[1489, 1494]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphate",
+				"spans": [[1721, 1730]],
+				"CID": 1061,
+				"SMILES": "[O-]P(=O)([O-])[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[2072, 2077]]
+			}
+		],
+		"species": [
+			{
+				"name": "barley",
+				"spans": [[1619, 1625]]
+			},
+			{
+				"name": "potatoes",
+				"spans": [[1630, 1638]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[2358, 2367],
+					[2662, 2671]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[2408, 2414]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[2419, 2425]]
+			},
+			{
+				"name": "roots",
+				"spans": [[2386, 2391]]
+			}
+		],
+		"species": [
+			{
+				"name": "barley",
+				"spans": [[2608, 2614]]
+			},
+			{
+				"name": "tomato",
+				"spans": [[2589, 2595]]
+			},
+			{
+				"name": "coyote tobacco",
+				"spans": [[2199, 2213]]
+			},
+			{
+				"name": "potato",
+				"spans": [[2597, 2603]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[2803, 2812],
+					[2954, 2963]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[2929, 2933]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[2833, 2839]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[2822, 2828]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phosphorous",
+				"spans": [[3369, 3380]],
+				"CID": 5462309,
+				"SMILES": "P",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "phytohormones",
+				"spans": [[3884, 3897]]
+			},
+			{
+				"name": "carbohydrates",
+				"spans": [[3805, 3818]]
+			},
+			{
+				"name": "amino acids",
+				"spans": [[3834, 3845]]
+			},
+			{
+				"name": "nitrogen",
+				"spans": [[3389, 3397]],
+				"CID": 947,
+				"SMILES": "N#N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "proteins",
+				"spans": [[3820, 3828]]
+			},
+			{
+				"name": "carbon",
+				"spans": [[3434, 3440]],
+				"CID": 5462310,
+				"SMILES": "C",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[3593, 3598]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[3928, 3943]]
+			},
+			{
+				"name": "biotic stresses",
+				"spans": [
+					[3517, 3532],
+					[4052, 4067]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant growth",
+				"spans": [
+					[3466, 3478],
+					[4205, 4217]
+				]
+			},
+			{
+				"name": "resistance",
+				"spans": [[3483, 3493]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "C40 carotenoid",
+				"spans": [[4482, 4496]]
+			},
+			{
+				"name": "blumenol-type metabolites",
+				"spans": [[4265, 4290]]
+			},
+			{
+				"name": "apocarotenoids",
+				"spans": [[4354, 4368]]
+			},
+			{
+				"name": "C13 cyclohexenone",
+				"spans": [
+					[4384, 4401],
+					[4565, 4582],
+					[4658, 4675]
+				]
+			},
+			{
+				"name": "C13 cyclohexenone derivatives",
+				"spans": [[4384, 4413]]
+			},
+			{
+				"name": "C27 apocarotenoid",
+				"spans": [[4589, 4606]]
+			},
+			{
+				"name": "carotenoids",
+				"spans": [[4443, 4454]],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "CCD7",
+				"spans": [[4546, 4550]]
+			},
+			{
+				"name": "CCD1",
+				"spans": [[4635, 4639]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[4305, 4310],
+					[4728, 4733],
+					[5008, 5013]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Medicago truncatula",
+				"spans": [[5192, 5211]]
+			},
+			{
+				"name": "Ornithogalum umbellatum",
+				"spans": [[5214, 5237]]
+			},
+			{
+				"name": "Zea mays",
+				"spans": [[5161, 5169]]
+			},
+			{
+				"name": "Allium porrum",
+				"spans": [[5240, 5253]]
+			},
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[5110, 5130]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[5091, 5106]]
+			},
+			{
+				"name": "Lotus japonicus",
+				"spans": [[5172, 5187]]
+			},
+			{
+				"name": "Nicotiana tabacum",
+				"spans": [[5135, 5152]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF-colonized",
+				"spans": [[4737, 4750]]
+			},
+			{
+				"name": "AMF colonization",
+				"spans": [[4462, 4478]]
+			},
+			{
+				"name": "abiotic stresses",
+				"spans": [[4868, 4884]]
+			},
+			{
+				"name": "AMF inoculation",
+				"spans": [[4317, 4332]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[4845, 4863]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "rhamnose",
+				"spans": [[5919, 5927]],
+				"CID": 25310,
+				"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "blumenol C",
+				"spans": [
+					[5333, 5343],
+					[5440, 5450],
+					[5664, 5674]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol glycosides",
+				"spans": [[5407, 5426]]
+			},
+			{
+				"name": "glucuronic acid",
+				"spans": [[5954, 5969]],
+				"CID": 94715,
+				"SMILES": "[C@@H]1([C@@H]([C@H](OC([C@@H]1O)O)C(=O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "blumenol A",
+				"spans": [[5306, 5316]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[5318, 5328]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "malonylated",
+				"spans": [[6006, 6017]]
+			},
+			{
+				"name": "3-hydroxy-3-methylglutarate",
+				"spans": [[6031, 6058]],
+				"CID": 1662,
+				"SMILES": "CC(CC(=O)O)(CC(=O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Dicarboxylic acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				}
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[5904, 5911],
+					[6131, 6138],
+					[6148, 6155],
+					[6159, 6166],
+					[6176, 6183]
+				],
+				"CID": 5793,
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				}
+			},
+			{
+				"name": "apiose",
+				"spans": [[5929, 5935]],
+				"CID": 12306753,
+				"SMILES": "C1[C@@]([C@H](C(O1)O)O)(CO)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			},
+			{
+				"name": "arabinose",
+				"spans": [[5937, 5946]],
+				"CID": 439195,
+				"SMILES": "C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[6398, 6406]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C",
+				"spans": [
+					[6496, 6506],
+					[6522, 6532]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "glycoside",
+				"spans": [[6552, 6561]]
+			},
+			{
+				"name": "blumenol A",
+				"spans": [[6469, 6479]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[6481, 6491]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-9-O-Glc",
+				"spans": [[6655, 6673]]
+			},
+			{
+				"name": "blumenol C",
+				"spans": [
+					[6640, 6650],
+					[6655, 6665]
+				],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol A",
+				"spans": [
+					[6596, 6606],
+					[6608, 6618]
+				],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[6628, 6638]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol A-9-O-Glc",
+				"spans": [[6608, 6626]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial parts",
+				"spans": [[6710, 6722]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[7302, 7308]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF colonization",
+				"spans": [
+					[6938, 6954],
+					[7336, 7352],
+					[7576, 7592]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "metabolite",
+				"spans": [[7627, 7637]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[7827, 7831],
+					[8009, 8013]
+				]
+			},
+			{
+				"name": "aerial plant tissues",
+				"spans": [[7648, 7668]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[8046, 8052]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nicotine",
+				"spans": [[9205, 9213]],
+				"CID": 89594,
+				"SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+				"Natural_product_class": {
+					"Np_class": ["Pyridine alkaloids"],
+					"Np_superclass": ["Nicotinic acid alkaloids"]
+				}
+			},
+			{
+				"name": "blumenol C-9-O-Glc",
+				"spans": [
+					[10176, 10194],
+					[10216, 10234]
+				]
+			},
+			{
+				"name": "11-carboxyblumenol C-9-O-Glc",
+				"spans": [[10075, 10103]]
+			},
+			{
+				"name": "blumenol C-9-O-Glc-Glc",
+				"spans": [[10176, 10198]]
+			},
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc",
+				"spans": [
+					[10021, 10049],
+					[10129, 10157]
+				]
+			},
+			{
+				"name": "blumenols",
+				"spans": [[10010, 10019]]
+			},
+			{
+				"name": "11-hydroxyblumenol C-9-O-Glc-Glc",
+				"spans": [[10129, 10161]]
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[9218, 9231]],
+				"CID": 6140,
+				"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[8222, 8226]]
+			},
+			{
+				"name": "roots",
+				"spans": [[8708, 8713]]
+			}
+		],
+		"species": [
+			{
+				"name": "Rhizophagus irregularis",
+				"spans": [[8412, 8435]]
+			},
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[8259, 8278]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "co-cultured with or without Rhizophagus irregularis",
+				"spans": [[8384, 8435]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol",
+				"spans": [[10269, 10277]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[10264, 10268],
+					[10317, 10321]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "STR1",
+				"spans": [[10887, 10891]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[10878, 10885]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[10872, 10876]]
+			},
+			{
+				"name": "NaIF-5a",
+				"spans": [[11024, 11031]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[10797, 10803]]
+			},
+			{
+				"name": "PT4",
+				"spans": [[10896, 10899]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[10459, 10464]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[10754, 10768]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[10556, 10571]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol",
+				"spans": [[11276, 11284]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[11365, 11371]]
+			},
+			{
+				"name": "roots",
+				"spans": [[11355, 11360]]
+			}
+		],
+		"species": [
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[11375, 11394]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nicotine",
+				"spans": [[11726, 11734]],
+				"CID": 89594,
+				"SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+				"Natural_product_class": {
+					"Np_class": ["Pyridine alkaloids"],
+					"Np_superclass": ["Nicotinic acid alkaloids"]
+				}
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[11736, 11749]],
+				"CID": 6140,
+				"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				}
+			},
+			{
+				"name": "phenolics",
+				"spans": [[11762, 11771]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[11549, 11553]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[12203, 12209]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[11498, 11512]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "co-cultured",
+				"spans": [[11455, 11466]]
+			},
+			{
+				"name": "without AMF inoculation",
+				"spans": [[12229, 12252]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C-glycosides",
+				"spans": [[12505, 12526]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "STR1",
+				"spans": [[12848, 12852]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[12833, 12840]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[12842, 12846]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[12805, 12811]]
+			},
+			{
+				"name": "PT4",
+				"spans": [[12857, 12860]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal development",
+				"spans": [[12554, 12577]]
+			},
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[12645, 12669]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[13148, 13157]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[13083, 13089],
+					[13179, 13185],
+					[13419, 13425]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [[13110, 13115]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol",
+				"spans": [[15677, 15685]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "association with R. irregularis",
+				"spans": [[14808, 14839]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "flowers",
+				"spans": [[15796, 15803]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[15888, 15893]]
+			},
+			{
+				"name": "capsules",
+				"spans": [[15808, 15816]]
+			},
+			{
+				"name": "arbuscules",
+				"spans": [[15362, 15372]]
+			},
+			{
+				"name": "stem",
+				"spans": [[15783, 15787]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[13719, 13725],
+					[13866, 13872],
+					[14045, 14051],
+					[14659, 14665],
+					[14909, 14915]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[13929, 13934],
+					[14015, 14020],
+					[14269, 14274],
+					[15376, 15381],
+					[15702, 15707]
+				]
+			},
+			{
+				"name": "aerial plant parts",
+				"spans": [[15980, 15998]]
+			}
+		],
+		"species": [
+			{
+				"name": "Funneliformis mosseae",
+				"spans": [[14529, 14550]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[13752, 13766],
+					[14360, 14374],
+					[14555, 14569],
+					[14825, 14839]
+				]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[16058, 16070]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculum-gradient experiment",
+				"spans": [[14070, 14098]]
+			},
+			{
+				"name": "drought stress",
+				"spans": [[15556, 15570]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[15533, 15551]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [[15522, 15531]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "colonization level",
+				"spans": [[13903, 13921]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[16030, 16054]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol",
+				"spans": [[16123, 16131]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[16157, 16163]]
+			},
+			{
+				"name": "roots",
+				"spans": [[16147, 16152]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[16167, 16179]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[16303, 16309],
+					[16768, 16774]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[16278, 16283],
+					[16743, 16748]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[16368, 16382],
+					[16385, 16399],
+					[16833, 16847]
+				]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[16325, 16337],
+					[16790, 16802]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Control",
+				"spans": [
+					[16434, 16441],
+					[16450, 16457]
+				]
+			},
+			{
+				"name": "inoculation with R. irregularis",
+				"spans": [
+					[16351, 16382],
+					[16816, 16847]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[17180, 17186]]
+			},
+			{
+				"name": "roots",
+				"spans": [[17170, 17175]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[17190, 17202]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[17208, 17212],
+					[17369, 17373]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[17470, 17476]]
+			},
+			{
+				"name": "roots",
+				"spans": [[17456, 17461]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[17287, 17301],
+					[17539, 17553]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation",
+				"spans": [
+					[17270, 17281],
+					[17522, 17533]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCCaMK",
+				"spans": [[17805, 17812]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "Root",
+				"spans": [[17717, 17721]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[17823, 17827],
+					[17942, 17946]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[18181, 18187]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[18055, 18060],
+					[18171, 18176]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[18102, 18116],
+					[18229, 18243]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "six wpi",
+				"spans": [
+					[18118, 18125],
+					[18245, 18252]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[18374, 18378]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "glasshouse",
+				"spans": [[18407, 18417]]
+			},
+			{
+				"name": "field-grown",
+				"spans": [[18434, 18445]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[18726, 18730]]
+			},
+			{
+				"name": "leaf",
+				"spans": [[18710, 18714]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[18751, 18763]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "WGA-488",
+				"spans": [[19731, 19738]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[18818, 18824]]
+			},
+			{
+				"name": "roots",
+				"spans": [[19747, 19752]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculation",
+				"spans": [
+					[18878, 18893],
+					[18921, 18936],
+					[20102, 20117]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20268, 20274]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[20302, 20314]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal",
+				"spans": [
+					[20215, 20226],
+					[20278, 20289]
+				]
+			},
+			{
+				"name": "control",
+				"spans": [[20294, 20301]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "CCaMK",
+				"spans": [[20691, 20696]]
+			},
+			{
+				"name": "STR1",
+				"spans": [[20712, 20716]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[20698, 20705]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[20721, 20725]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[20641, 20647]]
+			},
+			{
+				"name": "PT4",
+				"spans": [[20707, 20710]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[20383, 20387],
+					[20530, 20534]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[20417, 20423]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[20465, 20479],
+					[20553, 20567],
+					[20598, 20612]
+				]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[20427, 20439]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "root colonization",
+				"spans": [[20530, 20547]]
+			},
+			{
+				"name": "control",
+				"spans": [[20506, 20513]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "2",
+				"spans": [[20930, 20931]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20935, 20941]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[20964, 20970]]
+			}
+		],
+		"species": [
+			{
+				"name": "Agrobacterium tumefaciens",
+				"spans": [[21205, 21230]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[20974, 20986]]
+			},
+			{
+				"name": "Tobacco Rattle Virus",
+				"spans": [[21244, 21264]]
+			},
+			{
+				"name": "Botrytis cinerea",
+				"spans": [[21130, 21146]]
+			},
+			{
+				"name": "Manduca sexta",
+				"spans": [[21091, 21104]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Botrytis cinerea infection",
+				"spans": [[21130, 21156]]
+			},
+			{
+				"name": "Dehydration",
+				"spans": [[21270, 21281]]
+			},
+			{
+				"name": "Manduca sexta feeding",
+				"spans": [[21091, 21112]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carotenoid",
+				"spans": [
+					[21591, 21601],
+					[22226, 22236],
+					[22313, 22323]
+				],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[21524, 21533],
+					[22003, 22012],
+					[22184, 22193],
+					[23133, 23142]
+				]
+			},
+			{
+				"name": "phytoene",
+				"spans": [[22437, 22445]],
+				"CID": 5280784,
+				"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/C=C/C=C(/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)\\C)/C)/C)/C)C",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03a8-\u03a8)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "apocarotenoids",
+				"spans": [
+					[21538, 21552],
+					[21860, 21874]
+				]
+			},
+			{
+				"name": "blumenol derivatives",
+				"spans": [[23249, 23269]]
+			},
+			{
+				"name": "dexamethasone",
+				"spans": [[22379, 22392]],
+				"CID": 5743,
+				"SMILES": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+				"Natural_product_class": {
+					"Np_class": ["Pregnane steroids"],
+					"Np_superclass": ["Steroids"]
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid pathway",
+				"spans": [[21591, 21609]]
+			}
+		],
+		"genes": [
+			{
+				"name": "PDS",
+				"spans": [
+					[22458, 22461],
+					[22572, 22575]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[23323, 23329]]
+			},
+			{
+				"name": "stem sap",
+				"spans": [[22016, 22024]]
+			},
+			{
+				"name": "stem",
+				"spans": [
+					[22016, 22020],
+					[22099, 22103]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[21703, 21709],
+					[22521, 22527],
+					[22943, 22949]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[21685, 21690],
+					[21933, 21938],
+					[22783, 22788],
+					[23154, 23159],
+					[23304, 23309]
+				]
+			},
+			{
+				"name": "aerial tissues",
+				"spans": [[22881, 22895]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[21713, 21725],
+					[22253, 22265]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[21748, 21772]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "2",
+				"spans": [[23419, 23420]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[23438, 23443]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "zeta-carotene",
+				"spans": [[24249, 24262]],
+				"CID": 6440490,
+				"SMILES": "CC(=CCC/C(=C/CC/C(=C\\C=C\\C(=C\\C=C\\C=C(\\C=C\\C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)\\C)/C)/C)C",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03a8-\u03a8)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "carotenoid",
+				"spans": [
+					[24128, 24138],
+					[24314, 24324],
+					[24802, 24812],
+					[25248, 25258]
+				],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "phytoene",
+				"spans": [
+					[24199, 24207],
+					[24223, 24231],
+					[25427, 25435]
+				],
+				"CID": 5280784,
+				"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/C=C/C=C(/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)\\C)/C)/C)/C)C",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03a8-\u03a8)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [[26134, 26143]]
+			},
+			{
+				"name": "4-hydroxy-3-methylbut-2-enyl-diphosphate",
+				"spans": [[24689, 24729]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid biosynthesis",
+				"spans": [[25248, 25271]]
+			},
+			{
+				"name": "apocarotenoid pathway",
+				"spans": [[23481, 23502]]
+			}
+		],
+		"genes": [
+			{
+				"name": "CYP711A1",
+				"spans": [[24388, 24396]]
+			},
+			{
+				"name": "HDR",
+				"spans": [[24740, 24743]]
+			},
+			{
+				"name": "HDS",
+				"spans": [[24684, 24687]]
+			},
+			{
+				"name": "CMK",
+				"spans": [[24561, 24564]]
+			},
+			{
+				"name": "DXR",
+				"spans": [[24444, 24447]]
+			},
+			{
+				"name": "Z-ISO",
+				"spans": [[24276, 24281]]
+			},
+			{
+				"name": "irCCaMK",
+				"spans": [
+					[23970, 23977],
+					[23999, 24006],
+					[24043, 24050]
+				]
+			},
+			{
+				"name": "GGPPs",
+				"spans": [[24150, 24155]]
+			},
+			{
+				"name": "MAX1",
+				"spans": [[24347, 24351]]
+			},
+			{
+				"name": "MCT",
+				"spans": [[24498, 24501]]
+			},
+			{
+				"name": "ZDS",
+				"spans": [[24244, 24247]]
+			},
+			{
+				"name": "CRTISO",
+				"spans": [[24120, 24126]]
+			},
+			{
+				"name": "PSY",
+				"spans": [[24194, 24197]]
+			},
+			{
+				"name": "DXS",
+				"spans": [[24398, 24401]]
+			},
+			{
+				"name": "MDS",
+				"spans": [[24624, 24627]]
+			},
+			{
+				"name": "PDS",
+				"spans": [
+					[24218, 24221],
+					[25773, 25776]
+				]
+			},
+			{
+				"name": "i-irPDS",
+				"spans": [
+					[25448, 25455],
+					[25888, 25895]
+				]
+			},
+			{
+				"name": "CCD",
+				"spans": [[24309, 24312]]
+			},
+			{
+				"name": "D27",
+				"spans": [[24797, 24800]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[26010, 26016]]
+			},
+			{
+				"name": "stem leaf",
+				"spans": [[25524, 25533]]
+			},
+			{
+				"name": "stem sap fluid",
+				"spans": [[24925, 24939]]
+			},
+			{
+				"name": "seedlings",
+				"spans": [
+					[26032, 26041],
+					[26145, 26154]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[23873, 23878],
+					[25989, 25994],
+					[26048, 26053]
+				]
+			},
+			{
+				"name": "leaf tissues",
+				"spans": [[23915, 23927]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[24943, 24955]]
+			},
+			{
+				"name": "Arabidopsis",
+				"spans": [[23554, 23565]]
+			},
+			{
+				"name": "tomato",
+				"spans": [[23546, 23552]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [
+					[24084, 24098],
+					[24969, 24983]
+				]
+			},
+			{
+				"name": "tobacco",
+				"spans": [[23570, 23577]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "local silencing",
+				"spans": [[25225, 25240]]
+			},
+			{
+				"name": "inoculations with R. irregularis",
+				"spans": [[24066, 24098]]
+			},
+			{
+				"name": "R. irregularis inoculation",
+				"spans": [[24969, 24995]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "bleaching",
+				"spans": [[25742, 25751]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoots",
+				"spans": [[26372, 26378]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[26382, 26394]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol A-9-O-glucoside",
+				"spans": [[26586, 26610]]
+			},
+			{
+				"name": "roseoside",
+				"spans": [[26612, 26621]],
+				"CID": 9930064,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Megastigmanes"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "",
+				"spans": [
+					[26437, 26437],
+					[26438, 26438],
+					[26440, 26440],
+					[26454, 26454],
+					[26455, 26455],
+					[26468, 26468],
+					[26469, 26469],
+					[26473, 26473],
+					[26474, 26474],
+					[26475, 26475],
+					[26476, 26476],
+					[26484, 26484],
+					[26485, 26485],
+					[26491, 26491],
+					[26492, 26492],
+					[26494, 26494],
+					[26495, 26495],
+					[26500, 26500],
+					[26501, 26501],
+					[26509, 26509],
+					[26510, 26510],
+					[26512, 26512],
+					[26513, 26513],
+					[26521, 26521],
+					[26522, 26522],
+					[26523, 26523],
+					[26524, 26524],
+					[26526, 26526],
+					[26527, 26527],
+					[26533, 26533],
+					[26534, 26534],
+					[26536, 26536],
+					[26537, 26537],
+					[26538, 26538],
+					[26540, 26540],
+					[26549, 26549],
+					[26551, 26551],
+					[26557, 26557],
+					[26558, 26558],
+					[26563, 26563],
+					[26565, 26565],
+					[26568, 26568],
+					[26569, 26569],
+					[26571, 26571],
+					[26572, 26572],
+					[26582, 26582],
+					[26584, 26584],
+					[26585, 26585],
+					[26586, 26586],
+					[26594, 26594],
+					[26595, 26595],
+					[26596, 26596],
+					[26597, 26597],
+					[26598, 26598],
+					[26599, 26599],
+					[26600, 26600],
+					[26601, 26601],
+					[26610, 26610],
+					[26612, 26612],
+					[26621, 26621],
+					[26623, 26623],
+					[26631, 26631],
+					[26633, 26633],
+					[26636, 26636],
+					[26637, 26637],
+					[26642, 26642],
+					[26645, 26645],
+					[26648, 26648],
+					[26649, 26649],
+					[26658, 26658],
+					[26659, 26659],
+					[26661, 26661],
+					[26662, 26662],
+					[26669, 26669],
+					[26670, 26670],
+					[26673, 26673],
+					[26674, 26674],
+					[26685, 26685],
+					[26686, 26686],
+					[26689, 26689],
+					[26690, 26690],
+					[26699, 26699],
+					[26702, 26702],
+					[26703, 26703],
+					[26705, 26705],
+					[26709, 26709],
+					[26710, 26710],
+					[26715, 26715],
+					[26716, 26716],
+					[26729, 26729],
+					[26730, 26730],
+					[26732, 26732],
+					[26733, 26733],
+					[26741, 26741],
+					[26742, 26742],
+					[26743, 26743],
+					[26744, 26744],
+					[26746, 26746],
+					[26747, 26747],
+					[26752, 26752],
+					[26753, 26753],
+					[26755, 26755],
+					[26756, 26756],
+					[26758, 26758],
+					[26759, 26759],
+					[26765, 26765],
+					[26766, 26766],
+					[26770, 26770],
+					[26772, 26772],
+					[26774, 26774],
+					[26777, 26777],
+					[26782, 26782],
+					[26783, 26783],
+					[26787, 26787],
+					[26789, 26789],
+					[26791, 26791],
+					[26792, 26792],
+					[26799, 26799],
+					[26801, 26801],
+					[26803, 26803],
+					[26806, 26806],
+					[26811, 26811],
+					[26812, 26812],
+					[26816, 26816],
+					[26818, 26818],
+					[26821, 26821],
+					[26822, 26822],
+					[26833, 26833],
+					[26835, 26835],
+					[26839, 26839],
+					[26840, 26840],
+					[26849, 26849],
+					[26850, 26850],
+					[26855, 26855],
+					[26858, 26858],
+					[26860, 26860],
+					[26862, 26862],
+					[26863, 26863],
+					[26867, 26867],
+					[26868, 26868],
+					[26872, 26872],
+					[26873, 26873],
+					[26875, 26875],
+					[26879, 26879],
+					[26880, 26880],
+					[26885, 26885],
+					[26886, 26886],
+					[26899, 26899],
+					[26900, 26900],
+					[26902, 26902],
+					[26903, 26903],
+					[26911, 26911],
+					[26912, 26912],
+					[26913, 26913],
+					[26914, 26914],
+					[26916, 26916],
+					[26917, 26917],
+					[26923, 26923],
+					[26924, 26924],
+					[26926, 26926],
+					[26927, 26927],
+					[26929, 26929],
+					[26930, 26930],
+					[26936, 26936],
+					[26937, 26937],
+					[26941, 26941],
+					[26943, 26943],
+					[26945, 26945],
+					[26948, 26948],
+					[26951, 26951],
+					[26952, 26952],
+					[26956, 26956],
+					[26958, 26958],
+					[26960, 26960],
+					[26961, 26961],
+					[26968, 26968],
+					[26970, 26970],
+					[26972, 26972],
+					[26975, 26975],
+					[26980, 26980],
+					[26981, 26981],
+					[26985, 26985],
+					[26987, 26987],
+					[26990, 26990],
+					[26991, 26991],
+					[27002, 27002],
+					[27003, 27003],
+					[27006, 27006],
+					[27007, 27007],
+					[27009, 27009],
+					[27010, 27010],
+					[27017, 27017],
+					[27018, 27018],
+					[27024, 27024],
+					[27025, 27025],
+					[27029, 27029],
+					[27030, 27030],
+					[27033, 27033],
+					[27034, 27034],
+					[27045, 27045],
+					[27047, 27047],
+					[27054, 27054],
+					[27057, 27057],
+					[27063, 27063],
+					[27064, 27064],
+					[27068, 27068],
+					[27071, 27071],
+					[27075, 27075],
+					[27076, 27076],
+					[27085, 27085],
+					[27086, 27086],
+					[27091, 27091],
+					[27094, 27094],
+					[27096, 27096],
+					[27098, 27098],
+					[27099, 27099],
+					[27103, 27103],
+					[27104, 27104],
+					[27108, 27108],
+					[27109, 27109],
+					[27111, 27111],
+					[27121, 27121],
+					[27122, 27122],
+					[27124, 27124],
+					[27125, 27125],
+					[27128, 27128],
+					[27129, 27129],
+					[27139, 27139],
+					[27140, 27140],
+					[27142, 27142],
+					[27143, 27143],
+					[27151, 27151],
+					[27152, 27152],
+					[27153, 27153],
+					[27154, 27154],
+					[27156, 27156],
+					[27157, 27157],
+					[27163, 27163],
+					[27164, 27164],
+					[27166, 27166],
+					[27167, 27167],
+					[27173, 27173],
+					[27174, 27174],
+					[27184, 27184],
+					[27185, 27185],
+					[27189, 27189],
+					[27190, 27190],
+					[27199, 27199],
+					[27200, 27200],
+					[27208, 27208],
+					[27209, 27209],
+					[27223, 27223],
+					[27225, 27225],
+					[27232, 27232],
+					[27233, 27233],
+					[27237, 27237],
+					[27238, 27238],
+					[27247, 27247],
+					[27248, 27248],
+					[27250, 27250],
+					[27251, 27251],
+					[27252, 27252],
+					[27253, 27253],
+					[27258, 27258],
+					[27259, 27259],
+					[27263, 27263],
+					[27264, 27264],
+					[27275, 27275],
+					[27277, 27277],
+					[27280, 27280],
+					[27283, 27283],
+					[27287, 27287],
+					[27288, 27288],
+					[27291, 27291],
+					[27292, 27292],
+					[27297, 27297],
+					[27299, 27299],
+					[27301, 27301],
+					[27303, 27303],
+					[27304, 27304],
+					[27308, 27308],
+					[27309, 27309],
+					[27312, 27312],
+					[27321, 27321],
+					[27322, 27322],
+					[27329, 27329],
+					[27330, 27330],
+					[27338, 27338],
+					[27339, 27339],
+					[27350, 27350],
+					[27351, 27351],
+					[27362, 27362],
+					[27364, 27364],
+					[27365, 27365],
+					[27366, 27366],
+					[27367, 27367],
+					[27368, 27368],
+					[27370, 27370],
+					[27372, 27372],
+					[27375, 27375],
+					[27376, 27376],
+					[27379, 27379],
+					[27380, 27380],
+					[27385, 27385],
+					[27386, 27386],
+					[27394, 27394],
+					[27395, 27395],
+					[27397, 27397],
+					[27398, 27398],
+					[27404, 27404],
+					[27405, 27405],
+					[27406, 27406],
+					[27407, 27407],
+					[27410, 27410],
+					[27414, 27414],
+					[27415, 27415],
+					[27417, 27417],
+					[27422, 27422],
+					[27423, 27423],
+					[27433, 27433],
+					[27435, 27435],
+					[27440, 27440],
+					[27441, 27441],
+					[27446, 27446],
+					[27447, 27447],
+					[27453, 27453],
+					[27455, 27455],
+					[27459, 27459],
+					[27461, 27461],
+					[27464, 27464],
+					[27467, 27467],
+					[27471, 27471],
+					[27472, 27472],
+					[27479, 27479],
+					[27480, 27480],
+					[27482, 27482],
+					[27483, 27483],
+					[27485, 27485],
+					[27487, 27487],
+					[27488, 27488],
+					[27491, 27491],
+					[27493, 27493],
+					[27495, 27495],
+					[27498, 27498],
+					[27499, 27499],
+					[27506, 27506],
+					[27508, 27508],
+					[27509, 27509],
+					[27512, 27512],
+					[27514, 27514],
+					[27516, 27516],
+					[27522, 27522],
+					[27523, 27523],
+					[27527, 27527],
+					[27528, 27528],
+					[27535, 27535],
+					[27536, 27536],
+					[27537, 27537],
+					[27538, 27538],
+					[27543, 27543],
+					[27544, 27544],
+					[27549, 27549],
+					[27550, 27550],
+					[27558, 27558],
+					[27559, 27559],
+					[27562, 27562],
+					[27563, 27563],
+					[27570, 27570],
+					[27571, 27571],
+					[27573, 27573],
+					[27574, 27574],
+					[27582, 27582],
+					[27583, 27583],
+					[27584, 27584],
+					[27585, 27585],
+					[27589, 27589],
+					[27590, 27590],
+					[27598, 27598],
+					[27600, 27600],
+					[27603, 27603],
+					[27604, 27604],
+					[27615, 27615],
+					[27616, 27616],
+					[27624, 27624],
+					[27626, 27626],
+					[27633, 27633],
+					[27634, 27634],
+					[27635, 27635],
+					[27636, 27636],
+					[27637, 27637],
+					[27638, 27638],
+					[27642, 27642],
+					[27643, 27643],
+					[27646, 27646],
+					[27647, 27647],
+					[27654, 27654],
+					[27657, 27657],
+					[27658, 27658],
+					[27660, 27660],
+					[27669, 27669],
+					[27670, 27670],
+					[27672, 27672],
+					[27673, 27673],
+					[27681, 27681],
+					[27682, 27682],
+					[27683, 27683],
+					[27684, 27684],
+					[27692, 27692],
+					[27693, 27693],
+					[27695, 27695],
+					[27696, 27696],
+					[27699, 27699],
+					[27700, 27700],
+					[27710, 27710],
+					[27711, 27711],
+					[27720, 27720],
+					[27721, 27721],
+					[27723, 27723],
+					[27724, 27724],
+					[27727, 27727],
+					[27728, 27728],
+					[27729, 27729],
+					[27731, 27731],
+					[27742, 27742],
+					[27743, 27743],
+					[27751, 27751],
+					[27752, 27752],
+					[27764, 27764],
+					[27765, 27765],
+					[27769, 27769],
+					[27771, 27771],
+					[27773, 27773],
+					[27774, 27774],
+					[27777, 27777],
+					[27779, 27779],
+					[27786, 27786],
+					[27788, 27788],
+					[27796, 27796],
+					[27797, 27797],
+					[27798, 27798],
+					[27801, 27801],
+					[27803, 27803],
+					[27804, 27804],
+					[27808, 27808],
+					[27809, 27809],
+					[27811, 27811],
+					[27812, 27812],
+					[27814, 27814],
+					[27815, 27815],
+					[27818, 27818],
+					[27819, 27819],
+					[27824, 27824],
+					[27825, 27825],
+					[27832, 27832],
+					[27833, 27833],
+					[27839, 27839],
+					[27840, 27840],
+					[27845, 27845],
+					[27846, 27846],
+					[27850, 27850],
+					[27852, 27852],
+					[27859, 27859],
+					[27861, 27861],
+					[27865, 27865],
+					[27866, 27866],
+					[27869, 27869],
+					[27870, 27870],
+					[27873, 27873],
+					[27874, 27874],
+					[27877, 27877],
+					[27878, 27878],
+					[27888, 27888],
+					[27889, 27889],
+					[27898, 27898],
+					[27899, 27899],
+					[27902, 27902],
+					[27903, 27903],
+					[27913, 27913],
+					[27914, 27914],
+					[27916, 27916],
+					[27917, 27917],
+					[27918, 27918],
+					[27919, 27919],
+					[27922, 27922],
+					[27924, 27924],
+					[27932, 27932],
+					[27933, 27933],
+					[27935, 27935],
+					[27936, 27936],
+					[27940, 27940],
+					[27941, 27941],
+					[27943, 27943],
+					[27945, 27945],
+					[27949, 27949],
+					[27950, 27950],
+					[27959, 27959],
+					[27960, 27960],
+					[27968, 27968],
+					[27970, 27970],
+					[27982, 27982],
+					[27983, 27983],
+					[27984, 27984],
+					[27987, 27987],
+					[27990, 27990],
+					[27991, 27991],
+					[28002, 28002],
+					[28003, 28003],
+					[28010, 28010],
+					[28011, 28011],
+					[28019, 28019],
+					[28020, 28020],
+					[28021, 28021],
+					[28022, 28022],
+					[28025, 28025],
+					[28026, 28026],
+					[28036, 28036],
+					[28037, 28037],
+					[28046, 28046],
+					[28047, 28047],
+					[28049, 28049],
+					[28050, 28050],
+					[28056, 28056],
+					[28057, 28057],
+					[28062, 28062],
+					[28063, 28063],
+					[28066, 28066],
+					[28067, 28067],
+					[28075, 28075],
+					[28076, 28076],
+					[28078, 28078],
+					[28079, 28079],
+					[28085, 28085],
+					[28086, 28086],
+					[28096, 28096],
+					[28098, 28098],
+					[28100, 28100],
+					[28102, 28102],
+					[28108, 28108],
+					[28111, 28111],
+					[28112, 28112],
+					[28114, 28114],
+					[28126, 28126],
+					[28127, 28127],
+					[28129, 28129],
+					[28130, 28130],
+					[28138, 28138],
+					[28139, 28139],
+					[28140, 28140],
+					[28141, 28141],
+					[28143, 28143],
+					[28144, 28144],
+					[28153, 28153],
+					[28154, 28154],
+					[28159, 28159],
+					[28160, 28160],
+					[28167, 28167],
+					[28169, 28169],
+					[28171, 28171],
+					[28172, 28172],
+					[28181, 28181],
+					[28183, 28183],
+					[28185, 28185],
+					[28186, 28186],
+					[28192, 28192],
+					[28193, 28193],
+					[28197, 28197],
+					[28200, 28200],
+					[28203, 28203],
+					[28205, 28205],
+					[28206, 28206],
+					[28209, 28209],
+					[28210, 28210],
+					[28212, 28212],
+					[28215, 28215],
+					[28216, 28216],
+					[28220, 28220],
+					[28222, 28222],
+					[28224, 28224],
+					[28225, 28225],
+					[28232, 28232],
+					[28235, 28235],
+					[28238, 28238],
+					[28240, 28240],
+					[28241, 28241],
+					[28244, 28244],
+					[28245, 28245],
+					[28247, 28247],
+					[28252, 28252],
+					[28253, 28253],
+					[28257, 28257],
+					[28259, 28259],
+					[28262, 28262],
+					[28263, 28263],
+					[28274, 28274],
+					[28276, 28276],
+					[28283, 28283],
+					[28284, 28284],
+					[28288, 28288],
+					[28289, 28289],
+					[28298, 28298],
+					[28299, 28299],
+					[28301, 28301],
+					[28302, 28302],
+					[28305, 28305],
+					[28306, 28306],
+					[28309, 28309]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "STR1",
+				"spans": [[27861, 27865]]
+			},
+			{
+				"name": "Vapyrin",
+				"spans": [[27852, 27859]]
+			},
+			{
+				"name": "RAM1",
+				"spans": [[27846, 27850]]
+			},
+			{
+				"name": "NaIF-5a",
+				"spans": [[27936, 27943]]
+			},
+			{
+				"name": "Ri-tub",
+				"spans": [[27771, 27777]]
+			},
+			{
+				"name": "PT4",
+				"spans": [[27870, 27873]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[26527, 26533],
+					[26917, 26923],
+					[27157, 27163]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [[26747, 26752]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[27728, 27742]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[26537, 26549]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "different inoculum concentrations",
+				"spans": [[27190, 27223]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [
+					[26818, 26833],
+					[26987, 27002],
+					[27030, 27045],
+					[28259, 28274]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "",
+				"spans": [
+					[26437, 26437],
+					[26438, 26438],
+					[26440, 26440],
+					[26454, 26454],
+					[26455, 26455],
+					[26468, 26468],
+					[26469, 26469],
+					[26473, 26473],
+					[26474, 26474],
+					[26475, 26475],
+					[26476, 26476],
+					[26484, 26484],
+					[26485, 26485],
+					[26491, 26491],
+					[26492, 26492],
+					[26494, 26494],
+					[26495, 26495],
+					[26500, 26500],
+					[26501, 26501],
+					[26509, 26509],
+					[26510, 26510],
+					[26512, 26512],
+					[26513, 26513],
+					[26521, 26521],
+					[26522, 26522],
+					[26523, 26523],
+					[26524, 26524],
+					[26526, 26526],
+					[26527, 26527],
+					[26533, 26533],
+					[26534, 26534],
+					[26536, 26536],
+					[26537, 26537],
+					[26538, 26538],
+					[26540, 26540],
+					[26549, 26549],
+					[26551, 26551],
+					[26557, 26557],
+					[26558, 26558],
+					[26563, 26563],
+					[26565, 26565],
+					[26568, 26568],
+					[26569, 26569],
+					[26571, 26571],
+					[26572, 26572],
+					[26582, 26582],
+					[26584, 26584],
+					[26585, 26585],
+					[26586, 26586],
+					[26594, 26594],
+					[26595, 26595],
+					[26596, 26596],
+					[26597, 26597],
+					[26598, 26598],
+					[26599, 26599],
+					[26600, 26600],
+					[26601, 26601],
+					[26610, 26610],
+					[26612, 26612],
+					[26621, 26621],
+					[26623, 26623],
+					[26631, 26631],
+					[26633, 26633],
+					[26636, 26636],
+					[26637, 26637],
+					[26642, 26642],
+					[26645, 26645],
+					[26648, 26648],
+					[26649, 26649],
+					[26658, 26658],
+					[26659, 26659],
+					[26661, 26661],
+					[26662, 26662],
+					[26669, 26669],
+					[26670, 26670],
+					[26673, 26673],
+					[26674, 26674],
+					[26685, 26685],
+					[26686, 26686],
+					[26689, 26689],
+					[26690, 26690],
+					[26699, 26699],
+					[26702, 26702],
+					[26703, 26703],
+					[26705, 26705],
+					[26709, 26709],
+					[26710, 26710],
+					[26715, 26715],
+					[26716, 26716],
+					[26729, 26729],
+					[26730, 26730],
+					[26732, 26732],
+					[26733, 26733],
+					[26741, 26741],
+					[26742, 26742],
+					[26743, 26743],
+					[26744, 26744],
+					[26746, 26746],
+					[26747, 26747],
+					[26752, 26752],
+					[26753, 26753],
+					[26755, 26755],
+					[26756, 26756],
+					[26758, 26758],
+					[26759, 26759],
+					[26765, 26765],
+					[26766, 26766],
+					[26770, 26770],
+					[26772, 26772],
+					[26774, 26774],
+					[26777, 26777],
+					[26782, 26782],
+					[26783, 26783],
+					[26787, 26787],
+					[26789, 26789],
+					[26791, 26791],
+					[26792, 26792],
+					[26799, 26799],
+					[26801, 26801],
+					[26803, 26803],
+					[26806, 26806],
+					[26811, 26811],
+					[26812, 26812],
+					[26816, 26816],
+					[26818, 26818],
+					[26821, 26821],
+					[26822, 26822],
+					[26833, 26833],
+					[26835, 26835],
+					[26839, 26839],
+					[26840, 26840],
+					[26849, 26849],
+					[26850, 26850],
+					[26855, 26855],
+					[26858, 26858],
+					[26860, 26860],
+					[26862, 26862],
+					[26863, 26863],
+					[26867, 26867],
+					[26868, 26868],
+					[26872, 26872],
+					[26873, 26873],
+					[26875, 26875],
+					[26879, 26879],
+					[26880, 26880],
+					[26885, 26885],
+					[26886, 26886],
+					[26899, 26899],
+					[26900, 26900],
+					[26902, 26902],
+					[26903, 26903],
+					[26911, 26911],
+					[26912, 26912],
+					[26913, 26913],
+					[26914, 26914],
+					[26916, 26916],
+					[26917, 26917],
+					[26923, 26923],
+					[26924, 26924],
+					[26926, 26926],
+					[26927, 26927],
+					[26929, 26929],
+					[26930, 26930],
+					[26936, 26936],
+					[26937, 26937],
+					[26941, 26941],
+					[26943, 26943],
+					[26945, 26945],
+					[26948, 26948],
+					[26951, 26951],
+					[26952, 26952],
+					[26956, 26956],
+					[26958, 26958],
+					[26960, 26960],
+					[26961, 26961],
+					[26968, 26968],
+					[26970, 26970],
+					[26972, 26972],
+					[26975, 26975],
+					[26980, 26980],
+					[26981, 26981],
+					[26985, 26985],
+					[26987, 26987],
+					[26990, 26990],
+					[26991, 26991],
+					[27002, 27002],
+					[27003, 27003],
+					[27006, 27006],
+					[27007, 27007],
+					[27009, 27009],
+					[27010, 27010],
+					[27017, 27017],
+					[27018, 27018],
+					[27024, 27024],
+					[27025, 27025],
+					[27029, 27029],
+					[27030, 27030],
+					[27033, 27033],
+					[27034, 27034],
+					[27045, 27045],
+					[27047, 27047],
+					[27054, 27054],
+					[27057, 27057],
+					[27063, 27063],
+					[27064, 27064],
+					[27068, 27068],
+					[27071, 27071],
+					[27075, 27075],
+					[27076, 27076],
+					[27085, 27085],
+					[27086, 27086],
+					[27091, 27091],
+					[27094, 27094],
+					[27096, 27096],
+					[27098, 27098],
+					[27099, 27099],
+					[27103, 27103],
+					[27104, 27104],
+					[27108, 27108],
+					[27109, 27109],
+					[27111, 27111],
+					[27121, 27121],
+					[27122, 27122],
+					[27124, 27124],
+					[27125, 27125],
+					[27128, 27128],
+					[27129, 27129],
+					[27139, 27139],
+					[27140, 27140],
+					[27142, 27142],
+					[27143, 27143],
+					[27151, 27151],
+					[27152, 27152],
+					[27153, 27153],
+					[27154, 27154],
+					[27156, 27156],
+					[27157, 27157],
+					[27163, 27163],
+					[27164, 27164],
+					[27166, 27166],
+					[27167, 27167],
+					[27173, 27173],
+					[27174, 27174],
+					[27184, 27184],
+					[27185, 27185],
+					[27189, 27189],
+					[27190, 27190],
+					[27199, 27199],
+					[27200, 27200],
+					[27208, 27208],
+					[27209, 27209],
+					[27223, 27223],
+					[27225, 27225],
+					[27232, 27232],
+					[27233, 27233],
+					[27237, 27237],
+					[27238, 27238],
+					[27247, 27247],
+					[27248, 27248],
+					[27250, 27250],
+					[27251, 27251],
+					[27252, 27252],
+					[27253, 27253],
+					[27258, 27258],
+					[27259, 27259],
+					[27263, 27263],
+					[27264, 27264],
+					[27275, 27275],
+					[27277, 27277],
+					[27280, 27280],
+					[27283, 27283],
+					[27287, 27287],
+					[27288, 27288],
+					[27291, 27291],
+					[27292, 27292],
+					[27297, 27297],
+					[27299, 27299],
+					[27301, 27301],
+					[27303, 27303],
+					[27304, 27304],
+					[27308, 27308],
+					[27309, 27309],
+					[27312, 27312],
+					[27321, 27321],
+					[27322, 27322],
+					[27329, 27329],
+					[27330, 27330],
+					[27338, 27338],
+					[27339, 27339],
+					[27350, 27350],
+					[27351, 27351],
+					[27362, 27362],
+					[27364, 27364],
+					[27365, 27365],
+					[27366, 27366],
+					[27367, 27367],
+					[27368, 27368],
+					[27370, 27370],
+					[27372, 27372],
+					[27375, 27375],
+					[27376, 27376],
+					[27379, 27379],
+					[27380, 27380],
+					[27385, 27385],
+					[27386, 27386],
+					[27394, 27394],
+					[27395, 27395],
+					[27397, 27397],
+					[27398, 27398],
+					[27404, 27404],
+					[27405, 27405],
+					[27406, 27406],
+					[27407, 27407],
+					[27410, 27410],
+					[27414, 27414],
+					[27415, 27415],
+					[27417, 27417],
+					[27422, 27422],
+					[27423, 27423],
+					[27433, 27433],
+					[27435, 27435],
+					[27440, 27440],
+					[27441, 27441],
+					[27446, 27446],
+					[27447, 27447],
+					[27453, 27453],
+					[27455, 27455],
+					[27459, 27459],
+					[27461, 27461],
+					[27464, 27464],
+					[27467, 27467],
+					[27471, 27471],
+					[27472, 27472],
+					[27479, 27479],
+					[27480, 27480],
+					[27482, 27482],
+					[27483, 27483],
+					[27485, 27485],
+					[27487, 27487],
+					[27488, 27488],
+					[27491, 27491],
+					[27493, 27493],
+					[27495, 27495],
+					[27498, 27498],
+					[27499, 27499],
+					[27506, 27506],
+					[27508, 27508],
+					[27509, 27509],
+					[27512, 27512],
+					[27514, 27514],
+					[27516, 27516],
+					[27522, 27522],
+					[27523, 27523],
+					[27527, 27527],
+					[27528, 27528],
+					[27535, 27535],
+					[27536, 27536],
+					[27537, 27537],
+					[27538, 27538],
+					[27543, 27543],
+					[27544, 27544],
+					[27549, 27549],
+					[27550, 27550],
+					[27558, 27558],
+					[27559, 27559],
+					[27562, 27562],
+					[27563, 27563],
+					[27570, 27570],
+					[27571, 27571],
+					[27573, 27573],
+					[27574, 27574],
+					[27582, 27582],
+					[27583, 27583],
+					[27584, 27584],
+					[27585, 27585],
+					[27589, 27589],
+					[27590, 27590],
+					[27598, 27598],
+					[27600, 27600],
+					[27603, 27603],
+					[27604, 27604],
+					[27615, 27615],
+					[27616, 27616],
+					[27624, 27624],
+					[27626, 27626],
+					[27633, 27633],
+					[27634, 27634],
+					[27635, 27635],
+					[27636, 27636],
+					[27637, 27637],
+					[27638, 27638],
+					[27642, 27642],
+					[27643, 27643],
+					[27646, 27646],
+					[27647, 27647],
+					[27654, 27654],
+					[27657, 27657],
+					[27658, 27658],
+					[27660, 27660],
+					[27669, 27669],
+					[27670, 27670],
+					[27672, 27672],
+					[27673, 27673],
+					[27681, 27681],
+					[27682, 27682],
+					[27683, 27683],
+					[27684, 27684],
+					[27692, 27692],
+					[27693, 27693],
+					[27695, 27695],
+					[27696, 27696],
+					[27699, 27699],
+					[27700, 27700],
+					[27710, 27710],
+					[27711, 27711],
+					[27720, 27720],
+					[27721, 27721],
+					[27723, 27723],
+					[27724, 27724],
+					[27727, 27727],
+					[27728, 27728],
+					[27729, 27729],
+					[27731, 27731],
+					[27742, 27742],
+					[27743, 27743],
+					[27751, 27751],
+					[27752, 27752],
+					[27764, 27764],
+					[27765, 27765],
+					[27769, 27769],
+					[27771, 27771],
+					[27773, 27773],
+					[27774, 27774],
+					[27777, 27777],
+					[27779, 27779],
+					[27786, 27786],
+					[27788, 27788],
+					[27796, 27796],
+					[27797, 27797],
+					[27798, 27798],
+					[27801, 27801],
+					[27803, 27803],
+					[27804, 27804],
+					[27808, 27808],
+					[27809, 27809],
+					[27811, 27811],
+					[27812, 27812],
+					[27814, 27814],
+					[27815, 27815],
+					[27818, 27818],
+					[27819, 27819],
+					[27824, 27824],
+					[27825, 27825],
+					[27832, 27832],
+					[27833, 27833],
+					[27839, 27839],
+					[27840, 27840],
+					[27845, 27845],
+					[27846, 27846],
+					[27850, 27850],
+					[27852, 27852],
+					[27859, 27859],
+					[27861, 27861],
+					[27865, 27865],
+					[27866, 27866],
+					[27869, 27869],
+					[27870, 27870],
+					[27873, 27873],
+					[27874, 27874],
+					[27877, 27877],
+					[27878, 27878],
+					[27888, 27888],
+					[27889, 27889],
+					[27898, 27898],
+					[27899, 27899],
+					[27902, 27902],
+					[27903, 27903],
+					[27913, 27913],
+					[27914, 27914],
+					[27916, 27916],
+					[27917, 27917],
+					[27918, 27918],
+					[27919, 27919],
+					[27922, 27922],
+					[27924, 27924],
+					[27932, 27932],
+					[27933, 27933],
+					[27935, 27935],
+					[27936, 27936],
+					[27940, 27940],
+					[27941, 27941],
+					[27943, 27943],
+					[27945, 27945],
+					[27949, 27949],
+					[27950, 27950],
+					[27959, 27959],
+					[27960, 27960],
+					[27968, 27968],
+					[27970, 27970],
+					[27982, 27982],
+					[27983, 27983],
+					[27984, 27984],
+					[27987, 27987],
+					[27990, 27990],
+					[27991, 27991],
+					[28002, 28002],
+					[28003, 28003],
+					[28010, 28010],
+					[28011, 28011],
+					[28019, 28019],
+					[28020, 28020],
+					[28021, 28021],
+					[28022, 28022],
+					[28025, 28025],
+					[28026, 28026],
+					[28036, 28036],
+					[28037, 28037],
+					[28046, 28046],
+					[28047, 28047],
+					[28049, 28049],
+					[28050, 28050],
+					[28056, 28056],
+					[28057, 28057],
+					[28062, 28062],
+					[28063, 28063],
+					[28066, 28066],
+					[28067, 28067],
+					[28075, 28075],
+					[28076, 28076],
+					[28078, 28078],
+					[28079, 28079],
+					[28085, 28085],
+					[28086, 28086],
+					[28096, 28096],
+					[28098, 28098],
+					[28100, 28100],
+					[28102, 28102],
+					[28108, 28108],
+					[28111, 28111],
+					[28112, 28112],
+					[28114, 28114],
+					[28126, 28126],
+					[28127, 28127],
+					[28129, 28129],
+					[28130, 28130],
+					[28138, 28138],
+					[28139, 28139],
+					[28140, 28140],
+					[28141, 28141],
+					[28143, 28143],
+					[28144, 28144],
+					[28153, 28153],
+					[28154, 28154],
+					[28159, 28159],
+					[28160, 28160],
+					[28167, 28167],
+					[28169, 28169],
+					[28171, 28171],
+					[28172, 28172],
+					[28181, 28181],
+					[28183, 28183],
+					[28185, 28185],
+					[28186, 28186],
+					[28192, 28192],
+					[28193, 28193],
+					[28197, 28197],
+					[28200, 28200],
+					[28203, 28203],
+					[28205, 28205],
+					[28206, 28206],
+					[28209, 28209],
+					[28210, 28210],
+					[28212, 28212],
+					[28215, 28215],
+					[28216, 28216],
+					[28220, 28220],
+					[28222, 28222],
+					[28224, 28224],
+					[28225, 28225],
+					[28232, 28232],
+					[28235, 28235],
+					[28238, 28238],
+					[28240, 28240],
+					[28241, 28241],
+					[28244, 28244],
+					[28245, 28245],
+					[28247, 28247],
+					[28252, 28252],
+					[28253, 28253],
+					[28257, 28257],
+					[28259, 28259],
+					[28262, 28262],
+					[28263, 28263],
+					[28274, 28274],
+					[28276, 28276],
+					[28283, 28283],
+					[28284, 28284],
+					[28288, 28288],
+					[28289, 28289],
+					[28298, 28298],
+					[28299, 28299],
+					[28301, 28301],
+					[28302, 28302],
+					[28305, 28305],
+					[28306, 28306],
+					[28309, 28309]
+				]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "",
+				"spans": [
+					[26437, 26437],
+					[26438, 26438],
+					[26440, 26440],
+					[26454, 26454],
+					[26455, 26455],
+					[26468, 26468],
+					[26469, 26469],
+					[26473, 26473],
+					[26474, 26474],
+					[26475, 26475],
+					[26476, 26476],
+					[26484, 26484],
+					[26485, 26485],
+					[26491, 26491],
+					[26492, 26492],
+					[26494, 26494],
+					[26495, 26495],
+					[26500, 26500],
+					[26501, 26501],
+					[26509, 26509],
+					[26510, 26510],
+					[26512, 26512],
+					[26513, 26513],
+					[26521, 26521],
+					[26522, 26522],
+					[26523, 26523],
+					[26524, 26524],
+					[26526, 26526],
+					[26527, 26527],
+					[26533, 26533],
+					[26534, 26534],
+					[26536, 26536],
+					[26537, 26537],
+					[26538, 26538],
+					[26540, 26540],
+					[26549, 26549],
+					[26551, 26551],
+					[26557, 26557],
+					[26558, 26558],
+					[26563, 26563],
+					[26565, 26565],
+					[26568, 26568],
+					[26569, 26569],
+					[26571, 26571],
+					[26572, 26572],
+					[26582, 26582],
+					[26584, 26584],
+					[26585, 26585],
+					[26586, 26586],
+					[26594, 26594],
+					[26595, 26595],
+					[26596, 26596],
+					[26597, 26597],
+					[26598, 26598],
+					[26599, 26599],
+					[26600, 26600],
+					[26601, 26601],
+					[26610, 26610],
+					[26612, 26612],
+					[26621, 26621],
+					[26623, 26623],
+					[26631, 26631],
+					[26633, 26633],
+					[26636, 26636],
+					[26637, 26637],
+					[26642, 26642],
+					[26645, 26645],
+					[26648, 26648],
+					[26649, 26649],
+					[26658, 26658],
+					[26659, 26659],
+					[26661, 26661],
+					[26662, 26662],
+					[26669, 26669],
+					[26670, 26670],
+					[26673, 26673],
+					[26674, 26674],
+					[26685, 26685],
+					[26686, 26686],
+					[26689, 26689],
+					[26690, 26690],
+					[26699, 26699],
+					[26702, 26702],
+					[26703, 26703],
+					[26705, 26705],
+					[26709, 26709],
+					[26710, 26710],
+					[26715, 26715],
+					[26716, 26716],
+					[26729, 26729],
+					[26730, 26730],
+					[26732, 26732],
+					[26733, 26733],
+					[26741, 26741],
+					[26742, 26742],
+					[26743, 26743],
+					[26744, 26744],
+					[26746, 26746],
+					[26747, 26747],
+					[26752, 26752],
+					[26753, 26753],
+					[26755, 26755],
+					[26756, 26756],
+					[26758, 26758],
+					[26759, 26759],
+					[26765, 26765],
+					[26766, 26766],
+					[26770, 26770],
+					[26772, 26772],
+					[26774, 26774],
+					[26777, 26777],
+					[26782, 26782],
+					[26783, 26783],
+					[26787, 26787],
+					[26789, 26789],
+					[26791, 26791],
+					[26792, 26792],
+					[26799, 26799],
+					[26801, 26801],
+					[26803, 26803],
+					[26806, 26806],
+					[26811, 26811],
+					[26812, 26812],
+					[26816, 26816],
+					[26818, 26818],
+					[26821, 26821],
+					[26822, 26822],
+					[26833, 26833],
+					[26835, 26835],
+					[26839, 26839],
+					[26840, 26840],
+					[26849, 26849],
+					[26850, 26850],
+					[26855, 26855],
+					[26858, 26858],
+					[26860, 26860],
+					[26862, 26862],
+					[26863, 26863],
+					[26867, 26867],
+					[26868, 26868],
+					[26872, 26872],
+					[26873, 26873],
+					[26875, 26875],
+					[26879, 26879],
+					[26880, 26880],
+					[26885, 26885],
+					[26886, 26886],
+					[26899, 26899],
+					[26900, 26900],
+					[26902, 26902],
+					[26903, 26903],
+					[26911, 26911],
+					[26912, 26912],
+					[26913, 26913],
+					[26914, 26914],
+					[26916, 26916],
+					[26917, 26917],
+					[26923, 26923],
+					[26924, 26924],
+					[26926, 26926],
+					[26927, 26927],
+					[26929, 26929],
+					[26930, 26930],
+					[26936, 26936],
+					[26937, 26937],
+					[26941, 26941],
+					[26943, 26943],
+					[26945, 26945],
+					[26948, 26948],
+					[26951, 26951],
+					[26952, 26952],
+					[26956, 26956],
+					[26958, 26958],
+					[26960, 26960],
+					[26961, 26961],
+					[26968, 26968],
+					[26970, 26970],
+					[26972, 26972],
+					[26975, 26975],
+					[26980, 26980],
+					[26981, 26981],
+					[26985, 26985],
+					[26987, 26987],
+					[26990, 26990],
+					[26991, 26991],
+					[27002, 27002],
+					[27003, 27003],
+					[27006, 27006],
+					[27007, 27007],
+					[27009, 27009],
+					[27010, 27010],
+					[27017, 27017],
+					[27018, 27018],
+					[27024, 27024],
+					[27025, 27025],
+					[27029, 27029],
+					[27030, 27030],
+					[27033, 27033],
+					[27034, 27034],
+					[27045, 27045],
+					[27047, 27047],
+					[27054, 27054],
+					[27057, 27057],
+					[27063, 27063],
+					[27064, 27064],
+					[27068, 27068],
+					[27071, 27071],
+					[27075, 27075],
+					[27076, 27076],
+					[27085, 27085],
+					[27086, 27086],
+					[27091, 27091],
+					[27094, 27094],
+					[27096, 27096],
+					[27098, 27098],
+					[27099, 27099],
+					[27103, 27103],
+					[27104, 27104],
+					[27108, 27108],
+					[27109, 27109],
+					[27111, 27111],
+					[27121, 27121],
+					[27122, 27122],
+					[27124, 27124],
+					[27125, 27125],
+					[27128, 27128],
+					[27129, 27129],
+					[27139, 27139],
+					[27140, 27140],
+					[27142, 27142],
+					[27143, 27143],
+					[27151, 27151],
+					[27152, 27152],
+					[27153, 27153],
+					[27154, 27154],
+					[27156, 27156],
+					[27157, 27157],
+					[27163, 27163],
+					[27164, 27164],
+					[27166, 27166],
+					[27167, 27167],
+					[27173, 27173],
+					[27174, 27174],
+					[27184, 27184],
+					[27185, 27185],
+					[27189, 27189],
+					[27190, 27190],
+					[27199, 27199],
+					[27200, 27200],
+					[27208, 27208],
+					[27209, 27209],
+					[27223, 27223],
+					[27225, 27225],
+					[27232, 27232],
+					[27233, 27233],
+					[27237, 27237],
+					[27238, 27238],
+					[27247, 27247],
+					[27248, 27248],
+					[27250, 27250],
+					[27251, 27251],
+					[27252, 27252],
+					[27253, 27253],
+					[27258, 27258],
+					[27259, 27259],
+					[27263, 27263],
+					[27264, 27264],
+					[27275, 27275],
+					[27277, 27277],
+					[27280, 27280],
+					[27283, 27283],
+					[27287, 27287],
+					[27288, 27288],
+					[27291, 27291],
+					[27292, 27292],
+					[27297, 27297],
+					[27299, 27299],
+					[27301, 27301],
+					[27303, 27303],
+					[27304, 27304],
+					[27308, 27308],
+					[27309, 27309],
+					[27312, 27312],
+					[27321, 27321],
+					[27322, 27322],
+					[27329, 27329],
+					[27330, 27330],
+					[27338, 27338],
+					[27339, 27339],
+					[27350, 27350],
+					[27351, 27351],
+					[27362, 27362],
+					[27364, 27364],
+					[27365, 27365],
+					[27366, 27366],
+					[27367, 27367],
+					[27368, 27368],
+					[27370, 27370],
+					[27372, 27372],
+					[27375, 27375],
+					[27376, 27376],
+					[27379, 27379],
+					[27380, 27380],
+					[27385, 27385],
+					[27386, 27386],
+					[27394, 27394],
+					[27395, 27395],
+					[27397, 27397],
+					[27398, 27398],
+					[27404, 27404],
+					[27405, 27405],
+					[27406, 27406],
+					[27407, 27407],
+					[27410, 27410],
+					[27414, 27414],
+					[27415, 27415],
+					[27417, 27417],
+					[27422, 27422],
+					[27423, 27423],
+					[27433, 27433],
+					[27435, 27435],
+					[27440, 27440],
+					[27441, 27441],
+					[27446, 27446],
+					[27447, 27447],
+					[27453, 27453],
+					[27455, 27455],
+					[27459, 27459],
+					[27461, 27461],
+					[27464, 27464],
+					[27467, 27467],
+					[27471, 27471],
+					[27472, 27472],
+					[27479, 27479],
+					[27480, 27480],
+					[27482, 27482],
+					[27483, 27483],
+					[27485, 27485],
+					[27487, 27487],
+					[27488, 27488],
+					[27491, 27491],
+					[27493, 27493],
+					[27495, 27495],
+					[27498, 27498],
+					[27499, 27499],
+					[27506, 27506],
+					[27508, 27508],
+					[27509, 27509],
+					[27512, 27512],
+					[27514, 27514],
+					[27516, 27516],
+					[27522, 27522],
+					[27523, 27523],
+					[27527, 27527],
+					[27528, 27528],
+					[27535, 27535],
+					[27536, 27536],
+					[27537, 27537],
+					[27538, 27538],
+					[27543, 27543],
+					[27544, 27544],
+					[27549, 27549],
+					[27550, 27550],
+					[27558, 27558],
+					[27559, 27559],
+					[27562, 27562],
+					[27563, 27563],
+					[27570, 27570],
+					[27571, 27571],
+					[27573, 27573],
+					[27574, 27574],
+					[27582, 27582],
+					[27583, 27583],
+					[27584, 27584],
+					[27585, 27585],
+					[27589, 27589],
+					[27590, 27590],
+					[27598, 27598],
+					[27600, 27600],
+					[27603, 27603],
+					[27604, 27604],
+					[27615, 27615],
+					[27616, 27616],
+					[27624, 27624],
+					[27626, 27626],
+					[27633, 27633],
+					[27634, 27634],
+					[27635, 27635],
+					[27636, 27636],
+					[27637, 27637],
+					[27638, 27638],
+					[27642, 27642],
+					[27643, 27643],
+					[27646, 27646],
+					[27647, 27647],
+					[27654, 27654],
+					[27657, 27657],
+					[27658, 27658],
+					[27660, 27660],
+					[27669, 27669],
+					[27670, 27670],
+					[27672, 27672],
+					[27673, 27673],
+					[27681, 27681],
+					[27682, 27682],
+					[27683, 27683],
+					[27684, 27684],
+					[27692, 27692],
+					[27693, 27693],
+					[27695, 27695],
+					[27696, 27696],
+					[27699, 27699],
+					[27700, 27700],
+					[27710, 27710],
+					[27711, 27711],
+					[27720, 27720],
+					[27721, 27721],
+					[27723, 27723],
+					[27724, 27724],
+					[27727, 27727],
+					[27728, 27728],
+					[27729, 27729],
+					[27731, 27731],
+					[27742, 27742],
+					[27743, 27743],
+					[27751, 27751],
+					[27752, 27752],
+					[27764, 27764],
+					[27765, 27765],
+					[27769, 27769],
+					[27771, 27771],
+					[27773, 27773],
+					[27774, 27774],
+					[27777, 27777],
+					[27779, 27779],
+					[27786, 27786],
+					[27788, 27788],
+					[27796, 27796],
+					[27797, 27797],
+					[27798, 27798],
+					[27801, 27801],
+					[27803, 27803],
+					[27804, 27804],
+					[27808, 27808],
+					[27809, 27809],
+					[27811, 27811],
+					[27812, 27812],
+					[27814, 27814],
+					[27815, 27815],
+					[27818, 27818],
+					[27819, 27819],
+					[27824, 27824],
+					[27825, 27825],
+					[27832, 27832],
+					[27833, 27833],
+					[27839, 27839],
+					[27840, 27840],
+					[27845, 27845],
+					[27846, 27846],
+					[27850, 27850],
+					[27852, 27852],
+					[27859, 27859],
+					[27861, 27861],
+					[27865, 27865],
+					[27866, 27866],
+					[27869, 27869],
+					[27870, 27870],
+					[27873, 27873],
+					[27874, 27874],
+					[27877, 27877],
+					[27878, 27878],
+					[27888, 27888],
+					[27889, 27889],
+					[27898, 27898],
+					[27899, 27899],
+					[27902, 27902],
+					[27903, 27903],
+					[27913, 27913],
+					[27914, 27914],
+					[27916, 27916],
+					[27917, 27917],
+					[27918, 27918],
+					[27919, 27919],
+					[27922, 27922],
+					[27924, 27924],
+					[27932, 27932],
+					[27933, 27933],
+					[27935, 27935],
+					[27936, 27936],
+					[27940, 27940],
+					[27941, 27941],
+					[27943, 27943],
+					[27945, 27945],
+					[27949, 27949],
+					[27950, 27950],
+					[27959, 27959],
+					[27960, 27960],
+					[27968, 27968],
+					[27970, 27970],
+					[27982, 27982],
+					[27983, 27983],
+					[27984, 27984],
+					[27987, 27987],
+					[27990, 27990],
+					[27991, 27991],
+					[28002, 28002],
+					[28003, 28003],
+					[28010, 28010],
+					[28011, 28011],
+					[28019, 28019],
+					[28020, 28020],
+					[28021, 28021],
+					[28022, 28022],
+					[28025, 28025],
+					[28026, 28026],
+					[28036, 28036],
+					[28037, 28037],
+					[28046, 28046],
+					[28047, 28047],
+					[28049, 28049],
+					[28050, 28050],
+					[28056, 28056],
+					[28057, 28057],
+					[28062, 28062],
+					[28063, 28063],
+					[28066, 28066],
+					[28067, 28067],
+					[28075, 28075],
+					[28076, 28076],
+					[28078, 28078],
+					[28079, 28079],
+					[28085, 28085],
+					[28086, 28086],
+					[28096, 28096],
+					[28098, 28098],
+					[28100, 28100],
+					[28102, 28102],
+					[28108, 28108],
+					[28111, 28111],
+					[28112, 28112],
+					[28114, 28114],
+					[28126, 28126],
+					[28127, 28127],
+					[28129, 28129],
+					[28130, 28130],
+					[28138, 28138],
+					[28139, 28139],
+					[28140, 28140],
+					[28141, 28141],
+					[28143, 28143],
+					[28144, 28144],
+					[28153, 28153],
+					[28154, 28154],
+					[28159, 28159],
+					[28160, 28160],
+					[28167, 28167],
+					[28169, 28169],
+					[28171, 28171],
+					[28172, 28172],
+					[28181, 28181],
+					[28183, 28183],
+					[28185, 28185],
+					[28186, 28186],
+					[28192, 28192],
+					[28193, 28193],
+					[28197, 28197],
+					[28200, 28200],
+					[28203, 28203],
+					[28205, 28205],
+					[28206, 28206],
+					[28209, 28209],
+					[28210, 28210],
+					[28212, 28212],
+					[28215, 28215],
+					[28216, 28216],
+					[28220, 28220],
+					[28222, 28222],
+					[28224, 28224],
+					[28225, 28225],
+					[28232, 28232],
+					[28235, 28235],
+					[28238, 28238],
+					[28240, 28240],
+					[28241, 28241],
+					[28244, 28244],
+					[28245, 28245],
+					[28247, 28247],
+					[28252, 28252],
+					[28253, 28253],
+					[28257, 28257],
+					[28259, 28259],
+					[28262, 28262],
+					[28263, 28263],
+					[28274, 28274],
+					[28276, 28276],
+					[28283, 28283],
+					[28284, 28284],
+					[28288, 28288],
+					[28289, 28289],
+					[28298, 28298],
+					[28299, 28299],
+					[28301, 28301],
+					[28302, 28302],
+					[28305, 28305],
+					[28306, 28306],
+					[28309, 28309]
+				]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "",
+				"spans": [
+					[26437, 26437],
+					[26438, 26438],
+					[26440, 26440],
+					[26454, 26454],
+					[26455, 26455],
+					[26468, 26468],
+					[26469, 26469],
+					[26473, 26473],
+					[26474, 26474],
+					[26475, 26475],
+					[26476, 26476],
+					[26484, 26484],
+					[26485, 26485],
+					[26491, 26491],
+					[26492, 26492],
+					[26494, 26494],
+					[26495, 26495],
+					[26500, 26500],
+					[26501, 26501],
+					[26509, 26509],
+					[26510, 26510],
+					[26512, 26512],
+					[26513, 26513],
+					[26521, 26521],
+					[26522, 26522],
+					[26523, 26523],
+					[26524, 26524],
+					[26526, 26526],
+					[26527, 26527],
+					[26533, 26533],
+					[26534, 26534],
+					[26536, 26536],
+					[26537, 26537],
+					[26538, 26538],
+					[26540, 26540],
+					[26549, 26549],
+					[26551, 26551],
+					[26557, 26557],
+					[26558, 26558],
+					[26563, 26563],
+					[26565, 26565],
+					[26568, 26568],
+					[26569, 26569],
+					[26571, 26571],
+					[26572, 26572],
+					[26582, 26582],
+					[26584, 26584],
+					[26585, 26585],
+					[26586, 26586],
+					[26594, 26594],
+					[26595, 26595],
+					[26596, 26596],
+					[26597, 26597],
+					[26598, 26598],
+					[26599, 26599],
+					[26600, 26600],
+					[26601, 26601],
+					[26610, 26610],
+					[26612, 26612],
+					[26621, 26621],
+					[26623, 26623],
+					[26631, 26631],
+					[26633, 26633],
+					[26636, 26636],
+					[26637, 26637],
+					[26642, 26642],
+					[26645, 26645],
+					[26648, 26648],
+					[26649, 26649],
+					[26658, 26658],
+					[26659, 26659],
+					[26661, 26661],
+					[26662, 26662],
+					[26669, 26669],
+					[26670, 26670],
+					[26673, 26673],
+					[26674, 26674],
+					[26685, 26685],
+					[26686, 26686],
+					[26689, 26689],
+					[26690, 26690],
+					[26699, 26699],
+					[26702, 26702],
+					[26703, 26703],
+					[26705, 26705],
+					[26709, 26709],
+					[26710, 26710],
+					[26715, 26715],
+					[26716, 26716],
+					[26729, 26729],
+					[26730, 26730],
+					[26732, 26732],
+					[26733, 26733],
+					[26741, 26741],
+					[26742, 26742],
+					[26743, 26743],
+					[26744, 26744],
+					[26746, 26746],
+					[26747, 26747],
+					[26752, 26752],
+					[26753, 26753],
+					[26755, 26755],
+					[26756, 26756],
+					[26758, 26758],
+					[26759, 26759],
+					[26765, 26765],
+					[26766, 26766],
+					[26770, 26770],
+					[26772, 26772],
+					[26774, 26774],
+					[26777, 26777],
+					[26782, 26782],
+					[26783, 26783],
+					[26787, 26787],
+					[26789, 26789],
+					[26791, 26791],
+					[26792, 26792],
+					[26799, 26799],
+					[26801, 26801],
+					[26803, 26803],
+					[26806, 26806],
+					[26811, 26811],
+					[26812, 26812],
+					[26816, 26816],
+					[26818, 26818],
+					[26821, 26821],
+					[26822, 26822],
+					[26833, 26833],
+					[26835, 26835],
+					[26839, 26839],
+					[26840, 26840],
+					[26849, 26849],
+					[26850, 26850],
+					[26855, 26855],
+					[26858, 26858],
+					[26860, 26860],
+					[26862, 26862],
+					[26863, 26863],
+					[26867, 26867],
+					[26868, 26868],
+					[26872, 26872],
+					[26873, 26873],
+					[26875, 26875],
+					[26879, 26879],
+					[26880, 26880],
+					[26885, 26885],
+					[26886, 26886],
+					[26899, 26899],
+					[26900, 26900],
+					[26902, 26902],
+					[26903, 26903],
+					[26911, 26911],
+					[26912, 26912],
+					[26913, 26913],
+					[26914, 26914],
+					[26916, 26916],
+					[26917, 26917],
+					[26923, 26923],
+					[26924, 26924],
+					[26926, 26926],
+					[26927, 26927],
+					[26929, 26929],
+					[26930, 26930],
+					[26936, 26936],
+					[26937, 26937],
+					[26941, 26941],
+					[26943, 26943],
+					[26945, 26945],
+					[26948, 26948],
+					[26951, 26951],
+					[26952, 26952],
+					[26956, 26956],
+					[26958, 26958],
+					[26960, 26960],
+					[26961, 26961],
+					[26968, 26968],
+					[26970, 26970],
+					[26972, 26972],
+					[26975, 26975],
+					[26980, 26980],
+					[26981, 26981],
+					[26985, 26985],
+					[26987, 26987],
+					[26990, 26990],
+					[26991, 26991],
+					[27002, 27002],
+					[27003, 27003],
+					[27006, 27006],
+					[27007, 27007],
+					[27009, 27009],
+					[27010, 27010],
+					[27017, 27017],
+					[27018, 27018],
+					[27024, 27024],
+					[27025, 27025],
+					[27029, 27029],
+					[27030, 27030],
+					[27033, 27033],
+					[27034, 27034],
+					[27045, 27045],
+					[27047, 27047],
+					[27054, 27054],
+					[27057, 27057],
+					[27063, 27063],
+					[27064, 27064],
+					[27068, 27068],
+					[27071, 27071],
+					[27075, 27075],
+					[27076, 27076],
+					[27085, 27085],
+					[27086, 27086],
+					[27091, 27091],
+					[27094, 27094],
+					[27096, 27096],
+					[27098, 27098],
+					[27099, 27099],
+					[27103, 27103],
+					[27104, 27104],
+					[27108, 27108],
+					[27109, 27109],
+					[27111, 27111],
+					[27121, 27121],
+					[27122, 27122],
+					[27124, 27124],
+					[27125, 27125],
+					[27128, 27128],
+					[27129, 27129],
+					[27139, 27139],
+					[27140, 27140],
+					[27142, 27142],
+					[27143, 27143],
+					[27151, 27151],
+					[27152, 27152],
+					[27153, 27153],
+					[27154, 27154],
+					[27156, 27156],
+					[27157, 27157],
+					[27163, 27163],
+					[27164, 27164],
+					[27166, 27166],
+					[27167, 27167],
+					[27173, 27173],
+					[27174, 27174],
+					[27184, 27184],
+					[27185, 27185],
+					[27189, 27189],
+					[27190, 27190],
+					[27199, 27199],
+					[27200, 27200],
+					[27208, 27208],
+					[27209, 27209],
+					[27223, 27223],
+					[27225, 27225],
+					[27232, 27232],
+					[27233, 27233],
+					[27237, 27237],
+					[27238, 27238],
+					[27247, 27247],
+					[27248, 27248],
+					[27250, 27250],
+					[27251, 27251],
+					[27252, 27252],
+					[27253, 27253],
+					[27258, 27258],
+					[27259, 27259],
+					[27263, 27263],
+					[27264, 27264],
+					[27275, 27275],
+					[27277, 27277],
+					[27280, 27280],
+					[27283, 27283],
+					[27287, 27287],
+					[27288, 27288],
+					[27291, 27291],
+					[27292, 27292],
+					[27297, 27297],
+					[27299, 27299],
+					[27301, 27301],
+					[27303, 27303],
+					[27304, 27304],
+					[27308, 27308],
+					[27309, 27309],
+					[27312, 27312],
+					[27321, 27321],
+					[27322, 27322],
+					[27329, 27329],
+					[27330, 27330],
+					[27338, 27338],
+					[27339, 27339],
+					[27350, 27350],
+					[27351, 27351],
+					[27362, 27362],
+					[27364, 27364],
+					[27365, 27365],
+					[27366, 27366],
+					[27367, 27367],
+					[27368, 27368],
+					[27370, 27370],
+					[27372, 27372],
+					[27375, 27375],
+					[27376, 27376],
+					[27379, 27379],
+					[27380, 27380],
+					[27385, 27385],
+					[27386, 27386],
+					[27394, 27394],
+					[27395, 27395],
+					[27397, 27397],
+					[27398, 27398],
+					[27404, 27404],
+					[27405, 27405],
+					[27406, 27406],
+					[27407, 27407],
+					[27410, 27410],
+					[27414, 27414],
+					[27415, 27415],
+					[27417, 27417],
+					[27422, 27422],
+					[27423, 27423],
+					[27433, 27433],
+					[27435, 27435],
+					[27440, 27440],
+					[27441, 27441],
+					[27446, 27446],
+					[27447, 27447],
+					[27453, 27453],
+					[27455, 27455],
+					[27459, 27459],
+					[27461, 27461],
+					[27464, 27464],
+					[27467, 27467],
+					[27471, 27471],
+					[27472, 27472],
+					[27479, 27479],
+					[27480, 27480],
+					[27482, 27482],
+					[27483, 27483],
+					[27485, 27485],
+					[27487, 27487],
+					[27488, 27488],
+					[27491, 27491],
+					[27493, 27493],
+					[27495, 27495],
+					[27498, 27498],
+					[27499, 27499],
+					[27506, 27506],
+					[27508, 27508],
+					[27509, 27509],
+					[27512, 27512],
+					[27514, 27514],
+					[27516, 27516],
+					[27522, 27522],
+					[27523, 27523],
+					[27527, 27527],
+					[27528, 27528],
+					[27535, 27535],
+					[27536, 27536],
+					[27537, 27537],
+					[27538, 27538],
+					[27543, 27543],
+					[27544, 27544],
+					[27549, 27549],
+					[27550, 27550],
+					[27558, 27558],
+					[27559, 27559],
+					[27562, 27562],
+					[27563, 27563],
+					[27570, 27570],
+					[27571, 27571],
+					[27573, 27573],
+					[27574, 27574],
+					[27582, 27582],
+					[27583, 27583],
+					[27584, 27584],
+					[27585, 27585],
+					[27589, 27589],
+					[27590, 27590],
+					[27598, 27598],
+					[27600, 27600],
+					[27603, 27603],
+					[27604, 27604],
+					[27615, 27615],
+					[27616, 27616],
+					[27624, 27624],
+					[27626, 27626],
+					[27633, 27633],
+					[27634, 27634],
+					[27635, 27635],
+					[27636, 27636],
+					[27637, 27637],
+					[27638, 27638],
+					[27642, 27642],
+					[27643, 27643],
+					[27646, 27646],
+					[27647, 27647],
+					[27654, 27654],
+					[27657, 27657],
+					[27658, 27658],
+					[27660, 27660],
+					[27669, 27669],
+					[27670, 27670],
+					[27672, 27672],
+					[27673, 27673],
+					[27681, 27681],
+					[27682, 27682],
+					[27683, 27683],
+					[27684, 27684],
+					[27692, 27692],
+					[27693, 27693],
+					[27695, 27695],
+					[27696, 27696],
+					[27699, 27699],
+					[27700, 27700],
+					[27710, 27710],
+					[27711, 27711],
+					[27720, 27720],
+					[27721, 27721],
+					[27723, 27723],
+					[27724, 27724],
+					[27727, 27727],
+					[27728, 27728],
+					[27729, 27729],
+					[27731, 27731],
+					[27742, 27742],
+					[27743, 27743],
+					[27751, 27751],
+					[27752, 27752],
+					[27764, 27764],
+					[27765, 27765],
+					[27769, 27769],
+					[27771, 27771],
+					[27773, 27773],
+					[27774, 27774],
+					[27777, 27777],
+					[27779, 27779],
+					[27786, 27786],
+					[27788, 27788],
+					[27796, 27796],
+					[27797, 27797],
+					[27798, 27798],
+					[27801, 27801],
+					[27803, 27803],
+					[27804, 27804],
+					[27808, 27808],
+					[27809, 27809],
+					[27811, 27811],
+					[27812, 27812],
+					[27814, 27814],
+					[27815, 27815],
+					[27818, 27818],
+					[27819, 27819],
+					[27824, 27824],
+					[27825, 27825],
+					[27832, 27832],
+					[27833, 27833],
+					[27839, 27839],
+					[27840, 27840],
+					[27845, 27845],
+					[27846, 27846],
+					[27850, 27850],
+					[27852, 27852],
+					[27859, 27859],
+					[27861, 27861],
+					[27865, 27865],
+					[27866, 27866],
+					[27869, 27869],
+					[27870, 27870],
+					[27873, 27873],
+					[27874, 27874],
+					[27877, 27877],
+					[27878, 27878],
+					[27888, 27888],
+					[27889, 27889],
+					[27898, 27898],
+					[27899, 27899],
+					[27902, 27902],
+					[27903, 27903],
+					[27913, 27913],
+					[27914, 27914],
+					[27916, 27916],
+					[27917, 27917],
+					[27918, 27918],
+					[27919, 27919],
+					[27922, 27922],
+					[27924, 27924],
+					[27932, 27932],
+					[27933, 27933],
+					[27935, 27935],
+					[27936, 27936],
+					[27940, 27940],
+					[27941, 27941],
+					[27943, 27943],
+					[27945, 27945],
+					[27949, 27949],
+					[27950, 27950],
+					[27959, 27959],
+					[27960, 27960],
+					[27968, 27968],
+					[27970, 27970],
+					[27982, 27982],
+					[27983, 27983],
+					[27984, 27984],
+					[27987, 27987],
+					[27990, 27990],
+					[27991, 27991],
+					[28002, 28002],
+					[28003, 28003],
+					[28010, 28010],
+					[28011, 28011],
+					[28019, 28019],
+					[28020, 28020],
+					[28021, 28021],
+					[28022, 28022],
+					[28025, 28025],
+					[28026, 28026],
+					[28036, 28036],
+					[28037, 28037],
+					[28046, 28046],
+					[28047, 28047],
+					[28049, 28049],
+					[28050, 28050],
+					[28056, 28056],
+					[28057, 28057],
+					[28062, 28062],
+					[28063, 28063],
+					[28066, 28066],
+					[28067, 28067],
+					[28075, 28075],
+					[28076, 28076],
+					[28078, 28078],
+					[28079, 28079],
+					[28085, 28085],
+					[28086, 28086],
+					[28096, 28096],
+					[28098, 28098],
+					[28100, 28100],
+					[28102, 28102],
+					[28108, 28108],
+					[28111, 28111],
+					[28112, 28112],
+					[28114, 28114],
+					[28126, 28126],
+					[28127, 28127],
+					[28129, 28129],
+					[28130, 28130],
+					[28138, 28138],
+					[28139, 28139],
+					[28140, 28140],
+					[28141, 28141],
+					[28143, 28143],
+					[28144, 28144],
+					[28153, 28153],
+					[28154, 28154],
+					[28159, 28159],
+					[28160, 28160],
+					[28167, 28167],
+					[28169, 28169],
+					[28171, 28171],
+					[28172, 28172],
+					[28181, 28181],
+					[28183, 28183],
+					[28185, 28185],
+					[28186, 28186],
+					[28192, 28192],
+					[28193, 28193],
+					[28197, 28197],
+					[28200, 28200],
+					[28203, 28203],
+					[28205, 28205],
+					[28206, 28206],
+					[28209, 28209],
+					[28210, 28210],
+					[28212, 28212],
+					[28215, 28215],
+					[28216, 28216],
+					[28220, 28220],
+					[28222, 28222],
+					[28224, 28224],
+					[28225, 28225],
+					[28232, 28232],
+					[28235, 28235],
+					[28238, 28238],
+					[28240, 28240],
+					[28241, 28241],
+					[28244, 28244],
+					[28245, 28245],
+					[28247, 28247],
+					[28252, 28252],
+					[28253, 28253],
+					[28257, 28257],
+					[28259, 28259],
+					[28262, 28262],
+					[28263, 28263],
+					[28274, 28274],
+					[28276, 28276],
+					[28283, 28283],
+					[28284, 28284],
+					[28288, 28288],
+					[28289, 28289],
+					[28298, 28298],
+					[28299, 28299],
+					[28301, 28301],
+					[28302, 28302],
+					[28305, 28305],
+					[28306, 28306],
+					[28309, 28309]
+				]
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[28419, 28424]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[28371, 28377]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "mycorrhizal",
+				"spans": [[28381, 28392]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carotenoid",
+				"spans": [[28547, 28557]],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[29277, 29286],
+					[29430, 29439]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "MEP",
+				"spans": [[28533, 28536]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stem leaf",
+				"spans": [[28750, 28759]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[29147, 29153]]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[28755, 28759],
+					[28761, 28765],
+					[28881, 28885],
+					[28893, 28897],
+					[29017, 29021]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[29137, 29142],
+					[29173, 29178]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [
+					[29461, 29473],
+					[29527, 29539]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "DEX-containing paste",
+				"spans": [[28795, 28815]]
+			},
+			{
+				"name": "AMF-inoculated",
+				"spans": [[28688, 28702]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "PDS silencing",
+				"spans": [[28971, 28984]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NIATv7_g02911",
+				"spans": [[30681, 30694]]
+			},
+			{
+				"name": "NaNOPE1",
+				"spans": [[30798, 30805]]
+			},
+			{
+				"name": "NOPE1",
+				"spans": [[30674, 30679]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[29817, 29823],
+					[30128, 30134],
+					[30896, 30902]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [[30831, 30836]]
+			}
+		],
+		"species": [
+			{
+				"name": "maize",
+				"spans": [[30767, 30772]]
+			},
+			{
+				"name": "rice",
+				"spans": [[30777, 30781]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[30258, 30270]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[30843, 30858]]
+			},
+			{
+				"name": "glasshouse",
+				"spans": [[30446, 30456]]
+			},
+			{
+				"name": "field-grown",
+				"spans": [[30138, 30149]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "mycorrhizal colonization",
+				"spans": [[30332, 30356]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "marker genes",
+				"spans": [[31345, 31357]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[31361, 31366]]
+			}
+		],
+		"species": [
+			{
+				"name": "R. irregularis",
+				"spans": [[31441, 31455]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[31221, 31233]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculated",
+				"spans": [[31425, 31435]]
+			},
+			{
+				"name": "AMF colonization",
+				"spans": [[31381, 31397]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[31675, 31684]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant part",
+				"spans": [[31688, 31705]]
+			}
+		],
+		"species": [
+			{
+				"name": "AMF",
+				"spans": [
+					[31649, 31652],
+					[31779, 31782],
+					[31818, 31821]
+				]
+			},
+			{
+				"name": "plant",
+				"spans": [
+					[31695, 31700],
+					[31808, 31813]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[31858, 31866]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "T. aestivum",
+				"spans": [[31935, 31946]]
+			},
+			{
+				"name": "F. mossae",
+				"spans": [[32018, 32027]]
+			},
+			{
+				"name": "H. vulgare",
+				"spans": [[31966, 31976]]
+			},
+			{
+				"name": "M. truncatula",
+				"spans": [[32127, 32140]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [[32064, 32078]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [
+					[31997, 32012],
+					[32043, 32058]
+				]
+			},
+			{
+				"name": "B. distachyon",
+				"spans": [[32095, 32108]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[31918, 31933]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[32290, 32299]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "aerial plant parts",
+				"spans": [[32303, 32321]]
+			}
+		],
+		"species": [
+			{
+				"name": "AMF",
+				"spans": [
+					[32264, 32267],
+					[32395, 32398],
+					[32464, 32467]
+				]
+			},
+			{
+				"name": "plant",
+				"spans": [
+					[32310, 32315],
+					[32454, 32459]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high-throughput screenings",
+				"spans": [[32415, 32441]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Blumenol",
+				"spans": [[33199, 33207]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NaNOPE1",
+				"spans": [[33105, 33112]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[32481, 32485],
+					[32600, 32604]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [[32792, 32798]]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[32732, 32737],
+					[32782, 32787]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "T. aestivum",
+				"spans": [[33311, 33322]]
+			},
+			{
+				"name": "N. attenuata",
+				"spans": [[32515, 32527]]
+			},
+			{
+				"name": "H. vulgare",
+				"spans": [[33333, 33343]]
+			},
+			{
+				"name": "S. tuberosum",
+				"spans": [[33398, 33410]]
+			},
+			{
+				"name": "M. truncatula",
+				"spans": [[33364, 33377]]
+			},
+			{
+				"name": "S. lycopersicum",
+				"spans": [[33286, 33301]]
+			},
+			{
+				"name": "B. distachyon",
+				"spans": [[33429, 33442]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "without AMF inoculation",
+				"spans": [[33261, 33284]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [[32836, 32851]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenol C",
+				"spans": [[33719, 33729]],
+				"CID": 118284,
+				"SMILES": "CC1=CC(=O)CC(C1CCC(C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "blumenol",
+				"spans": [
+					[33719, 33727],
+					[33838, 33846],
+					[34090, 34098],
+					[34445, 34453],
+					[34618, 34626]
+				]
+			},
+			{
+				"name": "blumenol B",
+				"spans": [[34445, 34455]],
+				"CID": 129317062,
+				"SMILES": "CC1=CC(=O)CC([C@]1(CCC(C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "transport hypothesis",
+				"spans": [[34150, 34170]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoot",
+				"spans": [[34428, 34433]]
+			},
+			{
+				"name": "aerial parts",
+				"spans": [[33858, 33870]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[34122, 34128],
+					[34261, 34267]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[33745, 33750],
+					[34112, 34117],
+					[34596, 34601]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Glomus versiforme",
+				"spans": [[34851, 34868]]
+			},
+			{
+				"name": "Medicago truncatula",
+				"spans": [[34271, 34290]]
+			},
+			{
+				"name": "Triticum aestivum",
+				"spans": [[33962, 33979]]
+			},
+			{
+				"name": "Brachypodium distachyon",
+				"spans": [[34314, 34337]]
+			},
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[34292, 34309]]
+			},
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[33940, 33960]]
+			},
+			{
+				"name": "Hordeum vulgare",
+				"spans": [[33984, 33999]]
+			},
+			{
+				"name": "F. mosseae",
+				"spans": [[34836, 34846]]
+			},
+			{
+				"name": "R. irregularis",
+				"spans": [[34820, 34834]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AMF inoculation",
+				"spans": [[34024, 34039]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [[36021, 36030]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "secondary metabolism",
+				"spans": [[35797, 35817]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root tissues",
+				"spans": [[35619, 35631]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[36060, 36066]]
+			},
+			{
+				"name": "aerial tissues",
+				"spans": [
+					[35835, 35849],
+					[36086, 36100]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[35230, 35235],
+					[35498, 35503]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-colonized",
+				"spans": [[35507, 35520]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "whole-plant performance",
+				"spans": [[35251, 35274]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[36738, 36747],
+					[36862, 36871],
+					[37268, 37277],
+					[37884, 37893],
+					[38021, 38030],
+					[38565, 38574],
+					[38610, 38619]
+				]
+			},
+			{
+				"name": "mycorradicin",
+				"spans": [
+					[38621, 38633],
+					[38788, 38800]
+				],
+				"CID": 6444309,
+				"SMILES": "C/C(=C\\C=C\\C=C(\\C=C\\C(=O)O)/C)/C=C/C(=O)O",
+				"Natural_product_class": {
+					"Np_class": ["Miscellaneous apocarotenoids"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "apocarotenoids",
+				"spans": [[38676, 38690]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthesis",
+				"spans": [[36471, 36483]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "shoot",
+				"spans": [[36755, 36760]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[38071, 38077]]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[36975, 36979],
+					[38560, 38564]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[36590, 36595],
+					[37320, 37325],
+					[37457, 37462],
+					[37901, 37906],
+					[38094, 38099],
+					[38736, 38741]
+				]
+			},
+			{
+				"name": "aerial tissues",
+				"spans": [[36636, 36650]]
+			}
+		],
+		"species": [
+			{
+				"name": "N. attenuata",
+				"spans": [[38121, 38133]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "glasshouse",
+				"spans": [[37592, 37602]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carotenoid",
+				"spans": [
+					[39303, 39313],
+					[39458, 39468],
+					[39695, 39705]
+				],
+				"CID": 11227325,
+				"SMILES": "CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C(=O)/C=C\\2/[C@](C[C@H](CC2(C)C)O)(C)O)/C)/CO",
+				"Natural_product_class": {
+					"Np_class": ["Carotenoids (C40, \u03b2-\u03b2)"],
+					"Np_superclass": ["Carotenoids (C40)"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [
+					[38941, 38950],
+					[39383, 39392],
+					[40123, 40132],
+					[40188, 40197],
+					[40336, 40345],
+					[40806, 40815],
+					[40980, 40989]
+				]
+			},
+			{
+				"name": "cytokinins",
+				"spans": [[40941, 40951]]
+			},
+			{
+				"name": "blumenol glucosides",
+				"spans": [[40422, 40441]]
+			},
+			{
+				"name": "strigolactones",
+				"spans": [
+					[39496, 39510],
+					[40956, 40970]
+				],
+				"CID": 324475,
+				"SMILES": "CC1=CC(OC1=O)OC=C2C3CC4=CC=CC=C4C3OC2=O",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			},
+			{
+				"name": "ABA",
+				"spans": [[40748, 40751]],
+				"CID": 5280896,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "carotenoid biosynthesis",
+				"spans": [[39695, 39718]]
+			},
+			{
+				"name": "apocarotenoid biosynthesis pathway",
+				"spans": [[38997, 39031]]
+			},
+			{
+				"name": "carotenoid pathway",
+				"spans": [[39303, 39321]]
+			}
+		],
+		"genes": [
+			{
+				"name": "PDS",
+				"spans": [[39681, 39684]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoot",
+				"spans": [
+					[38958, 38963],
+					[40219, 40224],
+					[40729, 40734]
+				]
+			},
+			{
+				"name": "stem sap",
+				"spans": [[40136, 40144]]
+			},
+			{
+				"name": "xylem",
+				"spans": [[40369, 40374]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[39264, 39270],
+					[39857, 39863]
+				]
+			},
+			{
+				"name": "roots",
+				"spans": [
+					[39057, 39062],
+					[40054, 40059]
+				]
+			},
+			{
+				"name": "root",
+				"spans": [
+					[40207, 40211],
+					[40721, 40725]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AMF-inoculated",
+				"spans": [
+					[39066, 39080],
+					[39748, 39762]
+				]
+			},
+			{
+				"name": "hydroponic solution",
+				"spans": [[40230, 40249]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "G-type",
+				"spans": [[40693, 40699]]
+			},
+			{
+				"name": "ATP-binding cassette (ABC) transporters",
+				"spans": [[40652, 40691]]
+			},
+			{
+				"name": "ABCG-type",
+				"spans": [[40871, 40880]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "blumenols",
+				"spans": [
+					[41128, 41137],
+					[41647, 41656],
+					[41724, 41733],
+					[41951, 41960],
+					[42041, 42050],
+					[42219, 42228]
+				]
+			},
+			{
+				"name": "abscisic acid",
+				"spans": [[41922, 41935]],
+				"CID": 5280896,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			},
+			{
+				"name": "vomifoliol",
+				"spans": [[41772, 41782]],
+				"CID": 5280462,
+				"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O)O)(C)C",
+				"Natural_product_class": {
+					"Np_class": ["Apocarotenoids(\u03b5-)"],
+					"Np_superclass": ["Apocarotenoids"]
+				}
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stomatal",
+				"spans": [[41869, 41877]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[41737, 41742]]
+			},
+			{
+				"name": "roots",
+				"spans": [[41187, 41192]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought",
+				"spans": [[42342, 42349]]
+			},
+			{
+				"name": "pathogen infection",
+				"spans": [[42353, 42371]]
+			},
+			{
+				"name": "AMF-inoculation",
+				"spans": [[41217, 41232]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant growth",
+				"spans": [[42004, 42016]]
+			},
+			{
+				"name": "stomatal closure",
+				"spans": [[41869, 41885]]
+			},
+			{
+				"name": "susceptibility",
+				"spans": [[42281, 42295]]
+			},
+			{
+				"name": "seed germination",
+				"spans": [[41983, 41999]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "gibberellin",
+				"spans": [[43588, 43599]],
+				"CID": 522636,
+				"SMILES": "CC12C(C=CC3(C1C(C45C3CCC(C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				}
+			},
+			{
+				"name": "blumenols",
+				"spans": [[42786, 42795]]
+			},
+			{
+				"name": "phosphate",
+				"spans": [
+					[43128, 43137],
+					[43165, 43174]
+				],
+				"CID": 1061,
+				"SMILES": "[O-]P(=O)([O-])[O-]",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				}
+			}
+		],
+		"pathways": [
+			{
+				"name": "AMF symbioses",
+				"spans": [[43324, 43337]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[43689, 43693]]
+			},
+			{
+				"name": "shoot",
+				"spans": [[42803, 42808]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field conditions",
+				"spans": [[42981, 42997]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "high-yielding",
+				"spans": [[43096, 43109]]
+			},
+			{
+				"name": "P-efficient",
+				"spans": [[43084, 43095]]
+			},
+			{
+				"name": "mycorrhiza-responsive",
+				"spans": [[43058, 43079]]
+			}
+		],
+		"human_traits": []
+	}
+]

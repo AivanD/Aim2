@@ -1,0 +1,123 @@
+--- Annotated Entities for PMC7384185.xml ---
+anatomical_structures: hypocotyl
+anatomical_structures: leaf
+compounds: anthocyanin
+compounds: anthocyanins
+compounds: betacyanin
+compounds: betacyanins
+compounds: betalain
+compounds: betalains
+compounds: betalamic acid
+compounds: betanin
+compounds: betaxanthins
+compounds: caffeine
+compounds: isobetanin
+compounds: l-3,4-dihydroxyphenylalanine
+compounds: l-dopa
+compounds: phenylalanine
+compounds: protocatechuate
+compounds: tyrosine
+genes: adhalpha
+genes: arogenate dehydrogenase
+genes: bvcyp76ad1
+genes: bvdoda1
+genes: bvdoda2
+genes: bvdodaalpha1
+genes: bvdodaalpha2
+genes: bvdodaalpha2-5
+genes: bvdodaalpha3
+genes: bvdodaalpha4
+genes: bvdodaalpha5
+genes: cgdoda1
+genes: cgdodaalpha1
+genes: cgdodaalpha2
+genes: cqdoda-1
+genes: cyp76ad1
+genes: doda
+genes: doda alpha
+genes: dodaalpha
+genes: dodaalpha1
+genes: dodabeta
+genes: firefly luciferase
+genes: kcdodaalpha1
+genes: kcdodaalpha2
+genes: ligb
+genes: mccyp76ad1
+genes: mcdoda alpha 1
+genes: mcdodaalpha1
+genes: mcdodaalpha2
+genes: mjcdopa-5gt
+genes: mjdoda alpha 1
+genes: myb
+genes: pgdoda
+genes: phybdodaalpha
+genes: pmdod
+genes: shdodaalpha1
+genes: shdodaalpha2
+molecular_traits: l-dopa 4,5-dioxygenase activity
+molecular_traits: tyrosine hydroxylase activity
+pathways: anthocyanin biosynthesis
+pathways: anthocyanin pathway
+pathways: betalain biosynthesis
+pathways: betalain biosynthetic pathway
+pathways: betalain pathway
+pathways: betalain synthesis
+pathways: betalamic acid biosynthesis
+pathways: caffeine biosynthesis
+pathways: flavonoid pathway
+plant_traits: betalain pigmentation
+species: a. hypochondriacus
+species: aizoaceae
+species: amaranthaceae
+species: amaranthus hypochondriacus
+species: b. vulgaris
+species: basidiomycota
+species: beta vulgaris
+species: c. gigantea
+species: c. litoralis
+species: c. quinoa
+species: c. ramosissimum
+species: cactaceae
+species: cardionema ramosissimum
+species: carnegiea gigantea
+species: caryophyllaceae
+species: caryophyllales
+species: chenopodium quinoa
+species: corrigioleae
+species: dianthus superbus
+species: gluconacetobacter diazotrophicus
+species: k. caespitosa
+species: kewa caespitosa
+species: kewaceae
+species: l. aethiopicum
+species: limeaceae
+species: limeum aethiopicum
+species: m. australis
+species: m. crystallinum
+species: macarthuria australis
+species: macarthuriaceae
+species: mesembryanthemum crystallinum
+species: mirabilis jalapa
+species: molluginaceae
+species: n. benthamiana
+species: nicotiana benthamiana
+species: p. campestris
+species: p. exiguum
+species: p. tetraphyllum
+species: parakeelya mirabilis
+species: physenaceae
+species: polycarpaeae
+species: polycarpon tetraphyllum
+species: portulaca grandiflora
+species: portulacineae
+species: s. arvensis
+species: s. halimifolium
+species: s. marina
+species: saccharomyces cerevisiae
+species: simmondsiaceae
+species: spergularia marina
+species: sperguleae
+species: stegnosperma halimifolium
+species: stegnospermataceae
+species: t. imperati
+species: telephium imperati

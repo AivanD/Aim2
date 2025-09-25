@@ -1,0 +1,30 @@
+--- Annotated Entities for PMC6156081.xml ---
+anatomical_structures: leaf
+anatomical_structures: leaves
+anatomical_structures: roots
+anatomical_structures: shoots
+compounds: apocarotenoids
+compounds: c13 cyclohexenone
+compounds: c27 apocarotenoid
+compounds: c40 carotenoid
+compounds: carbon
+compounds: nitrogen
+compounds: phosphate
+compounds: phosphorous
+compounds: phosphorus
+compounds: phytohormones
+plant_traits: abiotic stresses
+plant_traits: biotic stresses
+plant_traits: plant growth
+species: barley
+species: brachypodium distachyon
+species: coyote tobacco
+species: hordeum vulgare
+species: medicago truncatula
+species: nicotiana attenuata
+species: potato
+species: potatoes
+species: solanum lycopersicum
+species: solanum tuberosum
+species: tomato
+species: triticum aestivum

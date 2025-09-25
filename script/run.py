@@ -100,20 +100,20 @@ def main():
                     # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
                     # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
                     # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                    openai_schema = SimpleExtractedEntities().schemic_schema()
+                    # openai_schema = SimpleExtractedEntities().schemic_schema()
 
-                    # # # this inference doesnt use batching. CHATGPT API is fast enough
-                    result = model(
-                        model_input=prompt,
-                        # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
-                        response_format=openai_schema,
-                        max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
-                        temperature=1e-67,  # adjust as needed
-                    )
-                    time.sleep(0.1)
+                    # # # # this inference doesnt use batching. CHATGPT API is fast enough
+                    # result = model(
+                    #     model_input=prompt,
+                    #     # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
+                    #     response_format=openai_schema,
+                    #     max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
+                    #     temperature=1e-67,  # adjust as needed
+                    # )
+                    # time.sleep(0.1)
 
                     # OPTION 2: GROQ inference (no batching)
-                    # result = groq_inference(passage_text)
+                    result = groq_inference(passage_text)
 
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
