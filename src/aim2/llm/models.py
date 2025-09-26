@@ -9,6 +9,7 @@ import time
 from pydantic import ValidationError
 import re
 import asyncio
+from sentence_transformers import SentenceTransformer
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
 from aim2.entities_types.entities import CustomExtractedEntities
@@ -265,3 +266,22 @@ def groq_inference(body):
                 sys.exit(1)
     
     return response.choices[0].message.content
+
+def load_sapbert():
+    """
+    Loads and returns a SAPBERT model instance using the specified model name.
+    Returns:
+        An instance of the SAPBERT model configured with the provided model name.
+    """
+    try: 
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        model = SentenceTransformer(
+            model_name_or_path="cambridgeltl/SapBERT-from-PubMedBERT-fulltext", 
+            device=device,
+            cache_folder=str(MODELS_DIR),
+            # local_files_only=True
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error loading SAPBERT model via outlines: {e}")
+
+    return model

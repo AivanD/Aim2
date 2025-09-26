@@ -13,7 +13,7 @@ from aim2.postprocessing.compound_normalizer import get_np_class, normalize_comp
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
+from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
@@ -67,8 +67,9 @@ async def amain():
     
     logger = logging.getLogger(__name__)
 
-    # load the model to use
+    # load the models to use
     try:
+        sapbert_model = load_sapbert()
         model = load_openai_model()     # for OPENAI or Local model
         # model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
@@ -173,45 +174,47 @@ async def amain():
                     json.dump(raw_result_list, f, indent=2)
                 logger.info(f"Raw results saved to {raw_output_path}")
 
-            # # Post-processing:
-            # # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
-            # # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
-            # # rather than for each passage. 
-            # # do span_adder, normalization, then dedupe then merge
+            # Post-processing:
+            # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
+            # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
+            # rather than for each passage. 
+            # do span_adder, normalization, then dedupe then merge
 
-            # processed_result_list = []
+            processed_result_list = []
 
-            # # 1. add spans to each of the extracted entities in the raw_result_list
-            # # read the raw results from the raw output file
-            # with open(raw_output_path, 'r') as f:
-            #     raw_result_list = json.load(f)
+            # 1. add spans to each of the extracted entities in the raw_result_list
+            # read the raw results from the raw output file
+            with open(raw_output_path, 'r') as f:
+                raw_result_list = json.load(f)
 
-            # # ensure valid objects (just in case user edited the raw json file)
-            # for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
-            #     try:
-            #         extracted_entities = CustomExtractedEntities.model_validate(raw_result)
-            #     except Exception as e:
-            #         logger.error(f"Invalid raw result object in {raw_output_path}: {e}")
+            # ensure valid objects (just in case user edited the raw json file)
+            for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
+                try:
+                    extracted_entities = CustomExtractedEntities.model_validate(raw_result)
+                except Exception as e:
+                    logger.error(f"Invalid raw result object in {raw_output_path}: {e}")
         
-            #     # add spans to each of the extracted entities in the raw_result_list
-            #     extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
-            #     processed_result_list.append(extracted_entities_w_spans)
+                # add spans to each of the extracted entities in the raw_result_list
+                extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
+                processed_result_list.append(extracted_entities_w_spans)
 
-            # # 2. normalize
-            # # - use PUBCHEM to normalize compounds 
-            # # - use NP_CLASSIFIER to get the superclass/class
-            # try:
-            #     processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
-            #     processed_result_list = get_np_class(processed_result_list)
-            # except Exception as e:
-            #     logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
-            # # 3. dedupe
-            # # 4. merge
+            # 2. normalize
+            # - use ChemOnt to normalize compounds first for classes
+            # - use PUBCHEM to normalize compounds  for molecular compounds
+            # - use NP_CLASSIFIER to get the superclass/class
+
+            try:
+                processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+                processed_result_list = get_np_class(processed_result_list)
+            except Exception as e:
+                logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
+            # 3. dedupe
+            # 4. merge
             
-            # # save the processed results to the output file
-            # with open(processed_output_path, 'w') as f:
-            #     json.dump(processed_result_list, f, indent=2)
-            # logger.info(f"Processed results saved to {processed_output_path}")
+            # save the processed results to the output file
+            with open(processed_output_path, 'w') as f:
+                json.dump(processed_result_list, f, indent=2)
+            logger.info(f"Processed results saved to {processed_output_path}")
 
     end_time = time.time()
     logger.info(f"Processing time: {end_time - start_time:.2f} seconds")

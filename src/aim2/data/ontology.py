@@ -20,6 +20,12 @@ def load_ontology(obo_file):
         default_namespace = graph.graph.get('default-namespace', 'unknown_namespace')
 
         for term_id, data in graph.nodes(data=True):
+            # skips obselete terms or terms not meant for annotation
+            if data.get('is_obsolete'):
+                continue
+            if 'gocheck_do_not_annotate' in data.get('subset', []):
+                continue
+            
             if 'name' in data:
                 # check if the data has a namespace, if not, use the default namespace in "default-namespace:"
                 if 'namespace' not in data:

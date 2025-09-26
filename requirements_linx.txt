@@ -33,6 +33,7 @@ distro==1.9.0
 dnspython==2.7.0
 einops==0.8.1
 email_validator==2.2.0
+et_xmlfile==2.0.0
 fastapi==0.116.1
 fastapi-cli==0.0.8
 fastapi-cloud-cli==0.1.5
@@ -98,6 +99,7 @@ nvidia-nvtx-cu12==12.8.55
 obonet==1.1.1
 openai==1.90.0
 opencv-python-headless==4.11.0.86
+openpyxl==3.1.5
 outlines==1.2.3
 outlines_core==0.2.11
 packaging==25.0
@@ -142,6 +144,7 @@ schemic==1.1.0
 scikit-learn==1.7.1
 scipy==1.16.1
 scispacy==0.5.5
+sentence-transformers==5.1.1
 sentencepiece==0.2.0
 sentry-sdk==2.34.1
 shellingham==1.5.4
