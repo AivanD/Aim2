@@ -4,10 +4,11 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import torch
 import openai
 import vllm 
-from groq import APIStatusError, Groq
+from groq import APIStatusError, Groq, AsyncGroq
 import time
 from pydantic import ValidationError
 import re
+import asyncio
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
 from aim2.entities_types.entities import CustomExtractedEntities
@@ -105,7 +106,7 @@ def load_openai_model():
     """
     try: 
         model = from_openai(
-            openai.OpenAI(api_key=OPENAI_API_KEY),
+            openai.AsyncOpenAI(api_key=OPENAI_API_KEY),
             model_name="gpt-4.1"       # Replace with a more powerful model if needed
         )
     except Exception as e:
@@ -115,6 +116,83 @@ def load_openai_model():
 
 client = Groq(
     api_key=GROQ_API_KEY)
+
+async_client = AsyncGroq(
+    api_key=GROQ_API_KEY
+)
+
+async def groq_inference_async(body):
+    MAX_RETRIES = 10
+    
+    for attempt in range(MAX_RETRIES):
+        try: 
+            response = await async_client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[
+                {
+                "role": "system",
+                "content": _static_header()
+                },
+                {
+                    "role": "user",
+                    "content": body
+                }
+                ],
+                temperature=1e-67,
+                max_completion_tokens=2048,
+                stream=False,
+                response_format={"type": "json_object"},
+                stop=None,
+                seed=42
+            )
+            await asyncio.sleep(0.3)  # brief pause before returning the response
+            CustomExtractedEntities.model_validate_json(response.choices[0].message.content)  # validate the response
+            # if no exception, break the loop and return the response
+            break
+        except Exception as e:
+            # API errors
+            if isinstance(e, APIStatusError):
+                if e.status_code == 400 and "json_validate_failed" in str(e.message):
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
+                        await asyncio.sleep(1)
+                        continue
+                    else:
+                        print(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
+                elif e.status_code == 429:
+                    if attempt < MAX_RETRIES - 1:
+                        wait_time = _parse_retry_after(str(e.message))
+                        print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                        await asyncio.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
+                if e.status_code == 503:
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
+                        await asyncio.sleep(1200)
+                        continue
+                    else:
+                        print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        sys.exit(1)
+            # it is a validation error
+            elif isinstance(e, ValidationError):
+                if attempt < MAX_RETRIES - 1:
+                    print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to ValidationError.")
+                    await asyncio.sleep(1)
+                    continue
+                else:
+                    print(f"Validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                    sys.exit(1)
+            # some other error
+            else:
+                print(f"An unexpected error occurred: {e}. Exiting.")
+                sys.exit(1)
+    
+    return response.choices[0].message.content
+
 
 def groq_inference(body):
     MAX_RETRIES = 10
@@ -140,7 +218,7 @@ def groq_inference(body):
                 stop=None,
                 seed=42
             )
-            time.sleep (0.3)  # brief pause before returning the response
+            time.sleep(0.3)  # brief pause before returning the response
             CustomExtractedEntities.model_validate_json(response.choices[0].message.content)  # validate the response
             # if no exception, break the loop and return the response
             break

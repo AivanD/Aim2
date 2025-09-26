@@ -5,12 +5,15 @@ import warnings
 import json
 from vllm import SamplingParams
 import time
+import asyncio
+from openai import RateLimitError
+import re
 
 from aim2.postprocessing.compound_normalizer import get_np_class, normalize_compounds_with_pubchem
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import groq_inference, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
+from aim2.llm.models import groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
@@ -18,7 +21,47 @@ from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
-def main():
+def _parse_openai_retry_after(error_message: str) -> float:
+    """Parses the retry-after time from an OpenAI API error message."""
+    match = re.search(r"Please try again in ([\d.]+)s", error_message)
+    if match:
+        return float(match.group(1)) + 0.1  # Add a small buffer
+    return 10.0  # Default to 10 seconds if parsing fails
+
+async def process_passage(semaphore, passage_text, model=None):
+    """Helper function to process a single passage with semaphore and retry logic."""
+    async with semaphore:
+        for attempt in range(5):  # Retry up to 5 times
+            try:
+                # OPTION 1: OPENAI inference
+                prompt = make_prompt(passage_text)
+                openai_schema = SimpleExtractedEntities().schemic_schema()
+                result = await model(
+                    model_input=prompt,
+                    response_format=openai_schema,
+                    max_tokens=1024,
+                    temperature=1e-67,
+                )
+                return result
+
+                # OPTION 2: GROQ inference (async)
+                # prompt = make_prompt(passage_text)
+                # result = await groq_inference_async(prompt)
+                # return result
+            
+            except RateLimitError as e:
+                wait_time = _parse_openai_retry_after(str(e))
+                logging.warning(f"Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
+                await asyncio.sleep(wait_time)
+            
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
+
+        logging.error("Passage failed after multiple retries due to rate limiting.")
+        return None
+
+async def amain():
     ensure_dirs()
     setup_logging()
     
@@ -84,37 +127,27 @@ def main():
             # process each passage. processing each sentence would be costly.
             # only process if there is no raw output file yet
             if not os.path.exists(raw_output_path):   
+                # limit concurrency to 3 requests at a time. Adjust as needed. 1 = sequential
+                semaphore = asyncio.Semaphore(1)
+                tasks = []      # for async api calls
                 # define a list of results (raw results from the model)
                 raw_result_list = [] 
                 for passage_text, passage_offset in passages_w_offsets:
                     # create a prompt for the passage
                     prompt = make_prompt(passage_text)
                     prompts.append(prompt)
-                    
-                    # OPTION 1: OPENAPI inference (no batching)
-                    # another option: use sentences instead of passages
-                    # for sentence_text, sentence_offset in sentences_w_offsets:
-                    #     prompt = make_prompt(sentence)
-                    #     prompts.append(prompt)
 
-                    # Issues: can't batch inference with a GPT model because the model is not local. Their webpage batching is different as well (has 24hr turnover).
-                    # Issues: cant static batch with local model unless you can fit the overhead in vram. Sol: use vllm for continuous batching
-                    # Issues: GPT doesn't like normal Pydantic BaseModel. Use schemic
-                    # openai_schema = SimpleExtractedEntities().schemic_schema()
+                    # API (async)
+                    task = process_passage(semaphore, passage_text, model)
+                    tasks.append(task)
 
-                    # # # # this inference doesnt use batching. CHATGPT API is fast enough
-                    # result = model(
-                    #     model_input=prompt,
-                    #     # output_type=CustomExtractedEntities, # not supported for OPENAI. Just pass the openai_schema through response_format.
-                    #     response_format=openai_schema,
-                    #     max_tokens=1024,  # switch to max_tokens if using gpt. otherwise use <max_new_tokens>
-                    #     temperature=1e-67,  # adjust as needed
-                    # )
-                    # time.sleep(0.1)
+                # wait for all tasks to complete and get their results
+                logger.info(f"Waiting for {len(tasks)} tasks to complete...")
+                results = await asyncio.gather(*tasks)
 
-                    # OPTION 2: GROQ inference (no batching)
-                    result = groq_inference(passage_text)
-
+                for result in results:
+                    if result is None:
+                        continue  # Skip if there was an error processing this passage
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
                     extracted_entities = SimpleExtractedEntities().model_validate_json(result)
@@ -140,49 +173,49 @@ def main():
                     json.dump(raw_result_list, f, indent=2)
                 logger.info(f"Raw results saved to {raw_output_path}")
 
-            # Post-processing:
-            # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
-            # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
-            # rather than for each passage. 
-            # do span_adder, normalization, then dedupe then merge
+            # # Post-processing:
+            # # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
+            # # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
+            # # rather than for each passage. 
+            # # do span_adder, normalization, then dedupe then merge
 
-            processed_result_list = []
+            # processed_result_list = []
 
-            # 1. add spans to each of the extracted entities in the raw_result_list
-            # read the raw results from the raw output file
-            with open(raw_output_path, 'r') as f:
-                raw_result_list = json.load(f)
+            # # 1. add spans to each of the extracted entities in the raw_result_list
+            # # read the raw results from the raw output file
+            # with open(raw_output_path, 'r') as f:
+            #     raw_result_list = json.load(f)
 
-            # ensure valid objects (just in case user edited the raw json file)
-            for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
-                try:
-                    extracted_entities = CustomExtractedEntities.model_validate(raw_result)
-                except Exception as e:
-                    logger.error(f"Invalid raw result object in {raw_output_path}: {e}")
+            # # ensure valid objects (just in case user edited the raw json file)
+            # for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
+            #     try:
+            #         extracted_entities = CustomExtractedEntities.model_validate(raw_result)
+            #     except Exception as e:
+            #         logger.error(f"Invalid raw result object in {raw_output_path}: {e}")
         
-                # add spans to each of the extracted entities in the raw_result_list
-                extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
-                processed_result_list.append(extracted_entities_w_spans)
+            #     # add spans to each of the extracted entities in the raw_result_list
+            #     extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
+            #     processed_result_list.append(extracted_entities_w_spans)
 
-            # 2. normalize
-            # - use PUBCHEM to normalize compounds 
-            # - use NP_CLASSIFIER to get the superclass/class
-            try:
-                processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
-                processed_result_list = get_np_class(processed_result_list)
-            except Exception as e:
-                logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
-            # 3. dedupe
-            # 4. merge
+            # # 2. normalize
+            # # - use PUBCHEM to normalize compounds 
+            # # - use NP_CLASSIFIER to get the superclass/class
+            # try:
+            #     processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+            #     processed_result_list = get_np_class(processed_result_list)
+            # except Exception as e:
+            #     logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
+            # # 3. dedupe
+            # # 4. merge
             
-            # save the processed results to the output file
-            with open(processed_output_path, 'w') as f:
-                json.dump(processed_result_list, f, indent=2)
-            logger.info(f"Processed results saved to {processed_output_path}")
+            # # save the processed results to the output file
+            # with open(processed_output_path, 'w') as f:
+            #     json.dump(processed_result_list, f, indent=2)
+            # logger.info(f"Processed results saved to {processed_output_path}")
 
     end_time = time.time()
     logger.info(f"Processing time: {end_time - start_time:.2f} seconds")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(amain())
     
