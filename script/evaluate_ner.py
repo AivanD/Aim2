@@ -17,8 +17,8 @@ def calculate_and_print_metrics(ground_truth, predictions, label="Overall"):
     print(f"True Positives:  {true_positives}")
     print(f"False Positives: {false_positives}")
     print(f"False Negatives: {false_negatives}")
-    print(f"Precision: {precision:.4f}")
     print(f"Recall:    {recall:.4f}")
+    print(f"Precision: {precision:.4f}")
     print(f"F1-Score:  {f1_score:.4f}\n")
 
     return {"precision": precision, "recall": recall, "f1_score": f1_score}
@@ -134,5 +134,5 @@ if __name__ == '__main__':
     # Assumes you have 'PMC7384185.xlsx' in your data directory
     # and the processed output in your output/processed directory.
     gt_file = 'output/annotated/PMC7384185.xlsx' 
-    pred_file = 'output/processed/PMC7384185.json'
+    pred_file = 'output/processed/PMC7384185_llama4.json'
     evaluate_ner(gt_file, pred_file)

@@ -67,57 +67,40 @@ pathways: caffeine biosynthesis
 pathways: flavonoid pathway
 plant_traits: betalain pigmentation
 species: a. hypochondriacus
-species: aizoaceae
-species: amaranthaceae
 species: amaranthus hypochondriacus
 species: b. vulgaris
-species: basidiomycota
 species: beta vulgaris
 species: c. gigantea
 species: c. litoralis
 species: c. quinoa
 species: c. ramosissimum
-species: cactaceae
 species: cardionema ramosissimum
 species: carnegiea gigantea
-species: caryophyllaceae
-species: caryophyllales
 species: chenopodium quinoa
-species: corrigioleae
 species: dianthus superbus
 species: gluconacetobacter diazotrophicus
 species: k. caespitosa
 species: kewa caespitosa
-species: kewaceae
 species: l. aethiopicum
-species: limeaceae
 species: limeum aethiopicum
 species: m. australis
 species: m. crystallinum
 species: macarthuria australis
-species: macarthuriaceae
 species: mesembryanthemum crystallinum
 species: mirabilis jalapa
-species: molluginaceae
 species: n. benthamiana
 species: nicotiana benthamiana
 species: p. campestris
 species: p. exiguum
 species: p. tetraphyllum
 species: parakeelya mirabilis
-species: physenaceae
-species: polycarpaeae
 species: polycarpon tetraphyllum
 species: portulaca grandiflora
-species: portulacineae
 species: s. arvensis
 species: s. halimifolium
 species: s. marina
 species: saccharomyces cerevisiae
-species: simmondsiaceae
 species: spergularia marina
-species: sperguleae
 species: stegnosperma halimifolium
-species: stegnospermataceae
 species: t. imperati
 species: telephium imperati

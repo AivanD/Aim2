@@ -16,11 +16,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -43,11 +39,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -93,11 +85,7 @@
 		],
 		"genes": [],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -135,12 +123,6 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Caryophyllales"
-			},
-			{
-				"name": "Basidiomycota"
-			},
-			{
 				"name": "Gluconacetobacter diazotrophicus"
 			}
 		],
@@ -158,6 +140,9 @@
 				"name": "anthocyanins"
 			},
 			{
+				"name": "flavonoid"
+			},
+			{
 				"name": "anthocyanin"
 			}
 		],
@@ -168,29 +153,7 @@
 		],
 		"genes": [],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			},
-			{
-				"name": "Caryophyllaceae"
-			},
-			{
-				"name": "Molluginaceae"
-			},
-			{
-				"name": "Kewaceae"
-			},
-			{
-				"name": "Limeaceae"
-			},
-			{
-				"name": "Macarthuriaceae"
-			},
-			{
-				"name": "Simmondsiaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [
@@ -222,9 +185,6 @@
 			},
 			{
 				"name": "betalamic acid"
-			},
-			{
-				"name": "anthocyanin"
 			}
 		],
 		"pathways": [
@@ -255,13 +215,7 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Saccharomyces cerevisiae"
-			},
-			{
 				"name": "Nicotiana benthamiana"
-			},
-			{
-				"name": "Caryophyllales"
 			}
 		],
 		"experimental_conditions": [
@@ -355,9 +309,6 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Caryophyllales"
-			},
-			{
 				"name": "Beta vulgaris"
 			},
 			{
@@ -397,9 +348,6 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Caryophyllales"
-			},
-			{
 				"name": "N. benthamiana"
 			}
 		],
@@ -438,23 +386,7 @@
 		"pathways": [],
 		"genes": [],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			},
-			{
-				"name": "Stegnospermataceae"
-			},
-			{
-				"name": "Amaranthaceae"
-			},
-			{
-				"name": "Portulacineae"
-			},
-			{
-				"name": "Kewaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [],
@@ -472,16 +404,12 @@
 		"pathways": [],
 		"genes": [],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [
 			{
-				"name": "pigmentation"
+				"name": "pigmentation state"
 			}
 		],
 		"human_traits": []
@@ -508,32 +436,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			},
-			{
-				"name": "Caryophyllaceae"
-			},
-			{
-				"name": "Molluginaceae"
-			},
-			{
-				"name": "Macarthuriaceae"
-			},
-			{
-				"name": "Kewaceae"
-			},
-			{
-				"name": "Limeaceae"
-			},
-			{
-				"name": "Stegnospermataceae"
-			},
-			{
-				"name": "Physenaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [],
@@ -556,25 +459,7 @@
 		"anatomical_structures": [],
 		"species": [
 			{
-				"name": "Macarthuriaceae"
-			},
-			{
-				"name": "Limeaceae"
-			},
-			{
-				"name": "Kewaceae"
-			},
-			{
-				"name": "Caryophyllaceae"
-			},
-			{
-				"name": "Molluginaceae"
-			},
-			{
 				"name": "P. tetraphyllum"
-			},
-			{
-				"name": "Polycarpaeae"
 			},
 			{
 				"name": "C. ramosissimum"
@@ -583,25 +468,16 @@
 				"name": "P. campestris"
 			},
 			{
-				"name": "Paronychieae"
-			},
-			{
 				"name": "T. imperati"
 			},
 			{
 				"name": "C. litoralis"
 			},
 			{
-				"name": "Corrigioleae"
-			},
-			{
 				"name": "S. marina"
 			},
 			{
 				"name": "S. arvensis"
-			},
-			{
-				"name": "Sperguleae"
 			},
 			{
 				"name": "M. australis"
@@ -676,6 +552,9 @@
 		"experimental_conditions": [
 			{
 				"name": "heterologous expression"
+			},
+			{
+				"name": "transiently transformed"
 			}
 		],
 		"molecular_traits": [
@@ -740,6 +619,9 @@
 				"name": "leaf"
 			},
 			{
+				"name": "infiltration spots"
+			},
+			{
 				"name": "hypocotyl"
 			}
 		],
@@ -758,11 +640,26 @@
 			},
 			{
 				"name": "Mesembryanthemum crystallinum"
+			},
+			{
+				"name": "S. halimifolium"
+			},
+			{
+				"name": "B. vulgaris"
+			},
+			{
+				"name": "C. gigantea"
+			},
+			{
+				"name": "M. crystallinum"
 			}
 		],
 		"experimental_conditions": [
 			{
 				"name": "agroinfiltration"
+			},
+			{
+				"name": "heterologously expressed"
 			}
 		],
 		"molecular_traits": [],
@@ -784,16 +681,7 @@
 		"pathways": [],
 		"genes": [
 			{
-				"name": "DODAbeta"
-			},
-			{
-				"name": "DODAalpha"
-			},
-			{
 				"name": "BvDODAalpha1"
-			},
-			{
-				"name": "DODAalpha1"
 			},
 			{
 				"name": "ShDODAalpha1"
@@ -807,11 +695,7 @@
 		],
 		"anatomical_structures": [],
 		"species": [],
-		"experimental_conditions": [
-			{
-				"name": "heterologous assay"
-			}
-		],
+		"experimental_conditions": [],
 		"molecular_traits": [
 			{
 				"name": "l-DOPA 4,5-dioxygenase activity"
@@ -922,6 +806,9 @@
 				"name": "l-DOPA"
 			},
 			{
+				"name": "betacyanin"
+			},
+			{
 				"name": "betanin"
 			},
 			{
@@ -1017,14 +904,7 @@
 				"name": "l-DOPA 4,5-dioxygenase activity"
 			}
 		],
-		"plant_traits": [
-			{
-				"name": "anthocyanin-producing"
-			},
-			{
-				"name": "betacyanin production"
-			}
-		],
+		"plant_traits": [],
 		"human_traits": []
 	},
 	{
@@ -1056,13 +936,7 @@
 				"name": "A. hypochondriacus"
 			},
 			{
-				"name": "Amaranthaceae"
-			},
-			{
 				"name": "M. crystallinum"
-			},
-			{
-				"name": "Aizoaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1091,15 +965,6 @@
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "Amaranthaceae"
-			},
-			{
-				"name": "Aizoaceae"
-			},
-			{
-				"name": "Mesembryanthemum crystallinum"
-			},
 			{
 				"name": "Amaranthus hypochondriacus"
 			},
@@ -1161,14 +1026,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Stegnosperma"
-			},
-			{
-				"name": "Amaranthaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [
 			{
 				"name": "heterologous transient assays"
@@ -1214,9 +1072,6 @@
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "Caryophyllales"
-			},
 			{
 				"name": "Beta vulgaris"
 			},
@@ -1301,12 +1156,6 @@
 			},
 			{
 				"name": "C. gigantea"
-			},
-			{
-				"name": "Stegnosperma"
-			},
-			{
-				"name": "Amaranthaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1370,20 +1219,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Stegnospermataceae"
-			},
-			{
-				"name": "Amaranthaceae"
-			},
-			{
-				"name": "Portulacineae"
-			},
-			{
-				"name": "Aizoaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -1396,35 +1232,16 @@
 	{
 		"compounds": [
 			{
-				"name": "anthocyanic"
-			},
-			{
-				"name": "betalain"
-			},
-			{
 				"name": "betalains"
+			},
+			{
+				"name": "anthocyanic"
 			}
 		],
 		"pathways": [],
 		"genes": [],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			},
-			{
-				"name": "Limeaceae"
-			},
-			{
-				"name": "Simmondsiaceae"
-			},
-			{
-				"name": "Stegnospermataceae"
-			},
-			{
-				"name": "Macarthuriaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [],
 		"plant_traits": [
@@ -1439,9 +1256,6 @@
 	},
 	{
 		"compounds": [
-			{
-				"name": "betalain"
-			},
 			{
 				"name": "l-DOPA"
 			},
@@ -1461,7 +1275,7 @@
 				"name": "DODAalpha"
 			},
 			{
-				"name": "LigB/DODA"
+				"name": "LigB"
 			}
 		],
 		"anatomical_structures": [],
@@ -1477,9 +1291,6 @@
 			},
 			{
 				"name": "C. gigantea"
-			},
-			{
-				"name": "Caryophyllales"
 			}
 		],
 		"experimental_conditions": [
@@ -1498,6 +1309,9 @@
 		"plant_traits": [
 			{
 				"name": "betalain pigmentation"
+			},
+			{
+				"name": "anthocyanic"
 			}
 		],
 		"human_traits": []
@@ -1506,6 +1320,9 @@
 		"compounds": [
 			{
 				"name": "betalain"
+			},
+			{
+				"name": "l-DOPA"
 			}
 		],
 		"pathways": [],
@@ -1520,23 +1337,7 @@
 				"name": "DODAalpha1"
 			}
 		],
-		"anatomical_structures": [
-			{
-				"name": "chromosome 2"
-			},
-			{
-				"name": "locus"
-			},
-			{
-				"name": "operon"
-			},
-			{
-				"name": "genome"
-			},
-			{
-				"name": "loci"
-			}
-		],
+		"anatomical_structures": [],
 		"species": [
 			{
 				"name": "B. vulgaris"
@@ -1549,9 +1350,6 @@
 			},
 			{
 				"name": "M. crystallinum"
-			},
-			{
-				"name": "Amaranthaceae"
 			}
 		],
 		"experimental_conditions": [],
@@ -1613,11 +1411,7 @@
 				"name": "betalain biosynthesis"
 			}
 		],
-		"genes": [
-			{
-				"name": "DODAalpha"
-			}
-		],
+		"genes": [],
 		"anatomical_structures": [],
 		"species": [],
 		"experimental_conditions": [],
@@ -1639,10 +1433,10 @@
 				"name": "l-DOPA"
 			},
 			{
-				"name": "betalain"
+				"name": "anthocyanin"
 			},
 			{
-				"name": "anthocyanin"
+				"name": "betalain"
 			}
 		],
 		"pathways": [],
@@ -1684,7 +1478,11 @@
 				"name": "betalamic acid"
 			}
 		],
-		"pathways": [],
+		"pathways": [
+			{
+				"name": "betalamic acid biosynthesis"
+			}
+		],
 		"genes": [
 			{
 				"name": "CYP76AD"
@@ -1697,11 +1495,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllales"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -1780,15 +1574,6 @@
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "Caryophyllaceae"
-			},
-			{
-				"name": "Molluginaceae"
-			},
-			{
-				"name": "Caryophyllales"
-			},
 			{
 				"name": "K. caespitosa"
 			},
@@ -1885,9 +1670,6 @@
 		"pathways": [],
 		"genes": [
 			{
-				"name": "arogenate dehydrogenase"
-			},
-			{
 				"name": "ADHalpha"
 			},
 			{
@@ -1898,14 +1680,7 @@
 			}
 		],
 		"anatomical_structures": [],
-		"species": [
-			{
-				"name": "Caryophyllaceae"
-			},
-			{
-				"name": "Molluginaceae"
-			}
-		],
+		"species": [],
 		"experimental_conditions": [],
 		"molecular_traits": [
 			{
@@ -1930,9 +1705,6 @@
 			},
 			{
 				"name": "betalain pathway"
-			},
-			{
-				"name": "betalain biosynthesis pathway"
 			}
 		],
 		"genes": [
@@ -1942,9 +1714,6 @@
 		],
 		"anatomical_structures": [],
 		"species": [
-			{
-				"name": "Caryophyllales"
-			},
 			{
 				"name": "Portulaca grandiflora"
 			},
