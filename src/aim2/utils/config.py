@@ -29,6 +29,8 @@ PO_OBO          = DATA_DIR / "plant-ontology.obo"
 TO_OBO          = DATA_DIR / "to.obo"
 PECO_OBO        = DATA_DIR / "peco.obo"
 GO_OBO          = DATA_DIR / "go.obo"
+CHEMONT_OBO     = DATA_DIR / "ChemOnt_2_1.obo"
+PATHWAYS_PMN    = DATA_DIR / "All-pathways-of-PlantCyc.txt"
 
 HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
