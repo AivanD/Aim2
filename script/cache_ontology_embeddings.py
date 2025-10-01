@@ -3,7 +3,9 @@ import sys
 import torch
 import pickle
 import logging
+import html
 from tqdm import tqdm
+import re
 
 from aim2.utils.config import PO_OBO, GO_OBO, TO_OBO, PECO_OBO, CHEMONT_OBO, DATA_DIR
 from aim2.data.ontology import load_ontology
@@ -21,7 +23,7 @@ def create_ontology_embedding_cache(ontology_file, sapbert_model, output_path):
     if not ontology_graph:
         logger.error(f"Could not load graph from {ontology_file}")
         return
-
+    
     embedding_cache = {}
     terms_to_embed = []
     term_metadata = []
@@ -29,20 +31,35 @@ def create_ontology_embedding_cache(ontology_file, sapbert_model, output_path):
     # Collect all terms and synonyms
     for term_id, data in tqdm(ontology_graph.nodes(data=True), desc="Collecting terms"):
         if 'name' in data:
-            # Store canonical name and synonyms
-            names = [data['name']] + data.get('synonym', [])
-            for name in names:
-                # Avoid duplicates and empty strings
-                if name and name.strip():
-                    terms_to_embed.append(name.strip())
-                    term_metadata.append({'id': term_id, 'canonical_name': data['name']})
+            # Use a set to store unique names for this term
+            names_for_term = {data['name'].strip()}
+
+            # Process and clean synonym strings
+            for syn_string in data.get('synonym', []):
+                # The actual synonym is usually within the first pair of quotes
+                if '"' in syn_string:
+                    try:
+                        syn_text = syn_string.split('"')[1]
+                        # Unescape HTML entities (e.g., '&#243;' -> 'ó')
+                        cleaned_name = html.unescape(syn_text).strip()
+                        if cleaned_name:
+                            cleaned_name = re.sub(r'\s*\([^)]*\)$', '', cleaned_name).strip()
+                            names_for_term.add(cleaned_name)
+                    except IndexError:
+                        # Log if the synonym format is unexpected, but continue
+                        logger.debug(f"Could not parse synonym string: {syn_string}")
+
+            # Add the unique, cleaned names to the lists for embedding
+            for name in names_for_term:
+                terms_to_embed.append(name)
+                term_metadata.append({'id': term_id, 'canonical_name': data['name']})
 
     if not terms_to_embed:
         logger.warning(f"No terms found to embed in {ontology_file}")
         return
 
     # Generate embeddings in batches
-    logger.info(f"Generating embeddings for {len(terms_to_embed)} terms...")
+    logger.info(f"Generating embeddings for {len(terms_to_embed)} terms including synonyms...")
     embeddings = sapbert_model.encode(terms_to_embed, batch_size=128, show_progress_bar=True)
 
     # Store embeddings with their metadata
