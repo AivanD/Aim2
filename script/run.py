@@ -11,7 +11,7 @@ import re
 
 from aim2.postprocessing.compound_normalizer import get_np_class, normalize_compounds_with_pubchem
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
@@ -91,12 +91,16 @@ async def amain():
         # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
         go_terms_dict, go_graph = load_ontology(GO_OBO)
         logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
-    
+        # "chemical ontology" ontology which has 1 namespace: 'chemont'
+        chemont_terms_dict, chemont_graph = load_ontology(CHEMONT_OBO)
+        logger.info(f"ChemOnt loaded successfully from {CHEMONT_OBO}.")
+        
         ontologies = {
             "po_graph": po_graph,
             "peco_graph": peco_graph,
             "to_graph": to_graph,
             "go_graph": go_graph,
+            "chemont_graph": chemont_graph
         }
 
     except Exception as e:

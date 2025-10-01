@@ -1,0 +1,3275 @@
+Gene Name	Accession-1	Left-End-Position	Right-End-Position	Product
+TAG	NIL			tuberonic acid glucosyltransferase
+94P1				geraniol glucoside 6'-<i>O</i>-xylosyltransferase
+GGPS1	AT4G36810	17343378	17344869	geranylgeranyl pyrophosphate synthase
+oxidase	NIL			oxidase
+NAD1a	ATMG01120	287917	289083	NAD1b
+GGR		5129848	5133289	geranylgeranyl reductase
+ATPvC		3006421	3010091	187322
+NP-GAPDH	AT2G24270	10334130	10337021	glyceraldehyde-3-phosphate dehydrogenase (NADP+)//3-chloroallyl aldehyde dehydrogenase
+SIP2	AT3G57520	21299742	21304135	raffinose &alpha;-galactosidase
+Lj6g0027183	Lj6g0027183			Lj6g0027183.1
+Glyma.14G002500	Glyma.14G002500			Glyma.14G002500
+AT3G50440	AT3G50440	18728292	18729475	methylesterase
+Cnx7	AT4G10100	6308679	6309542	MPT synthase small subunit
+Lj5g0003262	Lj5g0003262			Lj5g0003262.1
+Glyma.02G104600	Glyma.02G104600			Glyma.02G104600
+Lj1g0022600	Lj1g0022600			Lj1g0022600.1
+g-myr	NIL			myrcene synthase
+AT2G45790	AT2G45790	18862849	18865092	phosphomannomutase
+GA3ox1	NIL			gibberellin 3-oxidase
+PsbI	ATCG00080	7583	7693	PsbI
+GA2ox4	AT1G47990	17702324	17704503	C19 gibberellin 2-oxidase
+CYP82N2v2	NIL			allocryptopine 6-hydroxylase / protopine-6-hydroxylase
+HISN6A	AT5G10330	3247848	3250136	histidinol-phosphate transaminase
+AT4G18480	AT4G18480	10201683	10203480	magnesium chelatase//ATPase
+SSTLE1	NIL			germacrene C synthase
+GA2ox8	AT4G21200	11302695	11306611	C-20 gibberellin 2-oxidase
+KAT1	AT5G46240			potassium channel
+MASL1	NIL			oryzalexin B synthase
+AT5G61580	AT5G61580	24778305	24781240	6-phosphofructokinase
+4CL5	AT3G21230	7448046	7452006	4-coumarate-CoA ligase
+ASAT4				sucrose acetyltransferase
+5-GT	NIL			betanidin 5-O-glucosyltransferase
+ATP15		1937614	1938439	133544
+GSTU24	AT1G17170	5869839	5870833	glutathione transferase
+SPLCAT1	NIL			SPLCAT1 subunit 1
+BARS1	AT4G15370			baruol synthase
+ASN1	AT3G47340	17448869	17452228	asparagine synthase (glutamine-hydrolyzing)
+PsaH1				Photosystem I reaction center subunit VI-1
+L33686	NIL			phospholipase D
+AF030516	NIL			CYC subunits
+pIFRalf1	NIL			isoflavone reductase
+CYP720B1	NIL			abietadienol/abietadienal oxidase
+LUT2	AT5G57030	23094491	23097279	lycopene epsilon cyclase
+CCD1	AT3G63520	23463886	23467053	carotenoid cleavage dioxygenase
+BG1	AT1G52400	19518820	19521880	abscisic acid glucose ester &beta;-glucosidase
+AT4G04955	AT4G04955	2522032	2525278	allantoinase
+CA2	AT5G14740	4757975	4762618	carbonate dehydratase
+GAME1				tomatidine 3-<i>O</i>-galactosyltransferase
+nad4		1713	3044	ChrepMp02
+IFR	NIL			isoflavone reductase
+GS52	NIL			ecto apyrase
+PDCHSX	NIL			PDCHSX subunit
+HSP90B		1054335	1062359	97057
+TPS-Myr	NIL			myrcene synthase
+DTC2	NIL			stemar-13-ene synthase
+CCD7	AT2G44990	18566013	18568408	9-cis-epoxycarotenoid dioxygenase
+Cre01.g015350	Cre01.g015350			light-dependent NADPH:protochlorophyllide oxidoreductase
+<i>cis</i>ZOG2	NIL			cis-zeatin-O-glucosyltransferase
+PLR-Fi1	NIL			PLR subunit
+AT5G08100	AT5G08100	2593051	2594652	asparaginase
+AT2G23170	AT2G23170	9870935	9873642	indole-3-acetic acid amido synthetase
+AT3G25110	AT3G25110	9146281	9148493	acyl-ACP thioesterase
+CYP98A35	NIL			p-coumaroyl ester 3'-hydroxylase
+AOAT1	AT1G23310	8268393	8271922	alanine transaminase
+Cre03.g154350	Cre03.g154350	822739	825343	Cre03.g154350.t1.1
+UCGT				calycosin 7-<i>O</i>-glucosyltransferase
+PsbR		1628731	1629616	10 kDa photosystem II polypeptide
+Glyma.02G104800	Glyma.02G104800			Glyma.02G104800
+Lj3g0000963	Lj3g0000963			Lj3g0000963.1
+ATP9A		158550	159949	195724
+Seita.9G262400	Seita.9G262400			Seita.9G262400.1.p
+IDH-VI	AT3G09810	3008699	3011442	NAD+-dependent isocitrate dehydrogenase catalytic subunit
+3GT	NIL			flavonoid 3-<i>O</i>-glucosyltransferase
+AT5G66040	AT5G66040			sulfurtransferase
+cMDH	NIL			malate dehydrogenase (NAD)
+AT16	NIL			benzoyltransferase
+AT2G37250	AT2G37250	15648985	15650865	adenylate kinase//nucleotide kinase
+TSC10A	AT3G06060	1827986	1830206	3-ketodihydrosphinganine reductase
+CYP719A24				pluviatolide synthase
+GA3ox1	AT1G15550	5344473	5346161	gibberellin 3-oxidase
+CHL27	AT3G56940	21087523	21089422	magnesium protoporphyrin IX monomethyl ester cyclase
+Soltu.DM.07G021510	Soltu.DM.07G021510			Soltu.DM.07G021510.1
+Igl				indole-3-glycerol phosphate lyase
+C2'H	IbF6H2-1-1			4-coumaroyl 2'-hydroxylase
+ACO	AT1G12010	4056205	4057931	1-aminocyclopropane-1-carboxylate oxidase
+TAS	NIL			taraxerol synthase
+ANS/FLS				anthocyanidin synthase/flavonol synthase
+CYP71CA1				parthenolide synthase
+Lj4g0021591	Lj4g0021591			Lj4g0021591.1
+AtNSP1	AT3G16400			nitrile-specifier protein
+XylT	AT5G55500	22499386	22501857	glycoprotein 2-beta-D-xylosyltransferase [multifunctional]
+Hf2	NIL			flavanone,NADPH:oxygen oxidoreductase / flavonoid 3',5'-hydroxylase
+SIP1	AT5G40390	16178743	16182585	galactinol-sucrose galactosyltransferase//ghydrolase, hydrolyzing O-glycosyl compounds
+PFOMT	NIL			PFOMT subunit
+PsaL				Photosystem I reaction center subunit XI
+KASII	AT1G74960	28155639	28159888	3-ketoacyl-ACP synthase subunit
+GmCK2	NIL			choline kinase
+LE4CL-1	NIL			4-coumarate coenzyme A ligase
+AT4G26220	AT4G26220	13283585	13285332	O-methyltransferase
+UF3GT2	NIL			flavonol 3-<i>O</i>-glucosyltransferase
+AOAT2	AT1G70580	26616295	26619732	alanine transaminase
+GAO1	NIL			germacrene A oxidase
+AT3G07270	AT3G07270	2314004	2317194	GTP cyclohydrolase I
+AT5G58560	AT5G58560			prenyl alcohol kinase
+SPSA1	AT5G20280	6844716	6850156	sucrose-phosphate synthase
+AT2G37090	AT2G37090	15594473	15596336	transferase, transferring glycosyl groups
+AB426519				PAR
+AT1G49340.2	AT1G49340.2	18256023	18268130	1-phosphatidylinositol 4-kinase//inositol or phosphatidylinositol kinase
+salAT	NIL			salutaridinol-7-O-acetyltransferase
+Ids3	NIL			mugineic acid synthase
+CYP79E1	NIL			tyrosine N-monooxygenase
+Cre01.g043350	Cre01.g043350			Cre01.g043350.t1.2
+ATPvL2	Cre12.g529100	84197	86280	192558
+GUN5	AT5G13630	4387337	4392230	magnesium chelatase
+CYP90B1	AT3G50660	18825121	18828225	steroid 22&alpha;-hydroxylase
+CYP726A1	NIL			Delta12-linoleate epoxygenase
+Seita.7G233500	Seita.7G233500			Seita.7G233500.1.p
+CNX5		322661	324791	117925
+AT1G16460	AT1G16460	5619576	5622657	3-mercaptopyruvate sulfurtransferase
+AT5G66690	AT5G66690	26642306	26644019	UDP-glycosyltransferase//coniferyl-alcohol glucosyltransferase
+OsNAS1	NIL			nicotianamine synthase
+ABC4	AT1G60600	22328310	22331024	prenyltransferase
+GlcAK	AT3G01640			glucuronokinase
+IPK1	AT5G42810	17184046	17186687	inositol pentakisphosphate 2-kinase//inositol tetrakisphosphate 2-kinase
+ODC	NIL			ornithine decarboxylase
+QCR6		683933	685580	81617
+AT4G04870	AT4G04870	2461672	2464141	cardiolipin synthase
+SDH5	AT1G47420.1	17397958	17399695	complex II subunit 5
+AT3G45300	AT3G45300	16631188	16636033	isovaleryl-CoA dehydrogenase
+AT5G13050	AT5G13050	4136559	4138795	5-formyltetrahydrofolate cyclo-ligase
+SAX1				SAX1
+Pavir.2KG192900	Pavir.2KG192900			Pavir.2KG192900.1.p
+Glyma.03G032700	Glyma.03G032700			Glyma.03G032700
+HI4'OMT	NIL			2,7,4'-trihydroxyisoflavanone-4'-O-methyltransferase
+CA08g10750	CA08g10750			CA08g10750
+CSD3	AT5G18100	5987189	5988887	copper, zinc superoxide dismutase
+Soltu.DM.07G021490	Soltu.DM.07G021490			Soltu.DM.07G021490.1
+FOMT4	NIL			flavonoid 6-<i>O</i>-methyltransferase
+AT3G48780	AT3G48780	18100079	18104073	serine C-palmitoyltransferase
+UGT73J1	NIL			quercetin-7-<i>O</i>-glucosyltransferase
+CYP79D1	NIL			valine <i>N</i>-monooxygenase (oxime forming)
+ATCG00150	ATCG00150			ATP synthase subunit a
+OsDMAS1	NIL			deoxymugineic acid synthase
+AADC2	NIL			phenylalanine decarboxylase
+AT3G10050	AT3G10050	3098730	3101766	threonine deaminase
+AT4G16690	AT4G16690	9392169	9393551	methylesterase
+HPR3	AT1G12550	4274592	4275979	glyoxylate reductase (NADP+) [multifunctional]
+AT4G39800	AT4G39800	18469342	18471961	inositol-3-phosphate synthase
+AT5G13930	AT5G13930	4488690	4490266	naringenin-chalcone synthase
+AT2G43080	AT2G43080	17922638	17925831	oxidoreductase, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors//procollagen-proline 4-dioxygenase
+AADC1A	NIL			aromatic amino acid decarboxylase
+PsbQ-1	AT4G21280	11334412	11335783	PSII-Q subunit
+AA7BG-GT2	NIL			anthocyanin 7-<i>O</i>-(6-<i>O</i>-(p-hydroxybenzoyl)-glucoside) glucosyltransferase (acyl-glucose dependent)
+AT5G08530	AT5G08530	2759318	2761876	NADH-ubiquinone oxidoreductase 51 kDa subunit
+AT1G64400	AT1G64400	23919261	23923446	long-chain-fatty-acid-CoA ligase
+PAO1	AT5G13700	4420072	4423036	polyamine oxidase
+FINS1	AT1G43670	16470484	16472940	fructose-1,6-bisphosphatase
+AT1G01220	AT1G01220			L-fucokinase / GDP-L-fucose pyrophosphorylase
+RGP1	AT3G02230	415400	417554	UDP-arabinose mutase
+Peaxi162Scf01586g00008	Peaxi162Scf01586g00008			Peaxi162Scf01586g00008
+RhGT1	NIL			anthocyanidin 5,3-O-glycosyltransferase
+GAME17				tomatine galactoside glucosyltransferase
+peroxidase 1	NIL			flavonoid peroxidase 1
+SAD2	NIL			cytochrome P450 dependent &beta;-amyrin monooxygenase
+CGT				flavonoid <i>C</i>-glucosyltransferase
+PsaK				Photosystem I reaction center subunit psaK
+FX056196				long-chain-fatty-acid--CoA ligase
+(S)-THBO				(<i>S</i>)-canadine oxidase
+pdk1 chloroplast	Zm00001d038163	150024486	150035717	C4 pyruvate, orthophosphate dikinase
+DBNTBT	NIL			taxoid C13-side chain N-benzoyltransferase
+GPAT8	AT4G00400	174070	176853	glycerol-3-phosphate O-acyltransferase
+AT5G36700	AT5G36700	14438865	14441720	phosphoglycolate phosphatase
+pTAD4	NIL			acyl-ACP &Delta;6 desaturase
+GSTU26	AT1G17190	5875343	5876538	glutathione transferase
+SKT1	NIL			potassium channel
+AT5G58240	AT5G58240	23575340	23576579	adenylylsulfate sulfohydrolase
+	NIL			geraniol acetyl CoA acetyltransferase
+PKS5	NIL			type III polyketide synthase
+SUS1	AT5G20830	7050228	7055197	sucrose synthase
+AtNSP4	AT3G16410			nitrile-specifier protein
+Zm00001d017077	Zm00001d017077	184494219	184496209	flavonoid 3'-hydroxylase
+DOX2	AT1G73680	27707605	27711175	fatty acid &alpha;-dioxygenase
+UGT73B6	NIL			tyrosol UDP glucosyltransferase
+GS50	NIL			endo apyrase
+UGE5	AT4G10960	6713553	6718546	UDP-glucose 4-epimerase subunit
+URH1	AT2G36310	15231576	15233951	uridine nucleosidase
+WS	NIL			wax synthase
+LjCHI3	NIL			chalcone isomerase
+RCCR	AT4G37000	17442606	17443849	red chlorophyll catabolite reductase
+AT3G24030	AT3G24030			hydroxyethylthiazole kinase
+CYP75B1	AT5G07990	2560395	2563110	flavonoid 3'-monooxygenase
+Glyma.06G119400	Glyma.06G119400			Glyma.06G119400
+RcOMT2	NIL			3,5-dimethoxyphenol O-methyltransferase [multifunctional]
+AT2G47690	AT2G47690	19558333	19559425	NADH-ubiquinone oxidoreductase 15 kDa subunit
+MT2	NIL			(S)-scoulerine 9-O-methyltransferase [multifunctional]
+OsTPS3	NIL			(E)-beta-caryophyllene/beta-elemene synthase
+GcpE	AT5G60600	24376195	24380711	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase
+ABA4	AT1G67080			neoxanthin synthase non-catalytic putative component
+AT5G05980	AT5G05980	1799491	1804493	folylpolyglutamate synthase
+AT3G45070	AT3G45070	16497268	16498334	sulfotransferase
+PDSTS1	NIL			subunit PDSTS1
+CmXRS1	NIL			7-methylxanthosine synthase
+GAE1	AT4G30440	14881861	14883486	UDP-glucuronate 4-epimerase
+PPD	NIL			PPD
+AT1G07420	AT1G07420	2277804	2280294	4-&alpha;-methyl-&delta;7-sterol-4&alpha;-methyl oxidase
+AT5G43600	AT5G43600			ureidoglycolate amidohydrolase
+Lj4g0008143	Lj4g0008143			Lj4g0008143.1
+ASAT3-P				sucrose acyltransferase
+FAH1	AT4G36220	17137347	17139638	ferulate 5-hydroxylase
+HB1	Os03g0233900			non-symbiotic hemoglobin 1
+Glyma.17G019600	Glyma.17G019600			Glyma.17G019600
+PsbB	ATCG00680	72371	73897	CP47
+OMT1	AT5G54160	21999222	22001589	flavonol 3'-<i>O</i>-methyltransferase//caffeate O-methyltransferase
+AT1G04220	AT1G04220	1119698	1122525	fatty acid elongase
+PLD alpha	AT3G15730	5330329	5333752	PLD alpha
+GALK	NIL			galactokinase
+GI:289466125	NIL			(-)-limonene-7-hydroxylase
+LHCA4		1063439	1066861	168073
+TGG5	AT1G51470	19091081	19094082	hydrolase, hydrolyzing O-glycosyl compounds
+KSL6	NIL			<i>ent</i>-isokaurene synthase
+LOX2	AT3G45140	16536395	16540337	lipoxygenase
+DOX1	AT3G01420			fatty acid &alpha;-dioxygenase
+CHS	NIL			6-isobutyl-4-hydroxy-2-pyrone synthase [multifunctional]
+CoOMT	NIL			columbamine O-methyltransferase
+Lj1g0007448	Lj1g0007448			Lj1g0007448.1
+ABA8'OH-1	NIL			abscisic acid 8'-hydroxylase
+AT4G14440	AT4G14440	8306741	8307749	delta3, delta2-enoyl-CoA isomerase
+SAT5	AT5G56760	22978535	22979886	serine O-acetyltransferase
+PAH				phenylalanine hydroxylase
+OKS	NIL			octaketide synthase
+GME	AT5G28840	10862177	10864907	GDP-D-mannose-3,5-epimerase
+PsbA	ATCG00020	383	1444	D1
+AT4G27070	AT4G27070	13586500	13588827	tryptophan synthase
+AL21	NIL			(11Z,14Z,17Z)-icosa-11,14,17-trienoyl-CoA Delta5 desaturase [multifunctional]
+JF799117	NIL			4-coumaroyl 2'-hydroxylase
+AtNIC1	AT2G22570	9596515	9597959	nicotinamidase
+PsaO				Photosystem I subunit O
+SD1	NIL			gibberellin 20-oxidase
+BBE1				reticuline oxidase
+PKSB	AT4G34850			tetraketide alpha-pyrone synthase [multifunctional]
+QH1	NIL			linalool synthase
+AT5G03455	AT5G03455	862558	864107	arsenate reductase
+KAT1	NIL			3-ketoacyl-CoA thiolase
+Lj5g0004759	Lj5g0004759			Lj5g0004759.1
+Zm00001d053675	Zm00001d053675	238805319	238809230	Zm00001d053675_T003.1
+oxidase	NIL			oxidase
+HCBT3	NIL			anthranilate N-benzoyltransferase
+CYP79D3	NIL			valine N-monooxygenase [multifunctional]
+KCR1	AT1G67730	25395123	25397273	very-long-chain 3-oxoacyl-CoA reductase
+TPS1	NIL			ent-kaurene synthase [multifunctional]
+AT5G27600	AT5G27600	9742579	9747008	long-chain-fatty-acid-CoA ligase
+MFS	NIL			(+)-menthofuran synthase
+AT3G17810	AT3G17810	6094104	6096572	dihydropyrimidine dehydrogenase
+vp15				molybdopterin synthase small subunit
+Glyma.12G014200	Glyma.12G014200			Glyma.12G014200
+ARD1	NIL			acireductone dioxygenase subunit
+Lj5g0022632	Lj5g0022632			Lj5g0022632.1
+Zm00001d041829	Zm00001d041829	139490055	139496394	4-amino-2-methyl-5-hydroxymethylpyridine phosphate kinase
+IPK2&alpha;	AT5G07370	2330386	2332282	polyphosphate 3-kinase / polyphosphate 5-kinase / polyphosphate 6-kinase
+FAD6B		1177345	1181450	174831
+GA2ox1	NIL			gibberellin 2-oxidase
+Zm00001d044096	Zm00001d044096	219038137	219043860	carbonate dehydratase
+SAT1	AT1G55920	20915781	20917112	serine O-acetyltransferase
+AMT2.2	NIL			ammonium transporter
+Dhurrinase 2				dhurrinase2 beta-glucosidase
+AT5G52840	AT5G52840	21430872	21432232	NADH-ubiquinone oxidoreductase B 13 subunit
+AT2G01350	AT2G01350	165140	167258	nicotinate-nucleotide diphosphorylase (carboxylating)
+LPP2	AT1G15080			lipid phosphatidate phosphatase
+ATGSTF1				glutathione transferase
+AT4G34260	AT4G34260			1,2-alpha-L-fucosidase
+Glyma.08G125600	Glyma.08G125600			Glyma.08G125600
+AT1G23360	AT1G23360	8295174	8296912	2-phytyl-1,4-naphthoquinone methyltransferase
+DPMS2	AT1G74340			dolichol phosphate mannose synthase subunit 2
+IPMS2	AT1G74040	27845832	27849437	IPMS2 subunit
+Glyma.02G226000	Glyma.02G226000			Glyma.02G226000
+AT4G36890	AT4G36890	17379173	17381777	transferase, transferring glycosyl groups
+AB061863	NIL			coclaurine N-methyltransferase
+PdUGT94AF3				PdUGT94AF3
+Mg25	NIL			beta-cubebene synthase
+AmAS1	NIL			aureusidin synthase
+PAH2	AT5G42870			3-sn-phosphatidate phosphohydrolase
+Chl G	NIL			chlorophyll synthetase
+PAL1	AT2G37040	15575726	15578361	phenylalanine ammonia lyase
+AT2G44350	AT2G44350	18323354	18327865	citrate synthase (mitochondrial)
+ThiC	AT2G29630			HMP-P synthase
+8,7 SI	101259646			sterol 8,7 isomerase
+AtSirB	AT1G50170	18585692	18587392	sirohydrochlorin ferrochelatase
+nad5		3320	4960	ChrepMp03
+SDH_Fi321	NIL			SDH subunit
+SALR	NIL			salutaridine oxidoreductase
+Glyma.07G183200	Glyma.07G183200			Glyma.07G183200
+DPMS3	AT1G48140			dolichol phosphate mannose synthase subunit 3
+ACS2				1-aminocyclopropane-1-carboxylate synthase
+Glyma.03G187200	Glyma.03G187200			Glyma.03G187200
+UGT89C1	AT1G06000			flavonol 7-<i>O</i>-rhamnosyltransferase
+PEN2	AT2G44490	18371832	18374801	myrosinase
+UGT84B2	AT2G23250	9904889	9906205	abscisic acid glucosyltransferase
+AGL97				&alpha;-glucosidase
+CYP703A2	AT1G01280			oxidoreductase, acting on paired donors, with incorporation or reduction of molecular oxygen, NADH or NADPH as one donor, and incorporation of one atom of oxygen
+AtNSP2	AT2G33070			nitrile-specifier protein
+LHCBM9		666428	668596	Chlorophyll a-b binding protein of LHCII
+AT3G58750	AT3G58750	21735291	21738667	citrate synthase
+Soltu.DM.10G003660	Soltu.DM.10G003660			Soltu.DM.10G003660.1
+OMT				catechol <i>O</i>-methyltransferase
+TMT2	NIL			thiocyanate methyltransferase
+AtPLC1	AT5G58670			AtPLC1
+TPS10	NIL			sesquiterpene synthase
+tdc1	NIL			tryptophan decarboxylase
+COXVIa	AT4G37830	17787473	17788828	complex IV subunit 6a
+PCS1	NIL			glutathione gamma-glutamylcysteinyltransferase / homophytochelatin synthase
+Seita.1G108500	Seita.1G108500			Seita.1G108500.1.p
+CYP75B3	Os10g0320100			flavonoid 3'-monooxygenase
+AT1G25450	AT1G25450	8938466	8940374	fatty acid elongase
+KSB	NIL			<i>ent</i>-kaurene synthase B
+G3OMT				(<i>S</i>)-scoulerine 9-<em>O</em>-methyltransferase
+AT5G04950	AT5G04950	1457646	1458891	nicotianamine synthase
+cDOPA5GT	NIL			UDPG:cyclo-DOPA 5-O-glucosyltransferase
+Soltu.DM.07G021450	Soltu.DM.07G021450			Soltu.DM.07G021450.1
+STA6	Cre03.g188250			ADP-glucose pyrophosphorylase small subunit
+IGMT5	AT1G76790	28827080	28828567	O-methyltransferase
+UROD	NIL			uroporphyrinogen decarboxylase
+RLG1	AT1G07910	2445467	2454642	2',3'-cyclic-nucleotide 3'-phosphodiesterase
+OMT1	Phex13114			5'-demethyl-yatein <i>O</i>-methyltransferase
+GRMZM2G116087_P01		173111772	173115627	GRMZM2G116087_P01
+ACX1	AT4G16760	9424655	9428875	acyl-CoA oxidase
+HGPT	AT1G71750	26991438	26992822	hypoxanthine-guanine phosphoribosyltransferase
+SPDS1	AT1G23820	8420254	8422974	spermidine synthase
+AT3G10620	AT3G10620	3320268	3321729	bis(5'-adenosyl)-pentaphosphatase
+AT1G61680	AT1G61680	22776120	22778352	S-linalool synthase
+LOX3	AT1G17420	5977404	5981473	lipoxygenase
+Glyma.12G014300	Glyma.12G014300			Glyma.12G014300
+NPQ1	AT1G08550	2706927	2709534	violaxanthin de-epoxidase
+TPS02	NIL			(E,E)-alpha-farnesene synthase / (E)-beta-ocimene synthase
+AT3G54640	AT3G54640	20234126	20236501	tryptophan synthase
+AT3G03520	AT3G03520	837884	840631	hydrolase, acting on ester bonds
+GA2ox7	AT1G50960	18893217	18895387	C-20 gibberellin 2-oxidase
+PME1.9	NIL			pectinesterase
+MADC2	NIL			arginine decarboxylase
+AtCoaA	AT1G60440	22270171	22272908	pantothenate kinase 1
+HCT	NIL			hydroxycinnamoyl-CoA: shikimate/quinate hydroxycinnamoyltransferase
+Glyma.U031524	Glyma.U031524			Glyma.U031524
+CHS2	NIL			6-isobutyl-4-hydroxy-2-pyrone synthase / chalcone synthase
+PAH1	AT3G09560			3-sn-phosphatidate phosphohydrolase
+AT2G39030	AT2G39030	16305305	16306280	N-acetyltransferase
+OKS	NIL			octaketide synthase
+SSII	AT3G01180	62252	65852	soluble starch synthase II
+GGPPS	NIL			prenyltransferase subunit
+g-cam	NIL			camphene synthase
+Pavir.1KG382400	Pavir.1KG382400			Pavir.1KG382400.1.p
+HMM6	NIL			6a-hydroxymaackiain-3-O-methyltransferase
+CRTZ				&beta;-carotene hydroxylase
+Cyc2	NIL			ent-copalyl diphosphate synthase
+QRT3	AT4G20050	10849792	10853356	polygalacturonase
+LHCA3		88585	91358	153678
+ADCL	AT5G57850	23452517	23454553	aminodeoxychorismate lyase
+Lj5g0002064	Lj5g0002064			Lj5g0002064.1
+IBR10	AT4G14430	8304596	8305701	delta3, delta2-enoyl-CoA isomerase
+AT3G21180	AT3G21180	7425525	7432206	calcium-transporting ATPase
+PAR	NIL			phenylacetaldehyde reductase
+cox1		5042	6559	ChrepMp04
+G4	AT3G51820	19226980	19230034	chlorophyll synthetase
+AT3G06510	AT3G06510	2016443	2019680	hydrolase, hydrolyzing O-glycosyl compounds
+AT1G15700	AT1G15700			ATP synthase gamma chain 2
+TPS-Iso	NIL			abietadiene synthase
+CYP90C1	AT4G36380	17187531	17192320	steroid hydroxylase
+AT4G30530	AT4G30530			phenylacetohydroximoyl-glutathione gamma-glutamyl peptidase
+AT5G18170	AT5G18170	6006041	6008474	glutamate dehydrogenase [NAD(P)+]
+Peaxi162Scf00047g01123	Peaxi162Scf00047g01123			Peaxi162Scf00047g01123
+FaGT6	NIL			flavonol 3-O-glucosyltransferase
+AT5G14930	AT5G14930	4828643	4830958	triacylglycerol lipase//carboxylesterase
+&Delta;4FAD				Delta4 desaturase
+UGT74M1	NIL			triterpene sapogenin carboxylic acid glucosyltransferase
+UGT73K1	NIL			triterpene sapogenin UDP-glucosyltransferase
+CesA1	AT4G32410	15640626	15646671	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+ODC	NIL			ornithine decarboxylase
+PsbY	AT1G67740	25397731	25398817	PSII-Y2 subunit // PSII-Y1 subunit
+Glyma.02G231000	Glyma.02G231000			Glyma.02G231000
+AT2G19070	AT2G19070	8267120	8269067	spermidine hydroxycinnamoyl transferase
+FaGT2	NIL			UDP-Glc:cinnamate glucosyltransferase
+ASA6	Cre02.g079800.t1.2	960214	961813	186501
+GME	NIL			GDP-D-mannose 3'',5''-epimerase [multifunctional]
+P5CS1	AT2G39800	16605242	16610397	glutamate-5-semialdehyde dehydrogenase [multifunctional]
+SPE1	NIL			arginine decarboxylase
+AT5G36880	AT5G36880	14551843	14557529	acetate-CoA ligase
+CDS2	AT4G22340	11799971	11803457	phosphatidate cytidylyltransferase
+AlaAT-2	NIL			alanine transaminase
+TPS6	NIL			(S)-beta-macrocarpene synthase
+HISN5A	AT3G22425	7951062	7953230	imidazoleglycerol-phosphate dehydratase
+AT4G13250	AT4G13250	7684231	7686872	chlorophyll b reductase
+<i>AtFUT1</i>	NIL			xyloglucan &alpha;-1,2-fucosyltransferase
+AT2G20690	AT2G20690			riboflavin synthase subunit
+AT5G11880	AT5G11880	3827527	3829987	diaminopimelate decarboxylase
+CVOMT1	NIL			CVOMT1 subunit
+LYC	AT3G10230	3164080	3166043	lycopene beta cyclase
+HCBT2	NIL			anthranilate N-benzoyltransferase
+AT2G22250	AT2G22250	9464890	9467999	prephenate aminotransferase
+TPPB	AT1G78090	29378784	29381397	trehalose-phosphatase
+TPS1	AT1G78580	29557233	29565805	alpha,alpha-trehalose-phosphate synthase (UDP-forming)
+Soltu.DM.10G006260	Soltu.DM.10G006260			Soltu.DM.10G006260.1
+AMY1	NIL			AMY1
+Lj4g0020319	Lj4g0020319			Lj4g0020319.1
+ASA5	Cre17.g721300.t1.2	231429	232288	184815
+Lj6g0027368	Lj6g0027368			Lj6g0027368.1
+UGT89B1	AT1G73880	27788642	27790465	UDP-glycosyltransferase
+tdc2	NIL			tryptophan decarboxylase
+CYP79D4	NIL			isoleucine N-monooxygenase [multifunctional]
+SMT	NIL			selenocysteine methyltransferase
+CHIT1	NIL			endochitinase
+Lj1g0025329	Lj1g0025329			Lj1g0025329.1
+AT1G54870	AT1G54870	20462673	20464314	oxidoreductase
+AXS1	AT2G27860	11871470	11873984	UDP-glucuronate decarboxylase
+TYDC2	NIL			tyrosine decarboxylase / dopa decarboxylase
+AOP2				glucosinolate 2-oxoglutarate-dependent dioxygenase
+Lj1g0007161	Lj1g0007161			Lj1g0007161.1
+fad7	AT3G11170			omega-3 fatty acid desaturase
+AT2G42790	AT2G42790	17808552	17813126	citrate synthase
+Glyma.10G107900	Glyma.10G107900			Glyma.10G107900
+CYP77A6	AT3G10570			fatty acid in-chain hydroxylase
+UGT73B5	AT2G15480	6765763	6767715	UDP-glucosyltransferase
+RHM1	AT1G78570	29554542	29557331	UDP-4-dehydro-6-deoxy-alpha-D-glucose 3,5-epimerase [multifunctional]
+PPD6	AT3G56650			PsbP domain-containing protein 6
+AT2G21890	AT2G21890	9338169	9339726	oxidoreductase
+PSOMT2	NIL			norcoclaurine 6-O-methyltransferase
+IRT1	NIL	1247765	1249104	196755
+AT4G09320	AT4G09320	5923397	5924529	nucleoside-diphosphate kinase 1 monomer
+GA3ox2-1	NIL			GA37 C13-oxidase [multifunctional]
+AT4G23100	AT4G23100	12103172	12107310	glutamate-cysteine ligase
+BADH	NIL			bixin aldehyde dehydrogenase
+CYP76M8	NIL			cytochrome P450 dependent <i>ent</i>-sandaracopimardiene 7&beta;-hydroxylase
+cko1	Zm00001d039520	6768568	6770834	cytokinin dehydrogenase
+PSS1	NIL			subunit PSS1
+FUT13	AT1G71990			3-galactosyl-<em>N</em>-acetylglucosaminide 4-&alpha;-<small>L</small>-fucosyltransferase FUT13
+CYP79E2	NIL			tyrosine N-monooxygenase
+RFS	NIL			raffinose synthase / galactosyltransferase
+HDH	NIL			histidinol dehydrogenase
+EAS37	NIL			5-epi-aristolochene synthase
+AT4G29210	AT4G29210	14400926	14403525	glutathione gamma-glutamylcysteinyltransferase
+psbX	AT2G28800			Inner membrane protein ALBINO3
+T5&alpha;-H	NIL			taxadiene 5&alpha;-hydroxylase
+AT1G17650	AT1G17650	6069470	6072005	phosphogluconate dehydrogenase (decarboxylating)
+UGlyAH	AT4G17050			ureidoglycine aminohydrolase
+GLIP2	AT1G53940	20146947	20149448	carboxylic ester hydrolase
+ARGAH2	AT4G08870	5646436	5648724	agmatinase / arginase
+AT4G18010	AT4G18010	9991033	9994432	inositol-polyphosphate 5-phosphatase
+OsHAK7	NIL			potassium transporter
+GGH	NIL			&gamma;-glutamyl hydrolase
+ICS1	AT1G74710	28073956	28077809	isochorismate synthase
+AT4G37930	AT4G37930	17831725	17834921	serine hydroxymethyltransferase
+AtTPS12	AT4G13280	7733110	7736741	(Z)-&gamma;-bisabolene synthase
+Lj6g0025835	Lj6g0025835			Lj6g0025835.1
+AT4G36480	AT4G36480	17218135	17221480	serine C-palmitoyltransferase
+PsbD	ATCG00270	32711	33772	D2
+Glu1				&beta;-glucosidase
+AT5G66510	AT5G66510	26566930	26568856	NADH-ubiquinone oxidoreductase subunit
+NUOB4		1209230	1210713	190543
+VTC4	AT3G02870	627519	629852	L-galactose-1-phosphate phosphatase
+MT3	NIL			(S)-scoulerine 9-O-methyltransferase
+AT1G35290	AT1G35290			acyl-lipid thioesterase 1
+AT3G03480	AT3G03480	828303	829903	acetyl CoA:(Z)-3-hexen-1-ol acetyltransferase
+Cre17.g711150	Cre17.g711150			Cre17.g711150.t1.2
+Soltu.DM.07G021440	Soltu.DM.07G021440			Soltu.DM.07G021440.1
+GA2ox6	AT1G02400	486801	489577	C-19 gibberellin 2-oxidase
+AT2G32260	AT2G32260	13704593	13707718	choline-phosphate cytidylyltransferase
+AT5G64000	AT5G64000	25633864	25635857	3'(2'),5'-bisphosphate nucleotidase//inositol or phosphatidylinositol phosphatase
+AANTSYNB	NIL			alpha2 anthranilate synthase
+AT5G44630	AT5G44630	18020482	18022843	(-)-beta-bisabolene synthase [multifunctional]
+AT2G26480	AT2G26480	11271041	11272762	UDP-glycosyltransferase
+Tps-MBO1	NIL			2-methyl-3-buten-2-ol synthase
+CDS5	AT3G60620	22417381	22419572	phosphatidate cytidylyltransferase
+AT3G10870	AT3G10870	3401083	3402677	methyl indole-3-acetate methyltransferase
+AT5G54190	AT5G54190	22008138	22010038	protochlorophyllide reductase
+AT3G48720	AT3G48720	18057308	18060448	omega-hydroxypalmitate O-sinapoyl transferase [multifunctional]
+bas1	NIL			beta-amyrin synthase
+XGD1	AT5G33290			xylogalacturonan xylosyltransferase
+SCCE	NIL			cholesterol monoxygenase
+3'GT	NIL			anthocyanin 3'-glucosyltransferase
+AT4G32840	AT4G32840	15844784	15848445	6-phosphofructokinase
+NAD-ME2	AT4G00570	242515	246771	NAD-dependent malic enzyme
+AT1G79010	AT1G79010	29729772	29731921	NADH-ubiquinone oxidoreductase 23 kDa subunit
+MGD3	AT2G11810	4750404	4753859	UDP-galactose:DAG galactosyltransferase
+Glyma.14G046500	Glyma.14G046500			Glyma.14G046500
+SGT2	NIL			soyasapogenol B glucuronide galactosyltransferase
+CCR1	AT1G15950	5478748	5482159	cinnamoyl-CoA reductase
+AT1G61810	AT1G61810	22833682	22836627	beta-glucosidase 45
+Lj5g0016867	Lj5g0016867			Lj5g0016867.1
+TaPSS1	NIL			phosphatidylserine synthase
+Cnx3	AT1G01290	114286	115549	molybderin biosynthesis protein
+GA2ox2	AT1G30040	10537632	10539815	C-19 gibberellin 2-oxidase
+SMO3				sterol methyl oxidase 3
+APR1	AT4G04610	2325001	2327011	APR1
+AT2G26420.1	AT2G26420.1	11246512	11249317	1-phosphatidylinositol-4-phosphate 5-kinase
+AT1G48030	AT1G48030	17720802	17722810	dihydrolipoyl dehydrogenase
+petD		6382	6864	ChreCp002
+Os01g43520	LOC_Os01g43520			LOC_Os01g43520.1
+AT3G07800	AT3G07800	2489393	2491093	thymidine kinase
+AT4G02610	AT4G02610	1147634	1149336	tryptophan synthase
+PatTpsCF2	NIL			germacrene A synthase
+AT1G67490	AT1G67490	25284114	25290274	alpha-glucosidase
+AT2G42310	AT2G42310	17632290	17632967	NADH-ubiquinone oxidoreductase subunit
+DODA	NIL			4,5-DOPA-dioxygenase
+HPO	NIL			premnaspirodiene oxygenase
+JOMT				thujaplicatin 5-<i>O</i>-methyltransferase
+UBA2				ubiquitin-activating enzyme
+cDOPA5GT	NIL			UDPG:cyclo-DOPA 5-O-glucosyltransferase
+CPO	NIL			coproporphyrinogen III oxidase subunit
+LPLAT1	AT1G12640	4303310	4305796	lysophospholipid acyltransferase 1
+DFR1	NIL			dihydroflavonol-4-reductase
+Soltu.DM.07G023660	Soltu.DM.07G023660			Soltu.DM.07G023660.1 // Soltu.DM.07G023660.2
+Lj6g0021042	Lj6g0021042			Lj6g0021042.1
+ApL2	AT1G27680	9631272	9634584	ADP-glucose pyrophosphorylase
+AT5G63510	AT5G63510	25441226	25443067	NADH-ubiquinone oxidoreductase subunit
+ABA2	NIL			zeaxanthin epoxidase
+AT5G04040	AT5G04040	1089651	1093178	triacylglycerol lipase
+UGT72B14	NIL			tyrosol UDP-glucosyltransferase
+CA9OMT				coniferyl alcohol 9-methyltransferase subunit
+GPPS.SSU	NIL			GPPS.SSU
+AT1G07110	AT1G07110	2178103	2184147	fructose-2,6-bisphosphate 2-phosphatase
+AOX1a	AT3G22370	7906800	7908747	alternative oxidase
+LjContig00272g0024265	LjContig00272g0024265			LjContig00272g0024265.1
+AT3G05970	AT3G05970	1786324	1791808	long-chain-fatty-acid-CoA ligase
+estExt_fgenesh2_pg.C_600051		408307	411682	194226
+SGTL1	NIL			3&beta;-hydroxy sterol glucosyltransferase
+AT3G25810	AT3G25810	9432004	9435081	monoterpene synthese [multifunctional]
+AT1G08980	AT1G08980	2884414	2886623	indole-3-acetamide amidohydrolase
+AT1G51260	AT1G51260	19007044	19009309	1-acylglycerol-3-phosphate O-acyltransferase
+lfs	NIL			lachrymator factor synthase / lachrymatory factor synthase
+F3GGT1	NIL			cyanidin 3-<i>O</i>-galactoside 2''-<i>O</i>-xylosyltransferase
+Ipk				<i>myo</i>-inositol polyphosphate kinase
+Acet6	NIL			fatty acid Delta6-acetylenase [multifunctional]
+ACOS5	AT1G62940	23314200	23316412	acyl-CoA synthase / fatty acyl-CoA synthetase
+Glyma.02G230900	Glyma.02G230900			Glyma.02G230900
+FOMT6	NIL			flavonoid 6-<i>O</i>-methyltransferase
+PPOX	AT4G01690	729887	732433	protoporphyrinogen oxidase
+APXT	NIL			ascorbate peroxidase
+NAR5	NIL	1281955	1286542	130019
+AT1G68760	AT1G68760			8-oxo-dGTP pyrophosphohydrolase
+ADK2	AT5G03300	796441	799175	adenosine kinase
+Zm00001d015618	Zm00001d015618	101493553	101498009	Cynnamyl-alcohol dehydrogenase
+Cre10.g422600	Cre10.g422600	1650108	1655800	Cre10.g422600.t1.1
+AtPIS1	AT1G68000	25494677	25496716	AtPIS1
+oy1	Zm00001d023536	9162610	9167073	magnesium chelatase
+Glyma.03G187400	Glyma.03G187400			Glyma.03G187400
+PHS1	NIL			&beta;-phellandrene synthase 1
+imt1	NIL			myo-inositol 4-O-methyltransferase
+SDH8	AT2G46390.1	19049374	19050133	complex II subunit 8
+AT1G76680	AT1G76680	28781740	28783361	12-oxophytodienoate reductase
+APS1	AT3G22890	8112730	8114997	APS1
+AF042332	NIL			24-methylenesterol <i>C</i>-methyltransferase
+DUR3B	Cre08.g360250.t1.2	248015	252887	154212
+Glyma.02G225850	Glyma.02G225850			Glyma.02G225850
+AtSOT18	AT1G74090	27866570	27867854	desulfoglucosinolate sulfotransferase
+ImpFADX	NIL			Delta12 fatty acid conjugase
+CYP84A4				p-coumaraldehyde 3-hydroxylase
+MVK	AT5G27450	9690610	9693231	mevalonate kinase
+CGT	NIL			chlorogenate-dependent caffeoyltransferase
+A1	NIL			dihydroflavonol 4-reductase/flavanone 4-reductase
+OJ1754_E06.14	NIL			chalcone isomerase
+str	NIL			strictosidine synthase
+CiGASsh	NIL			germacrene A synthase
+AAPT1	NIL			CDP-choline:1,2-diacylglycerol cholinephosphotransferase
+AT2G04350	AT2G04350	1515802	1519305	long-chain-fatty-acid-CoA ligase
+SPS	OsI_004842			sucrose phosphate synthase
+CCD1	NIL			zeaxanthin dioxygenase / lycopene dioxygenase
+F3GalTase	NIL			flavonol 3-<i>O</i>-&beta;-<i>D</i>-galactosyltransferase
+GR2	AT3G54660	20240722	20244160	glutathione reductase
+UGT78D1	AT1G30530	10814641	10816565	myricetin 3-O-glucosyltransferase [multifunctional]
+LTC1	NIL			germacrene A synthase
+AADC	NIL			PLP-dependent decarboxylase
+AT3G20040	AT3G20040			glucokinase / fructokinase
+AR2	AT4G30210	14796770	14800928	NADPH-hemoprotein reductase
+DFR1	NIL			dihydroflavonol-4-reductase
+GLN1;3	AT3G17820	6097420	6099601	glutamate-ammonia ligase
+JAR6	NIL			jasmonoyl-amino acid synthetase
+AT5G66190	AT5G66190	26468190	26470425	NADPH dehydrogenase
+D29811	NIL			norcoclaurine 6-O-methyltransferase
+(+)-germacrene D synthase	NIL			(+)-germacrene D synthase
+AT5G54810	AT5G54810	22281820	22284011	tryptophan synthase, beta subunit
+AT4G08170	AT4G08170	5163396	5167176	inositol-tetrakisphosphate 1-kinase 2
+SAMT1				salicylate 1-<i>O</i>-methyltransferase
+ApL1	AT5G19220	6463826	6466833	ADP-glucose pyrophosphorylase large subunit//glucose-1-phosphate adenylyltransferase
+SrCHR1	NIL			chalcone reductase
+fad5	AT3G15850			palmitate desaturase
+fad3	AT2G29980			linoleate desaturase
+urate oxidase				urate oxidase
+taxane 10&beta;-hydroxylase	NIL			taxane 10beta-hydroxylase
+4CL2	AT3G21240	7454275	7457385	4-coumarate-CoA ligase
+Lj4g0025345	Lj4g0025345			Lj4g0025345.1
+KO1	NIL			<i>ent</i>-kaurene oxidase
+AT3G29200	AT3G29200	11165630	11167653	chorismate mutase
+ISA3	AT4G09020	5784073	5788999	alpha-amylase
+PAT2	Cre09.g396650.t1.1			phosphate acetyltransferase
+HNL	NIL			aliphatic (<i>R</i>)-hydroxynitrile lyase monomer
+ATPvG		644135	645886	59366
+SUS4	AT3G43190	15190008	15194977	sucrose synthase
+Valcs	NIL			(+)-valencene synthase
+Cre01.g040050	Cre01.g040050			Cre01.g040050.t1.1
+UT	NIL			galactose-1-phosphate uridylyltransferase
+AY069920	NIL			GTP cyclohydrolase I subunit
+ALS	NIL			ALS subunit
+HYD1	AT1G20050	6949034	6950310	Delta8-Delta7-sterol isomerase
+CacGene12278	CacGene12278			CacGene12278.t1
+GolS-1	NIL			galactinol synthase
+AT2G06850	AT2G06850	2763523	2765717	xyloglucan:xyloglucosyl transferase//ghydrolase, acting on glycosyl bonds
+PAO	AT3G44880	16394580	16397297	pheophorbide a oxygenase
+AT3G60880	AT3G60880	22505827	22507672	dihydrodipicolinate synthase
+CPN60A		132342	140135	24547
+EGS1	NIL			eugenol synthase
+IpeOMT3				6-O-methyldeacetylisoipecoside aglycon 7-O-methyltransferase
+HCT	NIL			hydroxycinnamoyl-coenzyme A shikimate/quinate hydroxycinnamoyl transferase [multifunctional]
+COX90	Cre16.g691850	159975	161226	185375
+Os01g43520	NIL			ceramidase
+GAMT2	AT5G56300			gibberellin carboxyl methyltransferase
+GS-OX4	AT1G62570	23172801	23175770	glucosinolate S-oxygenase
+PRX2	NIL			aurone synthase
+G6PD5	AT3G27300	10084286	10087933	glucose-6-phosphate 1-dehydrogenase
+CNX2		23226	25748	106419
+pRQPT1	NIL			quinolinate phosphoribosyltransferase (decarboxylating)
+LjContig00155g0015810	LjContig00155g0015810			LjContig00155g0015810.1
+Crep1	NIL			delta12 linoleate acetylenase
+CTAS	NIL			p-coumaroyltriacetic acid synthase
+TSBType2	AT5G38530			trytophan synthase, beta subunit
+FAR6	AT3G07020	21010710	21013037	fatty acyl-CoA reductase (alcohol-forming)
+NTRA	AT2G17420	7571427	7573621	NTRA subunit
+ZE	NIL			zeaxanthin epoxidase
+AT5G07440	AT5G07440	2355938	2358195	glutamate dehydrogenase [NAD(P)+]
+GA3ox1	NIL			gibberellin 2&beta;,3&beta;-hydroxylase
+AT1G79440	AT1G79440	29887103	29892303	succinate-semialdehyde dehydrogenase//3-chloroallyl aldehyde dehydrogenase
+pLIN-GEN	NIL			linamarase
+GA2ox1	AT1G78440	29516492	29517944	C19 gibberellin 2-oxidase
+TKPR1	AT4G35420			tetraketide alpha-pyrone reductase
+C12RT1	NIL			flavanone 7-O-glucoside-2"-O-rhamnosyltransferase
+AT4G13300	AT4G13300	7743187	7746359	(Z)-&gamma;-bisabolene synthase
+CINV1	AT1G35580	13122182	13125242	alkaline/neutral invertase
+sst-1	NIL			Sst-1
+AT5G14950	AT5G14950	4837155	4841945	alpha-mannosidase
+KAS I	NIL			&beta;-ketoacyl-ACP synthetase I
+SCA1	NIL			plasma membrane Ca2+-ATPase
+AT5G50600	AT5G50600	20606928	20608915	11&beta;-, 17&beta;-hydroxysteroid dehydrogenase / 17&beta;-ketosteroid reductase
+F3OGT	NIL			flavonol 3-<i>O</i>-glucosyltransferase
+AT4G33150	AT4G33150	15985192	15991541	lysine-ketoglutarate reductase / saccharopine dehydrogenase
+CAD1	NIL			geraniol dehydrogenase
+PSAD		509251	510264	184971
+Soltu.DM.07G017520	Soltu.DM.07G017520			Soltu.DM.07G017520.1
+bcp	NIL			beta-caryophyllene synthase
+NIT3	AT3G44320	16004366	16006798	Nit3
+RpALN	NIL			allantoinase
+CYP719A23				pluviatolide synthase
+AT3G55120	AT3G55120	20441091	20442447	chalcone isomerase
+GCS	NIL			glucosylceramide synthase
+SOS4	AT5G37850	15082604	15086229	SOS4 subunit
+Z-ISO				15-<i>cis</i>-&zeta;-carotene isomerase
+GEDH1	NIL			geraniol dehydrogenase
+4CL1	AT1G51680	19162420	19165220	4-coumarate-CoA ligase
+Glyma.18G265900	Glyma.18G265900			Glyma.18G265900
+UXS3	AT5G59290	23932756	23935418	UDP-glucuronate decarboxylase
+SMT	NIL			scoulerine 9-O-methyltransferase
+AtCAD5	AT4G34230	16386723	16388726	cinnamyl alcohol dehydrogenase
+&beta;-OHase 2	AT5G52570	21352019	21354228	&beta;-ring hydroxylase
+SARED1	NIL			chelirubine reductase / chelerythrine reductase / sanguinarine reductase
+NAR1.1		410749	413773	192094
+nda2				NAD(P)H dehydrogenase
+PAP19	NIL			purple acid phosphatase
+Lj2g0021084	Lj2g0021084			Lj2g0021084.1
+AT1G78500	AT1G78500	29536539	29540070	oxidosqualene cyclase
+AT1G31220	AT1G31220	11156783	11158664	phosphoribosylglycinamide formyltransferase
+Cre01.g051900	Cre01.g051900	5286131	5287892	Cre01.g051900.t1.2
+MT1	NIL			S-tetrahydrocolumbamine O-methyltransferase [multifunctional]
+PRX3	NIL			phenoxy radical VII peroxidase
+LinS	NIL			linalool synthase
+CRN1	AT5G13800	4451840	4454624	pheophytinase
+5PTase13	AT1G05630	1682317	1687362	inositol-polyphosphate 5-phosphatase
+Zm00001d048021	Zm00001d048021	148185906	148187354	hydroperoxide dehydratase
+GA2ox2	NIL			gibberellin 2-oxidase
+CAD1-A	NIL			(+)-delta-cadinene synthase
+KAT2	AT2G33150	14054555	14058217	3-ketoacyl-CoA thiolase
+RhAAT1	NIL			geraniol acetyltransferase
+AT1G49430	AT1G49430	18294711	18299493	long-chain-fatty-acid-CoA ligase
+Glyma.02G104300	Glyma.02G104300			Glyma.02G104300
+AT5G37830	AT5G37830	15073418	15078007	5-oxoprolinase
+SMT1	AT5G13710	4423698	4427061	sterol 24-C-methyltransferase
+BIS3	NIL			biphenyl synthase
+UGT71A8	NIL			lignan glucosyltransferase
+CaMXMT1	NIL			theobromine synthase
+Glyma.11G000500	Glyma.11G000500			Glyma.11G000500
+AT1G27980	AT1G27980	9748724	9752756	carboxy-lyase
+GA2ox1	NIL			gibberellin 2-oxidase
+g-&beta;phe	NIL			&beta;-phellandrene synthase
+AT1G03090	AT1G03090	739679	744184	methylcrotonoyl-CoA carboxylase-alpha subunit
+LAT1	NIL			lysophosphatidate acyltransferase
+DicGT4	NIL			chalcone 2'-O-glucosyltransferase
+Lj3g0021326	Lj3g0021326			Lj3g0021326.1
+Glyma.15G032000	Glyma.15G032000			Glyma.15G032000
+PnL	NIL			subunit PnL
+PKS3	NIL			aromatic polyketide synthase
+CYP714D1				gibberellin 16&alpha;, 17-epoxidase
+NYS	NIL			neoxanthin synthase
+LOX1	NIL			9<i>S</i>-lipoxygenase
+PCS1	NIL			homophytochelatin synthase
+Glyma.12G163366	Glyma.12G163366			Glyma.12G163366
+2-ODD				(-)-deoxypodophyllotoxin synthase
+SMO4	101258266			sterol methyl oxidase 4
+AT2G45440	AT2G45440	18737914	18740089	dihydrodipicolinate synthase
+HSA&beta;				HSA&beta; subunit
+LjContig00272g0002292	LjContig00272g0002292			LjContig00272g0002292.1
+LHCBM8		672302	674167	Chlorophyll a-b binding protein of LHCII
+AT2G20360	AT2G20360	8793069	8796554	NADH-ubiquinone oxidoreductase 39 kDa subunit
+GES	NIL			GES
+PDC1	NIL			pyruvate decarboxylase
+SSy	NIL			santalene synthase
+PDSTS3	NIL			subunit PDSTS3
+TPS-Far	NIL			(E,E)-alpha-farnesene synthase
+Lj4g0023686	Lj4g0023686			Lj4g0023686.1
+KcMS	NIL			triterpene synthase
+AAE	NIL			acetylajmalan esterase
+AS	NIL			&alpha;/&beta;-amyrin synthase
+vp10				molypdopterin molybdotransferase
+UGT88A1	AT3G16520	5618551	5620879	UDP-glycosyltransferase
+hbfd2				carotenoid 4-hydroxy-&beta;-ring 4-dehydrogenase
+AT5G11770	AT5G11770	3790807	3793001	NADH-ubiquinone oxidoreductase 20 kDa subunit
+AT2G33220	AT2G33220	14085928	14087234	NADH-ubiquinone oxidoreductase B 16.6 kDa subunit
+pOS-SAMS2	NIL			S-adenosyl-L-methionine synthetase
+CPI1	AT5G50375	20528893	20531474	cycloeucalenol cycloisomerase
+Glyma.03G187500	Glyma.03G187500			Glyma.03G187500
+GALT1	AT1G26810	9286630	9289956	<i>N</i>-acetyl-&beta;-D-glucosaminide &beta;-(1,3)-galactosyltransferase
+AT2G07727	AT2G07727	3450575	3452041	cytochrome <i>b</i>
+M63853	NIL			Caffeic acid O-methyltransferase
+CesA6	AT5G64740	25898292	25903920	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+Lj4g0022057	Lj4g0022057			Lj4g0022057.1
+CYP80G2	NIL			(S)-corytuberine synthase
+RNR2B		16425394	16426393	RNR2B subunit
+CYP71B15	AT3G26830	9889190	9890942	CYP71B15 monooxygenase//dihydrocamalexic acid decarboxylase
+PGM	AT5G51820	21080594	21085283	phosphoglucomutase
+RGP3	AT3G08900	2708092	2709720	UDP-L-arabinose mutase
+SPS2	AT1G17050	5829092	5831326	geranylgeranyl-diphosphate all-trans-nonaprenyl diphosphate synthase
+AtIMD3	AT1G31180	11142695	11144614	3-isopropylmalate dehydrogenase
+Cre10.g435250	Cre10.g435250			Cre10.g435250.t1.2
+Cre09.g396300	Cre09.g396300			Cre09.g396300.t1.1
+AT4G39940	AT4G39940	18519711	18521562	APS kinase
+AIM1	AT4G29010	14297050	14302141	OPC4-3-hydroxyacyl-CoA dehydrogenase [multifunctional]
+CYP85A2	AT3G30180	11813216	11816244	monooxygenase
+3&beta;-HSD	NIL			3beta-hydroxysteroid dehydrogenase
+AT1G19570	AT1G19570	6773302	6774519	glutathione dehydrogenase (ascorbate)
+KCS1	AT1G01120	57269	59167	very-long-chain 3-ketoacyl-CoA synthase
+GolS	NIL			galactinol synthase / fagopyranosyl synthase
+LjContig00155g0013494	LjContig00155g0013494			LjContig00155g0013494.1
+PAAS	NIL			phenylacetaldehyde synthase
+dHG-6-OMT	NIL			desoxyhemigossypol-6-O-methyltransferase
+SDH4	AT2G46505.1	19096801	19097621	complex II subunit 4
+SUS3	AT4G02280	994927	998967	sucrose synthase
+AT5G58780	AT5G58780	23752855	23754561	dehydrodolichyl diphosphate synthase
+Sg				
+AT4G27260	AT4G27260	13653615	13656210	indole-3-acetic acid amido synthetase
+CesA8	AT4G18780	10312635	10316801	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+CER10	AT3G55360	20531907	20533991	very-long-chain enoyl-CoA reductase
+Bx7	NIL			TRIBOA-glucoside methyltransferase
+cs1	NIL			cycloartenol synthase
+UGT73C5	AT2G36800	15430459	15432095	glucosyltransferase
+C3	NIL			delta-guaiene synthase
+SBEI	NIL			starch branching enzyme I
+Soltu.DM.09G025390	Soltu.DM.09G025390			Soltu.DM.09G025390.1
+AT2G23610	AT2G23610	10051259	10053612	methylesterase
+AT3G11750	AT3G11750	3715077	3715910	dihydroneopterin aldolase
+ACS4	AT2G22810	9724871	9726552	1-aminocyclopropane-1-carboxylate synthase
+Soltu.DM.09G025380	Soltu.DM.09G025380			Soltu.DM.09G025380.1 // Soltu.DM.09G025380.2
+TT3	AT5G42800	17181369	17183146	dihydroflavonol 4-reductase
+DXR	AT5G62790	25231351	25234665	1-deoxy-D-xylulose-5-phosphate reductoisomerase
+AT5G49570	AT5G49570			peptide-N4-(N-acetyl-beta-glucosaminyl)asparagine amidase
+CYP719A5				(S)-chelanthifoline synthase
+IPMS1	AT1G18500	6369340	6373018	IPMS1 subunit
+Peaxi162Scf03967g00005	Peaxi162Scf03967g00005			Peaxi162Scf03967g00005
+PK	NIL			pyridoxal kinase subunit
+NIA1	AT1G77760	29240697	29244339	nitrate reductase 1 subunit
+cs	NIL			3-carene synthase
+AT5G04660	AT5G04660			CYP77A4
+SUS5	AT5G37180	14735468	14740143	sucrose synthase
+aah6h	NIL			hyoscyamine 6&beta;-hydroxylase
+DFR2	NIL			dihydroflavonol-4-reductase
+LOC_Os04g10160	LOC_Os04g10160	5464777	5466782	CYP99A2
+PKSA	AT1G02050			tetraketide alpha-pyrone synthase [multifunctional]
+GES	NIL			geraniol synthase
+IPT2	AT2G27760	11831875	11834668	adenylate dimethylallyltransferase
+AT4G33650	AT4G33650	16160938	16166932	GTPase
+AT4G36400	AT4G36400			D-2-hydroxyglutarate dehydrogenase
+ATP5		1384011	1387934	191596
+Soltu.DM.07G021330	Soltu.DM.07G021330			Soltu.DM.07G021330.1
+BGLU44	AT3G18080	6191563	6194458	cellobiose glucosidase
+AT2G41490	AT2G41490	17308773	17311289	UDP-N-acetylglucosamine:dolichyl-phosphate N-acetylglucosaminephosphotransferase
+LjContig00155g0003088	LjContig00155g0003088			LjContig00155g0003088.1
+Glyma.18G274400	Glyma.18G274400			Glyma.18G274400
+Lj6g0025855	Lj6g0025855			Lj6g0025855.1
+MIPS				myo-inositol-3-monophosphate synthase
+Peaxi162Scf00047g00116	Peaxi162Scf00047g00116			Peaxi162Scf00047g00116
+DHS1	NIL			deoxyhypusine synthase
+Glyma.06G252566	Glyma.06G252566			Glyma.06G252566
+NAR1.2	Cre06.g309000	437733	440642	135648
+AT1G05590	AT1G05590	1669349	1671875	hydrolase, hydrolyzing O-glycosyl compounds//beta-N-acetylhexosaminidase
+LHCBM3		87853	90504	Light-harvesting chlorophyll-a/b binding protein LhcII-1.3
+CRSH	AT3G17470			GTP diphosphokinase
+AT1G69640	AT1G69640	26197322	26199358	sphinganine 4-hydroxylase
+CNL				cinnamate:CoA ligase
+ACX1A	NIL			OPC4 acyl-CoA oxidase / OPC6 acyl-CoA oxidase / OPC8 acyl-CoA oxidase
+TPPA	AT5G51460	20918203	20921765	trehalose-phosphatase
+BADH	NIL			betaine aldehyde dehydrogenase
+IPT7	AT3G23630	8488702	8490217	adenylate dimethylallyltransferase
+AT1G24360	AT1G24360	8640571	8643467	AT1G24360
+cICDH	AT1G65930	24542567	24545792	NADP+-dependent isocitrate dehydrogenase
+DBOX	NIL			tetrahydropapaverine oxidase
+4'CGT	NIL			chalcone 4'-O-glucosyltransferase
+OMT2	NIL			flavonoid O-methyltransferase
+ACLB-2	AT5G49460	20071749	20075690	ATP-citrate lyase//ATP citrate synthase
+3GT1	NIL			UDP-glucose:cyanidin 3-<i>O</i>-&beta;-<i>D</i>-glucosyltransferase
+NUOB22		308848	310566	164424
+nad2		6707	7855	ChrepMp05
+3MaT	NIL			anthocyanidin 3-<i>O</i>-glucoside 6"-<i>O</i>-malonyltransferase
+Seita.6G068100	Seita.6G068100			Seita.6G068100.1.p
+atpH	NIL	128949	129197	ChreCp053
+AF352395	NIL			BPS subunit
+AT5G20980	AT5G20980	7122802	7128361	5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase//methionine synthase
+SULP2	NIL	5702222	5705919	116547
+AT4G24520	AT4G24520	12662851	12667171	NADPH-hemoprotein reductase
+DES1				acyl-CoA 9-desaturase
+NtNAS1	NIL			nicotianamine synthase
+APY2	AT5G18280	6050516	6054343	apyrase//ATPase
+AT5G40870	AT5G40870	16392136	16395880	uridine kinase / uridine kinase/uracil phosphoribosyltransferase
+POMT-7	NIL			flavonoid 7-<i>O</i>-methyltransferase
+Soltu.DM.07G021340	Soltu.DM.07G021340			Soltu.DM.07G021340.1
+CURS2	NIL			curcumin synthase
+atpI		170917	171633	ChreCp062
+SAMS1	NIL			S-adenosylmethionine synthetase
+CYP719A3	NIL			(S)-nandinine synthase / stylopine synthase
+Lj3g0020060	Lj3g0020060			Lj3g0020060.1
+UGP1	AT3G03250			UTP:glucose-1-phosphate uridylyltransferase
+AOS	NIL			9-allene oxide synthase
+LHCB5		550135	552534	CP26
+CYP94B1	AT5G63450.1			jasmonoyl-L-amino acid 12-hydroxylase
+CYP72A1	NIL			secologanin synthase
+AT3G06050	AT3G06050	1826079	1827867	peroxidase
+Pavir.1KG382300	Pavir.1KG382300			Pavir.1KG382300.1.p
+AT5G51290	AT5G51290	20861224	20865566	diacylglycerol kinase
+KSL5i	NIL			<i>ent</i>-isokaurene synthase
+AT2G26740	AT2G26740	11400043	11401357	epoxide hydrolase
+GAPC	NIL			glyceraldehyde 3-phosphate dehydrogenase
+YchB	NIL			4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+NAR1.5		197405	201235	137328
+Glyma.03G186900	Glyma.03G186900			Glyma.03G186900
+dpep	NIL			Dpep
+PR	NIL			(+)-pulegone reductase
+ARAF1	AT3G10740	3360893	3365419	alpha-N-arabinofuranosidase
+HQT	NIL			hydroxycinnamoyl CoA quinate transferase
+VTE1	AT4G32770	15804919	15807987	tocopherol cyclase
+Pavir.9KG170400	Pavir.9KG170400			Pavir.9KG170400.1.p
+VEP1	AT4G24220			enone reductase
+psbM		64197	64301	Photosystem II reaction center protein M
+MUM4	AT1G53500	19970612	19973425	UDP-glucose 4,6-dehydratase [multifunctional]
+Zm00001d002358	Zm00001d002358	10781211	10785395	coproporphyrinogen oxidase
+AT2G43090.1	AT2G43090.1	17926004	17927506	isopropylmalate isomerase, small subunit
+BBE	NIL			tetrahydroprotoberberine synthase
+AKR4C9	AT2G37770	15841961	15844079	aldo-keto reductase family 4 member C9
+CER4	AT4G33790	16204159	16207950	alcohol-forming fatty acyl-CoA reductase
+OPR3	AT2G06050	2359111	2362299	12-oxophytodienoate reductase
+BIO1	AT5G57590	23335734	23338765	adenosylmethionine-8-amino-7-oxononanoate transaminase
+CGT	NIL			phloretin 3-C-glucosyltransferase [multifunctional]
+AT2G23560	AT2G23560	10036355	10037462	methylesterase
+AT5G27380	AT5G27380	9667974	9670965	glutathione synthase
+Pavir.3KG443800	Pavir.3KG443800			Pavir.3KG443800.2.p
+Lj6g0026933	Lj6g0026933			Lj6g0026933.1
+SGT	NIL			salicylic acid glucosyltransferase
+ACH	NIL			hydroxyhopane synthase
+CINV2	AT4G09510	6021161	6023870	neutral/alkaline invertase
+CYP86A4	AT1G01600	218994	221286	fatty acid &omega;-hydroxylase
+CYP719A5	NIL			(S)-chelanthifoline synthase
+COMT2	NIL			caffeate 3-<i>O</i>-methyltransferase
+AT2G06925	AT2G06925	2842350	2843298	phospholipase A2
+ASA1	Cre07.g340350.t1.1	211727	217616	78831
+A6PR	NIL			aldose-6-phosphate reductase subunit
+AT3G51160	AT3G51160			GDP-mannose 4,6-dehydratase
+AT5G14760	AT5G14760	4768471	4772156	L-aspartate oxidase
+TPS-Lon	NIL			beta-longipinene synthase [multifunctional]
+VDE1	NIL			antheraxanthin de-epoxidase / violaxanthin de-epoxidase
+OSCPNX1	NIL			cycloartenol synthase
+AT4G25970	AT4G25970	13185739	13189444	phosphatidylserine decarboxylase
+A/N-InvE	AT5G22510	7474813	7477944	alkaline/neutral invertase
+UGE3	AT1G63180	23431076	23433268	UDP-glucose 4-epimerase subunit
+OTC	AT1G75330	28269920	28272073	ornithine carbamoyltransferase
+LePGT-2	NIL			4-hydroxybenzoate geranyltransferase
+FES	NIL			fenchol synthase
+cpps2				<i>ent</i>-copalyl diphosphate synthase
+SAHH	NIL			S-adenosylhomocysteine hydrolase
+AT3G21110	AT3G21110	7402487	7405647	phosphoribosylaminoimidazolesuccinocarboxamide synthase
+PKS1	NIL			p-coumaroyl-diketide-CoA synthase
+AT5G42100	AT5G42100	16846379	16848467	hydrolase, hydrolyzing O-glycosyl compounds
+tdc	NIL			tryptophan decarboxylase
+NUDT7	AT4G12720	7487336	7490074	ADP-ribose hydrolase subunit
+UBA3				ubiquitin-activating enzyme
+STR1	NIL			strictosidine synthase
+ArAT1	NIL			aromatic amino acid transaminase
+CYP710A2	AT2G34490	14542724	14544511	C-22 sterol desaturase
+odc	NIL			ornithine decarboxylase
+AT5G45940	AT5G45940	18646789	18647918	NAD++ diphosphatase
+Ht1	NIL			flavonoid 3'-hydroxylase
+ABA3	AT1G16540	5659408	5665442	molybdenum cofactor sulfurase//selenocysteine lyase
+Pavir.1NG309700	Pavir.1NG309700			Pavir.1NG309700.1.p
+UGT72B3	AT1G01420	154566	156011	UDP-glycosyltransferase
+PPD3	AT1G76450			PsbP domain-containing protein 3
+BSC	NIL			beta-selinene cyclase
+AT5G06290	AT5G06290			peroxiredoxin
+Lj4g0027534	Lj4g0027534			Lj4g0027534.1
+afs	NIL			(E,E)-&alpha;-farnesene synthase
+CER1	AT1G02205	418767	422438	fatty aldehyde decarbonylase
+mdh6	NIL			NADP malate dehydrogenase
+MLS	AT5G03860	1032102	1034569	malate synthase
+4'OMT	NIL			6-O-methylnorlaudanosoline 4'-O-methyltransferase
+AT3G59890	AT3G59890	22135175	22137607	dihydrodipicolinate reductase
+Glyma.13G255800	Glyma.13G255800			Glyma.13G255800
+FAE1	NIL			3-ketoacyl-CoA synthase
+FLS1				flavonol synthase
+HPPR	NIL			hydroxyphenylpyruvate reductase
+CPS	AT4G02780	1237767	1244813	<i>ent</i>-copalyl diphosphate synthase
+AT4G15130	AT4G15130	8637663	8639580	choline-phosphate cytidylyltransferase
+DWF7	AT3G02580	546910	548800	&Delta;<sup>7</sup>-sterol-C5-desaturase
+AT1G08510	AT1G08510	2691083	2694380	acyl-ACP thioesterase
+<i>PPDBR</i>	NIL			phenylpropenal double-bond reductase
+GolS-1	NIL			galactinol synthase / fagopyritol synthase
+Zm00001d032961	Zm00001d032961	244858795	244867417	ent-copalyl diphosphate synthase
+ACS2	AT1G01480	175782	178400	1-aminocyclopropane-1-carboxylate synthase
+Glyma.19G187100	Glyma.19G187100			Glyma.19G187100
+AT4G21470	AT4G21470	11431116	11433333	riboflavin kinase/FMN hydrolase
+AT2G21170	AT2G21170	9077835	9080314	triose-phosphate isomerase
+Lj3g0015818	Lj3g0015818			Lj3g0015818.1
+BMCT	NIL			methyl halide transferase
+psbZ		64763	64951	Photosystem II reaction center protein Z
+ZCO	NIL			zeaxanthin cleavage dioxygenase
+oxo1	NIL			oxalate oxidase monomer
+APS3	AT4G14680	8413283	8415386	APS3
+AA7BG-GT1	NIL			anthocyanin 7-<i>O</i>-(6-<i>O</i>-(p-hydroxybenzoyl)-glucoside) glucosyltransferase (acyl-glucose dependent)
+CYP75B4	Os10g0317900			flavonoid 3'-hydroxylase/flavone 5'-hydroxylase
+AT2G19570	AT2G19570	8477456	8478726	cytidine deaminase
+AT1G57750	AT1G57750			midchain alkane hydroxylase
+CYP707A3	AT5G45340	18385869	18388218	abscisic acid 9'-hydroxylase / abscisic acid 8'-hydroxylase
+GA20ox	NIL			gibberellin 20-oxidase
+hbgg	NIL			geranylgeranyl pyrophosphate synthase [multifunctional]
+CYP93B2	NIL			flavone synthase II
+PdUGT85A19				PdUGT85A19
+JQ004402.1	NIL			Cynnamyl-alcohol dehydrogenase
+UGT76G1	NIL			UDP glucosyltransferase 76G1
+Glyma.19G187000	Glyma.19G187000			Glyma.19G187000
+AT2G29690	AT2G29690	12700948	12704052	anthranilate synthase
+SAD3	NIL			avenacin A glucosyltransferase
+potato starch synthase I	NIL			starch synthase I
+IPP2	AT3G02780	602440	604691	isopentenyl-diphosphate delta-isomerase
+IMT-2	NIL			cytochrome P450 fatty acid hydroxylase
+RsM2	NIL			triterpene synthase
+CYP79A2	AT5G05260	1559779	1561766	L-phenylalanine <i>N</i>-monooxygenase
+COMT1	NIL			caffeate 3-<i>O</i>-methyltransferase
+Soltu.DM.06G013670	Soltu.DM.06G013670			Soltu.DM.06G013670.1 // Soltu.DM.06G013670.2
+Lj3g0009649	Lj3g0009649			Lj3g0009649.1
+AT1G07810	AT1G07810	2416262	2420754	calcium-transporting ATPase
+SPDS2	AT1G70310	26488969	26491098	spermidine synthase
+ABS				<i>cis</i>-abienol synthase
+PAP2	NIL			purple acid phosphatase
+GA2ox2	NIL			gibberellin 2-oxidase
+NUOB10		1814385	1816305	190916
+LOC_Os04g10060	LOC_Os04g10060	5408827	5413733	syn-pimara-7,15-diene synthase
+Pavir.1KG339400	Pavir.1KG339400			Pavir.1KG339400.1.p
+Glyma.19G029500	Glyma.19G029500			Glyma.19G029500
+GA2ox1	NIL			gibberellin 2-oxidase
+AT5G64300	AT5G64300	25735630	25738388	GTP cyclohydrolase II/3,4 dihydroxy-2-butanone-4-phosphate synthase
+TyrDC	NIL			tyrosine decarboxylase
+POP2	NIL			&gamma;-aminobutyrate transaminase
+H6H	NIL			hyoscyamine 6beta-hydroxylase
+AIG	NIL			acridone synthase
+Bx6				2-oxoglutarate-dependent dioxygenase
+XM_003570926	NIL			Cynnamyl-alcohol dehydrogenase
+CYP90A1	AT5G05690	1702689	1706788	6-deoxocathasterone hydroxylase / cathasterone 23alpha-hydroxylase
+adh	NIL			alcohol dehydrogenase
+ALLASA1	NIL			methliin lyase / alliin lyase
+AT1G06800	AT1G06800	2089416	2091685	triacylglycerol lipase
+AT3G20330	AT3G20330	7090112	7092676	aspartate carbamoyltransferase
+LOX4	AT1G72520	27312179	27316416	lipoxygenase
+PLR_Tp1	NIL			PLR subunit
+HCT1a	NIL			shikimate O-hydroxycinnamoyltransferase
+LPE1				leaf permease
+aga1	NIL			alkaline alpha-galactosidase
+AKT1	AT2G26650			potassium channel
+Glyma.16G176000	Glyma.16G176000			Glyma.16G176000
+PSS	NIL			squalene synthase
+CPN60B2		81176	88263	136288
+OsNAS3	NIL			nicotianamine synthase
+RLL2	NIL			lipoxygenase
+CesA3	AT5G05170	1530175	1535415	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+AtGHBDH	NIL			&gamma;-hydroxybutyrate dehydrogenase
+Soltu.DM.07G021190	Soltu.DM.07G021190			Soltu.DM.07G021190.1
+TSC10B	AT5G19200	6458955	6460858	3-ketodihydrosphinganine reductase
+BEAT	NIL			acetyl-coenzyme A:acetyl alcohol acetyltransferase
+PM2	NIL			(-)-limonene-3-hydroxylase
+GA3ox1				gibberellin 2&beta;,3&beta;-hydroxylase
+MROMT				matairesinol 4'-<i>O</i>-methyltransferase
+SUS6	AT1G73370	27588140	27591987	sucrose synthase
+PAA2				Cu transporting P-type ATPase
+AT4G37150	AT4G37150	17492872	17494103	methylesterase
+Cre12.g485050	Cre12.g485050			Cre12.g485050.t1.1
+PPC3	AT3G14940	5025245	5029716	phosphoenolpyruvate carboxylase
+AT1G14810	AT1G14810	5102419	5104690	aspartate-semialdehyde dehydrogenase
+AT1G09240	AT1G09240	2984883	2986132	nicotianamine synthase
+POMT-9	NIL			esculetin-O-methyltransferase (multi-functional)
+Pavirv00050859m	NIL			Caffeic acid 3-O-methyltransferase
+TDC1				taxadiene synthase
+AT2G36390	AT2G36390	15271316	15277171	1,4-alpha-glucan branching enzyme
+PSY	AT5G17230	5659576	5662867	phytoene synthase
+AT3G14390	AT3G14390	4806732	4809440	diaminopimelate decarboxylase
+AT4G29220	AT4G29220	14403353	14406598	6-phosphofructokinase
+Soltu.DM.07G021370	Soltu.DM.07G021370			Soltu.DM.07G021370.1
+LcLAR1	NIL			leucoanthocyanidin reductase
+ACO4	NIL			aminocyclopropane-1-carboxylate oxidase
+CYP80A1	NIL			berbamunine synthase
+Zm00001d027367	Zm00001d027367	3807343	3810146	pyrimidine deaminase
+AT3G48560	AT3G48560	18012297	18014566	pyruvate decarboxylase
+ABA2	AT1G52340	19493463	19495317	xanthoxin dehydrogenase//alcohol dehydrogenase
+Lj1g0022116	Lj1g0022116			Lj1g0022116.1
+CJFS	NIL			(E)-beta-farnesene synthase
+PM17	NIL			(-)-limonene-3-hydroxylase
+SK2	AT4G39540	18378227	18380411	shikimate kinase
+ISPD	NIL			ISPD
+GolS2	AT1G56600	21211202	21213261	galactinol synthase
+AT3BETAHSD/D1	AT1G47290	17338293	17341713	sterol-4-alpha-carboxylate 3-dehydrogenase (decarboxylating)//3-beta-hydroxy-delta5-steroid dehydrogenase
+UBC2				ubiquitin-conjugating enzyme E2
+SPS1	AT1G78510	29540178	29542310	geranylgeranyl-diphosphate all-trans-nonaprenyl diphosphate synthase
+FAD6				plastidial acyl-lipid &omega;-6 desaturase
+NUOA8		652147	653510	59411
+Lj4g0011175	Lj4g0011175			Lj4g0011175.1
+UGT71G1	NIL			triterpene sapogenin UDP-glucosyltransferase
+KAO1	NIL			ent-kaurenoate oxidase
+ABA2	NIL			zeaxanthin epoxidase
+SDP6	AT3G10370	3216373	3219275	glycerol-3-phosphate dehydrogenase
+AT3G03100	AT3G03100	705406	707658	NADH-ubiquinone oxidoreductase B 17.2 kDa subunit
+UGT76E11	AT3G46670	17203574	17205382	UDP-glycosyltransferase
+SARD4	AT5G52810			1-piperideine-2-carboxylate reductase
+GDH1	NIL			glutamate dehydrogenase
+AT5G50210	AT5G50210	20459873	20463217	quinolinate synthetase A
+PSBO		811622	814128	Oxygen-evolving enhancer protein 1
+Glyma.07G183400	Glyma.07G183400			Glyma.07G183400
+ATPvL1		2089742	2091378	134189
+na1				(24R)-24-methylcholest-4-en-3-one 5alpha-reductase
+HMA1				Cu-ATPase
+3GT	NIL			UDP-glucose:cyanidin 3-<i>O</i>-&beta;-<i>D</i>-glucosyltransferase
+AY422466	NIL			dihydroneopterin aldolase
+Glyma.09G222800	Glyma.09G222800			Glyma.09G222800
+CYP88D6	NIL			11alpha-hydroxy-beta-amyrin dehydrogenase [multifunctional]
+ARG1	NIL			arginase
+IFS-Tp	NIL			isoflavone synthase
+HXK1	AT4G29130	14352043	14355109	hexokinase//glucokinase//fructokinase
+psaJ		170456	170581	ChreCp061
+pdk1 cytosol	Zm00001d038163	150024486	150035717	pyruvate, phosphate dikinase
+SIR	AT5G04590	1319357	1322525	SIR
+MASL2	NIL			oryzalexin A synthase
+FPS	NIL			farnesyl diphosphate synthase
+PGAM-i				cytoplasmic phosphoglycerate mutase
+ACO3	AT2G05710			aconitase
+PPXII	NIL			protoporphyrinogen IX oxidase isozyme II
+STA7				isoamylase catalytic subunit
+AT3G57610	AT3G57610	21345261	21347650	AdSS subunit
+COX13		302170	304190	147109
+Lj4g0022296	Lj4g0022296			Lj4g0022296.1
+CTOMT1				catechol <i>O</i>-methyltransferase
+AT5G39050	AT5G39050	15651815	15653293	transferase
+SDH3-2	AT4G32210	15556520	15562076	complex II subunit 3
+Lj3g0025912	Lj3g0025912			Lj3g0025912.1
+AT1G24100	AT1G24100	8525424	8527076	UGT74B1
+iaglu	NIL			IAA-glucose synthase
+bio2	AT2G43360	18017828	18020315	biotin synthase
+AT5G16970	AT5G16970	5576171	5578078	2-alkenal reductase
+AT4G04930	AT4G04930	2509131	2511143	sphingolipid delta-4 desaturase
+AT3G09260	AT3G09260	2840483	2843787	scopolin &beta;-glucosidase
+GA3ox3	NIL			gibberellin 3-oxidase
+AT3G51240	AT3G51240	19036243	19037918	naringenin 3-dioxygenase
+UGT5	NIL			3-deoxyanthocyanidin 5-<i>O</i>-glucosyltransferase
+PLD delta	AT4G35790	16955538	16960174	PLD delta
+POP2	AT3G22200	7835155	7839068	4-aminobutyrate transaminase//adenosylmethionine-8-amino-7-oxononanoate transaminase
+PSBQ		310276	312400	Oxygen-evolving enhancer protein 3
+COXVb	AT1G80230.1	30174348	30175993	complex IV subunit 5b
+DET2	AT2G38050	15928214	15929391	sterol 5-alpha reductase
+HPPK/DHPS2	AT1G69190	26016675	26018497	hydroxymethyldihydropterin pyrophosphokinase/ dihydropteroate synthase
+YUC1	AT4G32540	15700910	15702876	Yucca
+LeFPS1	NIL			farnesyl diphosphate synthase
+AtAAH	AT4G20070	10861465	10864706	allantoate amidohydrolase monomer
+FRD1	AT1G01580	209395	213041	ferric-chelate reductase
+AT5G11920	AT5G11920	3839392	3842372	levanase//inulinase//hydrolase, hydrolyzing O-glycosyl compounds
+pNAD-MDH	AT3G47520	17524259	17526026	malate dehydrogenase
+alt7		1306578	1314769	alanine transaminase
+AtNSP5	AT5G48180			nitrile-specifier protein
+THBO				(S)-cheilanthifoline oxidase [multifunctional]
+ScOMT1	NIL			daphnetin 8-O-methyltransferase
+FOMT2	NIL			flavonoid 7-<i>O</i>-methyltransferase
+AT2G42070	AT2G42070	17556169	17558253	FAD diphosphatase
+GSA1	AT5G63570	25469101	25471067	glutamate-1-semialdehyde 2,1-aminomutase
+AT3G61580	AT3G61580	22797022	22798947	sphingolipid delta-4 desaturase
+Zm00001d011890	Zm00001d011890	164045195	164048986	Zm00001d011890_T001.1
+EPT1		164286	167664	79396
+Seita.6G068300	Seita.6G068300			Seita.6G068300.1.p
+PPT1	AT4G23660	12327704	12331689	4-hydroxybenzoate nonaprenyltransferase
+pgps2	AT3G55030	20407737	20409630	CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase//CDP-alcohol phosphatidyltransferase
+ASN2	AT5G65010	25986415	25989801	asparagine synthase (glutamine-hydrolyzing)
+AT4G37410	AT4G37410			CYP81F4 monooxygenase
+THA2	AT3G04520	1217245	1219765	threonine aldolase
+FGT	NIL			flavonol 3-O-glucosyltransferase
+FRS	NIL			friedelin synthase
+ASP2	AT5G19550	6598019	6601821	aspartate transaminase
+LaLins	NIL			linalool synthase
+Glyma.15G058800	Glyma.15G058800			Glyma.15G058800
+COXVc	AT2G47380	19448025	19449123	complex IV subunit 5c
+pp				purine permease
+NADP-ME1	AT2G19900	8598981	8602560	NADP-malic enzyme
+TPS03	AT4G16740	9407790	9410899	(E)-beta-ocimene synthase / (E,E)-alpha-farnesene synthase
+OMT2				noraucuparin <i>O</i>-methyltransferase
+GFAT	AT3G24090	8697845	8701015	glucosamine:fructose-6-phosphate aminotransferase
+OsYSL2	NIL			Fe-nicotianamine transporter
+HNL				hydroxynitrile lyase
+Cre07.g330250	Cre07.g330250	1688077	1689712	182959
+AT2G44040	AT2G44040	18228845	18231180	dihydrodipicolinate reductase
+AT5G05730	AT5G05730	1719574	1722904	anthranilate synthase
+TPS23	NIL			(E)-beta-caryophyllene synthase
+SFD1	AT2G40690	16981070	16983536	glycerol-3-phosphate dehydrogenase (NAD+)
+FAH12	NIL			oleate 12-hydroxylase
+AT2G21730	AT2G21730	9287124	9288703	oxidoreductase
+FPS1	AT5G47770	19362399	19364855	geranyltranstransferase / dimethylallyltranstransferase
+Val	NIL			(+)-valencene synthase
+Lj1g0026479	Lj1g0026479			Lj1g0026479.1
+GLN1;4	AT5G16570	5421746	5424569	glutamate-ammonia ligase
+FUM2	AT5G50950	20746838	20751152	fumarase
+AT3G11630	AT3G11630			peroxiredoxin
+hmt	NIL			S-adenosylmethionine: halide ion methyltransferase
+KcCAS	NIL			cycloartenol synthase
+BnSDC	NIL			serine decarboxylase
+TRE1	AT4G24040	12488193	12491207	trehalase
+LTC2	NIL			germacrene A synthase
+SMT2-1	NIL			sterol 24C methyltransferase / sterol 24-C methyltransferase
+Glyma.02G104700	Glyma.02G104700			Glyma.02G104700
+pep1	GRMZM2G083841_P01	61296279	61301686	phosphoenolpyruvate carboxylase
+AK-HSDH1	AT1G31230	11158599	11163255	aspartate kinase / homoserine dehydrogenase
+Asc-1	NIL			sphinganine N-acyltransferase
+SS	NIL			squalene synthase
+AT5G48930	AT5G48930	19853525	19855388	hydroxycinnamoyl-CoA:shikimate/quinate hydroxycinnamoyltransferase
+5PTase14	AT2G31830	13539853	13544818	phosphatidylinositol/ inositol polyphosphate 5-phosphatase
+VHP1	NIL			vacuolar H+-PPase
+Cre02.g076350	Cre02.g076350	475162	479413	Cre02.g076350.t1.2
+3&beta;HSD-2	101256443			3&beta;-hydroxysteroid/C4-decarboxylase 2
+AT5G37510	AT5G37510	14914640	14917887	NADH-ubiquinone oxidoreductase 75 kDa subunit
+Glyma.11G112000	Glyma.11G112000			Glyma.11G112000
+CPPase	NIL			chrysanthemyl diphosphate synthase
+Soltu.DM.10G015470	Soltu.DM.10G015470			Soltu.DM.10G015470.1 // Soltu.DM.10G015470.2
+GDG1	AT5G13320			benzoyl-amino acid synthetase
+ctmromt				matairesinol 4'-<i>O</i>-methyltransferase
+AT3G56960.1	AT3G56960.1	21091936	21094864	1-phosphatidylinositol-4-phosphate 5-kinase
+GSL	NIL			1,3-beta-glucan synthase
+AT3G44720	AT3G44720	16282639	16284331	arogenate dehydratase////prephenate dehydratase
+AT5G58220	AT5G58220			S-allantoin synthase
+CYP94B3	AT3G48520			jasmonoyl-isoleucine-12-hydroxylase
+APX1	AT1G07890	2437327	2439662	L-ascorbate peroxidase
+psbK		11842	11982	Photosystem II reaction center protein K
+ESP	NIL			epithiospecifier protein
+Cre13.g586250	Cre13.g586250			Cre13.g586250.t1.2
+THA1	AT1G08630	2743764	2747970	threonine aldolase//aldehyde-lyase
+SerR	NIL			serine racemase
+COX2	ATMG00160	40502	42628	complex IV subunit 2
+CYP Ge-8	NIL			isoflavone synthase
+IPT1	AT1G68460	25672273	25673845	adenylate dimethylallyltransferase
+Soltu.DM.09G025360	Soltu.DM.09G025360			Soltu.DM.09G025360.1 // Soltu.DM.09G025360.2
+Zm00001d017352	Zm00001d017352	193500301	193505634	Zm00001d017352_T005.1
+ATCG00500.1	ATCG00500.1			acetyl-CoA carboxyltransferase beta
+Cre06.g304350	Cre06.g304350	977213	979170	195712
+NUOB16		302571	305073	194458
+IFS1	NIL			isoflavone synthase
+BANMT1	NIL			<i>N</i>-methyltransferase subunit
+GPAT6	AT2G38110	15959685	15962572	glycerol-3-phosphate O-acyltransferase
+SSR2				sterol side chain reductase 2
+Hxk2	NIL			hexokinase
+CYP735A1	AT5G38450	15410984	15414509	cytokinin trans-hydroxylase
+LeFCL	NIL			5-formyltetrahydrofolate cycloligase
+CPI				cyclopropyl sterol isomerase
+ADK1	AT3G09820	3011995	3014949	adenosine kinase
+PsbR	AT1G79040	29740909	29741902	PSII-R subunit
+ACS3				1-aminocyclopropane-1-carboxylate synthase
+AT4G31970	AT4G31970			indole-3-carbonyl nitrile 4-hydroxylase / CYP82C2
+HPAT1	AT5G25265			hydroxyproline O-arabinosyltransferase
+AT3G15820	AT3G15820			phosphatidylcholine:diacylglycerol cholinephosphotransferase
+NOS	NIL			nitric oxide synthase
+ASAT3-F				sucrose acyltransferase
+AT2G14750	AT2G14750	6321114	6322848	APS kinase
+ASA8	Cre09.g402300.t1.2	619835	621241	191828
+PsbX	AT2G06520	2587726	2588355	PSII-X subunit
+psbB		80277	81803	Photosystem II CP47 chlorophyll apoprotein
+cs	NIL			casbene synthase
+TGG4	AT1G47600	17494172	17497199	myrosinase
+GA20ox	NIL			gibberellin 20-oxidase
+RHM3	AT3G14790			UDP-L-rhamnose synthase
+AT1G61820	AT1G61820	22838743	22842280	beta-glucosidase 46
+ACS5	AT5G65800	26347972	26350038	1-aminocyclopropane-1-carboxylate synthase
+CYP86B1	AT5G23190			very long chain fatty acid omega-hydroxylase
+NTRB	AT4G35460	16842193	16844087	thioredoxin-disulfide reductase
+AGT1	AT2G13360	5546322	5548438	serine:pyruvate transaminase [multifunctional]
+CYP719A14				(S)- cheilanthifoline synthase
+AT3G29430	AT3G29430	11312593	11314029	farnesyltranstransferase
+PSBW		147699	149215	Photosystem II reaction center W protein
+DUR3C	NIL	1106899	1110441	170417
+CHS4				chalcone synthase
+CYP93E1	NIL			&beta;-amyrin 24-hydroxylase
+GDH	Cre06.g288700			glycolate dehydrogenase
+LUP1	AT1G78970	29707955	29712737	lupeol synthase / beta-amyrin synthase
+sbDES2				palmitoleic acid delta 12 desaturase
+AT1G48605	AT1G48605	17973063	17973760	phosphopantothenoylcysteine decarboxylase
+XYN1	AT1G58370	21688249	21691986	hydrolase, hydrolyzing O-glycosyl compounds
+UGGPase	NIL			UDP-galactose/glucose pyrophosphorylase
+gwH.9.7.1		1902595	1910308	38137
+IMT-6	NIL			laurate hydroxylase
+Soltu.DM.07G023650	Soltu.DM.07G023650			Soltu.DM.07G023650.1
+ATCoaB	AT1G12350	4198411	4200800	phosphopantothenoylcysteine synthetase
+SSTLH2	NIL			germacrene D synthase
+AT1G50480	AT1G50480	18705619	18708606	formate-tetrahydrofolate ligase
+HCT1b	NIL			shikimate O-hydroxycinnamoyl transferase
+ChiC	AT4G19810	10763944	10765763	class V chitinase
+Glyma.10G062300	Glyma.10G062300			Glyma.10G062300
+Lj6g0027902	Lj6g0027902			Lj6g0027902.1
+QHS1	NIL			beta-caryophyllene synthase
+AT3G06860	AT3G06860	2161875	2166355	enoyl-CoA hydratase
+ASA7	g10300.t1	1150115	1152518	192157
+Zm00001d029074	Zm00001d029074	57250815	57254236	uroporphryinogen decarboxylase
+AT4G34740	AT4G34740	16574582	16576676	amidophosphoribosyltransferase
+AT1G07180	AT1G07180	2204319	2206933	NADH dehydrogenase
+FLS	AT5G08640	2803959	2805448	flavonol synthase
+AtbioF	AT5G04620	1327116	1330028	8-amino-7-oxononanoate synthase
+AT4G20870	AT4G20870	11174461	11176892	sphingolipid fatty acid alpha-hydroxylase
+NUOA9		91377	94559	186185
+ACL5	AT5G19530	6588960	6591365	spermine synthase
+AT5G63770	AT5G63770	25535867	25540847	diacylglycerol kinase
+UGT84A13	NIL			gallate 1-&beta;-glucosyltransferase
+GA20ox3	AT5G07200	2243554	2245340	gibberellin 20-oxidase
+Cre17.g722800	Cre17.g722800	377239	382103	Cre17.g722800.t1.2
+GPAT4	AT1G01610	221691	224340	glycerol-3-phosphate O-acyltransferase
+SGT1	NIL			solasodine 3-O-galactosyltransferase [multifunctional]
+ACT	NIL			agmatine coumaroyltransferase
+AT5G04900	AT5G04900	1434775	1437331	chlorophyll b reductase
+ATCG00120	ATCG00120			ATP synthase subunit alpha
+Seita.9G351400	Seita.9G351400			Seita.9G351400.1.p
+AT1G17745	AT1G17745	6100957	6105258	phosphoglycerate dehydrogenase
+PatTpsB15	NIL			germacrene D synthase
+DapA	NIL			dihydrodipicolinate synthase
+csy1	NIL			capsaicin synthase
+AtCoaD	AT2G18250	7946989	7948760	4'-phosphopantetheine adenylyltransferase
+FSD1	AT4G25100	12884310	12886831	iron superoxide dismutase
+ASP5	AT4G31990	15470767	15473862	aspartate transaminase
+sr	NIL			serine racemase
+NUDX2	AT5G47650	19327418	19329664	ADP-ribose diphosphatase
+BIS1				3,5-dihydroxybiphenyl synthase monomer
+NIT2	AT3G44300	15994298	15996522	Nit2
+SQD2	AT5G01220	86584	89985	UDP-sulfoquinovose:DAG sulfoquinovosyltransferase
+lox1:St:2	NIL			13/9 lipoxygenase
+IP5P1	AT1G34120	12426756	12429688	type I inositol-1,4,5-trisphosphate 5-phosphatase 1
+UGT79B1	NIL			cyanidin 3-<i>O</i>-glucoside 2-<i>O"</i>-xylosyltransferase
+AT4G37990	AT4G37990	17855886	17857633	aryl-alcohol dehydrogenase (NADP+)
+6-FEH1	NIL			fructan 6 dehydrolase
+LPP&epsilon;1	AT3G50920			plastidic phosphatidic acid phosphatase
+ASA2	Cre09.g415550.t1.2	1093421	1097219	192142
+Lj3g0015512	Lj3g0015512			Lj3g0015512.1
+AT3G26060	AT3G26060	9525970	9527611	peroxiredoxin
+PSD_Fi1	NIL			dirigent protein subunit
+ATPG	Cre11.g481450.t1.2	942510	943765	Cre11.g481450.t1.1
+MERI5	AT4G30270	14819198	14820598	hydrolase, acting on glycosyl bonds//xyloglucan:xyloglucosyl transferase
+AT4G39640	AT4G39640	18399949	18402955	glutathione gamma-glutamylcysteinyltransferase
+At4g14090	NIL			anthocyanin 5-<i>O</i>-glucosyltransferase
+choline monooxygenase	NIL			choline monooxygenase
+iar3	AT1G51760	19203088	19205311	indole-3-acetyl-ala hydrolase
+CYP736A163				3-hydroxy-5-methoxybiphenyl 4-hydroxylase
+TPS1	NIL			
+CesA4	AT5G44030	17731872	17736950	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+UGT94D1	NIL			lignan 1,6-glucosyltransferase
+AT5G10870	AT5G10870	3430547	3432463	chorismate mutase
+AT5G44070	AT5G44070	17751965	17755086	glutathione gamma-glutamylcysteinyltransferase
+Glyma.02G105200	Glyma.02G105200			Glyma.02G105200
+ATCG00140	ATCG00140			ATP synthase subunit c
+SGT3	NIL			soyasaponin III rhamnosyltransferase
+psbE		94592	94840	cytochrome b-559 &alpha;-subunit
+AT1G80380	AT1G80380	30222111	30224896	glycerate kinase
+CYP719A2	NIL			stylopine synthase
+AtNSP3	AT3G16390			nitrile-specifier protein
+petA		2898	3851	ChreCp001
+Glyma.07G215500	Glyma.07G215500			Glyma.07G215500
+Glyma.11G134300	Glyma.11G134300			Glyma.11G134300
+AT1G69940	AT1G69940	26347032	26348720	pectinesterase
+AT2G02050	AT2G02050	489965	491993	NADH-ubiquinone oxidoreductase B 18 kDa subunit
+IGMT1	AT1G21100	7386828	7388417	indole glucosinolate methyltransferase
+AT1G79900	AT1G79900			ornithine/ornithine exchanger / arginine/citrulline exchanger
+AT4G35630	AT4G35630	16904064	16905727	phosphoserine aminotransferase
+AT4G23600	AT4G23600	12310629	12313222	cystathionine beta-lyase
+AT1G65520	AT1G65520	24364695	24365656	delta3, delta2-enoyl-CoA isomerase
+MTS1	NIL			(<i>R</i>)-linalool synthase
+AT5G64570	AT5G64570	25827341	25830561	hydrolase, hydrolyzing O-glycosyl compounds
+HSS	NIL			homospermidine synthase
+SK1	AT2G21940	9357632	9360311	shikimate kinase
+Atbcat-1	AT1G10060	3284241	3287109	branched-chain amino acid aminotransferase
+Ss5MaT2	NIL			anthocyanin 5-O-glucoside-4'''-O-malonyltransferase
+AT3G02020	AT3G02020	340563	343842	aspartate kinase
+Glyma.07G254900	Glyma.07G254900			Glyma.07G254900
+Glyma.19G187500	Glyma.19G187500			Glyma.19G187500
+LCYe	NIL			lycopene epsilon-cyclase
+CYP704B1	AT1G69500			stearate omega-hydroxylase [multifunctional]
+LOX6	AT1G67560	25323562	25327927	lipoxygenase
+AT3G16910	AT3G16910	5773061	5775507	acetate-CoA ligase
+Soltu.DM.05G001210	Soltu.DM.05G001210			Soltu.DM.05G001210.1
+PatTps177	NIL			patchoulol synthase
+AOR	AT1G23740			alkenal/one oxidoreductase
+ASA9	NIL	1210467	1212514	191034
+SDH1-2	AT2G18450	8004474	8007886	succinate dehydrogenase
+NADP-ME4	AT1G79750	30012219	30016282	NADP-malic enzyme
+UGT73C1	AT2G36750	15417541	15419117	cis-zeatin O-beta-D-glucosyltransferase [multifunctional]
+UGT708C1				2-hydroxyflavanone dibenzoylmethane tautomer glucosyltransferase
+Cre14.g626950	Cre14.g626950			Cre14.g626950.t1.2
+PEPCK	NIL			phosphoenolpyruvate carboxykinase
+FOMT3	NIL			flavonoid 4'-<i>O</i>-methyltransferase
+HYDG				Fe-hydrogenase assembly protein
+pco				propanoyl-CoA oxidase monomer
+MIOX1	AT1G14520	4968137	4970306	oxidoreductase
+AT1G64660	AT1G64660	24032581	24034443	methionine gamma-lyase
+EPSP	AT2G45300	18684385	18687146	3-phosphoshikimate 1-carboxyvinyltransferase
+OsHPL2	NIL			9/13-hydroperoxide lyase
+psbC		187025	188410	CP43
+Glyma.19G187200	Glyma.19G187200			Glyma.19G187200
+OsIRT1	NIL			iron regulated transporter
+SDH3-1	AT5G09600	2979145	2980845	complex II subunit 3-1
+AT4G39650	AT4G39650	18403554	18406019	glutathione gamma-glutamylcysteinyltransferase
+pgps1	AT2G39290	16414317	16416201	PGPS1
+UGT74G1	NIL			UDP glucosyltransferase 74G1
+AtCoaE	AT2G27490	11755093	11757260	dephospho-CoA kinase
+CCL4				isobutanoate/2-methylbutanoate--CoA ligase
+NIA2	AT1G37130	14160968	14164379	nitrate reductase 2 subunit
+FH	NIL			furcatin hydrolase
+ACS8	AT4G37770	17752078	17754151	1-aminocyclopropane-1-carboxylate synthase
+AOP3	AT4G03050			glucosinolate 2-oxoglutarate-dependent dioxygenase
+Fab D	NIL			[acyl-carrier protein] S-malonyltransferase
+StDES	NIL			9-divinyl ether synthase
+ASA4	Cre13.g581600.t1.2	2715779	2719733	182740
+BAM2	AT4G00490	222320	225131	beta-amylase
+Glyma.02G184200	Glyma.02G184200			Glyma.02G184200
+Lj1g0018041	Lj1g0018041			Lj1g0018041.1
+LOG				N6-(Delta2-isopentenyl)-adenosine 5'-monophosphate phosphoribohydrolase [multifunctional]
+AT4G20960	AT4G20960	11211957	11213655	diaminohydroxyphosphoribosylaminopyrimidine deaminase
+PCT2	NIL			cholinephosphate cytidylyltransferase
+UGT71A9	NIL			lignan glucosyltransferase
+CYP716A12	NIL			&beta;-amyrin 28-oxidase
+Pavir.3KG444700	Pavir.3KG444700			Pavir.3KG444700.4.p
+ppo	NIL			polyphenol oxidase
+D85186	NIL			anthocyanidin 3-O-glucosyltransferase
+Soltu.DM.07G021410	Soltu.DM.07G021410			Soltu.DM.07G021410.1
+str	NIL			strictosidine synthase
+&delta;OAT	NIL			ornithine &delta;-aminotransferase
+OsKS5				ent-pimara-8(14),15-diene synthase
+AT1G19640	AT1G19640	6788876	6791837	S-adenosyl L-methionine:jasmonic acid carboxyl methyltransferase
+NUOS4b		967874	970151	145512
+AT1G13560	AT1G13560	4638511	4642101	aminoalcoholphosphotransferase
+3MaT2	NIL			anthocyanidin 3-<i>O</i>-glucoside-3",6"-<i>O</i>-dimalonyltransferase
+CUS				curcuminoid synthase
+AT5G62530	AT5G62530	25116229	25120524	1-pyrroline-5-carboxylate dehydrogenase
+AT1G72970	AT1G72970	27456427	27459625	aldehyde-lyase//mandelonitrile lyase
+AS1	NIL			beta-amyrin synthase
+IspS	NIL			isoprene synthase
+AT3G47930	AT3G47930			L-gulono-1,4-lactone dehydrogenase / L-galactono-1,4-lactone dehydrogenase
+AT5G57110	AT5G57110	23126665	23134789	calcium-transporting ATPase
+Zm00001d016475	Zm00001d016475	163826847	163837823	pyrimidine reductase
+AtATP-PRT2	AT1G09795	3173536	3176912	ATP-phosphoribosyl  transferase
+CiGASlo	NIL			germacrene A synthase
+TG1				flavonoid 3',5'-hydroxylase / flavonoid 3'-hydroxylase
+Glyma.02G104900	Glyma.02G104900			Glyma.02G104900
+POMT	NIL			phloroglucinol <i>O</i>-methyltransferase
+BAM5	AT4G15210	8666338	8669470	beta-amylase
+ChlADR	AT3G04000	1035507	1036679	aldehyde reductase (chloroplastic)
+rbcL		122490	123917	ChreCp049
+PEAMT	NIL			phosphoethanolamine N-methyltransferase
+AT1G03630	AT1G03630	907641	909375	protochlorophyllide reductase//NADPH dehydrogenase
+LC	NIL			limonene synthase
+UGT73B4	AT2G15490	6768717	6770582	UDP-glucosyltransferase
+tps23	NIL			(E)-beta-caryophyllene synthase
+NUOB13		1076824	1078084	127639
+CYP736A163				3-hydroxy-5-methoxybiphenyl 4-hydroxylase
+HYDA1				Fe hydrogenase
+SHT12	NIL			flavonoid 3'-hydroxylase
+Seita.7G013300	Seita.7G013300			Seita.7G013300.1.p
+PPD2	AT2G28605			PsbP domain-containing protein 2
+PMDH2	AT5G09660	2993445	2995676	malate dehydrogenase
+SGUS	NIL			baicalin-&beta;-D-glucuronidase monomer
+ids-2	NIL			mugineic-acid 3-dioxygenase
+AT5G23220	AT5G23220	7819819	7820679	nicotinamidase
+7-DR2				&Delta;5,7-sterol-&Delta;7 reductase 2
+CXE1	NIL			papaveroxine carboxylesterase
+ASAT1				sucrose 4-<i>O</i>-acyltransferase
+PCK1	AT4G37870	17802688	17806533	phosphoenolpyruvate carboxykinase
+GAME12				furostanol 26-aldehyde transaminase
+Glyma.09G082900	Glyma.09G082900			Glyma.09G082900
+UDPGlcADCX1	NIL			UDP-glucuronate decarboxylase
+CbEGS1	NIL			Cb-eugenol synthase
+f-&delta;sel1	NIL			&delta;-selinene synthase
+6G-FFT	NIL			6G-FFT
+LOC_Os04g10010	LOC_Os04g10010	5366867	5367098	Momilactone A synthase 1
+HMG1	AT1G76490	28700654	28703687	3-hydroxy-3-methylglutaryl coenzyme A reductase
+GAME2				&beta;1-tomatine xylosyltransferase
+fad8	AT5G05580			omega-3 fatty acid desaturase
+STS2	NIL			subunit STS2
+APR3	AT4G21990	11657020	11659117	APR3
+AF139532	NIL			Coniferyl aldehyde 5-hydroxylase
+TR-I	NIL			tropinone reductase
+AT3G18000	AT3G18000	6154369	6157558	phosphoethanolamine N-methyltransferase
+ASAT1				sucrose 4-<i>O</i>-acyltransferase
+CASHT	NIL			serotonin N-hydroxycinnamoyltransferase
+g-pin2	NIL			limonene/&alpha;-pinene synthase
+psbT		79730	79825	Photosystem II reaction center protein T
+OsHAK10	NIL			potassium transporter
+5GT7	NIL			anthocyanidin 5-<i>O</i>-glucosyltransferase
+CYP81Q2	NIL			(+)-piperitol/(+)-sesamin synthase
+AT4G27440	AT4G27440	13725552	13727359	protochlorophyllide reductase
+COX1	ATMG01360	349830	351413	complex IV subunit 1
+Cre02.g085450	Cre02.g085450			coproporphyrinogen oxidase
+FDH1	AT5G14780	4776946	4779497	formate dehydrogenase
+HCBT1	NIL			anthranilate N-benzoyltransferase
+J1H				jasmonoyl-amino acid conjugate hydrolase 1
+Lj1g0015168	Lj1g0015168			Lj1g0015168.1
+Pavir.9NG385700	Pavir.9NG385700			Pavir.9NG385700.1.p
+CYP82D33	NIL			genkwanin 6-hydroxylase
+rbcS3B	AT5G38410	15394403	15395646	RUBISCO small subunit
+Lj6g0009500	Lj6g0009500			Lj6g0009500.1
+CLS	NIL			copal-8-ol diphosphate synthase
+CNL				cinnamate:CoA ligase
+OSCBPW	NIL			lupeol synthase
+OsFRO1	NIL			ferric chelate reductase
+MTK1	NIL			MTR kinase
+ACS12	AT5G51690	21014639	21018272	aspartate transaminase
+alt8	Zm00001d007937	243428038	243433183	alanine transaminase
+SDR1	AT3G61220	22673935	22675468	aldehyde reductase (cytosolic)
+SPDS3	AT5G53120	21551776	21555042	spermine synthase
+SQE2	AT2G22830	9730768	9733350	squalene epoxidase
+AA7GT	NIL			anthocyanidin 3-<i>O</i>-glucoside 7-<i>O</i>-glucosyltransferase (acyl-glucose dependent)
+Lj1g0003544	Lj1g0003544			Lj1g0003544.1
+CYP80F1	NIL			littorine mutase
+Bx4				3-hydroxyindolin-2-one monooxygenase
+AT3G55630	AT3G55630	20647648	20650471	folylpolyglutamate synthase
+AT5G22630	AT5G22630	7524345	7526163	arogenate dehydratase////prephenate dehydratase
+AT2G38280	AT2G38280	16040526	16045954	AMP deaminase
+AT5G46290	AT5G46290	18791313	18793962	fatty-acid synthase
+Lj1g0015209	Lj1g0015209			Lj1g0015209.1
+LAC17	AT5G60020.1			laccase
+Glyma.19G187700	Glyma.19G187700			Glyma.19G187700
+Lj5g0021768	Lj5g0021768			Lj5g0021768.1
+SAD	NIL			sinapyl alcohol dehydrogenase
+CYP71Z16	ZEAMMB73_Zm00001d014136			dolabradiene monooxygenase
+FPS2	AT4G17190	9648538	9650923	geranyltranstransferase / dimethylallyltranstransferase
+AT5G57190	AT5G57190	23188757	23192590	phosphatidylserine decarboxylase
+GPPS-ssu	NIL			geranyl pyrophosphate synthase, small subunit
+NUOB8	Cre16.g679500	1327216	1329206	149240
+LePAR2	NIL			phenylacetaldehyde reductase
+AT3G51840	AT3G51840	19236337	19240140	acyl-CoA oxidase
+LHCBM5		571619	573918	Chlorophyll a-b binding protein of LHCII
+AT1G20020	AT1G20020	6942708	6945007	NADPH dehydrogenase
+FSD2	AT5G51100	20790522	20792927	iron superoxide dismutase
+Y08611	NIL			HPPK/DHPS subunit
+AKR4C8	AT2G37760	15838932	15840997	aldo-keto reductase family 4 member C8
+AAT3	NIL			aspartate transaminase
+AT4G11980	AT4G11980	7183644	7185569	ADP-sugar diphosphatase
+NIT1	AT3G44310	15997851	16000090	Nit1
+UGT71B8	AT3G21800	7680113	7681692	UDP-glycosyltransferase
+PKp2	AT5G52920	21480764	21484106	pyruvate kinase, beta subunit
+AT2G20610	AT2G20610	8885041	8887466	alkylthiohydroximate C-S lyase
+AT5G64120	AT5G64120	25676532	25678228	peroxidase
+NUOB12		625630	626199	54440
+Glyma.17G019500	Glyma.17G019500			Glyma.17G019500
+STGLS	NIL			ADP-glucose pyrophosphorylase small subunit
+Zm00001d003869	Zm00001d003869	64103998	64104966	Zm00001d003869_T001.1
+Pavir.7NG404900	Pavir.7NG404900			Pavir.7NG404900.2.p
+AT5G26310	AT5G26310	9234688	9236388	UDP-glycosyltransferase//coniferyl-alcohol glucosyltransferase
+PKS	NIL			&alpha; pyrone polyketide synthase
+AT4G15340	AT4G15340	8754480	8760589	arabidiol synthase
+AT2G45290	AT2G45290	18679756	18682980	transketolase 2
+SPS1				sucrose phosphate synthase
+psaD1				Photosystem I reaction center subunit II-1
+CYP76M6	NIL			cytochrome P450 dependent <i>ent</i>-sandaracopimardiene 9&beta;-hydroxylase
+GLT2	NIL			crocetin glucosyltransferase
+KSL				multiradiene synthase
+LHCBM7		1019246	1020943	Major light-harvesting complex II protein m7
+PANB1	AT2G46110	18961643	18963603	ketopantoate hydroxymethyltransferase
+Pavirv00006902m	NIL			sinapyl-alcohol dehydrogenase / Cynnamyl-alcohol dehydrogenase
+SGT2	NIL			UDP-glucose glucotransferase
+DHNAT2	AT5G48950			DHNA-CoA thioesterase
+HSA&alpha;				HSA&alpha; subunit
+Hf1	NIL			flavanone,NADPH:oxygen oxidoreductase / flavonoid 3',5'-hydroxylase
+cysteine sulfoxide lyase	NIL			methiin lyase / cysteine sulfoxide lyase
+HNL	NIL			(<i>S</i>)-hydroxynitrile lyase monomer
+MTD				mannitol dehydrogenase
+ATP3	NIL	357389	363381	194183
+AT3G08610	AT3G08610	2615432	2616809	NADH-ubiquinone oxidoreductase MWFE subunit
+GSTF9	AT2G30860	13146074	13147322	glutathione transferase//glutathione peroxidase
+CYP71D16				cembratrienol 6-hydroxylase
+ROMT-9	Os08g0157500			flavonoid 3',5'-<i>O</i>-methyltransferase 1
+tps23	NIL			(E)-beta-caryophyllene synthase
+AT4G13700	AT4G13700	7957068	7958915	purple acid phosphatase 23
+EF685346.1	NIL			Cynnamyl-alcohol dehydrogenase
+Soltu.DM.07G021500	Soltu.DM.07G021500			Soltu.DM.07G021500.1 // Soltu.DM.07G021500.2
+atpF	NIL	131169	131696	ChreCp054
+AO2	NIL			aldehyde oxidase
+taxane 13&alpha;-hydroxylase	NIL			taxane 13alpha-hydroxylase
+Lj1g0001393	Lj1g0001393			Lj1g0001393.1
+IEMT1	NIL			IEMT1 subunit
+Sb04g005950.1				Cynnamyl-alcohol dehydrogenase
+PsbH	ATCG00710	74485	74706	PsbH
+ICS	NIL			isochorismate synthase
+ADC	NIL			arginine decarboxylase
+AmBMT	NIL			bergaptol O-methyltransferase
+AA5GT	NIL			anthocyanidin 3-<i>O</i>-glucoside 5-<i>O</i>-glucosyltransferase (acyl-glucose dependent)
+COQ3	AT2G30920	13164210	13167009	hexaprenyldihydroxybenzoate methyltransferase
+PPO	NIL			catechol oxidase
+AT1G65590	AT1G65590	24389563	24394870	beta-N-acetylhexosaminidase
+NCS1	NIL			norcoclaurine synthase
+&beta;-OHase 1	AT4G25700	13093943	13095944	&beta;-ring hydroxylase
+gtsatom				gentisate 5-<i>O</i>-&beta;-<i>D</i>-xylosyltransferase
+PG	NIL			polygalacturonase
+l13				L13
+SMT2	AT1G20330	7038680	7040149	SMT2
+CHLD	AT1G08520	2696415	2700962	magnesium chelatase//nucleoside-triphosphatase
+AT4G16566	AT4G16566			adenylylsulfate sulfohydrolase / adenylylsulfate:phosophate adenylyltransferase
+Os11g08569				parkeol synthase
+BGLU1	NIL			dalcochinase
+me2	Zm00001d037962	143657539	143663237	malate dehyrogenase NADP+ (oxaloacetate decarboxylating)
+LCY1				chloroplastic/chromoplastic lycopene &beta; cyclase
+MMR	NIL			menthol dehydrogenase
+AT5G24770	AT5G24770	8500479	8502227	acid phosphatase
+HvCOMT	NIL			N-methyl-3-aminomethylindole N-methyltransferase [multifunctional]
+UGT74F2	AT2G43820			salicylic acid / benzoic acid glucosyltransferase
+AT2G44160.1	AT2G44160.1	18269286	18272422	AT2G44160.1
+SSIII	AT1G11720	3952511	3957044	soluble starch synthase III
+MUR4	AT1G30620	10854531	10858226	UDP-arabinose 4-epimerase
+LjContig00155g0005648	LjContig00155g0005648			LjContig00155g0005648.1
+PSBP1		1227522	1229715	Oxygen-evolving enhancer protein 2 of photosystem II
+Glyma.01G067100	Glyma.01G067100			Glyma.01G067100
+CYP51	100736446			sterol C-14 demethylase
+AO1	AT5G20960	7116740	7122776	AO1
+AT5G63800	AT5G63800	25547281	25553075	beta-galactosidase
+PPD4	AT1G77090			PsbP domain-containing protein 4
+AT3G54840	AT3G54840	20329390	20331979	GTPase
+pl-CHR	NIL			chalcone reductase
+AT5G55810	AT5G55810	22601234	22603527	nicotinamide-nucleotide adenylyltransferase//nicotinate-nucleotide adenylyltransferase
+PDX2	AT5G60540	24353849	24356028	glutaminase
+PAO4	AT1G65840	24493443	24496687	polyamine oxidase
+AT2G44050	AT2G44050	18231327	18233236	DMRL synthase
+OMT	NIL			3,4-dihydroxybenzaldehyde-O-methyltransferase
+KS1	AT1G79460	29895285	29899480	ent-kaurene synthase
+AT4G32180	AT4G32180	15537565	15543910	pantothenate kinase
+nad6		7953	8441	ChrepMp06
+AT1G67550	AT1G67550	25316403	25321058	urease
+LAC4	AT2G38080.1			laccase
+AT3G48680	AT3G48680	18045996	18048021	NADH-ubiquinone oxidoreductase subunit//acyltransferase
+GLN2	AT5G35630	13847659	13850772	glutamine synthetase, type II
+HIDM	NIL			2,7,5-trihydroxy-4'-methoxyisoflavanone dehydratase [multifunctional]
+ill2	AT5G56660	22950493	22952542	indole-3-acetyl-ala hydrolase
+Cre09.g396600	Cre09.g396600			Fe hydrogenase
+Soltu.DM.10G003650	Soltu.DM.10G003650			Soltu.DM.10G003650.1
+AT5G43760	AT5G43760	17602990	17605824	fatty acid elongase
+NUO13		198911	202077	193762
+MPO1	NIL			N-methylputrescine oxidase
+GAO1	NIL			germacrene A oxidase
+ASAT3-F				sucrose acyltransferase
+Glyma.07G254800	Glyma.07G254800			Glyma.07G254800
+HEMC	AT5G08280	2663500	2665793	hydroxymethylbilane synthase
+PatTpsBF2	NIL			germacrene D synthase
+ilr1	AT3G02875	631920	634081	indole-3-acetyl-leu hydrolase
+AT3G14050	AT3G14050			GTP diphosphokinase / alpha-N-arabinofuranosidase / xylan 1,4-beta-xylosidase
+AT5G49970	AT5G49970	20346413	20350381	pyridoxamine-phosphate oxidase
+NUOS6		249205	251104	188142
+VTC1	AT2G39770	16595780	16598063	GDP-D-mannose pyrophosphorylase
+SDH7B	AT5G62575.2	25134714	25136118	complex II subunit 7
+peroxidase 2	NIL			flavonoid peroxidase 2
+QCR8		570171	570910	158763
+NUOS4		750636	753111	184606
+chln	NIL			nicotianamine synthase
+LjContig00503g0018580	LjContig00503g0018580			LjContig00503g0018580.1
+CPS2				copal-8-ol diphosphate synthase
+KOR	AT5G49720	20214617	20217514	1,4-beta-D-glucan 4-glucanohydrolase
+5&alpha;-POR	NIL			5alpha-progesterone reductase
+FAD2-1	NIL			trans-Delta12-oleic acid desaturase
+HCAR	AT1G04620			7<sup>1</sup>-hydroxychlorophyll <i>a</i> reductase
+Cre06.g294750	Cre06.g294750			Cre06.g294750.t1.1
+AT1G67070	AT1G67070	25045798	25048306	mannose-6-phosphate isomerase
+LjContig00155g0007092	LjContig00155g0007092			LjContig00155g0007092.1
+6-SFT	NIL			6-SFT
+CYP710A1	AT2G34500	14546558	14548485	C-22 sterol desaturase
+VS1	NIL			vetispiradiene synthase
+NCED3	AT3G14440	4831295	4833606	9-cis-epoxycarotenoid dioxygenase
+rbcS1A	AT1G67090	25051821	25053087	RUBISCO small subunit
+CYP93G1	Os04g0101400			flavone synthase II
+ASA3	Cre07.g338050.t1.2	108704	112766	152682
+PSY1	GRMZM2G300348			chloroplastic phytoene synthase
+TRP6	AT1G07780	2410117	2412674	phosphoribosylanthranilate isomerase
+AT1G15110	AT1G15110	5199013	5202170	CDP-diacylglycerol-serine O-phosphatidyltransferase
+CYP93A1	NIL			3,9-dihydroxypterocarpan 6a-monooxygenase
+UGT73C6	AT2G36790	15427269	15428945	UDP-glucose:flavonol-3-O-glycoside-7-O-glucosyltransferase
+psaA				ChreCp019
+estExt_gwp_1H.C_410048		65732	75831	131895
+DHS2	AT4G33510	16116450	16118800	3-deoxy-7-phosphoheptulonate synthase
+AT3G55800	AT3G55800	20720365	20722619	sedoheptulose-bisphosphatase
+PcTps-EK	NIL			E-geraniol synthase
+MIOX2	AT2G19800	8537978	8540590	myo-inositol oxygenase
+AF138959	NIL			amorpha-4,11-diene synthase
+AT1G69370	AT1G69370	26083619	26085390	chorismate mutase
+LjContig00155g0000309	LjContig00155g0000309			LjContig00155g0000309.1
+AIS1	NIL			T-anol/isoeugenol synthase
+G-TMT	AT1G64970	24137748	24139772	delta-tocopherol methyltransferase [multifunctional]
+Cre06.g267600	Cre06.g267600			Cre06.g267600.t1.1
+GBS	NIL			germacrene B synthase
+fad6	AT4G30950			omega-6 fatty acid desaturase
+Glyma.06G239600	Glyma.06G239600			Glyma.06G239600
+AF072736	NIL			coniferin beta-glucosidase
+ACX	NIL			cycloartenol synthase
+SPLCAT1	NIL			SPLCAT1 subunit 2
+Cre09.g390615	Cre09.g390615			Cre09.g390615.t1.1
+RcOMT3	NIL			3,5-dimethoxyphenol O-methyltransferase [multifunctional]
+AT5G16390.1	AT5G16390.1	5360804	5363129	biotin carboxyl carrier protein
+AT2G47730	AT2G47730	19565270	19566533	glutathione transferase
+Glyma.19G187400	Glyma.19G187400			Glyma.19G187400
+CYP719	NIL			canadine synthase
+BAPT	NIL			phenylpropanoyltransferase
+PLR1	NIL			pyridoxal reductase
+NFS2	AT1G08490	2685662	2688598	selenocysteine lyase/cysteine desulfurase//transaminase
+HCT2	NIL			malate O-hydroxycinnamoyl transferase
+Glyma.07G254600	Glyma.07G254600			Glyma.07G254600
+CYP82N4	NIL			(S)-cis-N-methylstylopine 14-hydroxylase/(S)-N-methylcanadine 14-hydroxylase
+FK	AT3G52940	19641176	19644274	&Delta;14-sterol reductase
+HMA3	AT4G30120			cadmium/zinc-transporting ATPase
+PGT1	NIL			phloretin UDP-glycosyltransferase
+Pavir.3NG231500	Pavir.3NG231500			Pavir.3NG231500.1.p
+AT2G36230	AT2G36230	15200773	15202617	phosphoribosyl-formimino-5-aminoimidazole-4-carboxamide ribonucleotide isomerase
+COX5C	Cre03.g157700	442712	444014	Cre03.g157700.t1.1
+TOGT1	NIL			UDP-glucose:scopoletin O-&beta;-D-glucosyltransferase
+DWF5	AT1G50430	18685600	18689318	sterol &Delta;<sup>7</sup> reductase
+ATCG00490	ATCG00490	54958	56397	RUBISCO large subunit
+THAS1	AT5G48010	19474186	19478915	thalianol synthase
+AT3G09150	AT3G09150	2803533	2805593	phytochromobilin:ferredoxin oxidoreductase
+cyp71E1				4-hydroxyphenylacetaldehyde oxime monooxygenase
+ans	NIL			anthocyanidin synthase
+ADH2	NIL			UDP-glucose dehydrogenase / alcohol dehydrogenase
+ICS	NIL			isochorismate synthase
+PMT	NIL			putrescine N-methyltransferase
+Ip3GGT	NIL			anthocyanidin 3-O-glucoside 2''-O-glucosyltransferase
+AT1G31070	AT1G31070	11084840	11088544	N-acetylglucosamine-1-phosphate uridylyltransferase
+AT4G37430	AT4G37430			CYP81F1 monooxygenase
+D29812	NIL			3'-hydroxy-N-methylcoclaurine 4'-O-methyltransferase
+SGT1	AT3G21560	7595812	7597583	sinapate-1-glucosyltransferase
+AT1G06290	AT1G06290	1922351	1926277	acyl-CoA oxidase
+AOX1	NIL			ubiquinone oxidase
+APS4	AT5G43780	17606621	17608762	APS4
+PsaI		1897341	1898907	Photosystem I reaction centre, subunit VIII
+16OMT	NIL			16-hydroxytabersonine-O-methyltransferase
+PfTps-PL	NIL			P-geraniol synthase
+AT1G31190	AT1G31190	11144753	11146911	inositol-1(or 4)-monophosphatase / myo-inositol 1-phosphate monophosphatase
+AtSOT16	AT1G74100	27868006	27869355	desulfoglucosinolate sulfotransferase
+IMPDH	NIL			IMP dehygrogenase
+ACS9	AT3G49700	18445455	18447126	1-aminocyclopropane-1-carboxylate synthase
+SEX4	AT3G52180			glucan phosphatase
+sbDES3				linoleoyl-CoA 15-desaturase / 9,12-cis-hexadecadienoic acid delta 15 desaturase
+MOMT3	NIL			flavonol 3-<i>O</i>-methyltransferase
+LHCA2		1024299	1027131	144609
+LOX3	NIL			lipoxygenase
+ATAO1	AT4G14940	8541875	8544562	putrescine oxidase
+AT1G68280	AT1G68280			acyl-lipid thioesterase 4
+ZmDMAS1				deoxymugineic acid synthase
+AT3G60750	AT3G60750	22464694	22468127	transketolase 1
+NAD1b	ATMG00516.1	143219	147048	NAD1b
+GU563724.1	NIL			Cinnamyl alcohol dehydrogenase
+PCS	NIL			PCS subunit
+AT5G23300	AT5G23300	7847590	7850407	dihydroorotate dehydrogenase
+Zm00001d028471	Zm00001d028471	35960441	35964750	phosphoenolpyruvate carboxykinase
+GS-OX5	AT1G12140	4121367	4123540	glucosinolate S-oxygenase
+MomoFADX	NIL			Delta12 fatty acid conjugase
+ECS	NIL			gamma-glutamylcysteine synthetase
+STS1	NIL			stachyose synthase [multifunctional]
+AT4G22570	AT4G22570	11882137	11885432	adenine phosphoribosyltransferase
+UGT75B1	AT1G05560	1645497	1647146	UDP-glucosyltransferase//abscisic acid glucosyltransferase//UDP-glucose:4-aminobenzoate acylglucosyltransferase
+CYP81E1	NIL			isoflavone-2'-hydroxylase / isoflavone 2'-hydroxylase
+TTS1	NIL			&beta;-amyrin synthase
+ATPD	NIL	100408	102412	132678
+FAR	NIL			fatty acyl-CoA reductase
+CYP79B2	AT4G39950	18525240	18527573	CYP79B2
+AT17	NIL			alcohol acyltransferase
+BDS	NIL			BDS
+Glyma.08G348600	Glyma.08G348600			Glyma.08G348600
+AT2G23580	AT2G23580	10040123	10041407	methyl salicylate methylesterase
+Soltu.DM.07G021460	Soltu.DM.07G021460			Soltu.DM.07G021460.1
+AT4G02580	AT4G02580	1134467	1137156	NADH-ubiquinone oxidoreductase 24 kDa subunit
+DTC1	NIL			ent-cassa-12,15-diene synthase
+CURS1	NIL			curcumin synthase
+AT2G23000	AT2G23000			AT2G23000
+FaQR	NIL			enone oxidoreductase
+PRK	AT1G32060	11532517	11534619	phosphoribulokinase
+Peaxi162Scf00423g00119	Peaxi162Scf00423g00119			Peaxi162Scf00423g00119
+AT5G43280	AT5G43280	17385116	17386627	delta3,5-delta2,4-dienoyl-CoA isomerase
+SPIol;Bsas3;1	NIL			&beta;-cyano-L-alanine synthase
+MIOX4	AT4G26260	13297707	13300379	myo-inositol oxygenase
+PLMT	AT1G80860	30392927	30394194	phosphatidyl-N-methylethanolamine N-methyltransferase [multifunctional]
+AT5G48545	AT5G48545			adenylysulfate sulfohydrolase
+BgLUS	NIL			lupeol synthase
+AT4G19680	AT4G19680			iron regulated transporter
+CAHS	NIL			caryophyllene synthase / alpha-humulene synthase
+OMT1				3,5-dihydroxybiphenyl <i>O</i>-methyltransferase
+SULP1	Cre07.g348600.t1.3	1411028	1414899	128906
+CSLC4	AT3G28180			AT3G28180
+pgm II	NIL			StpPGM
+CYP99A3				CYP99A3
+IBR3	AT3G06810	2146341	2150837	IBA-CoA oxidase//acyl-CoA dehydrogenase
+Fat	NIL			thioesterase
+UBGAT	NIL			baicalein 7-<i>O</i>-glucuronosyltransferase monomer
+AT2G27730	AT2G27730	11826906	11828955	NADH-ubiquinone oxidoreductase subunit
+AT2G18800	AT2G18800	8151994	8153347	hydrolase, acting on glycosyl bonds
+opr8	Zm00001d050107	66086547	66090296	12-oxophytodienoate reductase
+FLS				flavonol synthase/flavanone 3-dioxygenase
+AT3G10700	AT3G10700	3346583	3351028	galacturonic acid-1-phosphate kinase
+Zm00001d003533	Zm00001d003533	47105187	47109372	linolenate lipoxygenase
+Cre07.g342150	Cre07.g342150			glutamyl-tRNA reductase
+Cre17.g698000	Cre17.g698000	1892559	1897334	Cre17.g698000.t1.1
+IOMT8	NIL			isoflavone-7-O-methyltransferase
+PHA3	NIL			plasma membrane H+-ATPase
+CCS	NIL			capsanthin-capsorubin synthase
+tat				tyrosine aminotransferase
+CHS-A				naringenin-chalcone synthase
+GLX2-2	AT3G10850	3397554	3399579	hydroxyacylglutathione hydrolase
+PsbTc	ATCG00690	74082	74183	PSII-T subunit
+cnx1	AT5G20990	7128477	7133478	molybdopterin adenylyltransferase / molybdopterin hydrolase
+LUT1	AT3G53130	19703749	19708520	epsilon-ring hydroxylase
+PKS1	NIL			aromatic polyketide synthase
+ARS1				5-pentadecatrienylresorcinol synthase
+Seita.6G068400	Seita.6G068400			Seita.6G068400.1.p
+AT2G47240	AT2G47240	19399628	19404901	long-chain-fatty-acid-CoA ligase
+FAB2	AT2G43710	18127033	18129966	stearoyl-CoA 9-desaturase
+HEMF1	AT1G03475	869051	871212	coproporphyrinogen oxidase
+RsM1	NIL			triterpene synthase
+AT5G48100	AT5G48100	19506553	19509970	laccase
+AT3G48000	AT3G48000	17727852	17731005	acetaldehyde dehydrogenase
+TDC	NIL			tryptophan decarboxylase subunit
+oasB	AT2G43750	18136488	18139629	cysteine synthase
+enrA1	NIL			enoyl-[acp] reductase monomer
+CYP90D1	AT3G13730			oxidoreductase, acting on paired donors, with incorporation or reduction of molecular oxygen, NADH or NADPH as one donor, and incorporation of one atom of oxygen
+JusB7H	NIL			justicidin B 7-hydroxylase
+PsbP	AT1G06680	2047826	2049417	PSII-P subunit
+RNR2A	AT3G23580	8460052	8462822	ribonucleoside-diphosphate reductase small subunit A
+AT5G51970	AT5G51970	21128671	21130629	oxidoreductase//oxidoreductase, acting on the CH-OH group of donors, NAD or NADP as acceptor
+CHR7	NIL			chalcone reductase
+TH1	AT1G22940	8122340	8125057	HMP-P kinase//thiamin-monophosphate pyrophosphorylase
+QCR7		1444871	1446207	77031
+SAT4	AT4G35640	16905584	16908362	serine O-acetyltransferase
+ATCG00130	ATCG00130			ATP synthase subunit b
+AT3G63150	AT3G63150			GTPase
+AADC1B	NIL			aromatic amino acid decarboxylase
+AT3G25900	AT3G25900	9482070	9484163	homocysteine S-methyltransferase
+Seita.7G145900	Seita.7G145900			Seita.7G145900.1.p
+U60277	NIL			&Delta;9-acyl-ACP desaturase
+OsMAS	NIL			momilactone A synthase
+AT4G34510	AT4G34510	16491801	16493423	acyltransferase
+Bx2				indole monooxygenase
+AK-HSDH2	AT4G19710	10724865	10729778	aspartate kinase / homoserine dehydrogenase
+PMT	NIL			putrescine N-methyltransferase
+AT1G77590	AT1G77590	29153150	29156670	long-chain-fatty-acid-CoA ligase
+estExt_gwp_1W.C_30616	NIL	220855	226090	134449
+SDH2-2	AT5G40650.1	16298632	16300755	complex II subunit 2
+AT5G55250	AT5G55250	22424699	22428170	indole-3-acetate carboxyl methyltransferase
+AT1G80460	AT1G80460	30251637	30254197	glycerol kinase//carbohydrate kinase
+GLX2-1	AT2G43430	18042446	18045332	hydroxyacylglutathione hydrolase
+Lj5g0020897	Lj5g0020897			Lj5g0020897.1
+AT2G41540	AT2G41540	17333175	17335980	glycerol-3-phosphate dehydrogenase (NAD+)
+AT1G08250	AT1G08250	2588854	2590298	arogenate dehydratase
+ATPvF		287669	289167	182533
+FOX1	AT1G26380			2-hydroxy-2-(1H-indol-3-yl)acetonitrile oxidase
+Glyma.19G187600	Glyma.19G187600			Glyma.19G187600
+CaMXMT2	NIL			theobromine synthase
+AT5G23960	AT5G23960	8092972	8095131	alpha-copaene synthase [multifunctional]
+NAR1.3		348822	357078	194337
+f-&gamma;hum	NIL			&gamma;-humulene synthase
+Lj4g0004361	Lj4g0004361			Lj4g0004361.1
+GDH	AT5G06580	2011289	2016540	D-lactate dehydrogenase
+CYP71D18	NIL			(-)-(4S)-Limonene-6-hydroxylase // (-)-limonene-6-hydroxylase
+APR2	AT1G62180	22979195	22981267	APR2
+AT5G43940	AT5G43940	17701418	17703755	formaldehyde dehydrogenase (glutathione)//S-nitrosoglutathione reductase//S-(hydroxymethyl)glutathione dehydrogenase
+LHCBM1		533822	535669	Chlorophyll a-b binding protein of LHCII
+CYP86A2	AT4G00360	160768	163023	fatty acid &omega;-hydroxylase
+UGT71C5	AT1G07240	2223690	2225451	UDP-glycosyltransferase
+PsbO-1	AT5G66570	26585879	26587504	PSII-O subunit
+TPS3	NIL			(E)-gamma-bisabolene synthase
+HGGT	NIL			homogentisate geranylgeranyl transferase
+ROMT	NIL			resveratrol O-methyltransferase
+UGT73B2	AT4G34135	16345285	16347137	flavonol 3-O-glucosyltransferase
+Zm00001d026277	Zm00001d026277	142707254	142721455	coproporphyrinogen oxidase
+AT1G23020	AT1G23020	8150075	8153346	ferric-chelate reductase
+Zm00001d033222	Zm00001d033222	255021507	255023321	Zm00001d033222_T001.1
+AT3G55440	AT3G55440	20564667	20567537	triose-phosphate isomerase
+aga2	NIL			alkaline alpha-galactosidase
+oomt1	NIL			orcinol O-methyltransferase
+4CL1	NIL			4 coumarate:CoA ligase
+F3'HIIb				flavonoid 3'-monooxygenase
+Acl	NIL			a soluble [acyl-carrier protein]
+SDR				3-oxosteroid reductase
+UGT76E2	AT5G59590	24026209	24027875	UDP-glycosyltransferase
+AT1G18640	AT1G18640	6416349	6418682	phosphoserine phosphatase
+SOX	AT3G01910	314701	317438	sulfite oxidase
+ATPvA3		441145	451819	115936
+CSD1	AT1G08830	2827064	2829318	copper, zinc superoxide dismutase
+NTRC	AT2G41680			NTRC subunit
+CYP71BE54				(-)-deoxypodophyllotoxin oxidative demethylase
+PKS	NIL			gingerol synthase
+CDS1	AT1G62430	23109606	23113141	phosphatidate cytidylyltransferase
+AT5G66170	AT5G66170			thiosulfate sulfurtransferase
+DES	NIL			&Delta;5 acyl-CoA desaturase
+AT1G14290	AT1G14290	4880046	4881955	sphinganine 4-hydroxylase
+AT4G33670	AT4G33670	16169528	16171564	L-galactose dehydrogenase
+SKOR	AT3G02850			stelar K+ outward rectifying channel
+oomt3	NIL			orcinol O-methyltransferase
+AT3G06350	AT3G06350	1924316	1927765	3-dehydroquinate dehydratase//shikimate 5-dehydrogenase
+6DCS_SOYBN	NIL			chalcone reductase
+MKS1	NIL			3-oxoacid decarboxylase / 3-ketoacid decarboxylase
+Soltu.DM.07G021380	Soltu.DM.07G021380			Soltu.DM.07G021380.1
+Soltu.DM.10G006250	Soltu.DM.10G006250			Soltu.DM.10G006250.1
+At1g03495	NIL			anthocyanin acyltransferase
+GPAT1	AT1G06520	1993977	1996111	glycerol-3-phosphate O-oleoyltransferase [multifunctional]
+AT1G80330	AT1G80330	30202953	30204429	gibberellin 3-beta-dioxygenase
+Zm00001d034385	Zm00001d034385	291510737	291518900	Zm00001d034385_T001.1
+4HBS	NIL			4-hydrobenzaldehyde synthase
+AT4G04640	AT4G04640			ATP synthase gamma chain 1
+TAT	NIL			taxa-4(20), 11(12)-dien-5alpha-ol-O-acetyl transferase
+ICS2	AT1G18870	6515657	6519273	isochorismate synthase
+CMO	NIL			peroxisomal choline monooxygenase
+T6ODM	NIL			thebaine 6-<i>O</i>-demethylase
+AT3G49110	AT3G49110	18211649	18214127	peroxidase
+FS				ferruginol synthase
+SBS	NIL			santalene and bergamontene synthase
+SDH2-1	AT3G27380	10132197	10133997	succinate dehydrogenase
+AT3G53580	AT3G53580	19875742	19878112	diaminopimelate epimerase
+AT2G41530	AT2G41530	17330573	17332689	S-formylglutathione hydrolase//hydrolase, acting on ester bonds
+CBTS-3				cembratrienol synthase
+GSTU19	AT1G78380	29491306	29492799	glutathione transferase
+AT3G25860	AT3G25860	9461797	9464024	dihydrolipoyllysine-residue acetyltransferase
+PPDES5	NIL			&Delta;5 desaturase
+UGE1	AT1G12780	4355924	4358326	UDP-glucose 4-epimerase subunit
+Glyma.14G192800	Glyma.14G192800			Glyma.14G192800
+AT3G11430	AT3G11430	3595771	3597958	glycerol-3-phosphate O-acyltransferase
+AY061888	NIL			Cinnamoyl CoA-reductase
+ATP4		56088	57488	185200
+AIMT1	NIL			SAM:t-anol/isoeugenol O-methyltransferase
+AT2G22240	AT2G22240	9458685	9461174	inositol-3-phosphate synthase
+MAX4	AT4G32810	15828232	15831489	oxidoreductase, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
+NCED2	AT4G18350	10142661	10144456	9-cis-epoxycarotenoid dioxygenase
+AT4G26900	AT4G26900	13515484	13519861	imidazoleglycerol phosphate synthase
+PsaF				Photosystem I reaction center subunit III
+MTPSL22	NIL			(3S)-nerolidol synthase / (+)-linalool synthase
+GLS	NIL			glutinol synthase
+AT4G37640	AT4G37640	17682971	17686935	calcium-transporting ATPase
+A3GT	NIL			anthocyanidin 3-<i>O</i>-glucosyltransferase
+CAT1	AT1G20630	7146626	7149967	catalase 1 subunit
+AT5G09640	AT5G09640	2988315	2991157	sinapoylglucose:choline-O-sinapoyltransferase//serine carboxypeptidase
+Seita.9G405400	Seita.9G405400			Seita.9G405400.1.p
+PSAN		1259097	1261175	186531
+Keto1	NIL			beta-carotene 4-hydroxylase [multifunctional]
+g-lim1	NIL			limonene synthase
+AT1G49660	AT1G49660			carboxylesterase
+AT4G37270	AT4G37270	17540484	17546478	copper-exporting ATPase//calcium-transporting ATPase
+GEPKR-1	NIL			chalcone reductase
+PsbE	ATCG00580	64071	64322	cytochrome b-559 a-subunit
+CYP86A8	AT2G45970	18919333	18921812	fatty acid &omega;-hydroxylase
+CrACR2.1				arsenate reductase
+NAD9	ATMG00070	23663	24235	NADH-ubiquinone oxidoreductase 27kDa subunit
+MKS2	NIL			3-oxoacyl-CoA hydrolase
+ACLA-1	AT1G10670	3535388	3538282	ATP-citrate lyase subunit//ATP citrate synthase
+Soltu.DM.09G025370	Soltu.DM.09G025370			Soltu.DM.09G025370.1 // Soltu.DM.09G025370.2 // Soltu.DM.09G025370.3
+AL10	NIL			(11Z,14Z,17Z)-icosa-11,14,17-trienoyl-CoA Delta5 desaturase [multifunctional]
+SPP1	Os01g0376700			sucrose-6F-phosphate phosphohydrolase
+FUT12	AT1G49710	18395006	18397596	glycoprotein 3-&alpha;-<small>L</small>-fucosyltransferase FUT12
+Glyma.03G187000	Glyma.03G187000			Glyma.03G187000
+AT1G51440	AT1G51440	19074585	19076362	triacylglycerol lipase
+RG	NIL			raucaffricine glucosidase
+D4H	NIL			desacetoxyvindoline 4-hydroxylase
+AT1G68890	AT1G68890	25900608	25910373	PHYLLO [multifunctional]
+FaOMT	NIL			furaneol <i>O</i>-methyltransferase monomer
+G6PD1	AT5G35790	13973920	13976975	glucose-6-phosphate 1-dehydrogenase
+PPOX3	NIL			pyridoxine/pyridoxamine 5'-phosphate oxidase
+At1g03940	NIL			anthocyanin acyltransferase
+ATPvA2	Cre09.g402500	635885	640474	438
+SE	NIL			squalene epoxidase
+DFA	AT5G41480	16613155	16615864	dihydrofolate synthetase
+AT3G13790	AT3G13790	4532918	4535874	beta-fructofuranosidase//hydrolase, hydrolyzing O-glycosyl compounds
+NUDT10	AT4G25434	13003986	13005873	catalytic
+Lj1g0021530	Lj1g0021530			Lj1g0021530.1
+AT3G63250	AT3G63250	23381283	23383657	homocysteine S-methyltransferase
+hgshs	NIL			homoglutathione synthetase
+Lj1g0001290	Lj1g0001290			Lj1g0001290.1
+GGT1	NIL			ajugose synthase / verbascose synthase / stachyose synthase
+CYP707A2	AT2G29090			abscisic acid 9'-hydroxylase / abscisic acid 8'-hydroxylase
+AT2G15230	AT2G15230			triacylglycerol lipase
+LOX5	AT3G22400	7926886	7931358	lipoxygenase
+AO1	NIL			aldehyde oxidase
+APS2	AT1G19920	6914604	6916796	APS2
+Soltu.DM.07G001250	Soltu.DM.07G001250			Soltu.DM.07G001250.1 // Soltu.DM.07G001250.2
+AT1G11790	AT1G11790	3981247	3985214	arogenate dehydratase////prephenate dehydratase
+GPDHp	AT5G40610	16282090	16284582	glycerol-3-phosphate dehydrogenase (NAD+)
+IBR1	AT4G05530	2816389	2818362	3-hydroxyacyl-CoA dehydrogenase
+ATAAPT2	AT3G25585	9296546	9299983	aminoalcoholphosphotransferase
+IpeOMT1				cephaeline 6'-O-methyltransferase / deacetylisoipecoside 6-O-methyltransferase
+atpB		160165	161640	ChreCp058
+EAH	NIL			3-deoxycapsidiol hydroxylase [multifunctional]
+Soltu.DM.07G021360	Soltu.DM.07G021360			Soltu.DM.07G021360.1
+AtPLA IVA	AT4G37070	17464779	17467103	AtPLA IVA
+XT2	AT4G02500	1101507	1103610	xyloglucan 6-xylosyltransferase
+OsHPL1	NIL			9/13-hydroperoxide lyase
+rbcS2B	AT5G38420	15398175	15399260	RUBISCO small subunit
+UGT71B1	AT3G21750	7664352	7666202	UDP-glycosyltransferase
+GAS	NIL			germacrene A synthase
+AT1G49820	AT1G49820	18446558	18448766	S-methyl-5-thioribose kinase
+GAME4				22-hydroxycholesterol 26-oxidase
+HPR2	AT1G79870	30049639	30050920	glyoxylate reductase (NADP+) [multifunctional]
+ATPvD2		1025590	1027396	191863
+UGT73B1	AT4G34138	16348110	16349986	abscisic acid glucosyltransferase
+LjContig00081g0028042	LjContig00081g0028042			LjContig00081g0028042.1
+Cre10.g453600	Cre10.g453600	1264336	1267574	182572
+AT4G13770	AT4G13770	7990481	7992305	CYP83A1
+AT3G25770	AT3G25770	9408110	9409192	allene-oxide cyclase
+IGS1	NIL			isoeugenol synthase
+PCS1	NIL			phytochelatin synthase
+AT1G49140	AT1G49140	18180440	18181966	NADH-ubiquinone oxidoreductase PDSW subunit
+TPS-Car	NIL			3-carene synthase
+AMY2	NIL			AMY2
+CDS4	AT2G45150	18620380	18622792	phosphatidate cytidylyltransferase
+N7OMT	NIL			norreticuline 7-O-methyltransferase
+GGPS2	AT2G23800	10138569	10139859	geranylgeranyl pyrophosphate synthase
+PdUGT94AF1				PdUGT94AF1
+EAS12	NIL			5-epi-aristolochene synthase
+Pp-1				pterin-4alpha-carbinolamine dehydratase
+CYP714B2				gibberellin C13 oxidase
+RNR1	AT2G21790	9300435	9304922	ribonucleoside-diphosphate reductase large subunit
+GLN1;2	AT1G66200	24658873	24661301	glutamate-ammonia ligase
+mMDH2	AT3G15020	5056075	5058255	malate dehydrogenase
+CiOMT1				cephaeline O-methyltransferase / 7'-O-demethylcephaeline 7'-O-methyltransferase
+ME8	AT2G23600	10049279	10050753	methylesterase
+ASAT3-P				sucrose acyltransferase
+GSL1	NIL			callose synthase
+GLN1;1	AT5G37600	14950566	14953071	glutamate-ammonia ligase
+LePAR1	NIL			phenylacetaldehyde reductase
+MDS				multiradiene synthase / ent-copalyl diphosphate synthase
+SMT2-2	NIL			SMT2-2
+<i>Togt</i>	NIL			scopoletin glucosyltransferase
+LHCB7		843363	846622	Light-harvesting complex II protein Lhcb7
+AT5G13640	AT5G13640	4393065	4397544	phospholipid:diacylglycerol acyltransferase
+MAM3	AT5G23020	7718124	7721842	methylthioalkylmalate synthase
+GAD	NIL			glutamate decarboxylase
+GPPS.LSU	NIL			GPPS.LSU
+CBTS-2b				cembratrienol synthase
+SPSC	AT4G10120	6314783	6319932	sucrose-phosphate synthase
+IAMT1	NIL			indole-3-acetate carboxyl methyltransferase
+YS1				Fe(III)-PS transporter
+Glyma.10G062200	Glyma.10G062200			Glyma.10G062200
+AT1G44350	AT1G44350	16836650	16840726	IAA-amino acid conjugate hydrolase
+AT3G48190.1	AT3G48190.1	17808319	17839576	1-phosphatidylinositol-3-phosphate 5-kinase
+ppo	NIL			polyphenol oxidase
+GapA-1	AT3G26650	9796308	9798282	glyceraldehyde-3-phosphate dehydrogenase
+UGE4	AT1G64440	23940693	23943562	UDP-glucose 4-epimerase subunit//UDP-glucose 4-epimerase
+AT5G58310	AT5G58310	23592218	23593310	methylesterase
+Dnbglu2	NIL			7-<i>O-</i>-D-apiofuranosyl-(1-6)-&beta;-D-glucopyranosidase
+RS	NIL			RS subunits
+UGT73B3	AT4G34131			quercetin 3-O-glucosyltransferase
+Glyma.03G187700	Glyma.03G187700			Glyma.03G187700
+FUC1	AT2G28100	11981740	11983677	alpha-fucosidase
+<i>MtBAN</i>	NIL			anthocyanidin reductase
+Atbact-5	AT5G65780	26332616	26336038	branched-chain-amino-acid transaminase
+petL		190315	190446	ChreCp068
+EU4	NIL			urease
+ATPC	NIL	1750538	1753988	134235
+Glyma.03G032500	Glyma.03G032500			Glyma.03G032500
+IDH-I	AT4G35260	16774200	16776330	NAD+-dependent isocitrate dehydrogenase regulatory subunit
+ATPvH		2287054	2291305	129048
+ApS1	AT5G48300	19587466	19590030	ADP-glucose pyrophosphorylase small subunit
+MAM1	AT5G23010	7703095	7706894	MAM1
+CYP98A36	NIL			p-coumaroyl ester 3'-hydroxylase
+Seita.1G203600	Seita.1G203600			Seita.1G203600.1.p
+ERG3				sterol C-5 desaturase
+AT4G37390	AT4G37390	17579653	17582016	indole-3-acetic acid amido synthetase
+ATCG00480	ATCG00480			ATP synthase subunit beta
+Cre01.g044800	Cre01.g044800			Cre01.g044800.t1.2
+AT1G54130	AT1G54130			GTP diphosphokinase
+Glyma.06G206700	Glyma.06G206700			Glyma.06G206700
+Zm00001d033180	Zm00001d033180	253162491	253166753	C-6 oxidase
+UGT76E1	AT5G59580	24023305	24024915	UDP-glycosyltransferase
+THT	NIL			tyramine N-hydroxycinnamoyltransferase
+PDSTS2	NIL			subunit PDSTS2
+cah1	Zm00001d044099	219075378	219082694	carbonate dehydratase
+ASP1	AT2G30970	13185926	13189008	aspartate transaminase
+NSH3	AT5G18860	6290678	6295813	purine nucleoside hydrolase
+pGUT8	NIL			anthocyanidin 3-O-glucosyltransferase
+STGLL	NIL			ADP-glucose pyrophosphorylase
+SQE1	AT1G58440	21717507	21720955	squalene epoxidase / squalene monooxygenase
+YUC2	AT4G13260			indole-3-pyruvate monooxygenase
+AT3BETAHSD/D2	AT2G26260	11185178	11190054	sterol-4-alpha-carboxylate 3-dehydrogenase (decarboxylating)
+PGI1	AT4G24620	12708762	12712835	glucose-6-phosphate isomerase
+4RLS	NIL			(4R)-limonene synthase
+PGA1				steroid 26-hydroxylase
+ANMT	NIL			anthranilate N-methyltransferase
+UGT71D1	AT2G29730	12710614	12712258	UDP-glycosyltransferase
+AO2	NIL			aldehyde oxidase
+AT1G06490	AT1G06490	1978761	1989045	callose synthase
+Soltu.DM.10G003690	Soltu.DM.10G003690			Soltu.DM.10G003690.1 // Soltu.DM.10G003690.2
+SDR2	AT2G24190	10290714	10292060	aldehyde reductase
+PDAT1	Cre02.g106400			Cre02.g106400.t1.2
+Glyma.12G038200	Glyma.12G038200			Glyma.12G038200
+AT5G39990	AT5G39990			beta-glucuronosyltransferase 14A
+TPS-LAS	NIL			levopimaradiene/abietadiene synthase
+PETN	Cre16.g650100	690138	691730	177155
+Glyma.07G254700	Glyma.07G254700			Glyma.07G254700
+PNSeInt	NIL			selina-4,11-diene / intermedeol synthase
+F1-OMT	NIL			flavonoid 7-<i>O</i>-methyltransferase
+AT3G10160	AT3G10160	3139388	3144528	folylpolyglutamate synthetase
+ACO1	AT4G35830	16972602	16978061	aconitase
+Pavir.1KG341400	Pavir.1KG341400			Pavir.1KG341400.1.p
+Zm00001d032049	Zm00001d032049	210749060	210752906	12-oxophytodienoate reductase
+LjContig00155g0015949	LjContig00155g0015949			LjContig00155g0015949.1
+Lis	NIL			linalool synthase
+MGD2	AT5G20410	6896578	6898785	UDP-galactose:DAG galactosyltransferase
+PAO3	AT3G59050	21835673	21838486	polyamine oxidase
+CYP71D9	NIL			flavone-6-hydroxylase
+PPY-AT	NIL			aromatic amino acid transaminase
+MPAO				polyamine oxidase (propane-1,3-diamine forming)
+Lj6g0022690	Lj6g0022690			Lj6g0022690.1
+MOMT3	NIL			flavonol 3-<i>O</i>-methyltransferase
+Peaxi162Scf01586g00007	Peaxi162Scf01586g00007			Peaxi162Scf01586g00007
+AT3G44560	AT3G44560	16162123	16165384	fatty acyl-CoA reductase (alcohol-forming)
+AT2G26670	AT2G26670	11348762	11350650	heme oxygenase (decyclizing)
+LOC_Os05g28200.1	LOC_OS05G28200			bacteriochlorophyll synthase 34 kDa chain, putative, expressed
+STS1	NIL			stachyose synthase / galactosylononitol synthase
+Pavir.3KG443700	Pavir.3KG443700			Pavir.3KG443700.1.p
+SGT1	NIL			sinapate-1-glucosyltransferase
+AT3G57785	AT3G57785	21415551	21416194	NADH-ubiquinone oxidoreductase subunit
+GPPS-lsu	NIL			geranyl pyrophosphate synthase, large subunit
+UGT73G1	NIL			quercetin-<i>O</i>-glucosyltransferase
+GA20ox1D	NIL			gibberellin 20-oxidase
+AT5G17770	AT5G17770	5864253	5866708	cytochrome-b5 reductase
+GPX6	AT4G11600	7009763	7011369	phospholipid-hydroperoxide glutathione peroxidase
+AT3G03310	AT3G03310	778575	781587	phosphatidylcholine-sterol O-acyltransferase
+SCPL2	NIL			anthocyanin 7-<i>O</i>-glucoside acyltransferase (acyl-glucose dependent)
+NUOS5		1277856	1278521	135635
+P5C1	AT5G14800	4785965	4787842	pyrroline-5-carboxylate reductase
+FOMT1	NIL			flavonoid 7-<i>O</i>-methyltransferase
+TPS-Cin	AT3G25820	9440484	9443410	1,8-cineole synthase
+Glyma.12G163432	Glyma.12G163432			Glyma.12G163432
+TPS-Lin	NIL			linalool synthase
+ENO1	NIL			enolase
+QCR10		149261	150250	184649
+IDH-V	AT5G03290	793977	796181	NAD+-dependent isocitrate dehydrogenase catalytic subunit
+LOX2	NIL			lipoxygenase
+HPAT3	AT5G13500			hydroxyproline O-arabinosyltransferase 3
+JN997447.1	NIL			Cynnamyl-alcohol dehydrogenase
+HYDEF				Fe-hydrogenase assembly protein
+FADX-2	NIL			(8,11)-linoleoyl desaturase
+ATS1	AT1G32200	11601761	11605040	glycerol-3-phosphate O-acyltransferase
+PAP1	NIL			purple acid phosphatase
+AT5G57560	AT5G57560	23324356	23325508	hydrolase, acting on glycosyl bonds//xyloglucan:xyloglucosyl transferase
+SFS1	NIL			10-formyl-THF synthetase subunit
+SAP1	NIL			alkaline peroxidase / purple acid phosphatase
+GapCp-2	AT1G16300	5574304	5577616	glyceraldehyde-3-phosphate dehydrogenase
+AT5G16710	AT5G16710	5483291	5485084	glutathione dehydrogenase (ascorbate)
+GRMZM2G043453_P01		3095645	3103371	magnesium chelatase
+CYP734A1	AT2G26710	11387584	11390690	steroid hydroxylase
+POPTR_0006s03180.1	POPTR_0006s03180.1			POPTR_0006s03180.1
+UGT74H6	NIL			UDP-glucose: acyl glucosyltransferase
+7-DR2	101256596			&Delta;5,7-sterol-&Delta;7 reductase 2
+CrtL-e	NIL			lycopene &epsilon;-cyclase
+CRTISO	NIL			carotenoid isomerase
+AT4G26270	AT4G26270	13300804	13304356	6-phosphofructokinase
+DUT1	AT3G46940	17299179	17299937	dUTP diphosphatase
+AtSOT17	AT1G18590	6398572	6399934	desulfoglucosinolate sulfotransferase
+Lj6g0001903	Lj6g0001903			Lj6g0001903.1
+G6PD3	AT1G24280	8609434	8612569	glucose-6-phosphate 1-dehydrogenase
+GA2ox3	AT2G34555	14564067	14565776	C19 gibberellin 2-oxidase
+psaA				Photosystem I P700 chlorophyll a apoprotein A1
+PLD zeta	AT3G16785	5711088	5719029	PLD zeta
+Cre02.g105600	Cre02.g105600			Cre02.g105600.t1.1
+SUS2	AT5G49190	19960508	19964415	sucrose synthase
+petC		145796	148342	Cytochrome b<sub>6</sub>f complex iron-sulfur subunit
+GAMT1	AT4G26420			gibberellin carboxyl methyltransferase
+TPS6	AT1G68020	25500953	25504037	alpha,alpha-trehalose-phosphate synthase (UDP-forming) / trehalose-phosphatase
+NAD5b	ATMG00665.1	190740	190761	NAD5c
+SQS2	AT4G34650	16542382	16545126	squalene synthase
+Soltu.DM.07G023120	Soltu.DM.07G023120			Soltu.DM.07G023120.1
+CYP82D62	NIL			flavone-6-hydroxylase
+OBT14DM				obtusifoliol-14alpha-demethylase
+hbfd1				carotenoid 4-hydroxy-&beta;-ring 4-dehydrogenase
+AT3G62830	AT3G62830			UDP-glucuronate decarboxylase
+GGPS6	AT1G49530	18336097	18337357	geranylgeranyl pyrophosphate synthase//farnesyltranstransferase
+AtATP-PRT1	AT1G58080	21507979	21511205	ATP-phosphoribosyl transferase
+Lj1g0019313	Lj1g0019313			Lj1g0019313.1
+PSAG		154510	156358	165416
+Lj4g0013360	Lj4g0013360			Lj4g0013360.1
+Lj5g0014981	Lj5g0014981			Lj5g0014981.1
+VTC5	AT5G55120			GDP-L-galactose phosphorylase
+C14-R	100750253			sterol C-14 reductase
+SSy	NIL			santalene synthase
+NUOP3		2181907	2183160	182226
+Sc11	NIL			germacrene D synthase
+naatB	NIL			nicotianamine transferase
+AT4G09650	AT4G09650			ATP synthase subunit delta
+FRE1		1563545	1571645	205609
+ATCG00470	ATCG00470			ATP synthase epsilon chain
+LOC_Os02g09490	LOC_Os02g09490			cinnamyl alcohol dehydrogenase, putative, expressed
+AT1G35250	AT1G35250			acyl-lipid thioesterase 2
+SMO3	104649012			sterol methyl oxidase 3
+HMA5				copper-transporting ATPase
+Cre07.g324200	Cre07.g324200	2789339	2795367	Cre07.g324200
+AT3G48690	AT3G48690			carboxylesterase
+OSCPNY1	NIL			beta-amyrin synthase
+AT1G12050.1	AT1G12050.1	4072750	4076205	fumarylacetoacetase
+MMT1	NIL			methionine <i>S</i>-methyltransferase subunit
+HSP90C		222793	228381	154398
+CPS1	NIL			ent-copalyl diphosphate synthase
+Zm00001d046492	Zm00001d046492	92290431	92299586	heme oxygenase
+IPT3	AT3G63110	23329051	23330515	adenylate dimethylallyltransferase
+LjCHI1	NIL			chalcone isomerase
+Glyma.07G183300	Glyma.07G183300			Glyma.07G183300
+GGPS3	AT3G14550	4884573	4885989	geranylgeranyl pyrophosphate synthase
+UGE2	AT4G23920	12431287	12433874	UDP-glucose 4-epimerase subunit
+BPBT	NIL			benzoyl-CoA:benzyl alcohol/phenylethanol benzoyltransferase
+AT4G22930	AT4G22930	12018895	12021602	dihydroorotase
+AT3G13450	AT3G13450	4382205	4384443	branched-chain &alpha;-keto acid decarboxylase E1-&beta; subunit
+AT2G04540	AT2G04540	1581413	1584685	fatty-acid synthase
+Lj1g0005780	Lj1g0005780			Lj1g0005780.1
+N8DT-1	NIL			naringenin 8-dimethylallyltransferase
+PDC				pheophorbide demethoxycarbonylase
+ARG2	NIL			arginase
+PETM	Cre12.g546150	712724	713589	147968
+AT3G56490	AT3G56490			adenylylsulfate sulfohydrolase
+UGT71C2	AT2G29740	12713787	12715444	UDP-glycosyltransferase
+DWF1	AT3G19820	6879623	6882321	isofucosterol isomerase [multifunctional]
+CAMT_MEDSA	NIL			Caffeoyl coenzyme A O-methyltransferase
+SAT2	AT2G17640	7675160	7677577	serine O-acetyltransferase
+SDH6	AT1G08480.1	2684237	2685624	complex II subunit 6
+UGT74F1	AT2G43840	18164715	18166308	salicylic acid / benzoic acid glucosyltransferase
+SSy	NIL			santalene synthase
+Glyma.03G134500	Glyma.03G134500			Glyma.03G134500
+UGT74S1	NIL			(+)-secoisolariciresinol glucosyltransferase
+AT1G59500	AT1G59500	21858158	21860279	indole-3-acetic acid amido synthetase
+HSS1	NIL			homospermidine synthase
+NCED9	AT1G78390	29495788	29497768	9-cis-epoxycarotenoid dioxygenase
+LHCA1		548816	550929	184471
+PDS1	AT1G06570	2011884	2013544	4-hydroxyphenylpyruvate dioxygenase
+AT1G43710	AT1G43710	16488760	16490824	serine carboxylyase subunit
+MEX1	NIL	1570295	1573645	205893
+REF8	AT2G40890	17065131	17067730	coumarate 3-hydroxylase / p-coumaroyl shikimate/quinate 3'-hydroxylase
+g1866.t1	g1866.t1			Cre11.g472150.t1.1
+AT2G39930	AT2G39930	16673101	16679572	isoamylase
+PLD gamma	AT4G11850	7129117	7133194	PLD gamma
+KAS III	NIL			&beta;-ketoacyl-acyl carrier protein synthase III
+VS	NIL			vinorine synthase
+AT1G02280	AT1G02280	448465	450425	GTPase
+oasC	AT3G59760	22082925	22086393	cysteine synthase
+Cre03.g188800	Cre03.g188800			Cre03.g188800.t1.2
+BEBT	NIL			benzoyl-coenzyme A:benzyl alcohol benzoyltransferase
+Pavir.7KG337500	Pavir.7KG337500			Pavir.7KG337500.1.p
+CaUGT2	NIL			UDPG:glucosyltransferase
+UGT76C2	AT5G05860	1765508	1767456	UDP-glycosyltransferase
+CYP71CU1				bursehernin 5'-hydroxylase
+AT5G04360	AT5G04360	1221531	1228612	alpha-amylase//limit dextrinase
+AT4G13430	AT4G13430			Isopropylmalate isomerase, large subunit
+GLX2-5	AT2G31350	13375369	13378134	hydroxyacylglutathione hydrolase
+CYP51				sterol C-14 demethylase
+PTR1	NIL			pterocarpan reductase
+IpeOMT2				7'-O-demethylcephaeline 7'-O-methyltransferase
+CPC1	Cre03.g183200	240197	247663	24512
+ATP6		1110852	1114350	136578
+Lj3g0006457	Lj3g0006457			Lj3g0006457.1
+AT1G35720	AT1G35720	13226409	13228407	peroxidase
+AT1G76150	AT1G76150	28579634	28582594	enoyl-CoA hydratase 2
+ADCS	AT2G28880	12405822	12410605	aminodeoxychorismate synthase
+Soltu.DM.07G021390	Soltu.DM.07G021390			Soltu.DM.07G021390.1
+Chit1	NIL			acidic endochitinase
+Zm00001d018386	Zm00001d018386	219773951	219778845	aspartate transaminase
+MCT	AT2G02500	670877	673154	4-diphosphocytidyl-2C-methyl-D-erythritol synthase//2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+KS11				stemod-13(17)-ene synthase
+KCO1	AT5G55630			calcium-activated outward-rectifying potassium channel
+psbD		174574	175632	Photosystem II D2 protein
+fad4	AT4G27030			palmitate desaturase
+USP	NIL			UDP-D-xylose pyrophosphorylase [multifunctional]
+ARGAH1	AT4G08900	5703344	5705343	arginase
+AO3	NIL			aldehyde oxidase
+LOC_Os11g28530.1		15934164	15940392	stemar-13-ene synthase
+SQE3	AT4G37760	17743881	17746672	squalene epoxidase
+Peaxi162Scf00363g00003	Peaxi162Scf00363g00003			Peaxi162Scf00363g00003
+Lj1g0021979	Lj1g0021979			Lj1g0021979.1
+AfFADX	NIL			Delta12 fatty acid conjugase
+ALDH2C4	AT3G24503	8919567	8923080	hydroxycinnamaldehyde dehydrogenase
+FTR1	Cre03.g192050.t1.1	35653	39608	137142
+COXVb	AT3G15640	5299117	5301752	complex IV subunit 5b
+CYP736A107				3-hydroxy-5-methoxybiphenyl 4-hydroxylase
+ASAT2				sucrose 4-isovalerate-3-<i>O</i>-acyltransferase
+AT3G27060	AT3G27060	9981103	9982532	TSO2 subunit
+LigB				extradiol ring-cleavage dioxygenase
+AT2G30550	AT2G30550	13021925	13024230	triacylglycerol lipase
+AtBSMT1	AT3G11480	3614443	3617320	AtBSMT1 subunit
+SBEII	NIL			starch branching enzyme II
+Lj3g0015275	Lj3g0015275			Lj3g0015275.1
+HM584929	NIL			16-methoxy-2,3-dihydro-3-hydroxy-tabersonine-N-methyltransferase
+ZOG1	NIL			zeatin-<i>O</i>-glucosyltransferase
+AT3G03780	AT3G03780	957093	960987	methionine synthase
+AT3G26690	AT3G26690	9805490	9806952	bis(5'-adenosyl)-pentaphosphatase
+TPS10	AT2G24210	10301410	10304610	myrcene synthase//(E)-beta-ocimene synthase
+AT1G61120	AT1G61120	22527302	22532476	g(E,E)-geranyllinalool synthase
+rbcS1B	AT5G38430	15401347	15402477	RUBISCO small subunit
+AT5G23070	AT5G23070	7741906	7742981	thymidine kinase
+CDS3	AT4G26770	13482082	13484846	phosphatidate cytidylyltransferase
+ZDS				&zeta;-carotene desaturase
+SDH7A	AT3G47833.1	17659608	17661125	complex II subunit 7
+CYP85A3	NIL			brassinolide synthase
+UGT74D1	AT2G31750			auxin glycosyltransferase
+CYP51G1	AT1G11680	3938501	3940754	obtusifoliol 14alpha-demethylase
+GAO1	NIL			germacrene A oxidase
+UBA1				ubiquitin-activating enzyme
+TYDC1	NIL			dopa decarboxylase / tyrosine decarboxylase
+ACK1	Cre09.g396700.t1.1			acetate kinase
+NUOA1		2120972	2123348	77311
+HNL	NIL			(S)-hydroxynitrile lyase
+AT3G49120	AT3G49120	18218636	18221117	peroxidase
+MSD1	AT3G10920	3417959	3419858	manganese superoxide dismutase
+Soltu.DM.10G003670	Soltu.DM.10G003670			Soltu.DM.10G003670.1
+CYP71D12	NIL			tabersonine 16-hydroxylase
+TGG1	AT5G26000	9079508	9082387	myrosinase / thioglucosidase
+zss2	NIL			&beta;-eudesmol synthase
+HMA8	NIL			copper P1B-ATPase
+AT5G62180	AT5G62180			carboxylesterase
+PAH				phenylalanine hydroxylase
+DFR	NIL			dihydroflavonol-4-reductase
+gbsA	NIL			betaine aldehyde dehydrogenase
+AOAT4	AT1G17290	5922623	5926393	alanine transaminase
+GNTI	AT4G38240			&alpha;-1,3-mannosyl-glycoprotein 2-&beta;-<em>N</em>-acetylglucosaminyltransferase
+AT5G17330	AT5G17330	5711014	5715077	glutamate decarboxylase
+AT1G55120	AT1G55120	20570265	20572953	levanase//hydrolase, hydrolyzing O-glycosyl compounds
+CS	NIL			citrate synthase (mitochondrial)
+MDL1	NIL			mandelonitrile lyase
+CYP716A17	NIL			oleanolic aldehyde 28-monooxygenase [multifunctional]
+P5CS	NIL			&delta;1-pyrroline-5-carboxylate synthetase
+HCEF1	AT3G54050			fructose 1,6-bisphosphatase
+C2	NIL			delta-guaiene synthase
+Zm00001d032046	Zm00001d032046	210548810	210553536	Zm00001d032046_T002.1
+CYP82G1	AT3G25180			TMTT synthase / DMNT synthase
+BGD4	NIL			lotaustralin beta-glucosidase
+OMT2	NIL			orcinol O-methyltransferase
+Lj1g0028210	Lj1g0028210			Lj1g0028210.1
+AT1G01710	AT1G01710	262828	267771	acyl-CoA thioesterase
+LAT2	NIL			lysophosphatidate acyltransferase
+AT5G50160	AT5G50160	20432997	20435968	oxidoreductase//ferric-chelate reductase
+5&beta;-POR	NIL			progesterone 5beta- reductase
+&beta;-FS	NIL			beta-farnesene synthase
+AT5G22500	AT5G22500	7470446	7474123	fatty acyl-CoA reductase (alcohol-forming)
+HIDH	NIL			2-hydroxyisoflavanone dehydratase
+AAT2	NIL			aspartate transaminase
+ufgt	NIL			flavonoid 7-<i>O</i>-glucosyltransferase
+AT1G50460	AT1G50460			glucokinase / fructokinase
+NAD5a	ATMG00513	140724	142998	NAD5c
+<i>LAR</i>	NIL			leucoanthocyanidin reductase
+CAO	AT1G44446	16850799	16853664	chlorophyllide a oxygenase
+Lj1g0015449	Lj1g0015449			Lj1g0015449.1
+AT2G05830	AT2G05830			AT2G05830
+DFR3	NIL			dihydroflavonol-4-reductase
+CYP714B1				gibberellin C13 oxidase
+HPT1	AT2G18950	8214424	8217456	homogentisate phytyltransferase
+DES6	NIL			Delta6-acyl-lipid desaturase
+AT2G26300	AT2G26300			GTPase
+ATPvD1		523506	526406	135171
+AT4G39330	AT4G39330	18291212	18293082	cinnamyl-alcohol dehydrogenase
+AtIMD2	AT1G80560	30292655	30295190	3-isopropylmalate dehydrogenase
+TCS1	NIL			caffeine synthase
+psbJ		172315	172467	Photosystem II reaction center protein J
+DPE1	AT5G64860	25942399	25946074	disproportionating enzyme
+AT4G33770	AT4G33770	16193424	16196430	inositol-tetrakisphosphate 1-kinase 3
+AT4G34030	AT4G34030	16301184	16304104	methylcrotonoyl-CoA carboxylase-beta subunit
+D7OMT	NIL			daidzein-7-O-methyltransferase
+Glyma.04G243900	Glyma.04G243900			Glyma.04G243900
+CYP82X2	NIL			secoberbine intermediate 3-hydroxylase
+Cre09.g415700	Cre09.g415700			Cre09.g415700.t1.1
+EGS1	NIL			eugenol synthase
+GA20ox2	AT5G51810	21072414	21074034	gibberellin 20-oxidase
+AACT1	AT5G47720	19348773	19351653	acetoacetyl-CoA thiolase
+Pavirv00069033m	NIL			Cinnamoyl CoA-reductase
+AT1G74470	AT1G74470	27994826	27996667	geranylgeranyl reductase
+AT2G22990	AT2G22990	9793396	9797259	sinapoylglucose:malate sinapoyltransferase
+AT3G04080	AT3G04080	1067797	1071274	apyrase//ATPase
+AT3G10550	AT3G10550	3292904	3296874	inositol or phosphatidylinositol phosphatase
+Lj3g0007604	Lj3g0007604			Lj3g0007604.1
+ADH1				alcohol dehydrogenase
+Des6	NIL			fatty acid Delta6-desaturase
+HI4'OMT	NIL			2,7,4'-trihydroxyisoflavanone-4'-O-methyltransferase
+potato starch synthase III	NIL			starch synthase III
+psbH		76747	77013	Photosystem II reaction center protein H
+TPS-Lim	NIL			limonene synthase
+AT1G74380	AT1G74380	27963239	27965115	xyloglucan 6-xylosyltransferase
+TDC1	NIL			taxadiene synthase
+FADX-1	NIL			(8,11)-linoleoyl desaturase
+AT5G55590	AT5G55590	22537137	22539084	pectinesterase
+AT1G47260	AT1G47260	17323613	17325924	NADH-ubiquinone oxidoreductase subunit
+LaBERS	NIL			trans-alpha-bergamotene synthase
+POPTR_0005s11950.1	POPTR_0005s11950.1			Ferulate 5-hydroxylase
+AMT1.1	NIL			ammonium transporter
+THAH	AT5G48000			thalianol hydroxylase
+IspF	AT1G63970	23742354	23744027	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+PANC				pantoate:&beta;-alanine ligase
+KAO1	AT1G05160	1487377	1490946	ent-kaurenoate oxidase
+CYP704B2				long-chain fatty acid &omega;-hydroxylase
+AT2G01850	AT2G01850	385198	387343	xyloglucan:xyloglucosyl transferase//ghydrolase, acting on glycosyl bonds
+Seita.6G048500	Seita.6G048500			Seita.6G048500.1.p
+AT1G10700	AT1G10700	3554105	3556504	ribose-phosphate diphosphokinase
+sbOMT3				5-n-alk(en)ylresorcinol O-methyltransferase
+CA9OMT				coniferyl alcohol 9-methyltransferase subunit
+DBAT	NIL			10-deacetylbaccatin III-10-O-caetyl transferase
+kcs12	NIL			amorpha-4,11-diene synthase
+MP67.2	NIL			ecto apyrase
+LOC_Os02g08100.1	LOC_Os02g08100			4-coumarate--CoA ligase
+AT3G57050	AT3G57050	21122679	21125641	cystathionine beta-lyase
+VvPNbCur	NIL			&beta;-curcumene synthase
+Lj3g0023543	Lj3g0023543			Lj3g0023543.1
+IGMT2	AT1G21120	7395217	7396762	indole glucosinolate methyltransferase
+CYP72A154	NIL			glycyrrhetaldehyde 30-monooxygenase [multifunctional]
+AT3G03540	AT3G03540	846357	848304	non-specific phospholipase C5
+XT1	AT3G62720	23212093	23213889	&alpha;-xylosyltransferase
+Seita.7G146000	Seita.7G146000			Seita.7G146000.1.p
+ROMT-15				tricin synthase 1
+NOS	NIL			noscapine synthase
+UGT85A1	AT1G22400	7903649	7906662	<i>trans</i>-zeatin-<i>O</i>-&beta;-D-glycosyltransferase//glucuronosyltransferase
+CPN60B1		251686	259921	132530
+AT5G18200	AT5G18200	6015229	6016784	ADP:glucose-1-phosphate adenylyltransferase
+CYP81Q1	NIL			(+)-piperitol/(+)-sesamin synthase
+AT2G30390	AT2G30390	12958104	12961167	ferrochelatase II
+lapr	NIL			adenosine 5'-phosphosulphate reductase subunit
+GA3ox1	NIL			gibberellin 3-oxidase
+bAS1	NIL			beta-amyrin synthase
+LOX1	AT1G55020	20529375	20533940	lipoxygenase
+psaC		189462	189707	ChreCp067
+ANS				anthocyanidin synthase
+THAD	AT5G47990			thalian-diol desaturase
+PT2				deoxycohumulone 6-prenyltransferase [multifunctional]
+AAO4	AT1G04580			benzaldehyde dehydrogenase / benzaldehyde oxidase
+AT3G55010	AT3G55010	20397596	20399783	phosphoribosylformylglycinamidine cyclo-ligase
+Soltu.DM.07G021470	Soltu.DM.07G021470			Soltu.DM.07G021470.1 // Soltu.DM.07G021470.2 // Soltu.DM.07G021470.3 // Soltu.DM.07G021470.4 // Soltu.DM.07G021470.5 // Soltu.DM.07G021470.6 // Soltu.DM.07G021470.7 // Soltu.DM.07G021470.8
+GABA-TP1	NIL			gamma aminobutyrate transaminase
+MTS2	NIL			monoterpene synthase 2
+AT1G56430	AT1G56430			nicotianamine synthase
+AT5G56080	AT5G56080	22728628	22729590	nicotianamine synthase
+AT4G11030	AT4G11030	6738116	6742225	long-chain-fatty-acid-CoA ligase
+GS-OX3	AT1G62560	23163488	23166314	glucosinolate S-oxygenase
+SSR2				sterol side chain reductase 2
+AT3G02570	AT3G02570	543353	545602	mannose-6-phosphate isomerase
+TAG1	AT2G19450	8433288	8436818	diacylglycerol acyltransferase
+PKHD1-1		224912	240968	171165
+Cre10.g420350	Cre10.g420350	2054506	2055330	76146
+HEMA1	AT1G58290	21627391	21629865	glutamyl-tRNA reductase
+CYC-1				cembratrienol synthase
+AT1G16400	AT1G16400	5605153	5607467	CYP79F2
+dad1	AT2G44810	18486128	18487268	DAD1//triacylglycerol lipase
+NAD5c	ATMG00060.1	20571	22086	NAD5c
+Sb04g005210.1				4-Coumarate:coenzyme A ligase
+GbCLH	NIL			chlorophyllase
+CbIGS1	NIL			Cb-isoeugenol synthase
+ADH	AT1G77120	28980288	28982311	alcohol dehydrogenase
+AT3G01120	AT3G01120	38766	41939	cystathionine gamma-synthase
+GapCp-1	AT1G79530	29920795	29924127	glyceraldehyde-3-phosphate dehydrogenase
+AT2G26540	AT2G26540			uroporphyrinogen III synthase
+MOMT1	NIL			flavonol 3'/5'-methyltransferase
+sm2				1,2-rhamnosyltransferase
+DES6		1615000	1619552	56668
+GGH1	AT1G78660	29590570	29593193	gamma-glutamyl hydrolase
+AT5G24300	AT5G24300	8266801	8271199	transferase, transferring glycosyl groups
+AT1G75270	AT1G75270	28253736	28255011	glutathione dehydrogenase (ascorbate)
+NUOB14		1821830	1823802	57090
+GGPS4	AT2G18640	8090822	8091970	geranylgeranyl pyrophosphate synthase
+PAP26	AT5G34850	13125384	13128861	acid phosphatase
+CAT3	AT1G20620	7143057	7146530	catalase
+SAD9	NIL			anthranilate N-methyltransferase
+FAD2-2	NIL			delta9 fatty acid conjugase-like
+FkOMT72				matairesinol 4-<i>O</i>-methyltransferase
+Glyma.02G104500	Glyma.02G104500			Glyma.02G104500
+Soltu.DM.07G023630	Soltu.DM.07G023630			Soltu.DM.07G023630.1
+ATP1	NIL	93735	98090	76602
+GER1	AT1G73250	27548667	27550096	GDP-4-keto-6-deoxymannose-3,5-epimerase-4-reductase
+SDH2-3	AT5G65165	26051648	26053153	succinate dehydrogenase
+5PTase7	AT2G32010	13631869	13636223	phosphatidyl inositol polyphosphate 5-phosphatase
+DQ124868	NIL			L-idonate 5-dehydrogenase
+TNMT	NIL			canadine N-methyltransferase / tetrahydroprotoberberine cis-N-methyltransferase
+MRN1	AT5G42600			marneral synthase
+Lj1g0022791	Lj1g0022791			Lj1g0022791.1
+LCO	NIL			lycopene cleavage oxygenase
+GWD	AT1G10760	3581035	3590044	glucan, water dikinase
+PAAS	NIL			phenylacetaldehyde synthase
+Glyma.18G266100	Glyma.18G266100			Glyma.18G266100
+PT1L				naringenin chalcone dimethylallyltransferase [multifunctional]
+LOC_Os02g04710				cycloartenol synthase
+AT1G05680	AT1G05680	1703091	1704688	UDP-glucosyltransferase
+IDH-III	AT4G35650	16908524	16910195	NAD+-dependent isocitrate dehydrogenase regulatory subunit
+ADH1	Cre20.g758200.t1.1			alcohol dehydrogenase / acetaldehyde dehydrogenase
+AT2G45550	AT2G45550			geraniol 9-/8- hydroxylase
+AT9	NIL			acetyl-CoA:alcohol O-acyltransferase
+EAS34	NIL			5-epi-aristolochene synthase
+DES				acyl-lipid &omega;-13 desaturase
+TYRDC1	AT4G28680	14155254	14158722	tyrosine decarboxylase
+DWARF27				&beta;-carotene isomerase
+Soltu.DM.07G021350	Soltu.DM.07G021350			Soltu.DM.07G021350.1
+LjContig00081g0023066	LjContig00081g0023066			LjContig00081g0023066.1
+ASAT4				sucrose triacyl 2-<i>O</i>-acetyltransferase
+AT5G67590	AT5G67590	26975227	26976783	NADH-ubiquinone oxidoreductase 18/21 kDa subunit
+ISPR	NIL			(-)-isopiperitenone reductase
+kdsA1	AT1G79500	29908319	29911452	3-deoxy-8-phosphooctulonate synthase
+VPS	NIL			phlorisovalerophenone synthase
+Mg17	NIL			alpha-terpineol synthase
+AT2G01290	AT2G01290	148918	150381	ribose-5-phosphate isomerase
+Hyp-1	NIL			phenolic oxidative coupling protein
+petB		20007	20654	ChreCp008
+AT3G47450	AT3G47450	17494053	17497332	GTPase
+NAD3		331175	338212	195711
+UGT71C4	AT1G07250	2225899	2227565	quercetin 7-O-glucosyltransferase / quercetin 3-O-glucosyltransferase
+CYP82D61				(-)-deoxypodophyllotoxin hydroxylase
+CCoAOMT	NIL			caffeoyl-CoA-O-methyltransferase
+psaB				Photosystem I P700 chlorophyll a apoprotein A2
+pTQPT1	NIL			quinolinate phosphoribosyltransferase (decarboxylating)
+AT2G38040.1	AT2G38040.1	15924171	15928248	acetyl-CoA carboxyltransferase alpha
+AT5G09300	AT5G09300	2884180	2886864	branched-chain &alpha;-keto acid decarboxylase E1-&alpha; subunit
+AH12				oleoyl-lipid 12-hydroxylase/desaturase
+CHS5_SOYBN	NIL			chalcone synthase
+PsaG				Photosystem I reaction center subunit V
+LPD2	AT3G17240	5889878	5892258	mitochondrial lipoamide dehydrogenase 2
+NADP-ME3	AT5G25880	9024552	9028380	NADP-malic enzyme
+Bx1				indole-3-glycerol phosphate lyase
+AT2G40840	AT2G40840	17052041	17058025	4-alpha-glucanotransferase
+CYP81E7	NIL			isoflavone 2'-hydroxylase
+MTO2	AT4G29840	14599222	14601061	threonine synthase
+Lj3g0008243	Lj3g0008243			Lj3g0008243.1
+Soltu.DM.07G014190	Soltu.DM.07G014190			Soltu.DM.07G014190.1 // Soltu.DM.07G014190.2 // Soltu.DM.07G014190.3
+NUO17		111840	113344	131464
+AT5G26030	AT5G26030	9096463	9099188	ferrochelatase I
+Cre13.g567600	Cre13.g567600	892019	894348	187882
+NSY	NIL			neoxanthin synthase
+CYP86A22	NIL			cytochrome P450 fatty acid omega-hydroxylase [multifunctional]
+pSP-54	NIL			subunit pSP-54
+Glyma.10G062600	Glyma.10G062600			Glyma.10G062600
+UGT75B2	AT1G05530	1636495	1637862	UDP-glucosyltransferase//abscisic acid glucosyltransferase
+Glyma.09G128400	Glyma.09G128400			Glyma.09G128400
+hvDMAS1	NIL			deoxymugineic acid synthase
+VTE5	AT5G04490	1279761	1281670	phytol kinase
+AH12				oleate 12-hydroxylase
+KAO2	AT2G32440	13782656	13785079	ent-kaurenoate oxidase
+GAME8				22-hydroxycholesterol 26-hydroxylase
+DFR	NIL			dihydroflavonol-4-reductase
+g-teo	NIL			terpinolene synthase
+Soltu.DM.07G012440	Soltu.DM.07G012440			Soltu.DM.07G012440.1
+LPP1	AT2G01180			lipid phosphatidate phosphatase
+petG		103541	103654	ChreCp045
+Glyma.17G166500	Glyma.17G166500			Glyma.17G166500
+At3g29590	NIL			anthocyanin 5-<i>O</i>-glucoside 6"-<i>O</i>-malonyltransferase
+CYP71E7	NIL			CYP71E7
+PFOMT-1	NIL			phenylpropanoid and flavonoid O-methyltransferase
+LHCB4		96303	98248	Chlorophyll a-b binding protein CP29
+AT3G19710	AT3G19710	6846975	6849503	methionine-oxo-acid transaminase
+ADH1	NIL			alcohol dehydrogenase
+OMT3				pluviatolide 4-<i>O</i>-methyltransferase
+NRS/ER	AT1G63000	23346058	23347778	dTDP-4-dehydrorhamnose 3,5-epimerase//UDP-4-keto-rhamnose-4-keto-reductase//dTDP-4-dehydrorhamnose reductase//UDP-4-keto-6-deoxy-glucose-3,5-epimerase
+ILL4	At1g51760			jasmonoyl-L amino acid hydrolase ILL4
+UGT71B5	AT4G15280	8719182	8720618	UDP-glycosyltransferase
+Zm00001d011876	Zm00001d011876	163614240	163618286	Zm00001d011876
+AT2G37940	AT2G37940			inositolphosphorylceramide synthase
+AT5G64440	AT5G64440	25782976	25787726	N-(long-chain-acyl)ethanolamine deacylase
+LePGT-1	NIL			4-hydroxybenzoate geranyltransferase
+OAT	NIL			ornithine delta-aminotransferase
+AT3G59970	AT3G59970	22162198	22165460	methylenetetrahydrofolate reductase (NADPH)
+AT1G58300	AT1G58300	21631677	21633661	oxidoreductase
+AT1G32380	AT1G32380	11681732	11684458	ribose-phosphate diphosphokinase
+PSY				chloroplastic phytoene synthase
+PLD epsilon	AT1G55180	20588724	20591296	phospholipase D
+Acl1	NIL			holo-[acyl carrier protein]
+Cpal2	NIL			delta12 linoleate epoxygenase
+AT5G35360	AT5G35360	13601388	13605726	biotin carboxylase
+AT2G20860	AT2G20860	8986660	8988307	lipoic acid synthase
+PRX1	NIL			aurone synthase
+AT1G27450	AT1G27450	9531826	9534101	adenine phosphoribosyltransferase
+PWD	AT5G26570			phosphoglucan, water dikinase
+COX3	ATMG00730	217631	219077	complex IV subunit 3
+AT2G14920	AT2G14920	6425281	6426318	brassinosteroid sulfotransferase
+SSTLH1	NIL			germacrene B synthase
+Cre06.g282150	Cre06.g282150	466184	468195	130596
+Soltu.DM.10G003680	Soltu.DM.10G003680			Soltu.DM.10G003680.1
+CHS	NIL			chalcone synthase
+MGD1	AT4G31780	15374005	15377140	UDP-galactose:DAG galactosyltransferase
+NFS1	AT5G65720	26313479	26315298	cysteine desulfurase//transaminase
+CAS1	AT2G07050	2924444	2930669	cycloartenol synthase
+CYC1		44168	50152	133395
+CSD2	AT2G28190	12021575	12023646	copper, zinc superoxide dismutase
+CYP71CB1				sesquiterpenoid 3&beta;-hydroxylase
+ADCL	NIL			ADCL subunits
+PKS3	NIL			aloesone synthase
+ASAT4				sucrose acetyltransferase
+AT5G06090	AT5G06090	1835107	1836723	glycerol-3-phosphate O-acyltransferase
+AT2G04400	AT2G04400	1531147	1533734	indole-3-glycerol-phosphate synthase
+AT5G13440	AT5G13440	4308132	4310184	Rieske iron-sulfur subunit
+LPP&gamma;	AT5G03080			plastidic phosphatidic acid phosphatase
+BPAO2	NIL			polyamine oxidase
+AANTSYNA	NIL			alpha1 anthranilate synthase
+ILL2	At5g56660			indole-3-acetyl-L-alanine hydrolase
+5GT	NIL			flavonoid 5-<i>O</i>-glucosyltransferase
+AT5G16760	AT5G16760	5509677	5511235	Ins(1,3,4)P3 6-kinase / Ins(1,3,4)P3 5-kinase
+LOX1	NIL			9-lipoxygenase
+DPMS1	AT1G20575	7126762	7128735	dolichyl-phosphate beta-D-mannosyltransferase
+G6PD2	AT5G13110	4158814	4161823	glucose-6-phosphate 1-dehydrogenase
+PcFSI	NIL			flavone synthase I
+Lj6g0021874	Lj6g0021874			Lj6g0021874.1
+PANB2	AT3G61530	22782439	22784765	ketopantoate hydroxymethyltransferase
+eafar	NIL			alpha farnesene synthase
+DTS2	NIL			9beta-pimara-7,15-diene synthase
+CCS1	NIL			caffeine synthase
+atpE	NIL	59955	60380	ChreCp023
+TKPR2	AT1G68540	25723689	25725028	oxidoreductase
+CbEGS2	NIL			Cb-eugenol synthase
+AT1G78950	AT1G78950	29689325	29693566	beta-amyrin synthase
+F3'HI				flavonoid 3'-monooxygenase
+FPS1	NIL			farnesyl pyrophosphate synthase
+AT1G25220	AT1G25220	8837057	8839488	anthranilate synthase
+AtCoaC	AT3G18030	6167650	6168954	phosphopantothenoylcysteine decarboxylase
+CDS				copalyl diphosphate synthase
+Peaxi162Scf00245g00010	Peaxi162Scf00245g00010			Peaxi162Scf00245g00010
+85K11				geraniol glucosyltransferase
+HIUHase	NIL			hydroxyisourate hydrolase
+RBCS2A		6506	7637	108283
+CaXMT1	NIL			7-methylxanthosine synthase
+CYP71Z18	100273457			zealexin A1 synthase
+P450 monooxygenase	NIL			cyt P450 monooxygenase
+NADK3	AT1G78590	29569142	29571268	NADK3 subunit
+Glyma.12G058302	Glyma.12G058302			Glyma.12G058302
+Lj3g0014016	Lj3g0014016			Lj3g0014016.1
+FACL				short chain fatty acid CoA ligase
+NADK2	AT1G21640	7588586	7592879	NAD kinase
+Glyma.10G108400	Glyma.10G108400			Glyma.10G108400
+PLR	NIL			(+)-pinoresinol/(-)-lariciresinol reductase
+AT4G01190.1	AT4G01190.1	504211	506131	1-phosphatidylinositol-4-phosphate 5-kinase
+AT5G17990	AT5G17990	5957215	5959907	anthranilate phosphoribosyltransferase
+AT4G37840	AT4G37840			glucokinase / fructokinase
+Lj1g0014612	Lj1g0014612			Lj1g0014612.1
+FSD3	AT5G23310	7850526	7852535	iron superoxide dismutase
+Seita.7G233600	Seita.7G233600			Seita.7G233600.1.p
+SbCHS2				SbCHS2 subunit
+AT3G57560	AT3G57560	21321802	21323289	acetylglutamate kinase
+PF3R4	NIL			anthocyanin 5-O-glucosyltransferase
+CAT2	AT4G35090	16700347	16703330	catalase 2 subunit
+<i>cis</i>ZOG1	NIL			cis-zeatin-O-glucosyltransferase
+OMT1	NIL			orcinol O-methyltransferase
+AT1G74540	AT1G74540			CYP98A8
+alliinase	NIL			S-alk(en)-L-cysteine sulfoxide lyase
+UAM1				UDP-arabinopyranose mutase 1
+COR1.1	NIL			codeinone reductase
+AT3G32040	AT3G32040	13051417	13052753	farnesyltranstransferase
+PNSesq	NIL			sesquithujene synthase
+GA20ox1	AT4G25420	12990894	12992468	gibberellin 20-oxidase
+AT5G64813	AT5G64813			GTPase
+HEMA2	AT1G09940	3236997	3239556	glutamyl-tRNA reductase
+AT3G50740	AT3G50740	18866142	18867865	UDP-glycosyltransferase//coniferyl-alcohol glucosyltransferase
+PANC	AT5G48840	19820783	19822303	pantoate:&beta;-alanine ligase
+GNT2	At2g05320			&alpha;-1,6-mannosyl-glycoprotein 2-&beta;-<em>N</em>-acetylglucosaminyltransferase
+LjContig00155g0020028	LjContig00155g0020028			LjContig00155g0020028.1
+UGT84B1	AT2G23260	9907009	9908519	indole-3-acetic acid glucosyltransferase / abscisic acid glucosyltransferase
+AT1G14080	AT1G14080			alpha (1,2)fucosyltransferase 6
+Zm00001d032152	Zm00001d032152	214573739	214579407	Cynnamoyl-CoA reductase
+AF033538	NIL			Caffeic acid O-methyltransferase
+AT2G46370	AT2G46370	19040860	19043732	jasmonoyl-amino acid synthetase
+Cre10.g461050	Cre10.g461050	2309857	2314290	Cre10.g461050.t1.1
+AT5G07010	AT5G07010	2174679	2176107	sulfotransferase
+CYP93B23	NIL			apigenin synthase
+ACS7	AT4G26200	13275316	13277197	1-aminocyclopropane-1-carboxylate synthase
+FCLY	AT5G63910			farnesylcysteine lyase
+AT4G29460	AT4G29460	14482881	14483942	phospholipase A2
+AT1G61850	AT1G61850			phospholipase A1
+Lj3g0012762	Lj3g0012762			Lj3g0012762.1
+QCR9		676415	677319	159566
+f-<i>E</i>&alpha;bis	NIL			(<i>E</i>)-&alpha;-bisabolene synthase
+DVR	AT5G18660	6220783	6222230	3,8-divinyl protochlorophyllide 8-vinyl reductase
+ASAT3				sucrose diacyl 3'-<i>O</i>-acyltransferase
+IDH-II	AT2G17130	7467896	7469636	NAD+-dependent isocitrate dehydrogenase regulatory subunit
+Glyma.02G105000	Glyma.02G105000			Glyma.02G105000
+Glyma.14G198100	Glyma.14G198100			Glyma.14G198100
+AT4G37400	AT4G37400			CYP81F3 monooxygenase
+CYP98A6	NIL			4-coumaroyl-4'-hydroxyphenyllactate 3-hydroxylase
+TPS-Bis	NIL			(<i>E</i>)-&alpha-bisabolene synthase
+ASN3	AT5G10240	3212689	3216467	asparagine synthase (glutamine-hydrolyzing)
+bx7				TRIBOA glucoside methylase
+psaC				Photosystem I iron-sulfur center
+AT2G24580	AT2G24580	10451869	10453321	sarcosine oxidase
+AT5G42080	AT5G42080	16837512	16841981	GTPase
+PNAE	NIL			polyneuridine aldehyde esterase
+CYP79B3	AT2G22330	9495634	9498267	CYP79B3
+AT3G30775	AT3G30775	12451115	12453727	proline dehydrogenase
+lox10				13-S-lipoxygenase
+FNS I-1				flavone synthase I
+CRTISO		436719	442856	carotenoid isomerase
+AT5G49810	AT5G49810	20256569	20263606	S-adenosylmethionine-dependent methyltransferase
+CYP706B1	NIL			(+)-delta-cadinene-8-hydroxylase
+Ss5MaT1	NIL			anthocyanin 5-O-glucoside-6'''-O-malonyltransferase
+nad1		10346	11224	ChrepMp07
+cyMDH	NIL			malate dehydrogenase
+AT5G17920	AT5G17920	5935040	5939489	methionine synthase
+AT3G11980	AT3G11980	3814242	3817123	fatty acyl-CoA reductase (alcohol-forming)
+AT1G65880	AT1G65880			benzoate-CoA ligase
+BAM3	AT4G17090			&beta;-amylase
+AT5G64070.1	AT5G64070.1	25654202	25661672	1-phosphatidylinositol 4-kinase
+Lj1g0006975	Lj1g0006975			Lj1g0006975.2
+AT1G48420	AT1G48420	17900266	17902472	D-cysteine desulfhydrase
+Cre07.g325500	Cre07.g325500			Cre07.g325500.t1.1
+UGT80B1	AT1G43620	16427852	16432640	3&beta;-hydroxy sterol glucosyltransferase
+PfAT208	NIL			anthocyanidin 3-O-glucoside 6''-O-acyltransferase [multifunctional]
+UGT78D2	AT5G17050	5607791	5609495	quercetin 3-O-glucosyltransferase [multifunctional]
+CPI				cyclopropyl sterol isomerase
+BCE2	AT3G06850	2157980	2160629	branched-chain keto-acid dehydrogenase complex E2 subunit//alpha-ketoacid dehydrogenase
+CLA1	AT4G15560	8883905	8887563	1-deoxy-D-xylulose-5-phosphate synthase
+UGT71A10	NIL			lignan glucosyltransferase
+PDS2	AT3G11945	3779845	3782960	homogentisate solanesyltransferase
+Soltu.DM.07G021400	Soltu.DM.07G021400			Soltu.DM.07G021400.1
+SAD10	NIL			UDP-glucose: acyl glucosyltransferase
+peroxidase 3	NIL			flavonoid peroxidase 3
+BBE	NIL			berberine bridge enzyme
+NUOP4		1103627	1104309	191146
+HMT1	NIL			homocysteine methyltransferase
+GolS3	AT1G09350	3019821	3021443	transferase, transferring hexosyl groups//transferase, transferring glycosyl groups
+NAR1.4	Cre07.g335600	404277	408766	132235
+BIS2	NIL			biphenyl synthase
+ATP1B	NIL	2190181	2196355	141145
+Glyma.05G181100	Glyma.05G181100			Glyma.05G181100
+AT4G19690	AT4G19690			iron regulated transporter
+A/N-InvA	AT1G56560	21196164	21198777	neutral invertase
+3&beta;HSD				3&beta;-hydroxysteroid/C4-decarboxylase
+fad2	AT3G12120			omega-6-oleate desaturase
+PH1	NIL			prunasin hydrolase
+CHLM	AT4G25080	12876958	12878657	magnesium protoporphyrin IX methyltransferase
+AT1G61720	AT1G61720	22794833	22796465	anthocyanidin reductase
+AT5G23980	AT5G23980	8098055	8101326	ferric-chelate reductase
+ARA1	AT4G16130	9120879	9127950	arabinose kinase
+ALDH10A9	AT3G48170	17797125	17800993	betaine aldehyde / aminoaldehyde dehydrogenase
+OsNAS2	NIL			nicotianamine synthase
+oasA1	AT4G14880	8517955	8520464	cysteine synthase
+KOL4	NIL			cytochrome P450 dependent diterpene olefin hydroxylase
+NTP1	NIL			nucleoside-triphosphatase
+GAUT1	AT3G61130	22632967	22636691	polygalacturonate 4-alpha-galacturonosyltransferase
+PAP4	NIL			purple acid phosphatase
+AT3G54470	AT3G54470	20179073	20181275	orotate phosphoribosyltransferase
+&beta;-primeverosidase	NIL			beta-primeverosidase (Yabukita)
+NAD-SDH	NIL			sorbitol dehydrogenase
+RGP2	AT5G15650	5092160	5094497	UDP-L-arabinose mutase
+LjContig00141g0008391	LjContig00141g0008391			LjContig00141g0008391.1
+GA2ox3	NIL			gibberellin 2-oxidase
+AT1G72040	AT1G72040	27115556	27118004	phosphotransferase, alcohol group as acceptor
+CHLI	NIL			magnesium chelatase subunit I
+Seita.1G108600	Seita.1G108600			Seita.1G108600.1.p
+GABA-TP2	NIL			gamma aminobutyrate transaminase
+PMT1	NIL			putrescine N-methyltransferase
+Glyma.02G105100	Glyma.02G105100			Glyma.02G105100
+CYP71AV1	NIL			amorpha-4,11-diene monooxygenase
+AT3G03530	AT3G03530	842506	845050	non-specific phospholipase C4
+CHLD	NIL			magnesium chelatase subunit D
+Cre09.g405850	Cre09.g405850	732372	737858	Cre09.g405850.t1.1
+IPT5	AT5G19040	6361839	6363415	adenylate dimethylallyltransferase
+DCS	NIL			diketide-CoA synthase
+AT1G47510	AT1G47510	17438041	17440836	gphosphatidylinositol-4,5-bisphosphate 5-phosphatase//gphosphatidylinositol-3,5-bisphosphate 5-phosphatase//gphosphatidylinositol-3,4,5-trisphosphate 5-phosphatase
+AT4G33520	AT4G33520	16118899	16126154	ATPase, coupled to transmembrane movement of ions, phosphorylative mechanism
+Glyma.16G033700	Glyma.16G033700			Glyma.16G033700
+Lj3g0018701	Lj3g0018701			Lj3g0018701.1
+ATPvE		1486367	1488471	190371
+AT2G38670	AT2G38670	16175915	16178996	ethanolamine-phosphate cytidylyltransferase
+ARS2				5-pentadecatrienylresorcinol synthase
+LFS	NIL			lachrymatory factor synthase
+ATC4H	AT2G30490	13000740	13002847	cinnamate 4-hydroxylase
+GAME18				&gamma;-tomatine glucosyltransferase
+AT1G31860	AT1G31860	11434088	11436587	phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase
+AT3G57650	AT3G57650	21360484	21364151	1-acylglycerol-3-phosphate O-acyltransferase
+CYP98A9	AT1G74550			tricoumaroylspermidine <i>meta</i>-hydroxylase
+CYP94C1	AT2G27690			laurate 12-hydroxylase / fatty acid omega-hydroxylase
+HQT	NIL			hydroxycinnamoyl-CoA quinate hydroxycinnamoyltransferase
+AT4G35020	AT4G35020	16672944	16674776	GTPase
+GA2ox1	NIL			gibberellin 2-oxidase
+ABA1	AT5G67030	26770736	26774462	zeaxanthin epoxidase
+4CL3	AT1G65060	24170865	24175165	4-coumarate-CoA ligase
+VTC2	AT4G26850			GDP-L-galactose phosphorylase
+FOMT5	NIL			flavonoid 4'-<i>O</i>-methyltransferase
+Glyma.02G105300	Glyma.02G105300			Glyma.02G105300
+UGT85B1				UDP-glucose:p-hydroxymandelonitrile-O-glucosyltransferase
+AT5G65110	AT5G65110	26026861	26029745	acyl-CoA oxidase
+MNR	NIL			neomenthol dehydrogenase
+SES	NIL			selinene synthase
+LAS1	AT3G45130	16523256	16528507	lanosterol synthase
+ASAT2				sucrose 4-isovalerate-3-<i>O</i>-acyltransferase
+PKS	NIL			chalcone synthase
+AT5G10300	AT5G10300	3239618	3240871	hydroxynitrile lyase
+GS-OX1	AT1G65860	24502729	24506408	glucosinolate S-oxygenase
+IpeGlu1				6-O-methyl-deacetylisoipecoside beta-glucosidase
+UGT71C3	AT1G07260	2227593	2229318	UDP-glycosyltransferase
+PMDH1	AT2G22780	9696495	9699223	malate dehydrogenase
+AT5G25120	AT5G25120			AT5G25120
+Glyma.10G262700	Glyma.10G262700			Glyma.10G262700
+CHLH	NIL			magnesium chelatase subunit H
+AT4G11640	AT4G11640	7021764	7023312	serine racemase
+CA1	AT3G01500	194731	198026	carbonate dehydratase
+cwINV4	AT2G36190	15181809	15184949	cell wall invertase
+AT2G35390	AT2G35390	14902358	14904901	ribose-phosphate diphosphokinase
+AT5G01310	AT5G01310			adenylylsulfate sulfohydrolase
+MES1				methylsalicylate esterase
+AT3G52880	AT3G52880	19612190	19615432	monodehydroascorbate reductase (NADH)
+Soltu.DM.07G021480	Soltu.DM.07G021480			Soltu.DM.07G021480.1 // Soltu.DM.07G021480.2
+VHA1	NIL			vacuolar H+-ATPase
+PcTps-C	NIL			C-geraniol synthase
+GolS1	AT2G47180	19375868	19377511	galactinol synthase
+AT2G38230	AT2G38230			pyridoxal 5'-phosphate synthase
+CER6	AT1G68530	25716251	25718470	very-long-chain 3-ketoacyl-CoA synthase
+OsHAK1	NIL			potassium transporter
+Glyma.03G187600	Glyma.03G187600			Glyma.03G187600
+AT1G16410	AT1G16410	5608801	5611420	CYP79F1
+ADCS	NIL			aminodeoxychorismate synthase
+Glyma.19G136700	Glyma.19G136700			Glyma.19G136700
+Cre06.g251450	Cre06.g251450			quinolinate synthetase
+des6	NIL			&Delta;<sup>6</sup>-acyl-lipid desaturase
+Soltu.DM.07G021430	Soltu.DM.07G021430			Soltu.DM.07G021430.1
+AT1G69830	AT1G69830	26291944	26296716	alpha-amylase
+CHMT_MEDSA	NIL			isoliquiritigenin-2'-O-methyltransferase
+AMT1.3	AT3G24300			ammonium transporter
+LjContig00254g0009906	LjContig00254g0009906			LjContig00254g0009906.1
+LjContig00155g0014724	LjContig00155g0014724			LjContig00155g0014724.1
+Bx3				indolin-2-one monooxygenase
+AT1G15710	AT1G15710	5404353	5405681	prephenate dehydrogenase (NADP+)
+LCI20	NIL	1704090	1710687	205915
+EUO57974	NIL			loganic acid O-methyltransferase
+PSAK	g17518.t1	545324	546993	192478
+AT1G47840	AT1G47840	17618547	17621334	hexokinase//glucokinase
+IPP1	AT5G16440	5371630	5373738	isopentenyl-diphosphate delta-isomerase
+C5-SD2	101264777			sterol C-5(6) desaturase 2
+AT5G57220	AT5G57220			CYP81F2 monooxygenase
+fomt1	NIL			methyl-quercetin/quercetagetin 3'/5'-<i>O</i>-methyltransferase
+ATS2	AT4G30580	14932340	14934534	1-acylglycerol-3-phosphate O-acyltransferase
+zFPS	NIL			Z,Z-farnesyl pyrophosphate synthase
+Cre02.g116650	Cre02.g116650			Cre02.g116650.t1.2
+PKp1	AT3G22960	8139242	8141992	pyruvate kinase, alpha subunit
+SMO4				sterol methyl oxidase 4
+IPT4	AT4G24650	12720404	12721453	adenylate dimethylallyltransferase
+AT5G26667	AT5G26667	9275950	9278599	UMP/CMP kinase
+AT1	NIL			acetyl-CoA:alcohol O-acyltransferase
+AT1G28130	AT1G28130	9825296	9828054	indole-3-acetic acid amido synthetase
+AT3G23490	AT3G23490			AT3G23490
+CFAT	NIL			coniferyl acohol acetyltransferase
+WSD1	AT5G37300			wax ester synthase
+AT4G30340	AT4G30340	14838315	14841073	diacylglycerol kinase
+SQD1	AT4G33030	15935419	15937810	UDP-sulfoquinovose synthase
+LOC_Os08g06100	NIL			Quercetin 3'-O-methyltransferase
+laccase	NIL			lacquer laccase
+OLS	NIL			OLS subunit // olivetol synthase
+ASAT3-F				sucrose acyltransferase
+Peaxi162Scf00047g01129	Peaxi162Scf00047g01129			Peaxi162Scf00047g01129
+AY376412	NIL			norcoclaurine synthase
+DHS1	AT4G39980	18539570	18542087	3-deoxy-7-phosphoheptulonate synthase
+ISA2	AT1G03310			isoamylase non-catalytic subunit
+PTR2	NIL			pterocarpan reductase
+4CL2				4-coumarate--CoA ligase 1
+pAMT	NIL			putative aminotransferase
+VH	NIL			vicianin hydrolase
+IRT2	NIL	1251900	1254735	196635
+ppck1	GRMZM2G178074_P01	214716081	214717618	C4 phosphoenolpyruvate carboxylase kinase
+AT3G55260	AT3G55260	20500225	20504053	hydrolase, hydrolyzing O-glycosyl compounds//beta-N-acetylhexosaminidase
+DCD	NIL			dammaradiene synthase
+AT1G74030	AT1G74030	27842845	27845600	phosphopyruvate hydratase
+MAO	NIL			monoamine oxidase
+NUOP1		1313437	1314708	143441
+LjContig00222g0010297	LjContig00222g0010297			LjContig00222g0010297.1
+LIP1				diacylglycerol lipase
+PDS	AT4G14210	8190207	8195260	phytoene dehydrogenase
+AT5G04140	AT5G04140	1129853	1138443	glutamate synthase (ferredoxin)
+AtPLC2	AT3G08510			AtPLC2
+AIH	AT5G08170	2628326	2631096	agmatine iminohydrolase//agmatine deiminase
+Glyma.02G186000	Glyma.02G186000			Glyma.02G186000
+LOC_Os04g09900	LOC_Os04g09900	5298069	5306436	syn-copalyl diphosphate synthase
+NAD7	ATMG00510	132071	138153	NADH-ubiquinone oxidoreductase 49kDa subunit
+Soltu.DM.07G017400	Soltu.DM.07G017400			Soltu.DM.07G017400.1
+PPD5	AT5G11450			PsbP domain-containing protein 5
+AT3G46970	AT3G46970	17312379	17317431	transferase, transferring glycosyl groups
+AT1G67990	AT1G67990			trihydroxyferuloyl spermidine O-methyltransferase//tricaffeoyl spermidine O-methyltransferase
+FXG1	AT1G67830	25435249	25436653	alpha-fucosidase
+SABP2				methylsalicylate esterase subunit
+SMTA	NIL			selenocysteine methyltransferase
+cbfd2				carotenoid &beta;-ring 4-dehydrogenase
+AT2G36530	AT2G36530	15327835	15330948	phosphopyruvate hydratase
+5PTase12	AT2G43900	18185665	18190947	inositol-polyphosphate 5-phosphatase
+GGPP	NIL			geranylgeranyl pyrophosphate synthase
+CYP79A1	Sobic.001G012300			tyrosine <i>N</i>-monooxygenase
+NADP-ME2	AT5G11670	3754250	3758243	NADP-malic enzyme
+AT5G49740	AT5G49740	20222568	20225893	oxidoreductase//ferric-chelate reductase
+AT2G42910	AT2G42910	17863345	17865674	ribose-phosphate diphosphokinase
+zss1	NIL			alpha-humulene synthase
+CesA7	AT5G17420	5736632	5741467	UDP-glucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+ACX5	AT2G35690	15006833	15010145	OPC8 acyl-CoA oxidase / OPC6 acyl-CoA oxidase
+AT5G06340	AT5G06340	1936367	1938115	bis(5'-nucleosyl)-tetraphosphatase (asymmetrical)
+AtIMD1	AT5G14200	4576204	4578242	3-isopropylmalate dehydrogenase
+AT2G03760	AT2G03760	1149334	1150660	sulfotransferase
+F3GT1	NIL			cyanidin 3-<i>O</i>-galactosyltransferase
+AT5G23530	AT5G23530			carboxylesterase
+Kas	NIL			&beta;-ketoacyl ACP synthase
+Peaxi162Scf00901g00420	Peaxi162Scf00901g00420			Peaxi162Scf00901g00420
+MGD				monogalactosyldiacylglycerol synthase
+CYP74A1	AT5G42650	17114823	17116623	allene oxide synthase
+U80676				acyl-CoA reductase (NADH)
+Cre07.g327400	Cre07.g327400	2059541	2061377	Cre07.g327400.t1.1
+AAE3	AT3G48990			oxalate--CoA ligase
+AT1G05260	AT1G05260	1529766	1531438	peroxidase
+Acs2	NIL			acridone synthase
+NUOB18		503760	505403	164272
+CTOMT1				catechol <i>O</i>-methyltransferase
+AGK1	AT2G41880	17481697	17484301	guanylate kinase
+Soltu.DM.06G018380	Soltu.DM.06G018380			Soltu.DM.06G018380.1
+gg-agi	NIL			abietadiene synthase
+Zm00001d045563	Zm00001d045563	26822040	26825680	ent-kaurenoic acid oxidase
+TTS2	NIL			&delta;-amyrin synthase
+AT2G04450	AT2G04450			NADH pyrophosphatase
+ZDS	AT3G04870	1342614	1346393	carotene 7,8-desaturase
+MOMT2	NIL			flavonol 7/4'-methyltransferase
+Glyma.08G244800	Glyma.08G244800			Glyma.08G244800
+LOX2	NIL			9<i>S</i>-lipoxygenase
+nBMT	NIL			bixin methyltransferase / norbixin methyltransferase
+AT5G34930	AT5G34930	13250604	13252797	arogenate dehydrogenase
+PsbS	AT1G44575	16874136	16875823	CP22
+JAR4	NIL			jasmonoyl-amino acid synthetase
+AT3G29670	AT3G29670	11530351	11531829	transferase
+LjContig00081g0009728	LjContig00081g0009728			LjContig00081g0009728.1
+AT4G29530	AT4G29530	14496085	14497460	catalytic
+Seita.2G144900	Seita.2G144900			Seita.2G144900.1.p
+AH1	NIL			amygdalin hydrolase
+AT4G37980	AT4G37980	17852435	17854494	oxidoreductase
+KAM1	NIL			xyloglucan galactosyltransferase
+Glyma.06G239500	Glyma.06G239500			Glyma.06G239500
+AT3G27820	AT3G27820	10316351	10319293	monodehydroascorbate reductase (NADH)
+Bx5				HBOA monooxygenase
+FUT11	AT3G19280	6681202	6683898	glycoprotein 3-alpha-L-fucosyltransferase [multifunctional]
+AT3G44860	AT3G44860	16390618	16392055	farnesoic acid carboxyl methyltransferase
+ASAT3-P				sucrose acyltransferase
+AA7GT	NIL			anthocyanidin 3-<i>O</i>-glucoside 7-<i>O</i>-glucosyltransferase (acyl-glucose dependent)
+Tps1	NIL			valencene synthase
+Cre02.g141200	Cre02.g141200			Cre02.g141200.t1.1
+LHCBM4		642605	644298	Chloropyll a-b binding protein of LHCII
+TEAS	NIL			5-epi-aristolochene synthase
+PYD3	AT5G64370	25756404	25758438	beta-ureidopropionase
+KUP1	AT2G30070			potassium transporter
+Lj4g0003906	Lj4g0003906			Lj4g0003906.1
+DHS	NIL			deoxyhypusine synthase
+AT1G80050	AT1G80050	30116407	30118217	adenine phosphoribosyltransferase
+AT4G13940	AT4G13940	8054856	8057176	adenosylhomocysteinase
+CYP76J1	NIL			lauric acid dehydroxylase
+SQS1	AT4G34640	16538287	16541931	farnesyl-diphosphate farnesyltransferase
+CYP76M7	NIL			<i>ent</i>-cassadiene 11&alpha;-hydroxylase
+psaE2				Photosystem I reaction center subunit IV B
+AT5G53850	AT5G53850	21878223	21882199	dehydratase-enolase-phosphatase
+Dhr1				dhurrinase beta-glucosidase
+AT4G16450	AT4G16450	9280096	9280740	NADH-ubiquinone oxidoreductase 20.9 kDa subunit
+CLH1	AT1G19670	6803602	6805035	chlorophyllase
+NUO21		924059	925838	182302
+BgbAS	NIL			beta-amyrin synthase
+TkFac	NIL			(11,14)-linoleoyl desaturase
+MFP-a	NIL			MFP a
+GAPN	NIL			NADP-dependent glyceraldehyde-3-phosphate dehydrogenase subunit
+FLS	NIL			flavonol synthase
+AT4G13350	AT4G13350			GTPase
+AT5G54510	AT5G54510	22148319	22150904	indole-3-acetic acid amido synthetase
+Z-ISO	AT1G10830			zeta-carotene isomerase
+UXS1	AT3G53520	19852462	19855286	UDP-glucuronate decarboxylase
+M6PR	NIL			mannose 6-phosphate reductase
+SSR1	NIL			NAD-dependent succinate semialdehyde dehydrogenase
+ApL4	AT2G21590	9245562	9249520	ADP-glucose pyrophosphorylase
+SSIV	AT4G18240	10082119	10087214	soluble starch synthase IV
+AT5G63980	AT5G63980	25627038	25629159	3'(2'),5'-bisphosphate nucleotidase//inositol or phosphatidylinositol phosphatase
+AT4G31500	AT4G31500	15273477	15275316	CYP83B1
+IPT8	AT3G19160	6621994	6623284	adenylate dimethylallyltransferase
+GA20ox2	NIL			gibberellin 20-oxidase
+Pavirv00037939m	NIL			4-Coumarate:coenzyme A ligase
+AMT1.1	AT4G13510			ammonium transporter
+BAM1	AT3G23920	8641576	8644456	beta-amylase
+MxPSS1	NIL			cis-muuroladiene synthase
+AT2G02390.3	AT2G02390.3	628908	631113	maleylacetoacetate isomerase
+UGT76E12	AT3G46660	17200249	17202152	UDP-glycosyltransferase
+Glyma.06G283500	Glyma.06G283500			Glyma.06G283500
+ASAT3-P				sucrose acyltransferase
+AACT2	AT5G48230	19569368	19572755	acetoacetyl-Co A thiolase
+DGD1	AT3G11670			digalactosyldiacylglycerol synthase / UDP-galactose:MGDG galactosyltransferase
+Dv3MaT	NIL			cyanidin 3-O-glucoside 6"-O-malonyltransferase [multifunctional]
+alliin lyase	NIL			Alliin lyase
+CAH9		271007	273810	196834
+AT5G38710	AT5G38710	15518475	15521339	proline dehydrogenase
+DFR/FNR	NIL			flavanone 4-reductase
+CKS				CMP-3-deoxy-D-manno-2-octulosonate synthetase
+Glyma.08G244600	Glyma.08G244600			Glyma.08G244600
+TMT1	NIL			thiocyanate methyltransferase
+CYP71Z6	NIL			<i>ent</i>-isokaurene-C2-hydroxylase
+AT4G33680	AT4G33680	16171697	16174689	L,L-diaminopimelate aminotransferase
+ACP1		796589	797763	132151
+AT5G40850	AT5G40850			uroporphyrin-III C-methyltransferase
+DHNAT1	AT1G48320	17858481	17859383	DHNA-CoA thioesterase
+HGT8	NIL			anthocyanin 5-O-glucosyltransferase
+Lj3g0003334	Lj3g0003334			Lj3g0003334.1
+WS1	NIL			wax synthase/diacyglycerol acyltransferase [multifunctional]
+SAM-1	AT1G02500	518251	520437	S-adenosylmethionine synthetase
+UGT71B6	AT3G21780	7675058	7676353	abscisic acid glucosyltransferase
+StMS1	NIL			methionine synthase
+AF406816	NIL			sphingolipid long-chain base delta-8 desaturase
+LHCBM6		788431	790964	Chloropyll a-b binding protein of LHCII type I
+AT5G52560	AT5G52560	21347865	21352037	UDP-sugar pyrophosphorylase
+GA3	AT5G25900	9036021	9038409	<i>ent</i>-kaurene oxidase
+AGK1	AT3G06580	2048911	2052031	galactokinase
+AT3G13610	AT3G13610	4449381	4450818	2-oxoglutarate-dependent dioxygenase
+g-pin1	NIL			pinene synthase
+AT1G09830	AT1G09830	3192683	3195027	phosphoribosylamine-glycine ligase
+PPA-AT	NIL			PPA-AT
+ACO2	AT4G26970	13542924	13548635	aconitase
+CrOMT2	NIL			3'-hydroxyflavonoid O-methyltransferase [multifunctional]
+AT5G60340	AT5G60340	24291105	24293117	oxidoreductase
+AT1G30400	AT1G30400	10727620	10738037	xenobiotic-transporting ATPase//ATPase, coupled to transmembrane movement of substances
+AT1G44170	AT1G44170	16798840	16802761	3-chloroallyl aldehyde dehydrogenase
+CRTISO	AT1G06820	2092945	2096231	carotene isomerase
+AT1G05800	AT1G05800	1741203	1742618	triacylglycerol lipase / phospholipase A1
+AtCAD4	AT3G19450	6744604	6747220	cinnamyl alcohol dehydrogenase
+AT1G54040	AT1G54040	20174383	20177617	epithiospecifier protein
+<i> LcANR1</i>	NIL			anthocyanidin reductase
+PsaN				Photosystem I reaction center subunit N
+TEF18		2219468	2222306	142756
+Lj4g0000540	Lj4g0000540			Lj4g0000540.1
+Tspa11	NIL			(E)-beta-farnesene synthase
+MVD1	AT2G38700	16187774	16191024	diphosphomevalonate decarboxylase
+CYP735A2	AT1G67110	25065394	25069109	cytokinin trans-hydroxylase
+CYP93G2	NIL			eriodictyol 2-hydroxylase / pinocembrin 2-hydroxylase / naringenin 2-hydroxylase
+TGG2	AT5G25980	9072730	9075693	myrosinase / thioglucosidase
+GA3ox2	AT1G80340	30205585	30207092	gibberellin 3-oxidase
+AT4G25000	AT4G25000	12851979	12853855	alpha-amylase
+PAP12	AT2G27190	11628300	11630696	acid phosphatase
+AT2G27820	AT2G27820	11863845	11865365	arogenate dehydratase////prephenate dehydratase
+Lj1g0023491	Lj1g0023491			Lj1g0023491.1
+CBTS-2a				cembratrienol synthase
+GolS-2	NIL			galactinol synthase / fagopyritol synthase
+CYP707A4	AT3G19270	6673733	6676526	abscisic acid 9'-hydroxylase / abscisic acid 8'-hydroxylase
+MADC3	NIL			arginine decarboxylase
+RBCS2B		36265	37728	60238
+UGT3	NIL			flavonoid glucoside 1,6-glucosyltransferase
+HSK	AT2G17265	7515670	7516837	homoserine kinase
+GNA1	AT5G15770	5144096	5144545	glucosamine 6-phosphate N-acetyltransferase
+OMT2	NIL			phenylpropanoid/flavonoid 3'-<i>O</i>-methyltransferase
+DicGT5	NIL			chalcone 2'-O-glucosyltransferase
+CYP719A21	NIL			canadine synthase
+zpu1				Zpu1
+AOG	NIL			cinnamate glucosyltransferase / abscisic acid glucosyltransferase
+FAE	NIL			beta-ketoacyl-CoA synthase
+DAT	NIL			deacetylvindoline 4-O-acetyltransferase
+LUT5	AT1G31800	11396383	11399695	carotene beta-ring hydroxylase
+FLS1				flavonol synthase/flavanone 3-dioxygenase
+UGT71C1	AT2G29750	12716804	12718773	UDP-glycosyltransferase
+AB181292	NIL			13-hydroxylupanine O-tigloyltransferase
+SAMDC	AT3G02470	509103	511583	adenosylmethionine decarboxylase &beta;-subunit // adenosylmethionine decarboxylase &alpha;-subunit
+PLD beta	AT2G42010	17539891	17545476	PLD beta
+GT4A				solasodine 3-<i>O</i>-glucosyltransferase
+fgenesh2_kg.C_scaffold_1000273		5829832	5832905	162765
+CYP82E4v1	NIL			nicotine demethylase
+HSP70A		273733	277565	185673
+Glyma.03G032800	Glyma.03G032800			Glyma.03G032800
+CYP85A1	AT5G38970	15611904	15615115	6-hydroxyteasterone 6-dehydrogenase [multifunctional]
+IPK2&beta;	AT5G61760	24830955	24832669	polyphosphate 3-kinase / polyphosphate 5-kinase / polyphosphate 6-kinase
+Soltu.DM.07G023610	Soltu.DM.07G023610			Soltu.DM.07G023610.1
+NAD-ME1	AT2G13560	5657046	5662402	NAD-dependent malic enzyme
+fft-1	NIL			Fft-1
+DUR3A	NIL	243838	246623	196479
+SDH_Pp7	NIL			SDH subunit
+VTE3	AT3G63410	23426564	23428094	2-methyl-6-solanyl-1,4-benzoquinol methyltransferase [multifunctional]
+NCED6	AT3G24220	8761441	8763179	9-cis-epoxycarotenoid dioxygenase
+UGT72B1	AT4G01070	461592	463449	UDP-glucosyltransferase
+FNS	NIL			flavone synthase
+PSAO	g7789.t1	571801	573525	193847
+AMT1.3	NIL			ammonium transporter
+AAO3	AT2G27150	11608832	11615528	aldehyde oxidase//indole-3-acetaldehyde oxidase//abscisic aldehyde oxidase
+PCYA		3468074	3474412	156256
+AT3G16150	AT3G16150	5471741	5473282	asparaginase
+ACS6	AT4G11280	6864093	6866112	1-aminocyclopropane-1-carboxylate synthase
+AT3G12500	AT3G12500	3962389	3963971	chitinase
+CYP719B1	NIL			salutaridine synthase
+Soltu.DM.07G023640	Soltu.DM.07G023640			Soltu.DM.07G023640.1
+GmCK1	NIL			choline kinase
+AT4G34890	AT4G34890			xanthine dehydrogenase
+FRO5	AT5G23990	8105568	8108593	ferric-chelate reductase
+Lj6g0025451	Lj6g0025451			Lj6g0025451.1
+AT5G23670.1	AT5G23670.1	7981644	7985401	serine C-palmitoyltransferase
+ATP9B	Cre17.g731950	160086	161730	Cre17.g731950.t1.1
+CURS3	NIL			curcumin synthase
+Lj5g0014128	Lj5g0014128			Lj5g0014128.2
+naatA	NIL			nicotianamine transferase
+AT1G79230	AT1G79230	29805586	29808832	3-mercaptopyruvate sulfurtransferase
+AT4G23850	AT4G23850	12403477	12408345	long-chain-fatty-acid-CoA ligase
+LHCBM2		972737	974679	Light-harvesting chlorophyll-a/b binding protein LhcII-3
+PatTpsA	NIL			gamma-curcumene synthase
+ACS11	AT4G08040	4887109	4888936	1-aminocyclopropane-1-carboxylate synthase
+CYP96T1				noroxomaritidine synthase
+CAD1-C1	NIL			(+)-delta-cadinene synthase
+AT4G21540	AT4G21540	11454787	11462618	diacylglycerol kinase//D-erythro-sphingosine kinase
+LOC_Os12g30824	LOC_Os12g30824	18482116	18498078	LOC_Os12g30824.1
+GS-OX2	AT1G62540	23155459	23159382	glucosinolate S-oxygenase
+Peaxi162Scf00536g00911	Peaxi162Scf00536g00911			Peaxi162Scf00536g00911
+AT2G25450	AT2G25450	10836995	10838733	3-butenylglucosinolate 2-hydroxylase
+BAS	NIL			BAS subunit
+ATP12a		760364	762430	192510
+GPIS	NIL			glucose-6-phosphate isomerase
+AS1	NIL			asparagine synthetase
+AT5G57890	AT5G57890	23464633	23466905	anthranilate synthase
+SfCPA-FAS	NIL			cyclopropane synthase
+HISN7	AT4G39120	18225569	18227922	myo-inositol 3-phosphate monophosphatase [multifunctional]
+AT2G47000	AT2G47000	19316937	19321819	xenobiotic-transporting ATPase
+PnI	NIL			subunit PnI
+TaDMAS1	NIL			deoxymugineic acid synthase
+STS1	NIL			subunit STS1
+Bx8				DIBOA UDP-glucosyltransferase / DIMBOA UDP-glucosyltransferase
+TPS-Pin	NIL			pinene synthase
+PNA	NIL			oxidosqualene cyclase
+Cre02.g082550	Cre02.g082550			Cre02.g082550.t1.1
+NR				noroxomaritidine reductase monomer
+AT3G07630	AT3G07630	2435451	2437971	arogenate dehydratase////prephenate dehydratase
+OsFRO2	NIL			ferric chelate reductase
+atpA	NIL	124772	126298	ChreCp050
+AT1G32900	AT1G32900	11920370	11923746	transferase, transferring glycosyl groups
+AT1G78955	AT1G78955	29694046	29699148	beta-amyrin synthase
+PFR1	Cre11.g473950.t1.1			pyruvate:ferredoxin oxidoreductase
+G10H	NIL			(2S)-naringenin 3'-hydroxylase / geraniol 10-hydroxylase
+LAO1				L-amino acid oxidase
+AT2G43980	AT2G43980			inositol-tetrakisphosphate 1-kinase 4
+PCS2	AT1G03980	1018569	1022107	glutathione gamma-glutamylcysteinyltransferase
+hvnas1	NIL			nicotianamine synthase
+DFR2	NIL			dihydroflavonol-4-reductase
+AT2G35020	AT2G35020			N-acetylglucosamine-1-phosphate uridylyltransferase
+NSGT1				phenylpropanoid volatile diglycoside glucosyltransferase
+NUOP5		1166255	1168173	184222
+AT5G41040	AT5G41040	16448602	16450533	transferase
+CKX1	AT2G41510	17321615	17324081	cytokinin oxidase
+PKS4	NIL			type III polyketide synthase
+CHYB		349738	353528	164400
+ALD1	AT2G13810.1	5775528	5779341	lysine aminotransferase
+AT5G63310	AT5G63310	25389130	25391087	nucleoside-diphosphate kinase
+PsaF		563605	565478	Photosystem I reaction center subunit III
+F8OMT-1	NIL			flavonoid 8-O-methyltransferase
+G6PD6	AT5G40760	16327976	16332002	glucose-6-phosphate 1-dehydrogenase
+VDE	NIL			violaxanthin de-epoxidase
+Cyc1	NIL			syn-copalyl diphosphate synthase
+Zm00001eb167120	Zm00001eb167120			Zm00001eb167120_P001
+AT2G43100	AT2G43100	17927737	17928766	hydro-lyase
+PSCHS	NIL			PSCHS subunit
+CCoAOMT1	AT4G34050	16310780	16312221	caffeoyl-CoA O-methyltransferase
+TAA1	AT1G70560	26608518	26611166	tryptophan aminotransferase
+CYP71A13	AT2G30770			indoleacetaldoxime dehydratase
+AT4G31940	AT4G31940			fraxetin 5-monooxygenase / 8-methoxypsoralen 5-monooxygenase / CYP82C4
+N4OMT1				norbelladine <i>O</i>-methyltranferase
+AT2G29450	AT2G29450	12631663	12632712	glutathione transferase
+CYP71BA1	NIL			humulene hydroxylase
+AvbAS1	NIL			beta-amyrin synthase
+HvYS1	NIL			Fe(III)-phytosiderophore transporter
+AT4G22880	AT4G22880	12004779	12006220	leucoanthocyanidin dioxygenase
+N8DT-2	NIL			naringenin 8-dimethylallyltransferase
+FAE1	AT4G34520	16494210	16495847	very-long-chain 3-keto-acyl synthase
+taxoid 14&beta;-hydroxylase	NIL			taxoid 14beta-hydroxylase
+Glyma.02G309800	Glyma.02G309800			Glyma.02G309800
+lpa3				myo-inositol kinase
+AT4G14070	AT4G14070	8111957	8118155	acyl-ACP synthetase
+CYP716A15	NIL			oleanolic aldehyde 28-monooxygenase [multifunctional]
+CODM	NIL			codeine <i>O</i>-demethylase
+UGT80A2	AT3G07020	2217628	2221708	3&beta;-hydroxy sterol glucosyltransferase
+Soltu.DM.06G018370	Soltu.DM.06G018370			Soltu.DM.06G018370.1 // Soltu.DM.06G018370.2
+Soltu.DM.07G023620	Soltu.DM.07G023620			Soltu.DM.07G023620.1
+BAP1	AT4G11820	7108909	7112474	3-hydroxy-3-methylglutaryl coenzyme A synthase
+DHFR-TS	NIL			dihydrofolate reductase [multifunctional]
+C3H1	NIL			p-coumaroyl quinate/shikimate 3'-hydroxylase
+Peaxi162Scf00423g00020	Peaxi162Scf00423g00020			Peaxi162Scf00423g00020
+Lj1g0010913	Lj1g0010913			Lj1g0010913.1
+ALLACA1	NIL			alliin lyase
+AT5G66220	AT5G66220	26478403	26479400	chalcone isomerase
+AT5G54080.1	AT5G54080.1	21963095	21966139	homogentisate 1,2-dioxygenase
+UGT78D3	AT5G17030	5603136	5604741	UDP-glycosyltransferase
+ACS10	AT1G62960	23321852	23323981	aspartate transaminase
+PdxK	NIL			pyridoxal kinase
+Lj2g0010208	Lj2g0010208			Lj2g0010208.1
+CNX1B		925051	931862	113296
+OPCL1	AT1G20510	7103445	7105871	3-oxo-2-(2'-[Z]-pentenyl)cyclopentane-1-octanoate CoA ligase
+SS	NIL			sucrose synthase
+BnSCT	NIL			sinapoylglucose:choline O-sinapoyltransferase
+AMT2.1	NIL			ammonium transporter
+mMDH1	AT1G53240	19858283	19860605	malate dehydrogenase
+Atbcat-3	AT3G49680	18433634	18436677	branched-chain amino acid aminotransferase//branched-chain-amino-acid transaminase
+CYP81E3	NIL			isoflavone 2'-hydroxylase
+APX1	NIL			ascorbate peroxidase
+ACO	NIL			1-aminocyclopropane-1-carboxylate oxidase
+KAO2	NIL			ent-kaurenoate oxidase
+Sc19	NIL			germacrene D synthase
+AT1G30520	AT1G30520			o-succinylbenzoate-CoA ligase
+HXK2	AT2G19860	8577832	8581082	hexokinase//glucokinase
+KST1	NIL			K+ channel inward rectifying
+H6H	NIL			hyoscyamine 6 beta-hydroxylase
+CYP80B1v1	NIL			(S)-N-methylcoclaurine 3'-hydroxylase
+metE	NIL			methionine synthase
+AT3G29320	AT3G29320	11254044	11259051	phosphorylase
+OsNAAT1	NIL			nicotianamine transferase
+Lj5g0017041	Lj5g0017041			Lj5g0017041.1
+PCS1	NIL			glutathione gamma-glutamylcysteinyltransferase
+UGT76C1	AT5G05870	1767640	1769263	cytokinin UDP glycosyltransferase
+NADK1	AT3G21070	7380197	7383986	NADK1 subunit
+ApL3	AT4G39210	18259603	18263411	ADP-glucose pyrophosphorylase
+SAT3	AT3G13110	4214624	4216309	serine O-acetyltransferase
+Lus10019841.g	NIL			Caffeoyl coenzyme A O-methyltransferase
+AO1	NIL			aldehyde oxidase
+AT5G65940	AT5G65940	26393836	26396461	3-hydroxyisobutyryl-CoA hydrolase
+6-GT	NIL			betanidin 6-O-glucosyltransferase
+GPPS	AT2G34630	14585619	14588806	dimethylallyltranstransferase
+AT1G29410	AT1G29410	10297863	10299991	phosphoribosylanthranilate isomerase
+AT1G10130	AT1G10130	3310932	3322215	calcium-transporting ATPase
+AT5G25130	AT5G25130			AT5G25130
+Cnx2	AT2G31955	13591216	13593777	molybderin biosynthesis protein
+At4g27830	NIL			acyl-glucose dependent anthocyanin glucosyltransferase
+CPSKSL1				(13E)-labda-7,13-dien-15-ol synthase [multifunctional]
+me3	Zm00001d000316_T001.1	18903	24123	NADP malic enzyme
+CacGene01417	CacGene01417			CacGene01417.t1
+F6H	NIL			flavonol 6-hydroxylase
+OMT1	NIL			phenylpropanoid/flavonoid 3'-<i>O</i>-methyltransferase
+psaB		119601	121808	ChreCp048
+HPAT2	AT2G25260			hydroxyproline O-arabinosyltransferase 2
+LjCHI2	NIL			chalcone isomerase
+ADC	NIL			arginine decarboxylase
+CCoAOMT1	NIL			caffeoyl-CoA 3-O methyltransferase
+3MaT1	NIL			anthocyanidin 3-<i>O</i>-glucoside 6"-<i>O</i>-malonyltransferase
+PYD2	AT5G12200	3941529	3944812	dihydropyrimidinase
+STS	NIL			STS subunit
+PuFADX	NIL			(11,14)-linoleoyl desaturase
+SDH1-1	AT5G66760.1	26670884	26674762	complex II subunit 1
+psbL		102912	103028	Photosystem II reaction center protein L
+KS10	NIL			ent-sandaracopimaradiene synthase
+EOMT1	NIL			EOMT1 subunit
+dss	NIL			delta-selinene-like synthase
+1-FEH w1	NIL			1-FEH w1
+AFS1	NIL			(E,E)-alpha-farnesene synthase
+OJ1119_B04.1	NIL			24-methylenesterol <i>C</i>-methyltransferase
+GapCp1	NIL			NAD-dependent glyceraldehyde-3-phosphate dehydrogenase
+Lj1g0013703	Lj1g0013703			Lj1g0013703.1
+Glyma.17G019400	Glyma.17G019400			Glyma.17G019400
+AT2G34770	AT2G34770	14672746	14675329	fatty acid (omega-1)-hydroxylase
+SAD7	NIL			small subunit SCPL1 // large subunit SCPL1
+AT2G23620	AT2G23620	10054459	10056371	methylesterase
+AT3G25830	AT3G25830	9448745	9451657	1,8-cineole synthase
+TPS1	NIL			trehalose 6-phosphate synthase
+AT1G01590	AT1G01590	214229	217304	ferric-chelate reductase
+PAP21	NIL			purple acid phosphatase
+AJ011862	NIL			flavanoid 3',5'-hydroxylase [multifunctional]
+CYP71Z7	NIL			<i>ent</i>-cassadiene-C2-hydroxylase
+AT5G05590	AT5G05590	1666472	1668337	phosphoribosylanthranilate isomerase
+TFP	NIL			thiocyanate forming protein
+AAT	NIL			melon alcohol acetyltransferase
+TPK2	AT2G44750	18458501	18459950	thiamin pyrophosphokinase
+Cre12.g528450	Cre12.g528450			Cre12.g528450.t1.1
+r9-LOX1	NIL			9-lipoxygenase
+BALDH	NIL			benzaldehyde dehydrogenase
+g11619.t1	g11619.t1	145796	148342	Cre18.g744400.t1.1
+ASAT3				sucrose 4-isovaleroyl-2-<i>O</i>-acyltransferase
+AT4G02520	AT4G02520	1110452	1111660	glutathione transferase
+psbA		138790	145428	Photosystem Q(B) protein
+Zm00001d015509	Zm00001d015509	94540334	94543558	Zm00001d015509_T001.1
+RcCAS	NIL			cycloartenol synthase
+PSE1	NIL			polyunsaturated fatty acid elongase
+URnod-35	NIL			uricase
+Atbcat-2	AT1G10070	3288089	3290473	branched-chain amino acid aminotransferase
+HQ901358.1	NIL			Cinnamoyl-CoA reductase
+AT1G68010	AT1G68010	25496881	25499651	hydroxypyruvate reductase
+SMT3	AT1G76090	28555303	28556675	sterol 24-C-methyltransferase
+Lj4g0017317	Lj4g0017317			Lj4g0017317.1
+EF121452	NIL			Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase
+AT5G49360	AT5G49360	20029105	20033968	hydrolase, hydrolyzing O-glycosyl compounds
+Cr-1				pterin-4alpha-carbinolamine dehydratase
+CYP99A3	NIL			9&beta;-pimara-7,15-diene oxidase
+ASAT4				sucrose triacyl 6-<i>O</i>-acyltransferase
+CYP719A13				benzylisoquinoline synthase
+Zm00001d009264	Zm00001d009264	48669883	48672784	thiazole kinae
+KSL4	ZEAMMB73_Zm00001d032858			dolabradiene synthase
+HCHL	NIL			hydroxycinnamoyl-CoA hydratase lyase
+Dusky	NIL			anthocyanidin 3-O-glucoside 2''-O-glucosyltransferase
+AlBSMT1	NIL			AlBSMT1 subunit
+GAME6				steroid 22-hydroxylase
+AT1G68560	AT1G68560	25737845	25741659	hydrolase, hydrolyzing O-glycosyl compounds//alpha-N-arabinofuranosidase
+Seita.2G144400	Seita.2G144400			Seita.2G144400.1.p
+CYP707A1	AT4G19230	10521390	10523972	abscisic acid 9'-hydroxylase / abscisic acid 8'-hydroxylase
+BGD2	NIL			lotaustralin beta-glucosidase
+CrtL-b	NIL			lycopene &beta;-cyclase
+GAS	NIL			germacrene A synthase
+AT1G65960	AT1G65960	24558084	24561094	glutamate decarboxylase
+PsbW	AT2G30570	13025520	13027271	PSII-W subunit
+LPP&epsilon;2	AT5G66450			plastidic phosphatidic acid phosphatase
+1-FEH w2	NIL			1-FEH w2
+AN3	NIL			flavanone 3beta-hydroxylase
+SAD4	NIL			avenacin A glucosyltransferase
+HSP90A		1362905	1367356	138117
+AT3G43600	AT3G43600	15523595	15528494	aldehyde oxidase
+Cnx6	AT2G43760	18139751	18141145	MPT synthase large subunit
+AT4G39350	AT4G39350	18296903	18302186	cellulose synthase//transferase, transferring glycosyl groups
+NIT4	AT5G22300	7379202	7381928	&beta;-cyano-L-alanine hydratase/nitrilase
+CaDXMT1	NIL			caffeine synthase
+Glyma.03G032600	Glyma.03G032600			Glyma.03G032600
+AT3G61440	AT3G61440	22746722	22748953	cysteine synthase//L-3-cyanoalanine synthase
+Pavir.1NG304500	Pavir.1NG304500			Pavir.1NG304500.1.p
+GGH2	AT1G78680	29598674	29601163	gamma-glutamyl hydrolase
+ids2	NIL			mugineic-acid 3-dioxygenase
+dhfrts1				DHFR-TS subunit
+AT2G31690	AT2G31690	13483170	13484624	triacylglycerol lipase
+Cre06.g257000.t1.2	Cre06.g257000.t1.2	2140732	2144770	182359
+Lj5g0007558	Lj5g0007558			Lj5g0007558.1
+CLH2	AT5G43860	17647677	17649539	chlorophyllase
+PsbC	ATCG00280	33720	35141	CP43
+AT2G31490	AT2G31490	13419060	13420323	NADH-ubiquinone oxidoreductase subunit
+TyrDC	NIL			tyrosine decarboxylase
+DAO1	NIL			copper-containing amine oxidase
+LUP2	AT1G78960	29701363	29706156	lupeol synthase
+PPD1	AT4G15510			PsbP domain-containing protein 1
+PPa6	AT5G09650	2991150	2993214	inorganic pyrophosphatase
+AT1G69720	AT1G69720	26230529	26232243	heme oxygenase (decyclizing)
+THCA	NIL			THCA synthase
+AT5G56630	AT5G56630	22941148	22944189	6-phosphofructokinase
+Lj3g0019691	Lj3g0019691			Lj3g0019691.1
+Lj3g0014061	Lj3g0014061			Lj3g0014061.1
+AT4G20150	AT4G20150	10888278	10889607	NADH-ubiquinone oxidoreductase subunit
+AT4G16700	AT4G16700	9395658	9398330	phosphatidylserine decarboxylase
+Bx9				DIMBOA UDP-glucosyltransferase
+CHI1				chalcone isomerase 1
+Lj3g0015854	Lj3g0015854			Lj3g0015854.1
+GS1	NIL			GS1
+AT5G03650	AT5G03650	931937	937640	1,4-alpha-glucan branching enzyme
+pam	NIL			Phenylalanine aminomutase
+vt2	Zm00001d008700	17394723	17398865	Zm00001d008700_T002.1
+GA2ox3	NIL			gibberellin 2-oxidase
+UGT85C2	NIL			UDP glucosyltransferase 85C2
+Glyma.08G066800	Glyma.08G066800			Glyma.08G066800
+TPK1	AT1G02880	642752	644903	thiamin pyrophosphokinase
+Lj3g0005779	Lj3g0005779			Lj3g0005779.1
+PdUGT94AF2				PdUGT94AF2
+pGAT4	NIL			anthocyanin 5-aromatic acyltransferase
+PAP	NIL			purple acid phosphatase
+PSOMT1	NIL			(R,S)-reticuline 7-O-methyltransferase
+NLP1	AT2G27450	11744510	11746768	N-carbamoylputrescine amidase
+DGD2	AT4G00550			digalactosyldiacylglycerol synthase
+CPS/KS	NIL			ent-kaurene synthase
+Lj1g0027940	Lj1g0027940			Lj1g0027940.1
+SGT3	NIL			glycosterol rhamnosyltransferase
+TPS-LAS	NIL			levopimaradiene/abietadiene synthase
+2&alpha;-O-benzoyltransferase	NIL			taxane 2alpha-O-benzoyltransferase
+ASAT4				sucrose acetyltransferase
+AT3G12260	AT3G12260	3908947	3910427	NADH-ubiquinone oxidoreductase B 14 kDa subunit
+Glyma.U001500	Glyma.U001500			Glyma.U001500
+PXG1	NIL			oat peroxygenase
+IspH	AT4G34350	16428484	16431118	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase
+AT3G53900	AT3G53900	19967634	19970019	uracil phosphoribosyltransferase
+CYP86A1	AT5G58860	23783040	23785275	fatty acid &omega;-hydroxylase
+CCR2	AT1G80820	30375464	30377562	cinnamoyl-CoA reductase
+PsaL		1533891	1535862	Photosystem I reaction center subunit XI
+AT2G22230	AT2G22230			3-hydroxyacyl-[acyl-carrier-protein] dehydratase
+AT1G68260	AT1G68260			acyl-lipid thioesterase 3
+PKp3	AT1G32440	11712142	11715092	pyruvate kinase, beta subunit
+NSH2	AT1G05620	1679157	1681707	inosine nucleosidase
+pVR1	NIL			vestitone reductase
+NPDS1	NIL			neryl diphosphate synthase
+<i>SOMT-9</i>	NIL			flavonol 3'-<i>O</i>-methyltransferase
+AT3G06300	AT3G06300	1907588	1909810	oxidoreductase, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors//procollagen-proline 4-dioxygenase
+AT4G16820	AT4G16820	9467582	9469135	triacylglycerol lipase
+ADC2	AT4G34710	16560067	16562974	arginine decarboxylase
+CYP79D2	NIL			valine <i>N</i>-monooxygenase (oxime forming)
+cob		545	1690	ChrepMp01
+PAS2	AT5G10480			very-long-chain 3-hydroxyacyl-CoA dehydratase
+AT2G15390	AT2G15390			alpha (1,2) fucosyltransferase 4
+&delta;-OAT	AT5G46180			ornithine-&delta;-aminotransferase
+HPL1	AT4G15440			HPL1

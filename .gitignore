@@ -8,6 +8,7 @@ __pycache__
 *gz
 *sqlite
 *zip
+*.pkl
 
 *.egg-info/
 build/
