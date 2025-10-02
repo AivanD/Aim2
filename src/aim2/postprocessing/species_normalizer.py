@@ -79,7 +79,7 @@ def normalize_species_with_ncbi(processed_results: List[Dict[str, Any]], MAX_ATT
                         
                         # if scientific_name_element is not None:
                         #     normalized_name = scientific_name_element.text
-                        #     species_entity["taxonomy_id"] = int(tax_id)
+                        species_entity["taxonomy_id"] = int(tax_id)
                         #     species_entity["normalized_name"] = normalized_name
                         #     logger.debug(f"Normalized '{original_name}' -> '{name_to_query}' to '{normalized_name}' (TaxID: {tax_id})")
                         # else:
