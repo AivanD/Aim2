@@ -33,6 +33,9 @@ class Compound(SchemicModel):
     SMILES: Optional[str] = Field(default=None, description="SMILES string for the compound.")
     Natural_product_class: Optional[Natural_Product_Class] = Field(default=None, description="Natural product class and superclass for the compound.")
     Classyfire: Optional[ClassyFire] = Field(default=None, description="Classyfire classification for the compound.")
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
 
 class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -44,6 +47,10 @@ class Pathway(SchemicModel):
         default=None,
         description="Text spans where the pathway is mentioned in the passage."
     )
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+
 
 class Genes(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -66,6 +73,10 @@ class AnatomicalStructure(SchemicModel):
         default=None,
         description="Text spans where the anatomical structure is mentioned in the passage."
     )
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+
 
 class Species(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -77,6 +88,8 @@ class Species(SchemicModel):
         default=None,
         description="Text spans where the species is mentioned in the passage."
     )
+    taxonomy_id: Optional[int] = Field(default=None, description="NCBI Taxonomy ID for the species.")
+
 
 class ExperimentalCondition(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -88,6 +101,10 @@ class ExperimentalCondition(SchemicModel):
         default=None,
         description="Text spans where the experimental condition is mentioned in the passage."
     )
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+
 
 # class NP_Class(SchemicModel):
 #     model_config = ConfigDict(extra="forbid")
@@ -105,6 +122,10 @@ class MolecularTraits(SchemicModel):
         default=None,
         description="Text spans where the molecular trait is mentioned in the passage."
     )
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+
 
 class PlantTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -116,6 +137,10 @@ class PlantTraits(SchemicModel):
         default=None,
         description="Text spans where the plant trait is mentioned in the passage."
     )
+    ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
+    normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
+    score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+
 
 class HumanTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")

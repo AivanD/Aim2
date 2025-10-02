@@ -39,7 +39,8 @@ def create_plantcyc_embedding_cache(plantcyc_file, sapbert_model, output_path):
                 # Clean the name (remove HTML tags, etc.)
                 cleaned_name = html.unescape(pathway_name).strip()
                 cleaned_name = re.sub(r'<[^>]+>', '', cleaned_name) # Remove any HTML tags like <i>
-                cleaned_name = re.sub(r'\s*\([^)]*\)$', '', cleaned_name).strip() # Remove trailing parentheses content
+                # commented since the txt file is not really like an ontology file and this is for ontology files.
+                # cleaned_name = re.sub(r'\s*\([^)]*\)$', '', cleaned_name).strip() # Remove trailing parentheses content
 
                 if cleaned_name and pathway_id:
                     terms_to_embed.append(cleaned_name)

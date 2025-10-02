@@ -10,6 +10,9 @@ from openai import RateLimitError
 import re
 
 from aim2.postprocessing.compound_normalizer import get_np_class, normalize_compounds_with_pubchem
+from aim2.postprocessing.merger import merge_and_deduplicate
+from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
+from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
@@ -76,35 +79,53 @@ async def amain():
     except Exception as e:
         logger.error(f"Error loading model: {e}")
         return
-
-    # load the plant-ontology, peco, and trait_ontology (for future use)
-    try:
-        # "plant ontology" which has 2 namespaces: 'plant_anatomy' and 'plant_structure_development_stage'
-        plant_terms_dict, po_graph = load_ontology(PO_OBO)
-        logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
-        # "experimental condition" ontology which has 1 namespace: 'plant_experimental_conditions_ontology'
-        peco_terms_dict, peco_graph = load_ontology(PECO_OBO)
-        logger.info(f"PECO ontology loaded successfully from {PECO_OBO}.")
-        # "plant trait" ontology which has 1 namespace: 'plant_trait_ontology'
-        to_terms_dict, to_graph = load_ontology(TO_OBO)
-        logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
-        # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
-        go_terms_dict, go_graph = load_ontology(GO_OBO)
-        logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
-        # "chemical ontology" ontology which has 1 namespace: 'chemont'
-        chemont_terms_dict, chemont_graph = load_ontology(CHEMONT_OBO)
-        logger.info(f"ChemOnt loaded successfully from {CHEMONT_OBO}.")
         
-        ontologies = {
-            "po_graph": po_graph,
-            "peco_graph": peco_graph,
-            "to_graph": to_graph,
-            "go_graph": go_graph,
-            "chemont_graph": chemont_graph
-        }
+    # Define custom thresholds for normalization 
+    # TODO: finetune these
+    normalization_thresholds = {
+        "compounds": 0.90,
+        "pathways": 0.80,
+        "anatomical_structures": 0.90,
+        "plant_traits": 0.75, # Plant traits can be more descriptive and varied
+        "molecular_traits": 0.85,
+        "experimental_conditions": 0.88,
+    }
 
+    # Initialize the SapbertNormalizaer with the model and custom thresholds
+    try: 
+        normalizer = SapbertNormalizer(sapbert_model, thresholds=normalization_thresholds)
     except Exception as e:
-        logger.error(f"Error loading ontology: {e}")
+        logger.error(f"Error initializing SapbertNormalizer: {e}")
+        return
+    
+    # load the plant-ontology, peco, and trait_ontology (for future use)
+    # try:
+    #     # "plant ontology" which has 2 namespaces: 'plant_anatomy' and 'plant_structure_development_stage'
+    #     plant_terms_dict, po_graph = load_ontology(PO_OBO)
+    #     logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
+    #     # "experimental condition" ontology which has 1 namespace: 'plant_experimental_conditions_ontology'
+    #     peco_terms_dict, peco_graph = load_ontology(PECO_OBO)
+    #     logger.info(f"PECO ontology loaded successfully from {PECO_OBO}.")
+    #     # "plant trait" ontology which has 1 namespace: 'plant_trait_ontology'
+    #     to_terms_dict, to_graph = load_ontology(TO_OBO)
+    #     logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
+    #     # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
+    #     go_terms_dict, go_graph = load_ontology(GO_OBO)
+    #     logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
+    #     # "chemical ontology" ontology which has 1 namespace: 'chemont'
+    #     chemont_terms_dict, chemont_graph = load_ontology(CHEMONT_OBO)
+    #     logger.info(f"ChemOnt loaded successfully from {CHEMONT_OBO}.")
+        
+    #     ontologies = {
+    #         "po_graph": po_graph,
+    #         "peco_graph": peco_graph,
+    #         "to_graph": to_graph,
+    #         "go_graph": go_graph,
+    #         "chemont_graph": chemont_graph
+    #     }
+
+    # except Exception as e:
+    #     logger.error(f"Error loading ontology: {e}")
 
     logger.info("Starting the XML processing...")
     # process each files in the input folder
@@ -206,18 +227,36 @@ async def amain():
             # - use ChemOnt to normalize compounds first for classes
             # - use PUBCHEM to normalize compounds  for molecular compounds
             # - use NP_CLASSIFIER to get the superclass/class
+            # - use existing ontology for pathways, molecular traits, plant traits, anatomical structures, experimental conditions
+            # - use NCBI tax for species.
+            # - human traits are not normalized
+            # - genes are not normalized
 
             try:
+                # 1. Normalize against ontologies first. This will classify compound classes via ChemOnt.
+                processed_result_list = normalizer.normalize_entities(processed_result_list)
+
+                # 2. For compounds NOT classified by ChemOnt, try to find a CID and SMILES via PubChem.
                 processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+
+                # 3. For compounds with a SMILES string, get further classification.
                 processed_result_list = get_np_class(processed_result_list)
+
+                # 4. For species, use NCBI taxonomy to get the taxon id
+                processed_result_list = normalize_species_with_ncbi(processed_result_list)
+
             except Exception as e:
-                logger.error(f"An unexpected error occurred while normalizing compounds with PubChem: {e}")
-            # 3. dedupe
-            # 4. merge
+                logger.error(f"An unexpected error occurred while normalizing: {e}")
+            
+            # 3. Deduplicate and merge entities for the entire document
+            try: 
+                final_entities = merge_and_deduplicate(processed_result_list)
+            except Exception as e:
+                logger.error(f"An unexpected error occurred while merging: {e}")
             
             # save the processed results to the output file
             with open(processed_output_path, 'w') as f:
-                json.dump(processed_result_list, f, indent=2)
+                json.dump(final_entities, f, indent=2)
             logger.info(f"Processed results saved to {processed_output_path}")
 
     end_time = time.time()

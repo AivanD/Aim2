@@ -32,6 +32,10 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
             continue
 
         for compound in result["compounds"]:
+            # If the compound is already classified by an ontology (e.g., ChemOnt), skip it.
+            if compound.get("ontology_id"):
+                continue
+            
             if 'SMILES' not in compound:
                 continue
 
@@ -89,6 +93,10 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
             continue
 
         for compound in result["compounds"]:
+            # If the compound is already classified by an ontology (e.g., ChemOnt), skip it.
+            if compound.get("ontology_id"):
+                continue
+
             original_name = compound.get("name")
             if not original_name:
                 continue
