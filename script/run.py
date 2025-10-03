@@ -14,7 +14,7 @@ from aim2.postprocessing.merger import merge_and_deduplicate
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_OUTPUT_DIR, PROCESSED_OUTPUT_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
@@ -134,8 +134,8 @@ async def amain():
         if filename.endswith('.xml'):
             # define the input file and output file
             input_path = os.path.join(INPUT_DIR, filename)
-            raw_output_path = os.path.join(RAW_OUTPUT_DIR, filename.replace('.xml', '.json'))
-            processed_output_path = os.path.join(PROCESSED_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            raw_ner_output_path = os.path.join(RAW_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
             output_path = os.path.join(OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # define a prompt list for batching
@@ -152,7 +152,7 @@ async def amain():
 
             # process each passage. processing each sentence would be costly.
             # only process if there is no raw output file yet
-            if not os.path.exists(raw_output_path):   
+            if not os.path.exists(raw_ner_output_path):   
                 # limit concurrency to 3 requests at a time. Adjust as needed. 1 = sequential
                 semaphore = asyncio.Semaphore(1)
                 tasks = []      # for async api calls
@@ -195,9 +195,9 @@ async def amain():
                 #     raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
-                with open(raw_output_path, 'w') as f:
+                with open(raw_ner_output_path, 'w') as f:
                     json.dump(raw_result_list, f, indent=2)
-                logger.info(f"Raw results saved to {raw_output_path}")
+                logger.info(f"Raw results saved to {raw_ner_output_path}")
 
             # Post-processing:
             # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
@@ -209,7 +209,7 @@ async def amain():
 
             # 1. add spans to each of the extracted entities in the raw_result_list
             # read the raw results from the raw output file
-            with open(raw_output_path, 'r') as f:
+            with open(raw_ner_output_path, 'r') as f:
                 raw_result_list = json.load(f)
 
             # ensure valid objects (just in case user edited the raw json file)
@@ -217,7 +217,7 @@ async def amain():
                 try:
                     extracted_entities = CustomExtractedEntities.model_validate(raw_result)
                 except Exception as e:
-                    logger.error(f"Invalid raw result object in {raw_output_path}: {e}")
+                    logger.error(f"Invalid raw result object in {raw_ner_output_path}: {e}")
         
                 # add spans to each of the extracted entities in the raw_result_list
                 extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
@@ -255,9 +255,9 @@ async def amain():
                 logger.error(f"An unexpected error occurred while merging: {e}")
             
             # save the processed results to the output file
-            with open(processed_output_path, 'w') as f:
+            with open(processed_ner_output_path, 'w') as f:
                 json.dump(final_entities, f, indent=2)
-            logger.info(f"Processed results saved to {processed_output_path}")
+            logger.info(f"Processed results saved to {processed_ner_output_path}")
 
     end_time = time.time()
     logger.info(f"Processing time: {end_time - start_time:.2f} seconds")

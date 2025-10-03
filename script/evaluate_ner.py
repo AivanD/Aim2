@@ -133,6 +133,6 @@ if __name__ == '__main__':
     # Example usage:
     # Assumes you have 'PMC7384185.xlsx' in your data directory
     # and the processed output in your output/processed directory.
-    gt_file = 'output/annotated/PMC7384185.xlsx' 
-    pred_file = 'output/processed/PMC7384185_llama4.json'
+    gt_file = 'output/ner/annotated/PMC7384185.xlsx' 
+    pred_file = 'output/ner/processed/PMC7384185_llama4.json'
     evaluate_ner(gt_file, pred_file)

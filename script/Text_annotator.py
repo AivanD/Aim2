@@ -4,7 +4,7 @@ import re
 import json
 import pandas as pd
 
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, NER_OUTPUT_DIR
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.logging_cfg import setup_logging
 from aim2.entities_types.entities import CustomExtractedEntities
@@ -49,7 +49,7 @@ def main():
 
         # directories
         input_path = os.path.join(INPUT_DIR, filename)
-        ANNOTATION_OUTPUT_DIR = os.path.join(OUTPUT_DIR, 'annotated')
+        ANNOTATION_OUTPUT_DIR = os.path.join(NER_OUTPUT_DIR, 'annotated')
         if not os.path.exists(ANNOTATION_OUTPUT_DIR):
             os.makedirs(ANNOTATION_OUTPUT_DIR)
         output_excel_path = os.path.join(ANNOTATION_OUTPUT_DIR, filename.replace('.xml', '.xlsx'))
