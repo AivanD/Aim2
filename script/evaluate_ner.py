@@ -85,15 +85,16 @@ def evaluate_ner(ground_truth_path, prediction_path):
         return
 
     predicted_entities = set()
-    for passage in predicted_data:
-        for entity_type, entities in passage.items():
-            if not entities:
+    for entity_type, entities in predicted_data.items():
+        if not entities:
+            continue
+        for entity in entities:
+            if 'name' not in entity or not entity['name']:
                 continue
-            for entity in entities:
-                if 'name' not in entity or not entity['name']:
-                    continue
-                for span in entity.get("spans", []):
-                    predicted_entities.add((entity_type, entity['name'].lower(), span[0], span[1]))
+            # The 'spans' field is a list of lists, so we iterate through it.
+            for span in entity.get("spans", []):
+                predicted_entities.add((entity_type, entity['name'].lower(), span[0], span[1]))
+
 
     # --- Overall Evaluation ---
     all_metrics = {"overall": calculate_and_print_metrics(gt_entities, predicted_entities)}
@@ -134,5 +135,5 @@ if __name__ == '__main__':
     # Assumes you have 'PMC7384185.xlsx' in your data directory
     # and the processed output in your output/processed directory.
     gt_file = 'output/ner/annotated/PMC7384185.xlsx' 
-    pred_file = 'output/ner/processed/PMC7384185_llama4.json'
+    pred_file = 'output/ner/processed/PMC7384185.json'
     evaluate_ner(gt_file, pred_file)

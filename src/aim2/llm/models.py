@@ -42,7 +42,8 @@ def load_local_model_via_outlinesVLLM():
         - Recommended to avoid guided decoding backend "outlines" due to empty outputs.
         - Seed is set for reproducibility.
     """
-    model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+    # model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+    model_name = "kosbu/Llama-3.3-70B-Instruct-AWQ"
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
     # model_name = "meta-llama/Llama-3.1-8B-Instruct"
     try:
@@ -55,7 +56,7 @@ def load_local_model_via_outlinesVLLM():
             seed=42,
             swap_space=2,                           # defaults to 4. Uses ram for swapping data if things like kv_cache cant fit in vram. !MIGHT REDUCE PERF
             gpu_memory_utilization=0.85,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
-            max_model_len=2048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
+            max_model_len=1024,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. V1 is faster but resort to V0 if V1 doesnt work
         ))

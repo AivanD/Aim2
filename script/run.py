@@ -145,7 +145,7 @@ async def amain():
             logger.info(f"Processing file: {filename}")
 
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
-            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, False)
+            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True)
 
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
@@ -158,6 +158,7 @@ async def amain():
                 tasks = []      # for async api calls
                 # define a list of results (raw results from the model)
                 raw_result_list = [] 
+                # for sentence_text, sentence_offset in sentences_w_offsets:
                 for passage_text, passage_offset in passages_w_offsets:
                     # create a prompt for the passage
                     prompt = make_prompt(passage_text)
@@ -184,13 +185,15 @@ async def amain():
                 # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
                 # results = model.batch(
                 #     model_input=prompts,
-                #     output_type=CustomExtractedEntities,
+                #     output_type=SimpleExtractedEntities,
                 #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
                 # )
 
                 # validate each one
                 # for result in results:
-                #     extracted_entities = CustomExtractedEntities.model_validate_json(result[0])
+                #     if result is None:
+                #         continue  # Skip if there was an error processing this passage
+                #     extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])
                 #     # add the entities to the raw result list to be saved into a file
                 #     raw_result_list.append(extracted_entities.model_dump())
 
