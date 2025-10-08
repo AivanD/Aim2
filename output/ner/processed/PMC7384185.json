@@ -84,35 +84,23 @@
 			}
 		},
 		{
-			"name": "anthocyanin",
-			"spans": [
-				[782, 793],
-				[22012, 22023],
-				[22130, 22141],
-				[22925, 22936],
-				[23020, 23031],
-				[36187, 36198],
-				[46254, 46265],
-				[49020, 49031],
-				[49152, 49163],
-				[50078, 50089],
-				[50429, 50440]
-			],
-			"ontology_id": "CHEMONTID:0001361",
-			"normalized_name": "Anthocyanins",
-			"score": 0.9515196681022644
-		},
-		{
 			"name": "betalain",
 			"spans": [
-				[754, 762],
-				[1625, 1633],
+				[2263, 2271],
 				[2623, 2631],
 				[2709, 2717],
 				[3439, 3447],
 				[3593, 3601],
 				[3660, 3668],
 				[3702, 3710],
+				[3886, 3894],
+				[4014, 4022],
+				[4110, 4118],
+				[4295, 4303],
+				[4397, 4405],
+				[4526, 4534],
+				[5102, 5110],
+				[5870, 5878],
 				[21743, 21751],
 				[22032, 22040],
 				[22153, 22161],
@@ -122,18 +110,33 @@
 				[25036, 25044],
 				[25110, 25118],
 				[25681, 25689],
-				[28352, 28360],
-				[29212, 29220],
+				[26453, 26461],
 				[33404, 33412],
 				[33604, 33612],
 				[35570, 35578],
 				[36206, 36214],
+				[42681, 42689],
+				[42826, 42834],
+				[43033, 43041],
+				[43362, 43370],
+				[44918, 44926],
+				[45052, 45060],
+				[45567, 45575],
+				[45776, 45784],
 				[46180, 46188],
 				[46274, 46282],
+				[46995, 47003],
 				[49409, 49417],
 				[49612, 49620],
 				[49767, 49775],
 				[50053, 50061],
+				[51115, 51123],
+				[51386, 51394],
+				[51487, 51495],
+				[51678, 51686],
+				[51761, 51769],
+				[52336, 52344],
+				[52519, 52527],
 				[53880, 53888],
 				[54099, 54107],
 				[54341, 54349],
@@ -147,30 +150,6 @@
 			"ontology_id": "CHEMONTID:0001434",
 			"normalized_name": "Betacyanins and derivatives",
 			"score": 1.0
-		},
-		{
-			"name": "betalain pigments",
-			"spans": [[2263, 2280]]
-		},
-		{
-			"name": "tyrosine",
-			"spans": [
-				[2246, 2254],
-				[3995, 4003],
-				[52630, 52638],
-				[52706, 52714],
-				[52788, 52796],
-				[53026, 53034],
-				[53257, 53265],
-				[53473, 53481],
-				[53655, 53663]
-			],
-			"CID": 6057,
-			"SMILES": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			}
 		},
 		{
 			"name": "anthocyanins",
@@ -194,6 +173,53 @@
 			"score": 1.0
 		},
 		{
+			"name": "tyrosine",
+			"spans": [
+				[2246, 2254],
+				[3995, 4003],
+				[52630, 52638],
+				[52706, 52714],
+				[52788, 52796],
+				[53026, 53034],
+				[53257, 53265],
+				[53473, 53481],
+				[53655, 53663]
+			],
+			"CID": 6057,
+			"SMILES": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			}
+		},
+		{
+			"name": "anthocyanin",
+			"spans": [
+				[3577, 3588],
+				[3751, 3762],
+				[22012, 22023],
+				[22130, 22141],
+				[22925, 22936],
+				[23020, 23031],
+				[36187, 36198],
+				[46254, 46265],
+				[49020, 49031],
+				[49152, 49163],
+				[50078, 50089],
+				[50429, 50440]
+			],
+			"ontology_id": "CHEMONTID:0001361",
+			"normalized_name": "Anthocyanins",
+			"score": 0.9515196681022644
+		},
+		{
+			"name": "flavonoid",
+			"spans": [[2903, 2912]],
+			"ontology_id": "CHEMONTID:0003678",
+			"normalized_name": "Flavonoid 3-O-p-coumaroyl glycosides",
+			"score": 1.0
+		},
+		{
 			"name": "l-3,4-dihydroxyphenylalanine",
 			"spans": [[4442, 4470]],
 			"CID": 6047,
@@ -214,6 +240,7 @@
 			"name": "betalamic acid",
 			"spans": [
 				[4483, 4497],
+				[5466, 5480],
 				[6754, 6768],
 				[6950, 6964],
 				[28814, 28828],
@@ -236,6 +263,16 @@
 			"score": 0.9999999403953552
 		},
 		{
+			"name": "3,4-dihydroxyphenylalanine",
+			"spans": [[5533, 5559]],
+			"CID": 6047,
+			"SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids", "Phenylethylamines"],
+				"Np_superclass": ["Tyrosine alkaloids", "Small peptides"]
+			}
+		},
+		{
 			"name": "betalains",
 			"spans": [
 				[5345, 5354],
@@ -244,8 +281,6 @@
 				[21575, 21584],
 				[40424, 40433],
 				[48950, 48959],
-				[51152, 51161],
-				[51925, 51934],
 				[52647, 52656],
 				[53298, 53307]
 			],
@@ -261,7 +296,8 @@
 				[25868, 25878],
 				[25984, 25994],
 				[26229, 26239],
-				[26944, 26954]
+				[26944, 26954],
+				[31349, 31359]
 			],
 			"ontology_id": "CHEMONTID:0001434",
 			"normalized_name": "Betacyanins and derivatives",
@@ -322,6 +358,16 @@
 			"score": 0.9427417516708374
 		},
 		{
+			"name": "protocatechuate",
+			"spans": [[41871, 41886]],
+			"CID": 72,
+			"SMILES": "C1=CC(=C(C=C1C(=O)O)O)O",
+			"Natural_product_class": {
+				"Np_class": ["Simple phenolic acids"],
+				"Np_superclass": ["Phenolic acids (C6-C1)"]
+			}
+		},
+		{
 			"name": "caffeine",
 			"spans": [[48548, 48556]],
 			"CID": 2519,
@@ -352,6 +398,87 @@
 			}
 		}
 	],
+	"pathways": [
+		{
+			"name": "betalain biosynthesis",
+			"spans": [
+				[244, 265],
+				[4397, 4418],
+				[25681, 25702],
+				[33404, 33425],
+				[45052, 45073],
+				[54099, 54120],
+				[54978, 54999],
+				[55448, 55469]
+			],
+			"ontology_id": "PWY-5405",
+			"normalized_name": "superpathway of betalain biosynthesis",
+			"score": 0.8249524831771851
+		},
+		{
+			"name": "betalain synthesis",
+			"spans": [[1625, 1643]],
+			"ontology_id": "PWY-5405",
+			"normalized_name": "superpathway of betalain biosynthesis",
+			"score": 0.8303977251052856
+		},
+		{
+			"name": "flavonoid pathway",
+			"spans": [[2903, 2920]],
+			"ontology_id": "PWY1F-FLAVSYN",
+			"normalized_name": "flavonoid biosynthesis",
+			"score": 0.8803142309188843
+		},
+		{
+			"name": "betalain biosynthetic pathway",
+			"spans": [
+				[3886, 3915],
+				[5215, 5244]
+			],
+			"ontology_id": "PWY-5405",
+			"normalized_name": "superpathway of betalain biosynthesis",
+			"score": 0.8322679996490479
+		},
+		{
+			"name": "anthocyanin pathway",
+			"spans": [[3861, 3880]],
+			"ontology_id": "PWY-5125",
+			"normalized_name": "anthocyanin biosynthesis",
+			"score": 0.9098594188690186
+		},
+		{
+			"name": "betalamic acid biosynthesis",
+			"spans": [[47679, 47706]],
+			"ontology_id": "PWY-5394",
+			"normalized_name": "betalamic acid biosynthesis",
+			"score": 1.0
+		},
+		{
+			"name": "caffeine biosynthesis",
+			"spans": [[48548, 48569]],
+			"ontology_id": "PWY-5037",
+			"normalized_name": "caffeine biosynthesis I",
+			"score": 0.8302401304244995
+		},
+		{
+			"name": "anthocyanin biosynthesis",
+			"spans": [[49020, 49044]],
+			"ontology_id": "PWY-5125",
+			"normalized_name": "anthocyanin biosynthesis",
+			"score": 1.0
+		},
+		{
+			"name": "betalain pathway",
+			"spans": [
+				[51487, 51503],
+				[51678, 51694],
+				[55164, 55180]
+			],
+			"ontology_id": "PWY-5405",
+			"normalized_name": "superpathway of betalain biosynthesis",
+			"score": 0.8446592688560486
+		}
+	],
 	"genes": [
 		{
 			"name": "DODA",
@@ -359,16 +486,31 @@
 				[206, 210],
 				[428, 432],
 				[519, 523],
+				[693, 697],
+				[925, 929],
 				[1095, 1099],
 				[1175, 1179],
 				[4591, 4595],
 				[4711, 4715],
 				[5017, 5021],
+				[5407, 5411],
+				[5942, 5946],
+				[6105, 6109],
 				[7434, 7438],
 				[7623, 7627],
 				[8034, 8038],
 				[22712, 22716],
 				[23593, 23597],
+				[23793, 23797],
+				[23936, 23940],
+				[24223, 24227],
+				[24390, 24394],
+				[24644, 24648],
+				[24722, 24726],
+				[24781, 24785],
+				[25467, 25471],
+				[25532, 25536],
+				[25568, 25572],
 				[26494, 26498],
 				[26587, 26591],
 				[26715, 26719],
@@ -395,14 +537,6 @@
 			]
 		},
 		{
-			"name": "LigB",
-			"spans": [
-				[4613, 4617],
-				[4706, 4710],
-				[41924, 41928]
-			]
-		},
-		{
 			"name": "DODAbeta",
 			"spans": [
 				[4760, 4768],
@@ -414,7 +548,17 @@
 				[24588, 24596],
 				[25450, 25458],
 				[25514, 25522],
-				[26130, 26138]
+				[26130, 26138],
+				[41030, 41038],
+				[53365, 53373]
+			]
+		},
+		{
+			"name": "LigB",
+			"spans": [
+				[4613, 4617],
+				[4706, 4710],
+				[41924, 41928]
 			]
 		},
 		{
@@ -431,14 +575,24 @@
 				[6802, 6811],
 				[7025, 7034],
 				[7225, 7234],
+				[8187, 8196],
+				[8310, 8319],
 				[23330, 23339],
 				[23460, 23469],
 				[23625, 23634],
-				[28288, 28297],
-				[28775, 28784],
 				[29261, 29270],
 				[30233, 30242],
 				[30564, 30573],
+				[34588, 34597],
+				[35194, 35203],
+				[35264, 35273],
+				[37418, 37427],
+				[37639, 37648],
+				[37780, 37789],
+				[37924, 37933],
+				[38041, 38050],
+				[38070, 38079],
+				[38194, 38203],
 				[41199, 41208],
 				[41318, 41327],
 				[41353, 41362],
@@ -446,12 +600,27 @@
 				[41718, 41727],
 				[41796, 41805],
 				[42357, 42366],
+				[43536, 43545],
+				[43711, 43720],
+				[43781, 43790],
+				[43886, 43895],
+				[44137, 44146],
+				[44537, 44546],
+				[46616, 46625],
+				[46878, 46887],
+				[47174, 47183],
+				[47831, 47840],
+				[48046, 48055],
+				[51958, 51967],
+				[53147, 53156],
+				[53378, 53387],
+				[53432, 53441],
 				[54705, 54714]
 			]
 		},
 		{
-			"name": "BvDODA2",
-			"spans": [[6456, 6463]]
+			"name": "BvDODA1",
+			"spans": [[6326, 6333]]
 		},
 		{
 			"name": "BvDODAalpha1",
@@ -473,8 +642,14 @@
 				[30662, 30674],
 				[31406, 31418],
 				[31640, 31652],
-				[38889, 38901]
+				[34978, 34990],
+				[38889, 38901],
+				[44571, 44583]
 			]
+		},
+		{
+			"name": "BvDODA2",
+			"spans": [[6456, 6463]]
 		},
 		{
 			"name": "BvDODAalpha2",
@@ -488,10 +663,6 @@
 				[29681, 29693],
 				[29910, 29922]
 			]
-		},
-		{
-			"name": "BvDODA1",
-			"spans": [[6326, 6333]]
 		},
 		{
 			"name": "DODA alpha",
@@ -511,21 +682,8 @@
 				[50401, 50411],
 				[50525, 50535],
 				[50786, 50796],
-				[51010, 51020]
-			]
-		},
-		{
-			"name": "BvDODAalpha3",
-			"spans": [
-				[27621, 27633],
-				[30162, 30174]
-			]
-		},
-		{
-			"name": "pLUC",
-			"spans": [
-				[27832, 27836],
-				[32019, 32023]
+				[51010, 51020],
+				[52196, 52206]
 			]
 		},
 		{
@@ -537,6 +695,13 @@
 			]
 		},
 		{
+			"name": "BvDODAalpha3",
+			"spans": [
+				[27621, 27633],
+				[30162, 30174]
+			]
+		},
+		{
 			"name": "MjcDOPA-5GT",
 			"spans": [
 				[26979, 26990],
@@ -544,17 +709,19 @@
 			]
 		},
 		{
-			"name": "DODAalpha1",
+			"name": "firefly luciferase",
 			"spans": [
-				[28660, 28670],
-				[43101, 43111]
+				[27881, 27899],
+				[32068, 32086]
 			]
 		},
 		{
 			"name": "ShDODAalpha1",
 			"spans": [
 				[28853, 28865],
-				[38825, 38837]
+				[34901, 34913],
+				[38825, 38837],
+				[44588, 44600]
 			]
 		},
 		{
@@ -572,8 +739,11 @@
 			]
 		},
 		{
-			"name": "MaDODAalpha",
-			"spans": [[30396, 30407]]
+			"name": "ShDODAalpha2",
+			"spans": [
+				[30081, 30093],
+				[38841, 38853]
+			]
 		},
 		{
 			"name": "KcDODAalpha2",
@@ -588,12 +758,20 @@
 			]
 		},
 		{
+			"name": "KcDODAalpha1",
+			"spans": [[30457, 30469]]
+		},
+		{
 			"name": "BvDODAalpha4",
 			"spans": [[30098, 30110]]
 		},
 		{
-			"name": "KcDODAalpha1",
-			"spans": [[30457, 30469]]
+			"name": "BvDODAalpha5",
+			"spans": [[30179, 30191]]
+		},
+		{
+			"name": "MaDODAalpha",
+			"spans": [[30396, 30407]]
 		},
 		{
 			"name": "CgDODAalpha2",
@@ -604,29 +782,12 @@
 			]
 		},
 		{
-			"name": "BvDODAalpha5",
-			"spans": [[30179, 30191]]
-		},
-		{
-			"name": "ShDODAalpha2",
+			"name": "DODAalpha1",
 			"spans": [
-				[30081, 30093],
-				[38841, 38853]
-			]
-		},
-		{
-			"name": "firefly luciferase gene",
-			"spans": [[32068, 32091]]
-		},
-		{
-			"name": "McDODA alpha 1",
-			"spans": [[32978, 32992]]
-		},
-		{
-			"name": "MYB",
-			"spans": [
-				[32547, 32550],
-				[51573, 51576]
+				[29489, 29499],
+				[34831, 34841],
+				[35324, 35334],
+				[43101, 43111]
 			]
 		},
 		{
@@ -634,8 +795,19 @@
 			"spans": [[32400, 32414]]
 		},
 		{
+			"name": "McDODA alpha 1",
+			"spans": [
+				[32978, 32992],
+				[35113, 35127]
+			]
+		},
+		{
 			"name": "McCYP76AD1",
 			"spans": [[33040, 33050]]
+		},
+		{
+			"name": "MYB",
+			"spans": [[32547, 32550]]
 		},
 		{
 			"name": "CYP76AD1",
@@ -647,24 +819,43 @@
 			]
 		},
 		{
-			"name": "BvDODAalpha2-5",
-			"spans": [[38920, 38934]]
+			"name": "MjDODA alpha 1",
+			"spans": [[35097, 35111]]
+		},
+		{
+			"name": "CqDODA-1",
+			"spans": [
+				[34995, 35003],
+				[38879, 38887]
+			]
+		},
+		{
+			"name": "PmDOD",
+			"spans": [[35129, 35134]]
+		},
+		{
+			"name": "CgDODA1",
+			"spans": [[35088, 35095]]
+		},
+		{
+			"name": "PgDODA",
+			"spans": [[35139, 35145]]
 		},
 		{
 			"name": "PmDODAalpha2",
 			"spans": [[39027, 39039]]
 		},
 		{
-			"name": "PmDODAalpha1",
-			"spans": [[38969, 38981]]
-		},
-		{
 			"name": "PhybDODAalpha",
 			"spans": [[38905, 38918]]
 		},
 		{
-			"name": "CqDODA-1",
-			"spans": [[38879, 38887]]
+			"name": "PmDODAalpha1",
+			"spans": [[38969, 38981]]
+		},
+		{
+			"name": "BvDODAalpha2-5",
+			"spans": [[38920, 38934]]
 		},
 		{
 			"name": "PgDODAalpha1",
@@ -673,17 +864,21 @@
 		{
 			"name": "CYP76AD",
 			"spans": [[47526, 47533]]
+		},
+		{
+			"name": "ADHalpha",
+			"spans": [[52752, 52760]]
 		}
 	],
 	"molecular_traits": [
 		{
 			"name": "l-DOPA 4,5-dioxygenase activity",
 			"spans": [
-				[711, 742],
-				[975, 1006],
+				[153, 184],
+				[313, 344],
 				[1037, 1068],
 				[1243, 1274],
-				[1546, 1577],
+				[4782, 4813],
 				[6399, 6430],
 				[6528, 6559],
 				[7115, 7146],
@@ -699,6 +894,8 @@
 				[26042, 26073],
 				[28534, 28565],
 				[30708, 30739],
+				[34798, 34829],
+				[38575, 38606],
 				[40895, 40926],
 				[41136, 41167],
 				[41427, 41458],
@@ -735,6 +932,18 @@
 			"score": 0.9272024035453796
 		},
 		{
+			"name": "4,5-dioxygenase activity",
+			"spans": [
+				[718, 742],
+				[982, 1006],
+				[1553, 1577],
+				[37188, 37212]
+			],
+			"ontology_id": "GO:0051213",
+			"normalized_name": "dioxygenase activity",
+			"score": 0.8613053560256958
+		},
+		{
 			"name": "l-DOPA 4,5-dioxgenase activity",
 			"spans": [
 				[34198, 34228],
@@ -744,6 +953,10 @@
 			"ontology_id": "GO:0050297",
 			"normalized_name": "stizolobate synthase activity",
 			"score": 0.9182206988334656
+		},
+		{
+			"name": "DODA activity",
+			"spans": [[36302, 36315]]
 		},
 		{
 			"name": "catalytic promiscuity",
@@ -758,115 +971,9 @@
 			"ontology_id": "GO:0004511",
 			"normalized_name": "tyrosine 3-monooxygenase activity",
 			"score": 0.9999999403953552
-		},
-		{
-			"name": "tyrosine-derived enzymatic activity",
-			"spans": [
-				[53473, 53508],
-				[53655, 53690]
-			],
-			"ontology_id": "GO:0052883",
-			"normalized_name": "tyrosine ammonia-lyase activity",
-			"score": 0.8559223413467407
-		}
-	],
-	"pathways": [
-		{
-			"name": "betalain synthesis",
-			"spans": [[1625, 1643]],
-			"ontology_id": "PWY-5405",
-			"normalized_name": "superpathway of betalain biosynthesis",
-			"score": 0.8303977251052856
-		},
-		{
-			"name": "flavonoid pathway",
-			"spans": [[2903, 2920]],
-			"ontology_id": "PWY1F-FLAVSYN",
-			"normalized_name": "flavonoid biosynthesis",
-			"score": 0.8803142309188843
-		},
-		{
-			"name": "anthocyanin pathway",
-			"spans": [[3861, 3880]],
-			"ontology_id": "PWY-5125",
-			"normalized_name": "anthocyanin biosynthesis",
-			"score": 0.9098594188690186
-		},
-		{
-			"name": "betalain biosynthetic pathway",
-			"spans": [
-				[3886, 3915],
-				[5215, 5244]
-			],
-			"ontology_id": "PWY-5405",
-			"normalized_name": "superpathway of betalain biosynthesis",
-			"score": 0.8322679996490479
-		},
-		{
-			"name": "betalain biosynthesis",
-			"spans": [
-				[25681, 25702],
-				[33404, 33425],
-				[54099, 54120],
-				[54978, 54999],
-				[55448, 55469]
-			],
-			"ontology_id": "PWY-5405",
-			"normalized_name": "superpathway of betalain biosynthesis",
-			"score": 0.8249524831771851
-		},
-		{
-			"name": "betalamic acid biosynthesis",
-			"spans": [[47679, 47706]],
-			"ontology_id": "PWY-5394",
-			"normalized_name": "betalamic acid biosynthesis",
-			"score": 1.0
-		},
-		{
-			"name": "anthocyanin biosynthesis",
-			"spans": [[49020, 49044]],
-			"ontology_id": "PWY-5125",
-			"normalized_name": "anthocyanin biosynthesis",
-			"score": 1.0
-		},
-		{
-			"name": "caffeine biosynthesis",
-			"spans": [[48548, 48569]],
-			"ontology_id": "PWY-5037",
-			"normalized_name": "caffeine biosynthesis I",
-			"score": 0.8302401304244995
-		},
-		{
-			"name": "betalain pathway",
-			"spans": [
-				[51487, 51503],
-				[51678, 51694]
-			],
-			"ontology_id": "PWY-5405",
-			"normalized_name": "superpathway of betalain biosynthesis",
-			"score": 0.8446592688560486
-		},
-		{
-			"name": "betalain metabolic",
-			"spans": [[54495, 54513]]
-		},
-		{
-			"name": "betalain biosynthesis pathway",
-			"spans": [[54978, 55007]],
-			"ontology_id": "PWY-5405",
-			"normalized_name": "superpathway of betalain biosynthesis",
-			"score": 0.8467132449150085
 		}
 	],
 	"species": [
-		{
-			"name": "Caryophyllales",
-			"spans": [
-				[1647, 1661],
-				[53901, 53915]
-			],
-			"taxonomy_id": 3524
-		},
 		{
 			"name": "Gluconacetobacter diazotrophicus",
 			"spans": [[2518, 2550]],
@@ -882,25 +989,13 @@
 			"taxonomy_id": 4100
 		},
 		{
-			"name": "Saccharomyces cerevisiae",
-			"spans": [[4200, 4224]],
-			"taxonomy_id": 4932
-		},
-		{
-			"name": "Parakeelya mirabilis",
-			"spans": [
-				[6843, 6863],
-				[36837, 36857]
-			],
-			"taxonomy_id": 1548798
-		},
-		{
 			"name": "B. vulgaris",
 			"spans": [
 				[6120, 6131],
 				[25233, 25244],
 				[25489, 25500],
 				[26167, 26178],
+				[27539, 27550],
 				[29717, 29728],
 				[30138, 30149],
 				[40781, 40792],
@@ -912,6 +1007,24 @@
 			"taxonomy_id": 161934
 		},
 		{
+			"name": "Beta vulgaris",
+			"spans": [
+				[6065, 6078],
+				[26759, 26772],
+				[33693, 33706],
+				[36563, 36576]
+			],
+			"taxonomy_id": 161934
+		},
+		{
+			"name": "Parakeelya mirabilis",
+			"spans": [
+				[6843, 6863],
+				[36837, 36857]
+			],
+			"taxonomy_id": 1548798
+		},
+		{
 			"name": "N. benthamiana",
 			"spans": [
 				[7728, 7742],
@@ -920,11 +1033,33 @@
 			"taxonomy_id": 4100
 		},
 		{
-			"name": "P. exiguum",
+			"name": "K. caespitosa",
 			"spans": [
-				[24505, 24515],
-				[24822, 24832]
-			]
+				[24476, 24489],
+				[24764, 24777],
+				[30293, 30306],
+				[50461, 50474],
+				[50620, 50633]
+			],
+			"taxonomy_id": 2086541
+		},
+		{
+			"name": "S. arvensis",
+			"spans": [[24180, 24191]]
+		},
+		{
+			"name": "C. ramosissimum",
+			"spans": [
+				[24067, 24082],
+				[30579, 30594],
+				[50635, 50650]
+			],
+			"taxonomy_id": 308177
+		},
+		{
+			"name": "P. tetraphyllum",
+			"spans": [[24035, 24050]],
+			"taxonomy_id": 115622
 		},
 		{
 			"name": "L. aethiopicum",
@@ -936,13 +1071,11 @@
 			"taxonomy_id": 115627
 		},
 		{
-			"name": "C. ramosissimum",
+			"name": "P. exiguum",
 			"spans": [
-				[24067, 24082],
-				[30579, 30594],
-				[50635, 50650]
-			],
-			"taxonomy_id": 308177
+				[24505, 24515],
+				[24822, 24832]
+			]
 		},
 		{
 			"name": "C. litoralis",
@@ -963,36 +1096,11 @@
 			"taxonomy_id": 764202
 		},
 		{
-			"name": "K. caespitosa",
-			"spans": [
-				[24476, 24489],
-				[24764, 24777],
-				[30293, 30306],
-				[50461, 50474],
-				[50620, 50633]
-			],
-			"taxonomy_id": 2086541
-		},
-		{
-			"name": "S. arvensis",
-			"spans": [[24180, 24191]]
-		},
-		{
-			"name": "S. marina",
-			"spans": [[24166, 24175]],
-			"taxonomy_id": 191669
-		},
-		{
 			"name": "P. campestris",
 			"spans": [
 				[24087, 24100],
 				[24284, 24297]
 			]
-		},
-		{
-			"name": "P. tetraphyllum",
-			"spans": [[24035, 24050]],
-			"taxonomy_id": 115622
 		},
 		{
 			"name": "T. imperati",
@@ -1004,14 +1112,9 @@
 			"taxonomy_id": 645216
 		},
 		{
-			"name": "S. halimifolium",
-			"spans": [
-				[25195, 25210],
-				[25384, 25399],
-				[26150, 26165],
-				[40764, 40779]
-			],
-			"taxonomy_id": 3535
+			"name": "S. marina",
+			"spans": [[24166, 24175]],
+			"taxonomy_id": 191669
 		},
 		{
 			"name": "M. crystallinum",
@@ -1019,9 +1122,11 @@
 				[25281, 25296],
 				[25401, 25416],
 				[26180, 26195],
+				[27568, 27583],
 				[29389, 29404],
 				[29505, 29520],
 				[32889, 32904],
+				[33731, 33746],
 				[37593, 37608],
 				[37995, 38010],
 				[40794, 40809],
@@ -1036,12 +1141,32 @@
 				[25337, 25348],
 				[25421, 25432],
 				[26200, 26211],
+				[27552, 27563],
 				[29733, 29744],
 				[37613, 37624],
 				[38015, 38026],
 				[40814, 40825]
 			],
 			"taxonomy_id": 171969
+		},
+		{
+			"name": "S. halimifolium",
+			"spans": [
+				[25195, 25210],
+				[25384, 25399],
+				[26150, 26165],
+				[27522, 27537],
+				[40764, 40779]
+			],
+			"taxonomy_id": 3535
+		},
+		{
+			"name": "Mesembryanthemum crystallinum",
+			"spans": [
+				[26797, 26826],
+				[36703, 36732]
+			],
+			"taxonomy_id": 3544
 		},
 		{
 			"name": "Stegnosperma halimifolium",
@@ -1052,15 +1177,6 @@
 			"taxonomy_id": 3535
 		},
 		{
-			"name": "Beta vulgaris",
-			"spans": [
-				[26759, 26772],
-				[33693, 33706],
-				[36563, 36576]
-			],
-			"taxonomy_id": 161934
-		},
-		{
 			"name": "Carnegiea gigantea",
 			"spans": [
 				[26774, 26792],
@@ -1069,13 +1185,20 @@
 			"taxonomy_id": 171969
 		},
 		{
-			"name": "Mesembryanthemum crystallinum",
+			"name": "Polycarpon tetraphyllum",
 			"spans": [
-				[26797, 26826],
-				[33528, 33557],
-				[36703, 36732]
+				[31036, 31059],
+				[36863, 36886]
 			],
-			"taxonomy_id": 3544
+			"taxonomy_id": 115622
+		},
+		{
+			"name": "Spergularia marina",
+			"spans": [
+				[31116, 31134],
+				[36923, 36941]
+			],
+			"taxonomy_id": 191669
 		},
 		{
 			"name": "Cardionema ramosissimum",
@@ -1094,28 +1217,12 @@
 			"taxonomy_id": 645216
 		},
 		{
-			"name": "Spergularia marina",
-			"spans": [
-				[31116, 31134],
-				[36923, 36941]
-			],
-			"taxonomy_id": 191669
-		},
-		{
 			"name": "Macarthuria australis",
 			"spans": [
 				[30963, 30984],
 				[36738, 36759]
 			],
 			"taxonomy_id": 764202
-		},
-		{
-			"name": "Polycarpon tetraphyllum",
-			"spans": [
-				[31036, 31059],
-				[36863, 36886]
-			],
-			"taxonomy_id": 115622
 		},
 		{
 			"name": "Limeum aethiopicum",
@@ -1160,29 +1267,6 @@
 			"taxonomy_id": 28502
 		},
 		{
-			"name": "Escherichia coli",
-			"spans": [[34486, 34502]],
-			"taxonomy_id": 562
-		},
-		{
-			"name": "Amaranthaceae",
-			"spans": [
-				[34953, 34966],
-				[35305, 35318]
-			],
-			"taxonomy_id": 3563
-		},
-		{
-			"name": "Dianthus superbus",
-			"spans": [[36635, 36652]],
-			"taxonomy_id": 288950
-		},
-		{
-			"name": "Ptilotus hybrid",
-			"spans": [[36816, 36831]],
-			"taxonomy_id": 37965
-		},
-		{
 			"name": "Portulaca grandiflora",
 			"spans": [
 				[36787, 36808],
@@ -1199,24 +1283,14 @@
 			"taxonomy_id": 3538
 		},
 		{
-			"name": "Stegnospermataceae",
-			"spans": [[40265, 40283]],
-			"taxonomy_id": 232387
+			"name": "Dianthus superbus",
+			"spans": [[36635, 36652]],
+			"taxonomy_id": 288950
 		},
 		{
-			"name": "Macarthuriaceae",
-			"spans": [[40309, 40324]],
-			"taxonomy_id": 1803516
-		},
-		{
-			"name": "Simmondsiaceae",
-			"spans": [[39957, 39971]],
-			"taxonomy_id": 3997
-		},
-		{
-			"name": "Limeaceae",
-			"spans": [[39943, 39952]],
-			"taxonomy_id": 620909
+			"name": "Ptilotus hybrid",
+			"spans": [[36816, 36831]],
+			"taxonomy_id": 37965
 		},
 		{
 			"name": "Coffea",
@@ -1235,6 +1309,7 @@
 				[2623, 2644],
 				[3660, 3681],
 				[3702, 3723],
+				[5102, 5123],
 				[8758, 8779],
 				[25110, 25131],
 				[28352, 28373],
@@ -1244,56 +1319,56 @@
 				[43033, 43054],
 				[44918, 44939],
 				[45567, 45588],
-				[46995, 47016],
 				[49204, 49225],
 				[49612, 49633],
 				[49767, 49788],
 				[50053, 50074],
 				[51386, 51407],
 				[51761, 51782],
-				[52519, 52540]
+				[52519, 52540],
+				[54341, 54362],
+				[54555, 54576]
 			]
 		},
 		{
-			"name": "anthocyanin",
+			"name": "anthocyanin pigmentation",
 			"spans": [
-				[3577, 3588],
-				[3751, 3762]
+				[5152, 5176],
+				[50078, 50102],
+				[52425, 52449]
 			],
 			"ontology_id": "TO:0000071",
 			"normalized_name": "anthocyanin content",
-			"score": 0.8625717759132385
+			"score": 0.8201516270637512
 		},
 		{
 			"name": "pigment gain",
 			"spans": [[7579, 7591]]
 		},
 		{
+			"name": "pigmentation state",
+			"spans": [
+				[21992, 22010],
+				[36149, 36167],
+				[46234, 46252]
+			],
+			"ontology_id": "TO:0000494",
+			"normalized_name": "pigment content trait",
+			"score": 0.804929256439209
+		},
+		{
+			"name": "betacyanin pigmentation",
+			"spans": [[26229, 26252]]
+		},
+		{
 			"name": "pigmentation",
 			"spans": [
-				[20772, 20784],
-				[21752, 21764],
-				[21814, 21826],
-				[21992, 22004],
-				[22420, 22432],
 				[29406, 29418],
-				[46189, 46201],
-				[46234, 46246]
+				[47004, 47016]
 			],
 			"ontology_id": "TO:0000494",
 			"normalized_name": "pigment content trait",
 			"score": 0.8220473527908325
-		},
-		{
-			"name": "betacyanin production",
-			"spans": [[25984, 26005]]
-		},
-		{
-			"name": "pigmentation state",
-			"spans": [[36149, 36167]],
-			"ontology_id": "TO:0000494",
-			"normalized_name": "pigment content trait",
-			"score": 0.804929256439209
 		},
 		{
 			"name": "pigmentation status",
@@ -1303,29 +1378,28 @@
 			"score": 0.8052564859390259
 		},
 		{
-			"name": "anthocyanin pigmentation",
-			"spans": [
-				[50078, 50102],
-				[52425, 52449]
-			],
+			"name": "anthocyanic",
+			"spans": [[41632, 41643]],
 			"ontology_id": "TO:0000071",
 			"normalized_name": "anthocyanin content",
-			"score": 0.8201516270637512
+			"score": 0.7890546917915344
 		}
 	],
 	"experimental_conditions": [
 		{
-			"name": "yeast",
-			"spans": [[6772, 6777]]
+			"name": "heterologous assays",
+			"spans": [[4177, 4196]]
 		},
 		{
 			"name": "heterologous assay",
 			"spans": [
 				[7706, 7724],
-				[7788, 7806],
-				[25887, 25905],
-				[28475, 28493]
+				[7788, 7806]
 			]
+		},
+		{
+			"name": "transiently transformed",
+			"spans": [[25726, 25749]]
 		},
 		{
 			"name": "heterologous expression",
@@ -1342,12 +1416,26 @@
 			]
 		},
 		{
-			"name": "heterologous transient assays",
-			"spans": [[34398, 34427]]
+			"name": "heterologously expressed",
+			"spans": [
+				[26527, 26551],
+				[30807, 30831]
+			]
+		},
+		{
+			"name": "transient expression",
+			"spans": [[29592, 29612]]
 		},
 		{
 			"name": "recombinant expression in Escherichia coli",
 			"spans": [[34460, 34502]]
+		},
+		{
+			"name": "heterologous transient assays",
+			"spans": [
+				[34398, 34427],
+				[40833, 40862]
+			]
 		},
 		{
 			"name": "stable transgenics",
@@ -1364,6 +1452,14 @@
 			"ontology_id": "PO:0025034",
 			"normalized_name": "leaf",
 			"score": 1.0
+		},
+		{
+			"name": "infiltration spots",
+			"spans": [
+				[26997, 27015],
+				[27185, 27203],
+				[29804, 29822]
+			]
 		},
 		{
 			"name": "hypocotyl",

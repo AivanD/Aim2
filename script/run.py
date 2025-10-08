@@ -15,7 +15,7 @@ from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
@@ -137,6 +137,7 @@ async def amain():
             # define the input file and output file
             input_path = os.path.join(INPUT_DIR, filename)
             raw_ner_output_path = os.path.join(RAW_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            eval_ner_output_path = os.path.join(EVAL_NER_OUTPUT_DIR, filename.replace('.xml', '.json')) # New path for evaluation file
             processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # define a prompt list for batching
@@ -146,7 +147,7 @@ async def amain():
             logger.info(f"Processing file: {filename}")
 
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
-            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True)
+            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, False)
 
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
@@ -230,6 +231,11 @@ async def amain():
                     # add spans to each of the extracted entities in the raw_result_list
                     extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
                     processed_result_list.append(extracted_entities_w_spans)
+                
+                # --- SAVE INTERMEDIATE FILE FOR NER EVALUATION ---
+                with open(eval_ner_output_path, 'w') as f:
+                    json.dump(processed_result_list, f, indent=2)
+                logger.info(f"NER evaluation file saved to {eval_ner_output_path}")
 
                 # 2. normalize
                 # - use ChemOnt to normalize compounds first for classes

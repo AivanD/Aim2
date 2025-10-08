@@ -25,6 +25,7 @@ MODELS_DIR      = PROJECT_ROOT / "models"
 # NER-specific output directories
 NER_OUTPUT_DIR = OUTPUT_DIR / "ner"
 RAW_NER_OUTPUT_DIR  = NER_OUTPUT_DIR / "raw"
+EVAL_NER_OUTPUT_DIR = NER_OUTPUT_DIR / "evaluation" # For per-passage results used in evaluation
 PROCESSED_NER_OUTPUT_DIR = NER_OUTPUT_DIR / "processed"
 
 # RE-specific output directories (for future use)
@@ -50,5 +51,5 @@ def ensure_dirs():
     """
     Ensures that the input and output directories exist.
     """
-    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR]:
+    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR]:
         directory.mkdir(parents=True, exist_ok=True)
