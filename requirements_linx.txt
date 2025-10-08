@@ -163,9 +163,6 @@ thinc==8.2.5
 threadpoolctl==3.6.0
 tiktoken==0.10.0
 tokenizers==0.21.4
-torch==2.7.1+cu128
-torchaudio==2.7.1+cu128
-torchvision==0.22.1+cu128
 tqdm==4.67.1
 transformers==4.55.0
 triton==3.3.1
