@@ -13,8 +13,9 @@ from aim2.postprocessing.compound_normalizer import get_np_class, normalize_comp
 from aim2.postprocessing.merger import merge_and_deduplicate
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
+from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, OUTPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR
+from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
 from aim2.llm.prompt import make_prompt
@@ -31,7 +32,7 @@ def _parse_openai_retry_after(error_message: str) -> float:
         return float(match.group(1)) + 0.1  # Add a small buffer
     return 10.0  # Default to 10 seconds if parsing fails
 
-async def process_passage(semaphore, passage_text, model=None):
+async def process_passage_for_ner(semaphore, passage_text, model=None):
     """Helper function to process a single passage with semaphore and retry logic."""
     async with semaphore:
         for attempt in range(5):  # Retry up to 5 times
@@ -131,12 +132,12 @@ async def amain():
     # process each files in the input folder
     start_time = time.time()
     for filename in os.listdir(INPUT_DIR):
+        start_ner_time = time.time()
         if filename.endswith('.xml'):
             # define the input file and output file
             input_path = os.path.join(INPUT_DIR, filename)
             raw_ner_output_path = os.path.join(RAW_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
             processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
-            output_path = os.path.join(OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # define a prompt list for batching
             prompts = []
@@ -165,7 +166,7 @@ async def amain():
                     prompts.append(prompt)
 
                     # API (async)
-                    task = process_passage(semaphore, passage_text, model)
+                    task = process_passage_for_ner(semaphore, passage_text, model)
                     tasks.append(task)
 
                 # wait for all tasks to complete and get their results
@@ -201,66 +202,104 @@ async def amain():
                 with open(raw_ner_output_path, 'w') as f:
                     json.dump(raw_result_list, f, indent=2)
                 logger.info(f"Raw results saved to {raw_ner_output_path}")
+                end_ner_time = time.time()
+                logger.info(f"Ner processing time for {filename}: {end_ner_time - start_ner_time:.2f} seconds")
 
             # Post-processing:
             # TODO: Currently, each passage have their own set of extracted entities so the JSON has x items (x = # of passages)
             # implement a way to normalize, dedupe and merge all extracted entites. Thus this will give us the extracted entities for the whole paper
             # rather than for each passage. 
             # do span_adder, normalization, then dedupe then merge
+            if not os.path.exists(processed_ner_output_path):
+                start_ner_post_time = time.time()
 
-            processed_result_list = []
+                processed_result_list = []
 
-            # 1. add spans to each of the extracted entities in the raw_result_list
-            # read the raw results from the raw output file
-            with open(raw_ner_output_path, 'r') as f:
-                raw_result_list = json.load(f)
+                # 1. add spans to each of the extracted entities in the raw_result_list
+                # read the raw results from the raw output file
+                with open(raw_ner_output_path, 'r') as f:
+                    raw_result_list = json.load(f)
 
-            # ensure valid objects (just in case user edited the raw json file)
-            for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
+                # ensure valid objects (just in case user edited the raw json file)
+                for raw_result, (passage_text, passage_offset) in zip(raw_result_list, passages_w_offsets):
+                    try:
+                        extracted_entities = CustomExtractedEntities.model_validate(raw_result)
+                    except Exception as e:
+                        logger.error(f"Invalid raw result object in {raw_ner_output_path}: {e}")
+            
+                    # add spans to each of the extracted entities in the raw_result_list
+                    extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
+                    processed_result_list.append(extracted_entities_w_spans)
+
+                # 2. normalize
+                # - use ChemOnt to normalize compounds first for classes
+                # - use PUBCHEM to normalize compounds  for molecular compounds
+                # - use NP_CLASSIFIER to get the superclass/class
+                # - use existing ontology for pathways, molecular traits, plant traits, anatomical structures, experimental conditions
+                # - use NCBI tax for species.
+                # - human traits are not normalized
+                # - genes are not normalized
+
                 try:
-                    extracted_entities = CustomExtractedEntities.model_validate(raw_result)
+                    # 1. Normalize against ontologies first. This will classify compound classes via ChemOnt.
+                    processed_result_list = normalizer.normalize_entities(processed_result_list)
+
+                    # 2. For compounds NOT classified by ChemOnt, try to find a CID and SMILES via PubChem.
+                    processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+
+                    # 3. For compounds with a SMILES string, get further classification.
+                    processed_result_list = get_np_class(processed_result_list)
+
+                    # 4. For species, use NCBI taxonomy to get the taxon id
+                    processed_result_list = normalize_species_with_ncbi(processed_result_list)
+
                 except Exception as e:
-                    logger.error(f"Invalid raw result object in {raw_ner_output_path}: {e}")
-        
-                # add spans to each of the extracted entities in the raw_result_list
-                extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
-                processed_result_list.append(extracted_entities_w_spans)
+                    logger.error(f"An unexpected error occurred while normalizing: {e}")
+                
+                # 3. Deduplicate and merge entities for the entire document
+                try: 
+                    final_entities = merge_and_deduplicate(processed_result_list)
+                except Exception as e:
+                    logger.error(f"An unexpected error occurred while merging: {e}")
+                
+                # save the processed results to the output file
+                with open(processed_ner_output_path, 'w') as f:
+                    json.dump(final_entities, f, indent=2)
+                logger.info(f"Processed results saved to {processed_ner_output_path}")
+                end_ner_post_time = time.time()
+                logger.info(f"Ner post-processing time for {filename}: {end_ner_post_time - start_ner_post_time:.2f} seconds")
 
-            # 2. normalize
-            # - use ChemOnt to normalize compounds first for classes
-            # - use PUBCHEM to normalize compounds  for molecular compounds
-            # - use NP_CLASSIFIER to get the superclass/class
-            # - use existing ontology for pathways, molecular traits, plant traits, anatomical structures, experimental conditions
-            # - use NCBI tax for species.
-            # - human traits are not normalized
-            # - genes are not normalized
+            # Relation Extraction
+            start_re_time = time.time()
+            re_output_path = os.path.join(RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            final_entities = None
+            if not os.path.exists(re_output_path):
+                # Run relation extraction if there is no RE output file yet using the entities from NER
+                with open(processed_ner_output_path, 'r') as f:
+                    final_entities = json.load(f)
+                
+                # 1. Find entity pairs that co-occur in the paragraph
+                entity_pairs = find_entity_pairs(final_entities)
+                if not entity_pairs:
+                    return {"relations": []}
 
-            try:
-                # 1. Normalize against ontologies first. This will classify compound classes via ChemOnt.
-                processed_result_list = normalizer.normalize_entities(processed_result_list)
+                # Initialize a list to hold all extracted relations
+                all_extracted_relations = []
 
-                # 2. For compounds NOT classified by ChemOnt, try to find a CID and SMILES via PubChem.
-                processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+                # 2. filter and rank
+                for compound, other_entity, category in entity_pairs:
+                    ranked_passages = rank_passages_for_pair(compound, other_entity, passages_w_offsets)
 
-                # 3. For compounds with a SMILES string, get further classification.
-                processed_result_list = get_np_class(processed_result_list)
+                    if not ranked_passages:
+                        continue
 
-                # 4. For species, use NCBI taxonomy to get the taxon id
-                processed_result_list = normalize_species_with_ncbi(processed_result_list)
+                    # 3. Select top 1-3 passages as context
+                    top_passages_text = [p[0] for p in ranked_passages[:3]]
 
-            except Exception as e:
-                logger.error(f"An unexpected error occurred while normalizing: {e}")
-            
-            # 3. Deduplicate and merge entities for the entire document
-            try: 
-                final_entities = merge_and_deduplicate(processed_result_list)
-            except Exception as e:
-                logger.error(f"An unexpected error occurred while merging: {e}")
-            
-            # save the processed results to the output file
-            with open(processed_ner_output_path, 'w') as f:
-                json.dump(final_entities, f, indent=2)
-            logger.info(f"Processed results saved to {processed_ner_output_path}")
+                    # TODO 4. build a prompt using those top_passages_text and send them to an LLM to derive relation for the pair
+
+            end_re_time = time.time()
+            logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  
 
     end_time = time.time()
     logger.info(f"Processing time: {end_time - start_time:.2f} seconds")
