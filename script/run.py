@@ -231,10 +231,11 @@ async def amain():
                     # add spans to each of the extracted entities in the raw_result_list
                     extracted_entities_w_spans = add_spans_to_entities(extracted_entities, passage_text, passage_offset)
                     processed_result_list.append(extracted_entities_w_spans)
-                
-                # --- SAVE INTERMEDIATE FILE FOR NER EVALUATION ---
-                with open(eval_ner_output_path, 'w') as f:
-                    json.dump(processed_result_list, f, indent=2)
+
+                # --- SAVE INTERMEDIATE FILE FOR NER EVALUATION if it doesnt exists ---
+                if not os.path.exists(eval_ner_output_path):
+                    with open(eval_ner_output_path, 'w') as f:
+                        json.dump(processed_result_list, f, indent=2)
                 logger.info(f"NER evaluation file saved to {eval_ner_output_path}")
 
                 # 2. normalize

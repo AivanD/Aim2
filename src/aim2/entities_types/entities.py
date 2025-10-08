@@ -36,6 +36,7 @@ class Compound(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class Pathway(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -50,7 +51,7 @@ class Pathway(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class Genes(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -62,6 +63,7 @@ class Genes(SchemicModel):
         default=None,
         description="Text spans where the gene is mentioned in the passage."
     )
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class AnatomicalStructure(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -76,7 +78,7 @@ class AnatomicalStructure(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class Species(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -89,7 +91,7 @@ class Species(SchemicModel):
         description="Text spans where the species is mentioned in the passage."
     )
     taxonomy_id: Optional[int] = Field(default=None, description="NCBI Taxonomy ID for the species.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class ExperimentalCondition(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -104,7 +106,7 @@ class ExperimentalCondition(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 # class NP_Class(SchemicModel):
 #     model_config = ConfigDict(extra="forbid")
@@ -125,7 +127,7 @@ class MolecularTraits(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class PlantTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -140,7 +142,7 @@ class PlantTraits(SchemicModel):
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")
     normalized_name: Optional[str] = Field(default=None, description="The canonical name from the ontology.")
     score: Optional[float] = Field(default=None, description="The similarity score from the normalization model.")
-
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 class HumanTraits(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -151,6 +153,7 @@ class HumanTraits(SchemicModel):
         default=None,
         description="Text spans where the human trait is mentioned in the passage."
     )
+    alt_names: Optional[List[str]] = Field(default=None, description="Alternative names or surface forms found in the text.")
 
 # Create a main model to hold lists of all extracted entities
 # TODO: consider using some NLP for some of the NER tasks. For example
