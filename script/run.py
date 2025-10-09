@@ -66,18 +66,21 @@ async def process_passage_for_ner(semaphore, passage_text, model=None):
         logging.error("Passage failed after multiple retries due to rate limiting.")
         return None
 
-async def process_pair_for_re(semaphore, prompt, model):
+async def process_pair_for_re(semaphore, prompt, model=None):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     async with semaphore:
         for attempt in range(5):
             try:
                 schema = SimpleRelation.model_json_schema()
-                result = await model(
-                    model_input=prompt,
-                    response_format={"type": "json_object", "schema": schema},
-                    max_tokens=256, # Smaller max tokens for this focused task
-                    temperature=1e-67,
-                )
+                # result = await model(
+                #     model_input=prompt,
+                #     response_format={"type": "json_object", "schema": schema},
+                #     max_tokens=256, # Smaller max tokens for this focused task
+                #     temperature=1e-67,
+                # )
+                # return result
+                # OPTION 2: GROQ inference (async)
+                result = await groq_inference_async(prompt)
                 return result
             except RateLimitError as e:
                 wait_time = _parse_openai_retry_after(str(e))
