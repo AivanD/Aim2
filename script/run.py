@@ -198,30 +198,23 @@ async def amain():
                 logger.info(f"Waiting for {len(tasks)} tasks to complete...")
                 results = await asyncio.gather(*tasks)
 
-                for result in results:
-                    if result is None:
-                        continue  # Skip if there was an error processing this passage
-                    # parse the json_string result into a pydantic object
-                    # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
-                    extracted_entities = SimpleExtractedEntities().model_validate_json(result)
-
-                    # add the entities to the raw result list to be saved into a file
-                    raw_result_list.append(extracted_entities.model_dump())
-                
-                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
                 # results = model.batch(
                 #     model_input=prompts_ner,
                 #     output_type=SimpleExtractedEntities,
                 #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
                 # )
 
-                # validate each one
-                # for result in results:
-                #     if result is None:
-                #         continue  # Skip if there was an error processing this passage
-                #     extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])
-                #     # add the entities to the raw result list to be saved into a file
-                #     raw_result_list.append(extracted_entities.model_dump())
+                for result in results:
+                    if result is None:
+                        continue  # Skip if there was an error processing this passage
+                    # parse the json_string result into a pydantic object
+                    # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
+                    extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
+                    # extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])  # if using local model
+
+                    # add the entities to the raw result list to be saved into a file
+                    raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
                 with open(raw_ner_output_path, 'w') as f:
@@ -358,7 +351,8 @@ async def amain():
                         continue
                     
                     try:
-                        simple_relation = SimpleRelation.model_validate_json(result_json)
+                        simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
+                        # simple_relation = SimpleRelation.model_validate_json(result_json)
                         if simple_relation.predicate == "No_Relationship":
                             continue
 
