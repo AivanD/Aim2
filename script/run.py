@@ -14,11 +14,12 @@ from aim2.postprocessing.merger import merge_and_deduplicate
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair
+from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
-from aim2.llm.prompt import make_prompt
+from aim2.llm.prompt import make_prompt, make_re_prompt
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -65,6 +66,29 @@ async def process_passage_for_ner(semaphore, passage_text, model=None):
         logging.error("Passage failed after multiple retries due to rate limiting.")
         return None
 
+async def process_pair_for_re(semaphore, prompt, model):
+    """Helper function to process a single entity pair with semaphore and retry logic."""
+    async with semaphore:
+        for attempt in range(5):
+            try:
+                schema = SimpleRelation.model_json_schema()
+                result = await model(
+                    model_input=prompt,
+                    response_format={"type": "json_object", "schema": schema},
+                    max_tokens=256, # Smaller max tokens for this focused task
+                    temperature=1e-67,
+                )
+                return result
+            except RateLimitError as e:
+                wait_time = _parse_openai_retry_after(str(e))
+                logging.warning(f"RE Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
+                await asyncio.sleep(wait_time)
+            except Exception as e:
+                logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
+                return None
+        logging.error("Relation extraction for a pair failed after multiple retries.")
+        return None
+    
 async def amain():
     ensure_dirs()
     setup_logging()
@@ -141,7 +165,7 @@ async def amain():
             processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # define a prompt list for batching
-            prompts = []
+            prompts_ner = []
 
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
@@ -164,7 +188,7 @@ async def amain():
                 for passage_text, passage_offset in passages_w_offsets:
                     # create a prompt for the passage
                     prompt = make_prompt(passage_text)
-                    prompts.append(prompt)
+                    prompts_ner.append(prompt)
 
                     # API (async)
                     task = process_passage_for_ner(semaphore, passage_text, model)
@@ -186,7 +210,7 @@ async def amain():
                 
                 # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
                 # results = model.batch(
-                #     model_input=prompts,
+                #     model_input=prompts_ner,
                 #     output_type=SimpleExtractedEntities,
                 #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
                 # )
@@ -288,10 +312,14 @@ async def amain():
                 # 1. Find entity pairs that co-occur in the paragraph
                 entity_pairs = find_entity_pairs(final_entities)
                 if not entity_pairs:
-                    return {"relations": []}
+                    logger.info(f"No entity pairs found in {filename}. Skipping relation extraction.")
+                    continue
 
                 # Initialize a list to hold all extracted relations
-                all_extracted_relations = []
+                tasks = []
+                pair_details = [] # To hold details needed after async calls
+                # prompts list for offline batching
+                prompts_re = []
 
                 # 2. filter and rank
                 for compound, other_entity, category in entity_pairs:
@@ -302,8 +330,54 @@ async def amain():
 
                     # 3. Select top 1-3 passages as context
                     top_passages_text = [p[0] for p in ranked_passages[:3]]
+                    context_str = "\n\n---\n\n".join(top_passages_text)
+                    
+                    prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
+                    prompts_re.append(prompt_re)
 
-                    # TODO 4. build a prompt using those top_passages_text and send them to an LLM to derive relation for the pair
+                    # API (async)
+                    task = process_pair_for_re(asyncio.Semaphore(3), prompt_re, model)
+                    tasks.append(task)
+                    pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
+                
+                # Execute all API calls concurrently
+                logger.info(f"Starting relation extraction for {len(tasks)} pairs...")
+                re_results = await asyncio.gather(*tasks)
+
+                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # re_results = model.batch(
+                #     model_input=prompts_re,
+                #     output_type=SimpleRelation,
+                #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
+                # )
+
+                # 4. Process results and build final relation objects
+                all_relations = ExtractedRelations()
+                for i, result_json in enumerate(re_results):
+                    if result_json is None:
+                        continue
+                    
+                    try:
+                        simple_relation = SimpleRelation.model_validate_json(result_json)
+                        if simple_relation.predicate == "No_Relationship":
+                            continue
+
+                        details = pair_details[i]
+                        full_relation = Relation(
+                            subject=details["compound"],
+                            object=details["other_entity"],
+                            predicate=simple_relation.predicate,
+                            justification=simple_relation.justification,
+                            context=details["context"]
+                        )
+                        all_relations.relations.append(full_relation)
+                    except Exception as e:
+                        logger.error(f"Failed to validate or process RE result: {e}\nResult was: {result_json}")
+            
+            # 5. Save all found relations to a file
+            with open(re_output_path, 'w') as f:
+                f.write(all_relations.model_dump_json(indent=2))
+            logger.info(f"Saved {len(all_relations.relations)} relations to {re_output_path}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  

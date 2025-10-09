@@ -1,4 +1,7 @@
 from textwrap import dedent
+from typing import List, Dict, Any
+
+from aim2.entities_types.entities import Compound
 
 def _static_header():
     """
@@ -55,4 +58,56 @@ def make_prompt(article_text: str) -> str:
     """
     prompt = _static_header()
     prompt += f"{article_text}\n"
+    return prompt
+
+RELATION_MAP = {
+    "pathways": "made_via, biosynthesized_via, degraded_via, No_Relationship",
+    "genes": "made_by, biosynthesized_by, degraded_by, associated_with, No_Relationship",
+    "anatomical_structures": "made_in, accumulates_in, found_in, present_in, No_Relationship",
+    "species": "made_in, accumulates_in, found_in, present_in, No_Relationship",
+    "experimental_conditions": "made_in, accumulates_in, found_in, present_in, No_Relationship",
+    "molecular_traits": "affects, modulates, influences, involved_in, associated_with, No_Relationship",
+    "plant_traits": "affects, modulates, influences, involved_in, associated_with, No_Relationship",
+    "human_traits": "affects, modulates, influences, No_Relationship",
+}
+
+def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str) -> str:
+    """
+    Creates a prompt for the LLM to extract a relationship between two entities.
+    """
+    compound_name = compound.get('name')
+    other_entity_name = other_entity.get('name')
+    allowed_relations = RELATION_MAP.get(category, "No_Relationship")
+
+    prompt = dedent(f"""
+        You are an expert biologist analyzing scientific text. Your task is to identify the relationship between a specific compound and another entity based *only* on the provided text context.
+        
+        **Entities:**
+        - Subject (Compound): "{compound_name}"
+        - Object ({category}): "{other_entity_name}"
+        
+        **Allowed Relationships for this pair:**
+        [{allowed_relations}]
+        
+        **Instructions:**
+        1. Carefully read the "Text Context" below. 
+        2. Determine the most accurate relationship from the "Allowed Relationships list that describes the connection between the Subject and the Object. 
+        3. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship".
+        4. Provide a brief, direct quote from the text that serves as the justification for your chosen relationship. If no direct quote is possible, write "No justification found".
+        5. Output ONLY a valid JSON object with the keys "predicate" and "justification". 
+
+        **Text Context:**
+    """)
+    return prompt
+
+def make_re_prompt(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str, context_passages: List[str]) -> str:
+    """
+    Creates a prompt for the LLM to extract a relationship between two entities.
+    Returns:
+        str: The complete prompt string.
+    """
+    prompt = _static_header_re(compound, other_entity, category)
+    for context_passage in context_passages:
+        prompt += context_passage + "\n"
+
     return prompt
