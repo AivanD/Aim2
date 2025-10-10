@@ -9,7 +9,7 @@ import asyncio
 from openai import RateLimitError
 import re
 
-from aim2.postprocessing.compound_normalizer import get_np_class, normalize_compounds_with_pubchem
+from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem
 from aim2.postprocessing.merger import merge_and_deduplicate
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
@@ -274,8 +274,9 @@ async def amain():
                     # 2. For compounds NOT classified by ChemOnt, try to find a CID and SMILES via PubChem.
                     processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
 
-                    # 3. For compounds with a SMILES string, get further classification.
+                    # 3. For compounds with a SMILES and InChIkey strings, get further classification.
                     processed_result_list = get_np_class(processed_result_list)
+                    processed_result_list = classify_with_classyfire_local(processed_result_list)
 
                     # 4. For species, use NCBI taxonomy to get the taxon id
                     processed_result_list = normalize_species_with_ncbi(processed_result_list)
@@ -331,8 +332,8 @@ async def amain():
                     prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
                     prompts_re.append(prompt_re)
 
-                    # API (async)
-                    task = process_pair_for_re(asyncio.Semaphore(3), prompt_re, model)
+                    # API (async). set Model = none for Groq
+                    task = process_pair_for_re(asyncio.Semaphore(3), prompt_re, model=None)
                     tasks.append(task)
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
                 
@@ -354,8 +355,8 @@ async def amain():
                         continue
                     
                     try:
-                        simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
-                        # simple_relation = SimpleRelation.model_validate_json(result_json)
+                        # simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
+                        simple_relation = SimpleRelation.model_validate_json(result_json)
                         if simple_relation.predicate == "No_Relationship":
                             continue
 
@@ -371,16 +372,16 @@ async def amain():
                     except Exception as e:
                         logger.error(f"Failed to validate or process RE result: {e}\nResult was: {result_json}")
             
-            # 5. Save all found relations to a file
-            with open(re_output_path, 'w') as f:
-                f.write(all_relations.model_dump_json(indent=2))
-            logger.info(f"Saved {len(all_relations.relations)} relations to {re_output_path}")
+                # 5. Save all found relations to a file
+                with open(re_output_path, 'w') as f:
+                    f.write(all_relations.model_dump_json(indent=2))
+                logger.info(f"Saved {len(all_relations.relations)} relations to {re_output_path}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  
 
     end_time = time.time()
-    logger.info(f"Processing time: {end_time - start_time:.2f} seconds")
+    logger.info(f"Total processing time: {end_time - start_time:.2f} seconds")
 
 if __name__ == "__main__":
     asyncio.run(amain())

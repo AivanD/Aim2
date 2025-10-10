@@ -3,14 +3,16 @@ import time
 from typing import List, Dict, Any
 import requests
 import urllib.parse
+import subprocess
+import tempfile
+import os
+import csv
 
 logger = logging.getLogger(__name__)
 
 # Base URL for PubChem PUG REST API
 API_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug"      # to retreive CID and SMILES
 SMILES_TO_CLASS = "https://npclassifier.gnps2.org/classify" # to retreive NP_class and NP_superclass
-Classyfire = "https://structure.gnps2.org/classyfire"        # to retreive Classyfire classification using SMILES
-ClassyFire_Wishart = "http://classyfire.wishartlab.com"
 
 def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
     """
@@ -116,15 +118,16 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
                         compound['CID'] = first_cid
                         
                         # Step 2: Get SMILES from CID
-                        smiles_url = f"{API_BASE}/compound/cid/{first_cid}/property/IsomericSMILES/JSON"
+                        smiles_url = f"{API_BASE}/compound/cid/{first_cid}/property/IsomericSMILES,InChIKey/JSON"
                         smiles_response = requests.get(smiles_url)
                         smiles_response.raise_for_status()
                         
                         smiles_data = smiles_response.json()
-                        smiles_properties = smiles_data.get("PropertyTable", {}).get("Properties", [])
-                        
-                        if smiles_properties:
-                            compound['SMILES'] = smiles_properties[0].get("SMILES")
+                        properties = smiles_data.get("PropertyTable", {}).get("Properties", [])
+
+                        if properties:
+                            compound['SMILES'] = properties[0].get("SMILES")
+                            compound['InChIKey'] = properties[0].get("InChIKey")
                             logger.debug(f"Normalized '{original_name}' to CID: {first_cid}")
 
                     else:
@@ -152,42 +155,75 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
 
     return processed_results
 
-def get_classyfire_classification(smiles: str, MAX_ATTEMPTS=10) -> Dict[str, Any]:
+def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_path='external_tools/Classyfire/Classyfire_2024.jar') -> List[Dict[str, Any]]:
     """
-    Fetches Classyfire classification for a given SMILES string.
-
-    This function queries the Classyfire API to retrieve the classification
-    information for a compound represented by its SMILES string.
+    Classifies compounds using a local ClassyFire .jar file.
 
     Args:
-        smiles: The SMILES string of the compound.
-        MAX_ATTEMPTS: Maximum number of retry attempts for transient errors.
+        processed_results: The list of processed entity dictionaries.
+        jar_path: The file path to the ClassyFire .jar file.
+
     Returns:
-        A dictionary containing the Classyfire classification data.
+        The processed results with ClassyFire classifications added.
     """
-    # copy the structure of get_np_class()
-    return NotImplementedError  # Placeholder for future implementation
-    for attempt in range(MAX_ATTEMPTS):
+    compounds_to_classify = []
+    for result in processed_results:
+        for compound in result.get("compounds", []):
+            if compound.get("SMILES") and compound.get("InChIKey") and not compound.get("Classyfire"):
+                compounds_to_classify.append(compound)
+
+    if not compounds_to_classify:
+        logger.info("No compounds to classify with ClassyFire.")
+        return processed_results
+
+    classy_start_time = time.time()
+    logger.info(f"Classifying {len(compounds_to_classify)} unmerged compounds with local ClassyFire. This may time some time...")
+
+    with tempfile.TemporaryDirectory() as tempdir:
+        input_path = os.path.join(tempdir, "input.csv")
+        output_path = os.path.join(tempdir, "output.tsv")
+
+        # 1. Write input file for the JAR
+        with open(input_path, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['inchikey', 'smiles'])  # Header
+            for compound in compounds_to_classify:
+                writer.writerow([compound['InChIKey'], compound['SMILES']])
+
+        # 2. Run the JAR file
         try:
-            classyfire_url = f"{Classyfire}?smiles={urllib.parse.quote(smiles)}"    # TODO: Switch to wisharts lab rather than gnps2 (latter doenst work)
-            response = requests.get(classyfire_url)
-            response.raise_for_status()
+            command = ["java", "-jar", jar_path, input_path, output_path]
+            subprocess.run(command, check=True, capture_output=True, text=True)
+            classy_end_time = time.time()
+            logger.info(f"Classyfire_Local took {classy_end_time - classy_start_time}seconds.")
+        except FileNotFoundError:
+            logger.error(f"Java command not found. Please ensure Java is installed and in your PATH.")
+            return processed_results
+        except subprocess.CalledProcessError as e:
+            logger.error(f"Error running ClassyFire JAR file: {e.stderr}")
+            return processed_results
+        
+        # 3. Parse the output file and create a mapping
+        classification_map = {}
+        try:
+            with open(output_path, 'r') as f:
+                reader = csv.DictReader(f, delimiter='\t')
+                for row in reader:
+                    # The 'sid' column from the output contains the InChIKey
+                    classification_map[row['sid']] = {
+                        "Kingdom": row.get('kingdom'),
+                        "Superclass": row.get('superklass'),
+                        "Class": row.get('klass'),
+                        "Subclass": row.get('subklass')
+                    }
+        except FileNotFoundError:
+            logger.error(f"ClassyFire output file not found at: {output_path}")
+            return processed_results
 
-            classification_data = response.json()
-            return classification_data
+        # 4. Update compounds with classification data
+        for compound in compounds_to_classify:
+            if compound['InChIKey'] in classification_map:
+                compound['Classyfire'] = classification_map[compound['InChIKey']]
 
-        except requests.exceptions.HTTPError as http_err:
-            if http_err.response.status_code == 404:
-                logger.warning(f"Classyfire classification not found for SMILES: '{smiles}' (404 Not Found)")
-                return {}
-            elif http_err.response.status_code in [500, 502, 503, 504] and attempt < MAX_ATTEMPTS - 1:
-                logger.warning(f"Server error for SMILES '{smiles}' (attempt {attempt + 1}/{MAX_ATTEMPTS}). Retrying in 10s...")
-                time.sleep(10)
-                continue
-            else:
-                logger.error(f"HTTP error querying Classyfire for SMILES '{smiles}': {http_err}")
-                return {}
-        except Exception as e:
-            logger.error(f"Error querying Classyfire for SMILES '{smiles}': {e}")
-            return {}
-    return {}
+    logger.info("ClassyFire classification complete.")
+    return processed_results

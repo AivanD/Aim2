@@ -17,7 +17,6 @@ class ClassyFire(SchemicModel):
     Superclass: Optional[str] = Field(default=None, description="Classyfire Superclass for the compound.")
     Class: Optional[str] = Field(default=None, description="Classyfire Class for the compound.")
     Subclass: Optional[str] = Field(default=None, description="Classyfire Subclass for the compound.")
-    Level_5: Optional[str] = Field(default=None, description="Classyfire Level 5 for the compound.")
 
 class Compound(SchemicModel):
     model_config = ConfigDict(extra="forbid")
@@ -31,6 +30,7 @@ class Compound(SchemicModel):
         description="Text spans where the compound is mentioned in the passage."
     )
     SMILES: Optional[str] = Field(default=None, description="SMILES string for the compound.")
+    InChIKey: Optional[str] = Field(default=None, description="InChIKey for the compound.")
     Natural_product_class: Optional[Natural_Product_Class] = Field(default=None, description="Natural product class and superclass for the compound.")
     Classyfire: Optional[ClassyFire] = Field(default=None, description="Classyfire classification for the compound.")
     ontology_id: Optional[str] = Field(default=None, description="Ontology ID for the entity.")

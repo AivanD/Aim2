@@ -148,7 +148,6 @@ async def groq_inference_async(body):
                 seed=42
             )
             await asyncio.sleep(0.3)  # brief pause before returning the response
-            CustomExtractedEntities.model_validate_json(response.choices[0].message.content)  # validate the response
             # if no exception, break the loop and return the response
             break
         except Exception as e:
@@ -179,15 +178,6 @@ async def groq_inference_async(body):
                     else:
                         print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
                         sys.exit(1)
-            # it is a validation error
-            elif isinstance(e, ValidationError):
-                if attempt < MAX_RETRIES - 1:
-                    print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to ValidationError.")
-                    await asyncio.sleep(1)
-                    continue
-                else:
-                    print(f"Validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                    sys.exit(1)
             # some other error
             else:
                 print(f"An unexpected error occurred: {e}. Exiting.")
@@ -221,7 +211,6 @@ def groq_inference(body):
                 seed=42
             )
             time.sleep(0.3)  # brief pause before returning the response
-            CustomExtractedEntities.model_validate_json(response.choices[0].message.content)  # validate the response
             # if no exception, break the loop and return the response
             break
         except Exception as e:
@@ -252,15 +241,6 @@ def groq_inference(body):
                     else:
                         print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
                         sys.exit(1)
-            # it is a validation error
-            elif isinstance(e, ValidationError):
-                if attempt < MAX_RETRIES - 1:
-                    print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to ValidationError.")
-                    time.sleep(1)
-                    continue
-                else:
-                    print(f"Validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                    sys.exit(1)
             # some other error
             else:
                 print(f"An unexpected error occurred: {e}. Exiting.")
