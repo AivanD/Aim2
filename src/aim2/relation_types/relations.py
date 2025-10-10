@@ -1,5 +1,6 @@
 from typing import List, Literal, Union, Optional
 from pydantic import BaseModel, Field
+from schemic import SchemicModel
 from aim2.entities_types.entities import Compound, Pathway, Genes, AnatomicalStructure, Species, ExperimentalCondition, MolecularTraits, PlantTraits, HumanTraits
 
 # Define the allowed relationship types for each category
@@ -38,7 +39,7 @@ class Relation(BaseModel):
     justification: str = Field(description="A brief, direct quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.")
     context: Optional[str] = Field(default=None, description="The text passage(s) used by the LLM to determine the relationship.")
 
-class SimpleRelation(BaseModel):
+class SimpleRelation(SchemicModel):
     """A simplified model for the LLM to output, containing only the predicate and justification."""
     predicate: PredicateType = Field(description="The relationship between the subject and the object.")
     justification: str = Field(description="A brief, direct quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.")

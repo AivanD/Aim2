@@ -96,6 +96,12 @@ def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], ca
         4. Provide a brief, direct quote from the text that serves as the justification for your chosen relationship. If no direct quote is possible, write "No justification found".
         5. Output ONLY a valid JSON object with the keys "predicate" and "justification". 
 
+        Output Format (JSON only):
+        {{
+            "predicate": "...", 
+            "justification": "..."
+        }}
+
         **Text Context:**
     """)
     return prompt

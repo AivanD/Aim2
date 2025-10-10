@@ -71,10 +71,10 @@ async def process_pair_for_re(semaphore, prompt, model=None):
     async with semaphore:
         for attempt in range(5):
             try:
-                schema = SimpleRelation.model_json_schema()
+                # openai_schema = SimpleRelation.schemic_schema()
                 # result = await model(
                 #     model_input=prompt,
-                #     response_format={"type": "json_object", "schema": schema},
+                #     response_format=openai_schema,
                 #     max_tokens=256, # Smaller max tokens for this focused task
                 #     temperature=1e-67,
                 # )
@@ -331,17 +331,17 @@ async def amain():
                     
                     prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
                     prompts_re.append(prompt_re)
-
+                    pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
+                    
                     # API (async). set Model = none for Groq
                     task = process_pair_for_re(asyncio.Semaphore(3), prompt_re, model=None)
                     tasks.append(task)
-                    pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
                 
                 # Execute all API calls concurrently
                 logger.info(f"Starting relation extraction for {len(tasks)} pairs...")
                 re_results = await asyncio.gather(*tasks)
 
-                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
                 # re_results = model.batch(
                 #     model_input=prompts_re,
                 #     output_type=SimpleRelation,
