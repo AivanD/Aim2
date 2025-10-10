@@ -60,15 +60,63 @@ def make_prompt(article_text: str) -> str:
     prompt += f"{article_text}\n"
     return prompt
 
-RELATION_MAP = {
-    "pathways": "made_via, biosynthesized_via, degraded_via, No_Relationship",
-    "genes": "made_by, biosynthesized_by, degraded_by, associated_with, No_Relationship",
-    "anatomical_structures": "made_in, accumulates_in, found_in, present_in, No_Relationship",
-    "species": "made_in, accumulates_in, found_in, present_in, No_Relationship",
-    "experimental_conditions": "made_in, accumulates_in, found_in, present_in, No_Relationship",
-    "molecular_traits": "affects, modulates, influences, involved_in, associated_with, No_Relationship",
-    "plant_traits": "affects, modulates, influences, involved_in, associated_with, No_Relationship",
-    "human_traits": "affects, modulates, influences, No_Relationship",
+RELATION_GUIDELINES = {
+    "pathways": {
+        "made_via": "The compound is actively synthesized or created through this pathway.",
+        "biosynthesized_via": "Synonym for 'made_via'. The compound is actively synthesized or created through this pathway.",
+        "degraded_via": "The compound is broken down or consumed by this pathway.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "genes": {
+        "made_by": "The gene/protein directly produces the compound (e.g., as an enzyme).",
+        "biosynthesized_by": "Synonym for 'made_by'. The gene/protein directly produces the compound.",
+        "degraded_by": "The gene/protein directly breaks down the compound.",
+        "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "anatomical_structures": {
+        "made_in": "The compound is actively synthesized or created in this specific anatomical part. Look for words like 'synthesis', 'production' in relation to the location.",
+        "accumulates_in": "The compound is stored or builds up to high levels in this anatomical part, but not necessarily made there. Look for 'accumulation', 'storage', 'high concentration'.",
+        "found_in": "A general term for the presence of the compound in this anatomical part. Use when it is detected or isolated, but the text does not specify if it is made or stored there.",
+        "present_in": "Synonym for 'found_in'.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "species": {
+        "made_in": "The compound is known to be synthesized by this species as a whole.",
+        "accumulates_in": "The compound is known to be stored or build up to high levels in this species.",
+        "found_in": "A general term for the presence of the compound in this species. Use when it is detected or isolated from the organism.",
+        "present_in": "Synonym for 'found_in'.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "experimental_conditions": {
+        "made_in": "The compound's synthesis or production is observed specifically under this experimental condition.",
+        "accumulates_in": "The compound's storage or high concentration is observed specifically under this experimental condition.",
+        "found_in": "The compound is detected or present when this experimental condition is applied.",
+        "present_in": "Synonym for 'found_in'.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "molecular_traits": {
+        "affects": "The compound has a direct or indirect effect on the trait.",
+        "modulates": "The compound changes or regulates the trait, implying a level of control.",
+        "influences": "A general term for the compound having an influence on the trait.",
+        "involved_in": "The compound participates in the process or trait.",
+        "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "plant_traits": {
+        "affects": "The compound has a direct or indirect effect on the trait.",
+        "modulates": "The compound changes or regulates the trait, implying a level of control.",
+        "influences": "A general term for the compound having an influence on the trait.",
+        "involved_in": "The compound participates in the process or trait.",
+        "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+    "human_traits": {
+        "affects": "The compound has a direct or indirect effect on the trait.",
+        "modulates": "The compound changes or regulates the trait, implying a level of control.",
+        "influences": "A general term for the compound having an influence on the trait.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    }
 }
 
 def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str) -> str:
@@ -77,7 +125,9 @@ def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], ca
     """
     compound_name = compound.get('name')
     other_entity_name = other_entity.get('name')
-    allowed_relations = RELATION_MAP.get(category, "No_Relationship")
+
+    # Get the specific guidelines for the given category
+    guidelines = RELATION_GUIDELINES.get(category, {})
 
     prompt = dedent(f"""
         You are an expert biologist analyzing scientific text. Your task is to identify the relationship between a specific compound and another entity based *only* on the provided text context.
@@ -87,7 +137,7 @@ def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], ca
         - Object ({category}): "{other_entity_name}"
         
         **Allowed Relationships for this pair:**
-        [{allowed_relations}]
+        [{', '.join([f'"{rel}": {desc}' for rel, desc in guidelines.items()])}]
         
         **Instructions:**
         1. Carefully read the "Text Context" below. 
