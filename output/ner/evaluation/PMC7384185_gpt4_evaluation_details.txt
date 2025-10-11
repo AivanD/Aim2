@@ -5,17 +5,17 @@ NER Evaluation Details
 
 [False Negatives (0): Entities missed by the pipeline]
 
-[False Positives (4): Entities incorrectly predicted by the pipeline]
+[False Positives (3): Entities incorrectly predicted by the pipeline]
   - Entity: 'infiltration spots', Type: anatomical_structures, Span: (26997, 27015)
   - Entity: 'infiltration spots', Type: anatomical_structures, Span: (27185, 27203)
   - Entity: 'infiltration spots', Type: anatomical_structures, Span: (29804, 29822)
-  - Entity: 'leaves', Type: anatomical_structures, Span: (29627, 29633)
 
-[True Positives (4): Entities correctly predicted]
+[True Positives (5): Entities correctly predicted]
   - Entity: 'hypocotyl', Type: anatomical_structures, Span: (27965, 27974)
   - Entity: 'hypocotyl', Type: anatomical_structures, Span: (32152, 32161)
   - Entity: 'leaf', Type: anatomical_structures, Span: (26648, 26652)
   - Entity: 'leaf', Type: anatomical_structures, Span: (30879, 30883)
+  - Entity: 'leaves', Type: anatomical_structures, Span: (29627, 29633)
 
 ========================================
 

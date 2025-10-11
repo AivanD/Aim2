@@ -1,6 +1,7 @@
 --- Annotated Entities for PMC7384185.xml ---
 anatomical_structures: hypocotyl
 anatomical_structures: leaf
+anatomical_structures: leaves
 compounds: anthocyanin
 compounds: anthocyanins
 compounds: betacyanin
