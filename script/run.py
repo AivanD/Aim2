@@ -39,20 +39,22 @@ async def process_passage_for_ner(semaphore, passage_text, model=None):
         for attempt in range(5):  # Retry up to 5 times
             try:
                 # OPTION 1: OPENAI inference
-                prompt = make_prompt(passage_text)
-                openai_schema = SimpleExtractedEntities().schemic_schema()
-                result = await model(
-                    model_input=prompt,
-                    response_format=openai_schema,
-                    max_tokens=1024,
-                    temperature=1e-67,
-                )
-                return result
+                # prompt = make_prompt(passage_text)
+                # openai_schema = SimpleExtractedEntities().schemic_schema()
+                # result = await model(
+                #     model_input=prompt,
+                #     response_format=openai_schema,
+                #     max_tokens=1024,
+                #     temperature=1e-67,
+                # )
+                # time.sleep(0.5)
+                # return result
 
                 # OPTION 2: GROQ inference (async)
-                # prompt = make_prompt(passage_text)
-                # result = await groq_inference_async(prompt)
-                # return result
+                prompt = make_prompt(passage_text)
+                result = await groq_inference_async(prompt)
+                time.sleep(0.5)
+                return result
             
             except RateLimitError as e:
                 wait_time = _parse_openai_retry_after(str(e))
@@ -78,7 +80,7 @@ async def process_pair_for_re(semaphore, prompt, model=None):
                 #     max_tokens=256, # Smaller max tokens for this focused task
                 #     temperature=1e-67,
                 # )
-                # return result
+                # asyncio.sleep(0.5)
                 # OPTION 2: GROQ inference (async)
                 result = await groq_inference_async(prompt)
                 return result
@@ -318,6 +320,9 @@ async def amain():
                 # prompts list for offline batching
                 prompts_re = []
 
+                # Limit concurrency to 3 to avoid rate limits.
+                re_semaphore = asyncio.Semaphore(3)
+
                 # 2. filter and rank
                 for compound, other_entity, category in entity_pairs:
                     ranked_passages = rank_passages_for_pair(compound, other_entity, passages_w_offsets)
@@ -332,9 +337,9 @@ async def amain():
                     prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
                     prompts_re.append(prompt_re)
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
-                    
+                    print(f"Compound: {compound['name']} | {category}: {other_entity['name']}")
                     # API (async). set Model = none for Groq
-                    task = process_pair_for_re(asyncio.Semaphore(3), prompt_re, model=None)
+                    task = process_pair_for_re(re_semaphore, prompt_re, model)
                     tasks.append(task)
                 
                 # Execute all API calls concurrently
