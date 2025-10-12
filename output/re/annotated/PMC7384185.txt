@@ -1,0 +1,664 @@
+Compound: l-DOPA | pathways: betalain biosynthesis
+Compound: l-DOPA | pathways: flavonoid pathway
+Compound: l-DOPA | pathways: anthocyanin pathway
+Compound: l-DOPA | pathways: betalamic acid biosynthesis
+Compound: l-DOPA | pathways: caffeine biosynthesis
+Compound: l-DOPA | genes: DODA
+Compound: l-DOPA | genes: DODAbeta
+Compound: l-DOPA | genes: DODAalpha
+Compound: l-DOPA | genes: LigB
+Compound: l-DOPA | genes: BvDODA2
+Compound: l-DOPA | genes: BvDODAalpha2
+Compound: l-DOPA | genes: BvDODA1
+Compound: l-DOPA | genes: BvDODAalpha1
+Compound: l-DOPA | genes: DODA alpha
+Compound: l-DOPA | genes: MjcDOPA-5GT
+Compound: l-DOPA | genes: BvDODAalpha3
+Compound: l-DOPA | genes: BvCYP76AD1
+Compound: l-DOPA | genes: firefly luciferase
+Compound: l-DOPA | genes: CgDODAalpha1
+Compound: l-DOPA | genes: ShDODAalpha1
+Compound: l-DOPA | genes: McDODAalpha1
+Compound: l-DOPA | genes: DODAalpha1
+Compound: l-DOPA | genes: ShDODAalpha2
+Compound: l-DOPA | genes: CgDODAalpha2
+Compound: l-DOPA | genes: BvDODAalpha4
+Compound: l-DOPA | genes: BvDODAalpha5
+Compound: l-DOPA | genes: KcDODAalpha1
+Compound: l-DOPA | genes: KcDODAalpha2
+Compound: l-DOPA | genes: MaDODAalpha
+Compound: l-DOPA | genes: McDODAalpha2
+Compound: l-DOPA | genes: McDODA alpha 1
+Compound: l-DOPA | genes: McCYP76AD1
+Compound: l-DOPA | genes: BvDODA alpha 1
+Compound: l-DOPA | genes: MYB
+Compound: l-DOPA | genes: CYP76AD1
+Compound: l-DOPA | genes: MjDODA alpha 1
+Compound: l-DOPA | genes: PmDOD
+Compound: l-DOPA | genes: CgDODA1
+Compound: l-DOPA | genes: PgDODA
+Compound: l-DOPA | genes: CqDODA-1
+Compound: l-DOPA | genes: BvDODAalpha2-5
+Compound: l-DOPA | genes: PmDODAalpha2
+Compound: l-DOPA | genes: PmDODAalpha1
+Compound: l-DOPA | genes: PgDODAalpha1
+Compound: l-DOPA | genes: PhybDODAalpha
+Compound: l-DOPA | genes: CYP76AD
+Compound: l-DOPA | genes: ADHalpha
+Compound: l-DOPA | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: l-DOPA | molecular_traits: 4,5-dioxygenase activity
+Compound: l-DOPA | molecular_traits: DODA activity
+Compound: l-DOPA | molecular_traits: catalytic promiscuity
+Compound: l-DOPA | molecular_traits: tyrosine hydroxylase activity
+Compound: l-DOPA | species: Gluconacetobacter diazotrophicus
+Compound: l-DOPA | species: Nicotiana benthamiana
+Compound: l-DOPA | species: Beta vulgaris
+Compound: l-DOPA | species: Parakeelya mirabilis
+Compound: l-DOPA | species: S. arvensis
+Compound: l-DOPA | species: S. marina
+Compound: l-DOPA | species: K. caespitosa
+Compound: l-DOPA | species: C. litoralis
+Compound: l-DOPA | species: T. imperati
+Compound: l-DOPA | species: M. australis
+Compound: l-DOPA | species: L. aethiopicum
+Compound: l-DOPA | species: P. exiguum
+Compound: l-DOPA | species: P. tetraphyllum
+Compound: l-DOPA | species: C. ramosissimum
+Compound: l-DOPA | species: P. campestris
+Compound: l-DOPA | species: M. crystallinum
+Compound: l-DOPA | species: C. gigantea
+Compound: l-DOPA | species: S. halimifolium
+Compound: l-DOPA | species: C. quinoa
+Compound: l-DOPA | species: A. hypochondriacus
+Compound: l-DOPA | species: Dianthus superbus
+Compound: l-DOPA | species: Portulaca grandiflora
+Compound: l-DOPA | species: Ptilotus hybrid
+Compound: l-DOPA | species: Mirabilis jalapa
+Compound: l-DOPA | plant_traits: betalain pigmentation
+Compound: l-DOPA | plant_traits: anthocyanin pigmentation
+Compound: l-DOPA | plant_traits: pigment gain
+Compound: l-DOPA | plant_traits: pigmentation state
+Compound: l-DOPA | plant_traits: betacyanin pigmentation
+Compound: l-DOPA | anatomical_structures: leaf
+Compound: l-DOPA | anatomical_structures: hypocotyl
+Compound: tyrosine | pathways: betalain biosynthesis
+Compound: tyrosine | pathways: flavonoid pathway
+Compound: tyrosine | pathways: anthocyanin pathway
+Compound: tyrosine | pathways: betalamic acid biosynthesis
+Compound: tyrosine | pathways: caffeine biosynthesis
+Compound: tyrosine | genes: DODA
+Compound: tyrosine | genes: DODAbeta
+Compound: tyrosine | genes: DODAalpha
+Compound: tyrosine | genes: LigB
+Compound: tyrosine | genes: BvDODA2
+Compound: tyrosine | genes: BvDODAalpha2
+Compound: tyrosine | genes: BvDODA1
+Compound: tyrosine | genes: BvDODAalpha1
+Compound: tyrosine | genes: DODA alpha
+Compound: tyrosine | genes: MjcDOPA-5GT
+Compound: tyrosine | genes: BvDODAalpha3
+Compound: tyrosine | genes: BvCYP76AD1
+Compound: tyrosine | genes: firefly luciferase
+Compound: tyrosine | genes: CgDODAalpha1
+Compound: tyrosine | genes: ShDODAalpha1
+Compound: tyrosine | genes: McDODAalpha1
+Compound: tyrosine | genes: DODAalpha1
+Compound: tyrosine | genes: ShDODAalpha2
+Compound: tyrosine | genes: CgDODAalpha2
+Compound: tyrosine | genes: BvDODAalpha4
+Compound: tyrosine | genes: BvDODAalpha5
+Compound: tyrosine | genes: KcDODAalpha1
+Compound: tyrosine | genes: KcDODAalpha2
+Compound: tyrosine | genes: MaDODAalpha
+Compound: tyrosine | genes: McDODAalpha2
+Compound: tyrosine | genes: McDODA alpha 1
+Compound: tyrosine | genes: McCYP76AD1
+Compound: tyrosine | genes: BvDODA alpha 1
+Compound: tyrosine | genes: MYB
+Compound: tyrosine | genes: CYP76AD1
+Compound: tyrosine | genes: MjDODA alpha 1
+Compound: tyrosine | genes: PmDOD
+Compound: tyrosine | genes: CgDODA1
+Compound: tyrosine | genes: PgDODA
+Compound: tyrosine | genes: CqDODA-1
+Compound: tyrosine | genes: BvDODAalpha2-5
+Compound: tyrosine | genes: PmDODAalpha2
+Compound: tyrosine | genes: PmDODAalpha1
+Compound: tyrosine | genes: PgDODAalpha1
+Compound: tyrosine | genes: PhybDODAalpha
+Compound: tyrosine | genes: CYP76AD
+Compound: tyrosine | genes: ADHalpha
+Compound: tyrosine | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: tyrosine | molecular_traits: 4,5-dioxygenase activity
+Compound: tyrosine | molecular_traits: DODA activity
+Compound: tyrosine | molecular_traits: catalytic promiscuity
+Compound: tyrosine | molecular_traits: tyrosine hydroxylase activity
+Compound: tyrosine | species: Gluconacetobacter diazotrophicus
+Compound: tyrosine | species: Nicotiana benthamiana
+Compound: tyrosine | species: Beta vulgaris
+Compound: tyrosine | species: Parakeelya mirabilis
+Compound: tyrosine | species: S. arvensis
+Compound: tyrosine | species: S. marina
+Compound: tyrosine | species: K. caespitosa
+Compound: tyrosine | species: C. litoralis
+Compound: tyrosine | species: T. imperati
+Compound: tyrosine | species: M. australis
+Compound: tyrosine | species: L. aethiopicum
+Compound: tyrosine | species: P. exiguum
+Compound: tyrosine | species: P. tetraphyllum
+Compound: tyrosine | species: C. ramosissimum
+Compound: tyrosine | species: P. campestris
+Compound: tyrosine | species: M. crystallinum
+Compound: tyrosine | species: C. gigantea
+Compound: tyrosine | species: S. halimifolium
+Compound: tyrosine | species: C. quinoa
+Compound: tyrosine | species: A. hypochondriacus
+Compound: tyrosine | species: Dianthus superbus
+Compound: tyrosine | species: Portulaca grandiflora
+Compound: tyrosine | species: Ptilotus hybrid
+Compound: tyrosine | species: Mirabilis jalapa
+Compound: tyrosine | plant_traits: betalain pigmentation
+Compound: tyrosine | plant_traits: anthocyanin pigmentation
+Compound: tyrosine | plant_traits: pigment gain
+Compound: tyrosine | plant_traits: pigmentation state
+Compound: tyrosine | plant_traits: betacyanin pigmentation
+Compound: tyrosine | anatomical_structures: leaf
+Compound: tyrosine | anatomical_structures: hypocotyl
+Compound: betalamic acid | pathways: betalain biosynthesis
+Compound: betalamic acid | pathways: flavonoid pathway
+Compound: betalamic acid | pathways: anthocyanin pathway
+Compound: betalamic acid | pathways: betalamic acid biosynthesis
+Compound: betalamic acid | pathways: caffeine biosynthesis
+Compound: betalamic acid | genes: DODA
+Compound: betalamic acid | genes: DODAbeta
+Compound: betalamic acid | genes: DODAalpha
+Compound: betalamic acid | genes: LigB
+Compound: betalamic acid | genes: BvDODA2
+Compound: betalamic acid | genes: BvDODAalpha2
+Compound: betalamic acid | genes: BvDODA1
+Compound: betalamic acid | genes: BvDODAalpha1
+Compound: betalamic acid | genes: DODA alpha
+Compound: betalamic acid | genes: MjcDOPA-5GT
+Compound: betalamic acid | genes: BvDODAalpha3
+Compound: betalamic acid | genes: BvCYP76AD1
+Compound: betalamic acid | genes: firefly luciferase
+Compound: betalamic acid | genes: CgDODAalpha1
+Compound: betalamic acid | genes: ShDODAalpha1
+Compound: betalamic acid | genes: McDODAalpha1
+Compound: betalamic acid | genes: DODAalpha1
+Compound: betalamic acid | genes: ShDODAalpha2
+Compound: betalamic acid | genes: CgDODAalpha2
+Compound: betalamic acid | genes: BvDODAalpha4
+Compound: betalamic acid | genes: BvDODAalpha5
+Compound: betalamic acid | genes: KcDODAalpha1
+Compound: betalamic acid | genes: KcDODAalpha2
+Compound: betalamic acid | genes: MaDODAalpha
+Compound: betalamic acid | genes: McDODAalpha2
+Compound: betalamic acid | genes: McDODA alpha 1
+Compound: betalamic acid | genes: McCYP76AD1
+Compound: betalamic acid | genes: BvDODA alpha 1
+Compound: betalamic acid | genes: MYB
+Compound: betalamic acid | genes: CYP76AD1
+Compound: betalamic acid | genes: MjDODA alpha 1
+Compound: betalamic acid | genes: PmDOD
+Compound: betalamic acid | genes: CgDODA1
+Compound: betalamic acid | genes: PgDODA
+Compound: betalamic acid | genes: CqDODA-1
+Compound: betalamic acid | genes: BvDODAalpha2-5
+Compound: betalamic acid | genes: PmDODAalpha2
+Compound: betalamic acid | genes: PmDODAalpha1
+Compound: betalamic acid | genes: PgDODAalpha1
+Compound: betalamic acid | genes: PhybDODAalpha
+Compound: betalamic acid | genes: CYP76AD
+Compound: betalamic acid | genes: ADHalpha
+Compound: betalamic acid | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: betalamic acid | molecular_traits: 4,5-dioxygenase activity
+Compound: betalamic acid | molecular_traits: DODA activity
+Compound: betalamic acid | molecular_traits: catalytic promiscuity
+Compound: betalamic acid | molecular_traits: tyrosine hydroxylase activity
+Compound: betalamic acid | species: Gluconacetobacter diazotrophicus
+Compound: betalamic acid | species: Nicotiana benthamiana
+Compound: betalamic acid | species: Beta vulgaris
+Compound: betalamic acid | species: Parakeelya mirabilis
+Compound: betalamic acid | species: S. arvensis
+Compound: betalamic acid | species: S. marina
+Compound: betalamic acid | species: K. caespitosa
+Compound: betalamic acid | species: C. litoralis
+Compound: betalamic acid | species: T. imperati
+Compound: betalamic acid | species: M. australis
+Compound: betalamic acid | species: L. aethiopicum
+Compound: betalamic acid | species: P. exiguum
+Compound: betalamic acid | species: P. tetraphyllum
+Compound: betalamic acid | species: C. ramosissimum
+Compound: betalamic acid | species: P. campestris
+Compound: betalamic acid | species: M. crystallinum
+Compound: betalamic acid | species: C. gigantea
+Compound: betalamic acid | species: S. halimifolium
+Compound: betalamic acid | species: C. quinoa
+Compound: betalamic acid | species: A. hypochondriacus
+Compound: betalamic acid | species: Dianthus superbus
+Compound: betalamic acid | species: Portulaca grandiflora
+Compound: betalamic acid | species: Ptilotus hybrid
+Compound: betalamic acid | species: Mirabilis jalapa
+Compound: betalamic acid | plant_traits: betalain pigmentation
+Compound: betalamic acid | plant_traits: anthocyanin pigmentation
+Compound: betalamic acid | plant_traits: pigment gain
+Compound: betalamic acid | plant_traits: pigmentation state
+Compound: betalamic acid | plant_traits: betacyanin pigmentation
+Compound: betalamic acid | anatomical_structures: leaf
+Compound: betalamic acid | anatomical_structures: hypocotyl
+Compound: betanin | pathways: betalain biosynthesis
+Compound: betanin | pathways: flavonoid pathway
+Compound: betanin | pathways: anthocyanin pathway
+Compound: betanin | pathways: betalamic acid biosynthesis
+Compound: betanin | pathways: caffeine biosynthesis
+Compound: betanin | genes: DODA
+Compound: betanin | genes: DODAbeta
+Compound: betanin | genes: DODAalpha
+Compound: betanin | genes: LigB
+Compound: betanin | genes: BvDODA2
+Compound: betanin | genes: BvDODAalpha2
+Compound: betanin | genes: BvDODA1
+Compound: betanin | genes: BvDODAalpha1
+Compound: betanin | genes: DODA alpha
+Compound: betanin | genes: MjcDOPA-5GT
+Compound: betanin | genes: BvDODAalpha3
+Compound: betanin | genes: BvCYP76AD1
+Compound: betanin | genes: firefly luciferase
+Compound: betanin | genes: CgDODAalpha1
+Compound: betanin | genes: ShDODAalpha1
+Compound: betanin | genes: McDODAalpha1
+Compound: betanin | genes: DODAalpha1
+Compound: betanin | genes: ShDODAalpha2
+Compound: betanin | genes: CgDODAalpha2
+Compound: betanin | genes: BvDODAalpha4
+Compound: betanin | genes: BvDODAalpha5
+Compound: betanin | genes: KcDODAalpha1
+Compound: betanin | genes: KcDODAalpha2
+Compound: betanin | genes: MaDODAalpha
+Compound: betanin | genes: McDODAalpha2
+Compound: betanin | genes: McDODA alpha 1
+Compound: betanin | genes: McCYP76AD1
+Compound: betanin | genes: BvDODA alpha 1
+Compound: betanin | genes: MYB
+Compound: betanin | genes: CYP76AD1
+Compound: betanin | genes: MjDODA alpha 1
+Compound: betanin | genes: PmDOD
+Compound: betanin | genes: CgDODA1
+Compound: betanin | genes: PgDODA
+Compound: betanin | genes: CqDODA-1
+Compound: betanin | genes: BvDODAalpha2-5
+Compound: betanin | genes: PmDODAalpha2
+Compound: betanin | genes: PmDODAalpha1
+Compound: betanin | genes: PgDODAalpha1
+Compound: betanin | genes: PhybDODAalpha
+Compound: betanin | genes: CYP76AD
+Compound: betanin | genes: ADHalpha
+Compound: betanin | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: betanin | molecular_traits: 4,5-dioxygenase activity
+Compound: betanin | molecular_traits: DODA activity
+Compound: betanin | molecular_traits: catalytic promiscuity
+Compound: betanin | molecular_traits: tyrosine hydroxylase activity
+Compound: betanin | species: Gluconacetobacter diazotrophicus
+Compound: betanin | species: Nicotiana benthamiana
+Compound: betanin | species: Beta vulgaris
+Compound: betanin | species: Parakeelya mirabilis
+Compound: betanin | species: S. arvensis
+Compound: betanin | species: S. marina
+Compound: betanin | species: K. caespitosa
+Compound: betanin | species: C. litoralis
+Compound: betanin | species: T. imperati
+Compound: betanin | species: M. australis
+Compound: betanin | species: L. aethiopicum
+Compound: betanin | species: P. exiguum
+Compound: betanin | species: P. tetraphyllum
+Compound: betanin | species: C. ramosissimum
+Compound: betanin | species: P. campestris
+Compound: betanin | species: M. crystallinum
+Compound: betanin | species: C. gigantea
+Compound: betanin | species: S. halimifolium
+Compound: betanin | species: C. quinoa
+Compound: betanin | species: A. hypochondriacus
+Compound: betanin | species: Dianthus superbus
+Compound: betanin | species: Portulaca grandiflora
+Compound: betanin | species: Ptilotus hybrid
+Compound: betanin | species: Mirabilis jalapa
+Compound: betanin | plant_traits: betalain pigmentation
+Compound: betanin | plant_traits: anthocyanin pigmentation
+Compound: betanin | plant_traits: pigment gain
+Compound: betanin | plant_traits: pigmentation state
+Compound: betanin | plant_traits: betacyanin pigmentation
+Compound: betanin | anatomical_structures: leaf
+Compound: betanin | anatomical_structures: hypocotyl
+Compound: isobetanin | pathways: betalain biosynthesis
+Compound: isobetanin | pathways: flavonoid pathway
+Compound: isobetanin | pathways: anthocyanin pathway
+Compound: isobetanin | pathways: betalamic acid biosynthesis
+Compound: isobetanin | pathways: caffeine biosynthesis
+Compound: isobetanin | genes: DODA
+Compound: isobetanin | genes: DODAbeta
+Compound: isobetanin | genes: DODAalpha
+Compound: isobetanin | genes: LigB
+Compound: isobetanin | genes: BvDODA2
+Compound: isobetanin | genes: BvDODAalpha2
+Compound: isobetanin | genes: BvDODA1
+Compound: isobetanin | genes: BvDODAalpha1
+Compound: isobetanin | genes: DODA alpha
+Compound: isobetanin | genes: MjcDOPA-5GT
+Compound: isobetanin | genes: BvDODAalpha3
+Compound: isobetanin | genes: BvCYP76AD1
+Compound: isobetanin | genes: firefly luciferase
+Compound: isobetanin | genes: CgDODAalpha1
+Compound: isobetanin | genes: ShDODAalpha1
+Compound: isobetanin | genes: McDODAalpha1
+Compound: isobetanin | genes: DODAalpha1
+Compound: isobetanin | genes: ShDODAalpha2
+Compound: isobetanin | genes: CgDODAalpha2
+Compound: isobetanin | genes: BvDODAalpha4
+Compound: isobetanin | genes: BvDODAalpha5
+Compound: isobetanin | genes: KcDODAalpha1
+Compound: isobetanin | genes: KcDODAalpha2
+Compound: isobetanin | genes: MaDODAalpha
+Compound: isobetanin | genes: McDODAalpha2
+Compound: isobetanin | genes: McDODA alpha 1
+Compound: isobetanin | genes: McCYP76AD1
+Compound: isobetanin | genes: BvDODA alpha 1
+Compound: isobetanin | genes: MYB
+Compound: isobetanin | genes: CYP76AD1
+Compound: isobetanin | genes: MjDODA alpha 1
+Compound: isobetanin | genes: PmDOD
+Compound: isobetanin | genes: CgDODA1
+Compound: isobetanin | genes: PgDODA
+Compound: isobetanin | genes: CqDODA-1
+Compound: isobetanin | genes: BvDODAalpha2-5
+Compound: isobetanin | genes: PmDODAalpha2
+Compound: isobetanin | genes: PmDODAalpha1
+Compound: isobetanin | genes: PgDODAalpha1
+Compound: isobetanin | genes: PhybDODAalpha
+Compound: isobetanin | genes: CYP76AD
+Compound: isobetanin | genes: ADHalpha
+Compound: isobetanin | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: isobetanin | molecular_traits: 4,5-dioxygenase activity
+Compound: isobetanin | molecular_traits: DODA activity
+Compound: isobetanin | molecular_traits: catalytic promiscuity
+Compound: isobetanin | molecular_traits: tyrosine hydroxylase activity
+Compound: isobetanin | species: Gluconacetobacter diazotrophicus
+Compound: isobetanin | species: Nicotiana benthamiana
+Compound: isobetanin | species: Beta vulgaris
+Compound: isobetanin | species: Parakeelya mirabilis
+Compound: isobetanin | species: S. arvensis
+Compound: isobetanin | species: S. marina
+Compound: isobetanin | species: K. caespitosa
+Compound: isobetanin | species: C. litoralis
+Compound: isobetanin | species: T. imperati
+Compound: isobetanin | species: M. australis
+Compound: isobetanin | species: L. aethiopicum
+Compound: isobetanin | species: P. exiguum
+Compound: isobetanin | species: P. tetraphyllum
+Compound: isobetanin | species: C. ramosissimum
+Compound: isobetanin | species: P. campestris
+Compound: isobetanin | species: M. crystallinum
+Compound: isobetanin | species: C. gigantea
+Compound: isobetanin | species: S. halimifolium
+Compound: isobetanin | species: C. quinoa
+Compound: isobetanin | species: A. hypochondriacus
+Compound: isobetanin | species: Dianthus superbus
+Compound: isobetanin | species: Portulaca grandiflora
+Compound: isobetanin | species: Ptilotus hybrid
+Compound: isobetanin | species: Mirabilis jalapa
+Compound: isobetanin | plant_traits: betalain pigmentation
+Compound: isobetanin | plant_traits: anthocyanin pigmentation
+Compound: isobetanin | plant_traits: pigment gain
+Compound: isobetanin | plant_traits: pigmentation state
+Compound: isobetanin | plant_traits: betacyanin pigmentation
+Compound: isobetanin | anatomical_structures: leaf
+Compound: isobetanin | anatomical_structures: hypocotyl
+Compound: protocatechuate | pathways: betalain biosynthesis
+Compound: protocatechuate | pathways: flavonoid pathway
+Compound: protocatechuate | pathways: anthocyanin pathway
+Compound: protocatechuate | pathways: betalamic acid biosynthesis
+Compound: protocatechuate | pathways: caffeine biosynthesis
+Compound: protocatechuate | genes: DODA
+Compound: protocatechuate | genes: DODAbeta
+Compound: protocatechuate | genes: DODAalpha
+Compound: protocatechuate | genes: LigB
+Compound: protocatechuate | genes: BvDODA2
+Compound: protocatechuate | genes: BvDODAalpha2
+Compound: protocatechuate | genes: BvDODA1
+Compound: protocatechuate | genes: BvDODAalpha1
+Compound: protocatechuate | genes: DODA alpha
+Compound: protocatechuate | genes: MjcDOPA-5GT
+Compound: protocatechuate | genes: BvDODAalpha3
+Compound: protocatechuate | genes: BvCYP76AD1
+Compound: protocatechuate | genes: firefly luciferase
+Compound: protocatechuate | genes: CgDODAalpha1
+Compound: protocatechuate | genes: ShDODAalpha1
+Compound: protocatechuate | genes: McDODAalpha1
+Compound: protocatechuate | genes: DODAalpha1
+Compound: protocatechuate | genes: ShDODAalpha2
+Compound: protocatechuate | genes: CgDODAalpha2
+Compound: protocatechuate | genes: BvDODAalpha4
+Compound: protocatechuate | genes: BvDODAalpha5
+Compound: protocatechuate | genes: KcDODAalpha1
+Compound: protocatechuate | genes: KcDODAalpha2
+Compound: protocatechuate | genes: MaDODAalpha
+Compound: protocatechuate | genes: McDODAalpha2
+Compound: protocatechuate | genes: McDODA alpha 1
+Compound: protocatechuate | genes: McCYP76AD1
+Compound: protocatechuate | genes: BvDODA alpha 1
+Compound: protocatechuate | genes: MYB
+Compound: protocatechuate | genes: CYP76AD1
+Compound: protocatechuate | genes: MjDODA alpha 1
+Compound: protocatechuate | genes: PmDOD
+Compound: protocatechuate | genes: CgDODA1
+Compound: protocatechuate | genes: PgDODA
+Compound: protocatechuate | genes: CqDODA-1
+Compound: protocatechuate | genes: BvDODAalpha2-5
+Compound: protocatechuate | genes: PmDODAalpha2
+Compound: protocatechuate | genes: PmDODAalpha1
+Compound: protocatechuate | genes: PgDODAalpha1
+Compound: protocatechuate | genes: PhybDODAalpha
+Compound: protocatechuate | genes: CYP76AD
+Compound: protocatechuate | genes: ADHalpha
+Compound: protocatechuate | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: protocatechuate | molecular_traits: 4,5-dioxygenase activity
+Compound: protocatechuate | molecular_traits: DODA activity
+Compound: protocatechuate | molecular_traits: catalytic promiscuity
+Compound: protocatechuate | molecular_traits: tyrosine hydroxylase activity
+Compound: protocatechuate | species: Gluconacetobacter diazotrophicus
+Compound: protocatechuate | species: Nicotiana benthamiana
+Compound: protocatechuate | species: Beta vulgaris
+Compound: protocatechuate | species: Parakeelya mirabilis
+Compound: protocatechuate | species: S. arvensis
+Compound: protocatechuate | species: S. marina
+Compound: protocatechuate | species: K. caespitosa
+Compound: protocatechuate | species: C. litoralis
+Compound: protocatechuate | species: T. imperati
+Compound: protocatechuate | species: M. australis
+Compound: protocatechuate | species: L. aethiopicum
+Compound: protocatechuate | species: P. exiguum
+Compound: protocatechuate | species: P. tetraphyllum
+Compound: protocatechuate | species: C. ramosissimum
+Compound: protocatechuate | species: P. campestris
+Compound: protocatechuate | species: M. crystallinum
+Compound: protocatechuate | species: C. gigantea
+Compound: protocatechuate | species: S. halimifolium
+Compound: protocatechuate | species: C. quinoa
+Compound: protocatechuate | species: A. hypochondriacus
+Compound: protocatechuate | species: Dianthus superbus
+Compound: protocatechuate | species: Portulaca grandiflora
+Compound: protocatechuate | species: Ptilotus hybrid
+Compound: protocatechuate | species: Mirabilis jalapa
+Compound: protocatechuate | plant_traits: betalain pigmentation
+Compound: protocatechuate | plant_traits: anthocyanin pigmentation
+Compound: protocatechuate | plant_traits: pigment gain
+Compound: protocatechuate | plant_traits: pigmentation state
+Compound: protocatechuate | plant_traits: betacyanin pigmentation
+Compound: protocatechuate | anatomical_structures: leaf
+Compound: protocatechuate | anatomical_structures: hypocotyl
+Compound: caffeine | pathways: betalain biosynthesis
+Compound: caffeine | pathways: flavonoid pathway
+Compound: caffeine | pathways: anthocyanin pathway
+Compound: caffeine | pathways: betalamic acid biosynthesis
+Compound: caffeine | pathways: caffeine biosynthesis
+Compound: caffeine | genes: DODA
+Compound: caffeine | genes: DODAbeta
+Compound: caffeine | genes: DODAalpha
+Compound: caffeine | genes: LigB
+Compound: caffeine | genes: BvDODA2
+Compound: caffeine | genes: BvDODAalpha2
+Compound: caffeine | genes: BvDODA1
+Compound: caffeine | genes: BvDODAalpha1
+Compound: caffeine | genes: DODA alpha
+Compound: caffeine | genes: MjcDOPA-5GT
+Compound: caffeine | genes: BvDODAalpha3
+Compound: caffeine | genes: BvCYP76AD1
+Compound: caffeine | genes: firefly luciferase
+Compound: caffeine | genes: CgDODAalpha1
+Compound: caffeine | genes: ShDODAalpha1
+Compound: caffeine | genes: McDODAalpha1
+Compound: caffeine | genes: DODAalpha1
+Compound: caffeine | genes: ShDODAalpha2
+Compound: caffeine | genes: CgDODAalpha2
+Compound: caffeine | genes: BvDODAalpha4
+Compound: caffeine | genes: BvDODAalpha5
+Compound: caffeine | genes: KcDODAalpha1
+Compound: caffeine | genes: KcDODAalpha2
+Compound: caffeine | genes: MaDODAalpha
+Compound: caffeine | genes: McDODAalpha2
+Compound: caffeine | genes: McDODA alpha 1
+Compound: caffeine | genes: McCYP76AD1
+Compound: caffeine | genes: BvDODA alpha 1
+Compound: caffeine | genes: MYB
+Compound: caffeine | genes: CYP76AD1
+Compound: caffeine | genes: MjDODA alpha 1
+Compound: caffeine | genes: PmDOD
+Compound: caffeine | genes: CgDODA1
+Compound: caffeine | genes: PgDODA
+Compound: caffeine | genes: CqDODA-1
+Compound: caffeine | genes: BvDODAalpha2-5
+Compound: caffeine | genes: PmDODAalpha2
+Compound: caffeine | genes: PmDODAalpha1
+Compound: caffeine | genes: PgDODAalpha1
+Compound: caffeine | genes: PhybDODAalpha
+Compound: caffeine | genes: CYP76AD
+Compound: caffeine | genes: ADHalpha
+Compound: caffeine | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: caffeine | molecular_traits: 4,5-dioxygenase activity
+Compound: caffeine | molecular_traits: DODA activity
+Compound: caffeine | molecular_traits: catalytic promiscuity
+Compound: caffeine | molecular_traits: tyrosine hydroxylase activity
+Compound: caffeine | species: Gluconacetobacter diazotrophicus
+Compound: caffeine | species: Nicotiana benthamiana
+Compound: caffeine | species: Beta vulgaris
+Compound: caffeine | species: Parakeelya mirabilis
+Compound: caffeine | species: S. arvensis
+Compound: caffeine | species: S. marina
+Compound: caffeine | species: K. caespitosa
+Compound: caffeine | species: C. litoralis
+Compound: caffeine | species: T. imperati
+Compound: caffeine | species: M. australis
+Compound: caffeine | species: L. aethiopicum
+Compound: caffeine | species: P. exiguum
+Compound: caffeine | species: P. tetraphyllum
+Compound: caffeine | species: C. ramosissimum
+Compound: caffeine | species: P. campestris
+Compound: caffeine | species: M. crystallinum
+Compound: caffeine | species: C. gigantea
+Compound: caffeine | species: S. halimifolium
+Compound: caffeine | species: C. quinoa
+Compound: caffeine | species: A. hypochondriacus
+Compound: caffeine | species: Dianthus superbus
+Compound: caffeine | species: Portulaca grandiflora
+Compound: caffeine | species: Ptilotus hybrid
+Compound: caffeine | species: Mirabilis jalapa
+Compound: caffeine | plant_traits: betalain pigmentation
+Compound: caffeine | plant_traits: anthocyanin pigmentation
+Compound: caffeine | plant_traits: pigment gain
+Compound: caffeine | plant_traits: pigmentation state
+Compound: caffeine | plant_traits: betacyanin pigmentation
+Compound: caffeine | anatomical_structures: leaf
+Compound: caffeine | anatomical_structures: hypocotyl
+Compound: phenylalanine | pathways: betalain biosynthesis
+Compound: phenylalanine | pathways: flavonoid pathway
+Compound: phenylalanine | pathways: anthocyanin pathway
+Compound: phenylalanine | pathways: betalamic acid biosynthesis
+Compound: phenylalanine | pathways: caffeine biosynthesis
+Compound: phenylalanine | genes: DODA
+Compound: phenylalanine | genes: DODAbeta
+Compound: phenylalanine | genes: DODAalpha
+Compound: phenylalanine | genes: LigB
+Compound: phenylalanine | genes: BvDODA2
+Compound: phenylalanine | genes: BvDODAalpha2
+Compound: phenylalanine | genes: BvDODA1
+Compound: phenylalanine | genes: BvDODAalpha1
+Compound: phenylalanine | genes: DODA alpha
+Compound: phenylalanine | genes: MjcDOPA-5GT
+Compound: phenylalanine | genes: BvDODAalpha3
+Compound: phenylalanine | genes: BvCYP76AD1
+Compound: phenylalanine | genes: firefly luciferase
+Compound: phenylalanine | genes: CgDODAalpha1
+Compound: phenylalanine | genes: ShDODAalpha1
+Compound: phenylalanine | genes: McDODAalpha1
+Compound: phenylalanine | genes: DODAalpha1
+Compound: phenylalanine | genes: ShDODAalpha2
+Compound: phenylalanine | genes: CgDODAalpha2
+Compound: phenylalanine | genes: BvDODAalpha4
+Compound: phenylalanine | genes: BvDODAalpha5
+Compound: phenylalanine | genes: KcDODAalpha1
+Compound: phenylalanine | genes: KcDODAalpha2
+Compound: phenylalanine | genes: MaDODAalpha
+Compound: phenylalanine | genes: McDODAalpha2
+Compound: phenylalanine | genes: McDODA alpha 1
+Compound: phenylalanine | genes: McCYP76AD1
+Compound: phenylalanine | genes: BvDODA alpha 1
+Compound: phenylalanine | genes: MYB
+Compound: phenylalanine | genes: CYP76AD1
+Compound: phenylalanine | genes: MjDODA alpha 1
+Compound: phenylalanine | genes: PmDOD
+Compound: phenylalanine | genes: CgDODA1
+Compound: phenylalanine | genes: PgDODA
+Compound: phenylalanine | genes: CqDODA-1
+Compound: phenylalanine | genes: BvDODAalpha2-5
+Compound: phenylalanine | genes: PmDODAalpha2
+Compound: phenylalanine | genes: PmDODAalpha1
+Compound: phenylalanine | genes: PgDODAalpha1
+Compound: phenylalanine | genes: PhybDODAalpha
+Compound: phenylalanine | genes: CYP76AD
+Compound: phenylalanine | genes: ADHalpha
+Compound: phenylalanine | molecular_traits: l-DOPA 4,5-dioxygenase activity
+Compound: phenylalanine | molecular_traits: 4,5-dioxygenase activity
+Compound: phenylalanine | molecular_traits: DODA activity
+Compound: phenylalanine | molecular_traits: catalytic promiscuity
+Compound: phenylalanine | molecular_traits: tyrosine hydroxylase activity
+Compound: phenylalanine | species: Gluconacetobacter diazotrophicus
+Compound: phenylalanine | species: Nicotiana benthamiana
+Compound: phenylalanine | species: Beta vulgaris
+Compound: phenylalanine | species: Parakeelya mirabilis
+Compound: phenylalanine | species: S. arvensis
+Compound: phenylalanine | species: S. marina
+Compound: phenylalanine | species: K. caespitosa
+Compound: phenylalanine | species: C. litoralis
+Compound: phenylalanine | species: T. imperati
+Compound: phenylalanine | species: M. australis
+Compound: phenylalanine | species: L. aethiopicum
+Compound: phenylalanine | species: P. exiguum
+Compound: phenylalanine | species: P. tetraphyllum
+Compound: phenylalanine | species: C. ramosissimum
+Compound: phenylalanine | species: P. campestris
+Compound: phenylalanine | species: M. crystallinum
+Compound: phenylalanine | species: C. gigantea
+Compound: phenylalanine | species: S. halimifolium
+Compound: phenylalanine | species: C. quinoa
+Compound: phenylalanine | species: A. hypochondriacus
+Compound: phenylalanine | species: Dianthus superbus
+Compound: phenylalanine | species: Portulaca grandiflora
+Compound: phenylalanine | species: Ptilotus hybrid
+Compound: phenylalanine | species: Mirabilis jalapa
+Compound: phenylalanine | plant_traits: betalain pigmentation
+Compound: phenylalanine | plant_traits: anthocyanin pigmentation
+Compound: phenylalanine | plant_traits: pigment gain
+Compound: phenylalanine | plant_traits: pigmentation state
+Compound: phenylalanine | plant_traits: betacyanin pigmentation
+Compound: phenylalanine | anatomical_structures: leaf
+Compound: phenylalanine | anatomical_structures: hypocotyl
