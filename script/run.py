@@ -38,13 +38,13 @@ async def process_passage_for_ner(semaphore, body, model=None):
     async with semaphore:
         for attempt in range(5):  # Retry up to 5 times
             try:
-                # OPTION 1: OPENAI inference
+                # # OPTION 1: OPENAI inference
                 # prompt = make_prompt(body)
                 # openai_schema = SimpleExtractedEntities().schemic_schema()
                 # result = await model(
                 #     model_input=prompt,
                 #     response_format=openai_schema,
-                #     max_tokens=1024,
+                #     max_tokens=2048,
                 #     temperature=1e-67,
                 # )
                 # await asyncio.sleep(0.5)
@@ -187,7 +187,7 @@ async def amain():
             # only process if there is no raw output file yet
             if not os.path.exists(raw_ner_output_path):   
                 # limit concurrency to 3 requests at a time. Adjust as needed. 1 = sequential
-                semaphore = asyncio.Semaphore(1)
+                semaphore = asyncio.Semaphore(3)
                 tasks = []      # for async api calls
                 # define a list of results (raw results from the model)
                 raw_result_list = [] 
