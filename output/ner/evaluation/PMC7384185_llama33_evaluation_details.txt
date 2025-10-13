@@ -5,20 +5,21 @@ NER Evaluation Details
 
 [False Negatives (0): Entities missed by the pipeline]
 
-[False Positives (1): Entities incorrectly predicted by the pipeline]
-  - Entity: 'leaves', Type: anatomical_structures, Span: (29627, 29633)
+[False Positives (0): Entities incorrectly predicted by the pipeline]
 
-[True Positives (4): Entities correctly predicted]
+[True Positives (5): Entities correctly predicted]
   - Entity: 'hypocotyl', Type: anatomical_structures, Span: (27965, 27974)
   - Entity: 'hypocotyl', Type: anatomical_structures, Span: (32152, 32161)
   - Entity: 'leaf', Type: anatomical_structures, Span: (26648, 26652)
   - Entity: 'leaf', Type: anatomical_structures, Span: (30879, 30883)
+  - Entity: 'leaves', Type: anatomical_structures, Span: (29627, 29633)
 
 ========================================
 
 --- compounds ---
 
 [False Negatives (56): Entities missed by the pipeline]
+  - Entity: 'anthocyanin', Type: compounds, Span: (782, 793)
   - Entity: 'anthocyanin', Type: compounds, Span: (3577, 3588)
   - Entity: 'anthocyanin', Type: compounds, Span: (3751, 3762)
   - Entity: 'anthocyanin', Type: compounds, Span: (3861, 3872)
@@ -28,7 +29,7 @@ NER Evaluation Details
   - Entity: 'anthocyanin', Type: compounds, Span: (52425, 52436)
   - Entity: 'betacyanin', Type: compounds, Span: (31349, 31359)
   - Entity: 'betalain', Type: compounds, Span: (244, 252)
-  - Entity: 'betalain', Type: compounds, Span: (2263, 2271)
+  - Entity: 'betalain', Type: compounds, Span: (754, 762)
   - Entity: 'betalain', Type: compounds, Span: (3886, 3894)
   - Entity: 'betalain', Type: compounds, Span: (4014, 4022)
   - Entity: 'betalain', Type: compounds, Span: (4110, 4118)
@@ -72,18 +73,15 @@ NER Evaluation Details
   - Entity: 'betalains', Type: compounds, Span: (2415, 2424)
   - Entity: 'betalains', Type: compounds, Span: (3247, 3256)
   - Entity: 'betalains', Type: compounds, Span: (3314, 3323)
-  - Entity: 'betalamic acid', Type: compounds, Span: (5466, 5480)
   - Entity: 'protocatechuate', Type: compounds, Span: (41871, 41886)
   - Entity: 'tyrosine', Type: compounds, Span: (47474, 47482)
 
-[False Positives (4): Entities incorrectly predicted by the pipeline]
+[False Positives (3): Entities incorrectly predicted by the pipeline]
   - Entity: 'anthocyanic', Type: compounds, Span: (39994, 40005)
   - Entity: 'anthocyanic', Type: compounds, Span: (40297, 40308)
-  - Entity: 'betalain pigments', Type: compounds, Span: (2263, 2280)
   - Entity: 'pyrrolizidine alkaloids', Type: compounds, Span: (48718, 48741)
 
 [True Positives (194): Entities correctly predicted]
-  - Entity: 'anthocyanin', Type: compounds, Span: (782, 793)
   - Entity: 'anthocyanin', Type: compounds, Span: (22012, 22023)
   - Entity: 'anthocyanin', Type: compounds, Span: (22130, 22141)
   - Entity: 'anthocyanin', Type: compounds, Span: (22925, 22936)
@@ -114,8 +112,8 @@ NER Evaluation Details
   - Entity: 'betacyanin', Type: compounds, Span: (26229, 26239)
   - Entity: 'betacyanin', Type: compounds, Span: (26944, 26954)
   - Entity: 'betacyanins', Type: compounds, Span: (4064, 4075)
-  - Entity: 'betalain', Type: compounds, Span: (754, 762)
   - Entity: 'betalain', Type: compounds, Span: (1625, 1633)
+  - Entity: 'betalain', Type: compounds, Span: (2263, 2271)
   - Entity: 'betalain', Type: compounds, Span: (2623, 2631)
   - Entity: 'betalain', Type: compounds, Span: (2709, 2717)
   - Entity: 'betalain', Type: compounds, Span: (3439, 3447)
@@ -163,6 +161,7 @@ NER Evaluation Details
   - Entity: 'betalains', Type: compounds, Span: (52647, 52656)
   - Entity: 'betalains', Type: compounds, Span: (53298, 53307)
   - Entity: 'betalamic acid', Type: compounds, Span: (4483, 4497)
+  - Entity: 'betalamic acid', Type: compounds, Span: (5466, 5480)
   - Entity: 'betalamic acid', Type: compounds, Span: (6754, 6768)
   - Entity: 'betalamic acid', Type: compounds, Span: (6950, 6964)
   - Entity: 'betalamic acid', Type: compounds, Span: (28814, 28828)
@@ -284,19 +283,18 @@ NER Evaluation Details
 
 [False Negatives (0): Entities missed by the pipeline]
 
-[False Positives (12): Entities incorrectly predicted by the pipeline]
+[False Positives (11): Entities incorrectly predicted by the pipeline]
   - Entity: 'agroinfiltration', Type: experimental_conditions, Span: (26671, 26687)
   - Entity: 'agroinfiltration', Type: experimental_conditions, Span: (30902, 30918)
   - Entity: 'heterologous assay', Type: experimental_conditions, Span: (7706, 7724)
   - Entity: 'heterologous assay', Type: experimental_conditions, Span: (7788, 7806)
   - Entity: 'heterologous assay', Type: experimental_conditions, Span: (25887, 25905)
-  - Entity: 'heterologous assay', Type: experimental_conditions, Span: (28475, 28493)
   - Entity: 'heterologous expression', Type: experimental_conditions, Span: (25784, 25807)
   - Entity: 'heterologous expression', Type: experimental_conditions, Span: (26093, 26116)
   - Entity: 'heterologous transient assays', Type: experimental_conditions, Span: (34398, 34427)
-  - Entity: 'recombinant expression in escherichia coli', Type: experimental_conditions, Span: (34460, 34502)
+  - Entity: 'heterologously expressed', Type: experimental_conditions, Span: (30807, 30831)
+  - Entity: 'recombinant expression', Type: experimental_conditions, Span: (34460, 34482)
   - Entity: 'stable transgenics', Type: experimental_conditions, Span: (34431, 34449)
-  - Entity: 'yeast', Type: experimental_conditions, Span: (6772, 6777)
 
 [True Positives (0): Entities correctly predicted]
 
@@ -304,14 +302,11 @@ NER Evaluation Details
 
 --- genes ---
 
-[False Negatives (93): Entities missed by the pipeline]
+[False Negatives (87): Entities missed by the pipeline]
   - Entity: 'adhalpha', Type: genes, Span: (52752, 52760)
   - Entity: 'arogenate dehydrogenase', Type: genes, Span: (52720, 52743)
-  - Entity: 'bvdodaalpha1', Type: genes, Span: (34978, 34990)
   - Entity: 'bvdodaalpha1', Type: genes, Span: (44571, 44583)
   - Entity: 'bvdodaalpha2', Type: genes, Span: (38920, 38932)
-  - Entity: 'cgdoda1', Type: genes, Span: (35088, 35095)
-  - Entity: 'cqdoda-1', Type: genes, Span: (34995, 35003)
   - Entity: 'doda', Type: genes, Span: (693, 697)
   - Entity: 'doda', Type: genes, Span: (925, 929)
   - Entity: 'doda', Type: genes, Span: (5407, 5411)
@@ -339,6 +334,7 @@ NER Evaluation Details
   - Entity: 'doda', Type: genes, Span: (46736, 46740)
   - Entity: 'doda', Type: genes, Span: (46747, 46751)
   - Entity: 'doda', Type: genes, Span: (46802, 46806)
+  - Entity: 'doda', Type: genes, Span: (47789, 47793)
   - Entity: 'doda', Type: genes, Span: (49855, 49859)
   - Entity: 'doda', Type: genes, Span: (49978, 49982)
   - Entity: 'doda', Type: genes, Span: (50233, 50237)
@@ -355,6 +351,8 @@ NER Evaluation Details
   - Entity: 'doda alpha', Type: genes, Span: (53565, 53575)
   - Entity: 'dodaalpha', Type: genes, Span: (8187, 8196)
   - Entity: 'dodaalpha', Type: genes, Span: (8310, 8319)
+  - Entity: 'dodaalpha', Type: genes, Span: (28288, 28297)
+  - Entity: 'dodaalpha', Type: genes, Span: (28775, 28784)
   - Entity: 'dodaalpha', Type: genes, Span: (32967, 32976)
   - Entity: 'dodaalpha', Type: genes, Span: (34588, 34597)
   - Entity: 'dodaalpha', Type: genes, Span: (35194, 35203)
@@ -375,33 +373,27 @@ NER Evaluation Details
   - Entity: 'dodaalpha', Type: genes, Span: (45176, 45185)
   - Entity: 'dodaalpha', Type: genes, Span: (45242, 45251)
   - Entity: 'dodaalpha', Type: genes, Span: (45850, 45859)
-  - Entity: 'dodaalpha', Type: genes, Span: (46616, 46625)
-  - Entity: 'dodaalpha', Type: genes, Span: (46878, 46887)
   - Entity: 'dodaalpha', Type: genes, Span: (47174, 47183)
   - Entity: 'dodaalpha', Type: genes, Span: (47831, 47840)
   - Entity: 'dodaalpha', Type: genes, Span: (48046, 48055)
-  - Entity: 'dodaalpha', Type: genes, Span: (51958, 51967)
   - Entity: 'dodaalpha', Type: genes, Span: (53147, 53156)
   - Entity: 'dodaalpha', Type: genes, Span: (53378, 53387)
   - Entity: 'dodaalpha', Type: genes, Span: (53432, 53441)
+  - Entity: 'dodaalpha1', Type: genes, Span: (28660, 28670)
   - Entity: 'dodaalpha1', Type: genes, Span: (29489, 29499)
   - Entity: 'dodaalpha1', Type: genes, Span: (34831, 34841)
   - Entity: 'dodaalpha1', Type: genes, Span: (35324, 35334)
   - Entity: 'dodabeta', Type: genes, Span: (28242, 28250)
-  - Entity: 'dodabeta', Type: genes, Span: (41030, 41038)
   - Entity: 'dodabeta', Type: genes, Span: (53365, 53373)
   - Entity: 'firefly luciferase', Type: genes, Span: (27881, 27899)
   - Entity: 'firefly luciferase', Type: genes, Span: (32068, 32086)
-  - Entity: 'mcdoda alpha 1', Type: genes, Span: (35113, 35127)
-  - Entity: 'mjdoda alpha 1', Type: genes, Span: (35097, 35111)
-  - Entity: 'pgdoda', Type: genes, Span: (35139, 35145)
-  - Entity: 'pmdod', Type: genes, Span: (35129, 35134)
-  - Entity: 'shdodaalpha1', Type: genes, Span: (34901, 34913)
+  - Entity: 'ligb', Type: genes, Span: (4613, 4617)
+  - Entity: 'ligb', Type: genes, Span: (4706, 4710)
   - Entity: 'shdodaalpha1', Type: genes, Span: (44588, 44600)
 
 [False Positives (9): Entities incorrectly predicted by the pipeline]
   - Entity: 'bvdoda alpha 1', Type: genes, Span: (32400, 32414)
-  - Entity: 'cyp76ad', Type: genes, Span: (47526, 47533)
+  - Entity: 'firefly luciferase gene', Type: genes, Span: (27881, 27904)
   - Entity: 'firefly luciferase gene', Type: genes, Span: (32068, 32091)
   - Entity: 'madodaalpha', Type: genes, Span: (30396, 30407)
   - Entity: 'pgdodaalpha1', Type: genes, Span: (38997, 39009)
@@ -410,7 +402,7 @@ NER Evaluation Details
   - Entity: 'pmdodaalpha1', Type: genes, Span: (38969, 38981)
   - Entity: 'pmdodaalpha2', Type: genes, Span: (39027, 39039)
 
-[True Positives (158): Entities correctly predicted]
+[True Positives (164): Entities correctly predicted]
   - Entity: 'bvcyp76ad1', Type: genes, Span: (26967, 26977)
   - Entity: 'bvcyp76ad1', Type: genes, Span: (31372, 31382)
   - Entity: 'bvcyp76ad1', Type: genes, Span: (32419, 32429)
@@ -433,6 +425,7 @@ NER Evaluation Details
   - Entity: 'bvdodaalpha1', Type: genes, Span: (30662, 30674)
   - Entity: 'bvdodaalpha1', Type: genes, Span: (31406, 31418)
   - Entity: 'bvdodaalpha1', Type: genes, Span: (31640, 31652)
+  - Entity: 'bvdodaalpha1', Type: genes, Span: (34978, 34990)
   - Entity: 'bvdodaalpha1', Type: genes, Span: (38889, 38901)
   - Entity: 'bvdodaalpha2', Type: genes, Span: (6482, 6494)
   - Entity: 'bvdodaalpha2', Type: genes, Span: (6606, 6618)
@@ -447,11 +440,13 @@ NER Evaluation Details
   - Entity: 'bvdodaalpha3', Type: genes, Span: (30162, 30174)
   - Entity: 'bvdodaalpha4', Type: genes, Span: (30098, 30110)
   - Entity: 'bvdodaalpha5', Type: genes, Span: (30179, 30191)
+  - Entity: 'cgdoda1', Type: genes, Span: (35088, 35095)
   - Entity: 'cgdodaalpha1', Type: genes, Span: (28923, 28935)
   - Entity: 'cgdodaalpha1', Type: genes, Span: (38983, 38995)
   - Entity: 'cgdodaalpha2', Type: genes, Span: (29698, 29710)
   - Entity: 'cgdodaalpha2', Type: genes, Span: (29927, 29939)
   - Entity: 'cgdodaalpha2', Type: genes, Span: (39041, 39053)
+  - Entity: 'cqdoda-1', Type: genes, Span: (34995, 35003)
   - Entity: 'cqdoda-1', Type: genes, Span: (38879, 38887)
   - Entity: 'cyp76ad1', Type: genes, Span: (33650, 33658)
   - Entity: 'cyp76ad1', Type: genes, Span: (33980, 33988)
@@ -492,7 +487,6 @@ NER Evaluation Details
   - Entity: 'doda', Type: genes, Span: (39267, 39271)
   - Entity: 'doda', Type: genes, Span: (43446, 43450)
   - Entity: 'doda', Type: genes, Span: (43495, 43499)
-  - Entity: 'doda', Type: genes, Span: (47789, 47793)
   - Entity: 'doda alpha', Type: genes, Span: (23936, 23946)
   - Entity: 'doda alpha', Type: genes, Span: (24223, 24233)
   - Entity: 'doda alpha', Type: genes, Span: (24644, 24654)
@@ -523,8 +517,6 @@ NER Evaluation Details
   - Entity: 'dodaalpha', Type: genes, Span: (23330, 23339)
   - Entity: 'dodaalpha', Type: genes, Span: (23460, 23469)
   - Entity: 'dodaalpha', Type: genes, Span: (23625, 23634)
-  - Entity: 'dodaalpha', Type: genes, Span: (28288, 28297)
-  - Entity: 'dodaalpha', Type: genes, Span: (28775, 28784)
   - Entity: 'dodaalpha', Type: genes, Span: (29261, 29270)
   - Entity: 'dodaalpha', Type: genes, Span: (30233, 30242)
   - Entity: 'dodaalpha', Type: genes, Span: (30564, 30573)
@@ -535,8 +527,10 @@ NER Evaluation Details
   - Entity: 'dodaalpha', Type: genes, Span: (41718, 41727)
   - Entity: 'dodaalpha', Type: genes, Span: (41796, 41805)
   - Entity: 'dodaalpha', Type: genes, Span: (42357, 42366)
+  - Entity: 'dodaalpha', Type: genes, Span: (46616, 46625)
+  - Entity: 'dodaalpha', Type: genes, Span: (46878, 46887)
+  - Entity: 'dodaalpha', Type: genes, Span: (51958, 51967)
   - Entity: 'dodaalpha', Type: genes, Span: (54705, 54714)
-  - Entity: 'dodaalpha1', Type: genes, Span: (28660, 28670)
   - Entity: 'dodaalpha1', Type: genes, Span: (43101, 43111)
   - Entity: 'dodabeta', Type: genes, Span: (4760, 4768)
   - Entity: 'dodabeta', Type: genes, Span: (4970, 4978)
@@ -548,13 +542,13 @@ NER Evaluation Details
   - Entity: 'dodabeta', Type: genes, Span: (25450, 25458)
   - Entity: 'dodabeta', Type: genes, Span: (25514, 25522)
   - Entity: 'dodabeta', Type: genes, Span: (26130, 26138)
+  - Entity: 'dodabeta', Type: genes, Span: (41030, 41038)
   - Entity: 'kcdodaalpha1', Type: genes, Span: (30457, 30469)
   - Entity: 'kcdodaalpha2', Type: genes, Span: (30474, 30486)
-  - Entity: 'ligb', Type: genes, Span: (4613, 4617)
-  - Entity: 'ligb', Type: genes, Span: (4706, 4710)
   - Entity: 'ligb', Type: genes, Span: (41924, 41928)
   - Entity: 'mccyp76ad1', Type: genes, Span: (33040, 33050)
   - Entity: 'mcdoda alpha 1', Type: genes, Span: (32978, 32992)
+  - Entity: 'mcdoda alpha 1', Type: genes, Span: (35113, 35127)
   - Entity: 'mcdodaalpha1', Type: genes, Span: (28981, 28993)
   - Entity: 'mcdodaalpha1', Type: genes, Span: (38955, 38967)
   - Entity: 'mcdodaalpha2', Type: genes, Span: (29441, 29453)
@@ -562,10 +556,14 @@ NER Evaluation Details
   - Entity: 'mcdodaalpha2', Type: genes, Span: (39013, 39025)
   - Entity: 'mjcdopa-5gt', Type: genes, Span: (26979, 26990)
   - Entity: 'mjcdopa-5gt', Type: genes, Span: (31384, 31395)
+  - Entity: 'mjdoda alpha 1', Type: genes, Span: (35097, 35111)
   - Entity: 'myb', Type: genes, Span: (32547, 32550)
   - Entity: 'myb', Type: genes, Span: (51573, 51576)
+  - Entity: 'pgdoda', Type: genes, Span: (35139, 35145)
   - Entity: 'phybdodaalpha', Type: genes, Span: (38905, 38918)
+  - Entity: 'pmdod', Type: genes, Span: (35129, 35134)
   - Entity: 'shdodaalpha1', Type: genes, Span: (28853, 28865)
+  - Entity: 'shdodaalpha1', Type: genes, Span: (34901, 34913)
   - Entity: 'shdodaalpha1', Type: genes, Span: (38825, 38837)
   - Entity: 'shdodaalpha2', Type: genes, Span: (30081, 30093)
   - Entity: 'shdodaalpha2', Type: genes, Span: (38841, 38853)
@@ -582,14 +580,12 @@ NER Evaluation Details
   - Entity: 'l-dopa 4,5-dioxygenase activity', Type: molecular_traits, Span: (37181, 37212)
   - Entity: 'l-dopa 4,5-dioxygenase activity', Type: molecular_traits, Span: (38575, 38606)
 
-[False Positives (7): Entities incorrectly predicted by the pipeline]
+[False Positives (5): Entities incorrectly predicted by the pipeline]
   - Entity: 'catalytic promiscuity', Type: molecular_traits, Span: (41767, 41788)
   - Entity: 'catalytic promiscuity', Type: molecular_traits, Span: (41815, 41836)
   - Entity: 'l-dopa 4,5-dioxgenase activity', Type: molecular_traits, Span: (34198, 34228)
   - Entity: 'l-dopa 4,5-dioxgenase activity', Type: molecular_traits, Span: (34620, 34650)
   - Entity: 'l-dopa 4,5-dioxgenase activity', Type: molecular_traits, Span: (35406, 35436)
-  - Entity: 'tyrosine-derived enzymatic activity', Type: molecular_traits, Span: (53473, 53508)
-  - Entity: 'tyrosine-derived enzymatic activity', Type: molecular_traits, Span: (53655, 53690)
 
 [True Positives (51): Entities correctly predicted]
   - Entity: 'l-dopa 4,5-dioxygenase activity', Type: molecular_traits, Span: (711, 742)
@@ -648,22 +644,22 @@ NER Evaluation Details
 
 --- pathways ---
 
-[False Negatives (5): Entities missed by the pipeline]
-  - Entity: 'betalain biosynthesis', Type: pathways, Span: (244, 265)
+[False Negatives (3): Entities missed by the pipeline]
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (4397, 4418)
-  - Entity: 'betalain biosynthesis', Type: pathways, Span: (45052, 45073)
-  - Entity: 'betalain pathway', Type: pathways, Span: (55164, 55180)
   - Entity: 'betalain synthesis', Type: pathways, Span: (4110, 4128)
+  - Entity: 'betalamic acid biosynthesis', Type: pathways, Span: (47679, 47706)
 
 [False Positives (2): Entities incorrectly predicted by the pipeline]
   - Entity: 'betalain biosynthesis pathway', Type: pathways, Span: (54978, 55007)
-  - Entity: 'betalain metabolic', Type: pathways, Span: (54495, 54513)
+  - Entity: 'betalain metabolic gene cluster', Type: pathways, Span: (54495, 54526)
 
-[True Positives (15): Entities correctly predicted]
+[True Positives (17): Entities correctly predicted]
   - Entity: 'anthocyanin biosynthesis', Type: pathways, Span: (49020, 49044)
   - Entity: 'anthocyanin pathway', Type: pathways, Span: (3861, 3880)
+  - Entity: 'betalain biosynthesis', Type: pathways, Span: (244, 265)
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (25681, 25702)
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (33404, 33425)
+  - Entity: 'betalain biosynthesis', Type: pathways, Span: (45052, 45073)
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (54099, 54120)
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (54978, 54999)
   - Entity: 'betalain biosynthesis', Type: pathways, Span: (55448, 55469)
@@ -671,8 +667,8 @@ NER Evaluation Details
   - Entity: 'betalain biosynthetic pathway', Type: pathways, Span: (5215, 5244)
   - Entity: 'betalain pathway', Type: pathways, Span: (51487, 51503)
   - Entity: 'betalain pathway', Type: pathways, Span: (51678, 51694)
+  - Entity: 'betalain pathway', Type: pathways, Span: (55164, 55180)
   - Entity: 'betalain synthesis', Type: pathways, Span: (1625, 1643)
-  - Entity: 'betalamic acid biosynthesis', Type: pathways, Span: (47679, 47706)
   - Entity: 'caffeine biosynthesis', Type: pathways, Span: (48548, 48569)
   - Entity: 'flavonoid pathway', Type: pathways, Span: (2903, 2920)
 
@@ -680,69 +676,64 @@ NER Evaluation Details
 
 --- plant_traits ---
 
-[False Negatives (6): Entities missed by the pipeline]
+[False Negatives (11): Entities missed by the pipeline]
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (2623, 2644)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (3660, 3681)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (3702, 3723)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (5102, 5123)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (21743, 21764)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (22411, 22432)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (25110, 25131)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (28352, 28373)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (46180, 46201)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (54341, 54362)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (54555, 54576)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (46995, 47016)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (49204, 49225)
 
-[False Positives (16): Entities incorrectly predicted by the pipeline]
-  - Entity: 'anthocyanin', Type: plant_traits, Span: (3577, 3588)
-  - Entity: 'anthocyanin', Type: plant_traits, Span: (3751, 3762)
+[False Positives (14): Entities incorrectly predicted by the pipeline]
   - Entity: 'anthocyanin pigmentation', Type: plant_traits, Span: (50078, 50102)
   - Entity: 'anthocyanin pigmentation', Type: plant_traits, Span: (52425, 52449)
-  - Entity: 'betacyanin production', Type: plant_traits, Span: (25984, 26005)
-  - Entity: 'pigment gain', Type: plant_traits, Span: (7579, 7591)
+  - Entity: 'anthocyanin-pigmented', Type: plant_traits, Span: (782, 803)
+  - Entity: 'betalain-pigmented', Type: plant_traits, Span: (754, 772)
+  - Entity: 'pigment type', Type: plant_traits, Span: (45957, 45969)
   - Entity: 'pigmentation', Type: plant_traits, Span: (20772, 20784)
   - Entity: 'pigmentation', Type: plant_traits, Span: (21752, 21764)
   - Entity: 'pigmentation', Type: plant_traits, Span: (21814, 21826)
   - Entity: 'pigmentation', Type: plant_traits, Span: (21992, 22004)
   - Entity: 'pigmentation', Type: plant_traits, Span: (22420, 22432)
   - Entity: 'pigmentation', Type: plant_traits, Span: (29406, 29418)
-  - Entity: 'pigmentation', Type: plant_traits, Span: (46189, 46201)
-  - Entity: 'pigmentation', Type: plant_traits, Span: (46234, 46246)
   - Entity: 'pigmentation state', Type: plant_traits, Span: (36149, 36167)
+  - Entity: 'pigmentation state', Type: plant_traits, Span: (46234, 46252)
   - Entity: 'pigmentation status', Type: plant_traits, Span: (40096, 40115)
 
-[True Positives (20): Entities correctly predicted]
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (2623, 2644)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (3660, 3681)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (3702, 3723)
+[True Positives (15): Entities correctly predicted]
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (8758, 8779)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (25110, 25131)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (28352, 28373)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (40535, 40556)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (40633, 40654)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (42191, 42212)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (43033, 43054)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (44918, 44939)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (45567, 45588)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (46995, 47016)
-  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (49204, 49225)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (49612, 49633)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (49767, 49788)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (50053, 50074)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (51386, 51407)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (51761, 51782)
   - Entity: 'betalain pigmentation', Type: plant_traits, Span: (52519, 52540)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (54341, 54362)
+  - Entity: 'betalain pigmentation', Type: plant_traits, Span: (54555, 54576)
 
 ========================================
 
 --- species ---
 
-[False Negatives (6): Entities missed by the pipeline]
+[False Negatives (5): Entities missed by the pipeline]
   - Entity: 'b. vulgaris', Type: species, Span: (27539, 27550)
-  - Entity: 'beta vulgaris', Type: species, Span: (6065, 6078)
   - Entity: 'c. gigantea', Type: species, Span: (27552, 27563)
   - Entity: 'm. crystallinum', Type: species, Span: (27568, 27583)
   - Entity: 'm. crystallinum', Type: species, Span: (33731, 33746)
   - Entity: 's. halimifolium', Type: species, Span: (27522, 27537)
 
-[False Positives (12): Entities incorrectly predicted by the pipeline]
-  - Entity: 'amaranthaceae', Type: species, Span: (34953, 34966)
-  - Entity: 'amaranthaceae', Type: species, Span: (35305, 35318)
+[False Positives (11): Entities incorrectly predicted by the pipeline]
   - Entity: 'caryophyllales', Type: species, Span: (1647, 1661)
   - Entity: 'caryophyllales', Type: species, Span: (53901, 53915)
   - Entity: 'coffea', Type: species, Span: (48573, 48579)
@@ -751,10 +742,11 @@ NER Evaluation Details
   - Entity: 'macarthuriaceae', Type: species, Span: (40309, 40324)
   - Entity: 'ptilotus hybrid', Type: species, Span: (36816, 36831)
   - Entity: 'simmondsiaceae', Type: species, Span: (39957, 39971)
+  - Entity: 'stegnosperma', Type: species, Span: (37811, 37823)
   - Entity: 'stegnospermataceae', Type: species, Span: (40265, 40283)
   - Entity: 'thea', Type: species, Span: (48583, 48587)
 
-[True Positives (105): Entities correctly predicted]
+[True Positives (106): Entities correctly predicted]
   - Entity: 'a. hypochondriacus', Type: species, Span: (32693, 32711)
   - Entity: 'a. hypochondriacus', Type: species, Span: (42904, 42922)
   - Entity: 'amaranthus hypochondriacus', Type: species, Span: (33665, 33691)
@@ -769,6 +761,7 @@ NER Evaluation Details
   - Entity: 'b. vulgaris', Type: species, Span: (42444, 42455)
   - Entity: 'b. vulgaris', Type: species, Span: (42706, 42717)
   - Entity: 'b. vulgaris', Type: species, Span: (55570, 55581)
+  - Entity: 'beta vulgaris', Type: species, Span: (6065, 6078)
   - Entity: 'beta vulgaris', Type: species, Span: (26759, 26772)
   - Entity: 'beta vulgaris', Type: species, Span: (33693, 33706)
   - Entity: 'beta vulgaris', Type: species, Span: (36563, 36576)

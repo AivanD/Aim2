@@ -47,12 +47,12 @@ async def process_passage_for_ner(semaphore, body, model=None):
                 #     max_tokens=1024,
                 #     temperature=1e-67,
                 # )
-                # time.sleep(0.5)
+                # await asyncio.sleep(0.5)
                 # return result
 
                 # OPTION 2: GROQ inference (async)
                 result = await groq_inference_async(body, task='ner')
-                time.sleep(0.5)
+                await asyncio.sleep(0.5)
                 return result
             
             except RateLimitError as e:
@@ -81,7 +81,7 @@ async def process_pair_for_re(semaphore, body, model=None):
                     max_tokens=256, # Smaller max tokens for this focused task
                     temperature=1e-67,
                 )
-                asyncio.sleep(0.5)
+                await asyncio.sleep(0.5)
                 # OPTION 2: GROQ inference (async)
                 # prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
                 # result = await groq_inference_async(prompt_body, task='re')
