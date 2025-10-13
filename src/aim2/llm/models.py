@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
 from aim2.entities_types.entities import CustomExtractedEntities
-from aim2.llm.prompt import _static_header, make_prompt
+from aim2.llm.prompt import _static_header, make_prompt, _static_header_re
 
 def _parse_retry_after(error_message: str) -> int:
     """Parses the retry-after time from a Groq API error message."""
@@ -123,8 +123,14 @@ async_client = AsyncGroq(
     api_key=GROQ_API_KEY
 )
 
-async def groq_inference_async(body):
+async def groq_inference_async(body, task=None):
     MAX_RETRIES = 10
+    if task == "ner":
+        system_content = _static_header()
+    elif task == "re":
+        system_content = _static_header_re()
+    else:
+        system_content = _static_header_re()        
     
     for attempt in range(MAX_RETRIES):
         try: 
@@ -132,8 +138,8 @@ async def groq_inference_async(body):
                 model=GROQ_MODEL,
                 messages=[
                 {
-                "role": "system",
-                "content": _static_header()
+                    "role": "system",
+                    "content": system_content
                 },
                 {
                     "role": "user",
@@ -186,8 +192,15 @@ async def groq_inference_async(body):
     return response.choices[0].message.content
 
 
-def groq_inference(body):
+def groq_inference(body, task=None):
     MAX_RETRIES = 10
+    if task == "ner":
+        system_content = _static_header()
+    elif task == "re":
+        system_content = _static_header_re()
+    else:
+        # Default to NER system prompt if task is not specified
+        system_content = _static_header() 
     
     for attempt in range(MAX_RETRIES):
         try: 
@@ -195,8 +208,8 @@ def groq_inference(body):
                 model=GROQ_MODEL,
                 messages=[
                 {
-                "role": "system",
-                "content": _static_header()
+                    "role": "system",
+                    "content": system_content
                 },
                 {
                     "role": "user",

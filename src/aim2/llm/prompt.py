@@ -62,20 +62,20 @@ def make_prompt(article_text: str) -> str:
 
 RELATION_GUIDELINES = {
     "pathways": {
-        "made_via": "The compound is actively synthesized or created through this pathway.",
-        "degraded_via": "The compound is broken down or consumed or converted by this pathway.",
+        "made_via": "The compound is synthesized or created by another agent through the pathway.",
+        "degraded_via": "The compound is broken down, consumed or converted to another compound in the pathway.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
     "genes": {
-        "made_by": "The gene/protein directly produces the compound (e.g., as an enzyme).",
-        "degraded_by": "The gene/protein directly breaks down the compound.",
+        "made_by": "The gene/protein (e.g., as an enzyme) directly produces the compound.",
+        "degraded_by": "The gene/protein (e.g., as an enzyme) directly breaks down the compound.",
         "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
     "anatomical_structures": {
-        "made_in": "The compound is actively synthesized or created in this specific anatomical part.",
+        "made_in": "The compound is synthesized or created in this specific anatomical structure.",
         "accumulates_in": "The compound is stored or builds up to high levels in this anatomical part, but not necessarily made there.",
-        "present_in": "The compound is present in this anatomical part.",
+        "present_in": "The compound is present in this anatomical structure.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
     "species": {
@@ -114,10 +114,36 @@ RELATION_GUIDELINES = {
     }
 }
 
-def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str) -> str:
+def _static_header_re() -> str:
     """
     Creates a prompt for the LLM to extract a relationship between two entities.
     """
+
+    prompt = dedent(f"""
+        You are an expert annotator analyzing scientific text. Your task is to identify the relationship between a specific compound and another entity based *only* on the provided text context.
+
+        **Instructions:**
+        1. Carefully read the "Text Context" below. 
+        2. Determine the most accurate relationship from the "Allowed Relationships" list that describes the connection between the Subject and the Object. 
+        3. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship".
+        4. Provide a brief, direct quote from the text that serves as the justification for your chosen relationship. If no direct quote is possible, write "No justification found".
+        5. Output ONLY a valid JSON object with the keys "predicate" and "justification". 
+
+        Output Format (JSON only):
+        {{
+            "predicate": "...", 
+            "justification": "..."
+        }}        
+    """)
+    return prompt
+
+def make_re_prompt_body_only(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str, context_passages: List[str]) -> str:
+    """
+    Creates the body of a prompt for the LLM to extract a relationship between two entities.
+    Returns:
+        str: The complete prompt body string.
+    """
+
     compound_name = compound.get('name')
     other_entity_name = other_entity.get('name')
     
@@ -134,34 +160,27 @@ def _static_header_re(compound: Dict[str, Any], other_entity: Dict[str, Any], ca
     if other_entity_alt_names:
         alt_names_str = ', '.join([f'"{name}"' for name in other_entity_alt_names])
         object_line += f' (also known as: {alt_names_str})'
+    
     # Get the specific guidelines for the given category
     guidelines = RELATION_GUIDELINES.get(category, {})
+    
+    # Format the guidelines directly as a string with consistent indentation
+    guideline_lines = [f"        - \"{rel}\": {desc}" for rel, desc in guidelines.items()]
+    guideline_block = f"**Allowed Relationships for {category.capitalize()}:**\n" + "\n".join(guideline_lines)
 
     prompt = dedent(f"""
-        You are an expert biologist analyzing scientific text. Your task is to identify the relationship between a specific compound and another entity based *only* on the provided text context.
-        
         **Entities:**
         {subject_line}
         {object_line}
-        
-        **Allowed Relationships for this pair:**
-        [{', '.join([f'"{rel}": {desc}' for rel, desc in guidelines.items()])}]
-        
-        **Instructions:**
-        1. Carefully read the "Text Context" below. 
-        2. Determine the most accurate relationship from the "Allowed Relationships list that describes the connection between the Subject and the Object. 
-        3. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship".
-        4. Provide a brief, direct quote from the text that serves as the justification for your chosen relationship. If no direct quote is possible, write "No justification found".
-        5. Output ONLY a valid JSON object with the keys "predicate" and "justification". 
 
-        Output Format (JSON only):
-        {{
-            "predicate": "...", 
-            "justification": "..."
-        }}
+        {guideline_block}
 
         **Text Context:**
     """)
+
+    for context_passage in context_passages:
+        prompt += context_passage + "\n"
+
     return prompt
 
 def make_re_prompt(compound: Dict[str, Any], other_entity: Dict[str, Any], category: str, context_passages: List[str]) -> str:
@@ -170,8 +189,7 @@ def make_re_prompt(compound: Dict[str, Any], other_entity: Dict[str, Any], categ
     Returns:
         str: The complete prompt string.
     """
-    prompt = _static_header_re(compound, other_entity, category)
-    for context_passage in context_passages:
-        prompt += context_passage + "\n"
 
+    prompt = _static_header_re()
+    prompt += make_re_prompt_body_only(compound, other_entity, category, context_passages)
     return prompt

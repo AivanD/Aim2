@@ -19,7 +19,7 @@ from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
-from aim2.llm.prompt import make_prompt, make_re_prompt
+from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -33,13 +33,13 @@ def _parse_openai_retry_after(error_message: str) -> float:
         return float(match.group(1)) + 0.1  # Add a small buffer
     return 10.0  # Default to 10 seconds if parsing fails
 
-async def process_passage_for_ner(semaphore, passage_text, model=None):
+async def process_passage_for_ner(semaphore, body, model=None):
     """Helper function to process a single passage with semaphore and retry logic."""
     async with semaphore:
         for attempt in range(5):  # Retry up to 5 times
             try:
                 # OPTION 1: OPENAI inference
-                # prompt = make_prompt(passage_text)
+                # prompt = make_prompt(body)
                 # openai_schema = SimpleExtractedEntities().schemic_schema()
                 # result = await model(
                 #     model_input=prompt,
@@ -51,8 +51,7 @@ async def process_passage_for_ner(semaphore, passage_text, model=None):
                 # return result
 
                 # OPTION 2: GROQ inference (async)
-                prompt = make_prompt(passage_text)
-                result = await groq_inference_async(prompt)
+                result = await groq_inference_async(body, task='ner')
                 time.sleep(0.5)
                 return result
             
@@ -68,21 +67,24 @@ async def process_passage_for_ner(semaphore, passage_text, model=None):
         logging.error("Passage failed after multiple retries due to rate limiting.")
         return None
 
-async def process_pair_for_re(semaphore, prompt, model=None):
+async def process_pair_for_re(semaphore, body, model=None):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     async with semaphore:
         for attempt in range(5):
             try:
-                # openai_schema = SimpleRelation.schemic_schema()
-                # result = await model(
-                #     model_input=prompt,
-                #     response_format=openai_schema,
-                #     max_tokens=256, # Smaller max tokens for this focused task
-                #     temperature=1e-67,
-                # )
-                # asyncio.sleep(0.5)
+                # # OPTION 1: OPENAI inference
+                prompt = make_re_prompt(body[0], body[1], body[2], body[3])
+                openai_schema = SimpleRelation.schemic_schema()
+                result = await model(
+                    model_input=prompt,
+                    response_format=openai_schema,
+                    max_tokens=256, # Smaller max tokens for this focused task
+                    temperature=1e-67,
+                )
+                asyncio.sleep(0.5)
                 # OPTION 2: GROQ inference (async)
-                result = await groq_inference_async(prompt)
+                # prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
+                # result = await groq_inference_async(prompt_body, task='re')
                 return result
             except RateLimitError as e:
                 wait_time = _parse_openai_retry_after(str(e))
@@ -191,9 +193,9 @@ async def amain():
                 raw_result_list = [] 
                 # for sentence_text, sentence_offset in sentences_w_offsets:
                 for passage_text, passage_offset in passages_w_offsets:
-                    # create a prompt for the passage
-                    prompt = make_prompt(passage_text)
-                    prompts_ner.append(prompt)
+                    # create a prompt for the passage and add to the list (for local inference)
+                    # prompt = make_prompt(passage_text)
+                    # prompts_ner.append(prompt)
 
                     # API (async)
                     task = process_passage_for_ner(semaphore, passage_text, model)
@@ -334,12 +336,12 @@ async def amain():
                     top_passages_text = [p[0] for p in ranked_passages[:3]]
                     context_str = "\n\n---\n\n".join(top_passages_text)
                     
-                    prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
-                    prompts_re.append(prompt_re)
+                    # prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
+                    # prompts_re.append(prompt_re)
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
-                    print(f"Compound: {compound['name']} | {category}: {other_entity['name']}")
+
                     # API (async). set Model = none for Groq
-                    task = process_pair_for_re(re_semaphore, prompt_re, model)
+                    task = process_pair_for_re(re_semaphore, (compound, other_entity, category, top_passages_text), model)
                     tasks.append(task)
                 
                 # Execute all API calls concurrently
