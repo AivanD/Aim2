@@ -194,8 +194,8 @@ async def amain():
                 # for sentence_text, sentence_offset in sentences_w_offsets:
                 for passage_text, passage_offset in passages_w_offsets:
                     # create a prompt for the passage and add to the list (for local inference)
-                    # prompt = make_prompt(passage_text)
-                    # prompts_ner.append(prompt)
+                    prompt = make_prompt(passage_text)
+                    prompts_ner.append(prompt)
 
                     # API (async)
                     task = process_passage_for_ner(semaphore, passage_text, model)
