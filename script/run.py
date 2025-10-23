@@ -13,7 +13,7 @@ from aim2.postprocessing.compound_normalizer import classify_with_classyfire_loc
 from aim2.postprocessing.merger import merge_and_deduplicate
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
-from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair
+from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
 from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
@@ -72,7 +72,7 @@ async def process_pair_for_re(semaphore, body, model=None):
     async with semaphore:
         for attempt in range(5):
             try:
-                # # OPTION 1: OPENAI inference
+                # OPTION 1: OPENAI inference
                 prompt = make_re_prompt(body[0], body[1], body[2], body[3])
                 openai_schema = SimpleRelation.schemic_schema()
                 result = await model(
@@ -82,7 +82,7 @@ async def process_pair_for_re(semaphore, body, model=None):
                     temperature=1e-67,
                 )
                 await asyncio.sleep(0.5)
-                # OPTION 2: GROQ inference (async)
+                # # OPTION 2: GROQ inference (async)
                 # prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
                 # result = await groq_inference_async(prompt_body, task='re')
                 return result
@@ -176,10 +176,10 @@ async def amain():
 
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
-
+            parsing_time = time.time()
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
-            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, False)
-
+            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True)
+            logger.info(f"Parsing time for {filename}: {time.time() - parsing_time:.2f} seconds")
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
 
@@ -326,22 +326,69 @@ async def amain():
                 re_semaphore = asyncio.Semaphore(3)
 
                 # 2. filter and rank
-                for compound, other_entity, category in entity_pairs:
-                    ranked_passages = rank_passages_for_pair(compound, other_entity, passages_w_offsets)
+                for compound, other_entity, category in entity_pairs[:1]:
+                    # stage 1: Rank top paragraphs for the entity pair
+                    top_paragraphs = rank_passages_for_pair_enhanced(
+                        compound, other_entity, passages_w_offsets, granularity="paragraph", top_k=3
+                    )
 
-                    if not ranked_passages:
+                    if not top_paragraphs:
                         continue
 
-                    # 3. Select top 1-3 passages as context
-                    top_passages_text = [p[0] for p in ranked_passages[:3]]
-                    context_str = "\n\n---\n\n".join(top_passages_text)
-                    
-                    # prompt_re = make_re_prompt(compound, other_entity, category, top_passages_text)
-                    # prompts_re.append(prompt_re)
+                    # Stage 2: Select best sentences from those top paragraphs
+                    best_sentences = select_best_sentences_from_paragraphs(
+                        compound, other_entity, top_paragraphs, sentences_w_offsets, per_paragraph=2
+                    )
+
+                    # 3. Use the text from the best sentences as context for relation extraction
+                    # If sentence selection gives good results, use it.
+                    # Otherwise, fall back to using the entire text of the single best paragraph.
+                    if best_sentences:
+                        # 3.1 context window construction with surrounding sentences.
+                        # Create a quick lookup from offset to index for all sentences
+                        offset_to_index = {offset: i for i, (text, offset) in enumerate(sentences_w_offsets)}
+                        
+                        # Use a set to automatically handle duplicates and maintain order
+                        context_indices = set()
+                        
+                        for s_text, s_start, score, diag in best_sentences:
+                            if s_start in offset_to_index:
+                                best_sent_idx = offset_to_index[s_start]
+                                # Add the sentence before (if it exists)
+                                if best_sent_idx > 0:
+                                    context_indices.add(best_sent_idx - 1)
+                                # Add the best sentence itself
+                                context_indices.add(best_sent_idx)
+                                # Add the sentence after (if it exists)
+                                if best_sent_idx < len(sentences_w_offsets) - 1:
+                                    context_indices.add(best_sent_idx + 1)
+                        
+                        # Sort indices and build the final context string
+                        sorted_indices = sorted(list(context_indices))
+                        context_texts = [sentences_w_offsets[i][0] for i in sorted_indices]
+                        context_str = "\n".join(context_texts)
+                    else:
+                        # Fallback to the top-ranked paragraph's full text
+                        logger.warning(f"No single sentence found with both entities for pair ({compound['name']}, {other_entity['name']}). Falling back to top paragraph context.")
+                        # Option 1: take all k=3 top paragraphs' text
+                        context_texts = [p[0] for p in top_paragraphs]
+                        context_str = "\n".join(context_texts)
+
+                        # Option 2: take only the text of the top paragraph
+                        # top_paragraph_text = top_paragraphs[0][0]
+                        # context_texts = [top_paragraph_text]
+                        # context_str = top_paragraph_text
+
+                    # If context is still empty, skip
+                    if not context_str.strip():
+                        continue
+
+                    prompt_re = make_re_prompt(compound, other_entity, category, context_texts)
+                    prompts_re.append(prompt_re)
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
 
                     # API (async). set Model = none for Groq
-                    task = process_pair_for_re(re_semaphore, (compound, other_entity, category, top_passages_text), model)
+                    task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), model)
                     tasks.append(task)
                 
                 # Execute all API calls concurrently
