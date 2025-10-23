@@ -1,0 +1,5191 @@
+[
+  {
+    "compounds": [
+      {
+        "name": "beta-sitosterol",
+        "spans": [
+          [
+            541,
+            556
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            558,
+            566
+          ],
+          [
+            750,
+            758
+          ],
+          [
+            795,
+            803
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            301,
+            305
+          ],
+          [
+            426,
+            430
+          ],
+          [
+            613,
+            617
+          ],
+          [
+            716,
+            720
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            633,
+            654
+          ]
+        ]
+      },
+      {
+        "name": "exogenous application of beta-sitosterol",
+        "spans": [
+          [
+            516,
+            556
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            449,
+            460
+          ],
+          [
+            643,
+            654
+          ]
+        ]
+      },
+      {
+        "name": "ultraviolet-B (UV-B) radiation",
+        "spans": [
+          [
+            165,
+            195
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "tolerance level",
+        "spans": [
+          [
+            594,
+            609
+          ]
+        ]
+      },
+      {
+        "name": "growth improvement",
+        "spans": [
+          [
+            571,
+            589
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            1741,
+            1752
+          ]
+        ]
+      },
+      {
+        "name": "chlorophyll",
+        "spans": [
+          [
+            1251,
+            1262
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            1018,
+            1026
+          ]
+        ]
+      },
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            1718,
+            1731
+          ]
+        ]
+      },
+      {
+        "name": "sugars",
+        "spans": [
+          [
+            1733,
+            1739
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "whole plant",
+        "spans": [
+          [
+            1230,
+            1241
+          ]
+        ]
+      },
+      {
+        "name": "root",
+        "spans": [
+          [
+            1212,
+            1216
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            1202,
+            1207
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            891,
+            912
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            865,
+            875
+          ],
+          [
+            1056,
+            1066
+          ],
+          [
+            1857,
+            1867
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            901,
+            912
+          ],
+          [
+            1087,
+            1098
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "NPQ",
+        "spans": [
+          [
+            1341,
+            1344
+          ]
+        ]
+      },
+      {
+        "name": "Tr",
+        "spans": [
+          [
+            1320,
+            1322
+          ]
+        ]
+      },
+      {
+        "name": "ROS",
+        "spans": [
+          [
+            1506,
+            1509
+          ]
+        ]
+      },
+      {
+        "name": "SOD",
+        "spans": [
+          [
+            1572,
+            1575
+          ]
+        ]
+      },
+      {
+        "name": "Pn",
+        "spans": [
+          [
+            1312,
+            1314
+          ]
+        ]
+      },
+      {
+        "name": "Fv/Fm",
+        "spans": [
+          [
+            1330,
+            1335
+          ]
+        ]
+      },
+      {
+        "name": "Gs",
+        "spans": [
+          [
+            1316,
+            1318
+          ]
+        ]
+      },
+      {
+        "name": "CAT",
+        "spans": [
+          [
+            1582,
+            1585
+          ]
+        ]
+      },
+      {
+        "name": "POD",
+        "spans": [
+          [
+            1577,
+            1580
+          ]
+        ]
+      },
+      {
+        "name": "WUEi",
+        "spans": [
+          [
+            1324,
+            1328
+          ]
+        ]
+      },
+      {
+        "name": "APX",
+        "spans": [
+          [
+            1591,
+            1594
+          ]
+        ]
+      },
+      {
+        "name": "RWC",
+        "spans": [
+          [
+            1225,
+            1228
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "whole plant biomass",
+        "spans": [
+          [
+            1230,
+            1249
+          ]
+        ]
+      },
+      {
+        "name": "growth",
+        "spans": [
+          [
+            1171,
+            1177
+          ]
+        ]
+      },
+      {
+        "name": "development",
+        "spans": [
+          [
+            1182,
+            1193
+          ]
+        ]
+      },
+      {
+        "name": "root length",
+        "spans": [
+          [
+            1212,
+            1223
+          ]
+        ]
+      },
+      {
+        "name": "photosynthetic-related parameters",
+        "spans": [
+          [
+            1277,
+            1310
+          ]
+        ]
+      },
+      {
+        "name": "oxidative stress tolerance",
+        "spans": [
+          [
+            1402,
+            1428
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            1957,
+            1965
+          ],
+          [
+            2130,
+            2138
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            2079,
+            2090
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "stress tolerance",
+        "spans": [
+          [
+            2084,
+            2100
+          ]
+        ]
+      },
+      {
+        "name": "growth maintenance",
+        "spans": [
+          [
+            1969,
+            1987
+          ]
+        ]
+      },
+      {
+        "name": "plasticity",
+        "spans": [
+          [
+            2149,
+            2159
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "seedling",
+        "spans": [
+          [
+            3105,
+            3113
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            3096,
+            3100
+          ]
+        ]
+      },
+      {
+        "name": "hypocotyl",
+        "spans": [
+          [
+            3074,
+            3083
+          ]
+        ]
+      },
+      {
+        "name": "PSII reaction center proteins",
+        "spans": [
+          [
+            3341,
+            3370
+          ]
+        ]
+      },
+      {
+        "name": "electron transport chain",
+        "spans": [
+          [
+            3379,
+            3403
+          ]
+        ]
+      },
+      {
+        "name": "cell",
+        "spans": [
+          [
+            3040,
+            3044
+          ]
+        ]
+      },
+      {
+        "name": "stomatal conductance",
+        "spans": [
+          [
+            3573,
+            3593
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "ultraviolet (UV) radiation",
+        "spans": [
+          [
+            2493,
+            2519
+          ]
+        ]
+      },
+      {
+        "name": "ultraviolet B (UV-B) radiation",
+        "spans": [
+          [
+            2837,
+            2867
+          ]
+        ]
+      },
+      {
+        "name": "high UV-B irradiation",
+        "spans": [
+          [
+            3298,
+            3319
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "photosynthetic processes",
+        "spans": [
+          [
+            3193,
+            3217
+          ]
+        ]
+      },
+      {
+        "name": "cell proliferation",
+        "spans": [
+          [
+            3040,
+            3058
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant biomass",
+        "spans": [
+          [
+            3250,
+            3263
+          ]
+        ]
+      },
+      {
+        "name": "plant yield",
+        "spans": [
+          [
+            2773,
+            2784
+          ]
+        ]
+      },
+      {
+        "name": "seedling growth",
+        "spans": [
+          [
+            3105,
+            3120
+          ]
+        ]
+      },
+      {
+        "name": "hypocotyl growth",
+        "spans": [
+          [
+            3074,
+            3090
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            2454,
+            2466
+          ],
+          [
+            3427,
+            3439
+          ],
+          [
+            3660,
+            3672
+          ]
+        ]
+      },
+      {
+        "name": "crop productivity",
+        "spans": [
+          [
+            2789,
+            2806
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "hydroxyl radicals",
+        "spans": [
+          [
+            3980,
+            3997
+          ]
+        ]
+      },
+      {
+        "name": "hydrogen peroxide",
+        "spans": [
+          [
+            4072,
+            4089
+          ]
+        ]
+      },
+      {
+        "name": "singlet oxygen",
+        "spans": [
+          [
+            4101,
+            4115
+          ]
+        ]
+      },
+      {
+        "name": "superoxide anions",
+        "spans": [
+          [
+            4008,
+            4025
+          ]
+        ]
+      },
+      {
+        "name": "reactive oxygen species",
+        "spans": [
+          [
+            3815,
+            3838
+          ],
+          [
+            4928,
+            4951
+          ]
+        ]
+      },
+      {
+        "name": "phytohormones",
+        "spans": [
+          [
+            4356,
+            4369
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cells",
+        "spans": [
+          [
+            4955,
+            4960
+          ]
+        ]
+      },
+      {
+        "name": "cell",
+        "spans": [
+          [
+            4219,
+            4223
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            5071,
+            5082
+          ]
+        ]
+      },
+      {
+        "name": "UV-B irradiation",
+        "spans": [
+          [
+            3721,
+            3737
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "signaling molecule",
+        "spans": [
+          [
+            4253,
+            4271
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "developmental processes",
+        "spans": [
+          [
+            4381,
+            4404
+          ]
+        ]
+      },
+      {
+        "name": "cell death",
+        "spans": [
+          [
+            4219,
+            4229
+          ]
+        ]
+      },
+      {
+        "name": "stress responses",
+        "spans": [
+          [
+            4409,
+            4425
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "terpenoids",
+        "spans": [
+          [
+            5366,
+            5376
+          ]
+        ]
+      },
+      {
+        "name": "amines",
+        "spans": [
+          [
+            6227,
+            6233
+          ]
+        ]
+      },
+      {
+        "name": "glucose",
+        "spans": [
+          [
+            6302,
+            6309
+          ]
+        ]
+      },
+      {
+        "name": "tryptophan",
+        "spans": [
+          [
+            6214,
+            6224
+          ]
+        ]
+      },
+      {
+        "name": "GABA",
+        "spans": [
+          [
+            6267,
+            6271
+          ]
+        ]
+      },
+      {
+        "name": "polyols",
+        "spans": [
+          [
+            6334,
+            6341
+          ]
+        ]
+      },
+      {
+        "name": "inositol",
+        "spans": [
+          [
+            6343,
+            6351
+          ],
+          [
+            6357,
+            6365
+          ]
+        ]
+      },
+      {
+        "name": "iso-leucine",
+        "spans": [
+          [
+            6201,
+            6212
+          ]
+        ]
+      },
+      {
+        "name": "salicylic acid",
+        "spans": [
+          [
+            6417,
+            6431
+          ]
+        ]
+      },
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            5466,
+            5477
+          ],
+          [
+            6170,
+            6181
+          ]
+        ]
+      },
+      {
+        "name": "leucine",
+        "spans": [
+          [
+            6192,
+            6199
+          ],
+          [
+            6205,
+            6212
+          ]
+        ]
+      },
+      {
+        "name": "ferulaic acid",
+        "spans": [
+          [
+            6433,
+            6446
+          ]
+        ]
+      },
+      {
+        "name": "myo-inositol",
+        "spans": [
+          [
+            6353,
+            6365
+          ]
+        ]
+      },
+      {
+        "name": "proline",
+        "spans": [
+          [
+            6183,
+            6190
+          ]
+        ]
+      },
+      {
+        "name": "gamma-amino-N-butyric acid",
+        "spans": [
+          [
+            6239,
+            6265
+          ]
+        ]
+      },
+      {
+        "name": "sucrose",
+        "spans": [
+          [
+            6311,
+            6318
+          ]
+        ]
+      },
+      {
+        "name": "carbohydrates",
+        "spans": [
+          [
+            6287,
+            6300
+          ]
+        ]
+      },
+      {
+        "name": "fructose",
+        "spans": [
+          [
+            6320,
+            6328
+          ]
+        ]
+      },
+      {
+        "name": "alkaloids",
+        "spans": [
+          [
+            5355,
+            5364
+          ]
+        ]
+      },
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            6389,
+            6402
+          ]
+        ]
+      },
+      {
+        "name": "flavonoids",
+        "spans": [
+          [
+            5378,
+            5388
+          ]
+        ]
+      },
+      {
+        "name": "sugars",
+        "spans": [
+          [
+            5446,
+            5452
+          ]
+        ]
+      },
+      {
+        "name": "lipids",
+        "spans": [
+          [
+            5454,
+            5460
+          ]
+        ]
+      },
+      {
+        "name": "oxalic acid",
+        "spans": [
+          [
+            6404,
+            6415
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cellular milieu",
+        "spans": [
+          [
+            5982,
+            5997
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "osmotic stress",
+        "spans": [
+          [
+            6481,
+            6495
+          ]
+        ]
+      },
+      {
+        "name": "UV-B irradiation",
+        "spans": [
+          [
+            5278,
+            5294
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "enzyme activities",
+        "spans": [
+          [
+            6038,
+            6055
+          ]
+        ]
+      },
+      {
+        "name": "antioxidant capability",
+        "spans": [
+          [
+            5873,
+            5895
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant stress response",
+        "spans": [
+          [
+            5740,
+            5761
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "phytosterol",
+        "spans": [
+          [
+            6540,
+            6551
+          ]
+        ]
+      },
+      {
+        "name": "phytosterols",
+        "spans": [
+          [
+            6680,
+            6692
+          ]
+        ]
+      },
+      {
+        "name": "plant sterols",
+        "spans": [
+          [
+            6663,
+            6676
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            6900,
+            6908
+          ],
+          [
+            6995,
+            7003
+          ],
+          [
+            7367,
+            7375
+          ]
+        ]
+      },
+      {
+        "name": "beta-sitosterol",
+        "spans": [
+          [
+            6511,
+            6526
+          ],
+          [
+            6883,
+            6898
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "membrane lipid bilayer",
+        "spans": [
+          [
+            6729,
+            6751
+          ]
+        ]
+      },
+      {
+        "name": "membrane",
+        "spans": [
+          [
+            6615,
+            6623
+          ],
+          [
+            6729,
+            6737
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "salt stress",
+        "spans": [
+          [
+            7133,
+            7144
+          ]
+        ]
+      },
+      {
+        "name": "water stress",
+        "spans": [
+          [
+            7116,
+            7128
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "stress tolerance",
+        "spans": [
+          [
+            6926,
+            6942
+          ]
+        ]
+      },
+      {
+        "name": "plant resistance",
+        "spans": [
+          [
+            7068,
+            7084
+          ]
+        ]
+      },
+      {
+        "name": "stress resistance",
+        "spans": [
+          [
+            6849,
+            6866
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "plant protection",
+        "spans": [
+          [
+            7483,
+            7499
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            8499,
+            8507
+          ],
+          [
+            8776,
+            8784
+          ],
+          [
+            8877,
+            8885
+          ],
+          [
+            9006,
+            9014
+          ],
+          [
+            9163,
+            9171
+          ]
+        ]
+      },
+      {
+        "name": "phytosterols",
+        "spans": [
+          [
+            8215,
+            8227
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            7501,
+            7505
+          ],
+          [
+            7797,
+            7801
+          ],
+          [
+            7965,
+            7969
+          ],
+          [
+            7997,
+            8001
+          ],
+          [
+            8282,
+            8286
+          ],
+          [
+            8552,
+            8556
+          ],
+          [
+            8788,
+            8792
+          ],
+          [
+            8920,
+            8924
+          ],
+          [
+            9135,
+            9139
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            8577,
+            8598
+          ]
+        ]
+      },
+      {
+        "name": "exogenous application of phytosterols",
+        "spans": [
+          [
+            8190,
+            8227
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            7636,
+            7647
+          ],
+          [
+            8016,
+            8027
+          ],
+          [
+            8587,
+            8598
+          ],
+          [
+            8711,
+            8722
+          ],
+          [
+            9198,
+            9209
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B irradiation",
+        "spans": [
+          [
+            8938,
+            8964
+          ]
+        ]
+      },
+      {
+        "name": "supplementation of betaSito",
+        "spans": [
+          [
+            8480,
+            8507
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            9183,
+            9193
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "productivity",
+        "spans": [
+          [
+            7949,
+            7961
+          ]
+        ]
+      },
+      {
+        "name": "tolerance",
+        "spans": [
+          [
+            8002,
+            8011
+          ],
+          [
+            8269,
+            8278
+          ],
+          [
+            8723,
+            8732
+          ],
+          [
+            8907,
+            8916
+          ]
+        ]
+      },
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            7920,
+            7930
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            18969,
+            18975
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            18749,
+            18754
+          ]
+        ]
+      },
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            18724,
+            18730
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            18801,
+            18811
+          ],
+          [
+            19011,
+            19021
+          ],
+          [
+            19304,
+            19314
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            18661,
+            18672
+          ],
+          [
+            18843,
+            18854
+          ],
+          [
+            19319,
+            19330
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant biomass",
+        "spans": [
+          [
+            18889,
+            18902
+          ]
+        ]
+      },
+      {
+        "name": "root length",
+        "spans": [
+          [
+            18874,
+            18885
+          ]
+        ]
+      },
+      {
+        "name": "relative water contents",
+        "spans": [
+          [
+            18936,
+            18959
+          ]
+        ]
+      },
+      {
+        "name": "shoot length",
+        "spans": [
+          [
+            18858,
+            18870
+          ]
+        ]
+      },
+      {
+        "name": "growth performance",
+        "spans": [
+          [
+            19075,
+            19093
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            19674,
+            19682
+          ],
+          [
+            19878,
+            19886
+          ],
+          [
+            21797,
+            21805
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            20201,
+            20207
+          ]
+        ]
+      },
+      {
+        "name": "root",
+        "spans": [
+          [
+            20310,
+            20314
+          ],
+          [
+            20459,
+            20463
+          ],
+          [
+            20661,
+            20665
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            20300,
+            20305
+          ],
+          [
+            20449,
+            20454
+          ],
+          [
+            20570,
+            20575
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            19750,
+            19771
+          ],
+          [
+            21625,
+            21646
+          ],
+          [
+            21870,
+            21891
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B irradiation stress",
+        "spans": [
+          [
+            21305,
+            21338
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            19760,
+            19771
+          ],
+          [
+            19927,
+            19938
+          ],
+          [
+            20432,
+            20443
+          ],
+          [
+            21146,
+            21157
+          ],
+          [
+            21479,
+            21490
+          ],
+          [
+            21635,
+            21646
+          ],
+          [
+            21880,
+            21891
+          ]
+        ]
+      },
+      {
+        "name": "normal light",
+        "spans": [
+          [
+            19705,
+            19717
+          ],
+          [
+            20909,
+            20921
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            19724,
+            19734
+          ],
+          [
+            19912,
+            19922
+          ],
+          [
+            20277,
+            20287
+          ],
+          [
+            20934,
+            20944
+          ],
+          [
+            21464,
+            21474
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant biomass",
+        "spans": [
+          [
+            20888,
+            20901
+          ],
+          [
+            20976,
+            20989
+          ],
+          [
+            21085,
+            21098
+          ],
+          [
+            21209,
+            21222
+          ]
+        ]
+      },
+      {
+        "name": "root length",
+        "spans": [
+          [
+            20459,
+            20470
+          ]
+        ]
+      },
+      {
+        "name": "leaf relative water content",
+        "spans": [
+          [
+            21399,
+            21426
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            19567,
+            19579
+          ],
+          [
+            20824,
+            20836
+          ]
+        ]
+      },
+      {
+        "name": "growth performance",
+        "spans": [
+          [
+            21813,
+            21831
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "total chlorophyll",
+        "spans": [
+          [
+            22276,
+            22293
+          ]
+        ]
+      },
+      {
+        "name": "chlorophyll b",
+        "spans": [
+          [
+            22251,
+            22264
+          ]
+        ]
+      },
+      {
+        "name": "Caro",
+        "spans": [
+          [
+            22314,
+            22318
+          ]
+        ]
+      },
+      {
+        "name": "Chl a",
+        "spans": [
+          [
+            22241,
+            22246
+          ]
+        ]
+      },
+      {
+        "name": "Chlorophyll a",
+        "spans": [
+          [
+            22226,
+            22239
+          ]
+        ]
+      },
+      {
+        "name": "carotenoids",
+        "spans": [
+          [
+            22301,
+            22312
+          ]
+        ]
+      },
+      {
+        "name": "Chl b",
+        "spans": [
+          [
+            22266,
+            22271
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chloroplasts",
+        "spans": [
+          [
+            22410,
+            22422
+          ]
+        ]
+      },
+      {
+        "name": "grana stacks",
+        "spans": [
+          [
+            22514,
+            22526
+          ]
+        ]
+      },
+      {
+        "name": "chloroplast",
+        "spans": [
+          [
+            22149,
+            22160
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            22367,
+            22384
+          ],
+          [
+            22542,
+            22559
+          ],
+          [
+            22840,
+            22857
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            22352,
+            22362
+          ],
+          [
+            22455,
+            22465
+          ],
+          [
+            22820,
+            22830
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            22080,
+            22091
+          ],
+          [
+            22470,
+            22481
+          ],
+          [
+            22835,
+            22846
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "total chlorophyll",
+        "spans": [
+          [
+            23591,
+            23608
+          ],
+          [
+            23772,
+            23789
+          ]
+        ]
+      },
+      {
+        "name": "Caro",
+        "spans": [
+          [
+            23026,
+            23030
+          ],
+          [
+            23432,
+            23436
+          ],
+          [
+            23614,
+            23618
+          ],
+          [
+            23795,
+            23799
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            24488,
+            24496
+          ]
+        ]
+      },
+      {
+        "name": "Chl a",
+        "spans": [
+          [
+            23008,
+            23013
+          ],
+          [
+            23577,
+            23582
+          ],
+          [
+            23765,
+            23770
+          ]
+        ]
+      },
+      {
+        "name": "Chl b",
+        "spans": [
+          [
+            23015,
+            23020
+          ],
+          [
+            23584,
+            23589
+          ],
+          [
+            23918,
+            23923
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            24273,
+            24279
+          ]
+        ]
+      },
+      {
+        "name": "chloroplasts",
+        "spans": [
+          [
+            24257,
+            24269
+          ]
+        ]
+      },
+      {
+        "name": "grana stacks",
+        "spans": [
+          [
+            24237,
+            24249
+          ]
+        ]
+      },
+      {
+        "name": "chloroplast",
+        "spans": [
+          [
+            24066,
+            24077
+          ],
+          [
+            24525,
+            24536
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            24117,
+            24138
+          ]
+        ]
+      },
+      {
+        "name": "UV-B irradiation",
+        "spans": [
+          [
+            24329,
+            24345
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            23255,
+            23265
+          ],
+          [
+            23289,
+            23299
+          ],
+          [
+            24415,
+            24425
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            23270,
+            23281
+          ],
+          [
+            23656,
+            23667
+          ],
+          [
+            24127,
+            24138
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "chlorophyll synthesis",
+        "spans": [
+          [
+            24553,
+            24574
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant adaptability to stress conditions",
+        "spans": [
+          [
+            23129,
+            23168
+          ]
+        ]
+      },
+      {
+        "name": "chloroplast development",
+        "spans": [
+          [
+            24525,
+            24548
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "stomatal conductance",
+        "spans": [
+          [
+            24958,
+            24978
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            24847,
+            24864
+          ],
+          [
+            25125,
+            25142
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "transpiration rate",
+        "spans": [
+          [
+            24904,
+            24922
+          ]
+        ]
+      },
+      {
+        "name": "water use efficiency",
+        "spans": [
+          [
+            24987,
+            25007
+          ]
+        ]
+      },
+      {
+        "name": "net photosynthetic rate",
+        "spans": [
+          [
+            24872,
+            24895
+          ]
+        ]
+      },
+      {
+        "name": "PSII efficiency",
+        "spans": [
+          [
+            24931,
+            24946
+          ]
+        ]
+      },
+      {
+        "name": "non-photochemical quenching",
+        "spans": [
+          [
+            25022,
+            25049
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "chlorophyll",
+        "spans": [
+          [
+            26372,
+            26383
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            26514,
+            26522
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "photosynthesis",
+        "spans": [
+          [
+            25236,
+            25250
+          ],
+          [
+            25472,
+            25486
+          ],
+          [
+            25968,
+            25982
+          ],
+          [
+            26542,
+            26556
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B irradiation",
+        "spans": [
+          [
+            26135,
+            26151
+          ],
+          [
+            26628,
+            26644
+          ]
+        ]
+      },
+      {
+        "name": "non-stress conditions",
+        "spans": [
+          [
+            25869,
+            25890
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            25635,
+            25646
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B irradiation",
+        "spans": [
+          [
+            26618,
+            26644
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant biomass",
+        "spans": [
+          [
+            26410,
+            26423
+          ]
+        ]
+      },
+      {
+        "name": "plant physiology",
+        "spans": [
+          [
+            25516,
+            25532
+          ]
+        ]
+      },
+      {
+        "name": "chlorophyll content",
+        "spans": [
+          [
+            26372,
+            26391
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "superoxide anions",
+        "spans": [
+          [
+            26871,
+            26888
+          ]
+        ]
+      },
+      {
+        "name": "MDA",
+        "spans": [
+          [
+            27120,
+            27123
+          ]
+        ]
+      },
+      {
+        "name": "H2O2",
+        "spans": [
+          [
+            26969,
+            26973
+          ]
+        ]
+      },
+      {
+        "name": "O2",
+        "spans": [
+          [
+            26980,
+            26982
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            26845,
+            26851
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            26804,
+            26821
+          ],
+          [
+            27313,
+            27330
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            26789,
+            26799
+          ],
+          [
+            26914,
+            26924
+          ],
+          [
+            27293,
+            27303
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            26929,
+            26940
+          ],
+          [
+            27034,
+            27045
+          ],
+          [
+            27308,
+            27319
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "ROS accumulation",
+        "spans": [
+          [
+            26740,
+            26756
+          ]
+        ]
+      },
+      {
+        "name": "lipid peroxidation",
+        "spans": [
+          [
+            27072,
+            27090
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "O2",
+        "spans": [
+          [
+            27878,
+            27880
+          ],
+          [
+            28010,
+            28012
+          ]
+        ]
+      },
+      {
+        "name": "MDA",
+        "spans": [
+          [
+            28506,
+            28509
+          ],
+          [
+            28592,
+            28595
+          ]
+        ]
+      },
+      {
+        "name": "H2O2",
+        "spans": [
+          [
+            27869,
+            27873
+          ],
+          [
+            28001,
+            28005
+          ]
+        ]
+      },
+      {
+        "name": "ROS",
+        "spans": [
+          [
+            27548,
+            27551
+          ],
+          [
+            28126,
+            28129
+          ],
+          [
+            28377,
+            28380
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cell membrane",
+        "spans": [
+          [
+            27731,
+            27744
+          ]
+        ]
+      },
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            28271,
+            28277
+          ]
+        ]
+      },
+      {
+        "name": "cellular compartments",
+        "spans": [
+          [
+            27555,
+            27576
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            28083,
+            28100
+          ],
+          [
+            28564,
+            28581
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            27934,
+            27945
+          ]
+        ]
+      },
+      {
+        "name": "UV-B-stressed",
+        "spans": [
+          [
+            27489,
+            27502
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B irradiation",
+        "spans": [
+          [
+            27800,
+            27826
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            27913,
+            27923
+          ],
+          [
+            28079,
+            28089
+          ],
+          [
+            28549,
+            28559
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "oxidative stress",
+        "spans": [
+          [
+            27664,
+            27680
+          ]
+        ]
+      },
+      {
+        "name": "lipid peroxidation",
+        "spans": [
+          [
+            28486,
+            28504
+          ],
+          [
+            28780,
+            28798
+          ]
+        ]
+      },
+      {
+        "name": "oxidative stability",
+        "spans": [
+          [
+            27759,
+            27778
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "membrane damage",
+        "spans": [
+          [
+            28467,
+            28482
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ascorbate",
+        "spans": [
+          [
+            29073,
+            29082
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            28909,
+            28919
+          ],
+          [
+            29302,
+            29312
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            28924,
+            28935
+          ],
+          [
+            29317,
+            29328
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ROS",
+        "spans": [
+          [
+            29581,
+            29584
+          ],
+          [
+            29651,
+            29654
+          ],
+          [
+            30739,
+            30742
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cells",
+        "spans": [
+          [
+            30746,
+            30751
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            29881,
+            29898
+          ],
+          [
+            29910,
+            29927
+          ],
+          [
+            30312,
+            30329
+          ]
+        ]
+      },
+      {
+        "name": "non-stress conditions",
+        "spans": [
+          [
+            29906,
+            29927
+          ],
+          [
+            30308,
+            30329
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B light",
+        "spans": [
+          [
+            30443,
+            30463
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant enzyme activities",
+        "spans": [
+          [
+            29601,
+            29630
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "oxidative stress tolerance",
+        "spans": [
+          [
+            30521,
+            30547
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "metabolites",
+        "spans": [
+          [
+            30908,
+            30919
+          ],
+          [
+            31136,
+            31147
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            30952,
+            30962
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            30967,
+            30978
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            31610,
+            31623
+          ],
+          [
+            32188,
+            32201
+          ],
+          [
+            32504,
+            32517
+          ],
+          [
+            32684,
+            32697
+          ],
+          [
+            32720,
+            32733
+          ],
+          [
+            32897,
+            32910
+          ],
+          [
+            33120,
+            33133
+          ]
+        ]
+      },
+      {
+        "name": "sugars",
+        "spans": [
+          [
+            31639,
+            31645
+          ],
+          [
+            32206,
+            32212
+          ],
+          [
+            32522,
+            32528
+          ],
+          [
+            32572,
+            32578
+          ],
+          [
+            32912,
+            32918
+          ],
+          [
+            33135,
+            33141
+          ]
+        ]
+      },
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            31655,
+            31666
+          ],
+          [
+            32580,
+            32591
+          ],
+          [
+            32924,
+            32935
+          ],
+          [
+            33147,
+            33158
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            31236,
+            31244
+          ],
+          [
+            32829,
+            32837
+          ],
+          [
+            33261,
+            33269
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            31541,
+            31545
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "exogenous application of betaSito",
+        "spans": [
+          [
+            32804,
+            32837
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            31430,
+            31440
+          ],
+          [
+            31827,
+            31837
+          ],
+          [
+            32346,
+            32356
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            31301,
+            31312
+          ],
+          [
+            31451,
+            31462
+          ],
+          [
+            31842,
+            31853
+          ],
+          [
+            31881,
+            31892
+          ],
+          [
+            32327,
+            32338
+          ],
+          [
+            33181,
+            33192
+          ],
+          [
+            33351,
+            33362
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GABA",
+        "spans": [
+          [
+            33735,
+            33739
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GABA shunt",
+        "spans": [
+          [
+            33735,
+            33745
+          ]
+        ]
+      },
+      {
+        "name": "tricarboxylic acid (TCA) cycle",
+        "spans": [
+          [
+            33751,
+            33781
+          ]
+        ]
+      },
+      {
+        "name": "amino acid metabolism",
+        "spans": [
+          [
+            33712,
+            33733
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "stress",
+        "spans": [
+          [
+            33631,
+            33637
+          ],
+          [
+            33845,
+            33851
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            33626,
+            33637
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "shikimic acid",
+        "spans": [
+          [
+            33995,
+            34008
+          ]
+        ]
+      },
+      {
+        "name": "glucose",
+        "spans": [
+          [
+            34484,
+            34491
+          ],
+          [
+            34693,
+            34700
+          ]
+        ]
+      },
+      {
+        "name": "tryptophan",
+        "spans": [
+          [
+            35072,
+            35082
+          ],
+          [
+            35263,
+            35273
+          ]
+        ]
+      },
+      {
+        "name": "raffinose",
+        "spans": [
+          [
+            34716,
+            34725
+          ]
+        ]
+      },
+      {
+        "name": "GABA",
+        "spans": [
+          [
+            35316,
+            35320
+          ],
+          [
+            36645,
+            36649
+          ]
+        ]
+      },
+      {
+        "name": "salicylic acid",
+        "spans": [
+          [
+            34334,
+            34348
+          ]
+        ]
+      },
+      {
+        "name": "ferulaic acid",
+        "spans": [
+          [
+            34023,
+            34036
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            36340,
+            36348
+          ],
+          [
+            36580,
+            36588
+          ]
+        ]
+      },
+      {
+        "name": "gamma-aminobutyric acid",
+        "spans": [
+          [
+            35291,
+            35314
+          ]
+        ]
+      },
+      {
+        "name": "sorbitol",
+        "spans": [
+          [
+            34503,
+            34511
+          ]
+        ]
+      },
+      {
+        "name": "malic acid",
+        "spans": [
+          [
+            33983,
+            33993
+          ]
+        ]
+      },
+      {
+        "name": "1-hexadecanol",
+        "spans": [
+          [
+            35739,
+            35752
+          ]
+        ]
+      },
+      {
+        "name": "proline",
+        "spans": [
+          [
+            35445,
+            35452
+          ]
+        ]
+      },
+      {
+        "name": "2-aminoadipic acid",
+        "spans": [
+          [
+            35757,
+            35775
+          ]
+        ]
+      },
+      {
+        "name": "benzoic acid",
+        "spans": [
+          [
+            34375,
+            34387
+          ]
+        ]
+      },
+      {
+        "name": "isoleucine",
+        "spans": [
+          [
+            35275,
+            35285
+          ]
+        ]
+      },
+      {
+        "name": "fumaric acid",
+        "spans": [
+          [
+            33956,
+            33968
+          ],
+          [
+            34301,
+            34313
+          ]
+        ]
+      },
+      {
+        "name": "fructose",
+        "spans": [
+          [
+            34493,
+            34501
+          ],
+          [
+            34702,
+            34710
+          ]
+        ]
+      },
+      {
+        "name": "beta-sitosterol",
+        "spans": [
+          [
+            36198,
+            36213
+          ]
+        ]
+      },
+      {
+        "name": "glycine",
+        "spans": [
+          [
+            35060,
+            35067
+          ]
+        ]
+      },
+      {
+        "name": "palmic acid",
+        "spans": [
+          [
+            34010,
+            34021
+          ]
+        ]
+      },
+      {
+        "name": "trehalose",
+        "spans": [
+          [
+            34517,
+            34526
+          ],
+          [
+            34672,
+            34681
+          ]
+        ]
+      },
+      {
+        "name": "mannitol",
+        "spans": [
+          [
+            34683,
+            34691
+          ]
+        ]
+      },
+      {
+        "name": "pyruvic acid",
+        "spans": [
+          [
+            34042,
+            34054
+          ],
+          [
+            34421,
+            34433
+          ]
+        ]
+      },
+      {
+        "name": "oxalic acid",
+        "spans": [
+          [
+            33970,
+            33981
+          ],
+          [
+            34267,
+            34278
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GABA shunt",
+        "spans": [
+          [
+            36645,
+            36655
+          ]
+        ]
+      },
+      {
+        "name": "tricarboxylic acid (TCA) cycle",
+        "spans": [
+          [
+            36661,
+            36691
+          ]
+        ]
+      },
+      {
+        "name": "sugar and amino acid metabolism",
+        "spans": [
+          [
+            36612,
+            36643
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            36450,
+            36454
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "exogenous application of betaSito",
+        "spans": [
+          [
+            36555,
+            36588
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            34086,
+            34096
+          ],
+          [
+            35132,
+            35142
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            33868,
+            33879
+          ],
+          [
+            35105,
+            35116
+          ],
+          [
+            36267,
+            36278
+          ]
+        ]
+      },
+      {
+        "name": "high UV-B light",
+        "spans": [
+          [
+            35978,
+            35993
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "tolerance mechanism against UV-B",
+        "spans": [
+          [
+            36414,
+            36446
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress tolerance",
+        "spans": [
+          [
+            36267,
+            36288
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "chlorophyll",
+        "spans": [
+          [
+            37714,
+            37725
+          ]
+        ]
+      },
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            37234,
+            37242
+          ],
+          [
+            37329,
+            37337
+          ],
+          [
+            37549,
+            37557
+          ],
+          [
+            38261,
+            38269
+          ],
+          [
+            38345,
+            38353
+          ],
+          [
+            38483,
+            38491
+          ]
+        ]
+      },
+      {
+        "name": "squalene",
+        "spans": [
+          [
+            38709,
+            38717
+          ]
+        ]
+      },
+      {
+        "name": "carotenoid",
+        "spans": [
+          [
+            37730,
+            37740
+          ]
+        ]
+      },
+      {
+        "name": "sterols",
+        "spans": [
+          [
+            38817,
+            38824
+          ]
+        ]
+      },
+      {
+        "name": "beta-sitosterol",
+        "spans": [
+          [
+            37217,
+            37232
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "sterol biosynthetic pathway",
+        "spans": [
+          [
+            38643,
+            38670
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "grana stacks",
+        "spans": [
+          [
+            37921,
+            37933
+          ]
+        ]
+      },
+      {
+        "name": "chloroplast grana",
+        "spans": [
+          [
+            37885,
+            37902
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            36960,
+            36964
+          ],
+          [
+            37055,
+            37059
+          ],
+          [
+            37247,
+            37251
+          ],
+          [
+            37507,
+            37511
+          ],
+          [
+            37524,
+            37528
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B radiation",
+        "spans": [
+          [
+            37087,
+            37101
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            38881,
+            38895
+          ]
+        ]
+      },
+      {
+        "name": "stress conditions",
+        "spans": [
+          [
+            37689,
+            37706
+          ],
+          [
+            38017,
+            38034
+          ],
+          [
+            38430,
+            38447
+          ],
+          [
+            38556,
+            38573
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            37438,
+            37449
+          ],
+          [
+            37823,
+            37834
+          ]
+        ]
+      },
+      {
+        "name": "low temperature",
+        "spans": [
+          [
+            38861,
+            38876
+          ]
+        ]
+      },
+      {
+        "name": "prolonged UV-B irradiation",
+        "spans": [
+          [
+            37272,
+            37298
+          ]
+        ]
+      },
+      {
+        "name": "UV-B light",
+        "spans": [
+          [
+            36831,
+            36841
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "net photosynthesis",
+        "spans": [
+          [
+            38066,
+            38084
+          ]
+        ]
+      },
+      {
+        "name": "photosynthesis-related processes",
+        "spans": [
+          [
+            37620,
+            37652
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "UV tolerance",
+        "spans": [
+          [
+            37480,
+            37492
+          ]
+        ]
+      },
+      {
+        "name": "growth and development",
+        "spans": [
+          [
+            37385,
+            37407
+          ]
+        ]
+      },
+      {
+        "name": "plasticity",
+        "spans": [
+          [
+            38202,
+            38212
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "MDA",
+        "spans": [
+          [
+            39542,
+            39545
+          ],
+          [
+            39660,
+            39663
+          ]
+        ]
+      },
+      {
+        "name": "H2O2",
+        "spans": [
+          [
+            39004,
+            39008
+          ],
+          [
+            39342,
+            39346
+          ]
+        ]
+      },
+      {
+        "name": "O2",
+        "spans": [
+          [
+            39010,
+            39012
+          ],
+          [
+            39018,
+            39020
+          ],
+          [
+            39351,
+            39353
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cells",
+        "spans": [
+          [
+            39156,
+            39161
+          ]
+        ]
+      },
+      {
+        "name": "cell membranes",
+        "spans": [
+          [
+            39208,
+            39222
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B exposure",
+        "spans": [
+          [
+            39578,
+            39591
+          ]
+        ]
+      },
+      {
+        "name": "UV-B radiation",
+        "spans": [
+          [
+            38951,
+            38965
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "high tolerance",
+        "spans": [
+          [
+            39826,
+            39840
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito",
+        "spans": [
+          [
+            40651,
+            40659
+          ],
+          [
+            40951,
+            40959
+          ],
+          [
+            41094,
+            41102
+          ],
+          [
+            41129,
+            41137
+          ],
+          [
+            41250,
+            41258
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "SOD",
+        "spans": [
+          [
+            40093,
+            40096
+          ],
+          [
+            41046,
+            41049
+          ]
+        ]
+      },
+      {
+        "name": "CAT",
+        "spans": [
+          [
+            40103,
+            40106
+          ]
+        ]
+      },
+      {
+        "name": "dehydrin",
+        "spans": [
+          [
+            41054,
+            41062
+          ]
+        ]
+      },
+      {
+        "name": "POD",
+        "spans": [
+          [
+            40098,
+            40101
+          ]
+        ]
+      },
+      {
+        "name": "APX",
+        "spans": [
+          [
+            40108,
+            40111
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            40634,
+            40638
+          ]
+        ]
+      },
+      {
+        "name": "wheat",
+        "spans": [
+          [
+            40922,
+            40927
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "water stress conditions",
+        "spans": [
+          [
+            40895,
+            40918
+          ]
+        ]
+      },
+      {
+        "name": "stress application",
+        "spans": [
+          [
+            40530,
+            40548
+          ]
+        ]
+      },
+      {
+        "name": "pretreatment",
+        "spans": [
+          [
+            40618,
+            40630
+          ]
+        ]
+      },
+      {
+        "name": "UV-B irradiation",
+        "spans": [
+          [
+            40381,
+            40397
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "relative expression levels",
+        "spans": [
+          [
+            41016,
+            41042
+          ]
+        ]
+      },
+      {
+        "name": "antioxidant enzyme activities",
+        "spans": [
+          [
+            40330,
+            40359
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "growth performance",
+        "spans": [
+          [
+            41324,
+            41342
+          ]
+        ]
+      },
+      {
+        "name": "oxidative status",
+        "spans": [
+          [
+            41230,
+            41246
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "meat quality",
+        "spans": [
+          [
+            41347,
+            41359
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "salicylic acid",
+        "spans": [
+          [
+            42415,
+            42429
+          ],
+          [
+            42846,
+            42860
+          ]
+        ]
+      },
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            41893,
+            41904
+          ]
+        ]
+      },
+      {
+        "name": "benzoic acid",
+        "spans": [
+          [
+            42456,
+            42468
+          ]
+        ]
+      },
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            41870,
+            41883
+          ],
+          [
+            42958,
+            42971
+          ]
+        ]
+      },
+      {
+        "name": "fumaric acid",
+        "spans": [
+          [
+            42382,
+            42394
+          ]
+        ]
+      },
+      {
+        "name": "sugars",
+        "spans": [
+          [
+            41885,
+            41891
+          ]
+        ]
+      },
+      {
+        "name": "pyruvic acid",
+        "spans": [
+          [
+            42502,
+            42514
+          ]
+        ]
+      },
+      {
+        "name": "oxalic acid",
+        "spans": [
+          [
+            42348,
+            42359
+          ],
+          [
+            42696,
+            42707
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "TCA cycle",
+        "spans": [
+          [
+            43051,
+            43060
+          ]
+        ]
+      },
+      {
+        "name": "respiration",
+        "spans": [
+          [
+            42663,
+            42674
+          ]
+        ]
+      },
+      {
+        "name": "photosynthesis",
+        "spans": [
+          [
+            42644,
+            42658
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cellular components",
+        "spans": [
+          [
+            41475,
+            41494
+          ]
+        ]
+      },
+      {
+        "name": "cells",
+        "spans": [
+          [
+            41465,
+            41470
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            41949,
+            41959
+          ]
+        ]
+      },
+      {
+        "name": "stress",
+        "spans": [
+          [
+            41430,
+            41436
+          ],
+          [
+            41953,
+            41959
+          ],
+          [
+            41975,
+            41981
+          ],
+          [
+            42170,
+            42176
+          ],
+          [
+            42892,
+            42898
+          ],
+          [
+            43080,
+            43086
+          ]
+        ]
+      },
+      {
+        "name": "UV-B radiation",
+        "spans": [
+          [
+            41628,
+            41642
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            41970,
+            41981
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "redox balance",
+        "spans": [
+          [
+            43009,
+            43022
+          ]
+        ]
+      },
+      {
+        "name": "antioxidant capacity",
+        "spans": [
+          [
+            41659,
+            41679
+          ]
+        ]
+      },
+      {
+        "name": "activation of antioxidant enzymes",
+        "spans": [
+          [
+            42911,
+            42944
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "defense level",
+        "spans": [
+          [
+            42769,
+            42782
+          ]
+        ]
+      },
+      {
+        "name": "defense system",
+        "spans": [
+          [
+            41754,
+            41768
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "proline",
+        "spans": [
+          [
+            44804,
+            44811
+          ],
+          [
+            45152,
+            45159
+          ]
+        ]
+      },
+      {
+        "name": "serotonin",
+        "spans": [
+          [
+            45472,
+            45481
+          ]
+        ]
+      },
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            44570,
+            44581
+          ],
+          [
+            44706,
+            44717
+          ],
+          [
+            45634,
+            45645
+          ]
+        ]
+      },
+      {
+        "name": "indole glucosinolates",
+        "spans": [
+          [
+            45434,
+            45455
+          ]
+        ]
+      },
+      {
+        "name": "sucrose",
+        "spans": [
+          [
+            43291,
+            43298
+          ]
+        ]
+      },
+      {
+        "name": "alkaloids",
+        "spans": [
+          [
+            45457,
+            45466
+          ]
+        ]
+      },
+      {
+        "name": "phytoalexins",
+        "spans": [
+          [
+            45420,
+            45432
+          ]
+        ]
+      },
+      {
+        "name": "fructose",
+        "spans": [
+          [
+            43277,
+            43285
+          ],
+          [
+            43568,
+            43576
+          ]
+        ]
+      },
+      {
+        "name": "glucose",
+        "spans": [
+          [
+            43268,
+            43275
+          ],
+          [
+            43559,
+            43566
+          ],
+          [
+            44283,
+            44290
+          ],
+          [
+            44362,
+            44369
+          ]
+        ]
+      },
+      {
+        "name": "raffinose",
+        "spans": [
+          [
+            43582,
+            43591
+          ]
+        ]
+      },
+      {
+        "name": "tryptophan",
+        "spans": [
+          [
+            44982,
+            44992
+          ],
+          [
+            45293,
+            45303
+          ]
+        ]
+      },
+      {
+        "name": "trehalose",
+        "spans": [
+          [
+            43538,
+            43547
+          ],
+          [
+            43888,
+            43897
+          ]
+        ]
+      },
+      {
+        "name": "mannitol",
+        "spans": [
+          [
+            43549,
+            43557
+          ],
+          [
+            43996,
+            44004
+          ]
+        ]
+      },
+      {
+        "name": "pyruvic acid",
+        "spans": [
+          [
+            44374,
+            44386
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "TCA",
+        "spans": [
+          [
+            45255,
+            45258
+          ]
+        ]
+      },
+      {
+        "name": "glycolysis",
+        "spans": [
+          [
+            44199,
+            44209
+          ],
+          [
+            44462,
+            44472
+          ]
+        ]
+      },
+      {
+        "name": "glycolytic pathway",
+        "spans": [
+          [
+            44539,
+            44557
+          ]
+        ]
+      },
+      {
+        "name": "primary and secondary metabolism",
+        "spans": [
+          [
+            46406,
+            46438
+          ]
+        ]
+      },
+      {
+        "name": "phenylpropanoid pathways",
+        "spans": [
+          [
+            45267,
+            45291
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cytoplasm",
+        "spans": [
+          [
+            43322,
+            43331
+          ]
+        ]
+      },
+      {
+        "name": "stem tissues",
+        "spans": [
+          [
+            43954,
+            43966
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            43945,
+            43949
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Nbetans",
+        "spans": [
+          [
+            43843,
+            43850
+          ],
+          [
+            44647,
+            44654
+          ],
+          [
+            44775,
+            44782
+          ],
+          [
+            44866,
+            44873
+          ],
+          [
+            44891,
+            44898
+          ],
+          [
+            44953,
+            44960
+          ],
+          [
+            45049,
+            45056
+          ],
+          [
+            45115,
+            45122
+          ]
+        ]
+      },
+      {
+        "name": "Sbetauvs",
+        "spans": [
+          [
+            43497,
+            43505
+          ],
+          [
+            44733,
+            44741
+          ],
+          [
+            44762,
+            44770
+          ],
+          [
+            44878,
+            44886
+          ],
+          [
+            44940,
+            44948
+          ],
+          [
+            45073,
+            45081
+          ],
+          [
+            45102,
+            45110
+          ]
+        ]
+      },
+      {
+        "name": "Nbetauvs",
+        "spans": [
+          [
+            43510,
+            43518
+          ],
+          [
+            43790,
+            43798
+          ],
+          [
+            43830,
+            43838
+          ],
+          [
+            44634,
+            44642
+          ],
+          [
+            44746,
+            44754
+          ],
+          [
+            44853,
+            44861
+          ],
+          [
+            45036,
+            45044
+          ],
+          [
+            45086,
+            45094
+          ]
+        ]
+      },
+      {
+        "name": "Sbeta",
+        "spans": [
+          [
+            44419,
+            44424
+          ],
+          [
+            46314,
+            46319
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "stress",
+        "spans": [
+          [
+            43104,
+            43110
+          ],
+          [
+            43704,
+            43710
+          ],
+          [
+            43811,
+            43817
+          ],
+          [
+            43974,
+            43980
+          ],
+          [
+            44045,
+            44051
+          ],
+          [
+            44668,
+            44674
+          ],
+          [
+            45170,
+            45176
+          ],
+          [
+            45599,
+            45605
+          ],
+          [
+            46465,
+            46471
+          ]
+        ]
+      },
+      {
+        "name": "UV-B stress",
+        "spans": [
+          [
+            43099,
+            43110
+          ],
+          [
+            44040,
+            44051
+          ],
+          [
+            46460,
+            46471
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant",
+        "spans": [
+          [
+            46164,
+            46175
+          ]
+        ]
+      },
+      {
+        "name": "enzymatic activity",
+        "spans": [
+          [
+            46064,
+            46082
+          ]
+        ]
+      },
+      {
+        "name": "enzyme modulators",
+        "spans": [
+          [
+            46042,
+            46059
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            43447,
+            43459
+          ]
+        ]
+      },
+      {
+        "name": "acclimatization",
+        "spans": [
+          [
+            45577,
+            45592
+          ]
+        ]
+      },
+      {
+        "name": "tolerance level",
+        "spans": [
+          [
+            46295,
+            46310
+          ]
+        ]
+      },
+      {
+        "name": "plant defense",
+        "spans": [
+          [
+            45559,
+            45572
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            48427,
+            48438
+          ]
+        ]
+      },
+      {
+        "name": "chlorophyll",
+        "spans": [
+          [
+            47671,
+            47682
+          ]
+        ]
+      },
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            48404,
+            48417
+          ]
+        ]
+      },
+      {
+        "name": "sugars",
+        "spans": [
+          [
+            48419,
+            48425
+          ]
+        ]
+      },
+      {
+        "name": "carotenoids",
+        "spans": [
+          [
+            47687,
+            47698
+          ]
+        ]
+      },
+      {
+        "name": "beta-sitosterol",
+        "spans": [
+          [
+            46547,
+            46562
+          ],
+          [
+            47861,
+            47876
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "root",
+        "spans": [
+          [
+            46689,
+            46693
+          ],
+          [
+            46887,
+            46891
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            46672,
+            46677
+          ],
+          [
+            46796,
+            46801
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            46626,
+            46630
+          ],
+          [
+            47945,
+            47949
+          ],
+          [
+            48547,
+            48551
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "prolonged UV-B stress",
+        "spans": [
+          [
+            46645,
+            46666
+          ],
+          [
+            47964,
+            47985
+          ]
+        ]
+      },
+      {
+        "name": "UV-B exposure",
+        "spans": [
+          [
+            48312,
+            48325
+          ]
+        ]
+      },
+      {
+        "name": "environmental stresses",
+        "spans": [
+          [
+            48844,
+            48866
+          ]
+        ]
+      },
+      {
+        "name": "exogenous application of the beta-sitosterol",
+        "spans": [
+          [
+            46518,
+            46562
+          ]
+        ]
+      },
+      {
+        "name": "UV-B irradiation stress",
+        "spans": [
+          [
+            47164,
+            47187
+          ]
+        ]
+      },
+      {
+        "name": "stress",
+        "spans": [
+          [
+            46606,
+            46612
+          ],
+          [
+            46660,
+            46666
+          ],
+          [
+            46745,
+            46751
+          ],
+          [
+            47181,
+            47187
+          ],
+          [
+            47343,
+            47349
+          ],
+          [
+            47463,
+            47469
+          ],
+          [
+            47803,
+            47809
+          ],
+          [
+            47979,
+            47985
+          ],
+          [
+            48565,
+            48571
+          ]
+        ]
+      },
+      {
+        "name": "non-stress",
+        "spans": [
+          [
+            47339,
+            47349
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant system",
+        "spans": [
+          [
+            48123,
+            48141
+          ]
+        ]
+      },
+      {
+        "name": "antioxidant enzymes",
+        "spans": [
+          [
+            48173,
+            48192
+          ]
+        ]
+      },
+      {
+        "name": "non-enzymatic antioxidant mechanism",
+        "spans": [
+          [
+            48508,
+            48543
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "growth- and development-related characteristics",
+        "spans": [
+          [
+            47894,
+            47941
+          ]
+        ]
+      },
+      {
+        "name": "plant biomass",
+        "spans": [
+          [
+            47058,
+            47071
+          ]
+        ]
+      },
+      {
+        "name": "photosynthetic-associated characteristics",
+        "spans": [
+          [
+            47193,
+            47234
+          ]
+        ]
+      },
+      {
+        "name": "plasticity",
+        "spans": [
+          [
+            48064,
+            48074
+          ],
+          [
+            48708,
+            48718
+          ]
+        ]
+      },
+      {
+        "name": "net photosynthetic rate",
+        "spans": [
+          [
+            47286,
+            47309
+          ]
+        ]
+      },
+      {
+        "name": "root length",
+        "spans": [
+          [
+            46689,
+            46700
+          ]
+        ]
+      },
+      {
+        "name": "shoot length",
+        "spans": [
+          [
+            46672,
+            46684
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            46589,
+            46601
+          ],
+          [
+            48649,
+            48661
+          ]
+        ]
+      },
+      {
+        "name": "stress signaling",
+        "spans": [
+          [
+            46606,
+            46622
+          ]
+        ]
+      },
+      {
+        "name": "growth and development",
+        "spans": [
+          [
+            48655,
+            48677
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "economically useful",
+        "spans": [
+          [
+            48876,
+            48895
+          ]
+        ]
+      }
+    ]
+  }
+]

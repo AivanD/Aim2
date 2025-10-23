@@ -38,21 +38,21 @@ async def process_passage_for_ner(semaphore, body, model=None):
     async with semaphore:
         for attempt in range(5):  # Retry up to 5 times
             try:
-                # # OPTION 1: OPENAI inference
-                # prompt = make_prompt(body)
-                # openai_schema = SimpleExtractedEntities().schemic_schema()
-                # result = await model(
-                #     model_input=prompt,
-                #     response_format=openai_schema,
-                #     max_tokens=2048,
-                #     temperature=1e-67,
-                # )
-                # await asyncio.sleep(0.5)
-                # return result
+                # OPTION 1: OPENAI inference
+                prompt = make_prompt(body)
+                openai_schema = SimpleExtractedEntities().schemic_schema()
+                result = await model(
+                    model_input=prompt,
+                    response_format=openai_schema,
+                    max_tokens=2048,
+                    temperature=1e-67,
+                )
+                await asyncio.sleep(0.5)
+                return result
 
                 # OPTION 2: GROQ inference (async)
-                result = await groq_inference_async(body, task='ner')
-                await asyncio.sleep(0.5)
+                # result = await groq_inference_async(body, task='ner')
+                # await asyncio.sleep(0.5)
                 return result
             
             except RateLimitError as e:
@@ -326,7 +326,7 @@ async def amain():
                 re_semaphore = asyncio.Semaphore(3)
 
                 # 2. filter and rank
-                for compound, other_entity, category in entity_pairs[:1]:
+                for compound, other_entity, category in entity_pairs:
                     # stage 1: Rank top paragraphs for the entity pair
                     top_paragraphs = rank_passages_for_pair_enhanced(
                         compound, other_entity, passages_w_offsets, granularity="paragraph", top_k=3

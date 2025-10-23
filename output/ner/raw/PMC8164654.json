@@ -1,0 +1,1754 @@
+[
+  {
+    "compounds": [
+      {
+        "name": "beta-sitosterol"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "ultraviolet-B (UV-B) radiation"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "exogenous application of beta-sitosterol"
+      },
+      {
+        "name": "not supplemented with betaSito (Nbeta)"
+      },
+      {
+        "name": "supplemented with betaSito (Sbeta)"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "growth improvement"
+      },
+      {
+        "name": "tolerance level"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito"
+      },
+      {
+        "name": "chlorophyll"
+      },
+      {
+        "name": "organic acids"
+      },
+      {
+        "name": "sugars"
+      },
+      {
+        "name": "amino acids"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "shoot"
+      },
+      {
+        "name": "root"
+      },
+      {
+        "name": "whole plant"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      },
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "RWC"
+      },
+      {
+        "name": "Pn"
+      },
+      {
+        "name": "Gs"
+      },
+      {
+        "name": "Tr"
+      },
+      {
+        "name": "WUEi"
+      },
+      {
+        "name": "Fv/Fm"
+      },
+      {
+        "name": "NPQ"
+      },
+      {
+        "name": "ROS"
+      },
+      {
+        "name": "SOD"
+      },
+      {
+        "name": "POD"
+      },
+      {
+        "name": "CAT"
+      },
+      {
+        "name": "APX"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "growth"
+      },
+      {
+        "name": "development"
+      },
+      {
+        "name": "shoot length"
+      },
+      {
+        "name": "root length"
+      },
+      {
+        "name": "whole plant biomass"
+      },
+      {
+        "name": "photosynthetic-related parameters"
+      },
+      {
+        "name": "oxidative stress tolerance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "growth maintenance"
+      },
+      {
+        "name": "plasticity"
+      },
+      {
+        "name": "stress tolerance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cell"
+      },
+      {
+        "name": "hypocotyl"
+      },
+      {
+        "name": "leaf"
+      },
+      {
+        "name": "seedling"
+      },
+      {
+        "name": "PSII reaction center proteins"
+      },
+      {
+        "name": "electron transport chain"
+      },
+      {
+        "name": "stomatal conductance"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "ultraviolet (UV) radiation"
+      },
+      {
+        "name": "ultraviolet B (UV-B) radiation"
+      },
+      {
+        "name": "high UV-B irradiation"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "cell proliferation"
+      },
+      {
+        "name": "cell expansion"
+      },
+      {
+        "name": "photosynthetic processes"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant growth"
+      },
+      {
+        "name": "plant yield"
+      },
+      {
+        "name": "crop productivity"
+      },
+      {
+        "name": "hypocotyl growth"
+      },
+      {
+        "name": "leaf growth"
+      },
+      {
+        "name": "seedling growth"
+      },
+      {
+        "name": "plant biomass"
+      },
+      {
+        "name": "plant survival"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "reactive oxygen species"
+      },
+      {
+        "name": "hydroxyl radicals"
+      },
+      {
+        "name": "superoxide anions"
+      },
+      {
+        "name": "hydrogen peroxide"
+      },
+      {
+        "name": "singlet oxygen"
+      },
+      {
+        "name": "phytohormones"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cell"
+      },
+      {
+        "name": "cells"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B irradiation"
+      },
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "signaling molecule"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "cell death"
+      },
+      {
+        "name": "developmental processes"
+      },
+      {
+        "name": "stress responses"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "alkaloids"
+      },
+      {
+        "name": "terpenoids"
+      },
+      {
+        "name": "flavonoids"
+      },
+      {
+        "name": "sugars"
+      },
+      {
+        "name": "lipids"
+      },
+      {
+        "name": "amino acids"
+      },
+      {
+        "name": "proline"
+      },
+      {
+        "name": "leucine"
+      },
+      {
+        "name": "iso-leucine"
+      },
+      {
+        "name": "tryptophan"
+      },
+      {
+        "name": "amines"
+      },
+      {
+        "name": "gamma-amino-N-butyric acid"
+      },
+      {
+        "name": "GABA"
+      },
+      {
+        "name": "carbohydrates"
+      },
+      {
+        "name": "glucose"
+      },
+      {
+        "name": "sucrose"
+      },
+      {
+        "name": "fructose"
+      },
+      {
+        "name": "polyols"
+      },
+      {
+        "name": "inositol"
+      },
+      {
+        "name": "myo-inositol"
+      },
+      {
+        "name": "organic acids"
+      },
+      {
+        "name": "oxalic acid"
+      },
+      {
+        "name": "salicylic acid"
+      },
+      {
+        "name": "ferulaic acid"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cellular milieu"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B irradiation"
+      },
+      {
+        "name": "osmotic stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant capability"
+      },
+      {
+        "name": "enzyme activities"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant stress response"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "beta-sitosterol"
+      },
+      {
+        "name": "phytosterol"
+      },
+      {
+        "name": "plant sterols"
+      },
+      {
+        "name": "phytosterols"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "membrane"
+      },
+      {
+        "name": "membrane lipid bilayer"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "water stress"
+      },
+      {
+        "name": "salt stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "stress resistance"
+      },
+      {
+        "name": "stress tolerance"
+      },
+      {
+        "name": "plant resistance"
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "plant protection"
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "phytosterols"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "exogenous application of phytosterols"
+      },
+      {
+        "name": "supplementation of betaSito"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      },
+      {
+        "name": "prolonged UV-B irradiation"
+      },
+      {
+        "name": "non-stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "tolerance"
+      },
+      {
+        "name": "resistance"
+      },
+      {
+        "name": "productivity"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "shoots"
+      },
+      {
+        "name": "roots"
+      },
+      {
+        "name": "leaves"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "non-stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "shoot length"
+      },
+      {
+        "name": "root length"
+      },
+      {
+        "name": "plant biomass"
+      },
+      {
+        "name": "relative water contents"
+      },
+      {
+        "name": "growth performance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves"
+      },
+      {
+        "name": "shoot"
+      },
+      {
+        "name": "root"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "normal light"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "prolonged UV-B irradiation stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant growth"
+      },
+      {
+        "name": "shoot length"
+      },
+      {
+        "name": "root length"
+      },
+      {
+        "name": "plant biomass"
+      },
+      {
+        "name": "leaf relative water content"
+      },
+      {
+        "name": "growth performance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "Chlorophyll a"
+      },
+      {
+        "name": "Chl a"
+      },
+      {
+        "name": "chlorophyll b"
+      },
+      {
+        "name": "Chl b"
+      },
+      {
+        "name": "total chlorophyll"
+      },
+      {
+        "name": "carotenoids"
+      },
+      {
+        "name": "Caro"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chloroplast"
+      },
+      {
+        "name": "chloroplasts"
+      },
+      {
+        "name": "grana stacks"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "stress conditions"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "Chl a"
+      },
+      {
+        "name": "Chl b"
+      },
+      {
+        "name": "Caro"
+      },
+      {
+        "name": "total chlorophyll"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chloroplast"
+      },
+      {
+        "name": "grana stacks"
+      },
+      {
+        "name": "chloroplasts"
+      },
+      {
+        "name": "leaves"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      },
+      {
+        "name": "UV-B irradiation"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "chlorophyll synthesis"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant adaptability to stress conditions"
+      },
+      {
+        "name": "chloroplast development"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "stomatal conductance"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress conditions"
+      },
+      {
+        "name": "stress conditions"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "net photosynthetic rate"
+      },
+      {
+        "name": "transpiration rate"
+      },
+      {
+        "name": "PSII efficiency"
+      },
+      {
+        "name": "water use efficiency"
+      },
+      {
+        "name": "non-photochemical quenching"
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "chlorophyll"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "photosynthesis"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "non-stress conditions"
+      },
+      {
+        "name": "UV-B irradiation"
+      },
+      {
+        "name": "prolonged UV-B irradiation"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant physiology"
+      },
+      {
+        "name": "chlorophyll content"
+      },
+      {
+        "name": "plant biomass"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "superoxide anions"
+      },
+      {
+        "name": "H2O2"
+      },
+      {
+        "name": "O2"
+      },
+      {
+        "name": "MDA"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "stress conditions"
+      },
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "ROS accumulation"
+      },
+      {
+        "name": "lipid peroxidation"
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ROS"
+      },
+      {
+        "name": "H2O2"
+      },
+      {
+        "name": "O2"
+      },
+      {
+        "name": "MDA"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cellular compartments"
+      },
+      {
+        "name": "cell membrane"
+      },
+      {
+        "name": "leaves"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B-stressed"
+      },
+      {
+        "name": "prolonged UV-B irradiation"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "stress conditions"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "oxidative stress"
+      },
+      {
+        "name": "oxidative stability"
+      },
+      {
+        "name": "lipid peroxidation"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "membrane damage"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ascorbate"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "peroxidase activity"
+      },
+      {
+        "name": "superoxide dismutase activity"
+      },
+      {
+        "name": "catalase activity"
+      },
+      {
+        "name": "ascorbate peroxidase activity"
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ROS"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cells"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress conditions"
+      },
+      {
+        "name": "stress conditions"
+      },
+      {
+        "name": "prolonged UV-B light"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant enzyme activities"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "oxidative stress tolerance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "metabolites"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "UV-B stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito"
+      },
+      {
+        "name": "organic acids"
+      },
+      {
+        "name": "sugars"
+      },
+      {
+        "name": "amino acids"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "exogenous application of betaSito"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GABA"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "sugar metabolism"
+      },
+      {
+        "name": "amino acid metabolism"
+      },
+      {
+        "name": "GABA shunt"
+      },
+      {
+        "name": "tricarboxylic acid (TCA) cycle"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "stress"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "fumaric acid"
+      },
+      {
+        "name": "oxalic acid"
+      },
+      {
+        "name": "malic acid"
+      },
+      {
+        "name": "shikimic acid"
+      },
+      {
+        "name": "palmic acid"
+      },
+      {
+        "name": "ferulaic acid"
+      },
+      {
+        "name": "pyruvic acid"
+      },
+      {
+        "name": "salicylic acid"
+      },
+      {
+        "name": "benzoic acid"
+      },
+      {
+        "name": "glucose"
+      },
+      {
+        "name": "fructose"
+      },
+      {
+        "name": "sorbitol"
+      },
+      {
+        "name": "trehalose"
+      },
+      {
+        "name": "mannitol"
+      },
+      {
+        "name": "raffinose"
+      },
+      {
+        "name": "glycine"
+      },
+      {
+        "name": "tryptophan"
+      },
+      {
+        "name": "isoleucine"
+      },
+      {
+        "name": "gamma-aminobutyric acid"
+      },
+      {
+        "name": "GABA"
+      },
+      {
+        "name": "proline"
+      },
+      {
+        "name": "1-hexadecanol"
+      },
+      {
+        "name": "2-aminoadipic acid"
+      },
+      {
+        "name": "beta-sitosterol"
+      },
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GABA shunt"
+      },
+      {
+        "name": "tricarboxylic acid (TCA) cycle"
+      },
+      {
+        "name": "sugar and amino acid metabolism"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "high UV-B light"
+      },
+      {
+        "name": "exogenous application of betaSito"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "UV-B stress tolerance"
+      },
+      {
+        "name": "tolerance mechanism against UV-B"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "beta-sitosterol"
+      },
+      {
+        "name": "betaSito"
+      },
+      {
+        "name": "chlorophyll"
+      },
+      {
+        "name": "carotenoid"
+      },
+      {
+        "name": "sterols"
+      },
+      {
+        "name": "squalene"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "sterol biosynthetic pathway"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chloroplast grana"
+      },
+      {
+        "name": "grana stacks"
+      }
+    ],
+    "species": [
+      {
+        "name": "rice"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B light"
+      },
+      {
+        "name": "UV-B radiation"
+      },
+      {
+        "name": "prolonged UV-B irradiation"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "stress conditions"
+      },
+      {
+        "name": "low temperature"
+      },
+      {
+        "name": "drought stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "photosynthesis-related processes"
+      },
+      {
+        "name": "net photosynthesis"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "growth and development"
+      },
+      {
+        "name": "UV tolerance"
+      },
+      {
+        "name": "plasticity"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "H2O2"
+      },
+      {
+        "name": "O2"
+      },
+      {
+        "name": "O2 -"
+      },
+      {
+        "name": "MDA"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cell membranes"
+      },
+      {
+        "name": "cells"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B radiation"
+      },
+      {
+        "name": "UV-B exposure"
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "high tolerance"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "betaSito"
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "SOD"
+      },
+      {
+        "name": "POD"
+      },
+      {
+        "name": "CAT"
+      },
+      {
+        "name": "APX"
+      },
+      {
+        "name": "dehydrin"
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "rice"
+      },
+      {
+        "name": "wheat"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B irradiation"
+      },
+      {
+        "name": "stress application"
+      },
+      {
+        "name": "pretreatment"
+      },
+      {
+        "name": "water stress conditions"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant enzyme activities"
+      },
+      {
+        "name": "relative expression levels"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "oxidative status"
+      },
+      {
+        "name": "growth performance"
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "meat quality"
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "oxalic acid"
+      },
+      {
+        "name": "fumaric acid"
+      },
+      {
+        "name": "salicylic acid"
+      },
+      {
+        "name": "benzoic acid"
+      },
+      {
+        "name": "pyruvic acid"
+      },
+      {
+        "name": "organic acids"
+      },
+      {
+        "name": "sugars"
+      },
+      {
+        "name": "amino acids"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "photosynthesis"
+      },
+      {
+        "name": "respiration"
+      },
+      {
+        "name": "TCA cycle"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cells"
+      },
+      {
+        "name": "cellular components"
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "UV-B radiation"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant capacity"
+      },
+      {
+        "name": "activation of antioxidant enzymes"
+      },
+      {
+        "name": "redox balance"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "defense system"
+      },
+      {
+        "name": "defense level"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "glucose"
+      },
+      {
+        "name": "fructose"
+      },
+      {
+        "name": "sucrose"
+      },
+      {
+        "name": "trehalose"
+      },
+      {
+        "name": "mannitol"
+      },
+      {
+        "name": "raffinose"
+      },
+      {
+        "name": "pyruvic acid"
+      },
+      {
+        "name": "amino acids"
+      },
+      {
+        "name": "proline"
+      },
+      {
+        "name": "tryptophan"
+      },
+      {
+        "name": "phytoalexins"
+      },
+      {
+        "name": "indole glucosinolates"
+      },
+      {
+        "name": "alkaloids"
+      },
+      {
+        "name": "serotonin"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "glycolysis"
+      },
+      {
+        "name": "glycolytic pathway"
+      },
+      {
+        "name": "TCA"
+      },
+      {
+        "name": "phenylpropanoid pathways"
+      },
+      {
+        "name": "primary and secondary metabolism"
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "cytoplasm"
+      },
+      {
+        "name": "leaf"
+      },
+      {
+        "name": "stem tissues"
+      }
+    ],
+    "species": [
+      {
+        "name": "Sbetauvs"
+      },
+      {
+        "name": "Nbetauvs"
+      },
+      {
+        "name": "Nbetans"
+      },
+      {
+        "name": "Sbeta"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "UV-B stress"
+      },
+      {
+        "name": "stress"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "enzyme modulators"
+      },
+      {
+        "name": "enzymatic activity"
+      },
+      {
+        "name": "antioxidant"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant growth"
+      },
+      {
+        "name": "plant defense"
+      },
+      {
+        "name": "acclimatization"
+      },
+      {
+        "name": "tolerance level"
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "beta-sitosterol"
+      },
+      {
+        "name": "chlorophyll"
+      },
+      {
+        "name": "carotenoids"
+      },
+      {
+        "name": "organic acids"
+      },
+      {
+        "name": "sugars"
+      },
+      {
+        "name": "amino acids"
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "shoot"
+      },
+      {
+        "name": "root"
+      }
+    ],
+    "species": [
+      {
+        "name": "rice"
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "exogenous application of the beta-sitosterol"
+      },
+      {
+        "name": "prolonged UV-B stress"
+      },
+      {
+        "name": "UV-B irradiation stress"
+      },
+      {
+        "name": "UV-B exposure"
+      },
+      {
+        "name": "stress"
+      },
+      {
+        "name": "non-stress"
+      },
+      {
+        "name": "environmental stresses"
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant system"
+      },
+      {
+        "name": "antioxidant enzymes"
+      },
+      {
+        "name": "non-enzymatic antioxidant mechanism"
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant growth"
+      },
+      {
+        "name": "stress signaling"
+      },
+      {
+        "name": "shoot length"
+      },
+      {
+        "name": "root length"
+      },
+      {
+        "name": "plant biomass"
+      },
+      {
+        "name": "photosynthetic-associated characteristics"
+      },
+      {
+        "name": "net photosynthetic rate"
+      },
+      {
+        "name": "plasticity"
+      },
+      {
+        "name": "growth- and development-related characteristics"
+      },
+      {
+        "name": "growth and development"
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "economically useful"
+      }
+    ]
+  }
+]
