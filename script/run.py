@@ -129,35 +129,6 @@ async def amain():
     except Exception as e:
         logger.error(f"Error initializing SapbertNormalizer: {e}")
         return
-    
-    # load the plant-ontology, peco, and trait_ontology (for future use)
-    # try:
-    #     # "plant ontology" which has 2 namespaces: 'plant_anatomy' and 'plant_structure_development_stage'
-    #     plant_terms_dict, po_graph = load_ontology(PO_OBO)
-    #     logger.info(f"Plant ontology loaded successfully from {PO_OBO}.")
-    #     # "experimental condition" ontology which has 1 namespace: 'plant_experimental_conditions_ontology'
-    #     peco_terms_dict, peco_graph = load_ontology(PECO_OBO)
-    #     logger.info(f"PECO ontology loaded successfully from {PECO_OBO}.")
-    #     # "plant trait" ontology which has 1 namespace: 'plant_trait_ontology'
-    #     to_terms_dict, to_graph = load_ontology(TO_OBO)
-    #     logger.info(f"Trait ontology loaded successfully from {TO_OBO}.")
-    #     # "gene ontology" ontology which has 3 namespaces: molecular function, biological process, cellular component
-    #     go_terms_dict, go_graph = load_ontology(GO_OBO)
-    #     logger.info(f"Whole Gene Ontology loaded successfully from {GO_OBO}.")
-    #     # "chemical ontology" ontology which has 1 namespace: 'chemont'
-    #     chemont_terms_dict, chemont_graph = load_ontology(CHEMONT_OBO)
-    #     logger.info(f"ChemOnt loaded successfully from {CHEMONT_OBO}.")
-        
-    #     ontologies = {
-    #         "po_graph": po_graph,
-    #         "peco_graph": peco_graph,
-    #         "to_graph": to_graph,
-    #         "go_graph": go_graph,
-    #         "chemont_graph": chemont_graph
-    #     }
-
-    # except Exception as e:
-    #     logger.error(f"Error loading ontology: {e}")
 
     logger.info("Starting the XML processing...")
     # process each files in the input folder
