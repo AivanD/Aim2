@@ -105,8 +105,8 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        model = load_openai_model()     # for OPENAI or Local model
-        # model = load_local_model_via_outlinesVLLM()
+        # model = load_openai_model()     # for OPENAI or Local model
+        model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -302,7 +302,7 @@ async def amain():
                 for compound, other_entity, category in entity_pairs:
                     # stage 1: Rank top paragraphs for the entity pair
                     top_paragraphs = rank_passages_for_pair_enhanced(
-                        compound, other_entity, passages_w_offsets, granularity="paragraph", top_k=3
+                        compound, other_entity, passages_w_offsets, granularity="paragraph", top_k=2
                     )
 
                     if not top_paragraphs:
@@ -342,7 +342,7 @@ async def amain():
                         context_str = "\n".join(context_texts)
                     else:
                         # Fallback to the top-ranked paragraph's full text
-                        logger.warning(f"No single sentence found with both entities for pair ({compound['name']}, {other_entity['name']}). Falling back to top paragraph context.")
+                        # logger.warning(f"No single sentence found with both entities for pair ({compound['name']}, {other_entity['name']}). Falling back to top paragraph context.")
                         # Option 1: take all k=3 top paragraphs' text
                         context_texts = [p[0] for p in top_paragraphs]
                         context_str = "\n".join(context_texts)
@@ -365,7 +365,7 @@ async def amain():
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
-                logger.info(f"Starting relation extraction for {len(tasks)} pairs...")
+                logger.info(f"Starting relation extraction for {len(prompts_re)} pairs...")
                 # re_results = await asyncio.gather(*tasks)
 
                 # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
@@ -382,8 +382,8 @@ async def amain():
                         continue
                     
                     try:
-                        # simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
-                        simple_relation = SimpleRelation.model_validate_json(result_json)
+                        simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
+                        # simple_relation = SimpleRelation.model_validate_json(result_json)
                         if simple_relation.predicate == "No_Relationship":
                             continue
 

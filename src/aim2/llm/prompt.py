@@ -61,55 +61,98 @@ def make_prompt(article_text: str) -> str:
     return prompt
 
 RELATION_GUIDELINES = {
+    "compounds": {
+        "associated_with": "A general, non-causal link between compounds is reported.",
+        "present_in": "The compound is detected or found in the presence of the other compound.",
+        "correlates_with": "Levels of the two compounds co-vary (direction not specified).",
+        # Keep only if you find clear usage in your corpus
+        "positively_regulated_by": "A compound’s level increases in response to the presence/perturbation of another compound.",
+        "negatively_regulated_by": "A compound’s level decreases in response to the presence/perturbation of another compound.",
+        "No_Relationship": "No direct relationship is stated or strongly implied."
+    },
+
     "pathways": {
-        "made_via": "The compound is synthesized or created by another agent through the pathway.",
-        "degraded_via": "The compound is broken down, consumed or converted to another compound in the pathway.",
+        "made_via": "The compound is synthesized or created through this metabolic pathway.",
+        "degraded_via": "The compound is broken down or consumed through this metabolic pathway.",
+        "involved_in": "The compound participates in, is a substrate/intermediate/product within, or is otherwise part of this pathway.",
+        "associated_with": "A non-specific link between the compound and the pathway is mentioned.",
+        "correlates_with": "The compound’s level is correlated with the activity/abundance of this pathway (direction not specified).",
+        "positively_correlates_with": "Higher compound levels tend to co-occur with increased pathway activity/abundance.",
+        "negatively_correlates_with": "Higher compound levels tend to co-occur with decreased pathway activity/abundance.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "genes": {
-        "made_by": "The gene/protein (e.g., as an enzyme) directly produces the compound.",
-        "degraded_by": "The gene/protein (e.g., as an enzyme) directly breaks down the compound.",
+        "made_by": "The gene/protein (e.g., enzyme) directly produces the compound.",
+        "degraded_by": "The gene/protein directly degrades, converts, or consumes the compound.",
+        "putatively_made_by": "Tentative evidence that the gene/protein produces the compound (uncertain/indirect).",
+        "secreted_by": "The gene/protein mediates secretion/export of the compound.",
+        "transported_by": "The gene/protein transports the compound across membranes/compartments.",
+        "involved_in": "The gene/protein participates in the compound’s biosynthesis, modification, transport, or degradation (direction not specified).",
+        "accumulates_under": "Compound accumulation changes under perturbation of this gene (e.g., KO/OE), but direction/causality is not specified.",
         "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "correlates_with": "Compound levels correlate with gene expression/activity (direction not specified).",
+        "positively_correlates_with": "Higher compound levels tend to co-occur with higher gene expression/activity.",
+        "negatively_correlates_with": "Higher compound levels tend to co-occur with lower gene expression/activity.",
+        "positively_regulated_by": "Compound level increases when this gene (or upstream regulator) is active or upregulated.",
+        "negatively_regulated_by": "Compound level decreases when this gene (or upstream regulator) is active or upregulated.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "anatomical_structures": {
-        "made_in": "The compound is synthesized or created in this specific anatomical structure.",
-        "accumulates_in": "The compound is stored or builds up to high levels in this anatomical part, but not necessarily made there.",
-        "present_in": "The compound is present in this anatomical structure.",
+        "made_in": "The compound is synthesized in this anatomical structure.",
+        "accumulates_in": "The compound builds up to high levels in this anatomical structure (not necessarily made there).",
+        "present_in": "The compound is detected in this anatomical structure.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "species": {
-        "made_in": "The compound is known to be synthesized by this species as a whole.",
-        "accumulates_in": "The compound is known to be stored or build up to high levels in this species.",
-        "present_in": "The compound is present in this species.",
+        "made_in": "The compound is synthesized by this species.",
+        "accumulates_in": "The compound builds up to high levels in this species.",
+        "present_in": "The compound is detected in this species.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "experimental_conditions": {
-        "made_in": "The compound's synthesis or production is observed specifically under this experimental condition.",
-        "accumulates_in": "The compound's storage or high concentration is observed specifically under this experimental condition.",
-        "present_in": "The compound is present in this experimental condition.",
+        "made_under": "The compound is synthesized under this experimental condition (e.g., stress, treatment).",
+        "accumulates_under": "The compound accumulates under this experimental condition (directional change implied but mechanism unspecified).",
+        "present_under": "The compound is present/detected under this experimental condition.",
+        "involved_in": "The compound’s role/participation is reported in the context of this condition (e.g., stress response involvement).",
+        "associated_with": "A general link is reported between the compound and this condition.",
+        "positively_regulated_by": "Compound level increases under this condition.",
+        "negatively_regulated_by": "Compound level decreases under this condition.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "molecular_traits": {
-        "affects": "The compound has a direct or indirect effect on the trait.",
-        "modulates": "The compound changes or regulates the trait, implying a level of control.",
-        "influences": "A general term for the compound having an influence on the trait.",
-        "involved_in": "The compound participates in the process or trait.",
-        "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "affects": "The compound alters the trait (directly or indirectly).",
+        "modulates": "The compound regulates the trait (suggesting control/adjustment).",
+        "influences": "A general influence on the trait is noted.",
+        "involved_in": "The compound participates in processes underlying the trait.",
+        "associated_with": "A general, non-causal link with the trait is reported.",
+        "correlates_with": "Compound levels correlate with the trait (direction not specified).",
+        "positively_correlates_with": "Higher compound levels tend to co-occur with higher trait values.",
+        "negatively_correlates_with": "Higher compound levels tend to co-occur with lower trait values.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "plant_traits": {
-        "affects": "The compound has a direct or indirect effect on the trait.",
-        "modulates": "The compound changes or regulates the trait, implying a level of control.",
-        "influences": "A general term for the compound having an influence on the trait.",
-        "involved_in": "The compound participates in the process or trait.",
-        "associated_with": "A general, non-causal link is mentioned but not clearly defined.",
+        "affects": "The compound alters the plant trait.",
+        "modulates": "The compound regulates the plant trait.",
+        "influences": "A general influence on the plant trait is noted.",
+        "involved_in": "The compound participates in processes underlying the plant trait.",
+        "associated_with": "A general, non-causal link with the plant trait is reported.",
+        "correlates_with": "Compound levels correlate with the plant trait (direction not specified).",
+        "positively_correlates_with": "Higher compound levels tend to co-occur with higher plant trait values.",
+        "negatively_correlates_with": "Higher compound levels tend to co-occur with lower plant trait values.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
+
     "human_traits": {
-        "affects": "The compound has a direct or indirect effect on the trait.",
-        "modulates": "The compound changes or regulates the trait, implying a level of control.",
-        "influences": "A general term for the compound having an influence on the trait.",
+        "affects": "The compound alters the human trait.",
+        "modulates": "The compound regulates the human trait.",
+        "influences": "A general influence on the human trait is noted.",
+        "associated_with": "A general, non-causal link with the human trait is reported.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     }
 }
@@ -162,18 +205,21 @@ def make_re_prompt_body_only(compound: Dict[str, Any], other_entity: Dict[str, A
         object_line += f' (also known as: {alt_names_str})'
     
     # Get the specific guidelines for the given category
-    guidelines = RELATION_GUIDELINES.get(category, {})
+    if category == "compound":
+        guidelines = RELATION_GUIDELINES.get("compounds", {})
+    else:
+        guidelines = RELATION_GUIDELINES.get(category, {})
     
     # Format the guidelines directly as a string with consistent indentation
     guideline_lines = [f"        - \"{rel}\": {desc}" for rel, desc in guidelines.items()]
     guideline_block = f"**Allowed Relationships for {category.capitalize()}:**\n" + "\n".join(guideline_lines)
 
     prompt = dedent(f"""
+        {guideline_block}
+                    
         **Entities:**
         {subject_line}
         {object_line}
-
-        {guideline_block}
 
         **Text Context:**
     """)
