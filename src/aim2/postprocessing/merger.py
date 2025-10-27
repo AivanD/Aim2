@@ -84,21 +84,6 @@ def merge_and_deduplicate(processed_results: List[Dict[str, Any]], abbreviation_
             # Clean up alt_names
             if "alt_names" in entity and entity["alt_names"]:
                 entity["alt_names"] = sorted(list(set(entity["alt_names"])))
-             # Add abbreviation-based alt_names
-            if abbreviation_map:
-                name_lower = entity.get("name", "").lower()
-                # If this entity is a long form, add short form
-                for short, long in abbreviation_map.items():
-                    clean_short = short.strip().replace('\n', ' ')
-                    clean_long = long.strip().replace('\n', ' ')
-                    if name_lower == clean_long.lower():
-                        entity.setdefault("alt_names", [])
-                        if clean_short not in entity["alt_names"]:
-                            entity["alt_names"].append(clean_short)
-                    if name_lower == clean_short.lower():
-                        entity.setdefault("alt_names", [])
-                        if clean_long not in entity["alt_names"]:
-                            entity["alt_names"].append(clean_long)
 
     logger.info("Entity merging and deduplication complete.")
     return final_merged_entities
