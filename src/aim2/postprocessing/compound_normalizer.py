@@ -29,6 +29,7 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
         The same list of disctionaries with compound entities uppdated with 'NP_class' and 
         'NP_superclass'.
     """
+    logger.info("Fetching NP classes for compounds...")
     for result in processed_results:
         if "compounds" not in result or not result["compounds"]:
             continue
@@ -71,6 +72,7 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
                 except Exception as e:
                     logger.error(f"Error querying NPCLASSIFIER for '{original_name}': {e}")
                     break # Non-HTTP error, break loop
+    logger.info("NP class fetching complete.")
     return processed_results
 
 def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
@@ -90,6 +92,7 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
         The same list of dictionaries with compound entities updated with 'CID'
         and 'SMILES' where found.
     """
+    logger.info("Normalizing compounds with PubChem...")
     for result in processed_results:
         if "compounds" not in result or not result["compounds"]:
             continue
@@ -152,7 +155,7 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
                 except Exception as e:
                     logger.error(f"Error querying PubChem for '{original_name}': {e}")
                     break
-
+    logger.info("PubChem normalization complete.")
     return processed_results
 
 def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_path='external_tools/Classyfire/Classyfire_2024.jar') -> List[Dict[str, Any]]:

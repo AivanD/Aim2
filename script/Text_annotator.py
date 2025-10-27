@@ -13,8 +13,11 @@ def find_spans(passage_text, passage_offset, entity_text):
     """Finds all occurrences of entity_text as a whole word in the passage and returns their spans."""
     spans = []
     try:
-        # Use word boundaries (\b) to match whole words only
-        pattern = r'\b' + re.escape(entity_text) + r'\b'
+        # use word boundaries only for single-word entities
+        if " " in entity_text or "(" in entity_text:
+            pattern = re.escape(entity_text)
+        else:
+            pattern = r'\b' + re.escape(entity_text) + r'\b'
         for match in re.finditer(pattern, passage_text, re.IGNORECASE):
             start, end = match.span()
             spans.append([passage_offset + start, passage_offset + end])
