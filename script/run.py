@@ -10,7 +10,7 @@ from openai import RateLimitError
 import re
 
 from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem
-from aim2.postprocessing.merger import merge_and_deduplicate
+from aim2.postprocessing.merger import merge_and_deduplicate, merge_entities_by_abbreviation
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
@@ -105,8 +105,8 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        # model = load_openai_model()     # for OPENAI or Local model
-        model = load_local_model_via_outlinesVLLM()
+        model = load_openai_model()     # for OPENAI or Local model
+        # model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -261,7 +261,9 @@ async def amain():
                 
                 # 3. Deduplicate and merge entities for the entire document
                 try: 
-                    final_entities = merge_and_deduplicate(processed_result_list)
+                    processed_result_list = merge_and_deduplicate(processed_result_list)
+                    # 4. Further merge entities based on abbreviation mapping from the XML
+                    final_entities = merge_entities_by_abbreviation(processed_result_list, abbreviations)
                 except Exception as e:
                     logger.error(f"An unexpected error occurred while merging: {e}")
                 

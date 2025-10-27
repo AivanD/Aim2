@@ -200,12 +200,19 @@ def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_
             if compound.get("SMILES") and compound.get("InChIKey") and not compound.get("Classyfire"):
                 compounds_to_classify.append(compound)
 
+    unique_compounds = {}
+    for compound in compounds_to_classify:
+        key = compound['InChIKey']
+        if key not in unique_compounds:
+            unique_compounds[key] = compound
+    compounds_to_classify = list(unique_compounds.values())
+
     if not compounds_to_classify:
         logger.info("No compounds to classify with ClassyFire.")
         return processed_results
 
     classy_start_time = time.time()
-    logger.info(f"Classifying {len(compounds_to_classify)} unmerged compounds with local ClassyFire. This may time some time...")
+    logger.info(f"Classifying {len(compounds_to_classify)} compounds with local ClassyFire. This may time some time...")
 
     with tempfile.TemporaryDirectory() as tempdir:
         input_path = os.path.join(tempdir, "input.csv")
@@ -220,7 +227,7 @@ def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_
 
         # 2. Run the JAR file
         try:
-            command = ["java", "-jar", jar_path, input_path, output_path]
+            command = ["java", "-Xmx8G", "-jar", jar_path, input_path, output_path]
             subprocess.run(command, check=True, capture_output=True, text=True)
             classy_end_time = time.time()
             logger.info(f"Classyfire_Local took {classy_end_time - classy_start_time}seconds.")

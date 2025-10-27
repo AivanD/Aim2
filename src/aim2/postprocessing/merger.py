@@ -4,6 +4,45 @@ from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
+def merge_entities_by_abbreviation(final_entities, abbreviation_map):
+    """
+    Further merges entities in final_entities based on abbreviation mapping.
+    If an entity name is an abbreviation for another entity, their spans and alt_names are merged.
+    """
+    for entity_type, entities in final_entities.items():
+        name_to_entity = {e['name'].lower(): e for e in entities if 'name' in e}
+        merged = []
+        seen = set()
+        for entity in entities:
+            name = entity.get('name', '')
+            if name in seen:
+                continue
+            # Check if this name is an abbreviation for a longer form
+            long_form = abbreviation_map.get(name)
+            if long_form:
+                long_form_entity = name_to_entity.get(long_form.lower())
+                if long_form_entity:
+                    # Merge spans
+                    if 'spans' in entity and entity['spans']:
+                        long_form_entity.setdefault('spans', []).extend(entity['spans'])
+                    # Merge alt_names
+                    if 'alt_names' in entity and entity['alt_names']:
+                        long_form_entity.setdefault('alt_names', []).extend(entity['alt_names'])
+                    # Add abbreviation as alt_name
+                    long_form_entity.setdefault('alt_names', []).append(entity['name'])
+                    seen.add(name)
+                    continue
+            merged.append(entity)
+            seen.add(name)
+        # Remove duplicates and clean up alt_names/spans
+        for e in merged:
+            if 'spans' in e and e['spans']:
+                e['spans'] = sorted(list(set(tuple(span) for span in e['spans'])))
+            if 'alt_names' in e and e['alt_names']:
+                e['alt_names'] = sorted(list(set(e['alt_names'])))
+        final_entities[entity_type] = merged
+    return final_entities
+
 def _get_deduplication_key(entity: Dict[str, Any], keys_to_try: List[str]) -> str:
     """
     Gets the first available key from the entity to use for deduplication.
