@@ -42,7 +42,10 @@ class Relation(BaseModel):
 class SimpleRelation(SchemicModel):
     """A simplified model for the LLM to output, containing only the predicate and justification."""
     predicate: PredicateType = Field(description="The relationship between the subject and the object.")
-    justification: str = Field(description="A brief, direct quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.")
+    justification: str = Field(
+        description="A very short, concise quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.",
+        # max_length=150
+    )
 
 class ExtractedRelations(BaseModel):
     """

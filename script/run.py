@@ -105,8 +105,8 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        model = load_openai_model()     # for OPENAI or Local model
-        # model = load_local_model_via_outlinesVLLM()
+        # model = load_openai_model()     # for OPENAI or Local model
+        model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -388,19 +388,19 @@ async def amain():
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
 
                     # API (async). set Model = none for Groq
-                    task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), model)
-                    tasks.append(task)
+                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), model)
+                    # tasks.append(task)
                 
                 # Execute all API calls concurrently
                 logger.info(f"Starting relation extraction for {len(tasks)} pairs...")
-                re_results = await asyncio.gather(*tasks)
+                # re_results = await asyncio.gather(*tasks)
 
-                # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
-                # re_results = model.batch(
-                #     model_input=prompts_re,
-                #     output_type=SimpleRelation,
-                #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
-                # )
+                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                re_results = model.batch(
+                    model_input=prompts_re,
+                    output_type=SimpleRelation,
+                    sampling_params=SamplingParams(temperature=1e-67, max_tokens=512),
+                )
 
                 # 4. Process results and build final relation objects
                 all_relations = ExtractedRelations()
