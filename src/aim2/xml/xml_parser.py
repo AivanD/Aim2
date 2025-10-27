@@ -1,7 +1,9 @@
 import xml.etree.ElementTree as ET
 import spacy
 import logging
-from scispacy.abbreviation import AbbreviationDetector
+# from scispacy.abbreviation import AbbreviationDetector
+
+from aim2.abbreviation.custom_abbreviation_detector import AbbreviationDetector
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -61,7 +63,8 @@ def parse_xml(file_path, for_sentences=False):
             # else:
             logger.info("Using CPU for processing...")
             nlp = spacy.load("en_core_sci_lg", disable=["tagger", "ner", "lemmatizer"])
-            nlp.add_pipe("abbreviation_detector")
+            # nlp.add_pipe("abbreviation_detector")
+            nlp.add_pipe("custom_abbreviation_detector")
 
             # extracting only the text from all_passages for nlp.pipe
 

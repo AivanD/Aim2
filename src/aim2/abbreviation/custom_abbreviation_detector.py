@@ -4,7 +4,6 @@ from spacy.tokens import Span, Doc
 from spacy.matcher import Matcher
 from spacy.language import Language
 
-# FIX 1: Removed "a" from the stop words list to allow matching "Chl a".
 STOP_WORDS = {"and", "for", "in", "of", "the", "an"}
 
 def find_abbreviation(
@@ -27,12 +26,10 @@ def find_abbreviation(
     best_score = -1
     best_match_start_index = -1
 
-    # Iterate through all possible starting words in the long form
     for i in range(l_len):
         short_form_char_index = 0
         current_score = 0
 
-        # Check from the current starting word to the end of the long form
         for j in range(i, l_len):
             long_word = long_form_tokens[j].text
             long_word_lower = long_word.lower()
@@ -74,19 +71,6 @@ def find_abbreviation(
     return short_form_candidate, None
 
 
-def span_contains_unbalanced_parentheses(span: Span) -> bool:
-    stack_counter = 0
-    for token in span:
-        if token.text == "(":
-            stack_counter += 1
-        elif token.text == ")":
-            if stack_counter > 0:
-                stack_counter -= 1
-            else:
-                return True
-    return stack_counter != 0
-
-
 def filter_matches(
     matcher_output: List[Tuple[int, int, int]], doc: Doc
 ) -> List[Tuple[Span, Span]]:
@@ -97,22 +81,25 @@ def filter_matches(
         
         short_form_candidate = doc[start:end]
 
-        # FIX 2: Smarter long form candidate selection.
-        # We look for a plausible start of the long form definition,
-        # which is often a capitalized word or the start of the sentence.
         max_len = len(short_form_candidate) + 5
         search_start = max(0, start - max_len - 1)
         
-        long_form_start_index = search_start
-        # Iterate backwards from the short form to find the start of the long form
+        long_form_start_index = start - 1
         for i in range(start - 2, search_start -1, -1):
             token = doc[i]
-            # Plausible start if token is capitalized, at sentence start, or a number.
             if token.is_title or token.is_sent_start or token.is_digit:
                 long_form_start_index = i
                 break
+            if token.is_punct:
+                long_form_start_index = i + 1
+                break
         
         long_form_candidate = doc[long_form_start_index : start - 1]
+
+        if len(long_form_candidate) > 1:
+            first_token = long_form_candidate[0]
+            if len(first_token.text) == 1 and first_token.is_upper and not first_token.is_sent_start:
+                long_form_candidate = long_form_candidate[1:]
 
         if short_form_filter(short_form_candidate) and len(long_form_candidate) > 0:
             candidates.append((long_form_candidate, short_form_candidate))
@@ -121,18 +108,23 @@ def filter_matches(
 
 
 def short_form_filter(span: Span) -> bool:
-    # The short form should not be overly long.
-    if len(span) > 4:
+    """
+    Filters short form candidates to reject obvious non-abbreviations.
+    """
+    text = span.text
+    # Reject if it's too long or too short.
+    if len(text) > 10 or len(text) < 1:
         return False
-    # All words are between length 1 and 10
-    if not all([1 <= len(x) < 10 for x in span]):
+    
+    # FINAL FIX: If the candidate is very short (1-2 chars), it must contain an uppercase letter.
+    # This rejects list markers like (a), (b), (i), (iv), etc.
+    if len(text) <= 2 and not any(c.isupper() for c in text):
         return False
-    # At least 50% of the short form should be alpha
-    if (sum([c.isalpha() for c in span.text]) / len(span.text)) < 0.5:
+
+    # The first character should be a letter.
+    if not text[0].isalpha():
         return False
-    # The first character of the short form should be alpha
-    if not span.text[0].isalpha():
-        return False
+        
     return True
 
 
@@ -165,8 +157,10 @@ class AbbreviationDetector:
             short, long = find_abbreviation(long_candidate, short_candidate)
             
             if long is not None and short.text not in abbreviations:
-                abbreviations[short.text] = long
-                short._.long_form = long
-                doc._.abbreviations.append(short)
+                # Final check to prevent nonsensical short definitions
+                if len(long.text) > len(short.text):
+                    abbreviations[short.text] = long
+                    short._.long_form = long
+                    doc._.abbreviations.append(short)
                 
         return doc
