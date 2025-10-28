@@ -210,7 +210,9 @@ def select_best_sentences_from_paragraphs(
                 prox = 1.0
                 # Apply same-sentence boost, as both entities are in this sentence
                 score = co * (1.0 + prox) * idfA_sent * idfB_sent * 1.2
-                par_candidates.append((s_text, s_start, score, {"nA": nA, "nB": nB}))
+                par_candidates.append((s_text, s_start, score, {"nA": nA, "nB": nB, "co": co, "prox": prox,
+                                                                "idfA": idfA_sent, "idfB": idfB_sent, 
+                                                                "unit_start": s_start, "unit_end": s_end}))
                 unique_sentences.add((s_text, s_start))
 
         par_candidates.sort(key=lambda x: x[2], reverse=True)       # sort by score (x=2)
