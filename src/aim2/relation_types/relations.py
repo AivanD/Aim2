@@ -4,15 +4,14 @@ from schemic import SchemicModel
 from aim2.entities_types.entities import Compound, Pathway, Genes, AnatomicalStructure, Species, ExperimentalCondition, MolecularTraits, PlantTraits, HumanTraits
 
 # Define the allowed relationship types for each category
-PATHWAY_RELATIONS = Literal["made_via", "biosynthesized_via", "degraded_via", "No_Relationship"]
-GENE_RELATIONS = Literal["made_by", "biosynthesized_by", "degraded_by", "associated_with", "No_Relationship"]
-ANATOMICAL_STRUCTURE_RELATIONS = Literal["made_in", "accumulates_in", "found_in", "present_in", "No_Relationship"]
-SPECIES_RELATIONS = Literal["made_in", "accumulates_in", "found_in", "present_in", "No_Relationship"]
-EXPERIMENTAL_CONDITION_RELATIONS = Literal["made_in", "accumulates_in", "found_in", "present_in", "No_Relationship"]
-MOLECULAR_TRAIT_RELATIONS = Literal["affects", "modulates", "influences", "involved_in", "associated_with", "No_Relationship"]
-PLANT_TRAIT_RELATIONS = Literal["affects", "modulates", "influences", "involved_in", "associated_with", "No_Relationship"]
-HUMAN_TRAIT_RELATIONS = Literal["affects", "modulates", "influences", "No_Relationship"]
-
+PATHWAY_RELATIONS = Literal["made_via", "degraded_via", "involved_in", "associated_with", "correlates_with", "positively_correlates_with", "negatively_correlates_with", "No_Relationship"]
+GENE_RELATIONS = Literal["made_by", "degraded_by", "correlates_with", "positively_correlates_with", "negatively_correlates_with", "positively_regulated_by", "negatively_regulated_by", "secreted_by", "transported_by", "associated_with", "No_Relationship"]
+ANATOMICAL_STRUCTURE_RELATIONS = Literal["made_in", "accumulates_in", "present_in", "No_Relationship"]
+SPECIES_RELATIONS = Literal["made_in", "accumulates_in", "present_in", "No_Relationship"]
+EXPERIMENTAL_CONDITION_RELATIONS = Literal["made_under", "accumulates_under", "present_under", "associated_with", "involved_in", "positively_regulated_by", "negatively_regulated_by", "correlates_with", "positively_correlates_with", "negatively_correlates_with", "No_Relationship"]
+MOLECULAR_TRAIT_RELATIONS = Literal["affects", "modulates", "involved_in", "associated_with", "correlates_with", "positively_correlates_with", "negatively_correlates_with", "No_Relationship"]
+PLANT_TRAIT_RELATIONS = Literal["affects", "modulates", "involved_in", "associated_with", "correlates_with", "positively_correlates_with", "negatively_correlates_with", "No_Relationship"]
+HUMAN_TRAIT_RELATIONS = Literal["affects", "modulates", "No_Relationship"]
 # A Union of all possible object types
 ObjectEntityType = Union[Pathway, Genes, AnatomicalStructure, Species, ExperimentalCondition, MolecularTraits, PlantTraits, HumanTraits]
 
@@ -42,10 +41,7 @@ class Relation(BaseModel):
 class SimpleRelation(SchemicModel):
     """A simplified model for the LLM to output, containing only the predicate and justification."""
     predicate: PredicateType = Field(description="The relationship between the subject and the object.")
-    justification: str = Field(
-        description="A very short, concise quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.",
-        # max_length=150
-    )
+    justification: str = Field(description="in-text justification that justifies the relationship. If no direct justification is found, state 'No justification found'.")
 
 class ExtractedRelations(BaseModel):
     """
