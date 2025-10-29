@@ -186,6 +186,7 @@ async def amain():
                 for result in results:
                     if result is None:
                         continue  # Skip if there was an error processing this passage
+
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
                     extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
@@ -343,7 +344,7 @@ async def amain():
                     else:
                         # Fallback to the top-ranked paragraph's full text
                         # logger.warning(f"No single sentence found with both entities for pair ({compound['name']}, {other_entity['name']}). Falling back to top paragraph context.")
-                        # Option 1: take all k=3 top paragraphs' text
+                        # Option 1: take all k top paragraphs' text
                         context_texts = [p[0] for p in top_paragraphs]
                         context_str = "\n".join(context_texts)
 
@@ -377,6 +378,8 @@ async def amain():
 
                 # 4. Process results and build final relation objects
                 all_relations = ExtractedRelations()
+                all_no_relations = ExtractedRelations()     # DEBUG
+
                 for i, result_json in enumerate(re_results):
                     if result_json is None:
                         continue
@@ -385,23 +388,35 @@ async def amain():
                         simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
                         # simple_relation = SimpleRelation.model_validate_json(result_json)
                         if simple_relation.predicate == "No_Relationship":
-                            continue
-
-                        details = pair_details[i]
-                        full_relation = Relation(
-                            subject=details["compound"],
-                            object=details["other_entity"],
-                            predicate=simple_relation.predicate,
-                            justification=simple_relation.justification,
-                            context=details["context"]
-                        )
-                        all_relations.relations.append(full_relation)
+                            details = pair_details[i]
+                            full_relation = Relation(
+                                subject=details["compound"],
+                                object=details["other_entity"],
+                                predicate=simple_relation.predicate,
+                                justification=simple_relation.justification,
+                                context=details["context"]
+                            )
+                            all_no_relations.relations.append(full_relation)
+                        else:
+                            details = pair_details[i]
+                            full_relation = Relation(
+                                subject=details["compound"],
+                                object=details["other_entity"],
+                                predicate=simple_relation.predicate,
+                                justification=simple_relation.justification,
+                                context=details["context"]
+                            )
+                            all_relations.relations.append(full_relation)
                     except Exception as e:
                         logger.error(f"Failed to validate or process RE result: {e}\nResult was: {result_json}")
             
                 # 5. Save all found relations to a file
                 with open(re_output_path, 'w') as f:
                     f.write(all_relations.model_dump_json(indent=2))
+                re_no_output_path = re_output_path.replace('.json', '_no_relationships.json')
+                with open(re_no_output_path, 'w') as f:
+                    f.write(all_no_relations.model_dump_json(indent=2))
+
                 logger.info(f"Saved {len(all_relations.relations)} relations to {re_output_path}")
 
             end_re_time = time.time()

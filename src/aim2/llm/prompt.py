@@ -104,7 +104,7 @@ RELATION_GUIDELINES = {
     "species": {
         "made_in": "The compound is synthesized by this species.",
         "accumulates_in": "The compound builds up to high levels in this species.",
-        "present_in": "The compound is detected in this species.",
+        "present_in": "The compound is given to or detected in this species.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },
 
@@ -156,7 +156,7 @@ def _static_header_re() -> str:
         Instructions:
         1. Carefully read the "Text Context" below.
         2. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship" for the predicate.
-        3. Provide an exact in-text justification for your chosen relationship. If no direct quote is possible, write "No justification found".
+        3. Provide an exact in-text justification for your chosen relationship. Otherwise, write "No justification found".
         4. Output ONLY a valid JSON object.
                     
         Output Format (JSON only):

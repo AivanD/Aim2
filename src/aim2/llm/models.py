@@ -56,12 +56,12 @@ def load_local_model_via_outlinesVLLM():
             seed=42,
             swap_space=0,                           # defaults to 4. Uses ram for swapping data if things like kv_cache cant fit in vram. !MIGHT REDUCE PERF
             enable_prefix_caching=True,             # speeds up generation when prompt is long
-            gpu_memory_utilization=0.92,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
+            gpu_memory_utilization=0.95,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
             max_model_len=2048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
-            max_num_batched_tokens=4096*2,            # this is for batching multiple requests. adjust based on your gpu memory
+            max_num_batched_tokens=4096*6,            # this is for batching multiple requests. adjust based on your gpu memory
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. DO NOT USE! BUGGY!
-            # kv_cache_memory_bytes=2 * 1024 * 1024 * 1024  # 2GB for kv cache
+            kv_cache_memory_bytes=3 * 1024 * 1024 * 1024  # 3GB for kv cache
         ))
     except ValueError as e:
         raise ValueError(f"Error loading local model via outlines VLLM: {e}")
