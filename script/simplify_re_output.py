@@ -31,8 +31,8 @@ def simplify_re_output(input_path: str, output_path: str):
     simplified_relations = []
     for relation in data["relations"]:
         try:
-            subject = relation.get("subject", {})
-            object_entity = relation.get("object", {})
+            subject = relation.get("subject_entity", {})
+            object_entity = relation.get("object_entity", {})
 
             simplified_relation = {
                 "subject_name": subject.get("name"),
