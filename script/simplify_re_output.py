@@ -32,13 +32,23 @@ def simplify_re_output(input_path: str, output_path: str):
     for relation in data["relations"]:
         try:
             subject = relation.get("subject_entity", {})
+            cid = subject.get("CID", None)
+            if cid is None:
+                cid = subject.get("ontology_id", None)
             object_entity = relation.get("object_entity", {})
+
+            ontology_id = object_entity.get("ontology_id", None)
+            if ontology_id is None:
+                ontology_id = object_entity.get("taxonomy_id", None)
+
 
             simplified_relation = {
                 "subject_name": subject.get("name"),
+                "subject_cid": cid,
                 "subject_alt_names": subject.get("alt_names"),
                 "predicate": relation.get("predicate"),
                 "object_name": object_entity.get("name"),
+                "object_ontology_id": ontology_id,
                 "object_alt_names": object_entity.get("alt_names"),
                 "justification": relation.get("justification"),
                 "context": relation.get("context")
