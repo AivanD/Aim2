@@ -103,7 +103,7 @@ RELATION_GUIDELINES = {
 
     "species": {
         "made_in": "The compound is synthesized by this species.",
-        "accumulates_in": "The compound builds up to high levels in this species.",
+        "accumulates_in": "The compound builds up or increases in this species.",
         "present_in": "The compound is given to or detected in this species.",
         "No_Relationship": "No direct relationship is stated or strongly implied."
     },

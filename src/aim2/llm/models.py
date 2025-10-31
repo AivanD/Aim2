@@ -44,6 +44,7 @@ def load_local_model_via_outlinesVLLM():
     """
     # model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
     model_name = "kosbu/Llama-3.3-70B-Instruct-AWQ"
+    # model_name = "gaunernst/gemma-3-27b-it-int4-awq"
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
     # model_name = "meta-llama/Llama-3.1-8B-Instruct"
     try:

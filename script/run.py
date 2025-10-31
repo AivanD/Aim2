@@ -4,6 +4,7 @@ import logging
 import warnings
 import json
 from vllm import SamplingParams
+from vllm.sampling_params import StructuredOutputsParams
 import time
 import asyncio
 from openai import RateLimitError
@@ -177,10 +178,13 @@ async def amain():
                 results = await asyncio.gather(*tasks)
 
                 # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # structured_ner_output_params = StructuredOutputsParams(
+                #     json=SimpleExtractedEntities.model_json_schema()
+                # )
                 # results = model.batch(
                 #     model_input=prompts_ner,
-                #     output_type=SimpleExtractedEntities,
-                #     sampling_params=SamplingParams(temperature=1e-67, max_tokens=1024),
+                #     # output_type=SimpleExtractedEntities,
+                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=1024, structured_outputs=structured_ner_output_params),
                 # )
 
                 for result in results:
@@ -370,10 +374,17 @@ async def amain():
                 # re_results = await asyncio.gather(*tasks)
 
                 # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                structured_re_output_params = StructuredOutputsParams(
+                    json=SimpleRelation.model_json_schema(),
+                )
                 re_results = model.batch(
                     model_input=prompts_re,
-                    output_type=SimpleRelation,
-                    sampling_params=SamplingParams(temperature=1e-67, max_tokens=512),
+                    # output_type=SimpleRelation,
+                    sampling_params=SamplingParams(temperature=1e-67,
+                                                   seed=42,
+                                                   max_tokens=512, 
+                                                   structured_outputs=structured_re_output_params
+                                                   ),
                 )
 
                 # 4. Process results and build final relation objects
@@ -390,8 +401,8 @@ async def amain():
                         if simple_relation.predicate == "No_Relationship":
                             details = pair_details[i]
                             full_relation = Relation(
-                                subject=details["compound"],
-                                object=details["other_entity"],
+                                subject_entity=details["compound"],
+                                object_entity=details["other_entity"],
                                 predicate=simple_relation.predicate,
                                 justification=simple_relation.justification,
                                 context=details["context"]
@@ -400,8 +411,8 @@ async def amain():
                         else:
                             details = pair_details[i]
                             full_relation = Relation(
-                                subject=details["compound"],
-                                object=details["other_entity"],
+                                subject_entity=details["compound"],
+                                object_entity=details["other_entity"],
                                 predicate=simple_relation.predicate,
                                 justification=simple_relation.justification,
                                 context=details["context"]
