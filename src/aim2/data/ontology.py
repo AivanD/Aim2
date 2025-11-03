@@ -23,7 +23,7 @@ def load_ontology(obo_file):
             # skips obselete terms or terms not meant for annotation
             if data.get('is_obsolete'):
                 continue
-            if 'gocheck_do_not_annotate' in data.get('subset', []):
+            if 'gocheck_do_not_annotate' in data.get('subset', []) or 'gocheck_obsoletion_candidate' in data.get('subset', []):
                 continue
             
             if 'name' in data:

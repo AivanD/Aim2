@@ -66,8 +66,21 @@ class SapbertNormalizer:
 
         entity_embedding = self.model.encode(entity_name, convert_to_tensor=True, show_progress_bar=False)
         
-        similarities = cos_sim(entity_embedding, cache['embeddings'])[0]
-        
+        # namespace filtering (just in case you embed more than one namespace in the cache)
+        candidate_indices = list(range(len(cache['metadata'])))
+        if namespace:
+            candidate_indices = [
+                i for i, meta in enumerate(cache['metadata'])
+                if meta.get('namespace') == namespace
+            ]
+
+        if not candidate_indices:
+            return None # No candidates match the required namespace
+
+        candidate_embeddings = cache['embeddings'][candidate_indices]
+
+        similarities = cos_sim(entity_embedding, candidate_embeddings)[0]
+
         best_match_idx = torch.argmax(similarities).item()
         best_score = similarities[best_match_idx].item()
 

@@ -68,12 +68,14 @@ def create_plantcyc_embedding_cache(plantcyc_file, sapbert_model, output_path):
     logger.info(f"PlantCyc pathway embedding cache saved to {output_path}")
 
 
-def create_ontology_embedding_cache(ontology_file, sapbert_model, output_path):
+def create_ontology_embedding_cache(ontology_file, sapbert_model, output_path, namespace_filter=None):
     """
     Loads an ontology, creates embeddings for all terms and synonyms, and saves them to a file.
     """
     logger = logging.getLogger(__name__)
     logger.info(f"Processing ontology: {ontology_file}")
+    if namespace_filter:
+        logger.info(f"Applying namespace filter: '{namespace_filter}'")
 
     _, ontology_graph = load_ontology(ontology_file)
     if not ontology_graph:
@@ -87,6 +89,10 @@ def create_ontology_embedding_cache(ontology_file, sapbert_model, output_path):
     # Collect all terms and synonyms
     for term_id, data in tqdm(ontology_graph.nodes(data=True), desc="Collecting terms"):
         if 'name' in data:
+            # If a namespace filter is provided, skip terms not in that namespace
+            if namespace_filter and data.get('namespace') != namespace_filter:
+                continue
+            
             # Use a set to store unique names for this term
             names_for_term = {data['name'].strip()}
 
@@ -145,16 +151,16 @@ def main():
 
     # Define ontologies and their output cache files
     ontologies_to_process = {
-        "po": (PO_OBO, DATA_DIR / "po_embeddings.pkl"),
-        "go": (GO_OBO, DATA_DIR / "go_embeddings.pkl"),
-        "to": (TO_OBO, DATA_DIR / "to_embeddings.pkl"),
-        "peco": (PECO_OBO, DATA_DIR / "peco_embeddings.pkl"),
-        "chemont": (CHEMONT_OBO, DATA_DIR / "chemont_embeddings.pkl"),
+        "po": (PO_OBO, DATA_DIR / "po_embeddings.pkl", None),
+        "go": (GO_OBO, DATA_DIR / "go_embeddings.pkl", "molecular_function"),
+        "to": (TO_OBO, DATA_DIR / "to_embeddings.pkl", None),
+        "peco": (PECO_OBO, DATA_DIR / "peco_embeddings.pkl", None),
+        "chemont": (CHEMONT_OBO, DATA_DIR / "chemont_embeddings.pkl", None),
     }
 
-    for name, (obo_file, cache_file) in ontologies_to_process.items():
+    for name, (obo_file, cache_file, namespace) in ontologies_to_process.items():
         if not os.path.exists(cache_file):
-            create_ontology_embedding_cache(obo_file, sapbert, cache_file)
+            create_ontology_embedding_cache(obo_file, sapbert, cache_file, namespace)
         else:
             logger.info(f"Cache file for '{name}' already exists at {cache_file}. Skipping.")
 
