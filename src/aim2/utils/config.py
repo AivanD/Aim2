@@ -47,7 +47,7 @@ GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
 GROQ_MODEL      = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 # VLLM
-# os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
+os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
 
 def ensure_dirs():
     """
