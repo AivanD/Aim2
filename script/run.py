@@ -106,7 +106,7 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        # model = load_openai_model()     # for OPENAI or Local model
+        API_model = load_openai_model()     # for OPENAI or Local model
         model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
@@ -170,7 +170,7 @@ async def amain():
                     prompts_ner.append(prompt)
 
                     # API (async)
-                    task = process_passage_for_ner(semaphore, passage_text, model)
+                    task = process_passage_for_ner(semaphore, passage_text, API_model)
                     tasks.append(task)
 
                 # wait for all tasks to complete and get their results
@@ -178,6 +178,7 @@ async def amain():
                 results = await asyncio.gather(*tasks)
 
                 # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # comment the API async part as well as the "results await line above" before using local inference
                 # structured_ner_output_params = StructuredOutputsParams(
                 #     json=SimpleExtractedEntities.model_json_schema()
                 # )
@@ -366,7 +367,7 @@ async def amain():
                     pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
 
                     # API (async). set Model = none for Groq
-                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), model)
+                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), API_model)
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
@@ -374,6 +375,7 @@ async def amain():
                 # re_results = await asyncio.gather(*tasks)
 
                 # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # comment the API async part as well as the "re_results await line above" before using local inference
                 structured_re_output_params = StructuredOutputsParams(
                     json=SimpleRelation.model_json_schema(),
                 )
