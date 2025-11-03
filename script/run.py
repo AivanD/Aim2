@@ -15,12 +15,12 @@ from aim2.postprocessing.merger import merge_and_deduplicate, merge_entities_by_
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
-from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation
+from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, ValidationResult
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
+from aim2.utils.config import PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
-from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only
+from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_validation_prompt
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -96,7 +96,7 @@ async def process_pair_for_re(semaphore, body, model=None):
                 return None
         logging.error("Relation extraction for a pair failed after multiple retries.")
         return None
-    
+
 async def amain():
     ensure_dirs()
     setup_logging()
@@ -282,9 +282,11 @@ async def amain():
 
             # Relation Extraction
             start_re_time = time.time()
-            re_output_path = os.path.join(RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            raw_re_output_path = os.path.join(RAW_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            processed_re_output_path = os.path.join(PROCESSED_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
             final_entities = None
-            if not os.path.exists(re_output_path):
+            
+            if not os.path.exists(raw_re_output_path):
                 # Run relation extraction if there is no RE output file yet using the entities from NER
                 with open(processed_ner_output_path, 'r') as f:
                     final_entities = json.load(f)
@@ -364,7 +366,7 @@ async def amain():
 
                     prompt_re = make_re_prompt(compound, other_entity, category, context_texts)
                     prompts_re.append(prompt_re)
-                    pair_details.append({"compound": compound, "other_entity": other_entity, "context": context_str})
+                    pair_details.append({"compound": compound, "other_entity": other_entity, "category": category, "context": context_str})
 
                     # API (async). set Model = none for Groq
                     # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), API_model)
@@ -406,6 +408,7 @@ async def amain():
                                 subject_entity=details["compound"],
                                 object_entity=details["other_entity"],
                                 predicate=simple_relation.predicate,
+                                category=details["category"],
                                 justification=simple_relation.justification,
                                 context=details["context"]
                             )
@@ -416,6 +419,7 @@ async def amain():
                                 subject_entity=details["compound"],
                                 object_entity=details["other_entity"],
                                 predicate=simple_relation.predicate,
+                                category=details["category"],
                                 justification=simple_relation.justification,
                                 context=details["context"]
                             )
@@ -424,13 +428,15 @@ async def amain():
                         logger.error(f"Failed to validate or process RE result: {e}\nResult was: {result_json}")
             
                 # 5. Save all found relations to a file
-                with open(re_output_path, 'w') as f:
+                with open(raw_re_output_path, 'w') as f:
                     f.write(all_relations.model_dump_json(indent=2))
-                re_no_output_path = re_output_path.replace('.json', '_no_relationships.json')
+                re_no_output_path = raw_re_output_path.replace('.json', '_no_relationships.json')
                 with open(re_no_output_path, 'w') as f:
                     f.write(all_no_relations.model_dump_json(indent=2))
 
-                logger.info(f"Saved {len(all_relations.relations)} relations to {re_output_path}")
+                logger.info(f"Saved {len(all_relations.relations)} relations to {raw_re_output_path}")
+
+            # TODO: ADD self-verification step for RE outputs
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  

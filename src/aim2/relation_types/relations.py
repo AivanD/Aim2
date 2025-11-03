@@ -39,6 +39,7 @@ class Relation(BaseModel):
     subject_entity: Compound = Field(description="The molecular compound that is the subject of the relationship.")
     predicate: PredicateType = Field(description="The relationship between the subject and the object.")
     object_entity: ObjectEntityType = Field(description="The entity that is the object of the relationship.")
+    category: str = Field(description="The category of the object entity.")
     justification: str = Field(description="A brief, direct quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.")
     context: Optional[str] = Field(default=None, description="The text passage(s) used by the LLM to determine the relationship.")
 

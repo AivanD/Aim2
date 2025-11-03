@@ -62,7 +62,7 @@ def load_local_model_via_outlinesVLLM():
             max_num_batched_tokens=4096*6,            # this is for batching multiple requests. adjust based on your gpu memory
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. DO NOT USE! BUGGY!
-            kv_cache_memory_bytes=3 * 1024 * 1024 * 1024  # 3GB for kv cache
+            # kv_cache_memory_bytes=3 * 1024 * 1024 * 1024  # 3GB for kv cache
         ))
     except ValueError as e:
         raise ValueError(f"Error loading local model via outlines VLLM: {e}")
