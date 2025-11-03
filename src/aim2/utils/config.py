@@ -30,6 +30,8 @@ PROCESSED_NER_OUTPUT_DIR = NER_OUTPUT_DIR / "processed"
 
 # RE-specific output directories (for future use)
 RE_OUTPUT_DIR = OUTPUT_DIR / "re"
+RAW_RE_OUTPUT_DIR = RE_OUTPUT_DIR / "raw"
+PROCESSED_RE_OUTPUT_DIR = RE_OUTPUT_DIR / "processed"
 
 PO_OBO          = DATA_DIR / "plant-ontology.obo"
 TO_OBO          = DATA_DIR / "to.obo"
@@ -45,11 +47,11 @@ GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
 GROQ_MODEL      = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 # VLLM
-os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
+# os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
 
 def ensure_dirs():
     """
     Ensures that the input and output directories exist.
     """
-    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR]:
+    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, PROCESSED_RE_OUTPUT_DIR]:
         directory.mkdir(parents=True, exist_ok=True)
