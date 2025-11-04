@@ -223,3 +223,66 @@ def make_re_prompt(compound: Dict[str, Any], other_entity: Dict[str, Any], categ
     prompt = _static_header_re()
     prompt += make_re_prompt_body_only(compound, other_entity, category, context_passages)
     return prompt
+
+
+def _static_header_re_validation() -> str:
+    """
+    Creates a static header part of the prompt for relationship validation.
+    Returns:
+        str: The static header string.
+    """
+    prompt = dedent("""
+        You are an expert annotator verifying a relationship extracted from a scientific text.
+        Based ONLY on the provided "Text Context", determine if the following statement is true.
+
+        Is the statement supported by the text? Answer "yes" or "no".
+
+        Output Format (JSON only):
+        {"decision": "..."}
+    """)
+    return prompt
+
+def make_re_validation_prompt_body_only(relation: Dict[str, Any]) -> str:
+    """
+    Creates the body of a prompt for the LLM to validate a relationship.
+    """
+    subject_entity = relation['subject_entity']
+    object_entity = relation['object_entity']
+    predicate = relation['predicate']
+    category = relation.get('category', 'unknown') # Assumes category is added to the relation object
+
+    # Get the definition for the specific predicate
+    predicate_definition = RELATION_GUIDELINES.get(category, {}).get(predicate, "No definition available.")
+
+    # Format subject line with alternative names
+    subject_line = f'- Subject (Compound): "{subject_entity["name"]}"'
+    if subject_entity.get('alt_names'):
+        alt_names_str = ', '.join([f'"{name}"' for name in subject_entity['alt_names']])
+        subject_line += f' (also known as: {alt_names_str})'
+
+    # Format object line with alternative names
+    object_line = f'- Object ({category}): "{object_entity["name"]}"'
+    if object_entity.get('alt_names'):
+        alt_names_str = ', '.join([f'"{name}"' for name in object_entity['alt_names']])
+        object_line += f' (also known as: {alt_names_str})'
+
+    body = dedent(f"""
+        Statement: 
+        {subject_line}
+        {object_line}
+        - Relationship: "{predicate}" (Definition: {predicate_definition})
+
+        Is the statement above supported by the following text?
+
+        Text Context:
+        {relation['context']}
+    """)
+    return body
+
+def make_re_validation_prompt(relation: Dict[str, Any]) -> str:
+    """
+    Creates a prompt for the LLM to validate an extracted relationship.
+    """
+    prompt = _static_header_re_validation()
+    prompt += make_re_validation_prompt_body_only(relation)
+    return prompt

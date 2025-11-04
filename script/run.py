@@ -437,6 +437,45 @@ async def amain():
                 logger.info(f"Saved {len(all_relations.relations)} relations to {raw_re_output_path}")
 
             # TODO: ADD self-verification step for RE outputs
+            if not os.path.exists(processed_re_output_path):
+                logger.info(f"Starting self-validation for {filename}...")
+                with open(raw_re_output_path, 'r') as f:
+                    raw_relations_str = f.read()
+                
+                # quick validation of the inputs
+                try:
+                    raw_relations = ExtractedRelations.model_validate_json(raw_relations_str)
+                except Exception as e:
+                    logger.error(f"Invalid raw relations object in {raw_re_output_path}: {e}")
+                    continue
+
+                relations_to_validate = raw_relations.relations
+                prompts_re_validation = [make_re_validation_prompt(rel.model_dump()) for rel in relations_to_validate]
+
+                if prompts_re_validation:
+                    # TODO: ADD an api version of validation like re and ner.
+                    structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
+                    validation_results = model.batch(
+                        model_input=prompts_re_validation,
+                        sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
+                    )
+
+                    validated_relations = ExtractedRelations()
+                    not_validated_relations = ExtractedRelations()
+
+                    for i, val_result_json in enumerate(validation_results):
+                        try:
+                            validation = ValidationResult.model_validate_json(val_result_json[0])
+                            if validation.decision == "yes":
+                                validated_relations.relations.append(relations_to_validate[i])
+                            else:
+                                not_validated_relations.relations.append(relations_to_validate[i])
+                        except Exception as e:
+                            logger.error(f"Failed to process validation result: {e}\nResult was: {val_result_json}")
+                    
+                    with open(processed_re_output_path, 'w') as f:
+                        f.write(validated_relations.model_dump_json(indent=2))
+                    logger.info(f"Saved {len(validated_relations.relations)} validated relations to {processed_re_output_path}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  
