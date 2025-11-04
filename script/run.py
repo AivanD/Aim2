@@ -476,6 +476,10 @@ async def amain():
                     with open(processed_re_output_path, 'w') as f:
                         f.write(validated_relations.model_dump_json(indent=2))
                     logger.info(f"Saved {len(validated_relations.relations)} validated relations to {processed_re_output_path}")
+                    processed_re_output_path_not_valid = processed_re_output_path.replace('.json', '_not_validated.json')
+                    with open(processed_re_output_path_not_valid, 'w') as f:
+                        f.write(not_validated_relations.model_dump_json(indent=2))
+                    logger.info(f"Saved {len(not_validated_relations.relations)} not validated relations to {processed_re_output_path}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  

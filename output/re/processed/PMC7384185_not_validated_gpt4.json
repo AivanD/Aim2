@@ -1,0 +1,4063 @@
+{
+  "relations": [
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "degraded_via",
+      "object_entity": {
+        "name": "betalain biosynthesis",
+        "spans": [
+          [
+            244,
+            265
+          ],
+          [
+            1625,
+            1643
+          ],
+          [
+            3886,
+            3915
+          ],
+          [
+            4397,
+            4418
+          ],
+          [
+            5215,
+            5244
+          ],
+          [
+            25681,
+            25702
+          ],
+          [
+            33404,
+            33425
+          ],
+          [
+            45052,
+            45073
+          ],
+          [
+            51487,
+            51503
+          ],
+          [
+            51678,
+            51694
+          ],
+          [
+            54099,
+            54120
+          ],
+          [
+            54978,
+            54999
+          ],
+          [
+            55164,
+            55180
+          ],
+          [
+            55448,
+            55469
+          ]
+        ],
+        "ontology_id": "PWY-5405",
+        "normalized_name": "superpathway of betalain biosynthesis",
+        "score": 0.8249524831771851,
+        "alt_names": [
+          "betalain biosynthetic pathway",
+          "betalain pathway",
+          "betalain synthesis"
+        ]
+      },
+      "category": "pathways",
+      "justification": "The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments.",
+      "context": "The evolutionary origin of betalain pigments in Caryophyllales and the processes that led to their homoplastic distribution have been the subject of much debate. Our new data and analyses offer compelling evidence for recurrent specialisation to betalain biosynthesis. Specifically: a background of marginal levels of l-DOPA 4,5-dioxygenase activity implying inherent evolvability; polyphyletic origins of high l-DOPA 4,5-dioxygenase activity coincident with multiple inferred origins of betalain pigmentation; derived and convergent shifts in key residues underpinning high l-DOPA 4,5-dioxygenase activity; and a lack of conservation of the betalain metabolic gene cluster between putative origins of betalain pigmentation. However, our hypothesis requires future experimentation. First, it will be important to identify the primary function of those DODAalpha proteins that only exhibit marginal l-DOPA 4,5-dioxygenase activity. Elucidation of this unknown function will further inform the inferences made in this study and direct future hypotheses. Further validation could also emerge by considering other aspects of the betalain biosynthesis pathway. For example, as exemplified by our syntenic analyses, it may be possible to discern the signal of multiple origins at different hierarchical levels of the betalain pathway, including: patterns of gene clustering by genomic colocalisation; patterns of co-option of transcriptional regulators and other genes; and the dissection of the molecular convergence signal at key residues. It is fortunate here that three of the putative origins of betalain biosynthesis are represented by well-resourced experimental systems: Portulaca grandiflora, Mirabilis jalapa and B. vulgaris, which together promise rapid progress in this era of betalain renaissance.\n\n---\n\nThe patterns we detect may suggest lability in early stages of betalain evolution. Anthocyanins and betalains have never been found to co-occur, but it is possible that the two classes of pigments did co-occur in early evolutionary stages. In this scenario, repeated evolution of increased l-DOPA 4,5-dioxygenase activity allowed for betalain pigmentation, initially co-occurring with anthocyanins. However, evolution of an integrated betalain pathway requires more than biosynthetic enzymes (e.g. the recruitment of the MYB transcriptional regulators; Hatlestad et al., 2014). Therefore, establishment and enhancement of the betalain pathway was only achieved in certain lineages, those which specialised to betalain pigmentation. By contrast, other lineages arising close to the origins of elevated l-DOPA 4,5-dioxygenase activity specialised to anthocyanins rather than betalains, ultimately losing the DODAalpha paralogues with elevated l-DOPA 4,5-dioxygenase activity. In these cases, anthocyanic lineages may have retained anthocyanins from ancestors in which both pigments coexisted, and inferences of reversals to anthocyanins based on DODA alpha loss are misleading. This scenario is appealing because we do not see any anthocyanin lineages that are nested deeply within the betalain-pigmented clades that stem from each inferred origin (Fig. 2), and so shifts to anthocyanin pigmentation seem less likely with evolutionary distance from inferred origins of betalain pigmentation.\n\n---\n\nIn contrast to the anthocyanin pathway, the betalain biosynthetic pathway is relatively simple, involving as few as four enzymatic steps to proceed from tyrosine to stable betalain pigments: yellow betaxanthins and violet betacyanins (Fig. 1). The core genes encoding betalain synthesis enzymes have been elucidated, primarily through heterologous assays in Saccharomyces cerevisiae and Nicotiana benthamiana, which has emerged as an essential tool for betalain research in planta (Polturak et al., 2016; Timoneda et al., 2018). The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004). Within Caryophyllales, a gene duplication in the LigB/DODA gene lineage gave rise to the DODAalpha and DODAbeta clades, with l-DOPA 4,5-dioxygenase activity previously inferred to have evolved at the base of the DODAalpha lineage (Brockington et al., 2015). On the basis of this Caryophyllales-specific DODAalpha/DODAbeta duplication, and subsequent losses of DODA alpha loci in anthocyanic lineages, we previously argued for a single origin of betalain pigmentation, with multiple reversals to anthocyanin pigmentation (Brockington et al., 2015)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "degraded_by",
+      "object_entity": {
+        "name": "LigB",
+        "spans": [
+          [
+            4613,
+            4617
+          ],
+          [
+            4706,
+            4710
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family",
+      "context": "In contrast to the anthocyanin pathway, the betalain biosynthetic pathway is relatively simple, involving as few as four enzymatic steps to proceed from tyrosine to stable betalain pigments: yellow betaxanthins and violet betacyanins (Fig. 1). The core genes encoding betalain synthesis enzymes have been elucidated, primarily through heterologous assays in Saccharomyces cerevisiae and Nicotiana benthamiana, which has emerged as an essential tool for betalain research in planta (Polturak et al., 2016; Timoneda et al., 2018). The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004). Within Caryophyllales, a gene duplication in the LigB/DODA gene lineage gave rise to the DODAalpha and DODAbeta clades, with l-DOPA 4,5-dioxygenase activity previously inferred to have evolved at the base of the DODAalpha lineage (Brockington et al., 2015). On the basis of this Caryophyllales-specific DODAalpha/DODAbeta duplication, and subsequent losses of DODA alpha loci in anthocyanic lineages, we previously argued for a single origin of betalain pigmentation, with multiple reversals to anthocyanin pigmentation (Brockington et al., 2015)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "made_by",
+      "object_entity": {
+        "name": "BvDODA1",
+        "spans": [
+          [
+            6326,
+            6333
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity",
+      "context": "However, evolutionary patterns within the DODAalpha lineage are complex (Brockington et al., 2015). In addition to the DODAalpha/DODAbeta duplication, there have been at least nine duplications in the DODAalpha lineage resulting in all betalain-pigmented lineages of Caryophyllales containing at least three DODA genes - at least one homologue from the DODAbeta lineage and at least two paralogues from the DODAalpha lineage, with Beta vulgaris containing five copies of DODA alpha. In B. vulgaris, only two DODAalpha paralogues have been studied (Sasaki et al., 2009; Gandia-Herrero & Garcia-Carmona, 2012; Hatlestad et al., 2012; Chung et al., 2015; Bean et al., 2018), with one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity and the other paralogue, BvDODA2 (hereafter termed BvDODAalpha2), exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity. Bean et al. (2018) compared BvDODAalpha1 and BvDODAalpha2 and identified seven divergent residues that, when altered in BvDODAalpha2, were sufficient to allow BvDODAalpha2 to convert l-DOPA to betalamic acid in yeast. Like BvDODAalpha2, two DODAalpha paralogues from other species (Parakeelya mirabilis and a Ptilotus hybrid) have also been shown to have limited or no capacity to produce betalamic acid (Chung et al., 2015). Extensive gene duplication within the DODAalpha lineage and the conserved presence of paralogues exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity suggests further sub- and/or neofunctionalisation events occurring within the DODAalpha clade, although the evolutionary significance of this is unclear."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "made_by",
+      "object_entity": {
+        "name": "BvDODAalpha1",
+        "spans": [
+          [
+            6352,
+            6364
+          ],
+          [
+            6589,
+            6601
+          ],
+          [
+            26406,
+            26418
+          ],
+          [
+            27085,
+            27097
+          ],
+          [
+            27270,
+            27282
+          ],
+          [
+            28384,
+            28396
+          ],
+          [
+            28690,
+            28702
+          ],
+          [
+            28909,
+            28921
+          ],
+          [
+            28963,
+            28975
+          ],
+          [
+            29020,
+            29032
+          ],
+          [
+            29888,
+            29900
+          ],
+          [
+            29970,
+            29982
+          ],
+          [
+            30439,
+            30451
+          ],
+          [
+            30512,
+            30524
+          ],
+          [
+            30662,
+            30674
+          ],
+          [
+            31406,
+            31418
+          ],
+          [
+            31640,
+            31652
+          ],
+          [
+            34978,
+            34990
+          ],
+          [
+            38889,
+            38901
+          ],
+          [
+            44571,
+            44583
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity",
+      "context": "\nl-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA\nalpha), Telephium imperati (TiDODA\nalpha), Polycarpon tetraphyllum (PtDODA\nalpha), Cardionema ramosissimum (CrDODA\nalpha), Spergularia marina (SmDODA\nalpha), Limeum aethiopicum (LaDODA\nalpha) and Kewa caespitosa (KcDODA\nalpha\n1, KcDODA\nalpha\n2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n >= 3. (c) A representative HPLC trace for each DODA\nalpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples.\n\n---\n\nHowever, evolutionary patterns within the DODAalpha lineage are complex (Brockington et al., 2015). In addition to the DODAalpha/DODAbeta duplication, there have been at least nine duplications in the DODAalpha lineage resulting in all betalain-pigmented lineages of Caryophyllales containing at least three DODA genes - at least one homologue from the DODAbeta lineage and at least two paralogues from the DODAalpha lineage, with Beta vulgaris containing five copies of DODA alpha. In B. vulgaris, only two DODAalpha paralogues have been studied (Sasaki et al., 2009; Gandia-Herrero & Garcia-Carmona, 2012; Hatlestad et al., 2012; Chung et al., 2015; Bean et al., 2018), with one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity and the other paralogue, BvDODA2 (hereafter termed BvDODAalpha2), exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity. Bean et al. (2018) compared BvDODAalpha1 and BvDODAalpha2 and identified seven divergent residues that, when altered in BvDODAalpha2, were sufficient to allow BvDODAalpha2 to convert l-DOPA to betalamic acid in yeast. Like BvDODAalpha2, two DODAalpha paralogues from other species (Parakeelya mirabilis and a Ptilotus hybrid) have also been shown to have limited or no capacity to produce betalamic acid (Chung et al., 2015). Extensive gene duplication within the DODAalpha lineage and the conserved presence of paralogues exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity suggests further sub- and/or neofunctionalisation events occurring within the DODAalpha clade, although the evolutionary significance of this is unclear.\n\n---\n\nUsing the same procedure as that used to test the DODAbeta enzymes, we found that only a single DODAalpha from each study species showed a strong production of betalain pigmentation including BvDODAalpha1 (Figs 3, S8-S11). All paralogues exhibiting high production of betanin in the heterologous assay (which we term as having high levels of l-DOPA 4,5-dioxygenase activity) are hereafter named \"alpha1\". The amount of betanin produced by the different orthologues of DODAalpha1 varies relative to BvDODAalpha1, indicating that there may be differences in the effectiveness of these DODAalpha enzymes to convert l-DOPA to betalamic acid (Fig. 3b). For example, ShDODAalpha1 produced a comparable amount of pigment to BvDODAalpha1, CgDODAalpha1 produced c. 60% as much as BvDODAalpha1, and McDODAalpha1 produced c. 80% more than BvDODAalpha1."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "made_by",
+      "object_entity": {
+        "name": "DODA alpha",
+        "spans": [
+          [
+            23936,
+            23946
+          ],
+          [
+            24223,
+            24233
+          ],
+          [
+            24644,
+            24654
+          ],
+          [
+            24722,
+            24732
+          ],
+          [
+            24781,
+            24791
+          ],
+          [
+            25467,
+            25477
+          ],
+          [
+            25532,
+            25542
+          ],
+          [
+            37319,
+            37329
+          ],
+          [
+            49855,
+            49865
+          ],
+          [
+            49978,
+            49988
+          ],
+          [
+            50233,
+            50243
+          ],
+          [
+            50323,
+            50333
+          ],
+          [
+            50401,
+            50411
+          ],
+          [
+            50525,
+            50535
+          ],
+          [
+            50786,
+            50796
+          ],
+          [
+            51010,
+            51020
+          ],
+          [
+            52196,
+            52206
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci.",
+      "context": "We selected four betalain-pigmented species that represent each of the inferred origins of betalain pigmentation, three of which are represented by complete annotated genomes: S. halimifolium (Stegnospermataceae), B. vulgaris (Amaranthaceae; Dohm et al., 2014), M. crystallinum (Aizoaceae; W. C. Yim, unpublished) and C. gigantea (Cactaceae; Copetti et al., 2017). S. halimifolium, M. crystallinum and C. gigantea each contain one DODAbeta and two DODA alpha genes, and B. vulgaris contains one DODAbeta and five DODA alpha genes (Figs S5, S6). The DODA genes for all four species were separately cloned into multigene vectors containing all necessary genes for betalain biosynthesis and these vectors were transiently transformed into N. benthamiana to test their heterologous expression (Fig. S1; Timoneda et al., 2018). We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci. Upon heterologous expression, none of the DODAbeta genes from S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea produced visible betacyanin pigmentation (Fig. 3a; Timoneda et al., 2018). Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b).\n\n---\n\nIt has always been striking that each major betalain-pigmentated clade is subtended at, or towards, its base by an anthocyanic lineage (Brockington et al., 2011). Given this essential pattern, our trait reconstructions suggest multiple origins of betalain pigmentation. In turn, this implies that many lineages are anthocyanic through retention of an ancestral state, rather than through reversal from betalain pigmentation (Brockington et al., 2011; Fig. 2). Yet, we earlier reported that DODA alpha are lost or down-regulated in anthocyanic Caryophyllaceae and Molluginaceae, and previously argued that loss of DODA alpha in these anthocyanic lineages is consistent with reversals from betalain pigmentation to anthocyanin pigmentation (Brockington et al., 2015). However, the emerging picture is more complex, and with new data presented here, we find: evidence of DODA alpha loci in all but one of the anthocyanic lineages in Caryophyllales; evidence of DODA alpha gene loss in Caryophyllaceae and Molluginaceae, but no evidence of DODA alpha gene loss in the anthocyanin-pigmented lineages, K. caespitosa, M. australis and L. aethiopicum; and evidence of DODA alpha loci with marginal l-DOPA 4,5-dioxygenase activity within anthocyanic M. australis, K. caespitosa, C. ramosissimum and T. imperati. Clearly, evolutionarily disparate anthocyanic lineages show different patterns of molecular evolution with respect to DODA alpha. Given this complex evolutionary milieu, and in the face of compelling evidence for polyphyletic origins of elevated l-DOPA 4,5-dioxygenase activity, below we propose two alternative hypotheses to explain loss of DODA alpha loci in anthocyanic lineages.\n\n---\n\nA recent study characterised seven residues that are important for l-DOPA 4,5-dioxygenase activity (Bean et al., 2018). We carried out ancestral sequence reconstruction using coding sequences on a reduced DODA alpha gene tree (Figs S13, S14) and observed that the three putative origins of highly active DODAalpha are marked by three convergent shifts in these seven residues (Figs 6, 7), which occur post-gene duplication. For the residues inferred for the clade containing the M. crystallinum and C. gigantea highly active DODAalpha (DDFNDDI; Fig. 7), four out of seven of the predicted residues are identical to those inferred for the Amaranthaceae highly active DODAalpha clade (DDYNDET). For Stegnosperma, the motif is more divergent, with three residues identical to the Amaranthaceae betalain-producing DODAalpha clade and two residues identical to the clade containing the M. crystallinum and C. gigantea highly active DODAalpha. The highly active DODAalpha are derived from ancestral nodes with inferred motifs that share more similarity with the marginal or no activity DODAalpha lineages (XGFNN[N/D]T), and this motif is highly conserved across the backbone and represented at almost all ancestral nodes (Figs 6, 7). Amino acid reconstruction gave similar results (Figs S15, S16)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "made_by",
+      "object_entity": {
+        "name": "ShDODAalpha1",
+        "spans": [
+          [
+            28853,
+            28865
+          ],
+          [
+            34901,
+            34913
+          ],
+          [
+            38825,
+            38837
+          ],
+          [
+            44588,
+            44600
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "ShDODAalpha1 produced a comparable amount of pigment to BvDODAalpha1... indicating that there may be differences in the effectiveness of these DODAalpha enzymes to convert l-DOPA to betalamic acid",
+      "context": "Using the same procedure as that used to test the DODAbeta enzymes, we found that only a single DODAalpha from each study species showed a strong production of betalain pigmentation including BvDODAalpha1 (Figs 3, S8-S11). All paralogues exhibiting high production of betanin in the heterologous assay (which we term as having high levels of l-DOPA 4,5-dioxygenase activity) are hereafter named \"alpha1\". The amount of betanin produced by the different orthologues of DODAalpha1 varies relative to BvDODAalpha1, indicating that there may be differences in the effectiveness of these DODAalpha enzymes to convert l-DOPA to betalamic acid (Fig. 3b). For example, ShDODAalpha1 produced a comparable amount of pigment to BvDODAalpha1, CgDODAalpha1 produced c. 60% as much as BvDODAalpha1, and McDODAalpha1 produced c. 80% more than BvDODAalpha1.\n\n---\n\nReconstruction of seven functionally important amino acids on the l-DOPA 4,5-dioxygenase (DODA) phylogeny showing a shift in patterns associated with DODA genes of high l-DOPA 4,5-dioxygenase activity. (a) Proportional logo plots of the seven residues identified by Bean et al. (2018) across functionally characterised high activity (left) and no or only marginal activity (right) paralogues included in this study. 1: ShDODAalpha1 vs ShDODAalpha2 (Stegnospermataceae); 2: CqDODA-1, BvDODAalpha1 vs PhybDODAalpha, BvDODAalpha2-5 (Amaranthaceae); 3: McDODAalpha1, PmDODAalpha1, CgDODAalpha1, PgDODAalpha1 vs McDODAalpha2, PmDODAalpha2, CgDODAalpha2 (Portulacineae and Aizoaceae). Residue numbering is according to Bean et al. (2018). (b) Ancestral sequence reconstructions of codons by empirical Bayesian inference on a maximum likelihood phylogeny of a reduced DODA\nalpha sequence alignment. Logo plots at tips give the proportional representation of a given amino acid across all sequences in each collapsed clade for each of the sites identified by Bean et al. (2018). Numbers at nodes match the ancestor of the high-activity paralogues summarised in (a).\n\n---\n\nMapping loci encoding functionally characterised DODA proteins to a comprehensively taxon-sampled DODA gene tree, we found that within the DODAalpha lineage, loci encoding proteins with high levels of l-DOPA 4,5-dioxygenase activity are not monophyletic (Fig. 6). Specifically, each clade containing high-activity DODAalpha paralogues is sister to clades containing marginal activity DODAalpha, suggesting polyphyletic origins of high activity, associated with gene duplication within the DODAalpha lineage. Previous research identified residues in seven sites which were necessary and sufficient to confer higher levels of l-DOPA 4,5-dioxygenase activity (Bean et al., 2018). Phylogenetic reconstruction of these seven residues across the DODAalpha clade showed that polyphyletic clades containing proteins with high activity have distinctive motifs for these seven residues (Figs 6, 7). Furthermore, motifs associated with high activity evolved at least three times from a background of motifs more similar to those proteins with no or marginal l-DOPA 4,5-dioxygenase activity. The diversity we recognise at these motifs in high-activity DODAalpha sequences (e.g. between BvDODAalpha1 and ShDODAalpha1) indicates that high activity may arise from divergent sequence motifs and represent molecular convergence at key functional residues."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "made_by",
+      "object_entity": {
+        "name": "CgDODAalpha1",
+        "spans": [
+          [
+            28923,
+            28935
+          ],
+          [
+            38983,
+            38995
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "CgDODAalpha1 produced c. 60% as much as BvDODAalpha1",
+      "context": "Using the same procedure as that used to test the DODAbeta enzymes, we found that only a single DODAalpha from each study species showed a strong production of betalain pigmentation including BvDODAalpha1 (Figs 3, S8-S11). All paralogues exhibiting high production of betanin in the heterologous assay (which we term as having high levels of l-DOPA 4,5-dioxygenase activity) are hereafter named \"alpha1\". The amount of betanin produced by the different orthologues of DODAalpha1 varies relative to BvDODAalpha1, indicating that there may be differences in the effectiveness of these DODAalpha enzymes to convert l-DOPA to betalamic acid (Fig. 3b). For example, ShDODAalpha1 produced a comparable amount of pigment to BvDODAalpha1, CgDODAalpha1 produced c. 60% as much as BvDODAalpha1, and McDODAalpha1 produced c. 80% more than BvDODAalpha1.\n\n---\n\nReconstruction of seven functionally important amino acids on the l-DOPA 4,5-dioxygenase (DODA) phylogeny showing a shift in patterns associated with DODA genes of high l-DOPA 4,5-dioxygenase activity. (a) Proportional logo plots of the seven residues identified by Bean et al. (2018) across functionally characterised high activity (left) and no or only marginal activity (right) paralogues included in this study. 1: ShDODAalpha1 vs ShDODAalpha2 (Stegnospermataceae); 2: CqDODA-1, BvDODAalpha1 vs PhybDODAalpha, BvDODAalpha2-5 (Amaranthaceae); 3: McDODAalpha1, PmDODAalpha1, CgDODAalpha1, PgDODAalpha1 vs McDODAalpha2, PmDODAalpha2, CgDODAalpha2 (Portulacineae and Aizoaceae). Residue numbering is according to Bean et al. (2018). (b) Ancestral sequence reconstructions of codons by empirical Bayesian inference on a maximum likelihood phylogeny of a reduced DODA\nalpha sequence alignment. Logo plots at tips give the proportional representation of a given amino acid across all sequences in each collapsed clade for each of the sites identified by Bean et al. (2018). Numbers at nodes match the ancestor of the high-activity paralogues summarised in (a)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6047,
+        "name": "l-DOPA",
+        "spans": [
+          [
+            153,
+            159
+          ],
+          [
+            313,
+            319
+          ],
+          [
+            711,
+            717
+          ],
+          [
+            975,
+            981
+          ],
+          [
+            1037,
+            1043
+          ],
+          [
+            1243,
+            1249
+          ],
+          [
+            1546,
+            1552
+          ],
+          [
+            4442,
+            4470
+          ],
+          [
+            4472,
+            4478
+          ],
+          [
+            4545,
+            4551
+          ],
+          [
+            4782,
+            4788
+          ],
+          [
+            5383,
+            5389
+          ],
+          [
+            5533,
+            5559
+          ],
+          [
+            5561,
+            5567
+          ],
+          [
+            6399,
+            6405
+          ],
+          [
+            6528,
+            6534
+          ],
+          [
+            6744,
+            6750
+          ],
+          [
+            7115,
+            7121
+          ],
+          [
+            7351,
+            7357
+          ],
+          [
+            7653,
+            7659
+          ],
+          [
+            7822,
+            7828
+          ],
+          [
+            7943,
+            7949
+          ],
+          [
+            8095,
+            8101
+          ],
+          [
+            8251,
+            8257
+          ],
+          [
+            8545,
+            8551
+          ],
+          [
+            8691,
+            8697
+          ],
+          [
+            25921,
+            25927
+          ],
+          [
+            26042,
+            26048
+          ],
+          [
+            26691,
+            26697
+          ],
+          [
+            28534,
+            28540
+          ],
+          [
+            28804,
+            28810
+          ],
+          [
+            30708,
+            30714
+          ],
+          [
+            30922,
+            30928
+          ],
+          [
+            34198,
+            34204
+          ],
+          [
+            34620,
+            34626
+          ],
+          [
+            34798,
+            34804
+          ],
+          [
+            35406,
+            35412
+          ],
+          [
+            35640,
+            35646
+          ],
+          [
+            37181,
+            37187
+          ],
+          [
+            38472,
+            38478
+          ],
+          [
+            38575,
+            38581
+          ],
+          [
+            40895,
+            40901
+          ],
+          [
+            41136,
+            41142
+          ],
+          [
+            41427,
+            41433
+          ],
+          [
+            41550,
+            41556
+          ],
+          [
+            42482,
+            42488
+          ],
+          [
+            42586,
+            42592
+          ],
+          [
+            43598,
+            43604
+          ],
+          [
+            44021,
+            44027
+          ],
+          [
+            44444,
+            44450
+          ],
+          [
+            44770,
+            44776
+          ],
+          [
+            45347,
+            45353
+          ],
+          [
+            45490,
+            45496
+          ],
+          [
+            45658,
+            45664
+          ],
+          [
+            46003,
+            46009
+          ],
+          [
+            46550,
+            46556
+          ],
+          [
+            46938,
+            46944
+          ],
+          [
+            47095,
+            47101
+          ],
+          [
+            47570,
+            47576
+          ],
+          [
+            47730,
+            47736
+          ],
+          [
+            47952,
+            47958
+          ],
+          [
+            48125,
+            48131
+          ],
+          [
+            50555,
+            50561
+          ],
+          [
+            50914,
+            50920
+          ],
+          [
+            51342,
+            51348
+          ],
+          [
+            51853,
+            51859
+          ],
+          [
+            51993,
+            51999
+          ],
+          [
+            53182,
+            53188
+          ],
+          [
+            53524,
+            53530
+          ],
+          [
+            53794,
+            53800
+          ],
+          [
+            54171,
+            54177
+          ],
+          [
+            54264,
+            54270
+          ],
+          [
+            54428,
+            54434
+          ],
+          [
+            54751,
+            54757
+          ]
+        ],
+        "SMILES": "C1=CC(=C(C=C1C[C@@H](C(=O)O)N)O)O",
+        "InChIKey": "WTDRDQBEARUVNC-LURJTMIESA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids",
+            "Phenylethylamines"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids",
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": [
+          "3,4-dihydroxyphenylalanine",
+          "l-3,4-dihydroxyphenylalanine"
+        ]
+      },
+      "predicate": "present_in",
+      "object_entity": {
+        "name": "Ptilotus hybrid",
+        "spans": [
+          [
+            36816,
+            36831
+          ]
+        ],
+        "taxonomy_id": 37965,
+        "alt_names": null
+      },
+      "category": "species",
+      "justification": "Annotated at tips is a colour-coded alignment of the seven residues conferring high activity... Labelled tips show functionally characterised DODAs... Phyb, Ptilotus hybrid",
+      "context": "The DODA gene tree shows a homoplasious distribution of functionally characterised DODA genes that produce a high level of betalain pigments. The maximum likelihood phylogeny of Caryophyllales l-DOPA 4,5-dioxygenase (DODA) genes was inferred from coding sequences derived from genomes and transcriptomes. Branch lengths are expected number of substitutions per site. Scale bar gives 0.2 expected substitutions per site. Branch labels are support values for major paralogous clades from rapid bootstrapping and the SH-like Approximate Likelihood Ratio Test, respectively, given as RBS/SH-aLRT. Putative major duplication nodes are highlighted with stars. Branches are coloured according to the putative pigmentation state of the taxa (blue, anthocyanin; pink, betalain). Labelled tips show functionally characterised DODAs and shaded squares correspond to DODA activity (white, no activity; grey, marginal activity; black, high activity). Asterisks indicate putative pseudogenes. Annotated at tips is a colour-coded alignment of the seven residues conferring high activity reported in Bean et al. (2018). XxDODA: Bv, Beta vulgaris; Cg, Carnegiea gigantea; Cr, Cardionema ramosissimum; Ds, Dianthus superbus; Kc, Kewa caespitosa; La, Limeum aethiopicum; Mc, Mesembryanthemum crystallinum; Ma, Macarthuria australis; Mj, Mirabilis jalapa; Pg, Portulaca grandiflora; Phyb, Ptilotus hybrid; Pm, Parakeelya mirabilis; Pt, Polycarpon tetraphyllum; Sh, Stegnosperma halimifolium; Sm, Spergularia marina; Ti, Telephium imperati."
+    },
+    {
+      "subject_entity": {
+        "CID": 6057,
+        "name": "tyrosine",
+        "spans": [
+          [
+            2246,
+            2254
+          ],
+          [
+            3995,
+            4003
+          ],
+          [
+            52630,
+            52638
+          ],
+          [
+            52706,
+            52714
+          ],
+          [
+            52788,
+            52796
+          ],
+          [
+            53026,
+            53034
+          ],
+          [
+            53257,
+            53265
+          ],
+          [
+            53473,
+            53481
+          ],
+          [
+            53655,
+            53663
+          ]
+        ],
+        "SMILES": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O",
+        "InChIKey": "OUYCCCASQSFEME-QMMMGPOBSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids"
+          ],
+          "Np_superclass": [
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "associated_with",
+      "object_entity": {
+        "name": "LigB",
+        "spans": [
+          [
+            4613,
+            4617
+          ],
+          [
+            4706,
+            4710
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004).",
+      "context": "In contrast to the anthocyanin pathway, the betalain biosynthetic pathway is relatively simple, involving as few as four enzymatic steps to proceed from tyrosine to stable betalain pigments: yellow betaxanthins and violet betacyanins (Fig. 1). The core genes encoding betalain synthesis enzymes have been elucidated, primarily through heterologous assays in Saccharomyces cerevisiae and Nicotiana benthamiana, which has emerged as an essential tool for betalain research in planta (Polturak et al., 2016; Timoneda et al., 2018). The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004). Within Caryophyllales, a gene duplication in the LigB/DODA gene lineage gave rise to the DODAalpha and DODAbeta clades, with l-DOPA 4,5-dioxygenase activity previously inferred to have evolved at the base of the DODAalpha lineage (Brockington et al., 2015). On the basis of this Caryophyllales-specific DODAalpha/DODAbeta duplication, and subsequent losses of DODA alpha loci in anthocyanic lineages, we previously argued for a single origin of betalain pigmentation, with multiple reversals to anthocyanin pigmentation (Brockington et al., 2015)."
+    },
+    {
+      "subject_entity": {
+        "CID": 5281176,
+        "name": "betalamic acid",
+        "spans": [
+          [
+            4483,
+            4497
+          ],
+          [
+            5466,
+            5480
+          ],
+          [
+            6754,
+            6768
+          ],
+          [
+            6950,
+            6964
+          ],
+          [
+            28814,
+            28828
+          ],
+          [
+            47679,
+            47693
+          ],
+          [
+            47976,
+            47990
+          ],
+          [
+            48179,
+            48193
+          ]
+        ],
+        "SMILES": "C\\1[C@H](NC(=C/C1=C/C=O)C(=O)O)C(=O)O",
+        "InChIKey": "YQDKULBMDMPFLH-FSRBREEPSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Aminoacids"
+          ],
+          "Np_superclass": [
+            "Small peptides"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organic acids and derivatives",
+          "Class": "Carboxylic acids and derivatives",
+          "Subclass": "Amino acids, peptides, and analogues"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "involved_in",
+      "object_entity": {
+        "name": "l-DOPA 4,5-dioxygenase activity",
+        "spans": [
+          [
+            153,
+            184
+          ],
+          [
+            313,
+            344
+          ],
+          [
+            1037,
+            1068
+          ],
+          [
+            1243,
+            1274
+          ],
+          [
+            4782,
+            4813
+          ],
+          [
+            6399,
+            6430
+          ],
+          [
+            6528,
+            6559
+          ],
+          [
+            7115,
+            7146
+          ],
+          [
+            7351,
+            7382
+          ],
+          [
+            7653,
+            7684
+          ],
+          [
+            7822,
+            7853
+          ],
+          [
+            7943,
+            7974
+          ],
+          [
+            8095,
+            8126
+          ],
+          [
+            8251,
+            8282
+          ],
+          [
+            8545,
+            8576
+          ],
+          [
+            8691,
+            8722
+          ],
+          [
+            25921,
+            25952
+          ],
+          [
+            26042,
+            26073
+          ],
+          [
+            28534,
+            28565
+          ],
+          [
+            30708,
+            30739
+          ],
+          [
+            34198,
+            34228
+          ],
+          [
+            34620,
+            34650
+          ],
+          [
+            34798,
+            34829
+          ],
+          [
+            35406,
+            35436
+          ],
+          [
+            38575,
+            38606
+          ],
+          [
+            40895,
+            40926
+          ],
+          [
+            41136,
+            41167
+          ],
+          [
+            41427,
+            41458
+          ],
+          [
+            41550,
+            41581
+          ],
+          [
+            42482,
+            42513
+          ],
+          [
+            42586,
+            42617
+          ],
+          [
+            43598,
+            43629
+          ],
+          [
+            44021,
+            44052
+          ],
+          [
+            44444,
+            44475
+          ],
+          [
+            44770,
+            44801
+          ],
+          [
+            45347,
+            45378
+          ],
+          [
+            45490,
+            45521
+          ],
+          [
+            45658,
+            45689
+          ],
+          [
+            46003,
+            46034
+          ],
+          [
+            46550,
+            46581
+          ],
+          [
+            46938,
+            46969
+          ],
+          [
+            47095,
+            47126
+          ],
+          [
+            48125,
+            48156
+          ],
+          [
+            50555,
+            50586
+          ],
+          [
+            50914,
+            50945
+          ],
+          [
+            51342,
+            51373
+          ],
+          [
+            51853,
+            51884
+          ],
+          [
+            51993,
+            52024
+          ],
+          [
+            53182,
+            53213
+          ],
+          [
+            53524,
+            53555
+          ],
+          [
+            53794,
+            53825
+          ],
+          [
+            54171,
+            54202
+          ],
+          [
+            54264,
+            54295
+          ],
+          [
+            54428,
+            54459
+          ],
+          [
+            54751,
+            54782
+          ]
+        ],
+        "ontology_id": "GO:0050297",
+        "normalized_name": "stizolobate synthase activity",
+        "score": 0.9272024035453796,
+        "alt_names": [
+          "l-DOPA 4,5-dioxgenase activity"
+        ]
+      },
+      "category": "molecular_traits",
+      "justification": "The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004).",
+      "context": "However, evolutionary patterns within the DODAalpha lineage are complex (Brockington et al., 2015). In addition to the DODAalpha/DODAbeta duplication, there have been at least nine duplications in the DODAalpha lineage resulting in all betalain-pigmented lineages of Caryophyllales containing at least three DODA genes - at least one homologue from the DODAbeta lineage and at least two paralogues from the DODAalpha lineage, with Beta vulgaris containing five copies of DODA alpha. In B. vulgaris, only two DODAalpha paralogues have been studied (Sasaki et al., 2009; Gandia-Herrero & Garcia-Carmona, 2012; Hatlestad et al., 2012; Chung et al., 2015; Bean et al., 2018), with one paralogue, BvDODA1 (hereafter termed BvDODAalpha1), found to exhibit high levels of l-DOPA 4,5-dioxygenase activity and the other paralogue, BvDODA2 (hereafter termed BvDODAalpha2), exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity. Bean et al. (2018) compared BvDODAalpha1 and BvDODAalpha2 and identified seven divergent residues that, when altered in BvDODAalpha2, were sufficient to allow BvDODAalpha2 to convert l-DOPA to betalamic acid in yeast. Like BvDODAalpha2, two DODAalpha paralogues from other species (Parakeelya mirabilis and a Ptilotus hybrid) have also been shown to have limited or no capacity to produce betalamic acid (Chung et al., 2015). Extensive gene duplication within the DODAalpha lineage and the conserved presence of paralogues exhibiting no or only marginal l-DOPA 4,5-dioxygenase activity suggests further sub- and/or neofunctionalisation events occurring within the DODAalpha clade, although the evolutionary significance of this is unclear.\n\n---\n\nPolyphyletic origins of betalain pigmentation occur only within Caryophyllales (Fig. 2), while polyphyletic origins of high l-DOPA 4,5-dioxygenase activity are constrained to the Caryophyllales-specific DODAalpha clade (Fig. 6). Both patterns link to the concept of evolutionary precursors in which underlying evolutionary state(s) potentiate recurrent evolution of subsequent complex traits (sensu Marazzi et al., 2012). In this scenario, we propose that an initial precursor step was the evolution of tyrosine hydroxylase activity by duplication in the CYP76AD lineage, leading to an abundance of l-DOPA (DeLoache et al., 2015; Polturak et al., 2016; Sunnadeniya et al., 2016), the necessary substrate for betalamic acid biosynthesis. Given an abundance of l-DOPA, a subsequent precursor step was duplication in the DODA lineage that gave rise to a clade of DODAalpha enzymes, whose ancestral function is currently unknown, but presumably with some promiscuous ability to act on l-DOPA to produce trace betalamic acid. Subsequently, further repeated duplication within the DODAalpha lineage led to recurrent neofunctionalisation towards high levels of l-DOPA 4,5-dioxygenase activity and the production of betalamic acid.\n\n---\n\nIn contrast to the anthocyanin pathway, the betalain biosynthetic pathway is relatively simple, involving as few as four enzymatic steps to proceed from tyrosine to stable betalain pigments: yellow betaxanthins and violet betacyanins (Fig. 1). The core genes encoding betalain synthesis enzymes have been elucidated, primarily through heterologous assays in Saccharomyces cerevisiae and Nicotiana benthamiana, which has emerged as an essential tool for betalain research in planta (Polturak et al., 2016; Timoneda et al., 2018). The key enzymatic step in betalain biosynthesis involves conversion of l-3,4-dihydroxyphenylalanine (l-DOPA) to betalamic acid, the central chromophore of betalain pigments. l-DOPA 4,5-dioxygenase is encoded by the gene DODA, a member of the LigB gene family (Christinet et al., 2004). Within Caryophyllales, a gene duplication in the LigB/DODA gene lineage gave rise to the DODAalpha and DODAbeta clades, with l-DOPA 4,5-dioxygenase activity previously inferred to have evolved at the base of the DODAalpha lineage (Brockington et al., 2015). On the basis of this Caryophyllales-specific DODAalpha/DODAbeta duplication, and subsequent losses of DODA alpha loci in anthocyanic lineages, we previously argued for a single origin of betalain pigmentation, with multiple reversals to anthocyanin pigmentation (Brockington et al., 2015)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6540685,
+        "name": "betanin",
+        "spans": [
+          [
+            26297,
+            26304
+          ],
+          [
+            27162,
+            27169
+          ],
+          [
+            27737,
+            27744
+          ],
+          [
+            27910,
+            27917
+          ],
+          [
+            28024,
+            28031
+          ],
+          [
+            28460,
+            28467
+          ],
+          [
+            28611,
+            28618
+          ],
+          [
+            29787,
+            29794
+          ],
+          [
+            29877,
+            29884
+          ],
+          [
+            30039,
+            30046
+          ],
+          [
+            30193,
+            30200
+          ],
+          [
+            30352,
+            30359
+          ],
+          [
+            30638,
+            30645
+          ],
+          [
+            31480,
+            31487
+          ],
+          [
+            31558,
+            31565
+          ],
+          [
+            31621,
+            31628
+          ],
+          [
+            31924,
+            31931
+          ],
+          [
+            32097,
+            32104
+          ],
+          [
+            32212,
+            32219
+          ],
+          [
+            40949,
+            40956
+          ]
+        ],
+        "SMILES": "C1[C@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "CTMLKIKAUFEMLE-FTNGGYTGSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Betalain alkaloids"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organoheterocyclic compounds",
+          "Class": "Indoles and derivatives",
+          "Subclass": "Indolecarboxylic acids and derivatives"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "made_in",
+      "object_entity": {
+        "name": "Nicotiana benthamiana",
+        "spans": [
+          [
+            4229,
+            4250
+          ],
+          [
+            7728,
+            7742
+          ],
+          [
+            25755,
+            25769
+          ],
+          [
+            26555,
+            26576
+          ],
+          [
+            30835,
+            30856
+          ]
+        ],
+        "taxonomy_id": 4100,
+        "alt_names": [
+          "N. benthamiana"
+        ]
+      },
+      "category": "species",
+      "justification": "The DODA genes for all four species were separately cloned into multigene vectors containing all necessary genes for betalain biosynthesis and these vectors were transiently transformed into N. benthamiana to test their heterologous expression... Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b).",
+      "context": "We selected four betalain-pigmented species that represent each of the inferred origins of betalain pigmentation, three of which are represented by complete annotated genomes: S. halimifolium (Stegnospermataceae), B. vulgaris (Amaranthaceae; Dohm et al., 2014), M. crystallinum (Aizoaceae; W. C. Yim, unpublished) and C. gigantea (Cactaceae; Copetti et al., 2017). S. halimifolium, M. crystallinum and C. gigantea each contain one DODAbeta and two DODA alpha genes, and B. vulgaris contains one DODAbeta and five DODA alpha genes (Figs S5, S6). The DODA genes for all four species were separately cloned into multigene vectors containing all necessary genes for betalain biosynthesis and these vectors were transiently transformed into N. benthamiana to test their heterologous expression (Fig. S1; Timoneda et al., 2018). We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci. Upon heterologous expression, none of the DODAbeta genes from S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea produced visible betacyanin pigmentation (Fig. 3a; Timoneda et al., 2018). Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b).\n\n---\n\nBetalain-pigmented species have a single DODA that has high activity when heterologously expressed in Nicotiana benthamiana and other DODA that have no or marginal activity. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Stegnosperma halimifolium, Beta vulgaris, Carnegiea gigantea and Mesembryanthemum crystallinum. The DODA coding sequences were cloned into multigene constructs containing the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The infiltration spots are labelled according to the DODA variant. For all species, the pBC-BvDODAalpha1 multigene vector is included as a positive control (P). (b) The betanin content of the infiltration spots was measured using HPLC and data were represented relative to the BvDODAalpha1 spot present in each biological replicate. The data were combined after calculating relative amounts (RQ) for each species from individual species-specific experiments (Supporting Information Figs S8-S11). Bars show means +- SD; n = 5 for S. halimifolium, B. vulgaris, C. gigantea and M. crystallinum, except for BvDODAalpha2 (n = 4) and BvDODAalpha3 (n = 4). (c) A representative HPLC trace for the DODA\nalpha\n1 gene from each species. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl which was used to validate the retention time of betanin in these samples.\n\n---\n\n\nl-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA\nalpha), Telephium imperati (TiDODA\nalpha), Polycarpon tetraphyllum (PtDODA\nalpha), Cardionema ramosissimum (CrDODA\nalpha), Spergularia marina (SmDODA\nalpha), Limeum aethiopicum (LaDODA\nalpha) and Kewa caespitosa (KcDODA\nalpha\n1, KcDODA\nalpha\n2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n >= 3. (c) A representative HPLC trace for each DODA\nalpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples."
+    },
+    {
+      "subject_entity": {
+        "CID": 6540685,
+        "name": "betanin",
+        "spans": [
+          [
+            26297,
+            26304
+          ],
+          [
+            27162,
+            27169
+          ],
+          [
+            27737,
+            27744
+          ],
+          [
+            27910,
+            27917
+          ],
+          [
+            28024,
+            28031
+          ],
+          [
+            28460,
+            28467
+          ],
+          [
+            28611,
+            28618
+          ],
+          [
+            29787,
+            29794
+          ],
+          [
+            29877,
+            29884
+          ],
+          [
+            30039,
+            30046
+          ],
+          [
+            30193,
+            30200
+          ],
+          [
+            30352,
+            30359
+          ],
+          [
+            30638,
+            30645
+          ],
+          [
+            31480,
+            31487
+          ],
+          [
+            31558,
+            31565
+          ],
+          [
+            31621,
+            31628
+          ],
+          [
+            31924,
+            31931
+          ],
+          [
+            32097,
+            32104
+          ],
+          [
+            32212,
+            32219
+          ],
+          [
+            40949,
+            40956
+          ]
+        ],
+        "SMILES": "C1[C@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "CTMLKIKAUFEMLE-FTNGGYTGSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Betalain alkaloids"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organoheterocyclic compounds",
+          "Class": "Indoles and derivatives",
+          "Subclass": "Indolecarboxylic acids and derivatives"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "made_in",
+      "object_entity": {
+        "name": "transiently transformed",
+        "spans": [
+          [
+            25726,
+            25749
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "experimental_conditions",
+      "justification": "Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b).",
+      "context": "We selected four betalain-pigmented species that represent each of the inferred origins of betalain pigmentation, three of which are represented by complete annotated genomes: S. halimifolium (Stegnospermataceae), B. vulgaris (Amaranthaceae; Dohm et al., 2014), M. crystallinum (Aizoaceae; W. C. Yim, unpublished) and C. gigantea (Cactaceae; Copetti et al., 2017). S. halimifolium, M. crystallinum and C. gigantea each contain one DODAbeta and two DODA alpha genes, and B. vulgaris contains one DODAbeta and five DODA alpha genes (Figs S5, S6). The DODA genes for all four species were separately cloned into multigene vectors containing all necessary genes for betalain biosynthesis and these vectors were transiently transformed into N. benthamiana to test their heterologous expression (Fig. S1; Timoneda et al., 2018). We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci. Upon heterologous expression, none of the DODAbeta genes from S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea produced visible betacyanin pigmentation (Fig. 3a; Timoneda et al., 2018). Traces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b)."
+    },
+    {
+      "subject_entity": {
+        "CID": 6540685,
+        "name": "betanin",
+        "spans": [
+          [
+            26297,
+            26304
+          ],
+          [
+            27162,
+            27169
+          ],
+          [
+            27737,
+            27744
+          ],
+          [
+            27910,
+            27917
+          ],
+          [
+            28024,
+            28031
+          ],
+          [
+            28460,
+            28467
+          ],
+          [
+            28611,
+            28618
+          ],
+          [
+            29787,
+            29794
+          ],
+          [
+            29877,
+            29884
+          ],
+          [
+            30039,
+            30046
+          ],
+          [
+            30193,
+            30200
+          ],
+          [
+            30352,
+            30359
+          ],
+          [
+            30638,
+            30645
+          ],
+          [
+            31480,
+            31487
+          ],
+          [
+            31558,
+            31565
+          ],
+          [
+            31621,
+            31628
+          ],
+          [
+            31924,
+            31931
+          ],
+          [
+            32097,
+            32104
+          ],
+          [
+            32212,
+            32219
+          ],
+          [
+            40949,
+            40956
+          ]
+        ],
+        "SMILES": "C1[C@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "CTMLKIKAUFEMLE-FTNGGYTGSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Betalain alkaloids"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organoheterocyclic compounds",
+          "Class": "Indoles and derivatives",
+          "Subclass": "Indolecarboxylic acids and derivatives"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "made_in",
+      "object_entity": {
+        "name": "heterologously expressed",
+        "spans": [
+          [
+            30807,
+            30831
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "experimental_conditions",
+      "justification": "Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph.",
+      "context": "\nl-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA\nalpha), Telephium imperati (TiDODA\nalpha), Polycarpon tetraphyllum (PtDODA\nalpha), Cardionema ramosissimum (CrDODA\nalpha), Spergularia marina (SmDODA\nalpha), Limeum aethiopicum (LaDODA\nalpha) and Kewa caespitosa (KcDODA\nalpha\n1, KcDODA\nalpha\n2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n >= 3. (c) A representative HPLC trace for each DODA\nalpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples."
+    },
+    {
+      "subject_entity": {
+        "CID": 57505033,
+        "name": "isobetanin",
+        "spans": [
+          [
+            27779,
+            27789
+          ],
+          [
+            31966,
+            31976
+          ]
+        ],
+        "SMILES": "C1[C@@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "CTMLKIKAUFEMLE-DLTLVQJYSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Betalain alkaloids"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organoheterocyclic compounds",
+          "Class": "Indoles and derivatives",
+          "Subclass": "Indolecarboxylic acids and derivatives"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "associated_with",
+      "object_entity": {
+        "name": "DODA",
+        "spans": [
+          [
+            206,
+            210
+          ],
+          [
+            428,
+            432
+          ],
+          [
+            519,
+            523
+          ],
+          [
+            693,
+            697
+          ],
+          [
+            925,
+            929
+          ],
+          [
+            1095,
+            1099
+          ],
+          [
+            1175,
+            1179
+          ],
+          [
+            4591,
+            4595
+          ],
+          [
+            4711,
+            4715
+          ],
+          [
+            5017,
+            5021
+          ],
+          [
+            5407,
+            5411
+          ],
+          [
+            5942,
+            5946
+          ],
+          [
+            6105,
+            6109
+          ],
+          [
+            7434,
+            7438
+          ],
+          [
+            7623,
+            7627
+          ],
+          [
+            8034,
+            8038
+          ],
+          [
+            22712,
+            22716
+          ],
+          [
+            23593,
+            23597
+          ],
+          [
+            23793,
+            23797
+          ],
+          [
+            23936,
+            23940
+          ],
+          [
+            24223,
+            24227
+          ],
+          [
+            24390,
+            24394
+          ],
+          [
+            24644,
+            24648
+          ],
+          [
+            24722,
+            24726
+          ],
+          [
+            24781,
+            24785
+          ],
+          [
+            25467,
+            25471
+          ],
+          [
+            25532,
+            25536
+          ],
+          [
+            25568,
+            25572
+          ],
+          [
+            26494,
+            26498
+          ],
+          [
+            26587,
+            26591
+          ],
+          [
+            26715,
+            26719
+          ],
+          [
+            26832,
+            26836
+          ],
+          [
+            27046,
+            27050
+          ],
+          [
+            27683,
+            27687
+          ],
+          [
+            30765,
+            30769
+          ],
+          [
+            30946,
+            30950
+          ],
+          [
+            31243,
+            31247
+          ],
+          [
+            31863,
+            31867
+          ],
+          [
+            34267,
+            34271
+          ],
+          [
+            34347,
+            34351
+          ],
+          [
+            34694,
+            34698
+          ],
+          [
+            35451,
+            35455
+          ],
+          [
+            35530,
+            35534
+          ],
+          [
+            35664,
+            35668
+          ],
+          [
+            36302,
+            36306
+          ],
+          [
+            38496,
+            38500
+          ],
+          [
+            38556,
+            38560
+          ],
+          [
+            39267,
+            39271
+          ],
+          [
+            43446,
+            43450
+          ],
+          [
+            43495,
+            43499
+          ],
+          [
+            47789,
+            47793
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "genes",
+      "justification": "The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation.",
+      "context": "\nl-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA\nalpha), Telephium imperati (TiDODA\nalpha), Polycarpon tetraphyllum (PtDODA\nalpha), Cardionema ramosissimum (CrDODA\nalpha), Spergularia marina (SmDODA\nalpha), Limeum aethiopicum (LaDODA\nalpha) and Kewa caespitosa (KcDODA\nalpha\n1, KcDODA\nalpha\n2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n >= 3. (c) A representative HPLC trace for each DODA\nalpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples.\n\n---\n\nBetalain-pigmented species have a single DODA that has high activity when heterologously expressed in Nicotiana benthamiana and other DODA that have no or marginal activity. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Stegnosperma halimifolium, Beta vulgaris, Carnegiea gigantea and Mesembryanthemum crystallinum. The DODA coding sequences were cloned into multigene constructs containing the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The infiltration spots are labelled according to the DODA variant. For all species, the pBC-BvDODAalpha1 multigene vector is included as a positive control (P). (b) The betanin content of the infiltration spots was measured using HPLC and data were represented relative to the BvDODAalpha1 spot present in each biological replicate. The data were combined after calculating relative amounts (RQ) for each species from individual species-specific experiments (Supporting Information Figs S8-S11). Bars show means +- SD; n = 5 for S. halimifolium, B. vulgaris, C. gigantea and M. crystallinum, except for BvDODAalpha2 (n = 4) and BvDODAalpha3 (n = 4). (c) A representative HPLC trace for the DODA\nalpha\n1 gene from each species. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl which was used to validate the retention time of betanin in these samples."
+    },
+    {
+      "subject_entity": {
+        "CID": 57505033,
+        "name": "isobetanin",
+        "spans": [
+          [
+            27779,
+            27789
+          ],
+          [
+            31966,
+            31976
+          ]
+        ],
+        "SMILES": "C1[C@@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "CTMLKIKAUFEMLE-DLTLVQJYSA-N",
+        "Natural_product_class": {
+          "Np_class": [
+            "Betalain alkaloids"
+          ],
+          "Np_superclass": [
+            "Tyrosine alkaloids"
+          ]
+        },
+        "Classyfire": {
+          "Kingdom": "Organic compounds",
+          "Superclass": "Organoheterocyclic compounds",
+          "Class": "Indoles and derivatives",
+          "Subclass": "Indolecarboxylic acids and derivatives"
+        },
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "predicate": "present_in",
+      "object_entity": {
+        "name": "heterologously expressed",
+        "spans": [
+          [
+            30807,
+            30831
+          ]
+        ],
+        "ontology_id": null,
+        "normalized_name": null,
+        "score": null,
+        "alt_names": null
+      },
+      "category": "experimental_conditions",
+      "justification": "The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation.",
+      "context": "\nl-DOPA 4,5-dioxygenase activity is marginal or absent in DODA from anthocyanin-producing taxa when heterologously expressed in Nicotiana benthamiana. (a) A representative leaf is shown from the agroinfiltration of l-DOPA 4,5-dioxygenase (DODA) genes from Macarthuria australis (MaDODA\nalpha), Telephium imperati (TiDODA\nalpha), Polycarpon tetraphyllum (PtDODA\nalpha), Cardionema ramosissimum (CrDODA\nalpha), Spergularia marina (SmDODA\nalpha), Limeum aethiopicum (LaDODA\nalpha) and Kewa caespitosa (KcDODA\nalpha\n1, KcDODA\nalpha\n2). The DODA coding sequences were cloned into multigene constructs with the other structural genes necessary for betacyanin production (BvCYP76AD1, MjcDOPA-5GT). The pBC-BvDODAalpha1 multigene vector was included as a positive control (P). (b) Betanin content of the infiltration spots was measured using HPLC. Amounts of betanin were calculated relative (RQ) to the average amount of betanin present in BvDODAalpha1 infiltration spots for each species and the data combined into one graph (see Supporting Information Fig. S12 for species-specific data). Bars show means +- SD; n >= 3. (c) A representative HPLC trace for each DODA\nalpha gene from each species is shown. The left peak is betanin and the right peak is its isomer, isobetanin. The traces are offset for presentation. 'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples."
+    }
+  ]
+}
