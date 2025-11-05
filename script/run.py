@@ -20,7 +20,7 @@ from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
-from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_validation_prompt
+from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_validation_prompt, make_re_validation_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -97,6 +97,19 @@ async def process_pair_for_re(semaphore, body, model=None):
         logging.error("Relation extraction for a pair failed after multiple retries.")
         return None
 
+async def process_for_re_validation(semaphore, body, model=None):
+    async with semaphore:
+        for attempt in range(5):  # Retry up to 5 times
+            try:
+                prompt_body = make_re_validation_prompt_body_only(body)
+                result = await groq_inference_async(prompt_body, task='re-self-eval', GROQ_MODEL="openai/gpt-oss-120b")
+                return result            
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
+        logging.error("Re-validation failed after multiple retries.")
+        return None
+
 async def amain():
     ensure_dirs()
     setup_logging()
@@ -143,9 +156,6 @@ async def amain():
             eval_ner_output_path = os.path.join(EVAL_NER_OUTPUT_DIR, filename.replace('.xml', '.json')) # New path for evaluation file
             processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
 
-            # define a prompt list for batching
-            prompts_ner = []
-
             # log the processing of the file
             logger.info(f"Processing file: {filename}")
             parsing_time = time.time()
@@ -160,9 +170,12 @@ async def amain():
             if not os.path.exists(raw_ner_output_path):   
                 # limit concurrency to 3 requests at a time. Adjust as needed. 1 = sequential
                 semaphore = asyncio.Semaphore(3)
+                # define a prompt list for batching
+                prompts_ner = []
                 tasks = []      # for async api calls
                 # define a list of results (raw results from the model)
                 raw_result_list = [] 
+                
                 # for sentence_text, sentence_offset in sentences_w_offsets:
                 for passage_text, passage_offset in passages_w_offsets:
                     # create a prompt for the passage and add to the list (for local inference)
@@ -441,7 +454,7 @@ async def amain():
                 logger.info(f"Starting self-validation for {filename}...")
                 with open(raw_re_output_path, 'r') as f:
                     raw_relations_str = f.read()
-                
+        
                 # quick validation of the inputs
                 try:
                     raw_relations = ExtractedRelations.model_validate_json(raw_relations_str)
@@ -449,37 +462,51 @@ async def amain():
                     logger.error(f"Invalid raw relations object in {raw_re_output_path}: {e}")
                     continue
 
+                semaphore_self_validation = asyncio.Semaphore(3)
+                tasks = []
+                prompts_re_validation = []
+
                 relations_to_validate = raw_relations.relations
-                prompts_re_validation = [make_re_validation_prompt(rel.model_dump()) for rel in relations_to_validate]
+                for rel in relations_to_validate:
+                    prompt = make_re_validation_prompt(rel.model_dump())
+                    prompts_re_validation.append(prompt)
 
-                if prompts_re_validation:
-                    # TODO: ADD an api version of validation like re and ner.
-                    structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
-                    validation_results = model.batch(
-                        model_input=prompts_re_validation,
-                        sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
-                    )
+                    # OPTION 1:API (async)
+                    # task = process_for_re_validation(semaphore_self_validation, rel.model_dump())  
+                    # tasks.append(task)
 
-                    validated_relations = ExtractedRelations()
-                    not_validated_relations = ExtractedRelations()
+                # Wait for all tasks to complete and get their results
+                logger.info(f"Waiting for {len(tasks)} validation tasks to complete...")
+                # validation_results = await asyncio.gather(*tasks)
+                
+                # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
+                structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
+                validation_results = model.batch(
+                    model_input=prompts_re_validation,
+                    sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
+                )
 
-                    for i, val_result_json in enumerate(validation_results):
-                        try:
-                            validation = ValidationResult.model_validate_json(val_result_json[0])
-                            if validation.decision == "yes":
-                                validated_relations.relations.append(relations_to_validate[i])
-                            else:
-                                not_validated_relations.relations.append(relations_to_validate[i])
-                        except Exception as e:
-                            logger.error(f"Failed to process validation result: {e}\nResult was: {val_result_json}")
-                    
-                    with open(processed_re_output_path, 'w') as f:
-                        f.write(validated_relations.model_dump_json(indent=2))
-                    logger.info(f"Saved {len(validated_relations.relations)} validated relations to {processed_re_output_path}")
-                    processed_re_output_path_not_valid = processed_re_output_path.replace('.json', '_not_validated.json')
-                    with open(processed_re_output_path_not_valid, 'w') as f:
-                        f.write(not_validated_relations.model_dump_json(indent=2))
-                    logger.info(f"Saved {len(not_validated_relations.relations)} not validated relations to {processed_re_output_path}")
+                validated_relations = ExtractedRelations()
+                not_validated_relations = ExtractedRelations()
+
+                for i, val_result_json in enumerate(validation_results):
+                    try:
+                        # validation = ValidationResult.model_validate_json(val_result_json[0])   # if using local model
+                        validation = ValidationResult.model_validate_json(val_result_json)
+                        if validation.decision == "yes":
+                            validated_relations.relations.append(relations_to_validate[i])
+                        else:
+                            not_validated_relations.relations.append(relations_to_validate[i])
+                    except Exception as e:
+                        logger.error(f"Failed to process validation result: {e}\nResult was: {val_result_json}")
+                
+                with open(processed_re_output_path, 'w') as f:
+                    f.write(validated_relations.model_dump_json(indent=2))
+                logger.info(f"Saved {len(validated_relations.relations)} validated relations to {processed_re_output_path}")
+                processed_re_output_path_not_valid = processed_re_output_path.replace('.json', '_not_validated.json')
+                with open(processed_re_output_path_not_valid, 'w') as f:
+                    f.write(not_validated_relations.model_dump_json(indent=2))
+                logger.info(f"Saved {len(not_validated_relations.relations)} not validated relations to {processed_re_output_path}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  

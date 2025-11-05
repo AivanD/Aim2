@@ -29,8 +29,8 @@ def compare_sro_triples(triples1, triples2):
 
 def main():
     # Input JSON file paths
-    file1 = "/home/dolor/Documents/Aim2/output/re/PMC8164654.json"
-    file2 = "/home/dolor/Documents/Aim2/output/re/PMC8164654-no_desc.json"
+    file1 = "/home/dolor/Documents/Aim2/output/re/processed/PMC7384185_gpt4.json"
+    file2 = "/home/dolor/Documents/Aim2/output/re/processed/PMC7384185_local.json"
     
     # Load JSON data from files
     try:

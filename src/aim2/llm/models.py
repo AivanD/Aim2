@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
 from aim2.entities_types.entities import CustomExtractedEntities
-from aim2.llm.prompt import _static_header, make_prompt, _static_header_re
+from aim2.llm.prompt import _static_header, _static_header_re_validation, make_prompt, _static_header_re
 
 def _parse_retry_after(error_message: str) -> int:
     """Parses the retry-after time from a Groq API error message."""
@@ -127,12 +127,15 @@ async_client = AsyncGroq(
     api_key=GROQ_API_KEY
 )
 
-async def groq_inference_async(body, task=None):
+async def groq_inference_async(body, task=None, GROQ_MODEL=GROQ_MODEL):
     MAX_RETRIES = 10
     if task == "ner":
         system_content = _static_header()
     elif task == "re":
         system_content = _static_header_re()
+    elif task == "re-self-eval":
+        system_content = _static_header_re_validation()
+        reasoning_effort_value = "medium"
     else:
         system_content = _static_header_re()        
     
@@ -152,6 +155,7 @@ async def groq_inference_async(body, task=None):
                 ],
                 temperature=1e-67,
                 max_completion_tokens=2048,
+                reasoning_effort=reasoning_effort_value if task == "re-self-eval" else None,
                 stream=False,
                 response_format={"type": "json_object"},
                 stop=None,
