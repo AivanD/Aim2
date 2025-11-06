@@ -54,6 +54,6 @@ class ExtractedRelations(BaseModel):
     """
     relations: List[Relation] = Field(default_factory=list, description="A list of all relationships found in the document.")
 
-class ValidationResult(SchemicModel):
+class SelfEvaluationResult(SchemicModel):
     """A model for the LLM to output for self-validation."""
     decision: Literal["yes", "no"] = Field(description="Decision on whether the relationship is supported by the context.")

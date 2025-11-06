@@ -44,7 +44,10 @@ HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
 
-GROQ_MODEL      = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL              = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL_RE_EVAL      = os.getenv("GROQ_MODEL_RE_EVAL", "openai/gpt-oss-120b")
+GPT_MODEL_NER           = os.getenv("GPT_MODEL_NER", "gpt-4.1")
+GPT_MODEL_RE_EVAL       = os.getenv("GPT_MODEL_RE_EVAL", "gpt-5-mini")
 
 # VLLM
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"

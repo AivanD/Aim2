@@ -12,7 +12,7 @@ import re
 import asyncio
 from sentence_transformers import SentenceTransformer
 
-from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
+from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL, GPT_MODEL_NER, GPT_MODEL_RE_EVAL
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re
 
@@ -105,66 +105,248 @@ def load_local_model_via_outlines():
 
     return model
 
-def load_openai_model(model_name="gpt-4.1"):
+def load_openai_client_sync():
     """
-    Loads and returns an OpenAI language model instance using the specified API key and model name.
+    Initializes and returns an OpenAI client using the provided API key.
     Returns:
-        An instance of the OpenAI language model configured with the provided API key and model name.
+        An instance of the OpenAI client configured with the provided API key.
     """
     try: 
-        model = from_openai(
-            async_client_gpt,
-            model_name=model_name       # Replace with a more powerful model if needed
+        client = openai.OpenAI(
+            api_key=OPENAI_API_KEY
         )
     except Exception as e:
-        raise RuntimeError(f"Error loading local model via outlines VLLM: {e}")
+        raise RuntimeError(f"Error initializing OpenAI client: {e}")
 
-    return model
+    return client
 
+def load_openai_client_async():
+    """
+    Initializes and returns an OpenAI client using the provided API key.
+    Returns:
+        An instance of the OpenAI client configured with the provided API key.
+    """
+    try: 
+        client = openai.AsyncOpenAI(
+            api_key=OPENAI_API_KEY
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error initializing OpenAI client: {e}")
 
-async_client_gpt = openai.AsyncOpenAI(api_key=OPENAI_API_KEY)
-client = Groq(
-    api_key=GROQ_API_KEY)
+    return client
 
-async_client = AsyncGroq(
-    api_key=GROQ_API_KEY
-)
+def load_groq_client_sync():
+    """
+    Initializes and returns a Groq client using the provided API key.
+    Returns:
+        An instance of the Groq client configured with the provided API key.
+    """
+    try: 
+        client = Groq(
+            api_key=GROQ_API_KEY
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error initializing Groq client: {e}")
 
-async def groq_inference_async(body, task=None, GROQ_MODEL=GROQ_MODEL):
-    MAX_RETRIES = 10
-    if task == "ner":
-        system_content = _static_header()
-    elif task == "re":
-        system_content = _static_header_re()
-    elif task == "re-self-eval":
-        system_content = _static_header_re_evaluation()
-        reasoning_effort_value = "medium"
+    return client
+
+def load_groq_client_async():
+    """
+    Initializes and returns an Async Groq client using the provided API key.
+    Returns:
+        An instance of the Async Groq client configured with the provided API key.
+    """
+    try: 
+        client = AsyncGroq(
+            api_key=GROQ_API_KEY
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error initializing Async Groq client: {e}")
+
+    return client
+
+async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, json_object=None):
+    if API_MODEL == "gpt-4.1":
+        temperature = 1e-67
+        reasoning = None
+        max_output_tokens = 2048
+        if task == "ner":
+            system_content = _static_header()
+        elif task == "re":
+            system_content = _static_header_re()
+        else:
+            raise Exception("GPT_MODEL_NER model can only be used for 'ner' or 're' tasks.")
+    elif API_MODEL == "gpt-5-mini":
+        temperature = None
+        reasoning = {"effort": "medium"}        # add "summary": auto if you want reasoning summaries to appear in the response. Organization needs to be verified via the website first
+        max_output_tokens = 200
+        if task == "re-self-eval":
+            system_content = _static_header_re_evaluation()
+        else:
+            raise Exception("GPT_MODEL_RE_EVAL model can only be used for 're-self-eval' task.")
     else:
-        system_content = _static_header_re()        
+        raise Exception(f"Unsupported API_MODEL: {API_MODEL}")
     
+    schema = None
+    if json_object:
+        schema = json_object.model_json_schema()
+        # The API requires a 'required' field listing all properties if 'properties' is present.
+        if "properties" in schema and "required" not in schema:
+            schema["required"] = list(schema["properties"].keys())
+        # The API requires 'additionalProperties' to be explicitly set to false.
+        schema["additionalProperties"] = False
+
+    params = {
+        "model": API_MODEL,
+        "input": [
+            {
+                "role": "developer",
+                "content": [
+                    {
+                        "type": "input_text",
+                        "text": system_content
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "input_text",
+                        "text": body
+                    }
+                ]
+            }
+        ],
+        "text": {
+            "format": {
+                "type": "json_schema",
+                "strict": True,
+                "name": json_object.__name__ if json_object else "output_schema",
+                "schema": schema
+            },
+        },      
+    }
+    
+    if temperature:
+        params["temperature"] = temperature
+    if reasoning:
+        params["reasoning"] = reasoning
+    if max_output_tokens:
+        params["max_output_tokens"] = max_output_tokens
+
+    MAX_RETRIES = 10
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = await client.responses.create(**params)
+            await asyncio.sleep(1)  # brief pause before returning the response
+            # if no exception, break the loop and return the response
+            break
+        except Exception as e:
+            if isinstance(e, RateLimitError):
+                if attempt < MAX_RETRIES - 1:
+                    wait_time = _parse_retry_after(str(e))
+                    print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                    await asyncio.sleep(wait_time)
+                    continue
+                else:
+                    print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                    sys.exit(1)
+            elif isinstance(e, openai.APIStatusError):
+                if e.status_code == 400: # Bad request, potentially a schema issue
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"API Error (400): {e}. Retrying... ({attempt + 1}/{MAX_RETRIES})")
+                        await asyncio.sleep(5) # wait a bit before retrying
+                        continue
+                    else:
+                        print(f"API Error (400) on last attempt. Error: {e}. Exiting.")
+                        sys.exit(1)
+                elif e.status_code == 500 or e.status_code == 503: # Internal server error or service unavailable
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"API Error ({e.status_code}): Service unavailable. Retrying after 20s... ({attempt + 1}/{MAX_RETRIES})")
+                        await asyncio.sleep(20)
+                        continue
+                    else:
+                        print(f"API Error ({e.status_code}) on last attempt. Error: {e}. Exiting.")
+                        sys.exit(1)
+                else:
+                    print(f"An unexpected API error occurred: {e}. Exiting.")
+                    sys.exit(1)
+            else:
+                print(f"An unexpected error occurred: {e}. Exiting.")
+                sys.exit(1)
+    return response.output_text
+
+async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, json_object=None):
+    MAX_RETRIES = 10
+
+    if API_MODEL == "llama-3.3-70b-versatile":
+        temperature = 1e-67
+        max_completion_tokens = 2048
+        seed = 42
+        reasoning_effort_value = None
+        response_format = {"type": "json_object"}
+        if task == "ner":
+            system_content = _static_header()
+        elif task == "re":
+            system_content = _static_header_re()
+        else:
+            raise Exception("GROQ_MODEL model can only be used for 'ner' or 're' tasks.")
+    elif API_MODEL == "openai/gpt-oss-20b" or API_MODEL == "openai/gpt-oss-120b":
+        temperature = 1e-67
+        max_completion_tokens = 4096
+        seed = 42
+        reasoning_effort_value = "medium"
+        if json_object:
+            schema = json_object.model_json_schema()
+            if "properties" in schema and "required" not in schema:
+                schema["required"] = list(schema["properties"].keys())
+            response_format = {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": json_object.__name__ if json_object else "output_schema",
+                    "schema": schema
+                }
+            }
+        else:
+            response_format = {"type": "json_object"}
+        if task == "re-self-eval":
+            system_content = _static_header_re_evaluation()
+        else:
+            raise Exception("GROQ_MODEL_RE_EVAL model can only be used for 're-self-eval' task.")
+    else:
+        raise Exception(f"Unsupported API_MODEL: {API_MODEL}")
+      
+    param = {
+        "model": API_MODEL,
+        "messages": [
+            {
+                "role": "system",
+                "content": system_content
+            },
+            {
+                "role": "user",
+                "content": body
+            }
+        ],
+        "stream": False,
+        "stop": None,
+        "seed": seed
+    }
+
+    if temperature:
+        param["temperature"] = temperature
+    if max_completion_tokens:
+        param["max_completion_tokens"] = max_completion_tokens
+    if response_format:
+        param["response_format"] = response_format
+    if task == "re-self-eval":
+        param["reasoning_effort"] = reasoning_effort_value
+
     for attempt in range(MAX_RETRIES):
         try: 
-            response = await async_client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[
-                {
-                    "role": "system",
-                    "content": system_content
-                },
-                {
-                    "role": "user",
-                    "content": body
-                }
-                ],
-                temperature=1e-67,
-                max_completion_tokens=2048,
-                reasoning_effort=reasoning_effort_value if task == "re-self-eval" else None,
-                stream=False,
-                response_format={"type": "json_object"},
-                stop=None,
-                seed=42
-            )
-            await asyncio.sleep(0.3)  # brief pause before returning the response
+            response = await client.chat.completions.create(**param)
+            await asyncio.sleep(1)  # brief pause before returning the response
             # if no exception, break the loop and return the response
             break
         except Exception as e:
@@ -194,7 +376,7 @@ async def groq_inference_async(body, task=None, GROQ_MODEL=GROQ_MODEL):
                         continue
                     else:
                         print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
+                        sys.exit(1)  
             # some other error
             else:
                 print(f"An unexpected error occurred: {e}. Exiting.")
@@ -202,8 +384,9 @@ async def groq_inference_async(body, task=None, GROQ_MODEL=GROQ_MODEL):
     
     return response.choices[0].message.content
 
-
-def groq_inference(body, task=None):
+# TODO: update the synchronous version to match the async one
+# TODO: create a sync openai_inference function 
+def groq_inference(client, body, task=None):
     MAX_RETRIES = 10
     if task == "ner":
         system_content = _static_header()

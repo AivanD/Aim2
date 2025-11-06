@@ -1,6 +1,7 @@
 import logging
 import os
 import logging
+import sys
 import warnings
 import json
 from vllm import SamplingParams
@@ -15,12 +16,12 @@ from aim2.postprocessing.merger import merge_and_deduplicate, merge_entities_by_
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
 from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
-from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, ValidationResult
+from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, SelfEvaluationResult
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
+from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
-from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_evaluation_prompt, make_re_evaluation_prompt_body_only
+from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_client_async, load_groq_client_async, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
+from aim2.llm.prompt import make_prompt, make_re_evaluation_prompt_body_only, make_re_prompt, make_re_evaluation_prompt, make_prompt_body_only, make_re_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -34,27 +35,32 @@ def _parse_openai_retry_after(error_message: str) -> float:
         return float(match.group(1)) + 0.1  # Add a small buffer
     return 10.0  # Default to 10 seconds if parsing fails
 
-async def process_passage_for_ner(semaphore, body, model=None):
+async def process_passage_for_ner(semaphore, body, client):
     """Helper function to process a single passage with semaphore and retry logic."""
     async with semaphore:
+        body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
         for attempt in range(5):  # Retry up to 5 times
             try:
                 # OPTION 1: OPENAI inference
-                prompt = make_prompt(body)
-                openai_schema = SimpleExtractedEntities().schemic_schema()
-                result = await model(
-                    model_input=prompt,
-                    response_format=openai_schema,
-                    max_tokens=2048,
-                    temperature=1e-67,
+                result = await gpt_inference_async(
+                    client,
+                    body,
+                    task='ner',
+                    API_MODEL=GPT_MODEL_NER,
+                    json_object=SimpleExtractedEntities
                 )
-                await asyncio.sleep(0.5)
                 return result
 
                 # OPTION 2: GROQ inference (async)
-                # result = await groq_inference_async(body, task='ner')
-                # await asyncio.sleep(0.5)
-                return result
+                # does not support "json_object" param for Llama 3.3 or older
+                # result = await groq_inference_async(
+                #     client,
+                #     body,
+                #     API_MODEL=GROQ_MODEL,
+                #     task='ner', 
+                #     json_object=SimpleExtractedEntities
+                # )
+                # return result
             
             except RateLimitError as e:
                 wait_time = _parse_openai_retry_after(str(e))
@@ -68,24 +74,29 @@ async def process_passage_for_ner(semaphore, body, model=None):
         logging.error("Passage failed after multiple retries due to rate limiting.")
         return None
 
-async def process_pair_for_re(semaphore, body, model=None):
+async def process_pair_for_re(semaphore, body, client):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     async with semaphore:
+        body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
         for attempt in range(5):
             try:
                 # OPTION 1: OPENAI inference
-                prompt = make_re_prompt(body[0], body[1], body[2], body[3])
-                openai_schema = SimpleRelation.schemic_schema()
-                result = await model(
-                    model_input=prompt,
-                    response_format=openai_schema,
-                    max_tokens=256, # Smaller max tokens for this focused task
-                    temperature=1e-67,
-                )
-                await asyncio.sleep(0.5)
+                # result = await gpt_inference_async(
+                #     client,
+                #     body,
+                #     task='re',
+                #     API_MODEL=GPT_MODEL_NER,
+                #     json_object=SimpleRelation
+                # )
+                # return result
                 # # OPTION 2: GROQ inference (async)
-                # prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
-                # result = await groq_inference_async(prompt_body, task='re')
+                result = await groq_inference_async(
+                    client, 
+                    body, 
+                    task='re', 
+                    API_MODEL=GROQ_MODEL,
+                    json_object=SimpleRelation
+                )
                 return result
             except RateLimitError as e:
                 wait_time = _parse_openai_retry_after(str(e))
@@ -97,13 +108,34 @@ async def process_pair_for_re(semaphore, body, model=None):
         logging.error("Relation extraction for a pair failed after multiple retries.")
         return None
 
-async def process_for_re_evaluation(semaphore, body, model=None):
+async def process_for_re_evaluation(semaphore, body, client):
     async with semaphore:
+        body = make_re_evaluation_prompt_body_only(body)
         for attempt in range(5):  # Retry up to 5 times
             try:
-                prompt_body = make_re_validation_prompt_body_only(body)
-                result = await groq_inference_async(prompt_body, task='re-self-eval', GROQ_MODEL="openai/gpt-oss-120b")
-                return result            
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body=body,
+                    task='re-self-eval',
+                    API_MODEL="gpt-5-mini",
+                    json_object=SelfEvaluationResult
+                )
+                return result
+                            
+                # # OPTION 2: GROQ inference (async)
+                # result = await groq_inference_async(
+                #     client,
+                #     body, 
+                #     task='re-self-eval', 
+                #     API_MODEL="openai/gpt-oss-120b",
+                #     json_object=SelfEvaluationResult
+                # )
+                # return result      
+            except RateLimitError as e:
+                wait_time = _parse_openai_retry_after(str(e))
+                logging.warning(f"RE Evaluation Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
+                await asyncio.sleep(wait_time)      
             except Exception as e:
                 logging.error(f"An unexpected error occurred while processing a passage: {e}")
                 return None # Or handle as appropriate
@@ -119,9 +151,12 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        API_model_ner = load_openai_model(model_name="gpt-4.1")             # for OPENAI model
-        API_model_re_val = load_openai_model(model_name="gpt-5-mini") 
-        # model = load_local_model_via_outlinesVLLM()
+        # for NER, RE, EVAL
+        OPENAI_client = load_openai_client_async()             
+        GROQ_client = load_groq_client_async()     
+        
+        # for local RE  
+        model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -183,15 +218,15 @@ async def amain():
                     prompt = make_prompt(passage_text)
                     prompts_ner.append(prompt)
 
-                    # API (async)
-                    task = process_passage_for_ner(semaphore, passage_text, API_model_ner)
+                    # OPTION 1: API (async)
+                    task = process_passage_for_ner(semaphore, passage_text, OPENAI_client)
                     tasks.append(task)
 
                 # wait for all tasks to complete and get their results
                 logger.info(f"Waiting for {len(tasks)} tasks to complete...")
                 results = await asyncio.gather(*tasks)
 
-                # # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # comment the API async part as well as the "results await line above" before using local inference
                 # structured_ner_output_params = StructuredOutputsParams(
                 #     json=SimpleExtractedEntities.model_json_schema()
@@ -382,15 +417,15 @@ async def amain():
                     prompts_re.append(prompt_re)
                     pair_details.append({"compound": compound, "other_entity": other_entity, "category": category, "context": context_str})
 
-                    # API (async). set Model = none for Groq
-                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts))
+                    # # OPTION 1: API (async)
+                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), GROQ_client)
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
                 logger.info(f"Starting relation extraction for {len(prompts_re)} pairs...")
                 # re_results = await asyncio.gather(*tasks)
 
-                # OPTION 3: LOCAL MODEL via outlines+VLLM (batching)
+                # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # comment the API async part as well as the "re_results await line above" before using local inference
                 structured_re_output_params = StructuredOutputsParams(
                     json=SimpleRelation.model_json_schema(),
@@ -452,62 +487,61 @@ async def amain():
 
             # TODO: ADD self-verification step for RE outputs
             if not os.path.exists(processed_re_output_path):
-                logger.info(f"Starting self-validation for {filename}...")
+                logger.info(f"Starting self-evaluation for {filename}...")
                 with open(raw_re_output_path, 'r') as f:
                     raw_relations_str = f.read()
         
-                # quick validation of the inputs
+                # quick self-evaluation of the inputs
                 try:
                     raw_relations = ExtractedRelations.model_validate_json(raw_relations_str)
                 except Exception as e:
                     logger.error(f"Invalid raw relations object in {raw_re_output_path}: {e}")
                     continue
 
-                semaphore_self_validation = asyncio.Semaphore(3)
+                semaphore_self_evaluation = asyncio.Semaphore(3)
                 tasks = []
-                prompts_re_validation = []
+                prompts_re_evaluation = []
 
-                relations_to_validate = raw_relations.relations
-                for rel in relations_to_validate[:1]:
+                relations_to_evaluate = raw_relations.relations
+                for rel in relations_to_evaluate:
                     prompt = make_re_evaluation_prompt(rel.model_dump())
-                    prompts_re_validation.append(prompt)
+                    prompts_re_evaluation.append(prompt)
 
                     # OPTION 1:API (async)
-                    task = process_for_re_evaluation(semaphore_self_validation, rel.model_dump(), API_model_re_val)  
+                    task = process_for_re_evaluation(semaphore_self_evaluation, rel.model_dump(), OPENAI_client)  
                     tasks.append(task)
 
                 # Wait for all tasks to complete and get their results
-                logger.info(f"Waiting for {len(tasks)} validation tasks to complete...")
-                validation_results = await asyncio.gather(*tasks)
+                logger.info(f"Waiting for {len(tasks)} self-evaluation tasks to complete...")
+                self_evaluation_results = await asyncio.gather(*tasks)
                 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
-                # structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
-                # validation_results = model.batch(
-                #     model_input=prompts_re_validation,
-                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
+                # structured_re_evaluation_params = StructuredOutputsParams(json=SelfEvaluationResult.model_json_schema())
+                # self_evaluation_results = model.batch(
+                #     model_input=prompts_re_evaluation,
+                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_evaluation_params),
                 # )
 
-                validated_relations = ExtractedRelations()
-                not_validated_relations = ExtractedRelations()
+                evaluated_relations = ExtractedRelations()
+                not_evaluated_relations = ExtractedRelations()
 
-                for i, val_result_json in enumerate(validation_results):
+                for i, self_eval_result_json in enumerate(self_evaluation_results):
                     try:
-                        # validation = ValidationResult.model_validate_json(val_result_json[0])   # if using local model
-                        validation = ValidationResult.model_validate_json(val_result_json)
-                        if validation.decision == "yes":
-                            validated_relations.relations.append(relations_to_validate[i])
+                        # self_evaluation = SelfEvaluationResult.model_validate_json(val_result_json[0])   # if using local model
+                        self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
+                        if self_evaluation.decision == "yes":
+                            evaluated_relations.relations.append(relations_to_evaluate[i])
                         else:
-                            not_validated_relations.relations.append(relations_to_validate[i])
+                            not_evaluated_relations.relations.append(relations_to_evaluate[i])
                     except Exception as e:
-                        logger.error(f"Failed to process validation result: {e}\nResult was: {val_result_json}")
-                
+                        logger.error(f"Failed to process self-evaluation result: {e}\nResult was: {self_eval_result_json}")
                 with open(processed_re_output_path, 'w') as f:
-                    f.write(validated_relations.model_dump_json(indent=2))
-                logger.info(f"Saved {len(validated_relations.relations)} validated relations to {processed_re_output_path}")
-                processed_re_output_path_not_valid = processed_re_output_path.replace('.json', '_not_validated.json')
-                with open(processed_re_output_path_not_valid, 'w') as f:
-                    f.write(not_validated_relations.model_dump_json(indent=2))
-                logger.info(f"Saved {len(not_validated_relations.relations)} not validated relations to {processed_re_output_path}")
+                    f.write(evaluated_relations.model_dump_json(indent=2))
+                logger.info(f"Saved {len(evaluated_relations.relations)} evaluated relations to {processed_re_output_path}")
+                processed_re_output_path_not_evaluated = processed_re_output_path.replace('.json', '_not_evaluated.json')
+                with open(processed_re_output_path_not_evaluated, 'w') as f:
+                    f.write(not_evaluated_relations.model_dump_json(indent=2))
+                logger.info(f"Saved {len(not_evaluated_relations.relations)} not evaluated relations to {processed_re_output_path_not_evaluated}")
 
             end_re_time = time.time()
             logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  

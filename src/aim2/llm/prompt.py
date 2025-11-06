@@ -50,6 +50,15 @@ def _static_header():
     """)
     return prompt
 
+def make_prompt_body_only(article_text: str) -> str:
+    """
+    Creates the body of a prompt for the LLM to extract entities from a given text.
+    Returns:
+        str: The complete prompt body string.
+    """
+    prompt = f"{article_text}\n"
+    return prompt
+
 def make_prompt(article_text: str) -> str:
     """
     Creates a prompt for the LLM to extract entities from a given text.
@@ -57,7 +66,7 @@ def make_prompt(article_text: str) -> str:
         str: The complete prompt string.
     """
     prompt = _static_header()
-    prompt += f"{article_text}\n"
+    prompt += make_prompt_body_only(article_text)
     return prompt
 
 RELATION_GUIDELINES = {
