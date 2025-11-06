@@ -5,6 +5,7 @@ import torch
 import openai
 import vllm 
 from groq import APIStatusError, Groq, AsyncGroq
+from openai import RateLimitError
 import time
 from pydantic import ValidationError
 import re
@@ -13,7 +14,7 @@ from sentence_transformers import SentenceTransformer
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL
 from aim2.entities_types.entities import CustomExtractedEntities
-from aim2.llm.prompt import _static_header, _static_header_re_validation, make_prompt, _static_header_re
+from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re
 
 def _parse_retry_after(error_message: str) -> int:
     """Parses the retry-after time from a Groq API error message."""
@@ -29,7 +30,7 @@ def _parse_retry_after(error_message: str) -> int:
     return int(wait_time) + 5 # Add a 5-second buffer
 
 # use vllm for concurrency, pageattention, kv_caching, etc.
-def load_local_model_via_outlinesVLLM():
+def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-AWQ", max_model_len=2048, quantization="awq_marlin"):
     """
     Loads a local (w or w/o quant) LLM model using the Outlines library with vLLM backend.
     This function initializes a model as well as configures memory and performance options 
@@ -43,14 +44,14 @@ def load_local_model_via_outlinesVLLM():
         - Seed is set for reproducibility.
     """
     # model_name = "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
-    model_name = "kosbu/Llama-3.3-70B-Instruct-AWQ"
+    # model_name = "kosbu/Llama-3.3-70B-Instruct-AWQ"
     # model_name = "gaunernst/gemma-3-27b-it-int4-awq"
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
     # model_name = "meta-llama/Llama-3.1-8B-Instruct"
     try:
         model = from_vllm_offline(vllm.LLM(
             model=model_name,                   
-            quantization="awq_marlin",              # for quantized models using awq
+            quantization=quantization,              # for quantized models using awq
             # quantization="bitsandbytes",          # for quantized models using bnb
             download_dir=str(MODELS_DIR),       
             enforce_eager=False,                   # Keep False for better performance
@@ -58,8 +59,8 @@ def load_local_model_via_outlinesVLLM():
             swap_space=0,                           # defaults to 4. Uses ram for swapping data if things like kv_cache cant fit in vram. !MIGHT REDUCE PERF
             enable_prefix_caching=True,             # speeds up generation when prompt is long
             gpu_memory_utilization=0.95,            # adjust this for your usecase (default=.9 and .85 is enough for 8gb gpu)
-            max_model_len=2048,                     # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
-            max_num_batched_tokens=4096*6,            # this is for batching multiple requests. adjust based on your gpu memory
+            max_model_len=max_model_len,            # adjust this for your usecase (calc your prompt) (1024 is enough for 8gb gpu)
+            # max_num_batched_tokens=4096*6,            # this is for batching multiple requests. adjust based on your gpu memory
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. DO NOT USE! BUGGY!
             # kv_cache_memory_bytes=3 * 1024 * 1024 * 1024  # 3GB for kv cache
@@ -104,7 +105,7 @@ def load_local_model_via_outlines():
 
     return model
 
-def load_openai_model():
+def load_openai_model(model_name="gpt-4.1"):
     """
     Loads and returns an OpenAI language model instance using the specified API key and model name.
     Returns:
@@ -112,14 +113,16 @@ def load_openai_model():
     """
     try: 
         model = from_openai(
-            openai.AsyncOpenAI(api_key=OPENAI_API_KEY),
-            model_name="gpt-4.1"       # Replace with a more powerful model if needed
+            async_client_gpt,
+            model_name=model_name       # Replace with a more powerful model if needed
         )
     except Exception as e:
         raise RuntimeError(f"Error loading local model via outlines VLLM: {e}")
 
     return model
 
+
+async_client_gpt = openai.AsyncOpenAI(api_key=OPENAI_API_KEY)
 client = Groq(
     api_key=GROQ_API_KEY)
 
@@ -134,7 +137,7 @@ async def groq_inference_async(body, task=None, GROQ_MODEL=GROQ_MODEL):
     elif task == "re":
         system_content = _static_header_re()
     elif task == "re-self-eval":
-        system_content = _static_header_re_validation()
+        system_content = _static_header_re_evaluation()
         reasoning_effort_value = "medium"
     else:
         system_content = _static_header_re()        

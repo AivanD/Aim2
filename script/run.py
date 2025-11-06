@@ -19,8 +19,8 @@ from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRe
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM
-from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_validation_prompt, make_re_validation_prompt_body_only
+from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_model, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
+from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_prompt_body_only, make_re_evaluation_prompt, make_re_evaluation_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
 from aim2.data.ontology import load_ontology
@@ -97,7 +97,7 @@ async def process_pair_for_re(semaphore, body, model=None):
         logging.error("Relation extraction for a pair failed after multiple retries.")
         return None
 
-async def process_for_re_validation(semaphore, body, model=None):
+async def process_for_re_evaluation(semaphore, body, model=None):
     async with semaphore:
         for attempt in range(5):  # Retry up to 5 times
             try:
@@ -107,7 +107,7 @@ async def process_for_re_validation(semaphore, body, model=None):
             except Exception as e:
                 logging.error(f"An unexpected error occurred while processing a passage: {e}")
                 return None # Or handle as appropriate
-        logging.error("Re-validation failed after multiple retries.")
+        logging.error("Re-evaluation failed after multiple retries.")
         return None
 
 async def amain():
@@ -119,8 +119,9 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        API_model = load_openai_model()     # for OPENAI or Local model
-        model = load_local_model_via_outlinesVLLM()
+        API_model_ner = load_openai_model(model_name="gpt-4.1")             # for OPENAI model
+        API_model_re_val = load_openai_model(model_name="gpt-5-mini") 
+        # model = load_local_model_via_outlinesVLLM()
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -183,7 +184,7 @@ async def amain():
                     prompts_ner.append(prompt)
 
                     # API (async)
-                    task = process_passage_for_ner(semaphore, passage_text, API_model)
+                    task = process_passage_for_ner(semaphore, passage_text, API_model_ner)
                     tasks.append(task)
 
                 # wait for all tasks to complete and get their results
@@ -382,7 +383,7 @@ async def amain():
                     pair_details.append({"compound": compound, "other_entity": other_entity, "category": category, "context": context_str})
 
                     # API (async). set Model = none for Groq
-                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), API_model)
+                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts))
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
@@ -467,24 +468,24 @@ async def amain():
                 prompts_re_validation = []
 
                 relations_to_validate = raw_relations.relations
-                for rel in relations_to_validate:
-                    prompt = make_re_validation_prompt(rel.model_dump())
+                for rel in relations_to_validate[:1]:
+                    prompt = make_re_evaluation_prompt(rel.model_dump())
                     prompts_re_validation.append(prompt)
 
                     # OPTION 1:API (async)
-                    # task = process_for_re_validation(semaphore_self_validation, rel.model_dump())  
-                    # tasks.append(task)
+                    task = process_for_re_evaluation(semaphore_self_validation, rel.model_dump(), API_model_re_val)  
+                    tasks.append(task)
 
                 # Wait for all tasks to complete and get their results
                 logger.info(f"Waiting for {len(tasks)} validation tasks to complete...")
-                # validation_results = await asyncio.gather(*tasks)
+                validation_results = await asyncio.gather(*tasks)
                 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
-                structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
-                validation_results = model.batch(
-                    model_input=prompts_re_validation,
-                    sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
-                )
+                # structured_re_validation_params = StructuredOutputsParams(json=ValidationResult.model_json_schema())
+                # validation_results = model.batch(
+                #     model_input=prompts_re_validation,
+                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_validation_params),
+                # )
 
                 validated_relations = ExtractedRelations()
                 not_validated_relations = ExtractedRelations()

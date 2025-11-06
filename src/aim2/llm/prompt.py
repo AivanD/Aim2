@@ -225,7 +225,7 @@ def make_re_prompt(compound: Dict[str, Any], other_entity: Dict[str, Any], categ
     return prompt
 
 
-def _static_header_re_validation() -> str:
+def _static_header_re_evaluation() -> str:
     """
     Creates a static header part of the prompt for relationship validation.
     Returns:
@@ -242,7 +242,7 @@ def _static_header_re_validation() -> str:
     """)
     return prompt
 
-def make_re_validation_prompt_body_only(relation: Dict[str, Any]) -> str:
+def make_re_evaluation_prompt_body_only(relation: Dict[str, Any]) -> str:
     """
     Creates the body of a prompt for the LLM to validate a relationship.
     """
@@ -279,10 +279,10 @@ def make_re_validation_prompt_body_only(relation: Dict[str, Any]) -> str:
     """)
     return body
 
-def make_re_validation_prompt(relation: Dict[str, Any]) -> str:
+def make_re_evaluation_prompt(relation: Dict[str, Any]) -> str:
     """
     Creates a prompt for the LLM to validate an extracted relationship.
     """
-    prompt = _static_header_re_validation()
-    prompt += make_re_validation_prompt_body_only(relation)
+    prompt = _static_header_re_evaluation()
+    prompt += make_re_evaluation_prompt_body_only(relation)
     return prompt
