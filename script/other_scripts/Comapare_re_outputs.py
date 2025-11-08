@@ -1,5 +1,18 @@
 import json
 
+def extract_so_doubles(json_data):
+    """
+    Extract Subject-Object (SO) doubles from the JSON data.
+    """
+    so_doubles = []
+    for relation in json_data.get("relations", []):
+        subject = relation.get("subject_entity", {}).get("name", "Unknown Subject")
+        obj = relation.get("object_entity", {}).get("name", "Unknown Object")
+        so_doubles.append((subject, obj))
+    # Sort doubles by subject
+    so_doubles.sort(key=lambda x: x[0])
+    return so_doubles
+
 def extract_sro_triples(json_data):
     """
     Extract Subject-Relation-Object (SRO) triples from the JSON data.
@@ -29,8 +42,8 @@ def compare_sro_triples(triples1, triples2):
 
 def main():
     # Input JSON file paths
-    file1 = "/home/dolor/Documents/Aim2/output/re/processed/PMC7384185_gpt4.json"
-    file2 = "/home/dolor/Documents/Aim2/output/re/processed/PMC7384185_local.json"
+    file1 = "/home/dolor/Documents/Aim2/output/re/raw/PMC7384185_gpt4.json"
+    file2 = "/home/dolor/Documents/Aim2/output/re/raw/PMC7384185_local.json"
     
     # Load JSON data from files
     try:
@@ -44,10 +57,15 @@ def main():
     # Extract SRO triples
     triples1 = extract_sro_triples(data1)
     triples2 = extract_sro_triples(data2)
-    
     # Compare SRO triples
     only_in_file1, only_in_file2, common_triples = compare_sro_triples(triples1, triples2)
-    
+
+    # extract SO doubles
+    # so_doubles1 = extract_so_doubles(data1)
+    # so_doubles2 = extract_so_doubles(data2)    
+    # Compare SO doubles
+    # only_in_file1_doubles, only_in_file2_doubles, common_doubles = compare_sro_triples(so_doubles1, so_doubles2)
+
     # Print results
     counter1 = len(triples1)
     counter2 = len(triples2)
