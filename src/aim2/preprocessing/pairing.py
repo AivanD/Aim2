@@ -14,13 +14,13 @@ def find_entity_pairs(final_entities: Dict[str, List[Dict[str, Any]]]) -> List[T
     pairs = []
     
     # 1. Identify target compounds (molecular compounds, not classes)
-    target_compounds = [
-        entity for entity in final_entities.get("compounds", [])
-        if not entity.get("ontology_id") and entity.get("CID")
-    ]
+    # target_compounds = [
+    #     entity for entity in final_entities.get("compounds", [])
+    #     if not entity.get("ontology_id") and entity.get("CID")
+    # ]
 
     # 1. Identify target compounds including all (molecular compounds, classes, unknowns)
-    # target_compounds = final_entities.get("compounds", [])
+    target_compounds = final_entities.get("compounds", [])
 
     if not target_compounds:
         logger.info("No target molecular compounds found for relation extraction.")
