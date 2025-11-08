@@ -7,14 +7,16 @@ import vllm
 from groq import APIStatusError, Groq, AsyncGroq
 from openai import RateLimitError
 import time
-from pydantic import ValidationError
 import re
 import asyncio
 from sentence_transformers import SentenceTransformer
+import logging
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL, GPT_MODEL_NER, GPT_MODEL_RE_EVAL
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re
+
+logger = logging.getLogger(__name__)
 
 def _parse_retry_after(error_message: str) -> int:
     """Parses the retry-after time from a Groq API error message."""
@@ -78,6 +80,7 @@ def load_local_model_via_outlines():
     Returns:
         model: The loaded local LLM model instance.
     """
+    return DeprecationWarning("Loading local model via outlines Transformers is deprecated. Please use 'load_local_model_via_outlinesVLLM' instead.")
     # Initialize a model
     quantization_config = BitsAndBytesConfig(
         load_in_4bit=True,
@@ -111,6 +114,7 @@ def load_openai_client_sync():
     Returns:
         An instance of the OpenAI client configured with the provided API key.
     """
+    return DeprecationWarning("Synchronous OpenAI client is deprecated. Please use the asynchronous version 'load_openai_client_async' instead.")
     try: 
         client = openai.OpenAI(
             api_key=OPENAI_API_KEY
@@ -141,6 +145,7 @@ def load_groq_client_sync():
     Returns:
         An instance of the Groq client configured with the provided API key.
     """
+    return DeprecationWarning("Synchronous Groq client is deprecated. Please use the asynchronous version 'load_groq_client_async' instead.")
     try: 
         client = Groq(
             api_key=GROQ_API_KEY
@@ -242,39 +247,35 @@ async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, 
             await asyncio.sleep(1)  # brief pause before returning the response
             # if no exception, break the loop and return the response
             break
-        except Exception as e:
-            if isinstance(e, RateLimitError):
+        except RateLimitError as e: 
+            if attempt < MAX_RETRIES - 1:
+                wait_time = _parse_retry_after(str(e))
+                logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                await asyncio.sleep(wait_time)
+                continue
+            else:
+                logger.error(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                raise e
+        except APIStatusError as e:
+            if e.status_code == 400: # Bad request, potentially a schema issue
                 if attempt < MAX_RETRIES - 1:
-                    wait_time = _parse_retry_after(str(e))
-                    print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
-                    await asyncio.sleep(wait_time)
+                    logger.warning(f"API Error (400): {e}. Retrying... ({attempt + 1}/{MAX_RETRIES})")
+                    await asyncio.sleep(5) # wait a bit before retrying
                     continue
                 else:
-                    print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                    sys.exit(1)
-            elif isinstance(e, openai.APIStatusError):
-                if e.status_code == 400: # Bad request, potentially a schema issue
-                    if attempt < MAX_RETRIES - 1:
-                        print(f"API Error (400): {e}. Retrying... ({attempt + 1}/{MAX_RETRIES})")
-                        await asyncio.sleep(5) # wait a bit before retrying
-                        continue
-                    else:
-                        print(f"API Error (400) on last attempt. Error: {e}. Exiting.")
-                        sys.exit(1)
-                elif e.status_code == 500 or e.status_code == 503: # Internal server error or service unavailable
-                    if attempt < MAX_RETRIES - 1:
-                        print(f"API Error ({e.status_code}): Service unavailable. Retrying after 20s... ({attempt + 1}/{MAX_RETRIES})")
-                        await asyncio.sleep(20)
-                        continue
-                    else:
-                        print(f"API Error ({e.status_code}) on last attempt. Error: {e}. Exiting.")
-                        sys.exit(1)
+                    logger.error(f"API Error (400) on last attempt. Error: {e}. Exiting.")
+                    raise e
+            elif e.status_code == 500 or e.status_code == 503: # Internal server error or service unavailable
+                if attempt < MAX_RETRIES - 1:
+                    logger.warning(f"API Error ({e.status_code}): Service unavailable. Retrying after 20s... ({attempt + 1}/{MAX_RETRIES})")
+                    await asyncio.sleep(20)
+                    continue
                 else:
-                    print(f"An unexpected API error occurred: {e}. Exiting.")
-                    sys.exit(1)
-            else:
-                print(f"An unexpected error occurred: {e}. Exiting.")
-                sys.exit(1)
+                    logger.error(f"API Error ({e.status_code}) on last attempt. Error: {e}. Exiting.")
+                    raise e
+        except Exception as e:
+            logger.error(f"An unexpected error occurred: {e}. Exiting.")
+            raise e
     return response.output_text
 
 async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, json_object=None):
@@ -349,44 +350,42 @@ async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, js
             await asyncio.sleep(1)  # brief pause before returning the response
             # if no exception, break the loop and return the response
             break
+        except APIStatusError as e:
+            if e.status_code == 400 and "json_validate_failed" in str(e.message):
+                if attempt < MAX_RETRIES - 1:
+                    logger.warning(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
+                    await asyncio.sleep(1)
+                    continue
+                else:
+                    logger.error(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                    raise e
+            elif e.status_code == 429:
+                if attempt < MAX_RETRIES - 1:
+                    wait_time = _parse_retry_after(str(e.message))
+                    logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                    await asyncio.sleep(wait_time)
+                    continue
+                else:
+                    logger.error(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                    raise e
+            elif e.status_code == 503:
+                if attempt < MAX_RETRIES - 1:
+                    logger.warning(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
+                    await asyncio.sleep(1200)
+                    continue
+                else:
+                    logger.error(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                    raise e
         except Exception as e:
-            # API errors
-            if isinstance(e, APIStatusError):
-                if e.status_code == 400 and "json_validate_failed" in str(e.message):
-                    if attempt < MAX_RETRIES - 1:
-                        print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
-                        await asyncio.sleep(1)
-                        continue
-                    else:
-                        print(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
-                elif e.status_code == 429:
-                    if attempt < MAX_RETRIES - 1:
-                        wait_time = _parse_retry_after(str(e.message))
-                        print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
-                        await asyncio.sleep(wait_time)
-                        continue
-                    else:
-                        print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
-                if e.status_code == 503:
-                    if attempt < MAX_RETRIES - 1:
-                        print(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
-                        await asyncio.sleep(1200)
-                        continue
-                    else:
-                        print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)  
-            # some other error
-            else:
-                print(f"An unexpected error occurred: {e}. Exiting.")
-                sys.exit(1)
+            logger.error(f"An unexpected error occurred: {e}. Exiting.")
+            raise e
     
     return response.choices[0].message.content
 
 # TODO: update the synchronous version to match the async one
 # TODO: create a sync openai_inference function 
 def groq_inference(client, body, task=None):
+    return DeprecationWarning("Synchronous Groq inference is deprecated. Please use the asynchronous version 'groq_inference_async' instead.")
     MAX_RETRIES = 10
     if task == "ner":
         system_content = _static_header()
@@ -425,33 +424,33 @@ def groq_inference(client, body, task=None):
             if isinstance(e, APIStatusError):
                 if e.status_code == 400 and "json_validate_failed" in str(e.message):
                     if attempt < MAX_RETRIES - 1:
-                        print(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
+                        logger.warning(f"Retrying API call. Attempt {attempt + 1} of {MAX_RETRIES} due to JSON validation error.")
                         time.sleep(1)
                         continue
                     else:
-                        print(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
+                        logger.error(f"JSON validation error on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        raise e
                 elif e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
                         wait_time = _parse_retry_after(str(e.message))
-                        print(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
+                        logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
                         time.sleep(wait_time)
                         continue
                     else:
-                        print(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
+                        logger.error(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        raise e
                 if e.status_code == 503:
                     if attempt < MAX_RETRIES - 1:
-                        print(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
+                        logger.warning(f"Service unavailable. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after 1200s.")
                         time.sleep(1200)
                         continue
                     else:
-                        print(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
-                        sys.exit(1)
+                        logger.error(f"Service unavailable on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
+                        raise e
             # some other error
             else:
-                print(f"An unexpected error occurred: {e}. Exiting.")
-                sys.exit(1)
+                logger.error(f"An unexpected error occurred: {e}. Exiting.")
+                raise e
     
     return response.choices[0].message.content
 

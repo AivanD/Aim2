@@ -28,119 +28,89 @@ from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
-def _parse_openai_retry_after(error_message: str) -> float:
-    """Parses the retry-after time from an OpenAI API error message."""
-    match = re.search(r"Please try again in ([\d.]+)s", error_message)
-    if match:
-        return float(match.group(1)) + 0.1  # Add a small buffer
-    return 10.0  # Default to 10 seconds if parsing fails
-
 async def process_passage_for_ner(semaphore, body, client):
     """Helper function to process a single passage with semaphore and retry logic."""
     async with semaphore:
-        body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
-        for attempt in range(5):  # Retry up to 5 times
-            try:
-                # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body,
-                    task='ner',
-                    API_MODEL=GPT_MODEL_NER,
-                    json_object=SimpleExtractedEntities
-                )
-                return result
+        try:
+            body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
+            # OPTION 1: OPENAI inference
+            result = await gpt_inference_async(
+                client,
+                body,
+                task='ner',
+                API_MODEL=GPT_MODEL_NER,
+                json_object=SimpleExtractedEntities
+            )
+            return result
 
-                # OPTION 2: GROQ inference (async)
-                # does not support "json_object" param for Llama 3.3 or older
-                # result = await groq_inference_async(
-                #     client,
-                #     body,
-                #     API_MODEL=GROQ_MODEL,
-                #     task='ner', 
-                #     json_object=SimpleExtractedEntities
-                # )
-                # return result
-            
-            except RateLimitError as e:
-                wait_time = _parse_openai_retry_after(str(e))
-                logging.warning(f"Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
-                await asyncio.sleep(wait_time)
-            
-            except Exception as e:
-                logging.error(f"An unexpected error occurred while processing a passage: {e}")
-                return None # Or handle as appropriate
-
-        logging.error("Passage failed after multiple retries due to rate limiting.")
-        return None
+            # OPTION 2: GROQ inference (async)
+            # does not support "json_object" param for Llama 3.3 or older
+            # result = await groq_inference_async(
+            #     client,
+            #     body,
+            #     API_MODEL=GROQ_MODEL,
+            #     task='ner', 
+            #     json_object=SimpleExtractedEntities
+            # )
+            # return result
+        except Exception as e:
+            logging.error(f"An unexpected error occurred while processing a passage: {e}")
+            return None # Or handle as appropriate
 
 async def process_pair_for_re(semaphore, body, client):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     async with semaphore:
-        body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
-        for attempt in range(5):
-            try:
-                # OPTION 1: OPENAI inference
-                # result = await gpt_inference_async(
-                #     client,
-                #     body,
-                #     task='re',
-                #     API_MODEL=GPT_MODEL_NER,
-                #     json_object=SimpleRelation
-                # )
-                # return result
-                # # OPTION 2: GROQ inference (async)
-                result = await groq_inference_async(
-                    client, 
-                    body, 
-                    task='re', 
-                    API_MODEL=GROQ_MODEL,
-                    json_object=SimpleRelation
-                )
-                return result
-            except RateLimitError as e:
-                wait_time = _parse_openai_retry_after(str(e))
-                logging.warning(f"RE Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
-                await asyncio.sleep(wait_time)
-            except Exception as e:
-                logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
-                return None
-        logging.error("Relation extraction for a pair failed after multiple retries.")
-        return None
+        try:
+            body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
+            # OPTION 1: OPENAI inference
+            # result = await gpt_inference_async(
+            #     client,
+            #     body,
+            #     task='re',
+            #     API_MODEL=GPT_MODEL_NER,
+            #     json_object=SimpleRelation
+            # )
+            # return result
+
+            # # OPTION 2: GROQ inference (async)
+            result = await groq_inference_async(
+                client, 
+                body, 
+                task='re', 
+                API_MODEL=GROQ_MODEL,
+                json_object=SimpleRelation
+            )
+            return result
+        except Exception as e:
+            logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
+            return None
 
 async def process_for_re_evaluation(semaphore, body, client):
     async with semaphore:
-        body = make_re_evaluation_prompt_body_only(body)
-        for attempt in range(5):  # Retry up to 5 times
-            try:
-                # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body=body,
-                    task='re-self-eval',
-                    API_MODEL="gpt-5-mini",
-                    json_object=SelfEvaluationResult
-                )
-                return result
-                            
-                # # OPTION 2: GROQ inference (async)
-                # result = await groq_inference_async(
-                #     client,
-                #     body, 
-                #     task='re-self-eval', 
-                #     API_MODEL="openai/gpt-oss-120b",
-                #     json_object=SelfEvaluationResult
-                # )
-                # return result      
-            except RateLimitError as e:
-                wait_time = _parse_openai_retry_after(str(e))
-                logging.warning(f"RE Evaluation Rate limit hit. Retrying in {wait_time:.2f}s (Attempt {attempt + 1}/5)")
-                await asyncio.sleep(wait_time)      
-            except Exception as e:
-                logging.error(f"An unexpected error occurred while processing a passage: {e}")
-                return None # Or handle as appropriate
-        logging.error("Re-evaluation failed after multiple retries.")
-        return None
+        try:
+            body = make_re_evaluation_prompt_body_only(body)
+            # OPTION 1: OPENAI inference
+            result = await gpt_inference_async(
+                client,
+                body=body,
+                task='re-self-eval',
+                API_MODEL="gpt-5-mini",
+                json_object=SelfEvaluationResult
+            )
+            return result
+                        
+            # # OPTION 2: GROQ inference (async)
+            # result = await groq_inference_async(
+            #     client,
+            #     body, 
+            #     task='re-self-eval', 
+            #     API_MODEL="openai/gpt-oss-120b",
+            #     json_object=SelfEvaluationResult
+            # )
+            # return result           
+        except Exception as e:
+            logging.error(f"An unexpected error occurred while processing a passage: {e}")
+            return None # Or handle as appropriate
 
 async def amain():
     ensure_dirs()
