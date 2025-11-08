@@ -18,6 +18,18 @@ from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_p
 
 logger = logging.getLogger(__name__)
 
+def _get_retry_after(response) -> int:
+    """Extracts the 'Retry-After' duration from an HTTP response object."""
+    retry_after_header = response.headers.get("retry-after")
+    if retry_after_header is not None:
+        try:
+            # The header value is usually in seconds.
+            wait_time = int(float(retry_after_header))
+            return wait_time + 2  # Add a 2-second buffer to be safe
+        except ValueError:
+            pass
+    return 60 # Default to 60 seconds
+
 def _parse_retry_after(error_message: str) -> int:
     """Parses the retry-after time from a Groq API error message."""
     match = re.search(r"try again in (?:(\d+)h)?(?:(\d+)m)?(?:([\d.]+)s)?", error_message)
@@ -132,7 +144,8 @@ def load_openai_client_async():
     """
     try: 
         client = openai.AsyncOpenAI(
-            api_key=OPENAI_API_KEY
+            api_key=OPENAI_API_KEY,
+            max_retries=0, # we handle retries ourselves
         )
     except Exception as e:
         raise RuntimeError(f"Error initializing OpenAI client: {e}")
@@ -163,7 +176,8 @@ def load_groq_client_async():
     """
     try: 
         client = AsyncGroq(
-            api_key=GROQ_API_KEY
+            api_key=GROQ_API_KEY,
+            max_retries=0,  # we handle retries ourselves
         )
     except Exception as e:
         raise RuntimeError(f"Error initializing Async Groq client: {e}")
@@ -249,7 +263,7 @@ async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, 
             break
         except RateLimitError as e: 
             if attempt < MAX_RETRIES - 1:
-                wait_time = _parse_retry_after(str(e))
+                wait_time = _get_retry_after(e.response)
                 logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
                 await asyncio.sleep(wait_time)
                 continue
@@ -361,7 +375,7 @@ async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, js
                     raise e
             elif e.status_code == 429:
                 if attempt < MAX_RETRIES - 1:
-                    wait_time = _parse_retry_after(str(e.message))
+                    wait_time = _get_retry_after(e.response)
                     logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
                     await asyncio.sleep(wait_time)
                     continue
@@ -432,7 +446,7 @@ def groq_inference(client, body, task=None):
                         raise e
                 elif e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
-                        wait_time = _parse_retry_after(str(e.message))
+                        wait_time = _get_retry_after(e.response)
                         logger.warning(f"Rate limit exceeded. Attempt {attempt + 1} of {MAX_RETRIES}. Retrying after a delay of {wait_time}s.")
                         time.sleep(wait_time)
                         continue
