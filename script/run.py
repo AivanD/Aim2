@@ -8,8 +8,10 @@ from vllm import SamplingParams
 from vllm.sampling_params import StructuredOutputsParams
 import time
 import asyncio
+from tqdm.asyncio import tqdm
 from openai import RateLimitError
 import re
+import pydantic
 
 from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem
 from aim2.postprocessing.merger import merge_and_deduplicate, merge_entities_by_abbreviation
@@ -28,6 +30,7 @@ from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
+# TODO: add retry logic when validation error happens
 async def process_passage_for_ner(semaphore, body, client):
     """Helper function to process a single passage with semaphore and retry logic."""
     async with semaphore:
@@ -57,6 +60,7 @@ async def process_passage_for_ner(semaphore, body, client):
             logging.error(f"An unexpected error occurred while processing a passage: {e}")
             return None # Or handle as appropriate
 
+# TODO: add retry logic when validation error happens
 async def process_pair_for_re(semaphore, body, client):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     async with semaphore:
@@ -86,31 +90,44 @@ async def process_pair_for_re(semaphore, body, client):
             return None
 
 async def process_for_re_evaluation(semaphore, body, client):
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
+    
     async with semaphore:
-        try:
-            body = make_re_evaluation_prompt_body_only(body)
-            # OPTION 1: OPENAI inference
-            result = await gpt_inference_async(
-                client,
-                body=body,
-                task='re-self-eval',
-                API_MODEL="gpt-5-mini",
-                json_object=SelfEvaluationResult
-            )
-            return result
-                        
-            # # OPTION 2: GROQ inference (async)
-            # result = await groq_inference_async(
-            #     client,
-            #     body, 
-            #     task='re-self-eval', 
-            #     API_MODEL="openai/gpt-oss-120b",
-            #     json_object=SelfEvaluationResult
-            # )
-            # return result           
-        except Exception as e:
-            logging.error(f"An unexpected error occurred while processing a passage: {e}")
-            return None # Or handle as appropriate
+        for attempt in range(5):
+            try:
+                body = make_re_evaluation_prompt_body_only(body)
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body=body,
+                    task='re-self-eval',
+                    API_MODEL="gpt-5-mini",
+                    json_object=SelfEvaluationResult
+                )                        
+                # # OPTION 2: GROQ inference (async)
+                # result = await groq_inference_async(
+                #     client,
+                #     body, 
+                #     task='re-self-eval', 
+                #     API_MODEL="openai/gpt-oss-120b",
+                #     json_object=SelfEvaluationResult
+                # )
+
+                # Validate the result immediately.
+                validated_result = SelfEvaluationResult.model_validate_json(result)
+
+                return result 
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid self-evaluation result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
 
 async def amain():
     ensure_dirs()
@@ -194,7 +211,7 @@ async def amain():
 
                 # wait for all tasks to complete and get their results
                 logger.info(f"Waiting for {len(tasks)} tasks to complete...")
-                results = await asyncio.gather(*tasks)
+                results = await tqdm.gather(*tasks, desc="Processing passages")
 
                 # # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # comment the API async part as well as the "results await line above" before using local inference
@@ -393,7 +410,7 @@ async def amain():
                 
                 # Execute all API calls concurrently
                 logger.info(f"Starting relation extraction for {len(prompts_re)} **VALID** pairs...")
-                # re_results = await asyncio.gather(*tasks)
+                # re_results = await tqdm.gather(*tasks, desc="Extracting relations")
 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # comment the API async part as well as the "re_results await line above" before using local inference
@@ -488,7 +505,7 @@ async def amain():
 
                 # Wait for all tasks to complete and get their results
                 logger.info(f"Waiting for {len(tasks)} self-evaluation tasks to complete...")
-                self_evaluation_results = await asyncio.gather(*tasks)
+                self_evaluation_results = await tqdm.gather(*tasks, desc="Self-evaluating relations")
                 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # structured_re_evaluation_params = StructuredOutputsParams(json=SelfEvaluationResult.model_json_schema())
@@ -502,6 +519,10 @@ async def amain():
 
                 for i, self_eval_result_json in enumerate(self_evaluation_results):
                     try:
+                        if self_eval_result_json is None:
+                            logger.error(f"Self-evaluation for relation index {i} failed after retries.")
+                            continue
+
                         # self_evaluation = SelfEvaluationResult.model_validate_json(val_result_json[0])   # if using local model
                         self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
                         if self_evaluation.decision == "yes":
