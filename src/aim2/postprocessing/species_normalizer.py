@@ -108,18 +108,16 @@ def normalize_species_with_ncbi(processed_results: List[Dict[str, Any]], MAX_ATT
                     if suggestions:
                         top_suggestion = suggestions[0]
                         tax_id = top_suggestion.get("tax_id")
-                        normalized_name = top_suggestion.get("sci_name")
                         
-                        if tax_id and normalized_name:
+                        if tax_id:
                             update_data = {
                                 "taxonomy_id": int(tax_id),
-                                "normalized_name": normalized_name
                             }
                             species_entity.update(update_data)
                             species_cache[name_to_query] = update_data # Cache success
-                            logger.debug(f"Normalized '{original_name}' -> '{name_to_query}' to '{normalized_name}' (TaxID: {tax_id})")
+                            logger.debug(f"Normalized '{original_name}' -> '{name_to_query}' (TaxID: {tax_id})")
                         else:
-                            logger.warning(f"Found suggestion for '{name_to_query}' but it lacked a tax_id or sci_name.")
+                            logger.warning(f"Found suggestion for '{name_to_query}' but it lacked a tax_id.")
                             species_cache[name_to_query] = None # Cache failure
                     else:
                         logger.warning(f"Could not find NCBI Taxonomy entry for species: '{name_to_query}'")
