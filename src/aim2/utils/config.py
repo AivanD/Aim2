@@ -43,6 +43,7 @@ PATHWAYS_PMN    = DATA_DIR / "All-pathways-of-PlantCyc.txt"
 HF_TOKEN        = os.getenv("HF_TOKEN")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY")
+NCBI_API_KEY    = os.getenv("NCBI_API_KEY", "")
 
 GROQ_MODEL              = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 GROQ_MODEL_RE_EVAL      = os.getenv("GROQ_MODEL_RE_EVAL", "openai/gpt-oss-120b")
