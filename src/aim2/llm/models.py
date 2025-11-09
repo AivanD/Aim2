@@ -270,7 +270,7 @@ async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, 
             else:
                 logger.error(f"Rate limit exceeded on last attempt ({attempt + 1}/{MAX_RETRIES}). Error: {e}. Exiting.")
                 raise e
-        except APIStatusError as e:
+        except openai.APIStatusError as e:
             if e.status_code == 400: # Bad request, potentially a schema issue
                 if attempt < MAX_RETRIES - 1:
                     logger.warning(f"API Error (400): {e}. Retrying... ({attempt + 1}/{MAX_RETRIES})")
