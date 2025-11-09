@@ -18,6 +18,10 @@ compounds: l-dopa
 compounds: phenylalanine
 compounds: protocatechuate
 compounds: tyrosine
+experimental_conditions: agroinfiltration
+experimental_conditions: heterologous assay
+experimental_conditions: heterologous transient assays
+experimental_conditions: stable transgenics
 genes: adhalpha
 genes: arogenate dehydrogenase
 genes: bvcyp76ad1
@@ -66,6 +70,7 @@ pathways: betalain synthesis
 pathways: betalamic acid biosynthesis
 pathways: caffeine biosynthesis
 pathways: flavonoid pathway
+plant_traits: anthocyanin pigmentation
 plant_traits: betalain pigmentation
 species: a. hypochondriacus
 species: amaranthus hypochondriacus
