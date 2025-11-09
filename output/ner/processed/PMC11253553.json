@@ -75,21 +75,6 @@
 			"alt_names": ["jasmonate"]
 		},
 		{
-			"name": "jasmonates",
-			"spans": [
-				[1502, 1512],
-				[4005, 4018],
-				[47405, 47415],
-				[47848, 47858],
-				[48113, 48123],
-				[49527, 49537]
-			],
-			"ontology_id": "CHEMONTID:0000512",
-			"normalized_name": "Jasmonic acids",
-			"score": 0.9016826152801514,
-			"alt_names": ["jasmonic acid"]
-		},
-		{
 			"name": "JA-Ile",
 			"spans": [
 				[1620, 1626],
@@ -103,25 +88,19 @@
 			]
 		},
 		{
-			"name": "abscisic acid",
+			"name": "jasmonates",
 			"spans": [
-				[4132, 4145],
-				[4147, 4150]
+				[1502, 1512],
+				[4005, 4018],
+				[47405, 47415],
+				[47848, 47858],
+				[48113, 48123],
+				[49527, 49537]
 			],
-			"CID": 5280896,
-			"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
-			"InChIKey": "JLIDBLDQVAYHNE-YKALOCIXSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Apocarotenoids(\u03b5-)"],
-				"Np_superclass": ["Apocarotenoids"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Prenol lipids",
-				"Subclass": "Sesquiterpenoids"
-			},
-			"alt_names": ["ABA"]
+			"ontology_id": "CHEMONTID:0000512",
+			"normalized_name": "Jasmonic acids",
+			"score": 0.9016826152801514,
+			"alt_names": ["jasmonic acid"]
 		},
 		{
 			"name": "salicylic acid",
@@ -161,10 +140,6 @@
 			"alt_names": ["ROS"]
 		},
 		{
-			"name": "auxins",
-			"spans": [[4156, 4162]]
-		},
-		{
 			"name": "IAA",
 			"spans": [[4164, 4167]],
 			"CID": 802,
@@ -180,6 +155,31 @@
 				"Class": "Indoles and derivatives",
 				"Subclass": "Indoles"
 			}
+		},
+		{
+			"name": "abscisic acid",
+			"spans": [
+				[4132, 4145],
+				[4147, 4150]
+			],
+			"CID": 5280896,
+			"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+			"InChIKey": "JLIDBLDQVAYHNE-YKALOCIXSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Apocarotenoids(\u03b5-)"],
+				"Np_superclass": ["Apocarotenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Sesquiterpenoids"
+			},
+			"alt_names": ["ABA"]
+		},
+		{
+			"name": "auxins",
+			"spans": [[4156, 4162]]
 		},
 		{
 			"name": "phenolics",
@@ -200,6 +200,13 @@
 			]
 		},
 		{
+			"name": "flavonoids",
+			"spans": [[6408, 6418]],
+			"ontology_id": "CHEMONTID:0000334",
+			"normalized_name": "Flavonoids",
+			"score": 1.0
+		},
+		{
 			"name": "ss-caryophyllene",
 			"spans": [[6960, 6976]],
 			"CID": 5281522,
@@ -215,13 +222,6 @@
 				"Class": "Prenol lipids",
 				"Subclass": "Sesquiterpenoids"
 			}
-		},
-		{
-			"name": "flavonoids",
-			"spans": [[6408, 6418]],
-			"ontology_id": "CHEMONTID:0000334",
-			"normalized_name": "Flavonoids",
-			"score": 1.0
 		},
 		{
 			"name": "MeJA",
@@ -252,34 +252,14 @@
 			"spans": [[32468, 32475]]
 		},
 		{
-			"name": "fructose",
+			"name": "galactose",
 			"spans": [
-				[36910, 36918],
-				[37765, 37773]
+				[36929, 36938],
+				[37784, 37793]
 			],
-			"CID": 2723872,
-			"SMILES": "C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
-			"InChIKey": "LKDRXBCSQODPBY-VRPWFDPXSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Monosaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
-			}
-		},
-		{
-			"name": "glucose",
-			"spans": [
-				[36920, 36927],
-				[37775, 37782]
-			],
-			"CID": 5793,
-			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-			"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+			"CID": 6036,
+			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+			"InChIKey": "WQZGKKKJIJFFOK-SVZMEOIVSA-N",
 			"Natural_product_class": {
 				"Np_class": [
 					"Disaccharides",
@@ -288,48 +268,6 @@
 					"Polysaccharides"
 				],
 				"Np_superclass": ["Saccharides", "Flavonoids"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
-			}
-		},
-		{
-			"name": "sucrose",
-			"spans": [
-				[36970, 36977],
-				[37828, 37835],
-				[47448, 47453]
-			],
-			"CID": 5988,
-			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
-			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Ethers"
-			},
-			"alt_names": ["sugar"]
-		},
-		{
-			"name": "sorbitol",
-			"spans": [
-				[36960, 36968],
-				[37815, 37823]
-			],
-			"CID": 5780,
-			"SMILES": "C([C@H]([C@H]([C@@H]([C@H](CO)O)O)O)O)O",
-			"InChIKey": "FBPFZTCFMRRESA-JGWLITMVSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Monosaccharides"],
-				"Np_superclass": ["Saccharides"]
 			},
 			"Classyfire": {
 				"Kingdom": "Organic compounds",
@@ -379,14 +317,56 @@
 			}
 		},
 		{
-			"name": "galactose",
+			"name": "sorbitol",
 			"spans": [
-				[36929, 36938],
-				[37784, 37793]
+				[36960, 36968],
+				[37815, 37823]
 			],
-			"CID": 6036,
-			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
-			"InChIKey": "WQZGKKKJIJFFOK-SVZMEOIVSA-N",
+			"CID": 5780,
+			"SMILES": "C([C@H]([C@H]([C@@H]([C@H](CO)O)O)O)O)O",
+			"InChIKey": "FBPFZTCFMRRESA-JGWLITMVSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "sucrose",
+			"spans": [
+				[36970, 36977],
+				[37828, 37835],
+				[47448, 47453]
+			],
+			"CID": 5988,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
+			},
+			"alt_names": ["sugar"]
+		},
+		{
+			"name": "glucose",
+			"spans": [
+				[36920, 36927],
+				[37775, 37782]
+			],
+			"CID": 5793,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+			"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
 			"Natural_product_class": {
 				"Np_class": [
 					"Disaccharides",
@@ -401,6 +381,46 @@
 				"Superclass": "Organic oxygen compounds",
 				"Class": "Organooxygen compounds",
 				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "fructose",
+			"spans": [
+				[36910, 36918],
+				[37765, 37773]
+			],
+			"CID": 2723872,
+			"SMILES": "C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
+			"InChIKey": "LKDRXBCSQODPBY-VRPWFDPXSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "alpha-chaconine",
+			"spans": [
+				[38765, 38780],
+				[39417, 39432]
+			],
+			"CID": 442971,
+			"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+			"InChIKey": "TYNQWWGVEGFKRU-AJDPQWBVSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal glycosides"
 			}
 		},
 		{
@@ -424,24 +444,12 @@
 			}
 		},
 		{
-			"name": "alpha-chaconine",
+			"name": "SGAs",
 			"spans": [
-				[38765, 38780],
-				[39417, 39432]
-			],
-			"CID": 442971,
-			"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
-			"InChIKey": "TYNQWWGVEGFKRU-AJDPQWBVSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Steroidal alkaloids"],
-				"Np_superclass": ["Pseudoalkaloids"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Steroids and steroid derivatives",
-				"Subclass": "Steroidal glycosides"
-			}
+				[47461, 47465],
+				[47860, 47864],
+				[48507, 48511]
+			]
 		},
 		{
 			"name": "soluble sugars",
@@ -472,14 +480,6 @@
 			}
 		},
 		{
-			"name": "SGAs",
-			"spans": [
-				[47461, 47465],
-				[47860, 47864],
-				[48507, 48511]
-			]
-		},
-		{
 			"name": "methyl jasmonate",
 			"spans": [[48711, 48727]],
 			"CID": 5281929,
@@ -497,8 +497,8 @@
 			}
 		},
 		{
-			"name": "polyphenol oxidase",
-			"spans": [[50353, 50371]]
+			"name": "soluble sugar",
+			"spans": [[49609, 49622]]
 		},
 		{
 			"name": "glucosinolates",
@@ -508,8 +508,8 @@
 			"score": 0.9999997615814209
 		},
 		{
-			"name": "soluble sugar",
-			"spans": [[49609, 49622]]
+			"name": "polyphenol oxidase",
+			"spans": [[50353, 50371]]
 		},
 		{
 			"name": "secondary compounds",
@@ -522,6 +522,15 @@
 	],
 	"genes": [
 		{
+			"name": "irAOC",
+			"spans": [
+				[1598, 1603],
+				[39798, 39803],
+				[40643, 40648],
+				[51077, 51082]
+			]
+		},
+		{
 			"name": "irCYP94B3s",
 			"spans": [
 				[1637, 1647],
@@ -533,36 +542,16 @@
 			]
 		},
 		{
-			"name": "irAOC",
-			"spans": [
-				[1598, 1603],
-				[39798, 39803],
-				[40643, 40648],
-				[51077, 51082]
-			]
+			"name": "MYC2",
+			"spans": [[35103, 35107]]
 		},
 		{
-			"name": "AOC",
-			"spans": [
-				[35036, 35039],
-				[35265, 35268]
-			]
+			"name": "PKT",
+			"spans": [[35064, 35067]]
 		},
 		{
-			"name": "MFP2",
-			"spans": [[35058, 35062]]
-		},
-		{
-			"name": "JAZ",
-			"spans": [[35098, 35101]]
-		},
-		{
-			"name": "JAR",
-			"spans": [[35093, 35096]]
-		},
-		{
-			"name": "OPR",
-			"spans": [[35041, 35044]]
+			"name": "ACX",
+			"spans": [[35053, 35056]]
 		},
 		{
 			"name": "LOX",
@@ -572,14 +561,6 @@
 			]
 		},
 		{
-			"name": "PKT",
-			"spans": [[35064, 35067]]
-		},
-		{
-			"name": "MYC2",
-			"spans": [[35103, 35107]]
-		},
-		{
 			"name": "AOS",
 			"spans": [
 				[35031, 35034],
@@ -587,12 +568,49 @@
 			]
 		},
 		{
-			"name": "ACX",
-			"spans": [[35053, 35056]]
-		},
-		{
 			"name": "OPCL1",
 			"spans": [[35046, 35051]]
+		},
+		{
+			"name": "MFP2",
+			"spans": [[35058, 35062]]
+		},
+		{
+			"name": "AOC",
+			"spans": [
+				[35036, 35039],
+				[35265, 35268]
+			]
+		},
+		{
+			"name": "OPR",
+			"spans": [[35041, 35044]]
+		},
+		{
+			"name": "JAR",
+			"spans": [[35093, 35096]]
+		},
+		{
+			"name": "JAZ",
+			"spans": [[35098, 35101]]
+		},
+		{
+			"name": "IDH",
+			"spans": [
+				[36440, 36443],
+				[36678, 36681]
+			]
+		},
+		{
+			"name": "FH",
+			"spans": [[36472, 36474]]
+		},
+		{
+			"name": "DLST",
+			"spans": [
+				[36456, 36460],
+				[36694, 36698]
+			]
 		},
 		{
 			"name": "ACO",
@@ -602,8 +620,25 @@
 			]
 		},
 		{
-			"name": "FH",
-			"spans": [[36472, 36474]]
+			"name": "SDS",
+			"spans": [
+				[36462, 36465],
+				[36700, 36703]
+			]
+		},
+		{
+			"name": "DLD",
+			"spans": [
+				[36451, 36454],
+				[36689, 36692]
+			]
+		},
+		{
+			"name": "OGDC",
+			"spans": [
+				[36445, 36449],
+				[36683, 36687]
+			]
 		},
 		{
 			"name": "MDH",
@@ -620,13 +655,6 @@
 			]
 		},
 		{
-			"name": "SDS",
-			"spans": [
-				[36462, 36465],
-				[36700, 36703]
-			]
-		},
-		{
 			"name": "SDH",
 			"spans": [
 				[36467, 36470],
@@ -634,44 +662,36 @@
 			]
 		},
 		{
-			"name": "OGDC",
-			"spans": [
-				[36445, 36449],
-				[36683, 36687]
-			]
-		},
-		{
-			"name": "DLST",
-			"spans": [
-				[36456, 36460],
-				[36694, 36698]
-			]
-		},
-		{
-			"name": "IDH",
-			"spans": [
-				[36440, 36443],
-				[36678, 36681]
-			]
-		},
-		{
-			"name": "DLD",
-			"spans": [
-				[36451, 36454],
-				[36689, 36692]
-			]
-		},
-		{
 			"name": "SQS",
 			"spans": [[38394, 38397]]
+		},
+		{
+			"name": "SGT2",
+			"spans": [[38446, 38450]]
+		},
+		{
+			"name": "SGT1",
+			"spans": [[38440, 38444]]
+		},
+		{
+			"name": "CAS",
+			"spans": [[38399, 38402]]
+		},
+		{
+			"name": "GAME",
+			"spans": [[38434, 38438]]
+		},
+		{
+			"name": "SSR2",
+			"spans": [[38404, 38408]]
 		},
 		{
 			"name": "HMGR",
 			"spans": [[38382, 38386]]
 		},
 		{
-			"name": "GAME",
-			"spans": [[38434, 38438]]
+			"name": "FPPS",
+			"spans": [[38388, 38392]]
 		},
 		{
 			"name": "TPI",
@@ -680,26 +700,6 @@
 				[38479, 38482],
 				[38674, 38677]
 			]
-		},
-		{
-			"name": "SGT1",
-			"spans": [[38440, 38444]]
-		},
-		{
-			"name": "SGT2",
-			"spans": [[38446, 38450]]
-		},
-		{
-			"name": "FPPS",
-			"spans": [[38388, 38392]]
-		},
-		{
-			"name": "SSR2",
-			"spans": [[38404, 38408]]
-		},
-		{
-			"name": "CAS",
-			"spans": [[38399, 38402]]
 		},
 		{
 			"name": "StCYP94B3s",
@@ -838,16 +838,12 @@
 	],
 	"experimental_conditions": [
 		{
-			"name": "herbivory alone",
-			"spans": [[923, 938]]
+			"name": "co-stressed by high temperature and insect herbivory",
+			"spans": [[839, 891]]
 		},
 		{
 			"name": "high temperature treatments",
 			"spans": [[962, 989]]
-		},
-		{
-			"name": "co-stressed by high temperature and insect herbivory",
-			"spans": [[839, 891]]
 		},
 		{
 			"name": "herbivory",
@@ -892,6 +888,14 @@
 			]
 		},
 		{
+			"name": "pre-stressed by herbivory alone",
+			"spans": [[907, 938]]
+		},
+		{
+			"name": "herbivory alone",
+			"spans": [[923, 938]]
+		},
+		{
 			"name": "high temperature",
 			"spans": [
 				[495, 511],
@@ -926,23 +930,8 @@
 			]
 		},
 		{
-			"name": "pre-stressed by herbivory alone",
-			"spans": [[907, 938]]
-		},
-		{
-			"name": "carbon dioxide",
-			"spans": [[2293, 2307]]
-		},
-		{
 			"name": "radiation",
 			"spans": [[2335, 2344]]
-		},
-		{
-			"name": "climate change",
-			"spans": [
-				[2539, 2553],
-				[2674, 2688]
-			]
 		},
 		{
 			"name": "drought",
@@ -958,6 +947,17 @@
 			]
 		},
 		{
+			"name": "climate change",
+			"spans": [
+				[2539, 2553],
+				[2674, 2688]
+			]
+		},
+		{
+			"name": "carbon dioxide",
+			"spans": [[2293, 2307]]
+		},
+		{
 			"name": "heat waves",
 			"spans": [
 				[2717, 2727],
@@ -969,10 +969,6 @@
 				[7298, 7308],
 				[41758, 41768]
 			]
-		},
-		{
-			"name": "warmer years",
-			"spans": [[3254, 3266]]
 		},
 		{
 			"name": "high temperatures",
@@ -989,8 +985,8 @@
 			]
 		},
 		{
-			"name": "abiotic stresses",
-			"spans": [[6025, 6041]]
+			"name": "warmer years",
+			"spans": [[3254, 3266]]
 		},
 		{
 			"name": "herbivores",
@@ -1000,8 +996,16 @@
 			]
 		},
 		{
+			"name": "abiotic stresses",
+			"spans": [[6025, 6041]]
+		},
+		{
 			"name": "transient increase in temperature",
 			"spans": [[7310, 7343]]
+		},
+		{
+			"name": "HT treatment chambers",
+			"spans": [[11643, 11664]]
 		},
 		{
 			"name": "CT condition",
@@ -1013,10 +1017,6 @@
 				[11457, 11473],
 				[51313, 51329]
 			]
-		},
-		{
-			"name": "HT treatment chambers",
-			"spans": [[11643, 11664]]
 		},
 		{
 			"name": "control temperature",
@@ -1108,14 +1108,6 @@
 			]
 		},
 		{
-			"name": "MeJA-treated",
-			"spans": [
-				[31380, 31392],
-				[31604, 31616],
-				[32481, 32493]
-			]
-		},
-		{
 			"name": "JA-reduced",
 			"spans": [[31362, 31372]]
 		},
@@ -1124,6 +1116,14 @@
 			"spans": [
 				[31622, 31631],
 				[32457, 32466]
+			]
+		},
+		{
+			"name": "MeJA-treated",
+			"spans": [
+				[31380, 31392],
+				[31604, 31616],
+				[32481, 32493]
 			]
 		},
 		{
@@ -1159,20 +1159,20 @@
 			"spans": [[42220, 42236]]
 		},
 		{
-			"name": "elevated ambient temperatures",
-			"spans": [[42895, 42924]]
-		},
-		{
 			"name": "exposure to higher temperatures",
 			"spans": [[42105, 42136]]
+		},
+		{
+			"name": "transient increase in environmental temperature",
+			"spans": [[41776, 41823]]
 		},
 		{
 			"name": "transiently exposing potato plants to extreme temperatures",
 			"spans": [[42416, 42474]]
 		},
 		{
-			"name": "transient increase in environmental temperature",
-			"spans": [[41776, 41823]]
+			"name": "elevated ambient temperatures",
+			"spans": [[42895, 42924]]
 		},
 		{
 			"name": "different stresses",
@@ -1186,19 +1186,19 @@
 			"spans": [[43372, 43427]]
 		},
 		{
-			"name": "control",
-			"spans": [[44353, 44360]],
-			"ontology_id": "PECO:0001062",
-			"normalized_name": "control exposure",
-			"score": 0.9122663140296936
-		},
-		{
 			"name": "high temperature exposure",
 			"spans": [[45713, 45738]]
 		},
 		{
 			"name": "heat stress response",
 			"spans": [[45613, 45633]]
+		},
+		{
+			"name": "control",
+			"spans": [[44353, 44360]],
+			"ontology_id": "PECO:0001062",
+			"normalized_name": "control exposure",
+			"score": 0.9122663140296936
 		},
 		{
 			"name": "herbivore attack",
@@ -1235,12 +1235,12 @@
 			"spans": [[52937, 52955]]
 		},
 		{
-			"name": "detached leaf bioassay",
-			"spans": [[53768, 53790]]
-		},
-		{
 			"name": "1 h herbivory",
 			"spans": [[53838, 53851]]
+		},
+		{
+			"name": "detached leaf bioassay",
+			"spans": [[53768, 53790]]
 		},
 		{
 			"name": "global climate change",
@@ -1270,7 +1270,10 @@
 		},
 		{
 			"name": "kinase activity",
-			"spans": [[44600, 44615]]
+			"spans": [[44600, 44615]],
+			"ontology_id": "GO:0016301",
+			"normalized_name": "kinase activity",
+			"score": 1.0
 		},
 		{
 			"name": "photosynthesis parameters",
@@ -1282,6 +1285,13 @@
 		}
 	],
 	"plant_traits": [
+		{
+			"name": "plant-induced defense",
+			"spans": [
+				[1729, 1750],
+				[1837, 1858]
+			]
+		},
 		{
 			"name": "defense",
 			"spans": [
@@ -1301,23 +1311,12 @@
 			]
 		},
 		{
-			"name": "plant-induced defense",
-			"spans": [
-				[1729, 1750],
-				[1837, 1858]
-			]
-		},
-		{
 			"name": "herbivory-induced defensive responses",
 			"spans": [
 				[2193, 2230],
 				[2785, 2822],
 				[7358, 7395]
 			]
-		},
-		{
-			"name": "herbivory damage",
-			"spans": [[3234, 3250]]
 		},
 		{
 			"name": "temperature-sensitive",
@@ -1331,15 +1330,19 @@
 			"spans": [[3145, 3164]]
 		},
 		{
+			"name": "herbivory damage",
+			"spans": [[3234, 3250]]
+		},
+		{
+			"name": "defensive status",
+			"spans": [[4515, 4531]]
+		},
+		{
 			"name": "resistances against herbivore attack",
 			"spans": [[4536, 4572]],
 			"ontology_id": "TO:0006067",
 			"normalized_name": "aphid resistance",
 			"score": 0.7602829933166504
-		},
-		{
-			"name": "defensive status",
-			"spans": [[4515, 4531]]
 		},
 		{
 			"name": "induced defenses",
@@ -1356,12 +1359,12 @@
 			]
 		},
 		{
-			"name": "herbivory-responsive gene expression",
-			"spans": [[30997, 31033]]
-		},
-		{
 			"name": "herbivory response",
 			"spans": [[30062, 30080]]
+		},
+		{
+			"name": "herbivory-responsive gene expression",
+			"spans": [[30997, 31033]]
 		},
 		{
 			"name": "plant defense",
@@ -1404,6 +1407,10 @@
 			"spans": [[41947, 41964]]
 		},
 		{
+			"name": "plant defenses",
+			"spans": [[43039, 43053]]
+		},
+		{
 			"name": "defense responses",
 			"spans": [
 				[43586, 43603],
@@ -1411,10 +1418,6 @@
 				[46544, 46561],
 				[50956, 50973]
 			]
-		},
-		{
-			"name": "plant defenses",
-			"spans": [[43039, 43053]]
 		},
 		{
 			"name": "herbivory-induced defenses",
@@ -1425,6 +1428,13 @@
 			"spans": [[49975, 49997]]
 		},
 		{
+			"name": "host-plant quality",
+			"spans": [[52133, 52151]],
+			"ontology_id": "TO:0000387",
+			"normalized_name": "plant trait",
+			"score": 0.7542369365692139
+		},
+		{
 			"name": "increased sensitivity to attacks",
 			"spans": [[52218, 52250]]
 		},
@@ -1433,27 +1443,20 @@
 			"spans": [[52160, 52181]]
 		},
 		{
-			"name": "host-plant quality",
-			"spans": [[52133, 52151]],
-			"ontology_id": "TO:0000387",
-			"normalized_name": "plant trait",
-			"score": 0.7542369365692139
+			"name": "defense mechanism",
+			"spans": [[52021, 52038]]
 		},
 		{
 			"name": "decreased defensive compounds",
 			"spans": [[52183, 52212]]
 		},
 		{
-			"name": "defense mechanism",
-			"spans": [[52021, 52038]]
+			"name": "herbivore defense",
+			"spans": [[52714, 52731]]
 		},
 		{
 			"name": "resource allocation",
 			"spans": [[53107, 53126]]
-		},
-		{
-			"name": "herbivore defense",
-			"spans": [[52714, 52731]]
 		},
 		{
 			"name": "defense signaling activation",
@@ -1528,12 +1531,12 @@
 			"score": 0.8044727444648743
 		},
 		{
-			"name": "specialized metabolite biosynthesis",
-			"spans": [[46710, 46745]]
-		},
-		{
 			"name": "metabolites biosynthesis cascade",
 			"spans": [[46471, 46503]]
+		},
+		{
+			"name": "specialized metabolite biosynthesis",
+			"spans": [[46710, 46745]]
 		},
 		{
 			"name": "JA-signaling",

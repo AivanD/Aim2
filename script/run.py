@@ -198,6 +198,7 @@ async def amain():
     # process each files in the input folder
     start_time = time.time()
     for filename in os.listdir(INPUT_DIR):
+        start_paper_time = time.time()
         start_ner_time = time.time()
         if filename.endswith('.xml'):
             # define the input file and output file
@@ -570,9 +571,12 @@ async def amain():
 
             end_re_eval_time = time.time()
             logger.info(f"Relation evaluation time for {filename}: {end_re_eval_time - start_re_eval_time:.2f} seconds")
-            
+        
+        end_paper_time = time.time()
+        logger.info(f"Total processing time for {filename}: {end_paper_time - start_paper_time:.2f} seconds")
+
     end_time = time.time()
-    logger.info(f"Total processing time: {end_time - start_time:.2f} seconds")
+    logger.info(f"Total processing time for ALL papers in input/: {end_time - start_time:.2f} seconds")
 
 if __name__ == "__main__":
     asyncio.run(amain())
