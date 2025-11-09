@@ -1,0 +1,2458 @@
+{
+	"compounds": [
+		{
+			"name": "alpha-tomatine",
+			"spans": [
+				[190, 204],
+				[394, 408],
+				[2167, 2181],
+				[3210, 3224],
+				[3393, 3407],
+				[3565, 3579],
+				[3899, 3913],
+				[3987, 4001],
+				[4309, 4323],
+				[4415, 4429],
+				[4714, 4728],
+				[4813, 4827],
+				[5603, 5617],
+				[6108, 6122],
+				[6467, 6481],
+				[10978, 10992],
+				[12180, 12194],
+				[16511, 16525],
+				[16864, 16878],
+				[17702, 17716],
+				[18192, 18206],
+				[19868, 19882],
+				[23011, 23025],
+				[23697, 23711],
+				[26557, 26571],
+				[27936, 27950],
+				[29577, 29591],
+				[30039, 30053],
+				[31804, 31818],
+				[31992, 32006],
+				[32273, 32287],
+				[32513, 32527],
+				[32859, 32873],
+				[33056, 33070],
+				[33646, 33660],
+				[34073, 34087],
+				[34104, 34118],
+				[34272, 34286],
+				[34544, 34558],
+				[42461, 42475],
+				[42669, 42683],
+				[42920, 42934],
+				[43101, 43115],
+				[43497, 43511],
+				[43662, 43676],
+				[46331, 46345],
+				[46541, 46555],
+				[47800, 47814],
+				[48096, 48110],
+				[49007, 49021],
+				[49218, 49232],
+				[49338, 49352],
+				[49608, 49622]
+			],
+			"CID": 28523,
+			"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+			"InChIKey": "REJLGAUYTKNVJM-SGXCCWNXSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "Esculeoside A",
+			"spans": [
+				[442, 455],
+				[621, 634],
+				[920, 933],
+				[998, 1011],
+				[2648, 2661],
+				[2784, 2797],
+				[3628, 3641],
+				[4099, 4112],
+				[4255, 4268],
+				[4434, 4447],
+				[5045, 5058],
+				[5299, 5312],
+				[5983, 5996],
+				[6129, 6142],
+				[6530, 6543],
+				[6705, 6718],
+				[6788, 6801],
+				[7513, 7526],
+				[8055, 8068],
+				[8799, 8812],
+				[12101, 12114],
+				[12234, 12247],
+				[12635, 12648],
+				[12840, 12853],
+				[23473, 23486],
+				[23678, 23691],
+				[24197, 24210],
+				[24297, 24310],
+				[28875, 28888],
+				[29629, 29642],
+				[29655, 29668],
+				[30978, 30991],
+				[31126, 31139],
+				[31505, 31518],
+				[31636, 31649],
+				[31822, 31835],
+				[32146, 32159],
+				[32318, 32331],
+				[32531, 32544],
+				[32885, 32898],
+				[32921, 32934],
+				[33252, 33265],
+				[33479, 33492],
+				[33817, 33830],
+				[33939, 33952],
+				[34297, 34310],
+				[34602, 34615],
+				[35102, 35115],
+				[42687, 42700],
+				[42720, 42733],
+				[43043, 43056],
+				[43462, 43475],
+				[44089, 44102],
+				[44436, 44449],
+				[44607, 44620],
+				[44835, 44848],
+				[45200, 45213],
+				[45365, 45378],
+				[45865, 45878],
+				[45932, 45945],
+				[46349, 46362],
+				[46517, 46530],
+				[46699, 46712],
+				[46898, 46911],
+				[47026, 47039],
+				[47275, 47288],
+				[47471, 47484],
+				[48322, 48335],
+				[48391, 48404],
+				[48570, 48583],
+				[48720, 48733],
+				[48850, 48863],
+				[49266, 49279],
+				[49468, 49481],
+				[49626, 49639],
+				[49718, 49731]
+			],
+			"CID": 10887728,
+			"SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
+			"InChIKey": "VSQBWNYALURFOT-ZSFCQSFNSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "SGA",
+			"spans": [
+				[284, 287],
+				[820, 823],
+				[1102, 1105],
+				[2718, 2721],
+				[3057, 3060],
+				[34888, 34891]
+			],
+			"CID": 444635,
+			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
+			"InChIKey": "HHRMGTRTCHNCRO-FDROIEKHSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "steroidal glycoalkaloids",
+			"spans": [
+				[1318, 1342],
+				[1591, 1615],
+				[1617, 1621],
+				[1852, 1856],
+				[1992, 1996],
+				[23275, 23279],
+				[23439, 23443],
+				[23812, 23816],
+				[24092, 24096],
+				[34954, 34958],
+				[35285, 35289],
+				[38401, 38425],
+				[49696, 49700]
+			],
+			"alt_names": ["SGAs"]
+		},
+		{
+			"name": "cholesterol",
+			"spans": [[1627, 1638]],
+			"CID": 5997,
+			"SMILES": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+			"InChIKey": "HVYWMOMLDIMFJA-DPAQBDIFSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Cholestane steroids"],
+				"Np_superclass": ["Steroids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Cholestane steroids"
+			}
+		},
+		{
+			"name": "alpha-solanine",
+			"spans": [
+				[2076, 2090],
+				[48141, 48155]
+			],
+			"CID": 9549171,
+			"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+			"InChIKey": "ZGVSETXHNHBTRK-UDJLNJFBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal glycosides"
+			}
+		},
+		{
+			"name": "alpha-chaconine",
+			"spans": [
+				[2095, 2110],
+				[48121, 48136]
+			],
+			"CID": 442971,
+			"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+			"InChIKey": "TYNQWWGVEGFKRU-AJDPQWBVSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal glycosides"
+			}
+		},
+		{
+			"name": "Xylose",
+			"spans": [
+				[3168, 3171],
+				[3173, 3179]
+			],
+			"CID": 135191,
+			"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+			"InChIKey": "SRBFZHDQGSBBOR-IOVATXLUSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			},
+			"alt_names": ["Xyl"]
+		},
+		{
+			"name": "Glucose",
+			"spans": [[3143, 3150]],
+			"CID": 5793,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+			"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+			"Natural_product_class": {
+				"Np_class": [
+					"Disaccharides",
+					"Flavones",
+					"Monosaccharides",
+					"Polysaccharides"
+				],
+				"Np_superclass": ["Saccharides", "Flavonoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "Rhamnose",
+			"spans": [
+				[3181, 3184],
+				[3186, 3194]
+			],
+			"CID": 25310,
+			"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
+			"InChIKey": "SHZGCJCMOBCMKK-JFNONXLTSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides", "Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			},
+			"alt_names": ["Rha"]
+		},
+		{
+			"name": "Gal",
+			"spans": [[3152, 3155]],
+			"ontology_id": "CHEMONTID:0001089",
+			"normalized_name": "Gal- (Gala series)",
+			"score": 0.9450738430023193
+		},
+		{
+			"name": "Glu",
+			"spans": [[3138, 3141]],
+			"CID": 33032,
+			"SMILES": "C(CC(=O)O)[C@@H](C(=O)O)N",
+			"InChIKey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
+		},
+		{
+			"name": "Galactose",
+			"spans": [[3157, 3166]],
+			"CID": 6036,
+			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+			"InChIKey": "WQZGKKKJIJFFOK-SVZMEOIVSA-N",
+			"Natural_product_class": {
+				"Np_class": [
+					"Disaccharides",
+					"Flavones",
+					"Monosaccharides",
+					"Polysaccharides"
+				],
+				"Np_superclass": ["Saccharides", "Flavonoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "Acetoxy",
+			"spans": [[3200, 3207]]
+		},
+		{
+			"name": "Ac",
+			"spans": [[3196, 3198]],
+			"CID": 23965,
+			"SMILES": "[Ac]",
+			"InChIKey": "QQINRWTZWGJFDB-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": null,
+				"Superclass": null,
+				"Class": null,
+				"Subclass": null
+			}
+		},
+		{
+			"name": "ethylene",
+			"spans": [
+				[4462, 4470],
+				[46417, 46425],
+				[46441, 46449],
+				[46930, 46938],
+				[47059, 47067],
+				[47123, 47131],
+				[47539, 47547]
+			],
+			"CID": 6325,
+			"SMILES": "C=C",
+			"InChIKey": "VGGSQFUCUMXWEO-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Hydrocarbons",
+				"Class": "Unsaturated hydrocarbons",
+				"Subclass": "Olefins"
+			}
+		},
+		{
+			"name": "acetoxytomatine",
+			"spans": [
+				[4909, 4924],
+				[4946, 4961],
+				[5432, 5447],
+				[6852, 6867],
+				[6903, 6918],
+				[7047, 7062],
+				[7406, 7421],
+				[7859, 7874],
+				[8910, 8925],
+				[9064, 9079],
+				[9613, 9628],
+				[9757, 9772],
+				[10035, 10050],
+				[10097, 10112],
+				[10549, 10564],
+				[11024, 11039],
+				[12138, 12153],
+				[12437, 12452],
+				[12699, 12714],
+				[13018, 13033],
+				[13142, 13157],
+				[13449, 13464],
+				[14662, 14677],
+				[14804, 14819],
+				[15281, 15296],
+				[15429, 15444],
+				[15709, 15724],
+				[15889, 15904],
+				[16965, 16980],
+				[18230, 18245],
+				[21225, 21240],
+				[21393, 21408],
+				[23241, 23256],
+				[23400, 23415],
+				[23931, 23946],
+				[24152, 24167],
+				[24682, 24697],
+				[24916, 24931],
+				[25193, 25208],
+				[25369, 25384],
+				[25757, 25772],
+				[25953, 25968],
+				[26594, 26609],
+				[26691, 26706],
+				[27486, 27501],
+				[28830, 28845],
+				[30193, 30208],
+				[30267, 30282],
+				[30925, 30940],
+				[31482, 31497],
+				[33319, 33334],
+				[35965, 35980],
+				[37544, 37559],
+				[37846, 37861],
+				[38040, 38055],
+				[38259, 38274],
+				[43817, 43832],
+				[44707, 44722],
+				[45271, 45286],
+				[46780, 46795]
+			]
+		},
+		{
+			"name": "acetoxy-hydroxytomatine",
+			"spans": [
+				[4965, 4988],
+				[6677, 6700],
+				[23445, 23468],
+				[24169, 24192],
+				[28847, 28870],
+				[30214, 30237],
+				[30945, 30968],
+				[33340, 33363],
+				[43941, 43964],
+				[44034, 44057],
+				[44727, 44750],
+				[45112, 45135],
+				[45397, 45420],
+				[45586, 45609],
+				[45837, 45860],
+				[46204, 46227]
+			]
+		},
+		{
+			"name": "hydroxytomatine",
+			"spans": [
+				[4831, 4846],
+				[4885, 4900],
+				[4973, 4988],
+				[5413, 5428],
+				[5795, 5810],
+				[6660, 6675],
+				[6685, 6700],
+				[6833, 6848],
+				[10238, 10253],
+				[10411, 10426],
+				[10730, 10745],
+				[12213, 12228],
+				[15016, 15031],
+				[15343, 15358],
+				[15933, 15948],
+				[16588, 16603],
+				[19951, 19966],
+				[20360, 20375],
+				[20592, 20607],
+				[21372, 21387],
+				[21584, 21599],
+				[22150, 22165],
+				[22294, 22309],
+				[22843, 22858],
+				[23453, 23468],
+				[23605, 23620],
+				[23752, 23767],
+				[24135, 24150],
+				[24177, 24192],
+				[26573, 26588],
+				[27855, 27870],
+				[28158, 28173],
+				[28717, 28732],
+				[28759, 28774],
+				[28855, 28870],
+				[29916, 29931],
+				[30222, 30237],
+				[30620, 30635],
+				[30637, 30652],
+				[30902, 30917],
+				[30953, 30968],
+				[31250, 31265],
+				[31294, 31309],
+				[31463, 31478],
+				[33302, 33317],
+				[33348, 33363],
+				[33784, 33799],
+				[35989, 36004],
+				[37564, 37579],
+				[38010, 38025],
+				[40708, 40723],
+				[43706, 43721],
+				[43772, 43787],
+				[43949, 43964],
+				[44042, 44057],
+				[44690, 44705],
+				[44735, 44750],
+				[44782, 44797],
+				[44861, 44876],
+				[45022, 45037],
+				[45120, 45135],
+				[45405, 45420],
+				[45594, 45609],
+				[45638, 45653],
+				[45724, 45739],
+				[45845, 45860],
+				[45972, 45987],
+				[46157, 46172],
+				[46212, 46227],
+				[46763, 46778]
+			],
+			"CID": 163184219,
+			"SMILES": "[2H]O.CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1",
+			"InChIKey": "LKSXOXWUXLMKDI-DYCDLGHISA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "hydroxy-dehydrotomatine",
+			"spans": [
+				[7068, 7091],
+				[16086, 16109],
+				[16605, 16628],
+				[17467, 17490],
+				[27875, 27898],
+				[28734, 28757],
+				[29936, 29959],
+				[30665, 30688]
+			]
+		},
+		{
+			"name": "acetoxy-dehydrotomatine",
+			"spans": [
+				[6998, 7021],
+				[10117, 10140],
+				[11044, 11067],
+				[12155, 12178],
+				[12457, 12480],
+				[13162, 13185],
+				[13469, 13492],
+				[17075, 17098],
+				[18250, 18273],
+				[25777, 25800],
+				[27506, 27529],
+				[30168, 30191]
+			]
+		},
+		{
+			"name": "dehydrotomatine",
+			"spans": [
+				[10125, 10140],
+				[11001, 11016],
+				[11052, 11067],
+				[12163, 12178],
+				[12196, 12211],
+				[12465, 12480],
+				[13170, 13185],
+				[13477, 13492],
+				[16094, 16109],
+				[16527, 16542],
+				[16613, 16628],
+				[17083, 17098],
+				[17229, 17244],
+				[17387, 17402],
+				[17475, 17490],
+				[18211, 18226],
+				[18258, 18273],
+				[27514, 27529],
+				[27883, 27898],
+				[27955, 27970],
+				[29596, 29611],
+				[29944, 29959],
+				[30058, 30073],
+				[30176, 30191],
+				[30673, 30688]
+			],
+			"CID": 122391230,
+			"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+			"InChIKey": "BYMOGFTUZUEFHY-SIUCFGLGSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "acetyl-CoA",
+			"spans": [
+				[15389, 15399],
+				[16880, 16890],
+				[33141, 33151],
+				[41794, 41802]
+			],
+			"ontology_id": "CHEMONTID:0001090",
+			"normalized_name": "Acyl CoAs",
+			"score": 0.9153751730918884,
+			"alt_names": ["acyl-CoA"]
+		},
+		{
+			"name": "hydroxysolamargine",
+			"spans": [
+				[16150, 16168],
+				[16652, 16670],
+				[20759, 20777],
+				[21608, 21626],
+				[22170, 22188],
+				[22376, 22394],
+				[22863, 22881],
+				[40727, 40745]
+			]
+		},
+		{
+			"name": "alpha-solamargine",
+			"spans": [
+				[16559, 16576],
+				[17261, 17278],
+				[18457, 18474],
+				[23029, 23046],
+				[48192, 48209]
+			],
+			"CID": 146157935,
+			"SMILES": "CC1CC[C@]2(C(C3C(O2)CC4[C@@]3(CCC5C4CC=C6[C@@]5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)OC9C(C(C(C(O9)C)O)O)O)O)O)C)C)C)NC1",
+			"InChIKey": "VTYQXQQQKWLGBA-LMZJOPPCSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "acetoxysolamargine",
+			"spans": [
+				[17173, 17191],
+				[18404, 18422]
+			]
+		},
+		{
+			"name": "tomatidine",
+			"spans": [
+				[16544, 16554],
+				[17246, 17256],
+				[18442, 18452]
+			],
+			"CID": 65576,
+			"SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)NC1",
+			"InChIKey": "XYNPYHXGMWJBLV-VXPJTDKGSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		},
+		{
+			"name": "ascorbate",
+			"spans": [
+				[16913, 16922],
+				[33124, 33133]
+			],
+			"CID": 54679076,
+			"SMILES": "C([C@@H]([C@@H]1C(=C(C(=O)O1)[O-])O)O)O",
+			"InChIKey": "CIWBSHSKHKDKBQ-JLAZNSOCSA-M",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": ["Cyclic polyketides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organoheterocyclic compounds",
+				"Class": "Dihydrofurans",
+				"Subclass": "Furanones"
+			}
+		},
+		{
+			"name": "alpha-ketoglutarate",
+			"spans": [
+				[16892, 16911],
+				[33103, 33122]
+			],
+			"CID": 164533,
+			"SMILES": "C(CC(=O)[O-])C(=O)C(=O)[O-]",
+			"InChIKey": "KPGXRSRHYNQIFN-UHFFFAOYSA-L",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Keto acids and derivatives",
+				"Subclass": "Gamma-keto acids and derivatives"
+			}
+		},
+		{
+			"name": "acetoxytomatidine",
+			"spans": [
+				[17119, 17136],
+				[18382, 18399]
+			]
+		},
+		{
+			"name": "hydroxytomatidine",
+			"spans": [
+				[16111, 16128],
+				[16630, 16647]
+			]
+		},
+		{
+			"name": "isovalyryl CoA",
+			"spans": [[19727, 19741]]
+		},
+		{
+			"name": "malonyl CoA",
+			"spans": [
+				[19701, 19712],
+				[20028, 20039]
+			],
+			"CID": 644066,
+			"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)CC(=O)O)O",
+			"InChIKey": "LTYOQGRJFJAKNA-DVVLENMVSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "cinnamoyl CoA",
+			"spans": [[19803, 19816]],
+			"CID": 195898,
+			"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC=CC=C4)O",
+			"InChIKey": "JVNVHNHITFVWIX-FUEUKBNZSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "coumaroyl CoA",
+			"spans": [[19785, 19798]]
+		},
+		{
+			"name": "octanoyl CoA",
+			"spans": [[19757, 19769]],
+			"CID": 445344,
+			"SMILES": "CCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+			"InChIKey": "KQMZYOXOBSXMII-CECATXLMSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "butyryl CoA",
+			"spans": [
+				[19714, 19725],
+				[20539, 20550],
+				[20942, 20953],
+				[21699, 21710],
+				[22117, 22128],
+				[22566, 22577],
+				[22669, 22680]
+			],
+			"CID": 122283,
+			"SMILES": "CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+			"InChIKey": "CRFNGMNYKDXRTN-CITAKDKDSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "acetyl CoA",
+			"spans": [
+				[19689, 19699],
+				[20524, 20534],
+				[20927, 20937],
+				[21680, 21690],
+				[22105, 22115],
+				[22550, 22560],
+				[22612, 22622]
+			],
+			"CID": 444493,
+			"SMILES": "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+			"InChIKey": "ZSLZBFCDCINBPY-ZSJPKINUSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "CoA",
+			"spans": [
+				[19696, 19699],
+				[19709, 19712],
+				[19722, 19725],
+				[19738, 19741],
+				[19752, 19755],
+				[19766, 19769],
+				[19795, 19798],
+				[19813, 19816],
+				[20036, 20039],
+				[20197, 20200],
+				[20440, 20443],
+				[20531, 20534],
+				[20547, 20550],
+				[20934, 20937],
+				[20950, 20953],
+				[21269, 21272],
+				[21428, 21431]
+			],
+			"CID": 87642,
+			"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCS)O",
+			"InChIKey": "RGJOEKWQDUBAIZ-IBOSZNHHSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Nucleosides, nucleotides, and analogues",
+				"Class": "Purine nucleotides",
+				"Subclass": "Purine ribonucleotides"
+			}
+		},
+		{
+			"name": "hexanoyl CoA",
+			"spans": [[19743, 19755]],
+			"CID": 449118,
+			"SMILES": "CCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+			"InChIKey": "OEXFMSFODMQEPE-HDRQGHTBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "neorickiioside B",
+			"spans": [[23581, 23597]]
+		},
+		{
+			"name": "acetoxy-SGAs",
+			"spans": [[25737, 25749]]
+		},
+		{
+			"name": "hydroxytomatine isomers",
+			"spans": [
+				[28158, 28181],
+				[28759, 28782]
+			]
+		},
+		{
+			"name": "di-hydroxytomatine",
+			"spans": [
+				[31247, 31265],
+				[44779, 44797],
+				[44858, 44876],
+				[45635, 45653],
+				[45721, 45739],
+				[45969, 45987],
+				[46154, 46172]
+			]
+		},
+		{
+			"name": "dehydro-esculeoside A",
+			"spans": [[29647, 29668]]
+		},
+		{
+			"name": "hydroxytomatine isomer",
+			"spans": [[30637, 30659]]
+		},
+		{
+			"name": "UDP-glucose",
+			"spans": [[33156, 33167]],
+			"CID": 8629,
+			"SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
+			"InChIKey": "HSCJRCZFDFQWRP-JZMIEXBBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminosugars"],
+				"Np_superclass": ["Aminosugars and aminoglycosides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Nucleosides, nucleotides, and analogues",
+				"Class": "Pyrimidine nucleotides",
+				"Subclass": "Pyrimidine ribonucleotides"
+			}
+		},
+		{
+			"name": "spermidine",
+			"spans": [[39421, 39431]],
+			"CID": 1102,
+			"SMILES": "C(CCNCCCN)CN",
+			"InChIKey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Polyamines"],
+				"Np_superclass": ["Ornithine alkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic nitrogen compounds",
+				"Class": "Organonitrogen compounds",
+				"Subclass": "Amines"
+			}
+		},
+		{
+			"name": "aliphatic amine",
+			"spans": [[39505, 39520]],
+			"ontology_id": "CHEMONTID:0000469",
+			"normalized_name": "Monoalkylamines",
+			"score": 1.0
+		},
+		{
+			"name": "quinate",
+			"spans": [[39379, 39386]],
+			"CID": 6508,
+			"SMILES": "C1[C@H](C([C@@H](CC1(C(=O)O)O)O)O)O",
+			"InChIKey": "AAWZDTNXLSGCEK-LNVDRNJUSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Shikimic acids and derivatives", "Simple phenolic acids"],
+				"Np_superclass": ["Phenolic acids (C6-C1)"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Alcohols and polyols"
+			}
+		},
+		{
+			"name": "hydroxycinnamoyl",
+			"spans": [
+				[39257, 39273],
+				[39358, 39374]
+			]
+		},
+		{
+			"name": "hydroxycinnamoyl-CoA",
+			"spans": [
+				[39257, 39277],
+				[39358, 39378]
+			],
+			"ontology_id": "CHEMONTID:0002960",
+			"normalized_name": "3-hydroxyacyl CoAs",
+			"score": 0.9101591110229492,
+			"alt_names": ["hydroxycinnamoyl CoA"]
+		},
+		{
+			"name": "flavonoid-3-O-rutinoside",
+			"spans": [[39547, 39571]]
+		},
+		{
+			"name": "shikimate",
+			"spans": [[39278, 39287]],
+			"CID": 7057976,
+			"SMILES": "C1[C@H]([C@@H]([C@@H](C=C1C(=O)[O-])O)O)O",
+			"InChIKey": "JXOHGGNKMLTUBP-HSUXUTPPSA-M",
+			"Natural_product_class": {
+				"Np_class": ["Shikimic acids and derivatives"],
+				"Np_superclass": ["Phenolic acids (C6-C1)"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Alcohols and polyols"
+			}
+		},
+		{
+			"name": "anthocyanins",
+			"spans": [[42094, 42106]],
+			"ontology_id": "CHEMONTID:0001361",
+			"normalized_name": "Anthocyanins",
+			"score": 1.0
+		},
+		{
+			"name": "hydroxylated SGAs",
+			"spans": [[41149, 41166]]
+		},
+		{
+			"name": "amines",
+			"spans": [[42083, 42089]],
+			"ontology_id": "CHEMONTID:0002449",
+			"normalized_name": "Amines",
+			"score": 1.0
+		},
+		{
+			"name": "primary alcohol",
+			"spans": [[42067, 42082]],
+			"ontology_id": "CHEMONTID:0000286",
+			"normalized_name": "Primary alcohols",
+			"score": 1.0
+		},
+		{
+			"name": "acylsugar",
+			"spans": [[44231, 44240]]
+		},
+		{
+			"name": "alpha-solasonine",
+			"spans": [[48171, 48187]],
+			"CID": 537159,
+			"SMILES": "CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)NC1",
+			"InChIKey": "QCTMYNGDIBTNSK-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Steroidal alkaloids"],
+				"Np_superclass": ["Pseudoalkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Steroidal alkaloids"
+			}
+		}
+	],
+	"pathways": [
+		{
+			"name": "bitter SGA detoxification pathway",
+			"spans": [[1095, 1128]]
+		},
+		{
+			"name": "Esculeoside A biosynthetic pathway",
+			"spans": [
+				[920, 954],
+				[5299, 5325],
+				[24297, 24323],
+				[31505, 31539],
+				[31636, 31662],
+				[32921, 32955],
+				[33939, 33965],
+				[49468, 49494]
+			],
+			"ontology_id": "PWY-5349",
+			"normalized_name": "esculetin biosynthesis",
+			"score": 0.8131048679351807,
+			"alt_names": ["Esculeoside A biosynthesis"]
+		},
+		{
+			"name": "Esculeoside A pathway",
+			"spans": [
+				[621, 642],
+				[2784, 2805],
+				[6788, 6809],
+				[7513, 7534],
+				[8799, 8820],
+				[12101, 12122],
+				[32146, 32167],
+				[32318, 32339],
+				[33479, 33500],
+				[33817, 33838],
+				[34602, 34623],
+				[35102, 35123],
+				[42720, 42741],
+				[44436, 44457],
+				[44835, 44856],
+				[45200, 45221],
+				[46898, 46919],
+				[47026, 47047],
+				[47275, 47296],
+				[47471, 47492]
+			]
+		},
+		{
+			"name": "SGAs biosynthesis",
+			"spans": [[3016, 3033]]
+		},
+		{
+			"name": "dehydro-SGA branch",
+			"spans": [[3049, 3067]]
+		},
+		{
+			"name": "SGA pathway",
+			"spans": [
+				[3795, 3806],
+				[7136, 7147],
+				[7782, 7793],
+				[28609, 28620],
+				[30380, 30391],
+				[32483, 32494]
+			]
+		},
+		{
+			"name": "biosynthetic pathway of non-bitter and less toxic SGAs",
+			"spans": [[5921, 5975]]
+		},
+		{
+			"name": "metabolic pathway from alpha-tomatine up to Esculeoside A",
+			"spans": [[6085, 6142]]
+		},
+		{
+			"name": "catabolism of the bitter alpha-tomatine",
+			"spans": [[5578, 5617]]
+		},
+		{
+			"name": "tomato SGA pathway",
+			"spans": [[7129, 7147]],
+			"ontology_id": "PWY18C3-12",
+			"normalized_name": "superpathway of acylsucrose biosynthesis (cultivated tomato)",
+			"score": 0.821919322013855
+		},
+		{
+			"name": "acetoxytomatine biosynthesis",
+			"spans": [[14804, 14832]]
+		},
+		{
+			"name": "SGA metabolism",
+			"spans": [
+				[28340, 28354],
+				[46301, 46315]
+			]
+		},
+		{
+			"name": "detoxification pathway",
+			"spans": [[38368, 38390]]
+		},
+		{
+			"name": "glycoalkaloid metabolism",
+			"spans": [[39617, 39641]]
+		},
+		{
+			"name": "SGA biosynthesis",
+			"spans": [
+				[38496, 38512],
+				[40005, 40021]
+			]
+		},
+		{
+			"name": "cutin and wax metabolism",
+			"spans": [[41866, 41890]]
+		},
+		{
+			"name": "volatile biosynthesis",
+			"spans": [[41892, 41913]]
+		},
+		{
+			"name": "acyl sugar biosynthesis",
+			"spans": [[41689, 41712]]
+		},
+		{
+			"name": "anthocyanin decoration",
+			"spans": [[41918, 41940]],
+			"ontology_id": "PWY-7267",
+			"normalized_name": "anthocyanin biosynthesis (pelargonidin 3-<i>O</i>-glucoside)",
+			"score": 0.8048818707466125
+		},
+		{
+			"name": "alternative Esculeoside A pathway",
+			"spans": [[45188, 45221]]
+		},
+		{
+			"name": "metabolic pathway that converts alpha-tomatine to Esculeoside A",
+			"spans": [[42637, 42700]]
+		},
+		{
+			"name": "acylsugar biosynthesis",
+			"spans": [[44231, 44253]]
+		},
+		{
+			"name": "alpha-tomatine catabolic pathway",
+			"spans": [[43101, 43133]]
+		}
+	],
+	"genes": [
+		{
+			"name": "GLYCOALKALOID METABOLISM36",
+			"spans": [
+				[745, 751],
+				[753, 779],
+				[1085, 1091],
+				[2831, 2837],
+				[5726, 5732],
+				[5873, 5879],
+				[9974, 9980],
+				[10280, 10286],
+				[10517, 10523],
+				[11548, 11554],
+				[15667, 15673],
+				[15861, 15867],
+				[17922, 17928],
+				[19014, 19020],
+				[19123, 19129],
+				[21034, 21040],
+				[21154, 21160],
+				[21445, 21451],
+				[22753, 22759],
+				[22937, 22943],
+				[24479, 24485],
+				[24553, 24559],
+				[24788, 24794],
+				[25003, 25009],
+				[25263, 25269],
+				[25432, 25438],
+				[25534, 25540],
+				[25690, 25696],
+				[25927, 25933],
+				[26032, 26038],
+				[26108, 26114],
+				[26162, 26168],
+				[26407, 26413],
+				[26497, 26503],
+				[26640, 26646],
+				[26731, 26737],
+				[27237, 27243],
+				[27402, 27408],
+				[27575, 27581],
+				[28111, 28117],
+				[28283, 28289],
+				[28400, 28406],
+				[28451, 28457],
+				[28519, 28525],
+				[28648, 28654],
+				[28985, 28991],
+				[29713, 29719],
+				[29813, 29819],
+				[29864, 29870],
+				[30116, 30122],
+				[30320, 30326],
+				[30408, 30414],
+				[30563, 30569],
+				[30832, 30838],
+				[31018, 31024],
+				[31165, 31171],
+				[31427, 31433],
+				[32370, 32376],
+				[32712, 32718],
+				[33028, 33034],
+				[34204, 34210],
+				[35197, 35203],
+				[35409, 35415],
+				[35428, 35434],
+				[35701, 35707],
+				[35797, 35803],
+				[35881, 35887],
+				[36322, 36328],
+				[36533, 36539],
+				[36700, 36706],
+				[36823, 36829],
+				[36909, 36915],
+				[37215, 37221],
+				[37450, 37456],
+				[37497, 37503],
+				[37750, 37756],
+				[38194, 38200],
+				[38444, 38450],
+				[39609, 39615],
+				[39710, 39716],
+				[39786, 39792],
+				[40178, 40184],
+				[40203, 40209],
+				[40313, 40319],
+				[40349, 40355],
+				[40447, 40453],
+				[40470, 40476],
+				[40630, 40636],
+				[40762, 40768],
+				[40835, 40841],
+				[40923, 40929],
+				[40974, 40980],
+				[41235, 41241],
+				[41360, 41366],
+				[42249, 42255],
+				[43193, 43199],
+				[43723, 43729],
+				[44266, 44272],
+				[44500, 44506],
+				[45313, 45319],
+				[45743, 45749],
+				[47519, 47525]
+			],
+			"alt_names": ["GAME36"]
+		},
+		{
+			"name": "GAME5",
+			"spans": [
+				[2770, 2775],
+				[5176, 5181],
+				[6633, 6638],
+				[7568, 7573],
+				[8093, 8098],
+				[8776, 8781],
+				[32462, 32467],
+				[32778, 32783],
+				[33048, 33053],
+				[34223, 34228],
+				[35217, 35222],
+				[44013, 44018],
+				[47228, 47233]
+			]
+		},
+		{
+			"name": "GAME31",
+			"spans": [
+				[2750, 2756],
+				[5156, 5162],
+				[6614, 6620],
+				[7548, 7554],
+				[7889, 7895],
+				[8765, 8771],
+				[15106, 15112],
+				[16436, 16442],
+				[19968, 19974],
+				[22992, 22998],
+				[32443, 32449],
+				[32669, 32675],
+				[33020, 33026],
+				[34196, 34202],
+				[35189, 35195],
+				[41087, 41093],
+				[41195, 41201],
+				[43630, 43636],
+				[47508, 47514]
+			]
+		},
+		{
+			"name": "GAME40",
+			"spans": [
+				[2758, 2764],
+				[5165, 5171],
+				[6622, 6628],
+				[7556, 7562],
+				[8082, 8088],
+				[32451, 32457],
+				[32680, 32686],
+				[33036, 33042],
+				[34212, 34218],
+				[35205, 35211],
+				[43922, 43928],
+				[46965, 46971]
+			]
+		},
+		{
+			"name": "GLYCOALKALOID METABOLISM31",
+			"spans": [[5128, 5154]]
+		},
+		{
+			"name": "GORKY",
+			"spans": [[3809, 3814]]
+		},
+		{
+			"name": "SlGAME36",
+			"spans": [
+				[10861, 10869],
+				[11336, 11344],
+				[15869, 15877],
+				[16767, 16775],
+				[17043, 17051],
+				[17602, 17610],
+				[18052, 18060],
+				[18659, 18667],
+				[18934, 18942],
+				[19656, 19664],
+				[19915, 19923],
+				[20132, 20140],
+				[20325, 20333],
+				[20907, 20915],
+				[21528, 21536],
+				[21570, 21578],
+				[21744, 21752],
+				[22044, 22052],
+				[22246, 22254],
+				[31716, 31724]
+			]
+		},
+		{
+			"name": "SlGAME31",
+			"spans": [
+				[11109, 11117],
+				[11326, 11334],
+				[16463, 16471],
+				[16754, 16762],
+				[17030, 17038],
+				[17336, 17344],
+				[18137, 18145],
+				[18342, 18350],
+				[18692, 18700],
+				[18810, 18818],
+				[19853, 19861],
+				[31706, 31714]
+			]
+		},
+		{
+			"name": "Solyc08g075210",
+			"spans": [
+				[10288, 10302],
+				[15224, 15238],
+				[15612, 15626]
+			]
+		},
+		{
+			"name": "SpGAME36",
+			"spans": [
+				[10923, 10931],
+				[11349, 11357],
+				[17965, 17973],
+				[18078, 18086],
+				[18355, 18363],
+				[18967, 18975]
+			]
+		},
+		{
+			"name": "SmGAME36",
+			"spans": [
+				[18594, 18602],
+				[18756, 18764]
+			]
+		},
+		{
+			"name": "Sopen08g023820",
+			"spans": [[17975, 17989]]
+		},
+		{
+			"name": "SlGAME5",
+			"spans": [[31740, 31747]]
+		},
+		{
+			"name": "SlGAME40",
+			"spans": [[31726, 31734]]
+		},
+		{
+			"name": "HCT",
+			"spans": [
+				[39252, 39255],
+				[42005, 42008]
+			]
+		},
+		{
+			"name": "ASAT",
+			"spans": [[39219, 39223]]
+		},
+		{
+			"name": "SHT",
+			"spans": [
+				[39416, 39419],
+				[42010, 42013]
+			]
+		},
+		{
+			"name": "FdAT1",
+			"spans": [
+				[39540, 39545],
+				[39601, 39606],
+				[41839, 41844]
+			]
+		},
+		{
+			"name": "DCR",
+			"spans": [
+				[39317, 39320],
+				[41824, 41827]
+			]
+		},
+		{
+			"name": "ACT2",
+			"spans": [[39499, 39503]]
+		},
+		{
+			"name": "AAT1",
+			"spans": [
+				[39464, 39468],
+				[41829, 41833]
+			]
+		},
+		{
+			"name": "HQT",
+			"spans": [
+				[39353, 39356],
+				[42019, 42022]
+			]
+		},
+		{
+			"name": "GAME36-like-2",
+			"spans": [[40349, 40362]]
+		},
+		{
+			"name": "GAME36-like",
+			"spans": [
+				[40203, 40214],
+				[40313, 40324],
+				[40349, 40360],
+				[40470, 40481],
+				[40630, 40641],
+				[40762, 40773]
+			]
+		},
+		{
+			"name": "GAME36-like-1",
+			"spans": [[40313, 40326]]
+		},
+		{
+			"name": "ASAT1",
+			"spans": [[41653, 41658]]
+		},
+		{
+			"name": "ACT",
+			"spans": [[42000, 42003]]
+		},
+		{
+			"name": "ASAT4",
+			"spans": [[41662, 41667]]
+		},
+		{
+			"name": "ASATs",
+			"spans": [[44213, 44218]]
+		},
+		{
+			"name": "E8",
+			"spans": [[46987, 46989]]
+		}
+	],
+	"anatomical_structures": [
+		{
+			"name": "fruit",
+			"spans": [
+				[141, 146],
+				[355, 360],
+				[536, 541],
+				[1264, 1269],
+				[2344, 2349],
+				[2508, 2513],
+				[2676, 2681],
+				[6284, 6290],
+				[6491, 6496],
+				[7807, 7812],
+				[7972, 7977],
+				[8164, 8169],
+				[10601, 10606],
+				[12303, 12308],
+				[12502, 12507],
+				[12547, 12552],
+				[12790, 12795],
+				[12906, 12911],
+				[13068, 13073],
+				[13193, 13198],
+				[13290, 13295],
+				[13585, 13590],
+				[13660, 13665],
+				[23495, 23500],
+				[23844, 23849],
+				[24113, 24118],
+				[24220, 24225],
+				[24368, 24373],
+				[25111, 25116],
+				[25309, 25314],
+				[25447, 25452],
+				[25638, 25643],
+				[28274, 28279],
+				[28510, 28515],
+				[28571, 28576],
+				[28900, 28905],
+				[28976, 28981],
+				[29035, 29040],
+				[29523, 29528],
+				[29853, 29858],
+				[29990, 29995],
+				[30103, 30108],
+				[30333, 30338],
+				[30437, 30442],
+				[30550, 30555],
+				[30721, 30726],
+				[30819, 30824],
+				[31025, 31030],
+				[31152, 31157],
+				[31343, 31348],
+				[42497, 42502],
+				[42794, 42799],
+				[42887, 42892],
+				[43535, 43540],
+				[43589, 43594],
+				[44149, 44154],
+				[44631, 44636],
+				[44925, 44930],
+				[44968, 44974],
+				[45304, 45309],
+				[45466, 45472],
+				[45528, 45533],
+				[45761, 45767],
+				[46027, 46032],
+				[46471, 46476],
+				[46819, 46824],
+				[47091, 47096],
+				[47184, 47189],
+				[47362, 47367],
+				[47736, 47741],
+				[47823, 47828],
+				[47904, 47909],
+				[48422, 48428],
+				[49168, 49173],
+				[49368, 49373],
+				[49666, 49671]
+			],
+			"ontology_id": "PO:0009001",
+			"normalized_name": "fruit",
+			"score": 1.0,
+			"alt_names": ["fruits"]
+		},
+		{
+			"name": "tomato fruit",
+			"spans": [
+				[1278, 1290],
+				[5621, 5633],
+				[6001, 6013],
+				[6277, 6289],
+				[35252, 35264]
+			]
+		},
+		{
+			"name": "seed",
+			"spans": [[4642, 4646]],
+			"ontology_id": "PO:0009010",
+			"normalized_name": "seed",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "red, ripe tomato fruit",
+			"spans": [[4134, 4156]],
+			"ontology_id": "PO:0007038",
+			"normalized_name": "whole plant fruit ripening complete stage",
+			"score": 0.9603259563446045
+		},
+		{
+			"name": "vacuole",
+			"spans": [[3441, 3448]]
+		},
+		{
+			"name": "cytosolic compartment",
+			"spans": [[3649, 3670]]
+		},
+		{
+			"name": "cytosol",
+			"spans": [
+				[3931, 3938],
+				[4014, 4021]
+			]
+		},
+		{
+			"name": "green fruit",
+			"spans": [[3333, 3344]]
+		},
+		{
+			"name": "leaves",
+			"spans": [
+				[3322, 3328],
+				[12272, 12278],
+				[12520, 12526],
+				[23828, 23834],
+				[23968, 23974],
+				[24003, 24009],
+				[24507, 24513],
+				[24591, 24602],
+				[24705, 24711],
+				[24843, 24849],
+				[25144, 25150],
+				[25972, 25978],
+				[26618, 26624],
+				[27533, 27539],
+				[27690, 27696],
+				[27991, 27997],
+				[28085, 28091],
+				[34007, 34013],
+				[34247, 34253],
+				[36012, 36018],
+				[37591, 37597],
+				[37720, 37726]
+			],
+			"ontology_id": "PO:0025034",
+			"normalized_name": "leaf",
+			"score": 0.9324457049369812,
+			"alt_names": ["leaf tissue"]
+		},
+		{
+			"name": "tissues",
+			"spans": [
+				[9793, 9800],
+				[9878, 9885],
+				[10154, 10160],
+				[11812, 11818],
+				[25034, 25041],
+				[25229, 25236],
+				[27998, 28005],
+				[28234, 28241]
+			],
+			"ontology_id": "PO:0009007",
+			"normalized_name": "portion of plant tissue",
+			"score": 0.9782681465148926,
+			"alt_names": ["tissue"]
+		},
+		{
+			"name": "flower",
+			"spans": [
+				[11805, 11811],
+				[12286, 12293],
+				[12484, 12491],
+				[25121, 25128],
+				[25983, 25990],
+				[26629, 26636],
+				[27560, 27567],
+				[27664, 27671],
+				[27979, 27986],
+				[28096, 28103]
+			],
+			"ontology_id": "PO:0009046",
+			"normalized_name": "flower",
+			"score": 1.0,
+			"alt_names": ["flowers"]
+		},
+		{
+			"name": "stem",
+			"spans": [
+				[12280, 12284],
+				[12528, 12532]
+			],
+			"ontology_id": "PO:0009047",
+			"normalized_name": "stem",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "flesh",
+			"spans": [
+				[12360, 12365],
+				[13390, 13395],
+				[14081, 14086],
+				[14459, 14464],
+				[25619, 25624]
+			],
+			"ontology_id": "PO:0025035",
+			"normalized_name": "storage parenchyma",
+			"score": 0.9999999403953552
+		},
+		{
+			"name": "skin",
+			"spans": [
+				[12351, 12355],
+				[13381, 13385],
+				[14072, 14076],
+				[14447, 14451],
+				[25610, 25614]
+			]
+		},
+		{
+			"name": "flower buds",
+			"spans": [
+				[14230, 14241],
+				[14603, 14614]
+			],
+			"ontology_id": "PO:0000056",
+			"normalized_name": "flower bud",
+			"score": 0.9744872450828552
+		},
+		{
+			"name": "young flower petals",
+			"spans": [[14243, 14262]]
+		},
+		{
+			"name": "young leaf",
+			"spans": [[14218, 14228]]
+		},
+		{
+			"name": "roots",
+			"spans": [[14267, 14272]],
+			"ontology_id": "PO:0025025",
+			"normalized_name": "root system",
+			"score": 0.9691017270088196
+		},
+		{
+			"name": "fruit tissues",
+			"spans": [
+				[28900, 28913],
+				[42794, 42807]
+			]
+		},
+		{
+			"name": "E. coli cells",
+			"spans": [
+				[31781, 31794],
+				[32040, 32053]
+			]
+		},
+		{
+			"name": "cuticular ridges",
+			"spans": [[39335, 39351]]
+		},
+		{
+			"name": "chromosome 8",
+			"spans": [
+				[40118, 40130],
+				[40528, 40540]
+			]
+		}
+	],
+	"molecular_traits": [
+		{
+			"name": "SGA-acetylation",
+			"spans": [[820, 835]]
+		},
+		{
+			"name": "Specific activity",
+			"spans": [[2897, 2914]]
+		},
+		{
+			"name": "glycosylation",
+			"spans": [[3718, 3731]]
+		},
+		{
+			"name": "acetylation",
+			"spans": [
+				[3701, 3712],
+				[4870, 4881],
+				[31448, 31459]
+			]
+		},
+		{
+			"name": "hydroxylation",
+			"spans": [
+				[3686, 3699],
+				[4796, 4809],
+				[4998, 5011],
+				[5216, 5229],
+				[5248, 5261]
+			]
+		},
+		{
+			"name": "catabolism",
+			"spans": [[4689, 4699]]
+		},
+		{
+			"name": "acyltransferase activity",
+			"spans": [
+				[14986, 15010],
+				[17634, 17658],
+				[20158, 20182],
+				[40666, 40690],
+				[41111, 41135]
+			]
+		},
+		{
+			"name": "preferred specificity",
+			"spans": [[22521, 22542]]
+		},
+		{
+			"name": "catalytic efficiency",
+			"spans": [[22268, 22288]]
+		},
+		{
+			"name": "enzyme activities",
+			"spans": [[24413, 24430]]
+		},
+		{
+			"name": "GAME36 expression",
+			"spans": [
+				[24479, 24496],
+				[24788, 24805]
+			]
+		},
+		{
+			"name": "BAHD acyltransferase activity",
+			"spans": [[38324, 38353]]
+		},
+		{
+			"name": "acetylation reactions",
+			"spans": [[38471, 38492]]
+		},
+		{
+			"name": "acyltransferase",
+			"spans": [
+				[43204, 43219],
+				[46122, 46137]
+			]
+		},
+		{
+			"name": "hydroxylase",
+			"spans": [[46106, 46117]]
+		},
+		{
+			"name": "ethylene-responsive",
+			"spans": [[47059, 47078]]
+		},
+		{
+			"name": "hyaluronidase activity",
+			"spans": [[48935, 48957]]
+		}
+	],
+	"plant_traits": [
+		{
+			"name": "sweet-tasting",
+			"spans": [
+				[1170, 1183],
+				[2529, 2538],
+				[49666, 49681]
+			],
+			"ontology_id": "TO:0000700",
+			"normalized_name": "fruit sweetness",
+			"score": 0.9151129722595215,
+			"alt_names": ["fruit sweetness", "sweetness"]
+		},
+		{
+			"name": "bitterness",
+			"spans": [
+				[497, 507],
+				[49401, 49411]
+			]
+		},
+		{
+			"name": "fruit ripening",
+			"spans": [
+				[1285, 1299],
+				[3953, 3967],
+				[4217, 4231],
+				[4736, 4750],
+				[6188, 6223],
+				[13068, 13082],
+				[13193, 13209],
+				[24113, 24127],
+				[29523, 29537],
+				[35259, 35284],
+				[42497, 42513],
+				[44925, 44939],
+				[46027, 46041],
+				[46270, 46278],
+				[46386, 46394],
+				[46575, 46583],
+				[46609, 46617],
+				[46639, 46647],
+				[46946, 46954],
+				[47097, 47105],
+				[47190, 47198],
+				[47323, 47331],
+				[47609, 47617],
+				[47648, 47656],
+				[49168, 49184],
+				[49189, 49197]
+			],
+			"ontology_id": "TO:0002633",
+			"normalized_name": "fruit ripening trait",
+			"score": 0.9999998807907104,
+			"alt_names": [
+				"fruit maturation",
+				"fruit ripening-associated",
+				"ripening",
+				"ripening-associated metabolic shift"
+			]
+		},
+		{
+			"name": "SGA content",
+			"spans": [[2558, 2569]],
+			"ontology_id": "TO:0002675",
+			"normalized_name": "gibberellic acid content",
+			"score": 0.7622842788696289
+		},
+		{
+			"name": "non-bitter",
+			"spans": [[2622, 2632]]
+		},
+		{
+			"name": "seed dispersal",
+			"spans": [[4642, 4656]],
+			"ontology_id": "TO:0002661",
+			"normalized_name": "seed maturation",
+			"score": 0.7642017602920532
+		},
+		{
+			"name": "fruit development",
+			"spans": [
+				[4500, 4517],
+				[12303, 12320],
+				[13660, 13677],
+				[14103, 14129],
+				[25447, 25464],
+				[25638, 25655]
+			],
+			"ontology_id": "TO:0000929",
+			"normalized_name": "fruit growth and development trait",
+			"score": 0.8639534711837769,
+			"alt_names": ["fruit developmental stages"]
+		},
+		{
+			"name": "non-bitter forms",
+			"spans": [[6252, 6268]]
+		},
+		{
+			"name": "acetoxytomatine content",
+			"spans": [[8910, 8933]]
+		},
+		{
+			"name": "altered SGA profiles",
+			"spans": [[27444, 27464]]
+		},
+		{
+			"name": "fruit set",
+			"spans": [[43535, 43544]],
+			"ontology_id": "TO:1000011",
+			"normalized_name": "fruit position",
+			"score": 0.8544813990592957
+		}
+	],
+	"human_traits": [
+		{
+			"name": "toxicity",
+			"spans": [
+				[512, 520],
+				[2060, 2068],
+				[3376, 3384],
+				[4562, 4570],
+				[47892, 47900]
+			]
+		},
+		{
+			"name": "bitterness",
+			"spans": [
+				[2123, 2133],
+				[4547, 4557]
+			]
+		},
+		{
+			"name": "marketability",
+			"spans": [[2301, 2314]]
+		},
+		{
+			"name": "nutritional quality",
+			"spans": [[2277, 2296]]
+		},
+		{
+			"name": "unpleasant sensations",
+			"spans": [[2138, 2159]]
+		},
+		{
+			"name": "less toxic",
+			"spans": [
+				[2637, 2647],
+				[5960, 5970]
+			]
+		},
+		{
+			"name": "palatability",
+			"spans": [[4602, 4614]]
+		},
+		{
+			"name": "toxic",
+			"spans": [[42455, 42460]]
+		},
+		{
+			"name": "bitter",
+			"spans": [[42444, 42450]]
+		},
+		{
+			"name": "bitter flavor",
+			"spans": [[47845, 47858]]
+		},
+		{
+			"name": "anti-carcinogenic potential",
+			"spans": [[48231, 48258]]
+		},
+		{
+			"name": "anti-nutritional effects",
+			"spans": [[48034, 48058]]
+		},
+		{
+			"name": "bitter taste",
+			"spans": [[49033, 49045]]
+		},
+		{
+			"name": "health-promoting properties",
+			"spans": [[49763, 49790]]
+		}
+	],
+	"species": [
+		{
+			"name": "Solanum melongena",
+			"spans": [
+				[1832, 1849],
+				[39198, 39210]
+			],
+			"taxonomy_id": 4111,
+			"alt_names": ["S. melongena"]
+		},
+		{
+			"name": "Solanum tuberosum",
+			"spans": [
+				[1799, 1816],
+				[39119, 39131]
+			],
+			"taxonomy_id": 4113,
+			"alt_names": ["S. tuberosum"]
+		},
+		{
+			"name": "Solanum lycopersicum",
+			"spans": [
+				[1768, 1788],
+				[3348, 3354],
+				[3946, 3952],
+				[4144, 4150],
+				[4579, 4585],
+				[5121, 5127],
+				[5500, 5506],
+				[5621, 5627],
+				[5840, 5846],
+				[6001, 6007],
+				[6277, 6283],
+				[8383, 8398],
+				[10189, 10204],
+				[10871, 10886],
+				[26240, 26249],
+				[28533, 28539],
+				[28893, 28899],
+				[29516, 29522],
+				[29820, 29826],
+				[30846, 30852],
+				[31420, 31426],
+				[37659, 37674],
+				[39076, 39091],
+				[42490, 42496],
+				[43486, 43492],
+				[44257, 44263],
+				[44624, 44630],
+				[44918, 44924],
+				[46464, 46470],
+				[46847, 46853],
+				[47627, 47633],
+				[47729, 47735]
+			],
+			"taxonomy_id": 4081,
+			"alt_names": ["Micro Tom", "S. lycopersicum", "tomato"]
+		},
+		{
+			"name": "S. pennellii",
+			"spans": [
+				[8418, 8430],
+				[10933, 10945],
+				[17944, 17956],
+				[39153, 39165],
+				[40406, 40418],
+				[40617, 40629],
+				[41518, 41530]
+			],
+			"taxonomy_id": 28526
+		},
+		{
+			"name": "E. coli",
+			"spans": [[14922, 14929]],
+			"taxonomy_id": 1434323
+		},
+		{
+			"name": "S. neorickii",
+			"spans": [
+				[23520, 23532],
+				[23771, 23783],
+				[23853, 23865],
+				[23978, 23990],
+				[24229, 24241],
+				[24346, 24358],
+				[24539, 24551],
+				[24755, 24767]
+			],
+			"taxonomy_id": 62891
+		},
+		{
+			"name": "N. benthamiana",
+			"spans": [
+				[33992, 34006],
+				[34232, 34246]
+			],
+			"taxonomy_id": 3052226
+		},
+		{
+			"name": "S. huaylasense",
+			"spans": [
+				[35724, 35738],
+				[36620, 36634],
+				[37066, 37080],
+				[37934, 37948],
+				[38074, 38088],
+				[38211, 38225]
+			],
+			"taxonomy_id": 588598
+		},
+		{
+			"name": "S. peruvianum",
+			"spans": [
+				[35750, 35763],
+				[36646, 36659],
+				[37100, 37113],
+				[37225, 37238],
+				[37339, 37352],
+				[37407, 37420]
+			],
+			"taxonomy_id": 4082
+		}
+	],
+	"experimental_conditions": [
+		{
+			"name": "in vivo",
+			"spans": [
+				[6035, 6042],
+				[48971, 48978]
+			]
+		},
+		{
+			"name": "in vitro",
+			"spans": [
+				[6047, 6055],
+				[31609, 31617],
+				[48958, 48966]
+			]
+		},
+		{
+			"name": "fruit ripening",
+			"spans": [[7807, 7821]]
+		},
+		{
+			"name": "orange and red ripe stages",
+			"spans": [[8189, 8215]]
+		},
+		{
+			"name": "ethylene-dependent",
+			"spans": [[8103, 8121]]
+		},
+		{
+			"name": "ethylene-independent manner",
+			"spans": [[7993, 8020]]
+		},
+		{
+			"name": "green stage of fruit development",
+			"spans": [[7957, 7989]]
+		},
+		{
+			"name": "in vitro assays",
+			"spans": [
+				[10759, 10774],
+				[16342, 16357]
+			]
+		},
+		{
+			"name": "control reaction",
+			"spans": [
+				[10358, 10374],
+				[11174, 11190],
+				[31939, 31955]
+			]
+		},
+		{
+			"name": "in vitro enzyme assays",
+			"spans": [
+				[15564, 15586],
+				[22963, 22985]
+			]
+		},
+		{
+			"name": "in vitro acyltransferase activity",
+			"spans": [[14977, 15010]]
+		},
+		{
+			"name": "in vitro coupled enzyme assays",
+			"spans": [[16704, 16734]]
+		},
+		{
+			"name": "coupled assays",
+			"spans": [[19833, 19847]]
+		},
+		{
+			"name": "enzyme assay",
+			"spans": [[20710, 20722]]
+		},
+		{
+			"name": "in vitro steady-state kinetics analysis",
+			"spans": [[22191, 22230]]
+		},
+		{
+			"name": "CRISPR-cas9 mediated knockout",
+			"spans": [[25894, 25923]]
+		},
+		{
+			"name": "CRISPR-Cas9 genome editing",
+			"spans": [[27327, 27353]]
+		},
+		{
+			"name": "LC-MS",
+			"spans": [[29372, 29377]]
+		},
+		{
+			"name": "in vitro production",
+			"spans": [[32098, 32117]]
+		},
+		{
+			"name": "stepwise reconstitution experiments",
+			"spans": [[33543, 33578]]
+		},
+		{
+			"name": "sequential assays",
+			"spans": [[33704, 33721]]
+		},
+		{
+			"name": "reconstitution experiments",
+			"spans": [[34996, 35022]]
+		},
+		{
+			"name": "transient co-expression",
+			"spans": [[34162, 34185]]
+		},
+		{
+			"name": "transient expression experiment",
+			"spans": [[34754, 34785]]
+		},
+		{
+			"name": "in vitro reconstruction experiments",
+			"spans": [[33874, 33909]]
+		},
+		{
+			"name": "in planta",
+			"spans": [[33966, 33975]]
+		},
+		{
+			"name": "co-infiltration",
+			"spans": [
+				[34377, 34392],
+				[34699, 34714]
+			]
+		},
+		{
+			"name": "knockout experiments",
+			"spans": [[44510, 44530]]
+		},
+		{
+			"name": "exogenous ethylene treatments",
+			"spans": [[46431, 46460]],
+			"ontology_id": "PECO:0007068",
+			"normalized_name": "ethylene exposure",
+			"score": 0.8813425302505493
+		}
+	]
+}

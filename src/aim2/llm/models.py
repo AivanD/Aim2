@@ -44,7 +44,7 @@ def _parse_retry_after(error_message: str) -> int:
     return int(wait_time) + 5 # Add a 5-second buffer
 
 # use vllm for concurrency, pageattention, kv_caching, etc.
-def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-AWQ", max_model_len=2048, quantization="awq_marlin"):
+def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-AWQ", max_model_len=2500, quantization="awq_marlin"):
     """
     Loads a local (w or w/o quant) LLM model using the Outlines library with vLLM backend.
     This function initializes a model as well as configures memory and performance options 
@@ -197,7 +197,7 @@ async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, 
             raise Exception("GPT_MODEL_NER model can only be used for 'ner' or 're' tasks.")
     elif API_MODEL == "gpt-5-mini":
         temperature = None
-        reasoning = {"effort": "medium"}        # add "summary": auto if you want reasoning summaries to appear in the response. Organization needs to be verified via the website first
+        reasoning = {"effort": "low"}        # add "summary": auto if you want reasoning summaries to appear in the response. Organization needs to be verified via the website first
         max_output_tokens = 200
         if task == "re-self-eval":
             system_content = _static_header_re_evaluation()

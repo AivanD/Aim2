@@ -392,7 +392,7 @@ async def amain():
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
-                logger.info(f"Starting relation extraction for {len(prompts_re)} pairs...")
+                logger.info(f"Starting relation extraction for {len(prompts_re)} **VALID** pairs...")
                 # re_results = await asyncio.gather(*tasks)
 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
