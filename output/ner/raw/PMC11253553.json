@@ -1,0 +1,1542 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "jasmonates"
+			},
+			{
+				"name": "jasmonate"
+			},
+			{
+				"name": "JA"
+			},
+			{
+				"name": "JA-Ile"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irAOC"
+			},
+			{
+				"name": "irCYP94B3s"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum tuberosum"
+			},
+			{
+				"name": "Phthorimaea operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "high temperature treatments"
+			},
+			{
+				"name": "herbivory alone"
+			},
+			{
+				"name": "co-stressed by high temperature and insect herbivory"
+			},
+			{
+				"name": "pre-stressed by herbivory alone"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "JA signaling"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plant-induced defense"
+			},
+			{
+				"name": "defense"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "carbon dioxide"
+			},
+			{
+				"name": "drought"
+			},
+			{
+				"name": "temperature"
+			},
+			{
+				"name": "radiation"
+			},
+			{
+				"name": "climate change"
+			},
+			{
+				"name": "heat waves"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defensive responses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "heat waves"
+			},
+			{
+				"name": "high temperatures"
+			},
+			{
+				"name": "warmer years"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "temperature-sensitive"
+			},
+			{
+				"name": "defensive responses"
+			},
+			{
+				"name": "herbivory damage"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "calcium"
+			},
+			{
+				"name": "Ca2+"
+			},
+			{
+				"name": "reactive oxygen species"
+			},
+			{
+				"name": "ROS"
+			},
+			{
+				"name": "jasmonic acid"
+			},
+			{
+				"name": "JA"
+			},
+			{
+				"name": "salicylic acid"
+			},
+			{
+				"name": "SA"
+			},
+			{
+				"name": "abscisic acid"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "auxins"
+			},
+			{
+				"name": "IAA"
+			}
+		],
+		"pathways": [
+			{
+				"name": "phytohormonal pathways"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defensive status"
+			},
+			{
+				"name": "resistances against herbivore attack"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Nicotiana attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivores"
+			},
+			{
+				"name": "abiotic stresses"
+			},
+			{
+				"name": "high temperatures"
+			},
+			{
+				"name": "heat waves"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "flavonoids"
+			},
+			{
+				"name": "phenolics"
+			},
+			{
+				"name": "terpenoids"
+			},
+			{
+				"name": "volatile organic compounds"
+			},
+			{
+				"name": "ss-caryophyllene"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperatures"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "induced defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "heat waves"
+			},
+			{
+				"name": "transient increase in temperature"
+			},
+			{
+				"name": "high temperature"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defensive responses"
+			},
+			{
+				"name": "plant-induced defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "insect herbivory"
+			},
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "CT condition"
+			},
+			{
+				"name": "CT treatment chambers"
+			},
+			{
+				"name": "HT treatment chambers"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leave"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "control temperature"
+			},
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "simulated herbivory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "simulated herbivory"
+			},
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant-induced defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. tuberosum"
+			},
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "simulated herbivory"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory response"
+			},
+			{
+				"name": "herbivory-responsive gene expression"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			},
+			{
+				"name": "MeJA"
+			},
+			{
+				"name": "jasmonate"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "JA-reduced"
+			},
+			{
+				"name": "MeJA-treated"
+			},
+			{
+				"name": "untreated"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defense"
+			},
+			{
+				"name": "biomass"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			},
+			{
+				"name": "MeJA"
+			},
+			{
+				"name": "lanolin"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "AOC"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivory-induced"
+			},
+			{
+				"name": "untreated"
+			},
+			{
+				"name": "lanolin-treated"
+			},
+			{
+				"name": "MeJA-treated"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript levels"
+			},
+			{
+				"name": "differential expression"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "defense"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "simulated herbivory attack"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate"
+			},
+			{
+				"name": "JA"
+			},
+			{
+				"name": "JA-Ile"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "LOX"
+			},
+			{
+				"name": "AOS"
+			},
+			{
+				"name": "AOC"
+			},
+			{
+				"name": "OPR"
+			},
+			{
+				"name": "OPCL1"
+			},
+			{
+				"name": "ACX"
+			},
+			{
+				"name": "MFP2"
+			},
+			{
+				"name": "PKT"
+			},
+			{
+				"name": "JAR"
+			},
+			{
+				"name": "JAZ"
+			},
+			{
+				"name": "MYC2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "HT"
+			},
+			{
+				"name": "simulated herbivory"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			},
+			{
+				"name": "JA-Ile"
+			},
+			{
+				"name": "SA"
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA biosynthetic and signaling pathway"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "different treatments"
+			},
+			{
+				"name": "CT"
+			},
+			{
+				"name": "HT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose"
+			},
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "galactose"
+			},
+			{
+				"name": "inositol"
+			},
+			{
+				"name": "mannitol"
+			},
+			{
+				"name": "sorbitol"
+			},
+			{
+				"name": "sucrose"
+			}
+		],
+		"pathways": [
+			{
+				"name": "citrate cycle"
+			},
+			{
+				"name": "primary metabolism"
+			}
+		],
+		"genes": [
+			{
+				"name": "CS"
+			},
+			{
+				"name": "ACO"
+			},
+			{
+				"name": "IDH"
+			},
+			{
+				"name": "OGDC"
+			},
+			{
+				"name": "DLD"
+			},
+			{
+				"name": "DLST"
+			},
+			{
+				"name": "SDS"
+			},
+			{
+				"name": "SDH"
+			},
+			{
+				"name": "FH"
+			},
+			{
+				"name": "MDH"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			},
+			{
+				"name": "simulated herbivory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose"
+			},
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "galactose"
+			},
+			{
+				"name": "inositol"
+			},
+			{
+				"name": "mannitol"
+			},
+			{
+				"name": "sorbitol"
+			},
+			{
+				"name": "sucrose"
+			}
+		],
+		"pathways": [
+			{
+				"name": "glycolysis"
+			},
+			{
+				"name": "citrate cycle"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-solanine"
+			},
+			{
+				"name": "alpha-chaconine"
+			}
+		],
+		"pathways": [
+			{
+				"name": "mevalonate"
+			},
+			{
+				"name": "SGAs biosynthesis"
+			},
+			{
+				"name": "TPI biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "HMGR"
+			},
+			{
+				"name": "FPPS"
+			},
+			{
+				"name": "SQS"
+			},
+			{
+				"name": "CAS"
+			},
+			{
+				"name": "SSR2"
+			},
+			{
+				"name": "GAME"
+			},
+			{
+				"name": "SGT1"
+			},
+			{
+				"name": "SGT2"
+			},
+			{
+				"name": "TPI"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			},
+			{
+				"name": "temperature"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "specialized metabolite levels"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-solanine"
+			},
+			{
+				"name": "alpha-chaconine"
+			}
+		],
+		"pathways": [
+			{
+				"name": "MVA pathway"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "CT"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate"
+			},
+			{
+				"name": "JA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irAOC"
+			},
+			{
+				"name": "irCYP94B3s"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "simulated herbivory"
+			},
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "CT"
+			},
+			{
+				"name": "HT"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant resistance to herbivore attack"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "StAOC"
+			},
+			{
+				"name": "StCYP94B3s"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "simulated herbivory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defense"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "heat waves"
+			},
+			{
+				"name": "transient increase in environmental temperature"
+			},
+			{
+				"name": "high temperatures"
+			},
+			{
+				"name": "exposure to higher temperatures"
+			},
+			{
+				"name": "artificial diets"
+			},
+			{
+				"name": "transiently exposing potato plants to extreme temperatures"
+			},
+			{
+				"name": "elevated ambient temperatures"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "crop productivity"
+			},
+			{
+				"name": "plant-induced defense induction"
+			},
+			{
+				"name": "induced defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella"
+			},
+			{
+				"name": "Nicotiana attenuata"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "bacterial-associated elicitor-induced defense signaling"
+			},
+			{
+				"name": "different stresses"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defenses"
+			},
+			{
+				"name": "defense responses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "high temperatures"
+			},
+			{
+				"name": "control"
+			},
+			{
+				"name": "heat stress response"
+			},
+			{
+				"name": "high temperature exposure"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "kinase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonates"
+			},
+			{
+				"name": "MeJA"
+			},
+			{
+				"name": "sugar"
+			},
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "TPI"
+			},
+			{
+				"name": "soluble sugars"
+			}
+		],
+		"pathways": [
+			{
+				"name": "primary metabolism"
+			},
+			{
+				"name": "specialized metabolite biosynthesis"
+			},
+			{
+				"name": "metabolites biosynthesis cascade"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum lycopersicum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "CT"
+			},
+			{
+				"name": "HT"
+			},
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "herbivore attack"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "defense responses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonates"
+			},
+			{
+				"name": "JA"
+			},
+			{
+				"name": "methyl jasmonate"
+			},
+			{
+				"name": "MeJA"
+			},
+			{
+				"name": "JA-Ile"
+			},
+			{
+				"name": "soluble sugars"
+			},
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "TPI"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivory"
+			},
+			{
+				"name": "MeJA treatment"
+			},
+			{
+				"name": "high temperature"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defense"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonates"
+			},
+			{
+				"name": "soluble sugar"
+			},
+			{
+				"name": "volatile organic compounds"
+			},
+			{
+				"name": "polyphenol oxidase"
+			},
+			{
+				"name": "glucosinolates"
+			},
+			{
+				"name": "JA"
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA-signaling"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stomata"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "elevated temperature"
+			},
+			{
+				"name": "high temperature treatment"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript accumulation"
+			},
+			{
+				"name": "photosynthesis parameters"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plants' attractiveness"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			},
+			{
+				"name": "JA-Ile"
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA signaling"
+			}
+		],
+		"genes": [
+			{
+				"name": "irAOC"
+			},
+			{
+				"name": "irCYP94B3s"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "foliage"
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "control temperature"
+			},
+			{
+				"name": "insect herbivory"
+			},
+			{
+				"name": "herbivory-induced"
+			},
+			{
+				"name": "warming-mediated"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defense responses"
+			},
+			{
+				"name": "defense mechanism"
+			},
+			{
+				"name": "host-plant quality"
+			},
+			{
+				"name": "poor-nutrient foliage"
+			},
+			{
+				"name": "decreased defensive compounds"
+			},
+			{
+				"name": "increased sensitivity to attacks"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA"
+			},
+			{
+				"name": "secondary compounds"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Potato"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "transient exposure to high temperature"
+			},
+			{
+				"name": "elevated ambient temperature"
+			},
+			{
+				"name": "high temperature"
+			},
+			{
+				"name": "herbivory stresses"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivore defense"
+			},
+			{
+				"name": "defense signaling activation"
+			},
+			{
+				"name": "resource allocation"
+			},
+			{
+				"name": "defensive secondary compounds production"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate"
+			},
+			{
+				"name": "phytohormone"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "transient exposure to high temperature"
+			},
+			{
+				"name": "detached leaf bioassay"
+			},
+			{
+				"name": "1 h herbivory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defenses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "temperature"
+			},
+			{
+				"name": "global climate change"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defense"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	}
+]

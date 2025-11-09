@@ -1,0 +1,2292 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [
+					[1586, 1588],
+					[1620, 1622],
+					[1707, 1709]
+				]
+			},
+			{
+				"name": "jasmonates",
+				"spans": [[1502, 1512]]
+			},
+			{
+				"name": "jasmonate",
+				"spans": [[1567, 1576]]
+			},
+			{
+				"name": "JA-Ile",
+				"spans": [[1620, 1626]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCYP94B3s",
+				"spans": [[1637, 1647]]
+			},
+			{
+				"name": "irAOC",
+				"spans": [[1598, 1603]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[832, 838],
+					[900, 906]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Phthorimaea operculella",
+				"spans": [[718, 741]]
+			},
+			{
+				"name": "Solanum tuberosum",
+				"spans": [[651, 668]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivory alone",
+				"spans": [[923, 938]]
+			},
+			{
+				"name": "high temperature treatments",
+				"spans": [[962, 989]]
+			},
+			{
+				"name": "co-stressed by high temperature and insect herbivory",
+				"spans": [[839, 891]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[529, 538],
+					[882, 891],
+					[923, 932],
+					[1032, 1041],
+					[1279, 1288],
+					[1540, 1549]
+				]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[495, 511],
+					[854, 870],
+					[962, 978],
+					[1459, 1475],
+					[1679, 1695]
+				]
+			},
+			{
+				"name": "pre-stressed by herbivory alone",
+				"spans": [[907, 938]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "JA signaling",
+				"spans": [[1707, 1719]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "defense",
+				"spans": [
+					[1325, 1332],
+					[1517, 1524],
+					[1743, 1750],
+					[1851, 1858]
+				]
+			},
+			{
+				"name": "plant-induced defense",
+				"spans": [
+					[1729, 1750],
+					[1837, 1858]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "carbon dioxide",
+				"spans": [[2293, 2307]]
+			},
+			{
+				"name": "radiation",
+				"spans": [[2335, 2344]]
+			},
+			{
+				"name": "climate change",
+				"spans": [
+					[2539, 2553],
+					[2674, 2688]
+				]
+			},
+			{
+				"name": "drought",
+				"spans": [[2309, 2316]]
+			},
+			{
+				"name": "temperature",
+				"spans": [[2318, 2329]]
+			},
+			{
+				"name": "heat waves",
+				"spans": [
+					[2717, 2727],
+					[2758, 2768]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defensive responses",
+				"spans": [
+					[2193, 2230],
+					[2785, 2822]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "warmer years",
+				"spans": [[3254, 3266]]
+			},
+			{
+				"name": "high temperatures",
+				"spans": [[2894, 2911]]
+			},
+			{
+				"name": "heat waves",
+				"spans": [
+					[2879, 2889],
+					[3106, 3116],
+					[3317, 3327]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory damage",
+				"spans": [[3234, 3250]]
+			},
+			{
+				"name": "temperature-sensitive",
+				"spans": [[3186, 3207]]
+			},
+			{
+				"name": "defensive responses",
+				"spans": [[3145, 3164]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [[4020, 4022]]
+			},
+			{
+				"name": "SA",
+				"spans": [[4044, 4046]]
+			},
+			{
+				"name": "abscisic acid",
+				"spans": [[4132, 4145]]
+			},
+			{
+				"name": "ABA",
+				"spans": [[4147, 4150]]
+			},
+			{
+				"name": "jasmonic acid",
+				"spans": [[4005, 4018]]
+			},
+			{
+				"name": "salicylic acid",
+				"spans": [[4028, 4042]]
+			},
+			{
+				"name": "calcium",
+				"spans": [[3838, 3845]]
+			},
+			{
+				"name": "reactive oxygen species",
+				"spans": [[3858, 3881]]
+			},
+			{
+				"name": "ROS",
+				"spans": [[3883, 3886]]
+			},
+			{
+				"name": "auxins",
+				"spans": [[4156, 4162]]
+			},
+			{
+				"name": "IAA",
+				"spans": [[4164, 4167]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "phytohormonal pathways",
+				"spans": [[3981, 4003]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistances against herbivore attack",
+				"spans": [[4536, 4572]]
+			},
+			{
+				"name": "defensive status",
+				"spans": [[4515, 4531]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[5619, 5638]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "heat waves",
+				"spans": [[6187, 6197]]
+			},
+			{
+				"name": "abiotic stresses",
+				"spans": [[6025, 6041]]
+			},
+			{
+				"name": "herbivores",
+				"spans": [
+					[4903, 4913],
+					[5244, 5254]
+				]
+			},
+			{
+				"name": "high temperatures",
+				"spans": [[6165, 6182]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phenolics",
+				"spans": [[6420, 6429]]
+			},
+			{
+				"name": "terpenoids",
+				"spans": [[6435, 6445]]
+			},
+			{
+				"name": "volatile organic compounds",
+				"spans": [[6776, 6802]]
+			},
+			{
+				"name": "ss-caryophyllene",
+				"spans": [[6960, 6976]]
+			},
+			{
+				"name": "flavonoids",
+				"spans": [[6408, 6418]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[7001, 7007]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [[7059, 7073]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperatures",
+				"spans": [[6481, 6498]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "induced defenses",
+				"spans": [[7222, 7238]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate",
+				"spans": [[7685, 7694]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[7430, 7444],
+					[7556, 7570]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature",
+				"spans": [[7476, 7492]]
+			},
+			{
+				"name": "transient increase in temperature",
+				"spans": [[7310, 7343]]
+			},
+			{
+				"name": "heat waves",
+				"spans": [[7298, 7308]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defensive responses",
+				"spans": [[7358, 7395]]
+			},
+			{
+				"name": "plant-induced defenses",
+				"spans": [[7511, 7533]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [
+					[11414, 11420],
+					[11482, 11488],
+					[11762, 11768],
+					[11883, 11889]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT condition",
+				"spans": [[11604, 11616]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[11464, 11473],
+					[11505, 11514],
+					[11723, 11732]
+				]
+			},
+			{
+				"name": "insect herbivory",
+				"spans": [[11457, 11473]]
+			},
+			{
+				"name": "high temperature",
+				"spans": [[11436, 11452]]
+			},
+			{
+				"name": "HT treatment chambers",
+				"spans": [[11643, 11664]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leave",
+				"spans": [[13764, 13769]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [[13709, 13723]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "control temperature",
+				"spans": [[13603, 13622]]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[13499, 13515],
+					[13638, 13654]
+				]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [[13724, 13743]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[28454, 28458]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[28559, 28565],
+					[28610, 28616],
+					[28681, 28687],
+					[28790, 28796],
+					[28910, 28916]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[28642, 28644]]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[28591, 28593],
+					[29068, 29070]
+				]
+			},
+			{
+				"name": "high temperature",
+				"spans": [[28932, 28948]]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [[28712, 28731]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant-induced defenses",
+				"spans": [[29082, 29104]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[29497, 29499]]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[29319, 29321],
+					[29473, 29475]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. tuberosum",
+				"spans": [[29616, 29628]]
+			},
+			{
+				"name": "P. operculella",
+				"spans": [[29945, 29959]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [
+					[30016, 30018],
+					[30859, 30861]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[29870, 29872],
+					[30357, 30359],
+					[30852, 30854]
+				]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [[29960, 29979]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-responsive gene expression",
+				"spans": [[30997, 31033]]
+			},
+			{
+				"name": "herbivory response",
+				"spans": [[30062, 30080]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "MeJA",
+				"spans": [
+					[31380, 31384],
+					[31604, 31608]
+				]
+			},
+			{
+				"name": "JA",
+				"spans": [
+					[31289, 31291],
+					[31362, 31364],
+					[31790, 31792]
+				]
+			},
+			{
+				"name": "jasmonate",
+				"spans": [[31843, 31852]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[31421, 31425]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[31344, 31358],
+					[31467, 31481],
+					[31554, 31568]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "MeJA-treated",
+				"spans": [
+					[31380, 31392],
+					[31604, 31616]
+				]
+			},
+			{
+				"name": "JA-reduced",
+				"spans": [[31362, 31372]]
+			},
+			{
+				"name": "untreated",
+				"spans": [[31622, 31631]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defense",
+				"spans": [[31322, 31335]]
+			},
+			{
+				"name": "biomass",
+				"spans": [
+					[31506, 31513],
+					[31593, 31600]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "lanolin",
+				"spans": [[32468, 32475]]
+			},
+			{
+				"name": "MeJA",
+				"spans": [[32481, 32485]]
+			},
+			{
+				"name": "JA",
+				"spans": [
+					[32004, 32006],
+					[32915, 32917]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[32049, 32063],
+					[32306, 32320],
+					[32413, 32427]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "untreated",
+				"spans": [[32457, 32466]]
+			},
+			{
+				"name": "MeJA-treated",
+				"spans": [[32481, 32493]]
+			},
+			{
+				"name": "herbivory-induced",
+				"spans": [
+					[32163, 32180],
+					[32897, 32914],
+					[33130, 33147]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript levels",
+				"spans": [[32142, 32159]]
+			},
+			{
+				"name": "differential expression",
+				"spans": [[33181, 33204]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "defense",
+				"spans": [
+					[32033, 32040],
+					[32104, 32111],
+					[32187, 32194]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonate",
+				"spans": [
+					[33551, 33560],
+					[34595, 34604]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [
+					[33541, 33543],
+					[33934, 33936],
+					[34130, 34132],
+					[34384, 34386],
+					[34486, 34488]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[33815, 33817],
+					[33912, 33914],
+					[34108, 34110],
+					[34377, 34379],
+					[34500, 34502]
+				]
+			},
+			{
+				"name": "simulated herbivory attack",
+				"spans": [
+					[33880, 33906],
+					[33967, 33993],
+					[34076, 34102],
+					[34160, 34186],
+					[34241, 34267],
+					[34706, 34732]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [
+					[35003, 35005],
+					[35073, 35075],
+					[35412, 35414],
+					[35419, 35421]
+				]
+			},
+			{
+				"name": "jasmonate",
+				"spans": [
+					[34854, 34863],
+					[34901, 34910],
+					[35346, 35355],
+					[35475, 35484]
+				]
+			},
+			{
+				"name": "JA-Ile",
+				"spans": [[35419, 35425]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "AOC",
+				"spans": [
+					[35036, 35039],
+					[35265, 35268]
+				]
+			},
+			{
+				"name": "MFP2",
+				"spans": [[35058, 35062]]
+			},
+			{
+				"name": "JAZ",
+				"spans": [[35098, 35101]]
+			},
+			{
+				"name": "JAR",
+				"spans": [[35093, 35096]]
+			},
+			{
+				"name": "OPR",
+				"spans": [[35041, 35044]]
+			},
+			{
+				"name": "LOX",
+				"spans": [
+					[35026, 35029],
+					[35260, 35263]
+				]
+			},
+			{
+				"name": "PKT",
+				"spans": [[35064, 35067]]
+			},
+			{
+				"name": "MYC2",
+				"spans": [[35103, 35107]]
+			},
+			{
+				"name": "AOS",
+				"spans": [
+					[35031, 35034],
+					[35274, 35277]
+				]
+			},
+			{
+				"name": "ACX",
+				"spans": [[35053, 35056]]
+			},
+			{
+				"name": "OPCL1",
+				"spans": [[35046, 35051]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [
+					[35125, 35127],
+					[35238, 35240]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[34935, 34937],
+					[35200, 35202],
+					[35366, 35368]
+				]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [
+					[34956, 34975],
+					[35139, 35158],
+					[35500, 35519]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [
+					[35597, 35599],
+					[35661, 35663],
+					[35846, 35848],
+					[35854, 35856]
+				]
+			},
+			{
+				"name": "SA",
+				"spans": [[35870, 35872]]
+			},
+			{
+				"name": "JA-Ile",
+				"spans": [[35854, 35860]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA biosynthetic and signaling pathway",
+				"spans": [[35661, 35698]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves",
+				"spans": [
+					[35638, 35651],
+					[35890, 35903]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[35943, 35945]]
+			},
+			{
+				"name": "HT",
+				"spans": [[35946, 35948]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[35570, 35579],
+					[35930, 35939]
+				]
+			},
+			{
+				"name": "different treatments",
+				"spans": [
+					[35787, 35807],
+					[35992, 36012]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose",
+				"spans": [[36910, 36918]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[36920, 36927]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[36970, 36977]]
+			},
+			{
+				"name": "sorbitol",
+				"spans": [[36960, 36968]]
+			},
+			{
+				"name": "inositol",
+				"spans": [[36940, 36948]]
+			},
+			{
+				"name": "mannitol",
+				"spans": [[36950, 36958]]
+			},
+			{
+				"name": "galactose",
+				"spans": [[36929, 36938]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "citrate cycle",
+				"spans": [[36416, 36429]]
+			},
+			{
+				"name": "primary metabolism",
+				"spans": [
+					[36286, 36304],
+					[37255, 37273]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "ACO",
+				"spans": [
+					[36435, 36438],
+					[36673, 36676]
+				]
+			},
+			{
+				"name": "FH",
+				"spans": [[36472, 36474]]
+			},
+			{
+				"name": "MDH",
+				"spans": [
+					[36476, 36479],
+					[36710, 36713]
+				]
+			},
+			{
+				"name": "CS",
+				"spans": [
+					[36431, 36433],
+					[36669, 36671]
+				]
+			},
+			{
+				"name": "SDS",
+				"spans": [
+					[36462, 36465],
+					[36700, 36703]
+				]
+			},
+			{
+				"name": "SDH",
+				"spans": [
+					[36467, 36470],
+					[36705, 36708]
+				]
+			},
+			{
+				"name": "OGDC",
+				"spans": [
+					[36445, 36449],
+					[36683, 36687]
+				]
+			},
+			{
+				"name": "DLST",
+				"spans": [
+					[36456, 36460],
+					[36694, 36698]
+				]
+			},
+			{
+				"name": "IDH",
+				"spans": [
+					[36440, 36443],
+					[36678, 36681]
+				]
+			},
+			{
+				"name": "DLD",
+				"spans": [
+					[36451, 36454],
+					[36689, 36692]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[37024, 37026]]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[36358, 36360],
+					[36579, 36581],
+					[37131, 37133]
+				]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [
+					[37048, 37067],
+					[37179, 37198],
+					[37279, 37298]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose",
+				"spans": [[37765, 37773]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[37775, 37782]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[37828, 37835]]
+			},
+			{
+				"name": "sorbitol",
+				"spans": [[37815, 37823]]
+			},
+			{
+				"name": "inositol",
+				"spans": [[37795, 37803]]
+			},
+			{
+				"name": "mannitol",
+				"spans": [[37805, 37813]]
+			},
+			{
+				"name": "galactose",
+				"spans": [[37784, 37793]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "citrate cycle",
+				"spans": [[37479, 37492]]
+			},
+			{
+				"name": "glycolysis",
+				"spans": [[37464, 37474]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves",
+				"spans": [[37441, 37454]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[37870, 37872]]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[37683, 37685],
+					[37873, 37875]
+				]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[37358, 37367],
+					[37616, 37625],
+					[37857, 37866]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-solanine",
+				"spans": [[38655, 38669]]
+			},
+			{
+				"name": "alpha-chaconine",
+				"spans": [[38765, 38780]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "mevalonate",
+				"spans": [[38370, 38380]]
+			},
+			{
+				"name": "SGAs biosynthesis",
+				"spans": [[38415, 38432]]
+			},
+			{
+				"name": "TPI biosynthesis",
+				"spans": [[38461, 38477]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SQS",
+				"spans": [[38394, 38397]]
+			},
+			{
+				"name": "HMGR",
+				"spans": [[38382, 38386]]
+			},
+			{
+				"name": "GAME",
+				"spans": [[38434, 38438]]
+			},
+			{
+				"name": "TPI",
+				"spans": [
+					[38461, 38464],
+					[38479, 38482],
+					[38674, 38677]
+				]
+			},
+			{
+				"name": "SGT1",
+				"spans": [[38440, 38444]]
+			},
+			{
+				"name": "SGT2",
+				"spans": [[38446, 38450]]
+			},
+			{
+				"name": "FPPS",
+				"spans": [[38388, 38392]]
+			},
+			{
+				"name": "SSR2",
+				"spans": [[38404, 38408]]
+			},
+			{
+				"name": "CAS",
+				"spans": [[38399, 38402]]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [
+					[38315, 38317],
+					[38723, 38725]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[38308, 38310],
+					[38581, 38583],
+					[38701, 38703]
+				]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[38179, 38188],
+					[38514, 38523],
+					[38803, 38812],
+					[38889, 38898]
+				]
+			},
+			{
+				"name": "temperature",
+				"spans": [
+					[38816, 38827],
+					[38846, 38857]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity",
+				"spans": [[38674, 38686]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "specialized metabolite levels",
+				"spans": [[38261, 38290]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-solanine",
+				"spans": [[39397, 39411]]
+			},
+			{
+				"name": "alpha-chaconine",
+				"spans": [[39417, 39432]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "MVA pathway",
+				"spans": [
+					[39155, 39166],
+					[39239, 39250]
+				]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "potato leaves",
+				"spans": [[39129, 39142]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [[39482, 39484]]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[39338, 39340],
+					[39485, 39487]
+				]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[39032, 39041],
+					[39290, 39299],
+					[39469, 39478]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity",
+				"spans": [[39442, 39454]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [[41174, 41176]]
+			},
+			{
+				"name": "jasmonate",
+				"spans": [
+					[39779, 39788],
+					[39809, 39818]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "irCYP94B3s",
+				"spans": [
+					[39829, 39839],
+					[40759, 40769],
+					[40910, 40920],
+					[41089, 41099]
+				]
+			},
+			{
+				"name": "irAOC",
+				"spans": [
+					[39798, 39803],
+					[40643, 40648]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[39744, 39748]]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[39934, 39940],
+					[39992, 39998],
+					[40070, 40076],
+					[40179, 40185],
+					[40391, 40397],
+					[40584, 40590],
+					[40705, 40711],
+					[40847, 40853],
+					[41030, 41036]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[40558, 40572],
+					[41004, 41018]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "CT",
+				"spans": [
+					[40031, 40033],
+					[40800, 40802]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [[39973, 39975]]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[40413, 40429],
+					[40869, 40885]
+				]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [
+					[40101, 40120],
+					[40615, 40634],
+					[40736, 40755],
+					[41061, 41080]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant resistance to herbivore attack",
+				"spans": [[41204, 41240]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "StCYP94B3s",
+				"spans": [[41262, 41272]]
+			},
+			{
+				"name": "StAOC",
+				"spans": [[41256, 41261]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[41487, 41493]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[41378, 41392],
+					[41418, 41432],
+					[41535, 41549]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature",
+				"spans": [[41295, 41311]]
+			},
+			{
+				"name": "simulated herbivory",
+				"spans": [[41550, 41569]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defense",
+				"spans": [[41344, 41369]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[42555, 42561]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[42160, 42174],
+					[42512, 42526]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "artificial diets",
+				"spans": [[42220, 42236]]
+			},
+			{
+				"name": "elevated ambient temperatures",
+				"spans": [[42895, 42924]]
+			},
+			{
+				"name": "exposure to higher temperatures",
+				"spans": [[42105, 42136]]
+			},
+			{
+				"name": "transiently exposing potato plants to extreme temperatures",
+				"spans": [[42416, 42474]]
+			},
+			{
+				"name": "transient increase in environmental temperature",
+				"spans": [[41776, 41823]]
+			},
+			{
+				"name": "high temperatures",
+				"spans": [
+					[42029, 42046],
+					[42261, 42278]
+				]
+			},
+			{
+				"name": "heat waves",
+				"spans": [[41758, 41768]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant-induced defense induction",
+				"spans": [[42687, 42718]]
+			},
+			{
+				"name": "induced defenses",
+				"spans": [[42964, 42980]]
+			},
+			{
+				"name": "crop productivity",
+				"spans": [[41947, 41964]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [[43086, 43100]]
+			},
+			{
+				"name": "Nicotiana attenuata",
+				"spans": [[43303, 43322]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "different stresses",
+				"spans": [
+					[43552, 43570],
+					[43618, 43636]
+				]
+			},
+			{
+				"name": "bacterial-associated elicitor-induced defense signaling",
+				"spans": [[43372, 43427]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[43101, 43110],
+					[43203, 43212]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defense responses",
+				"spans": [[43586, 43603]]
+			},
+			{
+				"name": "plant defenses",
+				"spans": [[43039, 43053]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [[44173, 44175]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "control",
+				"spans": [[44353, 44360]]
+			},
+			{
+				"name": "high temperature exposure",
+				"spans": [[45713, 45738]]
+			},
+			{
+				"name": "high temperatures",
+				"spans": [
+					[43851, 43868],
+					[43972, 43989],
+					[44247, 44264],
+					[44365, 44382]
+				]
+			},
+			{
+				"name": "heat stress response",
+				"spans": [[45613, 45633]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "kinase activity",
+				"spans": [[44600, 44615]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "herbivory-induced defenses",
+				"spans": [[44054, 44080]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "jasmonates",
+				"spans": [
+					[47405, 47415],
+					[47848, 47858]
+				]
+			},
+			{
+				"name": "soluble sugars",
+				"spans": [[47654, 47668]]
+			},
+			{
+				"name": "MeJA",
+				"spans": [[47417, 47421]]
+			},
+			{
+				"name": "sugar",
+				"spans": [[47448, 47453]]
+			},
+			{
+				"name": "TPI",
+				"spans": [
+					[47470, 47473],
+					[47870, 47873]
+				]
+			},
+			{
+				"name": "SGAs",
+				"spans": [
+					[47461, 47465],
+					[47860, 47864]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "specialized metabolite biosynthesis",
+				"spans": [[46710, 46745]]
+			},
+			{
+				"name": "metabolites biosynthesis cascade",
+				"spans": [[46471, 46503]]
+			},
+			{
+				"name": "primary metabolism",
+				"spans": [[46670, 46688]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum lycopersicum",
+				"spans": [[47312, 47332]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "herbivore attack",
+				"spans": [[46600, 46616]]
+			},
+			{
+				"name": "CT",
+				"spans": [
+					[46410, 46412],
+					[46810, 46812]
+				]
+			},
+			{
+				"name": "HT",
+				"spans": [
+					[46413, 46415],
+					[46822, 46824],
+					[47792, 47794],
+					[47902, 47904]
+				]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[46066, 46075],
+					[46526, 46535],
+					[46917, 46926],
+					[47712, 47721],
+					[47779, 47788],
+					[47830, 47839]
+				]
+			},
+			{
+				"name": "high temperature",
+				"spans": [[46105, 46121]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "TPI activity",
+				"spans": [[47870, 47882]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "defense responses",
+				"spans": [
+					[46084, 46101],
+					[46544, 46561]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [
+					[48211, 48213],
+					[48215, 48217],
+					[48235, 48237],
+					[48342, 48344],
+					[48779, 48781],
+					[48924, 48926],
+					[48943, 48945],
+					[49058, 49060],
+					[49081, 49083],
+					[49199, 49201],
+					[49311, 49313]
+				]
+			},
+			{
+				"name": "jasmonates",
+				"spans": [[48113, 48123]]
+			},
+			{
+				"name": "soluble sugars",
+				"spans": [[48476, 48490]]
+			},
+			{
+				"name": "methyl jasmonate",
+				"spans": [[48711, 48727]]
+			},
+			{
+				"name": "MeJA",
+				"spans": [
+					[48729, 48733],
+					[49117, 49121]
+				]
+			},
+			{
+				"name": "JA-Ile",
+				"spans": [
+					[49058, 49064],
+					[49081, 49087]
+				]
+			},
+			{
+				"name": "TPI",
+				"spans": [[48513, 48516]]
+			},
+			{
+				"name": "SGAs",
+				"spans": [[48507, 48511]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[48861, 48875],
+					[49006, 49020],
+					[49162, 49176],
+					[49263, 49277]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature",
+				"spans": [[49405, 49421]]
+			},
+			{
+				"name": "herbivory",
+				"spans": [
+					[48002, 48011],
+					[48157, 48166],
+					[48281, 48290],
+					[48324, 48333],
+					[48597, 48606],
+					[48906, 48915],
+					[49040, 49049],
+					[49391, 49400]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defense",
+				"spans": [
+					[48020, 48027],
+					[48175, 48182],
+					[48841, 48848],
+					[48990, 48997],
+					[49146, 49153],
+					[49247, 49254]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "polyphenol oxidase",
+				"spans": [[50353, 50371]]
+			},
+			{
+				"name": "JA",
+				"spans": [
+					[50632, 50634],
+					[50691, 50693],
+					[50717, 50719],
+					[50800, 50802]
+				]
+			},
+			{
+				"name": "jasmonates",
+				"spans": [[49527, 49537]]
+			},
+			{
+				"name": "volatile organic compounds",
+				"spans": [[49833, 49859]]
+			},
+			{
+				"name": "glucosinolates",
+				"spans": [[50376, 50390]]
+			},
+			{
+				"name": "soluble sugar",
+				"spans": [[49609, 49622]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA-signaling",
+				"spans": [
+					[50632, 50644],
+					[50800, 50812]
+				]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stomata",
+				"spans": [[49731, 49738]]
+			},
+			{
+				"name": "leaves",
+				"spans": [[49891, 49897]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [[50005, 50019]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "high temperature treatment",
+				"spans": [[49915, 49941]]
+			},
+			{
+				"name": "elevated temperature",
+				"spans": [
+					[49753, 49773],
+					[50250, 50270]
+				]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[49461, 49477],
+					[49915, 49931],
+					[50395, 50411],
+					[50548, 50564],
+					[50753, 50769],
+					[50849, 50865]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "photosynthesis parameters",
+				"spans": [[49698, 49723]]
+			},
+			{
+				"name": "transcript accumulation",
+				"spans": [[49633, 49656]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plants' attractiveness",
+				"spans": [[49975, 49997]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [
+					[50943, 50945],
+					[51066, 51068],
+					[51087, 51089],
+					[51191, 51193],
+					[51537, 51539],
+					[51596, 51598],
+					[51699, 51701],
+					[51845, 51847]
+				]
+			},
+			{
+				"name": "JA-Ile",
+				"spans": [
+					[51087, 51093],
+					[51596, 51602],
+					[51699, 51705]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "JA signaling",
+				"spans": [
+					[51191, 51203],
+					[51845, 51857]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "irCYP94B3s",
+				"spans": [[51103, 51113]]
+			},
+			{
+				"name": "irAOC",
+				"spans": [[51077, 51082]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[51141, 51145]]
+			},
+			{
+				"name": "foliage",
+				"spans": [[52174, 52181]]
+			}
+		],
+		"species": [
+			{
+				"name": "P. operculella",
+				"spans": [
+					[51000, 51014],
+					[51247, 51261],
+					[51646, 51660],
+					[51925, 51939]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "warming-mediated",
+				"spans": [[52116, 52132]]
+			},
+			{
+				"name": "control temperature",
+				"spans": [
+					[51383, 51402],
+					[51625, 51644]
+				]
+			},
+			{
+				"name": "insect herbivory",
+				"spans": [[51313, 51329]]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[51040, 51056],
+					[51361, 51377],
+					[51743, 51759],
+					[51779, 51795],
+					[51946, 51962]
+				]
+			},
+			{
+				"name": "herbivory-induced",
+				"spans": [
+					[51510, 51527],
+					[51815, 51832]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "increased sensitivity to attacks",
+				"spans": [[52218, 52250]]
+			},
+			{
+				"name": "poor-nutrient foliage",
+				"spans": [[52160, 52181]]
+			},
+			{
+				"name": "defense responses",
+				"spans": [[50956, 50973]]
+			},
+			{
+				"name": "host-plant quality",
+				"spans": [[52133, 52151]]
+			},
+			{
+				"name": "decreased defensive compounds",
+				"spans": [[52183, 52212]]
+			},
+			{
+				"name": "defense mechanism",
+				"spans": [[52021, 52038]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "JA",
+				"spans": [[52454, 52456]]
+			},
+			{
+				"name": "secondary compounds",
+				"spans": [[53141, 53160]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Potato",
+				"spans": [
+					[52752, 52758],
+					[52897, 52903]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "elevated ambient temperature",
+				"spans": [[52674, 52702]]
+			},
+			{
+				"name": "high temperature",
+				"spans": [
+					[52427, 52443],
+					[52823, 52839],
+					[52916, 52932]
+				]
+			},
+			{
+				"name": "transient exposure to high temperature",
+				"spans": [[52405, 52443]]
+			},
+			{
+				"name": "herbivory stresses",
+				"spans": [[52937, 52955]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resource allocation",
+				"spans": [[53107, 53126]]
+			},
+			{
+				"name": "herbivore defense",
+				"spans": [[52714, 52731]]
+			},
+			{
+				"name": "defense signaling activation",
+				"spans": [[53077, 53105]]
+			},
+			{
+				"name": "defensive secondary compounds production",
+				"spans": [[53131, 53171]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phytohormone",
+				"spans": [[53807, 53819]]
+			},
+			{
+				"name": "jasmonate",
+				"spans": [[53566, 53575]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[53777, 53781]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "detached leaf bioassay",
+				"spans": [[53768, 53790]]
+			},
+			{
+				"name": "1 h herbivory",
+				"spans": [[53838, 53851]]
+			},
+			{
+				"name": "transient exposure to high temperature",
+				"spans": [[53237, 53275]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defenses",
+				"spans": [[53308, 53316]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "global climate change",
+				"spans": [[54049, 54070]]
+			},
+			{
+				"name": "temperature",
+				"spans": [[53911, 53922]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defense",
+				"spans": [[53933, 53946]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	}
+]

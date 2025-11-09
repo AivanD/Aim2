@@ -1,0 +1,4186 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "amino acids",
+				"spans": [[1621, 1632]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[1453, 1460]]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[1407, 1413],
+					[1430, 1436]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "de novo biosynthesis of amino acids",
+				"spans": [[1597, 1632]]
+			},
+			{
+				"name": "starch biosynthesis",
+				"spans": [[1407, 1426]]
+			},
+			{
+				"name": "starch degradation",
+				"spans": [[1430, 1448]]
+			},
+			{
+				"name": "sucrose biosynthesis",
+				"spans": [[1453, 1473]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "cell walls",
+				"spans": [[1155, 1165]]
+			},
+			{
+				"name": "trichomatic nectaries",
+				"spans": [[207, 228]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[647, 654],
+					[734, 741],
+					[891, 898],
+					[1051, 1058],
+					[1503, 1510]
+				]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[1185, 1193]]
+			},
+			{
+				"name": "rough endoplasmic reticulum",
+				"spans": [[1100, 1127]]
+			},
+			{
+				"name": "plasma membranes",
+				"spans": [[1208, 1224]]
+			}
+		],
+		"species": [
+			{
+				"name": "Gossypium hirsutum",
+				"spans": [[248, 266]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "reproductive success",
+				"spans": [[171, 191]]
+			},
+			{
+				"name": "nectar production",
+				"spans": [[588, 605]]
+			},
+			{
+				"name": "nectar composition",
+				"spans": [[610, 628]]
+			},
+			{
+				"name": "plant fitness",
+				"spans": [[153, 166]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [
+					[1890, 1899],
+					[1986, 1995]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [[1974, 1995]]
+			}
+		],
+		"species": [
+			{
+				"name": "Gossypium hirsutum",
+				"spans": [[1870, 1888]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nectar",
+				"spans": [
+					[2215, 2221],
+					[2440, 2446],
+					[2593, 2599],
+					[2705, 2711],
+					[2949, 2955]
+				]
+			},
+			{
+				"name": "sugar",
+				"spans": [[2318, 2323]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "extrafloral nectaries",
+				"spans": [
+					[2086, 2107],
+					[2918, 2939]
+				]
+			},
+			{
+				"name": "boll",
+				"spans": [[2733, 2737]]
+			},
+			{
+				"name": "multicellular glandular trichome",
+				"spans": [[2259, 2291]]
+			},
+			{
+				"name": "trichome",
+				"spans": [[2283, 2291]]
+			},
+			{
+				"name": "papillae",
+				"spans": [[2239, 2247]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[2091, 2107],
+					[2923, 2939]
+				]
+			},
+			{
+				"name": "lint",
+				"spans": [[2742, 2746]]
+			}
+		],
+		"species": [
+			{
+				"name": "Gossypium hirsutum",
+				"spans": [[2038, 2056]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "environmental stress of insect herbivory",
+				"spans": [[2979, 3019]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "reproductive success",
+				"spans": [[3086, 3106]]
+			},
+			{
+				"name": "plant fitness",
+				"spans": [[3068, 3081]]
+			},
+			{
+				"name": "self-pollinating",
+				"spans": [[2630, 2646]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "yield",
+				"spans": [[2752, 2757]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose",
+				"spans": [[4093, 4101]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [
+					[3988, 3995],
+					[4035, 4042],
+					[4127, 4134],
+					[4205, 4212],
+					[4334, 4341]
+				]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[3864, 3870],
+					[3942, 3948]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [[4081, 4088]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary parenchyma",
+				"spans": [[3878, 3896]]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [
+					[3455, 3470],
+					[3754, 3769]
+				]
+			},
+			{
+				"name": "nectariferous parenchyma tissues",
+				"spans": [[3773, 3805]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [[4048, 4057]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[3528, 3544]]
+			},
+			{
+				"name": "Golgi",
+				"spans": [[3411, 3416]]
+			},
+			{
+				"name": "endoplasmic reticulum",
+				"spans": [[3386, 3407]]
+			}
+		],
+		"species": [
+			{
+				"name": "Cucurbita pepo",
+				"spans": [[3561, 3575]]
+			},
+			{
+				"name": "Arabidopsis",
+				"spans": [[3548, 3559]]
+			},
+			{
+				"name": "Nicotiana spp.",
+				"spans": [[3581, 3595]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [[3913, 3929]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "trichomatic nectaries",
+				"spans": [[4511, 4532]]
+			},
+			{
+				"name": "nectary",
+				"spans": [[4407, 4414]]
+			},
+			{
+				"name": "glandular trichome",
+				"spans": [[4813, 4831]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[4612, 4621],
+					[4774, 4783],
+					[4893, 4902],
+					[5067, 5076]
+				]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[4626, 4633],
+					[4737, 4744],
+					[4881, 4888],
+					[5000, 5007],
+					[5081, 5088],
+					[5188, 5195]
+				]
+			},
+			{
+				"name": "nectarostomata",
+				"spans": [
+					[4480, 4494],
+					[4550, 4564]
+				]
+			},
+			{
+				"name": "nectar droplets",
+				"spans": [[4965, 4980]]
+			},
+			{
+				"name": "terminal cells",
+				"spans": [[4791, 4805]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [
+					[4566, 4582],
+					[4715, 4731]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[5374, 5390],
+					[5990, 6006]
+				]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[5381, 5390],
+					[5622, 5631],
+					[5997, 6006]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [
+					[5369, 5390],
+					[5985, 6006]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[5346, 5357]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "ultrastructure",
+				"spans": [[5298, 5312]]
+			},
+			{
+				"name": "morphology",
+				"spans": [[5286, 5296]]
+			},
+			{
+				"name": "gene expression patterns",
+				"spans": [[5318, 5342]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "calyx surface",
+				"spans": [
+					[6766, 6779],
+					[6874, 6887]
+				]
+			},
+			{
+				"name": "floral nectary",
+				"spans": [
+					[6249, 6263],
+					[6835, 6849]
+				]
+			},
+			{
+				"name": "cotton boll",
+				"spans": [[6680, 6691]]
+			},
+			{
+				"name": "adaxial calyx surface",
+				"spans": [[6866, 6887]]
+			},
+			{
+				"name": "secretory papillae",
+				"spans": [[6932, 6950]]
+			},
+			{
+				"name": "bracts",
+				"spans": [[6799, 6805]]
+			},
+			{
+				"name": "bract",
+				"spans": [[6636, 6641]]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[6087, 6096],
+					[6377, 6386],
+					[6542, 6551],
+					[6598, 6607]
+				]
+			},
+			{
+				"name": "flowers",
+				"spans": [[6576, 6583]]
+			},
+			{
+				"name": "basal circumference",
+				"spans": [[6902, 6921]]
+			},
+			{
+				"name": "foliar nectary",
+				"spans": [
+					[6310, 6324],
+					[6404, 6418]
+				]
+			},
+			{
+				"name": "leaf midrib",
+				"spans": [[6460, 6471]]
+			},
+			{
+				"name": "abaxial surface",
+				"spans": [[6437, 6452]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[6213, 6221],
+					[6942, 6950]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [
+					[6362, 6386],
+					[6527, 6551]
+				]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [
+					[6368, 6386],
+					[6533, 6551],
+					[6589, 6607]
+				]
+			},
+			{
+				"name": "glandular trichomes",
+				"spans": [[6172, 6191]]
+			},
+			{
+				"name": "stellate trichomes",
+				"spans": [[6972, 6990]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[6044, 6055]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[7267, 7274],
+					[7290, 7297],
+					[7441, 7448],
+					[7471, 7478],
+					[7625, 7632]
+				]
+			},
+			{
+				"name": "starch",
+				"spans": [[7143, 7149]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET9",
+				"spans": [[7416, 7422]]
+			},
+			{
+				"name": "CELL WALL INVERTASE4",
+				"spans": [[7516, 7536]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "vesicle",
+				"spans": [
+					[7728, 7735],
+					[7796, 7803]
+				]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [
+					[7310, 7325],
+					[7761, 7776]
+				]
+			},
+			{
+				"name": "apoplasm",
+				"spans": [
+					[7335, 7343],
+					[7486, 7494],
+					[7821, 7829]
+				]
+			},
+			{
+				"name": "nectary tissue",
+				"spans": [[7169, 7183]]
+			},
+			{
+				"name": "Golgi",
+				"spans": [[7714, 7719]]
+			},
+			{
+				"name": "endoplasmic reticulum",
+				"spans": [[7680, 7701]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose",
+				"spans": [[8420, 8428]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[8407, 8414]]
+			},
+			{
+				"name": "diols",
+				"spans": [[8507, 8512]]
+			},
+			{
+				"name": "aromatics",
+				"spans": [[8541, 8550]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[8398, 8405]]
+			},
+			{
+				"name": "organic acids",
+				"spans": [[8514, 8527]]
+			},
+			{
+				"name": "amino acids",
+				"spans": [[8470, 8481]]
+			},
+			{
+				"name": "sugar alcohols",
+				"spans": [[8483, 8497]]
+			},
+			{
+				"name": "lipids",
+				"spans": [[8499, 8505]]
+			},
+			{
+				"name": "esters",
+				"spans": [[8529, 8535]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [
+					[7972, 7981],
+					[8030, 8039],
+					[8845, 8854]
+				]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [[8838, 8854]]
+			},
+			{
+				"name": "nectar",
+				"spans": [
+					[8048, 8054],
+					[8180, 8186],
+					[8641, 8647],
+					[8781, 8787]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "metabolite profiling experiments",
+				"spans": [[8144, 8176]]
+			},
+			{
+				"name": "metabolomic analysis",
+				"spans": [[7900, 7920]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "fructose",
+				"spans": [[8929, 8937]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [
+					[9155, 9162],
+					[9268, 9275]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [[8917, 8924]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "reproductive extrafloral",
+				"spans": [[9064, 9088]]
+			},
+			{
+				"name": "foliar",
+				"spans": [[9218, 9224]]
+			},
+			{
+				"name": "vegetative extrafloral",
+				"spans": [[9094, 9116]]
+			},
+			{
+				"name": "floral",
+				"spans": [[9056, 9062]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "asparagine",
+				"spans": [[11237, 11247]]
+			},
+			{
+				"name": "tryptophan",
+				"spans": [[11273, 11283]]
+			},
+			{
+				"name": "beta-alanine",
+				"spans": [[11611, 11623]]
+			},
+			{
+				"name": "GABA",
+				"spans": [[11314, 11318]]
+			},
+			{
+				"name": "aspartic acid",
+				"spans": [[11222, 11235]]
+			},
+			{
+				"name": "leucine",
+				"spans": [[11249, 11256]]
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[11258, 11271]]
+			},
+			{
+				"name": "gamma-aminobutyric acid",
+				"spans": [[11289, 11312]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "extrafloral nectars",
+				"spans": [
+					[10590, 10609],
+					[10957, 10976],
+					[11054, 11073],
+					[11570, 11589]
+				]
+			},
+			{
+				"name": "floral nectar",
+				"spans": [
+					[10595, 10608],
+					[10901, 10914],
+					[10962, 10975],
+					[11059, 11072],
+					[11146, 11159],
+					[11352, 11365],
+					[11575, 11588],
+					[11646, 11659],
+					[11684, 11697]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "floral nectary",
+				"spans": [
+					[12114, 12128],
+					[12317, 12331]
+				]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[11779, 11788],
+					[11969, 11978],
+					[12040, 12049]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [
+					[11957, 11978],
+					[12028, 12049]
+				]
+			},
+			{
+				"name": "foliar nectary",
+				"spans": [[12217, 12231]]
+			},
+			{
+				"name": "bracteal nectary",
+				"spans": [
+					[12247, 12263],
+					[12285, 12301]
+				]
+			},
+			{
+				"name": "circumbracteal nectary",
+				"spans": [[12279, 12301]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[12104, 12112],
+					[12207, 12215]
+				]
+			},
+			{
+				"name": "pit",
+				"spans": [[12082, 12085]]
+			},
+			{
+				"name": "ring",
+				"spans": [
+					[12153, 12157],
+					[12199, 12203]
+				]
+			},
+			{
+				"name": "stellate trichomes",
+				"spans": [[12161, 12179]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[11767, 11778]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [[12492, 12499]]
+			},
+			{
+				"name": "basal cell",
+				"spans": [[12594, 12604]]
+			},
+			{
+				"name": "extrafloral papillae",
+				"spans": [[12638, 12658]]
+			},
+			{
+				"name": "floral papillae",
+				"spans": [
+					[12643, 12658],
+					[12785, 12800]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[12471, 12479],
+					[12650, 12658],
+					[12734, 12742],
+					[12792, 12800],
+					[12860, 12868]
+				]
+			},
+			{
+				"name": "head cells",
+				"spans": [[12626, 12636]]
+			},
+			{
+				"name": "stalk cells",
+				"spans": [[12609, 12620]]
+			},
+			{
+				"name": "glandular trichomes",
+				"spans": [[12561, 12580]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "papillae length",
+				"spans": [
+					[12734, 12749],
+					[12860, 12875]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectar",
+				"spans": [[12991, 12997]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[12979, 12990]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phenolic bodies",
+				"spans": [[13849, 13864]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "floral nectary",
+				"spans": [[13754, 13768]]
+			},
+			{
+				"name": "cytoplasm",
+				"spans": [[13661, 13670]]
+			},
+			{
+				"name": "vacuoles",
+				"spans": [[13869, 13877]]
+			},
+			{
+				"name": "cell periphery",
+				"spans": [[14201, 14215]]
+			},
+			{
+				"name": "basal cell",
+				"spans": [
+					[13620, 13630],
+					[13721, 13731],
+					[13782, 13792]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [[13682, 13703]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[13569, 13577],
+					[13893, 13901],
+					[13969, 13977],
+					[14019, 14027]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [
+					[13928, 13952],
+					[14152, 14176]
+				]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [
+					[13934, 13952],
+					[14158, 14176]
+				]
+			},
+			{
+				"name": "stalk cells",
+				"spans": [
+					[13810, 13821],
+					[14120, 14131]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "papillae length",
+				"spans": [
+					[13569, 13584],
+					[13893, 13908]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "papillae cells",
+				"spans": [[14574, 14588]]
+			},
+			{
+				"name": "vacuoles",
+				"spans": [
+					[14257, 14265],
+					[14495, 14503],
+					[14785, 14793],
+					[14856, 14864]
+				]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[14311, 14320],
+					[14464, 14473],
+					[14674, 14683],
+					[14751, 14760]
+				]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[14744, 14760]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[14574, 14582],
+					[14940, 14948]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[14449, 14473]]
+			},
+			{
+				"name": "head cells",
+				"spans": [
+					[14422, 14432],
+					[14630, 14640],
+					[14699, 14709]
+				]
+			},
+			{
+				"name": "cells",
+				"spans": [
+					[14283, 14288],
+					[14427, 14432],
+					[14583, 14588],
+					[14635, 14640],
+					[14704, 14709],
+					[14927, 14932]
+				]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[14455, 14473]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "size",
+				"spans": [[14238, 14242]]
+			},
+			{
+				"name": "number",
+				"spans": [[14247, 14253]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "cell wall ingrowths",
+				"spans": [[15636, 15655]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[15067, 15074],
+					[15558, 15565]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[15442, 15466]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[14981, 14990],
+					[15180, 15189],
+					[15507, 15516],
+					[15636, 15645]
+				]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [[15667, 15682]]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[14969, 14976],
+					[15124, 15131],
+					[15490, 15497]
+				]
+			},
+			{
+				"name": "circumbracteal papillae head cells",
+				"spans": [[15717, 15751]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[14998, 15006],
+					[15303, 15311],
+					[15732, 15740]
+				]
+			},
+			{
+				"name": "microchannels",
+				"spans": [
+					[15203, 15216],
+					[15240, 15253]
+				]
+			},
+			{
+				"name": "head cells",
+				"spans": [
+					[15139, 15149],
+					[15312, 15322],
+					[15741, 15751]
+				]
+			},
+			{
+				"name": "outer surface",
+				"spans": [[15282, 15295]]
+			},
+			{
+				"name": "bracteal papillae head cells",
+				"spans": [[15723, 15751]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[15448, 15466]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "toluidine blue O",
+				"spans": [[15921, 15937]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[15893, 15900],
+					[15943, 15950],
+					[16020, 16027],
+					[16100, 16107]
+				]
+			},
+			{
+				"name": "basal cells",
+				"spans": [[16167, 16178]]
+			},
+			{
+				"name": "nectary papillae",
+				"spans": [
+					[15943, 15959],
+					[16020, 16036]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[15848, 15856],
+					[15951, 15959],
+					[16028, 16036],
+					[16082, 16090]
+				]
+			},
+			{
+				"name": "head cells",
+				"spans": [[16134, 16144]]
+			},
+			{
+				"name": "stalk cells",
+				"spans": [[16150, 16161]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[15881, 15892]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "length",
+				"spans": [[15987, 15993]]
+			},
+			{
+				"name": "nectary papillae dimensions",
+				"spans": [[15943, 15970]]
+			},
+			{
+				"name": "width",
+				"spans": [[15998, 16003]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "chloroplasts",
+				"spans": [[16780, 16792]]
+			},
+			{
+				"name": "basal cells",
+				"spans": [[16874, 16885]]
+			},
+			{
+				"name": "nectary tissue",
+				"spans": [[17263, 17277]]
+			},
+			{
+				"name": "plasmodesmata",
+				"spans": [[17279, 17292]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[16641, 16649]]
+			},
+			{
+				"name": "papillae glands",
+				"spans": [
+					[16311, 16326],
+					[16893, 16908]
+				]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [[17193, 17208]]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[16311, 16319],
+					[16486, 16494],
+					[16893, 16901],
+					[17132, 17140]
+				]
+			},
+			{
+				"name": "Golgi bodies",
+				"spans": [[16679, 16691]]
+			},
+			{
+				"name": "mitochondria",
+				"spans": [
+					[16594, 16606],
+					[16969, 16981]
+				]
+			},
+			{
+				"name": "peridermal walls",
+				"spans": [[17327, 17343]]
+			},
+			{
+				"name": "cotton nectaries",
+				"spans": [[16507, 16523]]
+			},
+			{
+				"name": "head cells",
+				"spans": [[17050, 17060]]
+			},
+			{
+				"name": "amyloplasts",
+				"spans": [[16710, 16721]]
+			},
+			{
+				"name": "nectariferous parenchyma",
+				"spans": [
+					[16342, 16366],
+					[17145, 17169]
+				]
+			},
+			{
+				"name": "tissues",
+				"spans": [[17353, 17360]]
+			},
+			{
+				"name": "rough endoplasmic reticulum",
+				"spans": [
+					[16608, 16635],
+					[16986, 17013]
+				]
+			},
+			{
+				"name": "cells",
+				"spans": [
+					[16411, 16416],
+					[16473, 16478],
+					[16584, 16589],
+					[16880, 16885],
+					[17055, 17060]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "calcium oxalate",
+				"spans": [[18591, 18606]]
+			},
+			{
+				"name": "phenolic bodies",
+				"spans": [
+					[17745, 17760],
+					[18359, 18374]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectariferous parenchyma",
+				"spans": [
+					[17472, 17496],
+					[17544, 17568],
+					[17885, 17909],
+					[18033, 18057],
+					[18140, 18164],
+					[18216, 18240],
+					[18299, 18323],
+					[18684, 18708]
+				]
+			},
+			{
+				"name": "secretory papillae",
+				"spans": [[17577, 17595]]
+			},
+			{
+				"name": "subnectariferous parenchyma",
+				"spans": [
+					[17541, 17568],
+					[17882, 17909],
+					[18137, 18164],
+					[18213, 18240],
+					[18296, 18323],
+					[18681, 18708]
+				]
+			},
+			{
+				"name": "cytoplasm",
+				"spans": [[17712, 17721]]
+			},
+			{
+				"name": "vascular bundles",
+				"spans": [
+					[18099, 18115],
+					[18502, 18518],
+					[18657, 18673],
+					[18826, 18842]
+				]
+			},
+			{
+				"name": "foliar nectary",
+				"spans": [[18248, 18262]]
+			},
+			{
+				"name": "isodiametric cells",
+				"spans": [[17621, 17639]]
+			},
+			{
+				"name": "druses",
+				"spans": [
+					[18559, 18565],
+					[18735, 18741]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[17587, 17595],
+					[18850, 18858]
+				]
+			},
+			{
+				"name": "phloem rays",
+				"spans": [
+					[18170, 18181],
+					[18805, 18816]
+				]
+			},
+			{
+				"name": "cells",
+				"spans": [
+					[17634, 17639],
+					[17681, 17686],
+					[17958, 17963],
+					[18002, 18007],
+					[18058, 18063],
+					[18480, 18485],
+					[18542, 18547]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "toluidine blue O",
+				"spans": [[17805, 17821]]
+			},
+			{
+				"name": "osmium tetroxide",
+				"spans": [[17826, 17842]]
+			},
+			{
+				"name": "Periodic Acid Schiff's (PAS) staining",
+				"spans": [[18412, 18449]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phenolic body",
+				"spans": [[20049, 20062]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "secretory papillae",
+				"spans": [[19326, 19344]]
+			},
+			{
+				"name": "vesicle",
+				"spans": [[20143, 20150]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[18884, 18893],
+					[19599, 19608],
+					[19910, 19919]
+				]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[18875, 18882],
+					[19187, 19194],
+					[19288, 19295],
+					[19363, 19370],
+					[19878, 19885]
+				]
+			},
+			{
+				"name": "microchannels",
+				"spans": [
+					[19161, 19174],
+					[19267, 19280]
+				]
+			},
+			{
+				"name": "nectary papillae",
+				"spans": [[18931, 18947]]
+			},
+			{
+				"name": "stalk cells",
+				"spans": [[19449, 19460]]
+			},
+			{
+				"name": "plasmodesmata",
+				"spans": [
+					[19569, 19582],
+					[19826, 19839]
+				]
+			},
+			{
+				"name": "junction",
+				"spans": [[19679, 19687]]
+			},
+			{
+				"name": "amyloplast",
+				"spans": [[19488, 19498]]
+			},
+			{
+				"name": "basal cell",
+				"spans": [
+					[19636, 19646],
+					[19696, 19706],
+					[19925, 19935]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [
+					[18939, 18947],
+					[19089, 19097],
+					[19336, 19344]
+				]
+			},
+			{
+				"name": "bracteal nectary",
+				"spans": [
+					[19107, 19123],
+					[19466, 19482],
+					[19658, 19674],
+					[19739, 19755]
+				]
+			},
+			{
+				"name": "endoplasmic reticulum",
+				"spans": [
+					[19942, 19963],
+					[20076, 20097]
+				]
+			},
+			{
+				"name": "nucleus",
+				"spans": [[20004, 20011]]
+			},
+			{
+				"name": "chloroplast",
+				"spans": [[19892, 19903]]
+			},
+			{
+				"name": "Golgi body",
+				"spans": [[19970, 19980]]
+			},
+			{
+				"name": "organelles",
+				"spans": [[19510, 19520]]
+			},
+			{
+				"name": "stalk cell",
+				"spans": [
+					[19449, 19459],
+					[19524, 19534],
+					[19621, 19631]
+				]
+			},
+			{
+				"name": "mitochondria",
+				"spans": [[19986, 19998]]
+			},
+			{
+				"name": "subcuticular space",
+				"spans": [[20104, 20122]]
+			},
+			{
+				"name": "circumbracteal nectary",
+				"spans": [
+					[19101, 19123],
+					[19652, 19674]
+				]
+			},
+			{
+				"name": "secretory nectary",
+				"spans": [[19222, 19239]]
+			},
+			{
+				"name": "head cells",
+				"spans": [[19310, 19320]]
+			},
+			{
+				"name": "amyloplasts",
+				"spans": [[19861, 19872]]
+			},
+			{
+				"name": "floral",
+				"spans": [[19412, 19418]]
+			},
+			{
+				"name": "nectariferous parenchyma",
+				"spans": [
+					[18963, 18987],
+					[19711, 19735],
+					[19760, 19784],
+					[20018, 20042]
+				]
+			},
+			{
+				"name": "vacuole",
+				"spans": [[20129, 20136]]
+			},
+			{
+				"name": "internal stalk cell",
+				"spans": [[19612, 19631]]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [[19428, 19444]]
+			},
+			{
+				"name": "rough endoplasmic reticulum",
+				"spans": [[20070, 20097]]
+			},
+			{
+				"name": "bracteal",
+				"spans": [
+					[19398, 19406],
+					[19466, 19474],
+					[19739, 19747]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[18919, 18930]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [
+					[20276, 20282],
+					[20326, 20332],
+					[20527, 20533],
+					[20745, 20751]
+				]
+			},
+			{
+				"name": "nectar sugars",
+				"spans": [[20311, 20324]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "vascular bundles",
+				"spans": [[20557, 20573]]
+			},
+			{
+				"name": "subnectariferous parenchyma",
+				"spans": [
+					[20357, 20384],
+					[20786, 20813]
+				]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [[20821, 20837]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[20501, 20525]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[20507, 20525]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [
+					[21019, 21028],
+					[21373, 21382]
+				]
+			},
+			{
+				"name": "cotton nectary",
+				"spans": [[21089, 21103]]
+			},
+			{
+				"name": "non-nectary control tissues",
+				"spans": [[21484, 21511]]
+			},
+			{
+				"name": "non-nectary tissue",
+				"spans": [[21405, 21423]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[21562, 21573]]
+			},
+			{
+				"name": "Arabidopsis thaliana",
+				"spans": [[21615, 21635]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NiR1",
+				"spans": [[22345, 22349]]
+			},
+			{
+				"name": "nitrite reductase 1",
+				"spans": [[22324, 22343]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nectary tissues",
+				"spans": [[22896, 22911]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [
+					[22031, 22049],
+					[22500, 22518]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectary development",
+				"spans": [
+					[22146, 22165],
+					[22245, 22264]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [
+					[23046, 23052],
+					[23167, 23173],
+					[23214, 23220],
+					[23357, 23363]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [
+					[22984, 22993],
+					[23272, 23281],
+					[23442, 23451]
+				]
+			},
+			{
+				"name": "subnectariferous parenchyma",
+				"spans": [
+					[23069, 23096],
+					[23241, 23268]
+				]
+			},
+			{
+				"name": "vascular bundle",
+				"spans": [[23498, 23513]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[22972, 22983]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tissue",
+				"spans": [[23784, 23790]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[23733, 23740],
+					[23768, 23775],
+					[23871, 23878],
+					[23940, 23947],
+					[24077, 24084],
+					[24255, 24262]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectary development",
+				"spans": [[23940, 23959]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[24461, 24468],
+					[24484, 24491],
+					[24750, 24757],
+					[24811, 24818]
+				]
+			},
+			{
+				"name": "non-nectary control tissue",
+				"spans": [[24807, 24833]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "long chain acyl-CoA synthetase 4-like",
+				"spans": [[25344, 25381]]
+			},
+			{
+				"name": "SWEET9",
+				"spans": [[25427, 25433]]
+			},
+			{
+				"name": "CWINV4",
+				"spans": [[25259, 25265]]
+			},
+			{
+				"name": "Cell Wall Invertase 4",
+				"spans": [[25267, 25288]]
+			},
+			{
+				"name": "Nitrite reductase 1",
+				"spans": [[25315, 25334]]
+			},
+			{
+				"name": "NiR1",
+				"spans": [[25309, 25313]]
+			},
+			{
+				"name": "GDSL",
+				"spans": [
+					[25384, 25388],
+					[25390, 25394]
+				]
+			},
+			{
+				"name": "GDSL-like Lipase/acylhydrolase",
+				"spans": [[25390, 25420]]
+			},
+			{
+				"name": "Sugars Will Eventually be Exported Transporter 9",
+				"spans": [[25435, 25483]]
+			},
+			{
+				"name": "EXP1",
+				"spans": [[25291, 25295]]
+			},
+			{
+				"name": "Expansin1",
+				"spans": [[25297, 25306]]
+			},
+			{
+				"name": "LCAS4",
+				"spans": [[25337, 25342]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "bracteal nectaries",
+				"spans": [[25548, 25566]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "post-secretory",
+				"spans": [[25637, 25651]]
+			},
+			{
+				"name": "secretory",
+				"spans": [
+					[25595, 25604],
+					[25614, 25623],
+					[25642, 25651],
+					[26134, 26143]
+				]
+			},
+			{
+				"name": "pre-secretory",
+				"spans": [
+					[25591, 25604],
+					[26130, 26143]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "organonitrogen compounds",
+				"spans": [[27917, 27941]]
+			},
+			{
+				"name": "amines",
+				"spans": [[27906, 27912]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "metabolism of sulfurous compounds",
+				"spans": [[27823, 27856]]
+			},
+			{
+				"name": "metabolism associated with amines",
+				"spans": [[27879, 27912]]
+			},
+			{
+				"name": "isoprenoid biosynthesis",
+				"spans": [[27798, 27821]]
+			},
+			{
+				"name": "generation of precursor metabolites and energy metabolism",
+				"spans": [[26912, 26969]]
+			},
+			{
+				"name": "lipid transport",
+				"spans": [[27858, 27873]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[26279, 26286],
+					[26438, 26445],
+					[26533, 26540],
+					[26663, 26670],
+					[27237, 27244],
+					[27265, 27272],
+					[27333, 27340],
+					[27422, 27429],
+					[27555, 27562],
+					[27622, 27629],
+					[27699, 27706]
+				]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [[27531, 27547]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[27495, 27519]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[27443, 27459]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [
+					[27468, 27486],
+					[27501, 27519]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "oxidoreductase catalytic activities",
+				"spans": [[26868, 26903]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tissue",
+				"spans": [[28389, 28395]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[27999, 28006],
+					[28088, 28095],
+					[28335, 28342],
+					[28381, 28388],
+					[28437, 28444],
+					[28540, 28547],
+					[28614, 28621],
+					[29417, 29424],
+					[29466, 29473],
+					[29715, 29722]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[30283, 30290],
+					[30378, 30385],
+					[30501, 30508],
+					[31185, 31192]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "gene expression",
+				"spans": [
+					[30231, 30246],
+					[30476, 30491],
+					[31154, 31169]
+				]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "development",
+				"spans": [[30263, 30274]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "AT5G23960.2",
+				"spans": [[31391, 31402]]
+			},
+			{
+				"name": "terpene synthase 21",
+				"spans": [[31370, 31389]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[31247, 31254],
+					[31471, 31478],
+					[31944, 31951],
+					[32128, 32135],
+					[32220, 32227]
+				]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [
+					[31704, 31720],
+					[31842, 31858],
+					[32039, 32055]
+				]
+			},
+			{
+				"name": "vegetative foliar nectaries",
+				"spans": [[31693, 31720]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[31516, 31540]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[31522, 31540]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [[32019, 32035]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nectar",
+				"spans": [[33040, 33046]]
+			},
+			{
+				"name": "fatty acid",
+				"spans": [[33450, 33460]]
+			},
+			{
+				"name": "cellulose",
+				"spans": [[33807, 33816]]
+			},
+			{
+				"name": "pectin",
+				"spans": [[33821, 33827]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "lipid catabolism",
+				"spans": [[33340, 33356]]
+			},
+			{
+				"name": "autophagy",
+				"spans": [[33667, 33676]]
+			},
+			{
+				"name": "fatty acid catabolism",
+				"spans": [[33450, 33471]]
+			},
+			{
+				"name": "proteosomal protein degradation",
+				"spans": [[33681, 33712]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "floral nectary",
+				"spans": [[33185, 33199]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[32313, 32320],
+					[32437, 32444],
+					[32625, 32632],
+					[32758, 32765],
+					[32807, 32814],
+					[32918, 32925],
+					[33192, 33199],
+					[33494, 33501]
+				]
+			},
+			{
+				"name": "organelle membranes",
+				"spans": [[33850, 33869]]
+			},
+			{
+				"name": "papillae nectaries",
+				"spans": [[32964, 32982]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [[33835, 33844]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[33400, 33424]]
+			},
+			{
+				"name": "bracteal nectary",
+				"spans": [[33485, 33501]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "osmotic stress",
+				"spans": [[33596, 33610]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "amide transmembrane transporter activity",
+				"spans": [[33218, 33258]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "cellular organization",
+				"spans": [[33755, 33776]]
+			},
+			{
+				"name": "development",
+				"spans": [[32417, 32428]]
+			},
+			{
+				"name": "production and secretion of nectar",
+				"spans": [[33012, 33046]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [[34133, 34139]]
+			},
+			{
+				"name": "sugar",
+				"spans": [
+					[34022, 34027],
+					[34105, 34110]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "sugar metabolism",
+				"spans": [[34105, 34121]]
+			},
+			{
+				"name": "starch metabolism",
+				"spans": [[34133, 34150]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "non-nectary",
+				"spans": [[34324, 34335]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[34267, 34274],
+					[34328, 34335],
+					[34482, 34489]
+				]
+			},
+			{
+				"name": "nectaries",
+				"spans": [[33991, 34000]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "transmembrane transporters",
+				"spans": [[34156, 34182]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[34810, 34817],
+					[34859, 34866],
+					[35000, 35007]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "transmembrane transporter",
+				"spans": [[35176, 35201]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "monosaccharides",
+				"spans": [[35882, 35897]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [
+					[35514, 35521],
+					[35736, 35743],
+					[35870, 35877]
+				]
+			},
+			{
+				"name": "hexoses",
+				"spans": [[35526, 35533]]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[35433, 35439],
+					[35623, 35629],
+					[35851, 35857]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "carbohydrate metabolic events",
+				"spans": [[35313, 35342]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET9",
+				"spans": [[35757, 35763]]
+			},
+			{
+				"name": "CWINV4",
+				"spans": [[35769, 35775]]
+			},
+			{
+				"name": "Cell Wall Invertase 4",
+				"spans": [[35777, 35798]]
+			},
+			{
+				"name": "Sucrose Synthase 4",
+				"spans": [[35736, 35754]]
+			},
+			{
+				"name": "SS2",
+				"spans": [[35618, 35621]]
+			},
+			{
+				"name": "SUS4",
+				"spans": [[35730, 35734]]
+			},
+			{
+				"name": "BMY3",
+				"spans": [[35707, 35711]]
+			},
+			{
+				"name": "Starch Synthase 2",
+				"spans": [[35623, 35640]]
+			},
+			{
+				"name": "beta-Amylase 3",
+				"spans": [[35713, 35727]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "floral nectaries",
+				"spans": [[35208, 35224]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[35542, 35549],
+					[35940, 35947]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [[36357, 36364]]
+			},
+			{
+				"name": "UDP-galactose",
+				"spans": [[36441, 36454]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET9",
+				"spans": [[36581, 36587]]
+			},
+			{
+				"name": "STP13",
+				"spans": [[36417, 36422]]
+			},
+			{
+				"name": "STP14",
+				"spans": [[36428, 36433]]
+			},
+			{
+				"name": "SUS4",
+				"spans": [[36332, 36336]]
+			},
+			{
+				"name": "AT5G59740",
+				"spans": [[36467, 36476]]
+			},
+			{
+				"name": "RS5",
+				"spans": [[36341, 36344]]
+			},
+			{
+				"name": "SUT2",
+				"spans": [[36405, 36409]]
+			},
+			{
+				"name": "STP1",
+				"spans": [[36411, 36415]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "bracteal nectaries",
+				"spans": [[36021, 36039]]
+			},
+			{
+				"name": "floral nectary",
+				"spans": [[36097, 36111]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[36015, 36039]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "secretory stage",
+				"spans": [[36517, 36532]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [
+			{
+				"name": "carbohydrate metabolism",
+				"spans": [
+					[36721, 36744],
+					[37030, 37053]
+				]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "foliar nectary",
+				"spans": [
+					[36674, 36688],
+					[36964, 36978]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "iron",
+				"spans": [[37743, 37747]]
+			},
+			{
+				"name": "potassium",
+				"spans": [[37749, 37758]]
+			},
+			{
+				"name": "phosphate",
+				"spans": [[37703, 37712]]
+			},
+			{
+				"name": "amino acids",
+				"spans": [[37657, 37668]]
+			},
+			{
+				"name": "borate",
+				"spans": [[37695, 37701]]
+			},
+			{
+				"name": "calcium",
+				"spans": [[37724, 37731]]
+			},
+			{
+				"name": "zinc",
+				"spans": [[37764, 37768]]
+			},
+			{
+				"name": "sugars",
+				"spans": [[37649, 37655]]
+			},
+			{
+				"name": "water",
+				"spans": [
+					[37670, 37675],
+					[37958, 37963]
+				]
+			},
+			{
+				"name": "chloride",
+				"spans": [[37733, 37741]]
+			},
+			{
+				"name": "hydrogen",
+				"spans": [[37714, 37722]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "AT3G56200",
+				"spans": [[38123, 38132]]
+			},
+			{
+				"name": "AT2G37170",
+				"spans": [[38004, 38013]]
+			},
+			{
+				"name": "AT2G39890",
+				"spans": [[38096, 38105]]
+			},
+			{
+				"name": "AT3G53420",
+				"spans": [[38015, 38024]]
+			},
+			{
+				"name": "PROT1",
+				"spans": [[38089, 38094]]
+			},
+			{
+				"name": "AT1G47670",
+				"spans": [[38108, 38117]]
+			},
+			{
+				"name": "AT2G45960",
+				"spans": [[38026, 38035]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "secretory organs",
+				"spans": [[37359, 37375]]
+			},
+			{
+				"name": "circumbracteal",
+				"spans": [
+					[37550, 37564],
+					[38220, 38234]
+				]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [[37968, 37983]]
+			},
+			{
+				"name": "cotton nectaries",
+				"spans": [[37216, 37232]]
+			},
+			{
+				"name": "foliar",
+				"spans": [
+					[37499, 37505],
+					[38261, 38267]
+				]
+			},
+			{
+				"name": "bracteal",
+				"spans": [
+					[37529, 37537],
+					[38206, 38214]
+				]
+			},
+			{
+				"name": "floral",
+				"spans": [
+					[37514, 37520],
+					[38198, 38204]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ammonium",
+				"spans": [
+					[39118, 39126],
+					[39366, 39374],
+					[39424, 39432]
+				]
+			},
+			{
+				"name": "glutamate",
+				"spans": [
+					[39260, 39269],
+					[39325, 39334]
+				]
+			},
+			{
+				"name": "nectar",
+				"spans": [[39765, 39771]]
+			},
+			{
+				"name": "glutamine",
+				"spans": [
+					[39246, 39255],
+					[39284, 39293]
+				]
+			},
+			{
+				"name": "nitrate",
+				"spans": [
+					[38692, 38699],
+					[38824, 38831],
+					[39059, 39066],
+					[39141, 39148]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "nitrogen assimilation",
+				"spans": [[38600, 38621]]
+			}
+		],
+		"genes": [
+			{
+				"name": "NR2",
+				"spans": [[39159, 39162]]
+			},
+			{
+				"name": "AT1G69850",
+				"spans": [[38852, 38861]]
+			},
+			{
+				"name": "AT1G37130",
+				"spans": [[39164, 39173]]
+			},
+			{
+				"name": "NIR1",
+				"spans": [[39196, 39200]]
+			},
+			{
+				"name": "GLU1",
+				"spans": [[39345, 39349]]
+			},
+			{
+				"name": "NRT1.5",
+				"spans": [[38844, 38850]]
+			},
+			{
+				"name": "AT5G37600",
+				"spans": [[39310, 39319]]
+			},
+			{
+				"name": "TIP2;1",
+				"spans": [[39443, 39449]]
+			},
+			{
+				"name": "AT2G15620",
+				"spans": [[39202, 39211]]
+			},
+			{
+				"name": "GLN1",
+				"spans": [[39304, 39308]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "tonoplast",
+				"spans": [[39404, 39413]]
+			},
+			{
+				"name": "subnectariferous parenchyma",
+				"spans": [
+					[38750, 38777],
+					[39030, 39057]
+				]
+			},
+			{
+				"name": "xylem",
+				"spans": [[38737, 38742]]
+			},
+			{
+				"name": "reproductive extrafloral nectaries",
+				"spans": [
+					[38940, 38974],
+					[39494, 39528]
+				]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [[39638, 39654]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[38519, 38543]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[38958, 38974],
+					[39512, 39528]
+				]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[38525, 38543]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [[39826, 39833]]
+			},
+			{
+				"name": "starch",
+				"spans": [[39815, 39821]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "starch and sucrose metabolism",
+				"spans": [[39815, 39844]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[39940, 39947],
+					[40224, 40231],
+					[40309, 40316]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "amino acid",
+				"spans": [[40634, 40644]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "amino acid biosynthesis",
+				"spans": [[40634, 40657]]
+			},
+			{
+				"name": "nitrogen assimilation",
+				"spans": [[40608, 40629]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectar",
+				"spans": [[40835, 40841]]
+			},
+			{
+				"name": "nectaries",
+				"spans": [[40661, 40670]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "post-secretory",
+				"spans": [
+					[40987, 41001],
+					[41624, 41638]
+				]
+			},
+			{
+				"name": "secretory",
+				"spans": [
+					[40961, 40970],
+					[40972, 40981],
+					[40992, 41001],
+					[41129, 41138],
+					[41589, 41598],
+					[41606, 41615],
+					[41629, 41638]
+				]
+			},
+			{
+				"name": "pre-secretory",
+				"spans": [
+					[40957, 40970],
+					[41585, 41598]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "alanine",
+				"spans": [[42121, 42128]]
+			},
+			{
+				"name": "aspartic acid",
+				"spans": [[42576, 42589]]
+			},
+			{
+				"name": "amino acids",
+				"spans": [
+					[41666, 41677],
+					[42000, 42011],
+					[42169, 42180],
+					[42616, 42627],
+					[42702, 42713]
+				]
+			},
+			{
+				"name": "glycine",
+				"spans": [[42141, 42148]]
+			},
+			{
+				"name": "glutamate",
+				"spans": [
+					[41945, 41954],
+					[42321, 42330],
+					[42538, 42547]
+				]
+			},
+			{
+				"name": "branched chain amino acids",
+				"spans": [[42154, 42180]]
+			},
+			{
+				"name": "aspartate",
+				"spans": [
+					[42130, 42139],
+					[42352, 42361]
+				]
+			},
+			{
+				"name": "oxaloacetate",
+				"spans": [[42552, 42564]]
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[42747, 42760]]
+			},
+			{
+				"name": "proline",
+				"spans": [
+					[42851, 42858],
+					[42867, 42874]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "amino acid biosynthesis",
+				"spans": [[41826, 41849]]
+			}
+		],
+		"genes": [
+			{
+				"name": "ASP3",
+				"spans": [[42382, 42386]]
+			},
+			{
+				"name": "AT3G07630",
+				"spans": [[42821, 42830]]
+			},
+			{
+				"name": "AT2G39890",
+				"spans": [[42894, 42903]]
+			},
+			{
+				"name": "arogenate dehydratase 2",
+				"spans": [[42790, 42813]]
+			},
+			{
+				"name": "aspartate aminotransferase 3",
+				"spans": [[42352, 42380]]
+			},
+			{
+				"name": "AT5G11520",
+				"spans": [[42388, 42397]]
+			},
+			{
+				"name": "ADT2",
+				"spans": [[42815, 42819]]
+			},
+			{
+				"name": "proline transporter PROT1",
+				"spans": [[42867, 42892]]
+			},
+			{
+				"name": "PROT1",
+				"spans": [[42887, 42892]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nectary",
+				"spans": [
+					[41777, 41784],
+					[41874, 41881]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[42268, 42292]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[42274, 42292]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "callose",
+				"spans": [[43963, 43970]]
+			},
+			{
+				"name": "pectins",
+				"spans": [[44029, 44036]]
+			},
+			{
+				"name": "hemicellulose",
+				"spans": [[43991, 44004]]
+			},
+			{
+				"name": "cutin",
+				"spans": [[44196, 44201]]
+			},
+			{
+				"name": "lipids",
+				"spans": [[44161, 44167]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GSL10",
+				"spans": [[43972, 43977]]
+			},
+			{
+				"name": "EXLA1",
+				"spans": [[43875, 43880]]
+			},
+			{
+				"name": "AT3G07160",
+				"spans": [[43979, 43988]]
+			},
+			{
+				"name": "AT2G45220",
+				"spans": [[44045, 44054]]
+			},
+			{
+				"name": "PME17",
+				"spans": [[44038, 44043]]
+			},
+			{
+				"name": "ABCG11",
+				"spans": [[44214, 44220]]
+			},
+			{
+				"name": "AT5G62620",
+				"spans": [[44013, 44022]]
+			},
+			{
+				"name": "AT1G17840",
+				"spans": [[44222, 44231]]
+			},
+			{
+				"name": "GALT6",
+				"spans": [[44006, 44011]]
+			},
+			{
+				"name": "AT3G45970",
+				"spans": [[43882, 43891]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [[43732, 43741]]
+			},
+			{
+				"name": "bracteal nectary",
+				"spans": [[43505, 43521]]
+			},
+			{
+				"name": "circumbracteal nectary",
+				"spans": [[43499, 43521]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[43125, 43134],
+					[43535, 43544],
+					[43765, 43774],
+					[43934, 43943]
+				]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[43139, 43146],
+					[43549, 43556]
+				]
+			},
+			{
+				"name": "nectary papillae",
+				"spans": [[43065, 43081]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [[43633, 43649]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "secretory trichomes",
+				"spans": [[45053, 45072]]
+			},
+			{
+				"name": "nectary",
+				"spans": [[44355, 44362]]
+			},
+			{
+				"name": "foliar nectaries",
+				"spans": [
+					[44475, 44491],
+					[44615, 44631]
+				]
+			},
+			{
+				"name": "nectar",
+				"spans": [
+					[44661, 44667],
+					[44724, 44730],
+					[44953, 44959]
+				]
+			},
+			{
+				"name": "nectarostomata",
+				"spans": [
+					[44884, 44898],
+					[44993, 45007]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [[45074, 45082]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[44768, 44784]]
+			},
+			{
+				"name": "stomata",
+				"spans": [[44859, 44866]]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[44372, 44383]]
+			},
+			{
+				"name": "Arabidopsis",
+				"spans": [[44788, 44799]]
+			},
+			{
+				"name": "Nicotiana spp.",
+				"spans": [[44804, 44818]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "cotton boll",
+				"spans": [[46566, 46577]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[45356, 45363],
+					[45425, 45432],
+					[45460, 45467],
+					[45668, 45675],
+					[45876, 45883],
+					[46072, 46079],
+					[46130, 46137],
+					[46236, 46243],
+					[46422, 46429]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [
+					[45538, 45559],
+					[46366, 46387]
+				]
+			},
+			{
+				"name": "foliar nectary",
+				"spans": [[45661, 45675]]
+			},
+			{
+				"name": "bracteal nectary",
+				"spans": [
+					[46227, 46243],
+					[46413, 46429]
+				]
+			},
+			{
+				"name": "papillae nectaries",
+				"spans": [[45165, 45183]]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[45580, 45604]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[45543, 45559],
+					[46371, 46387]
+				]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[45586, 45604]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "herbivory",
+				"spans": [[45743, 45752]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression",
+				"spans": [[45836, 45851]]
+			},
+			{
+				"name": "autophagy",
+				"spans": [
+					[46301, 46310],
+					[46435, 46444]
+				]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [
+					[45500, 45516],
+					[45794, 45810],
+					[46538, 46554]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [[47246, 47252]]
+			},
+			{
+				"name": "sugar",
+				"spans": [[47270, 47275]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "trichomatic nectaries",
+				"spans": [[46850, 46871]]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [[47102, 47123]]
+			},
+			{
+				"name": "nectary tissues",
+				"spans": [[47590, 47605]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[47668, 47676]]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [
+					[46961, 46976],
+					[47696, 47711]
+				]
+			},
+			{
+				"name": "cell wall",
+				"spans": [[46978, 46987]]
+			},
+			{
+				"name": "cuticle",
+				"spans": [[46993, 47000]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[47107, 47123]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar secretion",
+				"spans": [[47159, 47175]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectariferous parenchyma",
+				"spans": [[48298, 48322]]
+			},
+			{
+				"name": "cell walls",
+				"spans": [[48167, 48177]]
+			},
+			{
+				"name": "trichomatic nectaries",
+				"spans": [[47976, 47997]]
+			},
+			{
+				"name": "nectary",
+				"spans": [[47936, 47943]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[48251, 48259]]
+			},
+			{
+				"name": "rough endoplasmic reticulum",
+				"spans": [[48112, 48139]]
+			},
+			{
+				"name": "plasma membranes",
+				"spans": [[48270, 48286]]
+			},
+			{
+				"name": "cotton nectaries",
+				"spans": [
+					[47792, 47808],
+					[48354, 48370]
+				]
+			},
+			{
+				"name": "papillae",
+				"spans": [[48342, 48350]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectariferous parenchyma",
+				"spans": [[48985, 49009]]
+			},
+			{
+				"name": "plasmodesmata pit fields",
+				"spans": [[48927, 48951]]
+			},
+			{
+				"name": "cell walls",
+				"spans": [[48967, 48977]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [[48721, 48729]]
+			},
+			{
+				"name": "nectar parenchyma tissues",
+				"spans": [[48806, 48831]]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [[48605, 48620]]
+			},
+			{
+				"name": "peridermal walls",
+				"spans": [[49039, 49055]]
+			},
+			{
+				"name": "papillae",
+				"spans": [[49063, 49071]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[49439, 49446],
+					[49472, 49479],
+					[49546, 49553]
+				]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[49393, 49399],
+					[49415, 49421],
+					[49855, 49861]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "starch degradation",
+				"spans": [[49415, 49433]]
+			},
+			{
+				"name": "starch synthesis",
+				"spans": [[49393, 49409]]
+			},
+			{
+				"name": "sucrose synthesis",
+				"spans": [[49439, 49456]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET9",
+				"spans": [[49502, 49508]]
+			},
+			{
+				"name": "CWINV4",
+				"spans": [[49579, 49585]]
+			},
+			{
+				"name": "CELL WALL INVERTASE4",
+				"spans": [[49557, 49577]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "foliar nectaries",
+				"spans": [[49961, 49977]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[49179, 49195],
+					[49256, 49272],
+					[49760, 49776]
+				]
+			},
+			{
+				"name": "reproductive extrafloral nectaries",
+				"spans": [
+					[49161, 49195],
+					[49742, 49776]
+				]
+			},
+			{
+				"name": "apoplast",
+				"spans": [[49489, 49497]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar",
+				"spans": [[50067, 50073]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "calcium oxalate",
+				"spans": [[50923, 50938]]
+			},
+			{
+				"name": "lipid",
+				"spans": [[50663, 50668]]
+			},
+			{
+				"name": "calcium",
+				"spans": [
+					[50923, 50930],
+					[51060, 51067]
+				]
+			},
+			{
+				"name": "sugar",
+				"spans": [
+					[50247, 50252],
+					[50609, 50614]
+				]
+			},
+			{
+				"name": "amino acid",
+				"spans": [[50634, 50644]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "nectaries",
+				"spans": [[50539, 50548]]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [
+					[50582, 50597],
+					[51162, 51177]
+				]
+			},
+			{
+				"name": "vasculature",
+				"spans": [[50968, 50979]]
+			},
+			{
+				"name": "nectary parenchyma tissues",
+				"spans": [[50999, 51025]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "lipid transmembrane transporters",
+				"spans": [[50663, 50695]]
+			},
+			{
+				"name": "H+-ATPase",
+				"spans": [[50598, 50607]]
+			},
+			{
+				"name": "proton gradients",
+				"spans": [[50804, 50820]]
+			},
+			{
+				"name": "amino acid transporters",
+				"spans": [[50634, 50657]]
+			},
+			{
+				"name": "ATPase transmembrane transporters",
+				"spans": [[50766, 50799]]
+			},
+			{
+				"name": "sugar:proton symporters",
+				"spans": [[50609, 50632]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tryptophan",
+				"spans": [[52243, 52253]]
+			},
+			{
+				"name": "GABA",
+				"spans": [
+					[52124, 52128],
+					[52164, 52168],
+					[52554, 52558]
+				]
+			},
+			{
+				"name": "leucine",
+				"spans": [[52231, 52238]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[51943, 51950]]
+			},
+			{
+				"name": "hexose",
+				"spans": [
+					[51791, 51797],
+					[51841, 51847]
+				]
+			},
+			{
+				"name": "amino acids",
+				"spans": [
+					[52029, 52040],
+					[52477, 52488]
+				]
+			},
+			{
+				"name": "proline",
+				"spans": [[52363, 52370]]
+			},
+			{
+				"name": "phenylalanine",
+				"spans": [[52106, 52119]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "floral nectary",
+				"spans": [[51602, 51616]]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[51509, 51518],
+					[51587, 51596],
+					[51686, 51695]
+				]
+			},
+			{
+				"name": "extrafloral nectaries",
+				"spans": [
+					[51497, 51518],
+					[51674, 51695]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "GABA-enriched artificial nectar",
+				"spans": [[52164, 52195]]
+			},
+			{
+				"name": "hexose-rich nectar",
+				"spans": [[51791, 51809]]
+			},
+			{
+				"name": "nectar compositions",
+				"spans": [[51425, 51444]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "flavor",
+				"spans": [[52201, 52207]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[52759, 52766],
+					[53066, 53073]
+				]
+			},
+			{
+				"name": "amino acid",
+				"spans": [
+					[52780, 52790],
+					[52815, 52825],
+					[52881, 52891],
+					[52929, 52939],
+					[53100, 53110],
+					[53144, 53154]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "extrafloral nectars",
+				"spans": [
+					[52634, 52653],
+					[52852, 52871]
+				]
+			},
+			{
+				"name": "floral nectar",
+				"spans": [
+					[52615, 52628],
+					[52639, 52652],
+					[52857, 52870]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ammonium",
+				"spans": [
+					[53525, 53533],
+					[53890, 53898]
+				]
+			},
+			{
+				"name": "glutamate",
+				"spans": [
+					[53562, 53571],
+					[53867, 53876]
+				]
+			},
+			{
+				"name": "amino acids",
+				"spans": [
+					[53987, 53998],
+					[54006, 54017]
+				]
+			},
+			{
+				"name": "glutamine",
+				"spans": [[53576, 53585]]
+			},
+			{
+				"name": "nitrate",
+				"spans": [[53487, 53494]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "amino acid biosynthesis",
+				"spans": [[53760, 53783]]
+			},
+			{
+				"name": "nitrogen reduction",
+				"spans": [[53353, 53371]]
+			},
+			{
+				"name": "ammonium assimilation",
+				"spans": [[53890, 53911]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "reproductive extrafloral nectaries",
+				"spans": [[53635, 53669]]
+			},
+			{
+				"name": "head cells",
+				"spans": [[54065, 54075]]
+			},
+			{
+				"name": "cotton nectaries",
+				"spans": [[53446, 53462]]
+			},
+			{
+				"name": "papillae",
+				"spans": [[54083, 54091]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [[53653, 53669]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "secretory stage",
+				"spans": [[53826, 53841]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "amino acid",
+				"spans": [[54574, 54584]]
+			},
+			{
+				"name": "nitric oxide",
+				"spans": [[54606, 54618]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "nitrogen metabolism",
+				"spans": [[54508, 54527]]
+			},
+			{
+				"name": "amino acid biosynthesis",
+				"spans": [[54574, 54597]]
+			},
+			{
+				"name": "nitrogen assimilation",
+				"spans": [[54229, 54250]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[54302, 54307]]
+			},
+			{
+				"name": "nectaries",
+				"spans": [[54453, 54462]]
+			},
+			{
+				"name": "shoots",
+				"spans": [[54341, 54347]]
+			}
+		],
+		"species": [
+			{
+				"name": "C. pepo",
+				"spans": [[54531, 54538]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[55245, 55252],
+					[55523, 55530]
+				]
+			},
+			{
+				"name": "hexose",
+				"spans": [
+					[54862, 54868],
+					[54953, 54959],
+					[55121, 55127]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET9",
+				"spans": [
+					[54736, 54742],
+					[55053, 55059],
+					[55318, 55324],
+					[55418, 55424]
+				]
+			},
+			{
+				"name": "CWINV4",
+				"spans": [
+					[54747, 54753],
+					[55064, 55070],
+					[55267, 55273],
+					[55429, 55435]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "floral nectary",
+				"spans": [[55007, 55021]]
+			},
+			{
+				"name": "nectary",
+				"spans": [
+					[54780, 54787],
+					[55014, 55021],
+					[55095, 55102]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Thlaspi arvense",
+				"spans": [[54911, 54926]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "nectar product",
+				"spans": [[54839, 54853]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "reproductive extrafloral nectaries",
+				"spans": [
+					[55774, 55808],
+					[56371, 56405]
+				]
+			},
+			{
+				"name": "papillae head cells",
+				"spans": [
+					[55666, 55685],
+					[56169, 56188]
+				]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[55707, 55716],
+					[55911, 55920],
+					[56047, 56056],
+					[56137, 56146]
+				]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[55721, 55728],
+					[55925, 55932]
+				]
+			},
+			{
+				"name": "circumbracteal nectaries",
+				"spans": [[56209, 56233]]
+			},
+			{
+				"name": "bracteal nectaries",
+				"spans": [[56215, 56233]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit maturation",
+				"spans": [[56483, 56499]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "nectar",
+				"spans": [
+					[56542, 56548],
+					[56899, 56905],
+					[57330, 57336]
+				]
+			},
+			{
+				"name": "cuticular lipids",
+				"spans": [[56972, 56988]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "cuticle deposition genes",
+				"spans": [[57057, 57081]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "trichomatic nectaries",
+				"spans": [[57159, 57180]]
+			},
+			{
+				"name": "papillae head cells",
+				"spans": [[56702, 56721]]
+			},
+			{
+				"name": "subcuticular space",
+				"spans": [[56578, 56596]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[56531, 56540],
+					[56609, 56618],
+					[56685, 56694]
+				]
+			},
+			{
+				"name": "cotton nectary",
+				"spans": [[56734, 56748]]
+			},
+			{
+				"name": "cuticle",
+				"spans": [
+					[56623, 56630],
+					[56668, 56675],
+					[56811, 56818],
+					[57057, 57064],
+					[57102, 57109]
+				]
+			},
+			{
+				"name": "cuticular channels",
+				"spans": [[57249, 57267]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "trichomatic extrafloral nectaries",
+				"spans": [[57984, 58017]]
+			},
+			{
+				"name": "nectary",
+				"spans": [[57746, 57753]]
+			},
+			{
+				"name": "nectaries",
+				"spans": [
+					[57479, 57488],
+					[57853, 57862],
+					[58008, 58017]
+				]
+			},
+			{
+				"name": "cell populations",
+				"spans": [[57704, 57720]]
+			},
+			{
+				"name": "floral nectaries",
+				"spans": [
+					[57846, 57862],
+					[58001, 58017]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "G. hirsutum",
+				"spans": [[57467, 57478]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	}
+]

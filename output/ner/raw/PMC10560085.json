@@ -1,0 +1,2526 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "hexose"
+			}
+		],
+		"pathways": [
+			{
+				"name": "apoplastic sugar transport"
+			},
+			{
+				"name": "post-phloem pathway"
+			},
+			{
+				"name": "apoplastic transport pathway"
+			},
+			{
+				"name": "post-phloem sugar transport"
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seeds"
+			},
+			{
+				"name": "filial cells"
+			},
+			{
+				"name": "maternal tissue"
+			},
+			{
+				"name": "reproductive structure"
+			},
+			{
+				"name": "membrane barriers"
+			},
+			{
+				"name": "sink tissues"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "vascular parenchyma of the pedicel"
+			},
+			{
+				"name": "xylem parenchyma of the stem"
+			},
+			{
+				"name": "seed heads"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "immunolocalization"
+			},
+			{
+				"name": "expression of SvSWEET4a in Xenopus laevis oocytes"
+			},
+			{
+				"name": "carbohydrate and transcriptional profiling"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "high-capacity glucose and sucrose transporter"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "developmental shifts in hexose and sucrose content"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "glucose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "carbon sink tissues"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "filial cells"
+			},
+			{
+				"name": "maternal cells"
+			},
+			{
+				"name": "cytoplasms"
+			},
+			{
+				"name": "plasmodesmatal pores"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "grain"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "yield"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "agronomically valuable"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "hexose"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "pericarp"
+			},
+			{
+				"name": "seed coat"
+			},
+			{
+				"name": "nucellus"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "scutellum"
+			},
+			{
+				"name": "seed"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis thaliana"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "invertase activity"
+			},
+			{
+				"name": "sucrose synthase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "seed development"
+			},
+			{
+				"name": "seed filling"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "sugars"
+			}
+		],
+		"pathways": [
+			{
+				"name": "apoplastic pathway"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "vegetative tissues"
+			},
+			{
+				"name": "grain"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "maternal cells"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "filial tissues"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "seed coat"
+			},
+			{
+				"name": "nucellar cells"
+			},
+			{
+				"name": "plasma membranes"
+			},
+			{
+				"name": "filial cells"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "yield"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "agronomically valuable"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "sugars"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem sugar transport"
+			}
+		],
+		"genes": [
+			{
+				"name": "SUT1"
+			},
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "HXTs"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "seed maternal tissues"
+			},
+			{
+				"name": "filial cells"
+			},
+			{
+				"name": "cereal seeds"
+			},
+			{
+				"name": "maternal cells"
+			},
+			{
+				"name": "membrane interface"
+			},
+			{
+				"name": "seed"
+			}
+		],
+		"species": [
+			{
+				"name": "rice"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "antisense suppression"
+			},
+			{
+				"name": "knockout"
+			},
+			{
+				"name": "reverse genetics"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "sucrose transporter activity"
+			},
+			{
+				"name": "sugar export"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "grain filling"
+			},
+			{
+				"name": "shrivelled grain phenotype"
+			},
+			{
+				"name": "seed morphology"
+			},
+			{
+				"name": "seed structure"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar"
+			},
+			{
+				"name": "carbohydrate"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem sugar movement"
+			},
+			{
+				"name": "phloem unloading"
+			},
+			{
+				"name": "post-phloem pathway"
+			},
+			{
+				"name": "phloem unloading and post-phloem pathway"
+			},
+			{
+				"name": "pathway for sugar movement from the phloem to the endosperm tissue"
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "stems"
+			},
+			{
+				"name": "seeds"
+			},
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "endosperm tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria italica"
+			},
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "immunohistochemistry"
+			},
+			{
+				"name": "functional characterization"
+			},
+			{
+				"name": "major carbohydrate profiling"
+			},
+			{
+				"name": "expression analyses"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed development"
+			},
+			{
+				"name": "seed filling"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "food production"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			},
+			{
+				"name": "SvSWEET4 proteins"
+			},
+			{
+				"name": "SvSWEETs"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues"
+			},
+			{
+				"name": "seed heads"
+			},
+			{
+				"name": "stems"
+			},
+			{
+				"name": "C-terminus"
+			},
+			{
+				"name": "C-terminal tail"
+			},
+			{
+				"name": "epitope regions"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "DTT"
+			},
+			{
+				"name": "beta-mercaptoethanol"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			},
+			{
+				"name": "SvSWEET13a"
+			},
+			{
+				"name": "SvSWEET13b"
+			},
+			{
+				"name": "RbcL"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "membrane"
+			},
+			{
+				"name": "tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro assays"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "dithiothreitol"
+			},
+			{
+				"name": "beta-mercaptoethanol"
+			},
+			{
+				"name": "Rubisco large subunit"
+			},
+			{
+				"name": "AttoPhos"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			},
+			{
+				"name": "SvSWEETT13a"
+			},
+			{
+				"name": "SvSWEET13b"
+			},
+			{
+				"name": "RbcL"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "seed head"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "reducing agents"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "PIP"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "filial tissue"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "scutellum"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "pericarp"
+			},
+			{
+				"name": "pedicel"
+			},
+			{
+				"name": "vascular bundles"
+			},
+			{
+				"name": "inner pericarp"
+			},
+			{
+				"name": "nucellus"
+			},
+			{
+				"name": "placental pad"
+			},
+			{
+				"name": "placental vascular bundle"
+			},
+			{
+				"name": "transfer aleurone"
+			},
+			{
+				"name": "cuboidal aleurone"
+			},
+			{
+				"name": "aleurone"
+			},
+			{
+				"name": "EAS layer"
+			},
+			{
+				"name": "scutellar epithelium"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria lutescens"
+			},
+			{
+				"name": "Briza maxima"
+			},
+			{
+				"name": "Enneapogon desvauxii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Alexa Fluor 488"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "pedicel"
+			},
+			{
+				"name": "pericarp"
+			},
+			{
+				"name": "inner pericarp"
+			},
+			{
+				"name": "vascular bundle"
+			},
+			{
+				"name": "transfer aleurone"
+			},
+			{
+				"name": "placental vascular bundle"
+			},
+			{
+				"name": "endosperm adjacent to scutellum layer"
+			},
+			{
+				"name": "nucellus"
+			},
+			{
+				"name": "scutellar epithelium"
+			},
+			{
+				"name": "aleurone cells"
+			},
+			{
+				"name": "placental pad"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "scutellum"
+			},
+			{
+				"name": "sclerenchyma"
+			},
+			{
+				"name": "starch granules"
+			},
+			{
+				"name": "cell walls"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "pre-immune serum"
+			},
+			{
+				"name": "secondary antibody-only"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SvSWEET4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stems"
+			},
+			{
+				"name": "tissue"
+			},
+			{
+				"name": "transverse stem section"
+			},
+			{
+				"name": "ground parenchyma tissue"
+			},
+			{
+				"name": "VBs"
+			},
+			{
+				"name": "outer perimeter of the stem"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "stem sections"
+			},
+			{
+				"name": "cells"
+			},
+			{
+				"name": "hypodermis"
+			},
+			{
+				"name": "xylem parenchyma"
+			},
+			{
+				"name": "centre of the VB"
+			},
+			{
+				"name": "proto- and metaxylem"
+			},
+			{
+				"name": "protoxylem"
+			},
+			{
+				"name": "metaxylem"
+			},
+			{
+				"name": "sieve element"
+			},
+			{
+				"name": "companion cells"
+			},
+			{
+				"name": "phloem"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "immunolocalization"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Alexa Fluor 488"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem"
+			},
+			{
+				"name": "vascular bundle"
+			},
+			{
+				"name": "hypodermis"
+			},
+			{
+				"name": "plasma membrane"
+			},
+			{
+				"name": "endoplasmic reticulum"
+			},
+			{
+				"name": "xylem parenchyma"
+			},
+			{
+				"name": "protoxylem"
+			},
+			{
+				"name": "metaxylem"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "companion cells"
+			},
+			{
+				"name": "sieve elements"
+			},
+			{
+				"name": "sclerenchyma"
+			},
+			{
+				"name": "cell walls"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "pre-immune serum"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "sucrose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "plant tissues"
+			},
+			{
+				"name": "sink tissue"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "expression in Xenopus oocytes"
+			},
+			{
+				"name": "negative control non-expressing oocytes"
+			},
+			{
+				"name": "oocytes expressing SvSWEET4a"
+			},
+			{
+				"name": "exceeding the concentration of sugar in the extracellular solution beyond 175 mM"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "sugar transport"
+			},
+			{
+				"name": "SvSWEET4a-mediated sucrose transport"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "sucrose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "non-expressing oocytes"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "SvSWEET4a-mediated transport"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrate"
+			},
+			{
+				"name": "starch"
+			},
+			{
+				"name": "sugars"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "grains"
+			},
+			{
+				"name": "tissue"
+			},
+			{
+				"name": "reproductive structure"
+			},
+			{
+				"name": "seed heads"
+			},
+			{
+				"name": "seeds"
+			},
+			{
+				"name": "inflorescence"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence"
+			},
+			{
+				"name": "anthesis"
+			},
+			{
+				"name": "8 DAA"
+			},
+			{
+				"name": "16 DAA"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "expression levels of sugar transporters"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "small seeds"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "soluble sugars"
+			},
+			{
+				"name": "total sugars"
+			},
+			{
+				"name": "hexose"
+			},
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "starch"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed heads"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence"
+			},
+			{
+				"name": "anthesis"
+			},
+			{
+				"name": "8 DAA"
+			},
+			{
+				"name": "16 DAA"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Glucose"
+			},
+			{
+				"name": "Fructose"
+			},
+			{
+				"name": "Sucrose"
+			},
+			{
+				"name": "Fructans"
+			},
+			{
+				"name": "starch"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "grain"
+			}
+		],
+		"species": [
+			{
+				"name": "A.10"
+			},
+			{
+				"name": "ME034V"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "starch accumulation"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrate"
+			},
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SWEET"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "A.10"
+			},
+			{
+				"name": "ME034V"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "poly(A)-enriched RNA-sequencing"
+			},
+			{
+				"name": "qPCR"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed filling process"
+			},
+			{
+				"name": "development"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "sugar metabolism"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed heads"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence"
+			},
+			{
+				"name": "anthesis"
+			},
+			{
+				"name": "8 DAA"
+			},
+			{
+				"name": "16 DAA"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET1a"
+			},
+			{
+				"name": "SvSWEET4c"
+			},
+			{
+				"name": "SvSWEET4a"
+			},
+			{
+				"name": "ZmSWEET4"
+			},
+			{
+				"name": "SvSWEET5"
+			},
+			{
+				"name": "SvSWEET15"
+			},
+			{
+				"name": "SvSWEET13a"
+			},
+			{
+				"name": "SvSWEET13b"
+			},
+			{
+				"name": "SvSUT1"
+			},
+			{
+				"name": "HXT"
+			},
+			{
+				"name": "SvNIP1;1"
+			},
+			{
+				"name": "SvTIP2;4"
+			},
+			{
+				"name": "SvTIP4;1"
+			},
+			{
+				"name": "SvTIP3;1"
+			},
+			{
+				"name": "SvTIP3;3"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "sinks"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence"
+			},
+			{
+				"name": "anthesis"
+			},
+			{
+				"name": "8 DAA"
+			},
+			{
+				"name": "16 DAA"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "passive movement of water"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "UDP-glucose"
+			},
+			{
+				"name": "ADP-glc"
+			},
+			{
+				"name": "starch"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Sevir.1G004700"
+			},
+			{
+				"name": "Sevir.1G193400"
+			},
+			{
+				"name": "SuSy"
+			},
+			{
+				"name": "UDP-glc PPase"
+			},
+			{
+				"name": "SPP"
+			},
+			{
+				"name": "SPS"
+			},
+			{
+				"name": "ADP-glc PPase"
+			},
+			{
+				"name": "SS"
+			},
+			{
+				"name": "SBE"
+			},
+			{
+				"name": "Sevir.2G265100"
+			},
+			{
+				"name": "Sevir9G124300"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues"
+			},
+			{
+				"name": "vacuolar"
+			},
+			{
+				"name": "cytosolic"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "8 DAA"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "photoassimilates"
+			},
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem transport pathway"
+			},
+			{
+				"name": "apoplastic phloem unloading"
+			}
+		],
+		"genes": [
+			{
+				"name": "SUT1"
+			},
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "zmsweet4c"
+			},
+			{
+				"name": "miniature1"
+			},
+			{
+				"name": "ZmSWEET4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "seeds"
+			},
+			{
+				"name": "basal endosperm transfer layer"
+			},
+			{
+				"name": "BETL"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "tissue structures"
+			},
+			{
+				"name": "reproductive structures"
+			}
+		],
+		"species": [
+			{
+				"name": "maize"
+			},
+			{
+				"name": "rice"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "gene knockout"
+			},
+			{
+				"name": "mutational analysis"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "cell wall invertase activity"
+			},
+			{
+				"name": "gene expression"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "yield"
+			},
+			{
+				"name": "seed filling phenotype"
+			},
+			{
+				"name": "grain development"
+			},
+			{
+				"name": "grain filling"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "harvested for their grains"
+			},
+			{
+				"name": "harvested for their stems"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SWEETs"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "inflorescence"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "grain"
+			}
+		],
+		"species": [
+			{
+				"name": "S. viridis"
+			},
+			{
+				"name": "S. italica"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "tissue culture process"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "visible phenotype"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "phloem unloading and post-phloem sugar transport pathway"
+			},
+			{
+				"name": "pathway of sugar movement"
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "zmsweet4c"
+			},
+			{
+				"name": "ossweet4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "sink tissues"
+			},
+			{
+				"name": "source tissues"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed filling"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "oocytes"
+			},
+			{
+				"name": "membrane"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SUT1"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "maternal-filial cell interfaces"
+			},
+			{
+				"name": "filial-filial cell interfaces"
+			},
+			{
+				"name": "Setaria seed"
+			},
+			{
+				"name": "interface between the maternal and filial cells"
+			},
+			{
+				"name": "placental vascular bundle"
+			},
+			{
+				"name": "symplast"
+			},
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "placental pad"
+			},
+			{
+				"name": "symplastic barrier"
+			},
+			{
+				"name": "maternal tissues"
+			},
+			{
+				"name": "filial tissues"
+			},
+			{
+				"name": "transfer aleurone layer"
+			},
+			{
+				"name": "placental pad cells"
+			},
+			{
+				"name": "filial interface"
+			},
+			{
+				"name": "plasmodesmatal pits"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "hexoses"
+			},
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem sugar transport"
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SUT1"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "transfer cells"
+			},
+			{
+				"name": "filial tissues"
+			},
+			{
+				"name": "maternal-filial interface"
+			},
+			{
+				"name": "membranes"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "placental pad"
+			},
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "aleurone"
+			},
+			{
+				"name": "modified aleurone layer"
+			},
+			{
+				"name": "grain"
+			},
+			{
+				"name": "phloem sieve tubes"
+			},
+			{
+				"name": "endosperm cavity"
+			},
+			{
+				"name": "placental sac"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "cell layers"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "aphid stylet exudates"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "high-capacity transport"
+			},
+			{
+				"name": "active transporter"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "grain filling"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "hexoses"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SUT1"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "Setaria seed"
+			},
+			{
+				"name": "plasmodesmata"
+			},
+			{
+				"name": "sieve element-companion cell complex"
+			},
+			{
+				"name": "vascular parenchyma"
+			},
+			{
+				"name": "vascular bundle"
+			},
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "maternal cells"
+			},
+			{
+				"name": "sclerenchyma cells"
+			},
+			{
+				"name": "nucellus"
+			},
+			{
+				"name": "placental pad"
+			},
+			{
+				"name": "placental vascular bundle"
+			},
+			{
+				"name": "transfer aleurone cells"
+			},
+			{
+				"name": "cuboidal aleurone cells"
+			},
+			{
+				"name": "aleurone cells"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "endosperm adjacent to scutellum layer"
+			},
+			{
+				"name": "scutellar epithelium"
+			},
+			{
+				"name": "scutellum"
+			},
+			{
+				"name": "pedicel"
+			},
+			{
+				"name": "pericarp"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "hexose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "EAS layer"
+			},
+			{
+				"name": "BETL"
+			},
+			{
+				"name": "TAL"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "embryo"
+			},
+			{
+				"name": "source leaf"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "cells"
+			},
+			{
+				"name": "cell types"
+			},
+			{
+				"name": "seed structure"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "invertase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "seed filling"
+			},
+			{
+				"name": "growth"
+			},
+			{
+				"name": "development"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "sugars"
+			},
+			{
+				"name": "proteins"
+			},
+			{
+				"name": "lipids"
+			},
+			{
+				"name": "proteoglycans"
+			},
+			{
+				"name": "polysaccharides"
+			}
+		],
+		"pathways": [
+			{
+				"name": "vascular transport pathway"
+			},
+			{
+				"name": "phloem unloading pathway"
+			},
+			{
+				"name": "post-phloem pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			},
+			{
+				"name": "AtSWEET9"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "maternal tissues"
+			},
+			{
+				"name": "terminal vascular bundles"
+			},
+			{
+				"name": "pedicel"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "parenchyma cells"
+			},
+			{
+				"name": "stem"
+			},
+			{
+				"name": "xylem parenchyma"
+			},
+			{
+				"name": "maize pedicel tissue"
+			},
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "sclerenchyma cells"
+			},
+			{
+				"name": "plasma membrane"
+			},
+			{
+				"name": "endoplasmic reticulum"
+			},
+			{
+				"name": "Golgi body"
+			},
+			{
+				"name": "plant cell wall"
+			},
+			{
+				"name": "tissue structures"
+			},
+			{
+				"name": "legumes"
+			},
+			{
+				"name": "xylem parenchyma transfer cells"
+			},
+			{
+				"name": "transfer cells"
+			},
+			{
+				"name": "trans-Golgi apparatus"
+			},
+			{
+				"name": "multivesicular bodies"
+			},
+			{
+				"name": "vesicles"
+			},
+			{
+				"name": "rice leaf blade"
+			},
+			{
+				"name": "xylem parenchyma cells"
+			},
+			{
+				"name": "xylem sap"
+			},
+			{
+				"name": "stems"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "starch"
+			},
+			{
+				"name": "hexose"
+			},
+			{
+				"name": "soluble sugars"
+			},
+			{
+				"name": "water"
+			}
+		],
+		"pathways": [
+			{
+				"name": "carbohydrate metabolism"
+			},
+			{
+				"name": "carbohydrate synthesis"
+			},
+			{
+				"name": "sucrose synthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "HUTs"
+			},
+			{
+				"name": "SuSy"
+			},
+			{
+				"name": "SUTs"
+			},
+			{
+				"name": "SWEET"
+			},
+			{
+				"name": "HXT"
+			},
+			{
+				"name": "SUT"
+			},
+			{
+				"name": "AQP"
+			},
+			{
+				"name": "SPP"
+			},
+			{
+				"name": "SPS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "apoplast"
+			},
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "dividing cells"
+			},
+			{
+				"name": "endosperm"
+			},
+			{
+				"name": "endosperm tissue"
+			},
+			{
+				"name": "aleurone"
+			},
+			{
+				"name": "subaleurone layers"
+			},
+			{
+				"name": "filial tissues"
+			},
+			{
+				"name": "seed heads"
+			},
+			{
+				"name": "seeds"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "genetic transformation studies"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript abundance"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "seed development"
+			},
+			{
+				"name": "seed filling"
+			},
+			{
+				"name": "duration of seed development"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "starch"
+			},
+			{
+				"name": "fructans"
+			},
+			{
+				"name": "fructosyl group"
+			}
+		],
+		"pathways": [
+			{
+				"name": "fructan synthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "SuSy"
+			},
+			{
+				"name": "cell wall invertase"
+			},
+			{
+				"name": "Sevir.1G004700"
+			},
+			{
+				"name": "SST"
+			},
+			{
+				"name": "SFT"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "filial cells"
+			},
+			{
+				"name": "vacuolar"
+			},
+			{
+				"name": "seed head"
+			},
+			{
+				"name": "phloem"
+			},
+			{
+				"name": "sink tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "starch accumulation"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "starch"
+			},
+			{
+				"name": "hexose"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed"
+			},
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			},
+			{
+				"name": "maize"
+			},
+			{
+				"name": "rice"
+			},
+			{
+				"name": "barley"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "SuSy activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "shrunken seed phenotype"
+			},
+			{
+				"name": "unfilled seeds"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "hexose"
+			},
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "carbohydrate"
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEETs"
+			},
+			{
+				"name": "HXTs"
+			},
+			{
+				"name": "SUTs"
+			},
+			{
+				"name": "SWEET4"
+			},
+			{
+				"name": "SvSWEET4"
+			},
+			{
+				"name": "SvSWEET4a"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissue"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "grain"
+			},
+			{
+				"name": "source tissue"
+			},
+			{
+				"name": "filial cells"
+			},
+			{
+				"name": "vasculature of the seed"
+			},
+			{
+				"name": "xylem parenchyma of the stem"
+			},
+			{
+				"name": "stem"
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria"
+			},
+			{
+				"name": "S. viridis"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "transmembrane sugar movement"
+			},
+			{
+				"name": "high-capacity, low-affinity transporter"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "sink capacity"
+			},
+			{
+				"name": "yield"
+			}
+		],
+		"human_traits": []
+	}
+]

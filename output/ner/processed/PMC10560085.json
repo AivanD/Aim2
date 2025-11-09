@@ -1,0 +1,2438 @@
+{
+	"compounds": [
+		{
+			"name": "sucrose",
+			"spans": [
+				[1038, 1045],
+				[1187, 1194],
+				[1466, 1473],
+				[1923, 1928],
+				[2171, 2176],
+				[2595, 2602],
+				[2716, 2723],
+				[2763, 2770],
+				[4263, 4270],
+				[4352, 4359],
+				[6397, 6402],
+				[7239, 7244],
+				[36473, 36480],
+				[36719, 36726],
+				[37076, 37083],
+				[37259, 37266],
+				[37616, 37623],
+				[37718, 37725],
+				[39760, 39767],
+				[40517, 40524],
+				[41003, 41010],
+				[41100, 41107],
+				[41208, 41215],
+				[41627, 41634],
+				[41663, 41670],
+				[42705, 42710],
+				[43101, 43106],
+				[43144, 43149],
+				[43279, 43284],
+				[45149, 45156],
+				[45551, 45558],
+				[45617, 45624],
+				[45648, 45655],
+				[47353, 47358],
+				[48908, 48913],
+				[49253, 49258],
+				[51106, 51111],
+				[51978, 51985],
+				[52190, 52195],
+				[52413, 52420],
+				[52640, 52647],
+				[52663, 52668],
+				[52685, 52690],
+				[52773, 52778],
+				[53038, 53043],
+				[53062, 53069],
+				[53302, 53309],
+				[53317, 53322],
+				[53341, 53346],
+				[53399, 53406],
+				[53481, 53488],
+				[53519, 53524],
+				[53686, 53693],
+				[54035, 54042],
+				[56992, 56999],
+				[58361, 58368],
+				[58418, 58425],
+				[60039, 60046],
+				[60339, 60346],
+				[60548, 60555],
+				[60747, 60754],
+				[61286, 61293],
+				[61634, 61641],
+				[61867, 61874],
+				[62471, 62478],
+				[63041, 63048],
+				[63164, 63171],
+				[63334, 63341],
+				[63834, 63841],
+				[63919, 63926],
+				[63928, 63935],
+				[64044, 64051],
+				[64551, 64558],
+				[65246, 65253],
+				[65781, 65788],
+				[66300, 66307],
+				[66974, 66981]
+			],
+			"CID": 5988,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
+			},
+			"alt_names": ["sugar"]
+		},
+		{
+			"name": "glucose",
+			"spans": [
+				[1026, 1033],
+				[1478, 1485],
+				[36461, 36468],
+				[36702, 36709],
+				[36989, 36996],
+				[37247, 37254],
+				[37595, 37602],
+				[37697, 37704],
+				[40228, 40235],
+				[41615, 41622],
+				[51963, 51970],
+				[52628, 52635],
+				[53377, 53384],
+				[53459, 53466],
+				[53656, 53663],
+				[60331, 60338],
+				[60455, 60462],
+				[60585, 60592],
+				[61521, 61528],
+				[62025, 62032],
+				[66962, 66969]
+			],
+			"CID": 5793,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+			"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+			"Natural_product_class": {
+				"Np_class": [
+					"Disaccharides",
+					"Flavones",
+					"Monosaccharides",
+					"Polysaccharides"
+				],
+				"Np_superclass": ["Saccharides", "Flavonoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "hexose",
+			"spans": [
+				[1176, 1182],
+				[2585, 2591],
+				[2727, 2733],
+				[39753, 39759],
+				[53215, 53222],
+				[53590, 53597],
+				[53773, 53780],
+				[54348, 54355],
+				[57099, 57105],
+				[61279, 61285],
+				[61857, 61863],
+				[62464, 62470],
+				[65774, 65780],
+				[66293, 66299]
+			],
+			"ontology_id": "CHEMONTID:0001498",
+			"normalized_name": "Hexoses",
+			"score": 1.0000001192092896,
+			"alt_names": ["hexoses"]
+		},
+		{
+			"name": "carbohydrates",
+			"spans": [
+				[2323, 2336],
+				[3429, 3442],
+				[7031, 7043],
+				[38399, 38411],
+				[42220, 42232],
+				[42311, 42323],
+				[52842, 52855],
+				[67059, 67071]
+			],
+			"ontology_id": "CHEMONTID:0000011",
+			"normalized_name": "Carbohydrates and carbohydrate conjugates",
+			"score": 1.0,
+			"alt_names": ["carbohydrate"]
+		},
+		{
+			"name": "sugars",
+			"spans": [
+				[3494, 3500],
+				[3956, 3962],
+				[4140, 4146],
+				[4959, 4965],
+				[5123, 5129],
+				[5246, 5252],
+				[38580, 38586],
+				[58470, 58476],
+				[58977, 58983],
+				[59669, 59675],
+				[59710, 59716]
+			]
+		},
+		{
+			"name": "beta-mercaptoethanol",
+			"spans": [
+				[27439, 27459],
+				[29835, 29855]
+			],
+			"CID": 1567,
+			"SMILES": "C(CS)O",
+			"InChIKey": "DGVVWUTYPXICAM-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty alcohols"],
+				"Np_superclass": ["Fatty acyls"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organosulfur compounds",
+				"Class": "Thiols",
+				"Subclass": "Alkylthiols"
+			}
+		},
+		{
+			"name": "Rubisco large subunit",
+			"spans": [
+				[30274, 30295],
+				[30527, 30548]
+			]
+		},
+		{
+			"name": "dithiothreitol",
+			"spans": [
+				[27431, 27434],
+				[29810, 29824]
+			],
+			"CID": 439196,
+			"SMILES": "C([C@@H]([C@H](CS)O)O)S",
+			"InChIKey": "VHJLVAABSRFDPM-IMJSIDKUSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty alcohols"],
+				"Np_superclass": ["Fatty acyls"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Alcohols and polyols"
+			},
+			"alt_names": ["DTT"]
+		},
+		{
+			"name": "AttoPhos",
+			"spans": [[30626, 30634]],
+			"CID": 188920,
+			"SMILES": "C1=CC=C2C(=C1)N=C(S2)C3=NC4=C(S3)C=C(C=C4)OP(=O)(O)O",
+			"InChIKey": "BTKMJKKKZATLBU-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Phenazine alkaloids"],
+				"Np_superclass": ["Anthranilic acid alkaloids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Organic phosphoric acids and derivatives",
+				"Subclass": "Phosphate esters"
+			}
+		},
+		{
+			"name": "Alexa Fluor 488",
+			"spans": [
+				[34166, 34181],
+				[36135, 36150]
+			]
+		},
+		{
+			"name": "starch",
+			"spans": [
+				[38529, 38535],
+				[38904, 38910],
+				[39783, 39789],
+				[39833, 39839],
+				[41340, 41346],
+				[41407, 41413],
+				[45803, 45809],
+				[45829, 45835],
+				[45889, 45895],
+				[45989, 45995],
+				[60853, 60859],
+				[61398, 61404],
+				[61705, 61711],
+				[63370, 63376],
+				[64678, 64684],
+				[65294, 65300]
+			]
+		},
+		{
+			"name": "total sugars",
+			"spans": [[39735, 39747]]
+		},
+		{
+			"name": "soluble sugars",
+			"spans": [
+				[39715, 39729],
+				[61368, 61382]
+			]
+		},
+		{
+			"name": "Fructans",
+			"spans": [
+				[40758, 40766],
+				[64370, 64378],
+				[64453, 64461]
+			],
+			"CID": 440946,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@](O1)(CO)OC[C@@H]2[C@H]([C@@H]([C@](O2)(CO)OC[C@@H]3[C@H]([C@@H]([C@](O3)(CO)O)O)O)O)O)O)O)O",
+			"InChIKey": "ZFTFOHBYVDOAMH-XNOIKFDKSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Polysaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
+			}
+		},
+		{
+			"name": "Fructose",
+			"spans": [[40393, 40401]],
+			"CID": 2723872,
+			"SMILES": "C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
+			"InChIKey": "LKDRXBCSQODPBY-VRPWFDPXSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "UDP-glucose",
+			"spans": [[45570, 45581]],
+			"CID": 8629,
+			"SMILES": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
+			"InChIKey": "HSCJRCZFDFQWRP-JZMIEXBBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminosugars"],
+				"Np_superclass": ["Aminosugars and aminoglycosides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Nucleosides, nucleotides, and analogues",
+				"Class": "Pyrimidine nucleotides",
+				"Subclass": "Pyrimidine ribonucleotides"
+			}
+		},
+		{
+			"name": "ADP-glc",
+			"spans": [[45788, 45795]]
+		},
+		{
+			"name": "photoassimilates",
+			"spans": [[46209, 46225]]
+		},
+		{
+			"name": "proteins",
+			"spans": [[58987, 58995]]
+		},
+		{
+			"name": "polysaccharides",
+			"spans": [[59024, 59039]],
+			"ontology_id": "CHEMONTID:0001539",
+			"normalized_name": "Polysaccharides",
+			"score": 1.0
+		},
+		{
+			"name": "lipids",
+			"spans": [[58997, 59003]],
+			"ontology_id": "CHEMONTID:0000012",
+			"normalized_name": "Lipids and lipid-like molecules",
+			"score": 1.0
+		},
+		{
+			"name": "proteoglycans",
+			"spans": [[59005, 59018]]
+		},
+		{
+			"name": "water",
+			"spans": [[62914, 62919]],
+			"CID": 962,
+			"SMILES": "O",
+			"InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organic oxides",
+				"Subclass": "Organic oxides"
+			}
+		},
+		{
+			"name": "fructosyl group",
+			"spans": [[64023, 64038]]
+		}
+	],
+	"pathways": [
+		{
+			"name": "apoplastic sugar transport",
+			"spans": [[515, 541]]
+		},
+		{
+			"name": "post-phloem sugar transport",
+			"spans": [
+				[1404, 1431],
+				[5812, 5839],
+				[52761, 52788]
+			]
+		},
+		{
+			"name": "apoplastic transport pathway",
+			"spans": [[1335, 1363]]
+		},
+		{
+			"name": "post-phloem pathway",
+			"spans": [
+				[574, 593],
+				[1900, 1919],
+				[6535, 6554],
+				[7157, 7176],
+				[41862, 41881],
+				[57716, 57735],
+				[66467, 66486],
+				[67261, 67280]
+			]
+		},
+		{
+			"name": "apoplastic pathway",
+			"spans": [[3990, 4008]]
+		},
+		{
+			"name": "pathway for sugar movement from the phloem to the endosperm tissue",
+			"spans": [[7227, 7293]]
+		},
+		{
+			"name": "phloem unloading and post-phloem pathway",
+			"spans": [[7136, 7176]]
+		},
+		{
+			"name": "post-phloem sugar movement",
+			"spans": [[6385, 6411]]
+		},
+		{
+			"name": "phloem unloading",
+			"spans": [
+				[6510, 6526],
+				[6811, 6827],
+				[7136, 7152]
+			]
+		},
+		{
+			"name": "sugar metabolism",
+			"spans": [[43144, 43160]]
+		},
+		{
+			"name": "post-phloem transport pathway",
+			"spans": [[46175, 46204]]
+		},
+		{
+			"name": "apoplastic phloem unloading",
+			"spans": [[46396, 46423]]
+		},
+		{
+			"name": "phloem unloading and post-phloem sugar transport pathway",
+			"spans": [[48875, 48931]]
+		},
+		{
+			"name": "pathway of sugar movement",
+			"spans": [[49242, 49267]]
+		},
+		{
+			"name": "vascular transport pathway",
+			"spans": [[57513, 57539]]
+		},
+		{
+			"name": "phloem unloading pathway",
+			"spans": [[57658, 57682]]
+		},
+		{
+			"name": "sucrose synthesis",
+			"spans": [[63041, 63058]],
+			"ontology_id": "PWYQT-4438",
+			"normalized_name": "UDP-glucose biosynthesis (from sucrose)",
+			"score": 0.8754549026489258
+		},
+		{
+			"name": "carbohydrate synthesis",
+			"spans": [[62702, 62724]]
+		},
+		{
+			"name": "carbohydrate metabolism",
+			"spans": [[60948, 60971]]
+		},
+		{
+			"name": "fructan synthesis",
+			"spans": [[64076, 64093]],
+			"ontology_id": "PWY-822",
+			"normalized_name": "fructan biosynthesis",
+			"score": 0.9881557822227478
+		}
+	],
+	"genes": [
+		{
+			"name": "SvSWEET4",
+			"spans": [
+				[733, 741],
+				[1232, 1240],
+				[26202, 26210],
+				[26599, 26607],
+				[26728, 26736],
+				[27183, 27191],
+				[27747, 27755],
+				[27798, 27806],
+				[28049, 28057],
+				[28156, 28164],
+				[28209, 28217],
+				[28316, 28324],
+				[28718, 28726],
+				[28960, 28968],
+				[29243, 29251],
+				[29317, 29325],
+				[29350, 29358],
+				[29585, 29593],
+				[30939, 30947],
+				[31282, 31290],
+				[31749, 31757],
+				[31932, 31940],
+				[32312, 32320],
+				[32525, 32533],
+				[32867, 32875],
+				[33008, 33016],
+				[34686, 34694],
+				[34886, 34894],
+				[34952, 34960],
+				[35226, 35234],
+				[35301, 35309],
+				[41807, 41815],
+				[41941, 41949],
+				[47685, 47693],
+				[48071, 48079],
+				[49362, 49370],
+				[49448, 49456],
+				[49609, 49617],
+				[49821, 49829],
+				[50291, 50299],
+				[50670, 50678],
+				[50896, 50904],
+				[54179, 54187],
+				[54637, 54645],
+				[54850, 54858],
+				[55062, 55070],
+				[55152, 55160],
+				[55269, 55277],
+				[55399, 55407],
+				[55543, 55551],
+				[55860, 55868],
+				[57449, 57457],
+				[58282, 58290],
+				[58736, 58744],
+				[59078, 59086],
+				[59318, 59326],
+				[59635, 59643],
+				[60135, 60143],
+				[66698, 66706]
+			]
+		},
+		{
+			"name": "SWEETs",
+			"spans": [
+				[462, 468],
+				[1321, 1327],
+				[5008, 5014],
+				[5103, 5109],
+				[5580, 5586],
+				[5699, 5705],
+				[5874, 5880],
+				[6489, 6495],
+				[7122, 7128],
+				[46489, 46495],
+				[47175, 47181],
+				[48300, 48306],
+				[55740, 55746],
+				[55833, 55839],
+				[55997, 56003],
+				[56464, 56470],
+				[56546, 56552],
+				[56644, 56650],
+				[56871, 56877],
+				[56950, 56956],
+				[66065, 66071],
+				[66419, 66425]
+			]
+		},
+		{
+			"name": "SvSWEET4a",
+			"spans": [
+				[943, 952],
+				[26397, 26406],
+				[26543, 26552],
+				[27277, 27286],
+				[29487, 29496],
+				[29657, 29666],
+				[33079, 33088],
+				[36404, 36413],
+				[36841, 36850],
+				[36932, 36941],
+				[37057, 37066],
+				[37271, 37280],
+				[37522, 37531],
+				[37559, 37568],
+				[37661, 37670],
+				[37795, 37804],
+				[42791, 42800],
+				[43925, 43934],
+				[44262, 44271],
+				[53741, 53750],
+				[56355, 56364],
+				[56761, 56770],
+				[56958, 56967],
+				[57159, 57168],
+				[58347, 58356],
+				[66889, 66898]
+			]
+		},
+		{
+			"name": "SWEET4",
+			"spans": [
+				[1498, 1504],
+				[6656, 6662],
+				[34370, 34376],
+				[47790, 47796],
+				[48829, 48835],
+				[49208, 49214],
+				[51846, 51852],
+				[52169, 52175],
+				[52602, 52608],
+				[53436, 53442],
+				[53645, 53651],
+				[57625, 57631],
+				[66555, 66561],
+				[67151, 67157]
+			]
+		},
+		{
+			"name": "HXTs",
+			"spans": [
+				[5213, 5217],
+				[66427, 66431]
+			]
+		},
+		{
+			"name": "SUT1",
+			"spans": [
+				[4283, 4287],
+				[4455, 4459],
+				[4721, 4725],
+				[46376, 46380],
+				[50426, 50430],
+				[52518, 52522],
+				[54561, 54565]
+			]
+		},
+		{
+			"name": "SWEET4a",
+			"spans": [[6874, 6881]]
+		},
+		{
+			"name": "SvSWEET4 proteins",
+			"spans": [[26599, 26616]]
+		},
+		{
+			"name": "SvSWEETs",
+			"spans": [
+				[26495, 26503],
+				[27132, 27140]
+			]
+		},
+		{
+			"name": "RbcL",
+			"spans": [
+				[27959, 27963],
+				[28393, 28397],
+				[28544, 28548],
+				[28642, 28646],
+				[28699, 28703],
+				[28818, 28822],
+				[28887, 28891],
+				[29169, 29173],
+				[30550, 30554],
+				[30593, 30597],
+				[30718, 30722]
+			]
+		},
+		{
+			"name": "SvSWEET13b",
+			"spans": [
+				[27304, 27314],
+				[27687, 27697],
+				[29684, 29694],
+				[29949, 29959],
+				[44528, 44538]
+			]
+		},
+		{
+			"name": "SvSWEET13a",
+			"spans": [
+				[27288, 27298],
+				[27673, 27683],
+				[44513, 44523]
+			]
+		},
+		{
+			"name": "SvSWEETT13a",
+			"spans": [[29668, 29679]]
+		},
+		{
+			"name": "PIP",
+			"spans": [[31522, 31525]]
+		},
+		{
+			"name": "SWEET",
+			"spans": [
+				[42135, 42140],
+				[42874, 42879],
+				[42974, 42979],
+				[62521, 62526]
+			]
+		},
+		{
+			"name": "SvSWEET4c",
+			"spans": [
+				[43868, 43877],
+				[43959, 43968]
+			]
+		},
+		{
+			"name": "SvTIP4;1",
+			"spans": [[44886, 44894]]
+		},
+		{
+			"name": "SvTIP3;3",
+			"spans": [[44957, 44965]]
+		},
+		{
+			"name": "SvSUT1",
+			"spans": [[44588, 44594]]
+		},
+		{
+			"name": "SvSWEET5",
+			"spans": [[44384, 44392]]
+		},
+		{
+			"name": "HXT",
+			"spans": [
+				[44659, 44662],
+				[62528, 62531]
+			]
+		},
+		{
+			"name": "SvSWEET15",
+			"spans": [[44397, 44406]]
+		},
+		{
+			"name": "SvTIP3;1",
+			"spans": [[44944, 44952]]
+		},
+		{
+			"name": "SvNIP1;1",
+			"spans": [[44862, 44870]]
+		},
+		{
+			"name": "SvSWEET1a",
+			"spans": [[43727, 43736]]
+		},
+		{
+			"name": "ZmSWEET4",
+			"spans": [
+				[44113, 44121],
+				[47407, 47415]
+			]
+		},
+		{
+			"name": "SvTIP2;4",
+			"spans": [[44872, 44880]]
+		},
+		{
+			"name": "SPP",
+			"spans": [
+				[45638, 45641],
+				[62988, 62991]
+			]
+		},
+		{
+			"name": "ADP-glc PPase",
+			"spans": [[45788, 45801]]
+		},
+		{
+			"name": "SS",
+			"spans": [[45820, 45822]]
+		},
+		{
+			"name": "Sevir9G124300",
+			"spans": [[46107, 46120]]
+		},
+		{
+			"name": "SBE",
+			"spans": [[45854, 45857]]
+		},
+		{
+			"name": "Sevir.2G265100",
+			"spans": [[46064, 46078]]
+		},
+		{
+			"name": "Sevir.1G004700",
+			"spans": [
+				[45277, 45291],
+				[63750, 63764]
+			]
+		},
+		{
+			"name": "SPS",
+			"spans": [
+				[45676, 45679],
+				[62996, 62999]
+			]
+		},
+		{
+			"name": "UDP-glc PPase",
+			"spans": [[45601, 45614]]
+		},
+		{
+			"name": "SuSy",
+			"spans": [
+				[45407, 45411],
+				[60693, 60697],
+				[63214, 63218]
+			]
+		},
+		{
+			"name": "Sevir.1G193400",
+			"spans": [[45339, 45353]]
+		},
+		{
+			"name": "miniature1",
+			"spans": [[46555, 46565]]
+		},
+		{
+			"name": "zmsweet4c",
+			"spans": [
+				[46541, 46550],
+				[49064, 49073]
+			]
+		},
+		{
+			"name": "ossweet4",
+			"spans": [[49078, 49086]]
+		},
+		{
+			"name": "AtSWEET9",
+			"spans": [[59457, 59465]]
+		},
+		{
+			"name": "SUTs",
+			"spans": [
+				[60780, 60784],
+				[66436, 66440]
+			]
+		},
+		{
+			"name": "SUT",
+			"spans": [[62537, 62540]]
+		},
+		{
+			"name": "HUTs",
+			"spans": [[60654, 60658]]
+		},
+		{
+			"name": "AQP",
+			"spans": [[62840, 62843]]
+		},
+		{
+			"name": "SST",
+			"spans": [
+				[63969, 63972],
+				[64153, 64156],
+				[64301, 64304]
+			]
+		},
+		{
+			"name": "SFT",
+			"spans": [
+				[63976, 63979],
+				[64308, 64311]
+			]
+		},
+		{
+			"name": "cell wall invertase",
+			"spans": [[63400, 63419]]
+		}
+	],
+	"anatomical_structures": [
+		{
+			"name": "sink tissues",
+			"spans": [
+				[597, 609],
+				[1367, 1379],
+				[26218, 26230],
+				[45160, 45172],
+				[48935, 48947]
+			]
+		},
+		{
+			"name": "seed heads",
+			"spans": [
+				[1113, 1123],
+				[26297, 26307],
+				[38961, 38971],
+				[39058, 39068],
+				[39485, 39495],
+				[39554, 39564],
+				[43184, 43194],
+				[43312, 43322],
+				[43354, 43364],
+				[62387, 62397]
+			]
+		},
+		{
+			"name": "maternal tissue",
+			"spans": [[208, 223]]
+		},
+		{
+			"name": "xylem parenchyma of the stem",
+			"spans": [
+				[899, 927],
+				[66801, 66829]
+			]
+		},
+		{
+			"name": "seed",
+			"spans": [
+				[130, 135],
+				[662, 667],
+				[805, 809],
+				[1113, 1117],
+				[1441, 1445],
+				[1526, 1530],
+				[1697, 1701],
+				[1969, 1973],
+				[2338, 2342],
+				[2801, 2805],
+				[2843, 2847],
+				[3210, 3214],
+				[3382, 3386],
+				[3798, 3802],
+				[4316, 4320],
+				[4390, 4394],
+				[5366, 5370],
+				[5476, 5480],
+				[5569, 5573],
+				[6562, 6566],
+				[6735, 6740],
+				[6941, 6945],
+				[7305, 7310],
+				[31032, 31036],
+				[31076, 31080],
+				[33054, 33058],
+				[33178, 33182],
+				[39269, 39274],
+				[39314, 39319],
+				[39411, 39416],
+				[41919, 41923],
+				[42003, 42007],
+				[42255, 42259],
+				[42420, 42424],
+				[42841, 42845],
+				[46427, 46432],
+				[48460, 48464],
+				[52797, 52801],
+				[52899, 52903],
+				[55929, 55933],
+				[56159, 56163],
+				[57342, 57346],
+				[57342, 57356],
+				[60413, 60418],
+				[62409, 62414],
+				[64793, 64797],
+				[64847, 64851],
+				[65127, 65131],
+				[65412, 65416],
+				[65505, 65509],
+				[65704, 65708],
+				[65829, 65833],
+				[66025, 66029],
+				[66206, 66210],
+				[66791, 66795],
+				[67075, 67079]
+			],
+			"ontology_id": "PO:0009010",
+			"normalized_name": "seed",
+			"score": 1.0000001192092896,
+			"alt_names": ["seed structure", "seeds"]
+		},
+		{
+			"name": "membrane barriers",
+			"spans": [[349, 366]]
+		},
+		{
+			"name": "filial cells",
+			"spans": [
+				[158, 170],
+				[1731, 1743],
+				[4225, 4237],
+				[4417, 4429],
+				[63349, 63361],
+				[66754, 66766]
+			]
+		},
+		{
+			"name": "vascular parenchyma of the pedicel",
+			"spans": [[852, 886]]
+		},
+		{
+			"name": "reproductive structure",
+			"spans": [
+				[255, 277],
+				[38602, 38624]
+			]
+		},
+		{
+			"name": "stem",
+			"spans": [
+				[1535, 1539],
+				[6722, 6727],
+				[26312, 26317],
+				[27880, 27884],
+				[29030, 29034],
+				[30120, 30124],
+				[34384, 34389],
+				[34475, 34479],
+				[34583, 34587],
+				[34638, 34643],
+				[34715, 34719],
+				[34919, 34923],
+				[35276, 35280],
+				[35365, 35369],
+				[42831, 42835],
+				[44300, 44304],
+				[57869, 57873],
+				[59177, 59181],
+				[59281, 59285],
+				[59382, 59386],
+				[60171, 60176],
+				[66825, 66829],
+				[67084, 67088]
+			],
+			"ontology_id": "PO:0009047",
+			"normalized_name": "stem",
+			"score": 1.0000001192092896,
+			"alt_names": ["stems"]
+		},
+		{
+			"name": "carbon sink tissues",
+			"spans": [[1610, 1629]]
+		},
+		{
+			"name": "grain",
+			"spans": [
+				[1974, 1979],
+				[3323, 3328],
+				[3390, 3395],
+				[38427, 38433],
+				[38827, 38833],
+				[41053, 41058],
+				[48465, 48470],
+				[48696, 48701],
+				[52530, 52535],
+				[66325, 66330]
+			],
+			"ontology_id": "PO:0030104",
+			"normalized_name": "caryopsis fruit",
+			"score": 1.0,
+			"alt_names": ["grains"]
+		},
+		{
+			"name": "maternal cells",
+			"spans": [
+				[1777, 1791],
+				[3580, 3594],
+				[4156, 4170],
+				[4868, 4882],
+				[54422, 54436],
+				[55453, 55467]
+			]
+		},
+		{
+			"name": "phloem",
+			"spans": [
+				[1905, 1911],
+				[3603, 3609],
+				[6390, 6396],
+				[6510, 6516],
+				[6540, 6546],
+				[6811, 6817],
+				[7136, 7142],
+				[7162, 7168],
+				[7263, 7269],
+				[35191, 35197],
+				[35831, 35837],
+				[46134, 46140],
+				[46180, 46186],
+				[46407, 46413],
+				[48875, 48881],
+				[48901, 48907],
+				[57658, 57664],
+				[57721, 57727],
+				[58455, 58461],
+				[60568, 60574],
+				[61030, 61036],
+				[64571, 64577]
+			],
+			"ontology_id": "PO:0005417",
+			"normalized_name": "phloem",
+			"score": 0.9999999403953552
+		},
+		{
+			"name": "cytoplasms",
+			"spans": [[1804, 1814]]
+		},
+		{
+			"name": "plasmodesmatal pores",
+			"spans": [[1836, 1856]]
+		},
+		{
+			"name": "seed coat",
+			"spans": [
+				[2843, 2852],
+				[3798, 3807]
+			],
+			"ontology_id": "PO:0009088",
+			"normalized_name": "seed coat",
+			"score": 1.0
+		},
+		{
+			"name": "nucellus",
+			"spans": [
+				[2854, 2862],
+				[31952, 31960],
+				[33713, 33721],
+				[54486, 54494],
+				[54612, 54620]
+			],
+			"ontology_id": "PO:0020020",
+			"normalized_name": "nucellus",
+			"score": 1.0
+		},
+		{
+			"name": "pericarp",
+			"spans": [
+				[2834, 2842],
+				[31229, 31237],
+				[31376, 31384],
+				[31831, 31839],
+				[33347, 33355],
+				[33372, 33380],
+				[55524, 55532]
+			],
+			"ontology_id": "PO:0009084",
+			"normalized_name": "pericarp",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "scutellum",
+			"spans": [
+				[2903, 2912],
+				[31148, 31157],
+				[32584, 32593],
+				[32817, 32826],
+				[33638, 33647],
+				[33932, 33941],
+				[55234, 55243],
+				[55339, 55348]
+			],
+			"ontology_id": "PO:0020110",
+			"normalized_name": "scutellum",
+			"score": 1.0
+		},
+		{
+			"name": "endosperm",
+			"spans": [
+				[2875, 2884],
+				[3726, 3735],
+				[3933, 3942],
+				[7277, 7293],
+				[31187, 31196],
+				[32558, 32567],
+				[32670, 32679],
+				[32796, 32805],
+				[32893, 32902],
+				[33616, 33625],
+				[33903, 33912],
+				[46679, 46688],
+				[46811, 46820],
+				[52046, 52055],
+				[52929, 52938],
+				[53137, 53146],
+				[53836, 53845],
+				[55182, 55191],
+				[55212, 55221],
+				[56112, 56121],
+				[60641, 60650],
+				[60725, 60734],
+				[60725, 60741],
+				[60835, 60844]
+			],
+			"ontology_id": "PO:0009089",
+			"normalized_name": "endosperm",
+			"score": 1.0,
+			"alt_names": ["endosperm tissue"]
+		},
+		{
+			"name": "embryo",
+			"spans": [
+				[2864, 2870],
+				[3715, 3721],
+				[3912, 3918],
+				[31127, 31133],
+				[33919, 33925],
+				[52027, 52033],
+				[56242, 56248]
+			],
+			"ontology_id": "PO:0009009",
+			"normalized_name": "plant embryo",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "filial tissues",
+			"spans": [
+				[3651, 3665],
+				[50988, 51002],
+				[51146, 51160],
+				[51717, 51731],
+				[61892, 61906]
+			]
+		},
+		{
+			"name": "nucellar cells",
+			"spans": [[3812, 3826]]
+		},
+		{
+			"name": "plasma membranes",
+			"spans": [[4016, 4032]]
+		},
+		{
+			"name": "vegetative tissues",
+			"spans": [[3273, 3291]]
+		},
+		{
+			"name": "apoplast",
+			"spans": [
+				[3630, 3638],
+				[4180, 4188],
+				[4369, 4377],
+				[4892, 4900],
+				[5139, 5147],
+				[50854, 50862],
+				[51351, 51359],
+				[52252, 52260],
+				[52430, 52438],
+				[54222, 54230],
+				[54280, 54288],
+				[54868, 54876],
+				[58099, 58107],
+				[58270, 58278],
+				[59917, 59925],
+				[60497, 60505]
+			]
+		},
+		{
+			"name": "seed maternal tissues",
+			"spans": [[4390, 4411]]
+		},
+		{
+			"name": "membrane interface",
+			"spans": [[5268, 5286]]
+		},
+		{
+			"name": "cereal seeds",
+			"spans": [[4500, 4512]]
+		},
+		{
+			"name": "seed head",
+			"spans": [
+				[6941, 6950],
+				[27890, 27899],
+				[29043, 29052],
+				[30135, 30144],
+				[30202, 30211],
+				[40305, 40314],
+				[40429, 40438],
+				[40793, 40802],
+				[42003, 42012],
+				[42841, 42850],
+				[43793, 43802],
+				[43822, 43831],
+				[44005, 44014],
+				[44310, 44319],
+				[44831, 44840],
+				[64390, 64399]
+			]
+		},
+		{
+			"name": "epitope regions",
+			"spans": [[27094, 27109]]
+		},
+		{
+			"name": "C-terminal tail",
+			"spans": [[26467, 26482]]
+		},
+		{
+			"name": "C-terminus",
+			"spans": [[26383, 26393]]
+		},
+		{
+			"name": "leaf",
+			"spans": [
+				[27874, 27878],
+				[28788, 28792],
+				[30110, 30114],
+				[42825, 42829],
+				[43053, 43057],
+				[44294, 44298]
+			],
+			"ontology_id": "PO:0025034",
+			"normalized_name": "leaf",
+			"score": 0.9999999403953552
+		},
+		{
+			"name": "tissue",
+			"spans": [
+				[27327, 27333],
+				[28353, 28359],
+				[28793, 28799],
+				[34434, 34440],
+				[34537, 34543],
+				[36590, 36603],
+				[38474, 38480],
+				[42851, 42857],
+				[46908, 46925],
+				[59152, 59169],
+				[65485, 65491]
+			],
+			"ontology_id": "PO:0009007",
+			"normalized_name": "portion of plant tissue",
+			"score": 1.0,
+			"alt_names": ["plant tissues", "tissue structures"]
+		},
+		{
+			"name": "membrane",
+			"spans": [
+				[28590, 28598],
+				[50154, 50162]
+			]
+		},
+		{
+			"name": "vascular bundles",
+			"spans": [
+				[31777, 31793],
+				[33485, 33500],
+				[33564, 33579],
+				[35472, 35487],
+				[54242, 54257],
+				[54812, 54827]
+			],
+			"ontology_id": "PO:0005020",
+			"normalized_name": "vascular bundle",
+			"score": 0.933212161064148,
+			"alt_names": ["vascular bundle"]
+		},
+		{
+			"name": "pedicel",
+			"spans": [
+				[31389, 31396],
+				[31807, 31814],
+				[33332, 33339],
+				[55509, 55516],
+				[57585, 57592],
+				[58024, 58031],
+				[59186, 59193],
+				[59391, 59398]
+			],
+			"ontology_id": "PO:0030112",
+			"normalized_name": "pedicel",
+			"score": 1.0
+		},
+		{
+			"name": "filial tissue",
+			"spans": [[31098, 31111]]
+		},
+		{
+			"name": "transfer aleurone",
+			"spans": [
+				[32415, 32432],
+				[33526, 33543]
+			]
+		},
+		{
+			"name": "placental vascular bundle",
+			"spans": [
+				[32254, 32279],
+				[33554, 33579],
+				[50781, 50806],
+				[54802, 54827]
+			]
+		},
+		{
+			"name": "scutellar epithelium",
+			"spans": [
+				[32952, 32972],
+				[33743, 33763],
+				[55301, 55321]
+			],
+			"ontology_id": "PO:0008048",
+			"normalized_name": "scutellar epithelium",
+			"score": 1.0
+		},
+		{
+			"name": "placental pad",
+			"spans": [
+				[32008, 32021],
+				[33835, 33848],
+				[50923, 50936],
+				[51248, 51261],
+				[51406, 51419],
+				[52238, 52251],
+				[53609, 53622],
+				[54749, 54762]
+			]
+		},
+		{
+			"name": "cuboidal aleurone",
+			"spans": [[32482, 32499]]
+		},
+		{
+			"name": "EAS layer",
+			"spans": [
+				[32754, 32763],
+				[55599, 55608],
+				[55754, 55763]
+			]
+		},
+		{
+			"name": "aleurone",
+			"spans": [
+				[32424, 32432],
+				[32491, 32499],
+				[52446, 52454],
+				[52464, 52472],
+				[53797, 53805],
+				[60796, 60804]
+			],
+			"ontology_id": "PO:0008008",
+			"normalized_name": "modified aleurone",
+			"score": 0.9055790305137634
+		},
+		{
+			"name": "inner pericarp",
+			"spans": [
+				[31825, 31839],
+				[33366, 33380]
+			],
+			"ontology_id": "PO:0009086",
+			"normalized_name": "endocarp",
+			"score": 0.900642454624176
+		},
+		{
+			"name": "sclerenchyma",
+			"spans": [
+				[33949, 33961],
+				[35932, 35944]
+			],
+			"ontology_id": "PO:0005427",
+			"normalized_name": "sclerenchyma",
+			"score": 1.0
+		},
+		{
+			"name": "cell walls",
+			"spans": [
+				[34230, 34240],
+				[36199, 36209]
+			]
+		},
+		{
+			"name": "starch granules",
+			"spans": [[33972, 33987]]
+		},
+		{
+			"name": "hypodermis",
+			"spans": [
+				[34803, 34813],
+				[35514, 35524]
+			],
+			"ontology_id": "PO:0005051",
+			"normalized_name": "hypodermis",
+			"score": 1.0
+		},
+		{
+			"name": "ground parenchyma tissue",
+			"spans": [[34519, 34543]],
+			"ontology_id": "PO:0025059",
+			"normalized_name": "portion of ground tissue",
+			"score": 0.9184148907661438
+		},
+		{
+			"name": "stem sections",
+			"spans": [[34715, 34728]]
+		},
+		{
+			"name": "outer perimeter of the stem",
+			"spans": [[34560, 34587]]
+		},
+		{
+			"name": "companion cells",
+			"spans": [
+				[35152, 35167],
+				[35882, 35897]
+			],
+			"ontology_id": "PO:0000071",
+			"normalized_name": "companion cell",
+			"score": 0.9774550795555115
+		},
+		{
+			"name": "sieve element",
+			"spans": [
+				[35130, 35143],
+				[35907, 35921]
+			],
+			"ontology_id": "PO:0025406",
+			"normalized_name": "sieve element",
+			"score": 0.9999999403953552,
+			"alt_names": ["sieve elements"]
+		},
+		{
+			"name": "VBs",
+			"spans": [
+				[34549, 34552],
+				[34818, 34821],
+				[34941, 34944]
+			]
+		},
+		{
+			"name": "xylem parenchyma",
+			"spans": [
+				[34989, 35005],
+				[35696, 35712],
+				[57934, 57950],
+				[58752, 58768],
+				[59219, 59235],
+				[59831, 59847],
+				[60151, 60167]
+			],
+			"ontology_id": "PO:0005352",
+			"normalized_name": "xylem",
+			"score": 0.9351799488067627
+		},
+		{
+			"name": "proto- and metaxylem",
+			"spans": [[35055, 35075]]
+		},
+		{
+			"name": "transverse stem section",
+			"spans": [[34464, 34487]]
+		},
+		{
+			"name": "centre of the VB",
+			"spans": [[35022, 35038]]
+		},
+		{
+			"name": "cells",
+			"spans": [
+				[34790, 34795],
+				[34976, 34981],
+				[35162, 35167],
+				[57181, 57186]
+			],
+			"ontology_id": "PO:0009002",
+			"normalized_name": "plant cell",
+			"score": 0.9817134141921997
+		},
+		{
+			"name": "metaxylem",
+			"spans": [
+				[35066, 35075],
+				[35754, 35763]
+			],
+			"ontology_id": "PO:0000372",
+			"normalized_name": "metaxylem",
+			"score": 1.0
+		},
+		{
+			"name": "plasma membrane",
+			"spans": [
+				[35629, 35644],
+				[58805, 58820],
+				[59511, 59526]
+			]
+		},
+		{
+			"name": "protoxylem",
+			"spans": [[35734, 35744]],
+			"ontology_id": "PO:0000272",
+			"normalized_name": "protoxylem",
+			"score": 1.0
+		},
+		{
+			"name": "endoplasmic reticulum",
+			"spans": [
+				[35671, 35692],
+				[58871, 58892]
+			]
+		},
+		{
+			"name": "sink tissue",
+			"spans": [
+				[36648, 36659],
+				[64582, 64593],
+				[66123, 66134]
+			]
+		},
+		{
+			"name": "inflorescence",
+			"spans": [
+				[39425, 39438],
+				[48442, 48455]
+			],
+			"ontology_id": "PO:0009049",
+			"normalized_name": "inflorescence",
+			"score": 1.0
+		},
+		{
+			"name": "sinks",
+			"spans": [[44352, 44357]]
+		},
+		{
+			"name": "vacuolar",
+			"spans": [
+				[45257, 45265],
+				[63730, 63738],
+				[63866, 63874]
+			]
+		},
+		{
+			"name": "cytosolic",
+			"spans": [[45452, 45461]]
+		},
+		{
+			"name": "reproductive structures",
+			"spans": [[47300, 47323]]
+		},
+		{
+			"name": "BETL",
+			"spans": [
+				[46705, 46709],
+				[55768, 55772]
+			]
+		},
+		{
+			"name": "basal endosperm transfer layer",
+			"spans": [[46673, 46703]],
+			"ontology_id": "PO:0025196",
+			"normalized_name": "basal endosperm transfer layer",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "source tissues",
+			"spans": [[49004, 49018]]
+		},
+		{
+			"name": "oocytes",
+			"spans": [
+				[49343, 49350],
+				[49401, 49408]
+			]
+		},
+		{
+			"name": "plasmodesmatal pits",
+			"spans": [[51482, 51501]]
+		},
+		{
+			"name": "symplastic barrier",
+			"spans": [[50948, 50966]]
+		},
+		{
+			"name": "symplast",
+			"spans": [[50819, 50827]]
+		},
+		{
+			"name": "filial interface",
+			"spans": [[51367, 51383]]
+		},
+		{
+			"name": "interface between the maternal and filial cells",
+			"spans": [[50521, 50568]]
+		},
+		{
+			"name": "Setaria seed",
+			"spans": [
+				[50377, 50389],
+				[53924, 53936],
+				[53986, 53998]
+			]
+		},
+		{
+			"name": "transfer aleurone layer",
+			"spans": [[51191, 51214]]
+		},
+		{
+			"name": "maternal tissues",
+			"spans": [
+				[51124, 51140],
+				[57486, 57502]
+			]
+		},
+		{
+			"name": "filial-filial cell interfaces",
+			"spans": [[50340, 50369]]
+		},
+		{
+			"name": "placental pad cells",
+			"spans": [[51248, 51267]]
+		},
+		{
+			"name": "modified aleurone layer",
+			"spans": [[52455, 52478]],
+			"ontology_id": "PO:0005360",
+			"normalized_name": "aleurone layer",
+			"score": 0.9202666282653809
+		},
+		{
+			"name": "endosperm cavity",
+			"spans": [
+				[52929, 52945],
+				[53137, 53153]
+			]
+		},
+		{
+			"name": "cell layers",
+			"spans": [[52336, 52347]]
+		},
+		{
+			"name": "phloem sieve tubes",
+			"spans": [[53111, 53129]]
+		},
+		{
+			"name": "membranes",
+			"spans": [[51886, 51895]]
+		},
+		{
+			"name": "maternal-filial interface",
+			"spans": [[51739, 51764]]
+		},
+		{
+			"name": "transfer cells",
+			"spans": [
+				[51600, 51614],
+				[52295, 52309],
+				[59236, 59250],
+				[59360, 59374]
+			],
+			"ontology_id": "PO:0000078",
+			"normalized_name": "transfer cell",
+			"score": 0.9866779446601868
+		},
+		{
+			"name": "placental sac",
+			"spans": [
+				[53171, 53184],
+				[53557, 53570]
+			]
+		},
+		{
+			"name": "transfer aleurone cells",
+			"spans": [[55019, 55042]]
+		},
+		{
+			"name": "cell wall",
+			"spans": [
+				[54290, 54299],
+				[60525, 60534],
+				[65077, 65086],
+				[65143, 65152],
+				[65657, 65666]
+			]
+		},
+		{
+			"name": "plasmodesmata",
+			"spans": [[54053, 54066]]
+		},
+		{
+			"name": "vascular parenchyma",
+			"spans": [[54148, 54167]]
+		},
+		{
+			"name": "aleurone cells",
+			"spans": [
+				[55028, 55042],
+				[55108, 55122]
+			]
+		},
+		{
+			"name": "sclerenchyma cells",
+			"spans": [
+				[54464, 54482],
+				[58585, 58603]
+			],
+			"ontology_id": "PO:0000077",
+			"normalized_name": "sclerenchyma cell",
+			"score": 0.9938542246818542
+		},
+		{
+			"name": "cuboidal aleurone cells",
+			"spans": [[55099, 55122]]
+		},
+		{
+			"name": "source leaf",
+			"spans": [[56484, 56495]]
+		},
+		{
+			"name": "TAL",
+			"spans": [[56011, 56014]]
+		},
+		{
+			"name": "cell types",
+			"spans": [[57320, 57330]]
+		},
+		{
+			"name": "terminal vascular bundles",
+			"spans": [[57552, 57577]]
+		},
+		{
+			"name": "trans-Golgi apparatus",
+			"spans": [[59532, 59553]]
+		},
+		{
+			"name": "xylem parenchyma cells",
+			"spans": [[59831, 59853]],
+			"ontology_id": "PO:0000274",
+			"normalized_name": "xylem fiber cell",
+			"score": 0.9192796349525452
+		},
+		{
+			"name": "parenchyma cells",
+			"spans": [
+				[57828, 57844],
+				[58215, 58231],
+				[59837, 59853]
+			],
+			"ontology_id": "PO:0000074",
+			"normalized_name": "parenchyma cell",
+			"score": 0.9946333169937134
+		},
+		{
+			"name": "xylem sap",
+			"spans": [[59888, 59897]],
+			"ontology_id": "PO:0025539",
+			"normalized_name": "xylem sap",
+			"score": 1.0
+		},
+		{
+			"name": "rice leaf blade",
+			"spans": [[59775, 59790]]
+		},
+		{
+			"name": "multivesicular bodies",
+			"spans": [[59559, 59580]]
+		},
+		{
+			"name": "vesicles",
+			"spans": [
+				[59655, 59663],
+				[59726, 59734],
+				[59792, 59800]
+			]
+		},
+		{
+			"name": "xylem parenchyma transfer cells",
+			"spans": [[59219, 59250]]
+		},
+		{
+			"name": "Golgi body",
+			"spans": [[58901, 58911]]
+		},
+		{
+			"name": "legumes",
+			"spans": [[59210, 59217]],
+			"ontology_id": "PO:0030100",
+			"normalized_name": "legume fruit",
+			"score": 0.9788017272949219
+		},
+		{
+			"name": "plant cell wall",
+			"spans": [[59047, 59062]]
+		},
+		{
+			"name": "maize pedicel tissue",
+			"spans": [[58018, 58038]]
+		},
+		{
+			"name": "dividing cells",
+			"spans": [[60619, 60633]]
+		},
+		{
+			"name": "subaleurone layers",
+			"spans": [[60809, 60827]]
+		},
+		{
+			"name": "source tissue",
+			"spans": [[66583, 66596]]
+		},
+		{
+			"name": "vasculature of the seed",
+			"spans": [[66772, 66795]]
+		}
+	],
+	"species": [
+		{
+			"name": "Setaria viridis",
+			"spans": [
+				[690, 705],
+				[1543, 1558],
+				[6126, 6141],
+				[33031, 33046],
+				[35253, 35268],
+				[39533, 39548],
+				[43168, 43183],
+				[43326, 43341],
+				[48633, 48643],
+				[67137, 67147]
+			],
+			"taxonomy_id": 4556,
+			"alt_names": ["S. viridis"]
+		},
+		{
+			"name": "Arabidopsis thaliana",
+			"spans": [
+				[3120, 3140],
+				[59444, 59455]
+			],
+			"taxonomy_id": 3702,
+			"alt_names": ["Arabidopsis"]
+		},
+		{
+			"name": "rice",
+			"spans": [
+				[4729, 4733],
+				[46525, 46529],
+				[65623, 65627]
+			],
+			"taxonomy_id": 3052764
+		},
+		{
+			"name": "Setaria italica",
+			"spans": [
+				[5950, 5965],
+				[27319, 27326],
+				[27996, 28003],
+				[29737, 29744],
+				[30170, 30177],
+				[34446, 34453],
+				[34491, 34498],
+				[38885, 38892],
+				[39261, 39268],
+				[44823, 44830],
+				[48705, 48715],
+				[50377, 50384],
+				[50740, 50747],
+				[51022, 51029],
+				[51791, 51798],
+				[53924, 53931],
+				[53986, 53993],
+				[55921, 55928],
+				[56499, 56506],
+				[61106, 61113],
+				[61742, 61749],
+				[64264, 64271],
+				[64465, 64472],
+				[64742, 64749],
+				[64932, 64939],
+				[65821, 65828],
+				[66138, 66145],
+				[66600, 66607]
+			],
+			"taxonomy_id": 4555,
+			"alt_names": ["S. italica", "Setaria"]
+		},
+		{
+			"name": "Enneapogon desvauxii",
+			"spans": [[32134, 32154]],
+			"taxonomy_id": 433866
+		},
+		{
+			"name": "Briza maxima",
+			"spans": [[32116, 32128]],
+			"taxonomy_id": 29665
+		},
+		{
+			"name": "Setaria lutescens",
+			"spans": [[32097, 32114]],
+			"taxonomy_id": 108094
+		},
+		{
+			"name": "ME034V",
+			"spans": [
+				[41507, 41513],
+				[42521, 42527]
+			]
+		},
+		{
+			"name": "A.10",
+			"spans": [
+				[40330, 40334],
+				[40788, 40792],
+				[41293, 41297],
+				[41498, 41502],
+				[42512, 42516],
+				[42760, 42764]
+			],
+			"taxonomy_id": 28875
+		},
+		{
+			"name": "maize",
+			"spans": [
+				[46515, 46520],
+				[46534, 46539],
+				[64778, 64783],
+				[64824, 64829],
+				[65038, 65043]
+			],
+			"taxonomy_id": 381124
+		},
+		{
+			"name": "barley",
+			"spans": [[65632, 65638]],
+			"taxonomy_id": 12327
+		}
+	],
+	"experimental_conditions": [
+		{
+			"name": "immunolocalization",
+			"spans": [
+				[713, 731],
+				[34391, 34409]
+			]
+		},
+		{
+			"name": "expression of SvSWEET4a in Xenopus laevis oocytes",
+			"spans": [[929, 978]]
+		},
+		{
+			"name": "carbohydrate and transcriptional profiling",
+			"spans": [[1059, 1101]]
+		},
+		{
+			"name": "reverse genetics",
+			"spans": [[5660, 5676]]
+		},
+		{
+			"name": "antisense suppression",
+			"spans": [[4696, 4717]]
+		},
+		{
+			"name": "knockout",
+			"spans": [[4611, 4619]]
+		},
+		{
+			"name": "major carbohydrate profiling",
+			"spans": [[7025, 7053]]
+		},
+		{
+			"name": "functional characterization",
+			"spans": [[6996, 7023]]
+		},
+		{
+			"name": "expression analyses",
+			"spans": [[7059, 7078]]
+		},
+		{
+			"name": "immunohistochemistry",
+			"spans": [[6974, 6994]]
+		},
+		{
+			"name": "in vitro assays",
+			"spans": [[27781, 27796]]
+		},
+		{
+			"name": "reducing agents",
+			"spans": [[29794, 29809]]
+		},
+		{
+			"name": "secondary antibody-only",
+			"spans": [[33141, 33164]]
+		},
+		{
+			"name": "pre-immune serum",
+			"spans": [
+				[33116, 33132],
+				[35339, 35355]
+			]
+		},
+		{
+			"name": "oocytes expressing SvSWEET4a",
+			"spans": [[36822, 36850]]
+		},
+		{
+			"name": "exceeding the concentration of sugar in the extracellular solution beyond 175 mM",
+			"spans": [[37352, 37432]]
+		},
+		{
+			"name": "negative control non-expressing oocytes",
+			"spans": [[36770, 36809]]
+		},
+		{
+			"name": "non-expressing oocytes",
+			"spans": [
+				[38117, 38139],
+				[38183, 38205]
+			]
+		},
+		{
+			"name": "50% seed head emergence",
+			"spans": [
+				[39004, 39027],
+				[39620, 39643],
+				[43411, 43434],
+				[43818, 43841]
+			]
+		},
+		{
+			"name": "16 DAA",
+			"spans": [
+				[39050, 39056],
+				[39675, 39681],
+				[43473, 43479],
+				[43917, 43923],
+				[45025, 45031]
+			]
+		},
+		{
+			"name": "anthesis",
+			"spans": [
+				[38446, 38454],
+				[39029, 39037],
+				[39654, 39662],
+				[39871, 39879],
+				[43445, 43453],
+				[43846, 43854],
+				[44503, 44511],
+				[44570, 44578]
+			]
+		},
+		{
+			"name": "8 DAA",
+			"spans": [
+				[39039, 39044],
+				[39664, 39669],
+				[43462, 43467],
+				[45508, 45513],
+				[45954, 45959]
+			]
+		},
+		{
+			"name": "poly(A)-enriched RNA-sequencing",
+			"spans": [[42026, 42057]]
+		},
+		{
+			"name": "qPCR",
+			"spans": [[42783, 42787]]
+		},
+		{
+			"name": "mutational analysis",
+			"spans": [[46822, 46841]]
+		},
+		{
+			"name": "gene knockout",
+			"spans": [[46738, 46751]]
+		},
+		{
+			"name": "tissue culture process",
+			"spans": [[47906, 47928]]
+		},
+		{
+			"name": "aphid stylet exudates",
+			"spans": [[52991, 53012]]
+		},
+		{
+			"name": "genetic transformation studies",
+			"spans": [[62158, 62188]]
+		}
+	],
+	"molecular_traits": [
+		{
+			"name": "high-capacity glucose and sucrose transporter",
+			"spans": [[1012, 1057]]
+		},
+		{
+			"name": "invertase activity",
+			"spans": [
+				[2543, 2561],
+				[57035, 57053]
+			]
+		},
+		{
+			"name": "sugar export",
+			"spans": [[4848, 4860]]
+		},
+		{
+			"name": "SvSWEET4a-mediated sucrose transport",
+			"spans": [[37057, 37093]]
+		},
+		{
+			"name": "sugar transport",
+			"spans": [[36912, 36927]]
+		},
+		{
+			"name": "SvSWEET4a-mediated transport",
+			"spans": [
+				[37559, 37587],
+				[37661, 37689]
+			]
+		},
+		{
+			"name": "expression levels of sugar transporters",
+			"spans": [[38772, 38811]]
+		},
+		{
+			"name": "passive movement of water",
+			"spans": [[44728, 44753]]
+		},
+		{
+			"name": "gene expression",
+			"spans": [[47005, 47020]]
+		},
+		{
+			"name": "high-capacity transport",
+			"spans": [[51936, 51959]]
+		},
+		{
+			"name": "active transporter",
+			"spans": [[52499, 52517]]
+		},
+		{
+			"name": "transcript abundance",
+			"spans": [
+				[62499, 62519],
+				[62816, 62836]
+			]
+		},
+		{
+			"name": "SuSy activity",
+			"spans": [[64807, 64820]]
+		},
+		{
+			"name": "transmembrane sugar movement",
+			"spans": [[66087, 66115]]
+		},
+		{
+			"name": "high-capacity, low-affinity transporter",
+			"spans": [[66919, 66958]]
+		}
+	],
+	"plant_traits": [
+		{
+			"name": "developmental shifts in hexose and sucrose content",
+			"spans": [[1152, 1202]]
+		},
+		{
+			"name": "yield",
+			"spans": [
+				[2045, 2050],
+				[3351, 3356],
+				[46252, 46257],
+				[67311, 67316]
+			],
+			"ontology_id": "TO:0000371",
+			"normalized_name": "yield trait",
+			"score": 0.865227222442627
+		},
+		{
+			"name": "seed development",
+			"spans": [
+				[2338, 2354],
+				[6562, 6578],
+				[42255, 42275],
+				[62309, 62325],
+				[62607, 62623]
+			],
+			"ontology_id": "TO:0002661",
+			"normalized_name": "seed maturation",
+			"score": 0.9279539585113525,
+			"alt_names": ["seed filling process"]
+		},
+		{
+			"name": "seed filling",
+			"spans": [
+				[3210, 3222],
+				[49130, 49142],
+				[56159, 56171],
+				[62947, 62959]
+			],
+			"ontology_id": "TO:0000180",
+			"normalized_name": "spikelet fertility",
+			"score": 0.79344642162323
+		},
+		{
+			"name": "shrivelled grain phenotype",
+			"spans": [[4787, 4813]],
+			"ontology_id": "TO:0002627",
+			"normalized_name": "fruit width",
+			"score": 0.7574303150177002
+		},
+		{
+			"name": "seed morphology",
+			"spans": [
+				[5366, 5381],
+				[46618, 46640]
+			],
+			"ontology_id": "TO:0000184",
+			"normalized_name": "seed morphology trait",
+			"score": 0.9407943487167358,
+			"alt_names": ["seed filling phenotype"]
+		},
+		{
+			"name": "grain filling",
+			"spans": [
+				[4668, 4681],
+				[4759, 4772],
+				[47592, 47605],
+				[52530, 52543]
+			],
+			"ontology_id": "TO:0000162",
+			"normalized_name": "grain quality trait",
+			"score": 0.7688375115394592
+		},
+		{
+			"name": "small seeds",
+			"spans": [
+				[39308, 39319],
+				[65604, 65618]
+			],
+			"ontology_id": "TO:0000189",
+			"normalized_name": "embryoless seed",
+			"score": 0.8236014246940613,
+			"alt_names": ["unfilled seeds"]
+		},
+		{
+			"name": "starch accumulation",
+			"spans": [
+				[41340, 41359],
+				[64678, 64697]
+			],
+			"ontology_id": "TO:0020101",
+			"normalized_name": "starch mobilization",
+			"score": 0.799261212348938
+		},
+		{
+			"name": "development",
+			"spans": [
+				[42013, 42024],
+				[42497, 42508],
+				[56249, 56260],
+				[56735, 56746],
+				[57380, 57391]
+			]
+		},
+		{
+			"name": "grain development",
+			"spans": [
+				[47185, 47202],
+				[62297, 62325]
+			],
+			"ontology_id": "TO:0000653",
+			"normalized_name": "seed growth and development trait",
+			"score": 0.7913114428520203,
+			"alt_names": ["duration of seed development"]
+		},
+		{
+			"name": "visible phenotype",
+			"spans": [[47738, 47755]]
+		},
+		{
+			"name": "growth",
+			"spans": [[56724, 56730]],
+			"ontology_id": "TO:0002756",
+			"normalized_name": "shoot growth angle",
+			"score": 0.8177176713943481
+		},
+		{
+			"name": "shrunken seed phenotype",
+			"spans": [[65118, 65141]],
+			"ontology_id": "TO:0000100",
+			"normalized_name": "shrunken endosperm",
+			"score": 0.802471399307251
+		},
+		{
+			"name": "sink capacity",
+			"spans": [[67293, 67306]]
+		}
+	],
+	"human_traits": [
+		{
+			"name": "agronomically valuable",
+			"spans": [
+				[2002, 2024],
+				[3300, 3322]
+			]
+		},
+		{
+			"name": "food production",
+			"spans": [[6085, 6100]]
+		},
+		{
+			"name": "harvested for their grains",
+			"spans": [[46289, 46315]]
+		}
+	]
+}

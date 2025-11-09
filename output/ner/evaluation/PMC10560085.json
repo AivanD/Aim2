@@ -1,0 +1,3885 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[1038, 1045],
+					[1187, 1194]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [[1026, 1033]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[1176, 1182]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "apoplastic sugar transport",
+				"spans": [[515, 541]]
+			},
+			{
+				"name": "post-phloem sugar transport",
+				"spans": [[1404, 1431]]
+			},
+			{
+				"name": "apoplastic transport pathway",
+				"spans": [[1335, 1363]]
+			},
+			{
+				"name": "post-phloem pathway",
+				"spans": [[574, 593]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[733, 741],
+					[1232, 1240]
+				]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [
+					[462, 468],
+					[1321, 1327]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[943, 952]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues",
+				"spans": [
+					[597, 609],
+					[1367, 1379]
+				]
+			},
+			{
+				"name": "seed heads",
+				"spans": [[1113, 1123]]
+			},
+			{
+				"name": "maternal tissue",
+				"spans": [[208, 223]]
+			},
+			{
+				"name": "xylem parenchyma of the stem",
+				"spans": [[899, 927]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[805, 809],
+					[1113, 1117],
+					[1441, 1445]
+				]
+			},
+			{
+				"name": "seeds",
+				"spans": [
+					[130, 135],
+					[662, 667]
+				]
+			},
+			{
+				"name": "membrane barriers",
+				"spans": [[349, 366]]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[158, 170]]
+			},
+			{
+				"name": "vascular parenchyma of the pedicel",
+				"spans": [[852, 886]]
+			},
+			{
+				"name": "reproductive structure",
+				"spans": [[255, 277]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[690, 705]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "immunolocalization",
+				"spans": [[713, 731]]
+			},
+			{
+				"name": "expression of SvSWEET4a in Xenopus laevis oocytes",
+				"spans": [[929, 978]]
+			},
+			{
+				"name": "carbohydrate and transcriptional profiling",
+				"spans": [[1059, 1101]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "high-capacity glucose and sucrose transporter",
+				"spans": [[1012, 1057]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "developmental shifts in hexose and sucrose content",
+				"spans": [[1152, 1202]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [[1466, 1473]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[1478, 1485]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [[1498, 1504]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem",
+				"spans": [[1535, 1539]]
+			},
+			{
+				"name": "seed",
+				"spans": [[1526, 1530]]
+			},
+			{
+				"name": "carbon sink tissues",
+				"spans": [[1610, 1629]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[1543, 1558]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrates",
+				"spans": [[2323, 2336]]
+			},
+			{
+				"name": "sugar",
+				"spans": [
+					[1923, 1928],
+					[2171, 2176]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway",
+				"spans": [[1900, 1919]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "grain",
+				"spans": [[1974, 1979]]
+			},
+			{
+				"name": "maternal cells",
+				"spans": [[1777, 1791]]
+			},
+			{
+				"name": "phloem",
+				"spans": [[1905, 1911]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[1697, 1701],
+					[1969, 1973]
+				]
+			},
+			{
+				"name": "cytoplasms",
+				"spans": [[1804, 1814]]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[1731, 1743]]
+			},
+			{
+				"name": "plasmodesmatal pores",
+				"spans": [[1836, 1856]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "yield",
+				"spans": [[2045, 2050]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "agronomically valuable",
+				"spans": [[2002, 2024]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[2595, 2602],
+					[2716, 2723],
+					[2763, 2770]
+				]
+			},
+			{
+				"name": "hexose",
+				"spans": [
+					[2585, 2591],
+					[2727, 2733]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed coat",
+				"spans": [[2843, 2852]]
+			},
+			{
+				"name": "nucellus",
+				"spans": [[2854, 2862]]
+			},
+			{
+				"name": "pericarp",
+				"spans": [[2834, 2842]]
+			},
+			{
+				"name": "scutellum",
+				"spans": [[2903, 2912]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[2338, 2342],
+					[2801, 2805],
+					[2843, 2847],
+					[3210, 3214]
+				]
+			},
+			{
+				"name": "endosperm",
+				"spans": [[2875, 2884]]
+			},
+			{
+				"name": "embryo",
+				"spans": [[2864, 2870]]
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis thaliana",
+				"spans": [[3120, 3140]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "invertase activity",
+				"spans": [[2543, 2561]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "seed development",
+				"spans": [[2338, 2354]]
+			},
+			{
+				"name": "seed filling",
+				"spans": [[3210, 3222]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrates",
+				"spans": [[3429, 3442]]
+			},
+			{
+				"name": "sugars",
+				"spans": [
+					[3494, 3500],
+					[3956, 3962],
+					[4140, 4146]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "apoplastic pathway",
+				"spans": [[3990, 4008]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed coat",
+				"spans": [[3798, 3807]]
+			},
+			{
+				"name": "filial tissues",
+				"spans": [[3651, 3665]]
+			},
+			{
+				"name": "grain",
+				"spans": [
+					[3323, 3328],
+					[3390, 3395]
+				]
+			},
+			{
+				"name": "nucellar cells",
+				"spans": [[3812, 3826]]
+			},
+			{
+				"name": "phloem",
+				"spans": [[3603, 3609]]
+			},
+			{
+				"name": "maternal cells",
+				"spans": [
+					[3580, 3594],
+					[4156, 4170]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[3382, 3386],
+					[3798, 3802]
+				]
+			},
+			{
+				"name": "plasma membranes",
+				"spans": [[4016, 4032]]
+			},
+			{
+				"name": "vegetative tissues",
+				"spans": [[3273, 3291]]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[3630, 3638],
+					[4180, 4188]
+				]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[3726, 3735],
+					[3933, 3942]
+				]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[4225, 4237]]
+			},
+			{
+				"name": "embryo",
+				"spans": [
+					[3715, 3721],
+					[3912, 3918]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "yield",
+				"spans": [[3351, 3356]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "agronomically valuable",
+				"spans": [[3300, 3322]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[4263, 4270],
+					[4352, 4359]
+				]
+			},
+			{
+				"name": "sugars",
+				"spans": [
+					[4959, 4965],
+					[5123, 5129],
+					[5246, 5252]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem sugar transport",
+				"spans": [[5812, 5839]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEETs",
+				"spans": [
+					[5008, 5014],
+					[5103, 5109],
+					[5580, 5586],
+					[5699, 5705],
+					[5874, 5880]
+				]
+			},
+			{
+				"name": "HXTs",
+				"spans": [[5213, 5217]]
+			},
+			{
+				"name": "SUT1",
+				"spans": [
+					[4283, 4287],
+					[4455, 4459],
+					[4721, 4725]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "maternal cells",
+				"spans": [[4868, 4882]]
+			},
+			{
+				"name": "seed maternal tissues",
+				"spans": [[4390, 4411]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[4316, 4320],
+					[4390, 4394],
+					[5366, 5370],
+					[5476, 5480],
+					[5569, 5573]
+				]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[4369, 4377],
+					[4892, 4900],
+					[5139, 5147]
+				]
+			},
+			{
+				"name": "membrane interface",
+				"spans": [[5268, 5286]]
+			},
+			{
+				"name": "cereal seeds",
+				"spans": [[4500, 4512]]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[4417, 4429]]
+			}
+		],
+		"species": [
+			{
+				"name": "rice",
+				"spans": [[4729, 4733]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "reverse genetics",
+				"spans": [[5660, 5676]]
+			},
+			{
+				"name": "antisense suppression",
+				"spans": [[4696, 4717]]
+			},
+			{
+				"name": "knockout",
+				"spans": [[4611, 4619]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "sugar export",
+				"spans": [[4848, 4860]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "shrivelled grain phenotype",
+				"spans": [[4787, 4813]]
+			},
+			{
+				"name": "seed morphology",
+				"spans": [[5366, 5381]]
+			},
+			{
+				"name": "grain filling",
+				"spans": [
+					[4668, 4681],
+					[4759, 4772]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrate",
+				"spans": [[7031, 7043]]
+			},
+			{
+				"name": "sugar",
+				"spans": [
+					[6397, 6402],
+					[7239, 7244]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway",
+				"spans": [
+					[6535, 6554],
+					[7157, 7176]
+				]
+			},
+			{
+				"name": "pathway for sugar movement from the phloem to the endosperm tissue",
+				"spans": [[7227, 7293]]
+			},
+			{
+				"name": "phloem unloading and post-phloem pathway",
+				"spans": [[7136, 7176]]
+			},
+			{
+				"name": "post-phloem sugar movement",
+				"spans": [[6385, 6411]]
+			},
+			{
+				"name": "phloem unloading",
+				"spans": [
+					[6510, 6526],
+					[6811, 6827],
+					[7136, 7152]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [[6656, 6662]]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [
+					[6489, 6495],
+					[7122, 7128]
+				]
+			},
+			{
+				"name": "SWEET4a",
+				"spans": [[6874, 6881]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "endosperm tissue",
+				"spans": [[7277, 7293]]
+			},
+			{
+				"name": "stems",
+				"spans": [[6722, 6727]]
+			},
+			{
+				"name": "phloem",
+				"spans": [
+					[6390, 6396],
+					[6510, 6516],
+					[6540, 6546],
+					[6811, 6817],
+					[7136, 7142],
+					[7162, 7168],
+					[7263, 7269]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[6562, 6566],
+					[6941, 6945]
+				]
+			},
+			{
+				"name": "seeds",
+				"spans": [
+					[6735, 6740],
+					[7305, 7310]
+				]
+			},
+			{
+				"name": "seed head",
+				"spans": [[6941, 6950]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[6126, 6141]]
+			},
+			{
+				"name": "Setaria italica",
+				"spans": [[5950, 5965]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "major carbohydrate profiling",
+				"spans": [[7025, 7053]]
+			},
+			{
+				"name": "functional characterization",
+				"spans": [[6996, 7023]]
+			},
+			{
+				"name": "expression analyses",
+				"spans": [[7059, 7078]]
+			},
+			{
+				"name": "immunohistochemistry",
+				"spans": [[6974, 6994]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed development",
+				"spans": [[6562, 6578]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "food production",
+				"spans": [[6085, 6100]]
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4 proteins",
+				"spans": [[26599, 26616]]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[26202, 26210],
+					[26599, 26607],
+					[26728, 26736]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[26397, 26406],
+					[26543, 26552]
+				]
+			},
+			{
+				"name": "SvSWEETs",
+				"spans": [
+					[26495, 26503],
+					[27132, 27140]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues",
+				"spans": [[26218, 26230]]
+			},
+			{
+				"name": "seed heads",
+				"spans": [[26297, 26307]]
+			},
+			{
+				"name": "stems",
+				"spans": [[26312, 26317]]
+			},
+			{
+				"name": "epitope regions",
+				"spans": [[27094, 27109]]
+			},
+			{
+				"name": "C-terminal tail",
+				"spans": [[26467, 26482]]
+			},
+			{
+				"name": "C-terminus",
+				"spans": [[26383, 26393]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "DTT",
+				"spans": [[27431, 27434]]
+			},
+			{
+				"name": "beta-mercaptoethanol",
+				"spans": [[27439, 27459]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "RbcL",
+				"spans": [
+					[27959, 27963],
+					[28393, 28397],
+					[28544, 28548],
+					[28642, 28646],
+					[28699, 28703],
+					[28818, 28822],
+					[28887, 28891],
+					[29169, 29173]
+				]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[27183, 27191],
+					[27747, 27755],
+					[27798, 27806],
+					[28049, 28057],
+					[28156, 28164],
+					[28209, 28217],
+					[28316, 28324],
+					[28718, 28726],
+					[28960, 28968],
+					[29243, 29251],
+					[29317, 29325]
+				]
+			},
+			{
+				"name": "SvSWEET13b",
+				"spans": [
+					[27304, 27314],
+					[27687, 27697]
+				]
+			},
+			{
+				"name": "SvSWEET13a",
+				"spans": [
+					[27288, 27298],
+					[27673, 27683]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[27277, 27286]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem",
+				"spans": [
+					[27880, 27884],
+					[29030, 29034]
+				]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[27874, 27878],
+					[28788, 28792]
+				]
+			},
+			{
+				"name": "tissue",
+				"spans": [
+					[27327, 27333],
+					[28353, 28359],
+					[28793, 28799]
+				]
+			},
+			{
+				"name": "seed head",
+				"spans": [
+					[27890, 27899],
+					[29043, 29052]
+				]
+			},
+			{
+				"name": "membrane",
+				"spans": [[28590, 28598]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[27319, 27326],
+					[27996, 28003]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro assays",
+				"spans": [[27781, 27796]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Rubisco large subunit",
+				"spans": [
+					[30274, 30295],
+					[30527, 30548]
+				]
+			},
+			{
+				"name": "dithiothreitol",
+				"spans": [[29810, 29824]]
+			},
+			{
+				"name": "beta-mercaptoethanol",
+				"spans": [[29835, 29855]]
+			},
+			{
+				"name": "AttoPhos",
+				"spans": [[30626, 30634]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "RbcL",
+				"spans": [
+					[30550, 30554],
+					[30593, 30597],
+					[30718, 30722]
+				]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[29350, 29358],
+					[29585, 29593]
+				]
+			},
+			{
+				"name": "SvSWEET13b",
+				"spans": [
+					[29684, 29694],
+					[29949, 29959]
+				]
+			},
+			{
+				"name": "SvSWEETT13a",
+				"spans": [[29668, 29679]]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[29487, 29496],
+					[29657, 29666]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem",
+				"spans": [[30120, 30124]]
+			},
+			{
+				"name": "leaf",
+				"spans": [[30110, 30114]]
+			},
+			{
+				"name": "seed head",
+				"spans": [
+					[30135, 30144],
+					[30202, 30211]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[29737, 29744],
+					[30170, 30177]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "reducing agents",
+				"spans": [[29794, 29809]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PIP",
+				"spans": [[31522, 31525]]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[30939, 30947],
+					[31282, 31290],
+					[31749, 31757],
+					[31932, 31940],
+					[32312, 32320],
+					[32525, 32533],
+					[32867, 32875]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nucellus",
+				"spans": [[31952, 31960]]
+			},
+			{
+				"name": "vascular bundles",
+				"spans": [[31777, 31793]]
+			},
+			{
+				"name": "pericarp",
+				"spans": [
+					[31229, 31237],
+					[31376, 31384],
+					[31831, 31839]
+				]
+			},
+			{
+				"name": "pedicel",
+				"spans": [
+					[31389, 31396],
+					[31807, 31814]
+				]
+			},
+			{
+				"name": "filial tissue",
+				"spans": [[31098, 31111]]
+			},
+			{
+				"name": "transfer aleurone",
+				"spans": [[32415, 32432]]
+			},
+			{
+				"name": "placental vascular bundle",
+				"spans": [[32254, 32279]]
+			},
+			{
+				"name": "scutellar epithelium",
+				"spans": [[32952, 32972]]
+			},
+			{
+				"name": "scutellum",
+				"spans": [
+					[31148, 31157],
+					[32584, 32593],
+					[32817, 32826]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[31032, 31036],
+					[31076, 31080]
+				]
+			},
+			{
+				"name": "placental pad",
+				"spans": [[32008, 32021]]
+			},
+			{
+				"name": "cuboidal aleurone",
+				"spans": [[32482, 32499]]
+			},
+			{
+				"name": "EAS layer",
+				"spans": [[32754, 32763]]
+			},
+			{
+				"name": "aleurone",
+				"spans": [
+					[32424, 32432],
+					[32491, 32499]
+				]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[31187, 31196],
+					[32558, 32567],
+					[32670, 32679],
+					[32796, 32805],
+					[32893, 32902]
+				]
+			},
+			{
+				"name": "inner pericarp",
+				"spans": [[31825, 31839]]
+			},
+			{
+				"name": "embryo",
+				"spans": [[31127, 31133]]
+			}
+		],
+		"species": [
+			{
+				"name": "Enneapogon desvauxii",
+				"spans": [[32134, 32154]]
+			},
+			{
+				"name": "Briza maxima",
+				"spans": [[32116, 32128]]
+			},
+			{
+				"name": "Setaria lutescens",
+				"spans": [[32097, 32114]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Alexa Fluor 488",
+				"spans": [[34166, 34181]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [[33008, 33016]]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[33079, 33088]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sclerenchyma",
+				"spans": [[33949, 33961]]
+			},
+			{
+				"name": "nucellus",
+				"spans": [[33713, 33721]]
+			},
+			{
+				"name": "pericarp",
+				"spans": [
+					[33347, 33355],
+					[33372, 33380]
+				]
+			},
+			{
+				"name": "pedicel",
+				"spans": [[33332, 33339]]
+			},
+			{
+				"name": "cell walls",
+				"spans": [[34230, 34240]]
+			},
+			{
+				"name": "transfer aleurone",
+				"spans": [[33526, 33543]]
+			},
+			{
+				"name": "placental vascular bundle",
+				"spans": [[33554, 33579]]
+			},
+			{
+				"name": "scutellar epithelium",
+				"spans": [[33743, 33763]]
+			},
+			{
+				"name": "placental pad",
+				"spans": [[33835, 33848]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[33054, 33058],
+					[33178, 33182]
+				]
+			},
+			{
+				"name": "scutellum",
+				"spans": [
+					[33638, 33647],
+					[33932, 33941]
+				]
+			},
+			{
+				"name": "starch granules",
+				"spans": [[33972, 33987]]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[33616, 33625],
+					[33903, 33912]
+				]
+			},
+			{
+				"name": "inner pericarp",
+				"spans": [[33366, 33380]]
+			},
+			{
+				"name": "vascular bundle",
+				"spans": [
+					[33485, 33500],
+					[33564, 33579]
+				]
+			},
+			{
+				"name": "embryo",
+				"spans": [[33919, 33925]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[33031, 33046]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "secondary antibody-only",
+				"spans": [[33141, 33164]]
+			},
+			{
+				"name": "pre-immune serum",
+				"spans": [[33116, 33132]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [[34370, 34376]]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[34686, 34694],
+					[34886, 34894],
+					[34952, 34960]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem",
+				"spans": [
+					[34475, 34479],
+					[34583, 34587],
+					[34715, 34719],
+					[34919, 34923]
+				]
+			},
+			{
+				"name": "hypodermis",
+				"spans": [[34803, 34813]]
+			},
+			{
+				"name": "ground parenchyma tissue",
+				"spans": [[34519, 34543]]
+			},
+			{
+				"name": "stem sections",
+				"spans": [[34715, 34728]]
+			},
+			{
+				"name": "outer perimeter of the stem",
+				"spans": [[34560, 34587]]
+			},
+			{
+				"name": "stems",
+				"spans": [
+					[34384, 34389],
+					[34638, 34643]
+				]
+			},
+			{
+				"name": "companion cells",
+				"spans": [[35152, 35167]]
+			},
+			{
+				"name": "sieve element",
+				"spans": [[35130, 35143]]
+			},
+			{
+				"name": "VBs",
+				"spans": [
+					[34549, 34552],
+					[34818, 34821],
+					[34941, 34944]
+				]
+			},
+			{
+				"name": "xylem parenchyma",
+				"spans": [[34989, 35005]]
+			},
+			{
+				"name": "phloem",
+				"spans": [[35191, 35197]]
+			},
+			{
+				"name": "tissue",
+				"spans": [
+					[34434, 34440],
+					[34537, 34543]
+				]
+			},
+			{
+				"name": "proto- and metaxylem",
+				"spans": [[35055, 35075]]
+			},
+			{
+				"name": "transverse stem section",
+				"spans": [[34464, 34487]]
+			},
+			{
+				"name": "centre of the VB",
+				"spans": [[35022, 35038]]
+			},
+			{
+				"name": "cells",
+				"spans": [
+					[34790, 34795],
+					[34976, 34981],
+					[35162, 35167]
+				]
+			},
+			{
+				"name": "metaxylem",
+				"spans": [[35066, 35075]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[34446, 34453],
+					[34491, 34498]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "immunolocalization",
+				"spans": [[34391, 34409]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Alexa Fluor 488",
+				"spans": [[36135, 36150]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[35226, 35234],
+					[35301, 35309]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sclerenchyma",
+				"spans": [[35932, 35944]]
+			},
+			{
+				"name": "stem",
+				"spans": [
+					[35276, 35280],
+					[35365, 35369]
+				]
+			},
+			{
+				"name": "hypodermis",
+				"spans": [[35514, 35524]]
+			},
+			{
+				"name": "sieve elements",
+				"spans": [[35907, 35921]]
+			},
+			{
+				"name": "cell walls",
+				"spans": [[36199, 36209]]
+			},
+			{
+				"name": "companion cells",
+				"spans": [[35882, 35897]]
+			},
+			{
+				"name": "phloem",
+				"spans": [[35831, 35837]]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [[35629, 35644]]
+			},
+			{
+				"name": "vascular bundle",
+				"spans": [[35472, 35487]]
+			},
+			{
+				"name": "protoxylem",
+				"spans": [[35734, 35744]]
+			},
+			{
+				"name": "xylem parenchyma",
+				"spans": [[35696, 35712]]
+			},
+			{
+				"name": "endoplasmic reticulum",
+				"spans": [[35671, 35692]]
+			},
+			{
+				"name": "metaxylem",
+				"spans": [[35754, 35763]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[35253, 35268]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "pre-immune serum",
+				"spans": [[35339, 35355]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[36473, 36480],
+					[36719, 36726],
+					[37076, 37083],
+					[37259, 37266]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[36461, 36468],
+					[36702, 36709],
+					[36989, 36996],
+					[37247, 37254]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[36404, 36413],
+					[36841, 36850],
+					[36932, 36941],
+					[37057, 37066],
+					[37271, 37280]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "plant tissues",
+				"spans": [[36590, 36603]]
+			},
+			{
+				"name": "sink tissue",
+				"spans": [[36648, 36659]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "oocytes expressing SvSWEET4a",
+				"spans": [[36822, 36850]]
+			},
+			{
+				"name": "exceeding the concentration of sugar in the extracellular solution beyond 175 mM",
+				"spans": [[37352, 37432]]
+			},
+			{
+				"name": "negative control non-expressing oocytes",
+				"spans": [[36770, 36809]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "SvSWEET4a-mediated sucrose transport",
+				"spans": [[37057, 37093]]
+			},
+			{
+				"name": "sugar transport",
+				"spans": [[36912, 36927]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[37616, 37623],
+					[37718, 37725]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[37595, 37602],
+					[37697, 37704]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[37522, 37531],
+					[37559, 37568],
+					[37661, 37670],
+					[37795, 37804]
+				]
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "non-expressing oocytes",
+				"spans": [
+					[38117, 38139],
+					[38183, 38205]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "SvSWEET4a-mediated transport",
+				"spans": [
+					[37559, 37587],
+					[37661, 37689]
+				]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrate",
+				"spans": [[38399, 38411]]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[38529, 38535],
+					[38904, 38910]
+				]
+			},
+			{
+				"name": "sugars",
+				"spans": [[38580, 38586]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed heads",
+				"spans": [
+					[38961, 38971],
+					[39058, 39068],
+					[39485, 39495]
+				]
+			},
+			{
+				"name": "inflorescence",
+				"spans": [[39425, 39438]]
+			},
+			{
+				"name": "tissue",
+				"spans": [[38474, 38480]]
+			},
+			{
+				"name": "seeds",
+				"spans": [
+					[39269, 39274],
+					[39314, 39319],
+					[39411, 39416]
+				]
+			},
+			{
+				"name": "grains",
+				"spans": [
+					[38427, 38433],
+					[38827, 38833]
+				]
+			},
+			{
+				"name": "reproductive structure",
+				"spans": [[38602, 38624]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[38885, 38892],
+					[39261, 39268]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence",
+				"spans": [[39004, 39027]]
+			},
+			{
+				"name": "16 DAA",
+				"spans": [[39050, 39056]]
+			},
+			{
+				"name": "anthesis",
+				"spans": [
+					[38446, 38454],
+					[39029, 39037]
+				]
+			},
+			{
+				"name": "8 DAA",
+				"spans": [[39039, 39044]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "expression levels of sugar transporters",
+				"spans": [[38772, 38811]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "small seeds",
+				"spans": [[39308, 39319]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [
+					[39783, 39789],
+					[39833, 39839]
+				]
+			},
+			{
+				"name": "total sugars",
+				"spans": [[39735, 39747]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[39760, 39767]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[39753, 39759]]
+			},
+			{
+				"name": "soluble sugars",
+				"spans": [[39715, 39729]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed heads",
+				"spans": [[39554, 39564]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [[39533, 39548]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence",
+				"spans": [[39620, 39643]]
+			},
+			{
+				"name": "16 DAA",
+				"spans": [[39675, 39681]]
+			},
+			{
+				"name": "anthesis",
+				"spans": [
+					[39654, 39662],
+					[39871, 39879]
+				]
+			},
+			{
+				"name": "8 DAA",
+				"spans": [[39664, 39669]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [
+					[41340, 41346],
+					[41407, 41413]
+				]
+			},
+			{
+				"name": "Sucrose",
+				"spans": [
+					[40517, 40524],
+					[41003, 41010],
+					[41100, 41107],
+					[41208, 41215],
+					[41627, 41634],
+					[41663, 41670]
+				]
+			},
+			{
+				"name": "Glucose",
+				"spans": [
+					[40228, 40235],
+					[41615, 41622]
+				]
+			},
+			{
+				"name": "Fructans",
+				"spans": [[40758, 40766]]
+			},
+			{
+				"name": "Fructose",
+				"spans": [[40393, 40401]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed head",
+				"spans": [
+					[40305, 40314],
+					[40429, 40438],
+					[40793, 40802]
+				]
+			},
+			{
+				"name": "grain",
+				"spans": [[41053, 41058]]
+			}
+		],
+		"species": [
+			{
+				"name": "ME034V",
+				"spans": [[41507, 41513]]
+			},
+			{
+				"name": "A.10",
+				"spans": [
+					[40330, 40334],
+					[40788, 40792],
+					[41293, 41297],
+					[41498, 41502]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "starch accumulation",
+				"spans": [[41340, 41359]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carbohydrate",
+				"spans": [
+					[42220, 42232],
+					[42311, 42323]
+				]
+			},
+			{
+				"name": "sugar",
+				"spans": [[42705, 42710]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway",
+				"spans": [[41862, 41881]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[41807, 41815],
+					[41941, 41949]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[42791, 42800]]
+			},
+			{
+				"name": "SWEET",
+				"spans": [
+					[42135, 42140],
+					[42874, 42879],
+					[42974, 42979]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "stem",
+				"spans": [[42831, 42835]]
+			},
+			{
+				"name": "leaf",
+				"spans": [
+					[42825, 42829],
+					[43053, 43057]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[41919, 41923],
+					[42003, 42007],
+					[42255, 42259],
+					[42420, 42424],
+					[42841, 42845]
+				]
+			},
+			{
+				"name": "tissue",
+				"spans": [[42851, 42857]]
+			},
+			{
+				"name": "seed head",
+				"spans": [
+					[42003, 42012],
+					[42841, 42850]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "ME034V",
+				"spans": [[42521, 42527]]
+			},
+			{
+				"name": "A.10",
+				"spans": [
+					[42512, 42516],
+					[42760, 42764]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "poly(A)-enriched RNA-sequencing",
+				"spans": [[42026, 42057]]
+			},
+			{
+				"name": "qPCR",
+				"spans": [[42783, 42787]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "development",
+				"spans": [
+					[42013, 42024],
+					[42497, 42508]
+				]
+			},
+			{
+				"name": "seed filling process",
+				"spans": [[42255, 42275]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar",
+				"spans": [
+					[43101, 43106],
+					[43144, 43149],
+					[43279, 43284]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "sugar metabolism",
+				"spans": [[43144, 43160]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "seed heads",
+				"spans": [
+					[43184, 43194],
+					[43312, 43322],
+					[43354, 43364]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria viridis",
+				"spans": [
+					[43168, 43183],
+					[43326, 43341]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence",
+				"spans": [[43411, 43434]]
+			},
+			{
+				"name": "16 DAA",
+				"spans": [[43473, 43479]]
+			},
+			{
+				"name": "anthesis",
+				"spans": [[43445, 43453]]
+			},
+			{
+				"name": "8 DAA",
+				"spans": [[43462, 43467]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4c",
+				"spans": [
+					[43868, 43877],
+					[43959, 43968]
+				]
+			},
+			{
+				"name": "SvTIP4;1",
+				"spans": [[44886, 44894]]
+			},
+			{
+				"name": "SvTIP3;3",
+				"spans": [[44957, 44965]]
+			},
+			{
+				"name": "SvSUT1",
+				"spans": [[44588, 44594]]
+			},
+			{
+				"name": "SvSWEET13b",
+				"spans": [[44528, 44538]]
+			},
+			{
+				"name": "SvSWEET5",
+				"spans": [[44384, 44392]]
+			},
+			{
+				"name": "HXT",
+				"spans": [[44659, 44662]]
+			},
+			{
+				"name": "SvSWEET15",
+				"spans": [[44397, 44406]]
+			},
+			{
+				"name": "SvTIP3;1",
+				"spans": [[44944, 44952]]
+			},
+			{
+				"name": "SvSWEET13a",
+				"spans": [[44513, 44523]]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[43925, 43934],
+					[44262, 44271]
+				]
+			},
+			{
+				"name": "SvNIP1;1",
+				"spans": [[44862, 44870]]
+			},
+			{
+				"name": "SvSWEET1a",
+				"spans": [[43727, 43736]]
+			},
+			{
+				"name": "ZmSWEET4",
+				"spans": [[44113, 44121]]
+			},
+			{
+				"name": "SvTIP2;4",
+				"spans": [[44872, 44880]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[44294, 44298]]
+			},
+			{
+				"name": "stem",
+				"spans": [[44300, 44304]]
+			},
+			{
+				"name": "sinks",
+				"spans": [[44352, 44357]]
+			},
+			{
+				"name": "seed head",
+				"spans": [
+					[43793, 43802],
+					[43822, 43831],
+					[44005, 44014],
+					[44310, 44319],
+					[44831, 44840]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [[44823, 44830]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "50% seed head emergence",
+				"spans": [[43818, 43841]]
+			},
+			{
+				"name": "16 DAA",
+				"spans": [
+					[43917, 43923],
+					[45025, 45031]
+				]
+			},
+			{
+				"name": "anthesis",
+				"spans": [
+					[43846, 43854],
+					[44503, 44511],
+					[44570, 44578]
+				]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "passive movement of water",
+				"spans": [[44728, 44753]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[45149, 45156],
+					[45551, 45558],
+					[45617, 45624],
+					[45648, 45655]
+				]
+			},
+			{
+				"name": "UDP-glucose",
+				"spans": [[45570, 45581]]
+			},
+			{
+				"name": "ADP-glc",
+				"spans": [[45788, 45795]]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[45803, 45809],
+					[45829, 45835],
+					[45889, 45895],
+					[45989, 45995]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SPP",
+				"spans": [[45638, 45641]]
+			},
+			{
+				"name": "ADP-glc PPase",
+				"spans": [[45788, 45801]]
+			},
+			{
+				"name": "SS",
+				"spans": [[45820, 45822]]
+			},
+			{
+				"name": "Sevir9G124300",
+				"spans": [[46107, 46120]]
+			},
+			{
+				"name": "SBE",
+				"spans": [[45854, 45857]]
+			},
+			{
+				"name": "Sevir.2G265100",
+				"spans": [[46064, 46078]]
+			},
+			{
+				"name": "Sevir.1G004700",
+				"spans": [[45277, 45291]]
+			},
+			{
+				"name": "SPS",
+				"spans": [[45676, 45679]]
+			},
+			{
+				"name": "UDP-glc PPase",
+				"spans": [[45601, 45614]]
+			},
+			{
+				"name": "SuSy",
+				"spans": [[45407, 45411]]
+			},
+			{
+				"name": "Sevir.1G193400",
+				"spans": [[45339, 45353]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues",
+				"spans": [[45160, 45172]]
+			},
+			{
+				"name": "vacuolar",
+				"spans": [[45257, 45265]]
+			},
+			{
+				"name": "cytosolic",
+				"spans": [[45452, 45461]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "8 DAA",
+				"spans": [
+					[45508, 45513],
+					[45954, 45959]
+				]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "photoassimilates",
+				"spans": [[46209, 46225]]
+			},
+			{
+				"name": "sugar",
+				"spans": [[47353, 47358]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem transport pathway",
+				"spans": [[46175, 46204]]
+			},
+			{
+				"name": "apoplastic phloem unloading",
+				"spans": [[46396, 46423]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SUT1",
+				"spans": [[46376, 46380]]
+			},
+			{
+				"name": "miniature1",
+				"spans": [[46555, 46565]]
+			},
+			{
+				"name": "zmsweet4c",
+				"spans": [[46541, 46550]]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [
+					[46489, 46495],
+					[47175, 47181]
+				]
+			},
+			{
+				"name": "ZmSWEET4",
+				"spans": [[47407, 47415]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "reproductive structures",
+				"spans": [[47300, 47323]]
+			},
+			{
+				"name": "BETL",
+				"spans": [[46705, 46709]]
+			},
+			{
+				"name": "phloem",
+				"spans": [
+					[46134, 46140],
+					[46180, 46186],
+					[46407, 46413]
+				]
+			},
+			{
+				"name": "basal endosperm transfer layer",
+				"spans": [[46673, 46703]]
+			},
+			{
+				"name": "tissue structures",
+				"spans": [[46908, 46925]]
+			},
+			{
+				"name": "seeds",
+				"spans": [[46427, 46432]]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[46679, 46688],
+					[46811, 46820]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "maize",
+				"spans": [
+					[46515, 46520],
+					[46534, 46539]
+				]
+			},
+			{
+				"name": "rice",
+				"spans": [[46525, 46529]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "mutational analysis",
+				"spans": [[46822, 46841]]
+			},
+			{
+				"name": "gene knockout",
+				"spans": [[46738, 46751]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression",
+				"spans": [[47005, 47020]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "yield",
+				"spans": [[46252, 46257]]
+			},
+			{
+				"name": "grain development",
+				"spans": [[47185, 47202]]
+			},
+			{
+				"name": "seed filling phenotype",
+				"spans": [[46618, 46640]]
+			},
+			{
+				"name": "grain filling",
+				"spans": [[47592, 47605]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "harvested for their grains",
+				"spans": [[46289, 46315]]
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [[47790, 47796]]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[47685, 47693],
+					[48071, 48079]
+				]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [[48300, 48306]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "inflorescence",
+				"spans": [[48442, 48455]]
+			},
+			{
+				"name": "seed",
+				"spans": [[48460, 48464]]
+			},
+			{
+				"name": "grain",
+				"spans": [
+					[48465, 48470],
+					[48696, 48701]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "S. viridis",
+				"spans": [[48633, 48643]]
+			},
+			{
+				"name": "S. italica",
+				"spans": [[48705, 48715]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "tissue culture process",
+				"spans": [[47906, 47928]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "visible phenotype",
+				"spans": [[47738, 47755]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar",
+				"spans": [
+					[48908, 48913],
+					[49253, 49258]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "phloem unloading and post-phloem sugar transport pathway",
+				"spans": [[48875, 48931]]
+			},
+			{
+				"name": "pathway of sugar movement",
+				"spans": [[49242, 49267]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [
+					[48829, 48835],
+					[49208, 49214]
+				]
+			},
+			{
+				"name": "zmsweet4c",
+				"spans": [[49064, 49073]]
+			},
+			{
+				"name": "ossweet4",
+				"spans": [[49078, 49086]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "sink tissues",
+				"spans": [[48935, 48947]]
+			},
+			{
+				"name": "source tissues",
+				"spans": [[49004, 49018]]
+			},
+			{
+				"name": "phloem",
+				"spans": [
+					[48875, 48881],
+					[48901, 48907]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed filling",
+				"spans": [[49130, 49142]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[49362, 49370],
+					[49448, 49456],
+					[49609, 49617],
+					[49821, 49829]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "membrane",
+				"spans": [[50154, 50162]]
+			},
+			{
+				"name": "oocytes",
+				"spans": [
+					[49343, 49350],
+					[49401, 49408]
+				]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sugar",
+				"spans": [[51106, 51111]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[50291, 50299],
+					[50670, 50678],
+					[50896, 50904]
+				]
+			},
+			{
+				"name": "SUT1",
+				"spans": [[50426, 50430]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "plasmodesmatal pits",
+				"spans": [[51482, 51501]]
+			},
+			{
+				"name": "filial tissues",
+				"spans": [
+					[50988, 51002],
+					[51146, 51160]
+				]
+			},
+			{
+				"name": "symplastic barrier",
+				"spans": [[50948, 50966]]
+			},
+			{
+				"name": "symplast",
+				"spans": [[50819, 50827]]
+			},
+			{
+				"name": "filial interface",
+				"spans": [[51367, 51383]]
+			},
+			{
+				"name": "placental vascular bundle",
+				"spans": [[50781, 50806]]
+			},
+			{
+				"name": "interface between the maternal and filial cells",
+				"spans": [[50521, 50568]]
+			},
+			{
+				"name": "Setaria seed",
+				"spans": [[50377, 50389]]
+			},
+			{
+				"name": "placental pad",
+				"spans": [
+					[50923, 50936],
+					[51248, 51261],
+					[51406, 51419]
+				]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[50854, 50862],
+					[51351, 51359]
+				]
+			},
+			{
+				"name": "transfer aleurone layer",
+				"spans": [[51191, 51214]]
+			},
+			{
+				"name": "maternal tissues",
+				"spans": [[51124, 51140]]
+			},
+			{
+				"name": "filial-filial cell interfaces",
+				"spans": [[50340, 50369]]
+			},
+			{
+				"name": "placental pad cells",
+				"spans": [[51248, 51267]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[50377, 50384],
+					[50740, 50747],
+					[51022, 51029]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose",
+				"spans": [
+					[51963, 51970],
+					[52628, 52635],
+					[53377, 53384],
+					[53459, 53466],
+					[53656, 53663]
+				]
+			},
+			{
+				"name": "sucrose",
+				"spans": [
+					[51978, 51985],
+					[52413, 52420],
+					[52640, 52647],
+					[53062, 53069],
+					[53302, 53309],
+					[53399, 53406],
+					[53481, 53488],
+					[53686, 53693]
+				]
+			},
+			{
+				"name": "hexoses",
+				"spans": [
+					[53215, 53222],
+					[53590, 53597],
+					[53773, 53780]
+				]
+			},
+			{
+				"name": "carbohydrates",
+				"spans": [[52842, 52855]]
+			},
+			{
+				"name": "sugar",
+				"spans": [
+					[52190, 52195],
+					[52663, 52668],
+					[52685, 52690],
+					[52773, 52778],
+					[53038, 53043],
+					[53317, 53322],
+					[53341, 53346],
+					[53519, 53524]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem sugar transport",
+				"spans": [[52761, 52788]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [
+					[51846, 51852],
+					[52169, 52175],
+					[52602, 52608],
+					[53436, 53442],
+					[53645, 53651]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[53741, 53750]]
+			},
+			{
+				"name": "SUT1",
+				"spans": [[52518, 52522]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "modified aleurone layer",
+				"spans": [[52455, 52478]]
+			},
+			{
+				"name": "filial tissues",
+				"spans": [[51717, 51731]]
+			},
+			{
+				"name": "endosperm cavity",
+				"spans": [
+					[52929, 52945],
+					[53137, 53153]
+				]
+			},
+			{
+				"name": "cell layers",
+				"spans": [[52336, 52347]]
+			},
+			{
+				"name": "grain",
+				"spans": [[52530, 52535]]
+			},
+			{
+				"name": "placental pad",
+				"spans": [
+					[52238, 52251],
+					[53609, 53622]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[52797, 52801],
+					[52899, 52903]
+				]
+			},
+			{
+				"name": "phloem sieve tubes",
+				"spans": [[53111, 53129]]
+			},
+			{
+				"name": "aleurone",
+				"spans": [
+					[52446, 52454],
+					[52464, 52472],
+					[53797, 53805]
+				]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[52046, 52055],
+					[52929, 52938],
+					[53137, 53146],
+					[53836, 53845]
+				]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[52252, 52260],
+					[52430, 52438]
+				]
+			},
+			{
+				"name": "membranes",
+				"spans": [[51886, 51895]]
+			},
+			{
+				"name": "maternal-filial interface",
+				"spans": [[51739, 51764]]
+			},
+			{
+				"name": "transfer cells",
+				"spans": [
+					[51600, 51614],
+					[52295, 52309]
+				]
+			},
+			{
+				"name": "placental sac",
+				"spans": [
+					[53171, 53184],
+					[53557, 53570]
+				]
+			},
+			{
+				"name": "embryo",
+				"spans": [[52027, 52033]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [[51791, 51798]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "aphid stylet exudates",
+				"spans": [[52991, 53012]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "high-capacity transport",
+				"spans": [[51936, 51959]]
+			},
+			{
+				"name": "active transporter",
+				"spans": [[52499, 52517]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "grain filling",
+				"spans": [[52530, 52543]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [[54035, 54042]]
+			},
+			{
+				"name": "hexoses",
+				"spans": [[54348, 54355]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[54179, 54187],
+					[54637, 54645],
+					[54850, 54858],
+					[55062, 55070],
+					[55152, 55160],
+					[55269, 55277],
+					[55399, 55407]
+				]
+			},
+			{
+				"name": "SUT1",
+				"spans": [[54561, 54565]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "transfer aleurone cells",
+				"spans": [[55019, 55042]]
+			},
+			{
+				"name": "pedicel",
+				"spans": [[55509, 55516]]
+			},
+			{
+				"name": "scutellar epithelium",
+				"spans": [[55301, 55321]]
+			},
+			{
+				"name": "placental pad",
+				"spans": [[54749, 54762]]
+			},
+			{
+				"name": "cell wall",
+				"spans": [[54290, 54299]]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[54222, 54230],
+					[54280, 54288],
+					[54868, 54876]
+				]
+			},
+			{
+				"name": "plasmodesmata",
+				"spans": [[54053, 54066]]
+			},
+			{
+				"name": "vascular parenchyma",
+				"spans": [[54148, 54167]]
+			},
+			{
+				"name": "scutellum",
+				"spans": [
+					[55234, 55243],
+					[55339, 55348]
+				]
+			},
+			{
+				"name": "aleurone cells",
+				"spans": [
+					[55028, 55042],
+					[55108, 55122]
+				]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[55182, 55191],
+					[55212, 55221]
+				]
+			},
+			{
+				"name": "vascular bundle",
+				"spans": [
+					[54242, 54257],
+					[54812, 54827]
+				]
+			},
+			{
+				"name": "pericarp",
+				"spans": [[55524, 55532]]
+			},
+			{
+				"name": "sclerenchyma cells",
+				"spans": [[54464, 54482]]
+			},
+			{
+				"name": "nucellus",
+				"spans": [
+					[54486, 54494],
+					[54612, 54620]
+				]
+			},
+			{
+				"name": "placental vascular bundle",
+				"spans": [[54802, 54827]]
+			},
+			{
+				"name": "maternal cells",
+				"spans": [
+					[54422, 54436],
+					[55453, 55467]
+				]
+			},
+			{
+				"name": "Setaria seed",
+				"spans": [
+					[53924, 53936],
+					[53986, 53998]
+				]
+			},
+			{
+				"name": "cuboidal aleurone cells",
+				"spans": [[55099, 55122]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[53924, 53931],
+					[53986, 53993]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [[56992, 56999]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[57099, 57105]]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[55543, 55551],
+					[55860, 55868]
+				]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [
+					[55740, 55746],
+					[55833, 55839],
+					[55997, 56003],
+					[56464, 56470],
+					[56546, 56552],
+					[56644, 56650],
+					[56871, 56877],
+					[56950, 56956]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [
+					[56355, 56364],
+					[56761, 56770],
+					[56958, 56967],
+					[57159, 57168]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "source leaf",
+				"spans": [[56484, 56495]]
+			},
+			{
+				"name": "BETL",
+				"spans": [[55768, 55772]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[55929, 55933],
+					[56159, 56163],
+					[57342, 57346]
+				]
+			},
+			{
+				"name": "TAL",
+				"spans": [[56011, 56014]]
+			},
+			{
+				"name": "EAS layer",
+				"spans": [
+					[55599, 55608],
+					[55754, 55763]
+				]
+			},
+			{
+				"name": "seed structure",
+				"spans": [[57342, 57356]]
+			},
+			{
+				"name": "endosperm",
+				"spans": [[56112, 56121]]
+			},
+			{
+				"name": "cell types",
+				"spans": [[57320, 57330]]
+			},
+			{
+				"name": "cells",
+				"spans": [[57181, 57186]]
+			},
+			{
+				"name": "embryo",
+				"spans": [[56242, 56248]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[55921, 55928],
+					[56499, 56506]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "invertase activity",
+				"spans": [[57035, 57053]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "development",
+				"spans": [
+					[56249, 56260],
+					[56735, 56746],
+					[57380, 57391]
+				]
+			},
+			{
+				"name": "seed filling",
+				"spans": [[56159, 56171]]
+			},
+			{
+				"name": "growth",
+				"spans": [[56724, 56730]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[58361, 58368],
+					[58418, 58425],
+					[60039, 60046]
+				]
+			},
+			{
+				"name": "proteins",
+				"spans": [[58987, 58995]]
+			},
+			{
+				"name": "sugars",
+				"spans": [
+					[58470, 58476],
+					[58977, 58983],
+					[59669, 59675],
+					[59710, 59716]
+				]
+			},
+			{
+				"name": "polysaccharides",
+				"spans": [[59024, 59039]]
+			},
+			{
+				"name": "lipids",
+				"spans": [[58997, 59003]]
+			},
+			{
+				"name": "proteoglycans",
+				"spans": [[59005, 59018]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "vascular transport pathway",
+				"spans": [[57513, 57539]]
+			},
+			{
+				"name": "phloem unloading pathway",
+				"spans": [[57658, 57682]]
+			},
+			{
+				"name": "post-phloem pathway",
+				"spans": [[57716, 57735]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET4",
+				"spans": [[57625, 57631]]
+			},
+			{
+				"name": "SvSWEET4",
+				"spans": [
+					[57449, 57457],
+					[58282, 58290],
+					[58736, 58744],
+					[59078, 59086],
+					[59318, 59326],
+					[59635, 59643],
+					[60135, 60143]
+				]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[58347, 58356]]
+			},
+			{
+				"name": "AtSWEET9",
+				"spans": [[59457, 59465]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "terminal vascular bundles",
+				"spans": [[57552, 57577]]
+			},
+			{
+				"name": "pedicel",
+				"spans": [
+					[57585, 57592],
+					[58024, 58031],
+					[59186, 59193],
+					[59391, 59398]
+				]
+			},
+			{
+				"name": "tissue structures",
+				"spans": [[59152, 59169]]
+			},
+			{
+				"name": "apoplast",
+				"spans": [
+					[58099, 58107],
+					[58270, 58278],
+					[59917, 59925]
+				]
+			},
+			{
+				"name": "trans-Golgi apparatus",
+				"spans": [[59532, 59553]]
+			},
+			{
+				"name": "xylem parenchyma cells",
+				"spans": [[59831, 59853]]
+			},
+			{
+				"name": "xylem parenchyma",
+				"spans": [
+					[57934, 57950],
+					[58752, 58768],
+					[59219, 59235],
+					[59831, 59847],
+					[60151, 60167]
+				]
+			},
+			{
+				"name": "parenchyma cells",
+				"spans": [
+					[57828, 57844],
+					[58215, 58231],
+					[59837, 59853]
+				]
+			},
+			{
+				"name": "xylem sap",
+				"spans": [[59888, 59897]]
+			},
+			{
+				"name": "rice leaf blade",
+				"spans": [[59775, 59790]]
+			},
+			{
+				"name": "multivesicular bodies",
+				"spans": [[59559, 59580]]
+			},
+			{
+				"name": "vesicles",
+				"spans": [
+					[59655, 59663],
+					[59726, 59734],
+					[59792, 59800]
+				]
+			},
+			{
+				"name": "plasma membrane",
+				"spans": [
+					[58805, 58820],
+					[59511, 59526]
+				]
+			},
+			{
+				"name": "xylem parenchyma transfer cells",
+				"spans": [[59219, 59250]]
+			},
+			{
+				"name": "endoplasmic reticulum",
+				"spans": [[58871, 58892]]
+			},
+			{
+				"name": "stem",
+				"spans": [
+					[57869, 57873],
+					[59177, 59181],
+					[59281, 59285],
+					[59382, 59386]
+				]
+			},
+			{
+				"name": "stems",
+				"spans": [[60171, 60176]]
+			},
+			{
+				"name": "Golgi body",
+				"spans": [[58901, 58911]]
+			},
+			{
+				"name": "sclerenchyma cells",
+				"spans": [[58585, 58603]]
+			},
+			{
+				"name": "transfer cells",
+				"spans": [
+					[59236, 59250],
+					[59360, 59374]
+				]
+			},
+			{
+				"name": "legumes",
+				"spans": [[59210, 59217]]
+			},
+			{
+				"name": "plant cell wall",
+				"spans": [[59047, 59062]]
+			},
+			{
+				"name": "phloem",
+				"spans": [
+					[57658, 57664],
+					[57721, 57727],
+					[58455, 58461]
+				]
+			},
+			{
+				"name": "maternal tissues",
+				"spans": [[57486, 57502]]
+			},
+			{
+				"name": "maize pedicel tissue",
+				"spans": [[58018, 58038]]
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis",
+				"spans": [[59444, 59455]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "starch",
+				"spans": [
+					[60853, 60859],
+					[61398, 61404],
+					[61705, 61711]
+				]
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[60331, 60338],
+					[60455, 60462],
+					[60585, 60592],
+					[61521, 61528],
+					[62025, 62032]
+				]
+			},
+			{
+				"name": "sucrose",
+				"spans": [
+					[60339, 60346],
+					[60548, 60555],
+					[60747, 60754],
+					[61286, 61293],
+					[61634, 61641],
+					[61867, 61874],
+					[62471, 62478],
+					[63041, 63048],
+					[63164, 63171]
+				]
+			},
+			{
+				"name": "hexose",
+				"spans": [
+					[61279, 61285],
+					[61857, 61863],
+					[62464, 62470]
+				]
+			},
+			{
+				"name": "soluble sugars",
+				"spans": [[61368, 61382]]
+			},
+			{
+				"name": "water",
+				"spans": [[62914, 62919]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "sucrose synthesis",
+				"spans": [[63041, 63058]]
+			},
+			{
+				"name": "carbohydrate synthesis",
+				"spans": [[62702, 62724]]
+			},
+			{
+				"name": "carbohydrate metabolism",
+				"spans": [[60948, 60971]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SWEET",
+				"spans": [[62521, 62526]]
+			},
+			{
+				"name": "SPP",
+				"spans": [[62988, 62991]]
+			},
+			{
+				"name": "SUTs",
+				"spans": [[60780, 60784]]
+			},
+			{
+				"name": "HXT",
+				"spans": [[62528, 62531]]
+			},
+			{
+				"name": "SUT",
+				"spans": [[62537, 62540]]
+			},
+			{
+				"name": "HUTs",
+				"spans": [[60654, 60658]]
+			},
+			{
+				"name": "AQP",
+				"spans": [[62840, 62843]]
+			},
+			{
+				"name": "SPS",
+				"spans": [[62996, 62999]]
+			},
+			{
+				"name": "SuSy",
+				"spans": [[60693, 60697]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "endosperm tissue",
+				"spans": [[60725, 60741]]
+			},
+			{
+				"name": "filial tissues",
+				"spans": [[61892, 61906]]
+			},
+			{
+				"name": "seed heads",
+				"spans": [[62387, 62397]]
+			},
+			{
+				"name": "dividing cells",
+				"spans": [[60619, 60633]]
+			},
+			{
+				"name": "phloem",
+				"spans": [
+					[60568, 60574],
+					[61030, 61036]
+				]
+			},
+			{
+				"name": "cell wall",
+				"spans": [[60525, 60534]]
+			},
+			{
+				"name": "subaleurone layers",
+				"spans": [[60809, 60827]]
+			},
+			{
+				"name": "aleurone",
+				"spans": [[60796, 60804]]
+			},
+			{
+				"name": "endosperm",
+				"spans": [
+					[60641, 60650],
+					[60725, 60734],
+					[60835, 60844]
+				]
+			},
+			{
+				"name": "apoplast",
+				"spans": [[60497, 60505]]
+			},
+			{
+				"name": "seeds",
+				"spans": [
+					[60413, 60418],
+					[62409, 62414]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[61106, 61113],
+					[61742, 61749]
+				]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "genetic transformation studies",
+				"spans": [[62158, 62188]]
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript abundance",
+				"spans": [
+					[62499, 62519],
+					[62816, 62836]
+				]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "seed development",
+				"spans": [
+					[62309, 62325],
+					[62607, 62623]
+				]
+			},
+			{
+				"name": "seed filling",
+				"spans": [[62947, 62959]]
+			},
+			{
+				"name": "duration of seed development",
+				"spans": [[62297, 62325]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[63334, 63341],
+					[63834, 63841],
+					[63919, 63926],
+					[63928, 63935],
+					[64044, 64051],
+					[64551, 64558]
+				]
+			},
+			{
+				"name": "fructans",
+				"spans": [
+					[64370, 64378],
+					[64453, 64461]
+				]
+			},
+			{
+				"name": "starch",
+				"spans": [
+					[63370, 63376],
+					[64678, 64684]
+				]
+			},
+			{
+				"name": "fructosyl group",
+				"spans": [[64023, 64038]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "fructan synthesis",
+				"spans": [[64076, 64093]]
+			}
+		],
+		"genes": [
+			{
+				"name": "SST",
+				"spans": [
+					[63969, 63972],
+					[64153, 64156],
+					[64301, 64304]
+				]
+			},
+			{
+				"name": "SFT",
+				"spans": [
+					[63976, 63979],
+					[64308, 64311]
+				]
+			},
+			{
+				"name": "cell wall invertase",
+				"spans": [[63400, 63419]]
+			},
+			{
+				"name": "Sevir.1G004700",
+				"spans": [[63750, 63764]]
+			},
+			{
+				"name": "SuSy",
+				"spans": [[63214, 63218]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "phloem",
+				"spans": [[64571, 64577]]
+			},
+			{
+				"name": "sink tissue",
+				"spans": [[64582, 64593]]
+			},
+			{
+				"name": "vacuolar",
+				"spans": [
+					[63730, 63738],
+					[63866, 63874]
+				]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[63349, 63361]]
+			},
+			{
+				"name": "seed head",
+				"spans": [[64390, 64399]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[64264, 64271],
+					[64465, 64472]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "starch accumulation",
+				"spans": [[64678, 64697]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[65246, 65253],
+					[65781, 65788]
+				]
+			},
+			{
+				"name": "starch",
+				"spans": [[65294, 65300]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[65774, 65780]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tissue",
+				"spans": [[65485, 65491]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[64793, 64797],
+					[64847, 64851],
+					[65127, 65131],
+					[65412, 65416],
+					[65505, 65509],
+					[65704, 65708],
+					[65829, 65833],
+					[66025, 66029]
+				]
+			},
+			{
+				"name": "cell wall",
+				"spans": [
+					[65077, 65086],
+					[65143, 65152],
+					[65657, 65666]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[64742, 64749],
+					[64932, 64939],
+					[65821, 65828]
+				]
+			},
+			{
+				"name": "maize",
+				"spans": [
+					[64778, 64783],
+					[64824, 64829],
+					[65038, 65043]
+				]
+			},
+			{
+				"name": "rice",
+				"spans": [[65623, 65627]]
+			},
+			{
+				"name": "barley",
+				"spans": [[65632, 65638]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "SuSy activity",
+				"spans": [[64807, 64820]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "unfilled seeds",
+				"spans": [[65604, 65618]]
+			},
+			{
+				"name": "shrunken seed phenotype",
+				"spans": [[65118, 65141]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose",
+				"spans": [
+					[66300, 66307],
+					[66974, 66981]
+				]
+			},
+			{
+				"name": "carbohydrate",
+				"spans": [[67059, 67071]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[66962, 66969]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[66293, 66299]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "post-phloem pathway",
+				"spans": [
+					[66467, 66486],
+					[67261, 67280]
+				]
+			}
+		],
+		"genes": [
+			{
+				"name": "SvSWEET4",
+				"spans": [[66698, 66706]]
+			},
+			{
+				"name": "SUTs",
+				"spans": [[66436, 66440]]
+			},
+			{
+				"name": "SWEET4",
+				"spans": [
+					[66555, 66561],
+					[67151, 67157]
+				]
+			},
+			{
+				"name": "HXTs",
+				"spans": [[66427, 66431]]
+			},
+			{
+				"name": "SvSWEET4a",
+				"spans": [[66889, 66898]]
+			},
+			{
+				"name": "SWEETs",
+				"spans": [
+					[66065, 66071],
+					[66419, 66425]
+				]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "source tissue",
+				"spans": [[66583, 66596]]
+			},
+			{
+				"name": "stem",
+				"spans": [
+					[66825, 66829],
+					[67084, 67088]
+				]
+			},
+			{
+				"name": "grain",
+				"spans": [[66325, 66330]]
+			},
+			{
+				"name": "xylem parenchyma of the stem",
+				"spans": [[66801, 66829]]
+			},
+			{
+				"name": "vasculature of the seed",
+				"spans": [[66772, 66795]]
+			},
+			{
+				"name": "seed",
+				"spans": [
+					[66206, 66210],
+					[66791, 66795],
+					[67075, 67079]
+				]
+			},
+			{
+				"name": "sink tissue",
+				"spans": [[66123, 66134]]
+			},
+			{
+				"name": "filial cells",
+				"spans": [[66754, 66766]]
+			}
+		],
+		"species": [
+			{
+				"name": "Setaria",
+				"spans": [
+					[66138, 66145],
+					[66600, 66607]
+				]
+			},
+			{
+				"name": "S. viridis",
+				"spans": [[67137, 67147]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "transmembrane sugar movement",
+				"spans": [[66087, 66115]]
+			},
+			{
+				"name": "high-capacity, low-affinity transporter",
+				"spans": [[66919, 66958]]
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "yield",
+				"spans": [[67311, 67316]]
+			},
+			{
+				"name": "sink capacity",
+				"spans": [[67293, 67306]]
+			}
+		],
+		"human_traits": []
+	}
+]
