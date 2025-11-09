@@ -14981,6 +14981,51 @@
 				"score": 1.0,
 				"alt_names": ["betacyanin"]
 			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "C. gigantea",
+				"spans": [
+					[25337, 25348],
+					[25421, 25432],
+					[26200, 26211],
+					[26774, 26792],
+					[27552, 27563],
+					[29733, 29744],
+					[36582, 36600],
+					[37613, 37624],
+					[38015, 38026],
+					[40814, 40825]
+				],
+				"taxonomy_id": 171969,
+				"alt_names": ["Carnegiea gigantea"]
+			},
+			"category": "species",
+			"justification": "Upon heterologous expression, none of the DODAbeta genes from ... C. gigantea produced visible betacyanin pigmentation",
+			"context": "We used the production of betacyanin in this heterologous assay as a proxy for l-DOPA 4,5-dioxygenase activity, with the relative strength of betacyanin production indicating the relative strength of l-DOPA 4,5-dioxygenase activity between loci.\nUpon heterologous expression, none of the DODAbeta genes from S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea produced visible betacyanin pigmentation (Fig. 3a; Timoneda et al., 2018).\nTraces of betanin were detected for all loci by HPLC, but amounts were extremely low compared to the positive control, BvDODAalpha1 (< 0.1%; Fig. 3b)."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "betacyanins",
+				"spans": [
+					[4064, 4075],
+					[7769, 7779],
+					[7885, 7895],
+					[25868, 25878],
+					[25984, 25994],
+					[26229, 26239],
+					[26944, 26954],
+					[31349, 31359]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0001434",
+				"normalized_name": "Betacyanins and derivatives",
+				"score": 1.0,
+				"alt_names": ["betacyanin"]
+			},
 			"predicate": "involved_in",
 			"object_entity": {
 				"name": "betalain pigmentation",
@@ -17215,7 +17260,7 @@
 				"alt_names": null
 			},
 			"category": "genes",
-			"justification": "Our data show that activity is barely detectable in DODAbeta loci from betalain-pigmented species, supporting our original hypothesis that the high levels of l-DOPA 4,5-dioxygenase activity evolved exclusively within the DODAalpha lineage",
+			"justification": "Using heterologous transient assays, we inferred relative levels of l-DOPA 4,5-dioxygenase activity based on the proxy of betanin production",
 			"context": "To explore the hypothesis of multiple origins of betalain pigmentation suggested by our reconstructions, we then selected four species that represent each of the putative origins: S. halimifolium, B. vulgaris, M. crystallinum and C. gigantea. Using heterologous transient assays, we inferred relative levels of l-DOPA 4,5-dioxygenase activity based on the proxy of betanin production (Fig. 3). Our data show that activity is barely detectable in DODAbeta loci from betalain-pigmented species, supporting our original hypothesis that the high levels of l-DOPA 4,5-dioxygenase activity evolved exclusively within the DODAalpha lineage (Brockington et al., 2015). However, although betalain-pigmented species have multiple paralogues of DODAalpha genes, only one of these DODAalpha in each species encodes a protein which exhibits high levels of l-DOPA 4,5-dioxygenase activity. All betalain-pigmented species also exhibit DODAalpha paralogues with no or only marginal l-DOPA 4,5-dioxygenase activity and we also detected marginal activity in several anthocyanic taxa (Fig. 4). Thus, marginal activity is widespread among Caryophyllales DODAalpha enzymes, suggesting broader underlying catalytic promiscuity in the DODAalpha lineage. Catalytic promiscuity is well documented in the broader protocatechuate dioxygenase gene family of which the LigB/DODA lineage is a member (Burroughs et al., 2019). Such promiscuity is an important feature of metabolic evolution, potentially conferring evolvability (Weng & Noel, 2012; Leong & Last, 2017), and may have significant implications for the recurrent evolution of betalain pigmentation, as discussed below."
 		},
 		{
@@ -17517,7 +17562,7 @@
 				"alt_names": ["B. vulgaris"]
 			},
 			"category": "species",
-			"justification": "betanin could also be detected by HPLC in ShDODAalpha2 and BvDODAalpha4",
+			"justification": "For two B. vulgaris paralogues, BvDODAalpha3 and BvDODAalpha5, betanin was undetectable (Figs 3b, S9).",
 			"context": "Despite being visually undetectable, betanin could also be detected by HPLC in ShDODAalpha2 and BvDODAalpha4 (Figs 3b, S8, S9).\nFor two B. vulgaris paralogues, BvDODAalpha3 and BvDODAalpha5, betanin was undetectable (Figs 3b, S9).\nDODAalpha enzymes from anthocyanic species M. australis and K. caespitosa were also found to produce a small amount of betanin, as detected by HPLC (Figs 4, S12)."
 		},
 		{
@@ -18804,7 +18849,7 @@
 				"alt_names": null
 			},
 			"category": "anatomical_structures",
-			"justification": "betanin in these samples",
+			"justification": "betanin is a commercially available extract from beet hypocotyl",
 			"context": "The traces are offset for presentation.\n'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl which was used to validate the retention time of betanin in these samples.\nUsing the same procedure as that used to test the DODAbeta enzymes, we found that only a single DODAalpha from each study species showed a strong production of betalain pigmentation including BvDODAalpha1 (Figs 3, S8-S11).\nThe traces are offset for presentation.\n'pLUC' is a negative control plasmid carrying the firefly luciferase gene and 'Betanin' is a commercially available extract from beet hypocotyl, which was used to validate the retention time of betanin in these samples.\nWe previously showed that BvDODA alpha 1 and BvCYP76AD1 are part of a putative gene cluster, being located close to one another (< 50 kb) and also in close linkage with the MYB that regulates both of these genes (Keller, 1936; Goldman & Austin, 2000; Hatlestad et al., 2014; Brockington et al., 2015)."
 		},
 		{
