@@ -38,11 +38,11 @@ async def process_passage_for_ner(semaphore, body, client):
     async with semaphore:
         for attempt in range(MAX_RETRIES):
             try:
-                body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
+                prompt_body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
                 # OPTION 1: OPENAI inference
                 result = await gpt_inference_async(
                     client,
-                    body,
+                    body=prompt_body,
                     task='ner',
                     API_MODEL=GPT_MODEL_NER,
                     json_object=SimpleExtractedEntities
@@ -52,7 +52,7 @@ async def process_passage_for_ner(semaphore, body, client):
                 # does not support "json_object" param for Llama 3.3 or older
                 # result = await groq_inference_async(
                 #     client,
-                #     body,
+                #     body=prompt_body,
                 #     API_MODEL=GROQ_MODEL,
                 #     task='ner', 
                 #     json_object=SimpleExtractedEntities
@@ -81,11 +81,11 @@ async def process_pair_for_re(semaphore, body, client):
     async with semaphore:
         for attempt in range(MAX_RETRIES):
             try:
-                body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
+                prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
                 # OPTION 1: OPENAI inference
                 # result = await gpt_inference_async(
                 #     client,
-                #     body,
+                #     body=prompt_body,
                 #     task='re',
                 #     API_MODEL=GPT_MODEL_NER,
                 #     json_object=SimpleRelation
@@ -95,7 +95,7 @@ async def process_pair_for_re(semaphore, body, client):
                 # # OPTION 2: GROQ inference (async)
                 result = await groq_inference_async(
                     client, 
-                    body, 
+                    body=prompt_body, 
                     task='re', 
                     API_MODEL=GROQ_MODEL,
                     json_object=SimpleRelation
@@ -123,11 +123,11 @@ async def process_for_re_evaluation(semaphore, body, client):
     async with semaphore:
         for attempt in range(5):
             try:
-                body = make_re_evaluation_prompt_body_only(body)
+                prompt_body = make_re_evaluation_prompt_body_only(body)
                 # OPTION 1: OPENAI inference
                 result = await gpt_inference_async(
                     client,
-                    body=body,
+                    body=prompt_body,
                     task='re-self-eval',
                     API_MODEL="gpt-5-mini",
                     json_object=SelfEvaluationResult
@@ -135,7 +135,7 @@ async def process_for_re_evaluation(semaphore, body, client):
                 # # OPTION 2: GROQ inference (async)
                 # result = await groq_inference_async(
                 #     client,
-                #     body, 
+                #     body=prompt_body, 
                 #     task='re-self-eval', 
                 #     API_MODEL="openai/gpt-oss-120b",
                 #     json_object=SelfEvaluationResult
@@ -519,7 +519,7 @@ async def amain():
                     logger.error(f"Invalid raw relations object in {raw_re_output_path}: {e}")
                     continue
 
-                semaphore_self_evaluation = asyncio.Semaphore(3)
+                semaphore_self_evaluation = asyncio.Semaphore(15)
                 tasks = []
                 prompts_re_evaluation = []
 

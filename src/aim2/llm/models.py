@@ -198,7 +198,7 @@ async def gpt_inference_async(client, body, task=None, API_MODEL=GPT_MODEL_NER, 
     elif API_MODEL == "gpt-5-mini":
         temperature = None
         reasoning = {"effort": "low"}        # add "summary": auto if you want reasoning summaries to appear in the response. Organization needs to be verified via the website first
-        max_output_tokens = 200
+        max_output_tokens = 500
         if task == "re-self-eval":
             system_content = _static_header_re_evaluation()
         else:

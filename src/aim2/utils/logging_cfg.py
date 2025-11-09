@@ -31,6 +31,8 @@ def setup_logging(level=logging.INFO):
     # Create a handler for file output
     file_handler = logging.FileHandler(log_file, mode='a') # 'a' for append
     file_handler.setFormatter(formatter)
+    # Set the level for this handler to WARNING, so only warnings and errors are logged to the file
+    file_handler.setLevel(logging.WARNING)
     root_logger.addHandler(file_handler)
     
     # Suppress httpx logging
