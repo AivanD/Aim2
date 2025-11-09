@@ -30,64 +30,91 @@ from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
-# TODO: add retry logic when validation error happens
 async def process_passage_for_ner(semaphore, body, client):
     """Helper function to process a single passage with semaphore and retry logic."""
-    async with semaphore:
-        try:
-            body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
-            # OPTION 1: OPENAI inference
-            result = await gpt_inference_async(
-                client,
-                body,
-                task='ner',
-                API_MODEL=GPT_MODEL_NER,
-                json_object=SimpleExtractedEntities
-            )
-            return result
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
 
-            # OPTION 2: GROQ inference (async)
-            # does not support "json_object" param for Llama 3.3 or older
-            # result = await groq_inference_async(
-            #     client,
-            #     body,
-            #     API_MODEL=GROQ_MODEL,
-            #     task='ner', 
-            #     json_object=SimpleExtractedEntities
-            # )
-            # return result
-        except Exception as e:
-            logging.error(f"An unexpected error occurred while processing a passage: {e}")
-            return None # Or handle as appropriate
+    async with semaphore:
+        for attempt in range(MAX_RETRIES):
+            try:
+                body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body,
+                    task='ner',
+                    API_MODEL=GPT_MODEL_NER,
+                    json_object=SimpleExtractedEntities
+                )
+
+                # OPTION 2: GROQ inference (async)
+                # does not support "json_object" param for Llama 3.3 or older
+                # result = await groq_inference_async(
+                #     client,
+                #     body,
+                #     API_MODEL=GROQ_MODEL,
+                #     task='ner', 
+                #     json_object=SimpleExtractedEntities
+                # )
+
+                # Validate the result immediately.
+                validated_result = SimpleExtractedEntities.model_validate_json(result)
+                return result
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid NER result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
 
 # TODO: add retry logic when validation error happens
 async def process_pair_for_re(semaphore, body, client):
     """Helper function to process a single entity pair with semaphore and retry logic."""
-    async with semaphore:
-        try:
-            body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
-            # OPTION 1: OPENAI inference
-            # result = await gpt_inference_async(
-            #     client,
-            #     body,
-            #     task='re',
-            #     API_MODEL=GPT_MODEL_NER,
-            #     json_object=SimpleRelation
-            # )
-            # return result
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
 
-            # # OPTION 2: GROQ inference (async)
-            result = await groq_inference_async(
-                client, 
-                body, 
-                task='re', 
-                API_MODEL=GROQ_MODEL,
-                json_object=SimpleRelation
-            )
-            return result
-        except Exception as e:
-            logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
-            return None
+    async with semaphore:
+        for attempt in range(MAX_RETRIES):
+            try:
+                body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
+                # OPTION 1: OPENAI inference
+                # result = await gpt_inference_async(
+                #     client,
+                #     body,
+                #     task='re',
+                #     API_MODEL=GPT_MODEL_NER,
+                #     json_object=SimpleRelation
+                # )
+                # return result
+
+                # # OPTION 2: GROQ inference (async)
+                result = await groq_inference_async(
+                    client, 
+                    body, 
+                    task='re', 
+                    API_MODEL=GROQ_MODEL,
+                    json_object=SimpleRelation
+                )
+
+                # Validate the result immediately.
+                validated_result = SimpleRelation.model_validate_json(result)
+
+                return result
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid relation extraction result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
+                return None
 
 async def process_for_re_evaluation(semaphore, body, client):
     MAX_RETRIES = 5
@@ -224,8 +251,9 @@ async def amain():
                 #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=1024, structured_outputs=structured_ner_output_params),
                 # )
 
-                for result in results:
+                for i, result in enumerate(results):
                     if result is None:
+                        logger.error(f"Skipping passage {i} due to previous errors.")
                         continue  # Skip if there was an error processing this passage
 
                     # parse the json_string result into a pydantic object
@@ -433,6 +461,7 @@ async def amain():
 
                 for i, result_json in enumerate(re_results):
                     if result_json is None:
+                        logger.error(f"Skipping passage {i} due to previous errors.")
                         continue
                     
                     try:
