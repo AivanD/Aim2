@@ -454,8 +454,13 @@ async def amain():
                     f.write(all_no_relations.model_dump_json(indent=2))
 
                 logger.info(f"Saved {len(all_relations.relations)} relations to {raw_re_output_path}")
+            
+            end_re_time = time.time()
+            logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  
 
-            # TODO: ADD self-verification step for RE outputs
+            # Self-evaluation step for RE outputs
+            start_re_eval_time = time.time()
+
             if not os.path.exists(processed_re_output_path):
                 logger.info(f"Starting self-evaluation for {filename}...")
                 with open(raw_re_output_path, 'r') as f:
@@ -513,9 +518,9 @@ async def amain():
                     f.write(not_evaluated_relations.model_dump_json(indent=2))
                 logger.info(f"Saved {len(not_evaluated_relations.relations)} not evaluated relations to {processed_re_output_path_not_evaluated}")
 
-            end_re_time = time.time()
-            logger.info(f"Relation extraction time for {filename}: {end_re_time - start_re_time:.2f} seconds")  
-
+            end_re_eval_time = time.time()
+            logger.info(f"Relation evaluation time for {filename}: {end_re_eval_time - start_re_eval_time:.2f} seconds")
+            
     end_time = time.time()
     logger.info(f"Total processing time: {end_time - start_time:.2f} seconds")
 
