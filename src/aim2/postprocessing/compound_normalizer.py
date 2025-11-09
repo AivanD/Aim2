@@ -30,6 +30,8 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
         'NP_superclass'.
     """
     logger.info("Fetching NP classes for compounds...")
+    smiles_to_np_class = {}     # cache for SMILES to NP class mapping
+
     for result in processed_results:
         if "compounds" not in result or not result["compounds"]:
             continue
@@ -39,7 +41,13 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
             if compound.get("ontology_id"):
                 continue
             
-            if 'SMILES' not in compound:
+            smiles = compound.get('SMILES')
+            if not smiles:
+                continue
+
+             # Check cache first
+            if smiles in smiles_to_np_class:
+                compound['Natural_product_class'] = smiles_to_np_class[smiles]
                 continue
 
             original_name = compound.get("name")
@@ -48,15 +56,17 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
             
             for attempt in range(MAX_ATTEMPTS):
                 try:
-                    np_class_url = f"{SMILES_TO_CLASS}?smiles={urllib.parse.quote(compound['SMILES'])}"
+                    np_class_url = f"{SMILES_TO_CLASS}?smiles={urllib.parse.quote(smiles)}"
                     np_class_response = requests.get(np_class_url)
                     np_class_response.raise_for_status()
 
                     np_class_data = np_class_response.json()
-                    compound['Natural_product_class'] = {
+                    classification_data = {
                         "Np_class": np_class_data.get("class_results", []),
                         "Np_superclass": np_class_data.get("superclass_results", [])
                     }
+                    compound['Natural_product_class'] = classification_data
+                    smiles_to_np_class[smiles] = classification_data # Store in cache
 
                     time.sleep(0.3)
                     break
