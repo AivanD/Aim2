@@ -16,7 +16,6 @@ compounds: isobetanin
 compounds: l-3,4-dihydroxyphenylalanine
 compounds: l-dopa
 compounds: phenylalanine
-compounds: protocatechuate
 compounds: tyrosine
 experimental_conditions: agroinfiltration
 experimental_conditions: heterologous assay
@@ -71,6 +70,7 @@ pathways: betalamic acid biosynthesis
 pathways: caffeine biosynthesis
 pathways: flavonoid pathway
 plant_traits: anthocyanin pigmentation
+plant_traits: betacyanin pigmentation
 plant_traits: betalain pigmentation
 species: a. hypochondriacus
 species: amaranthus hypochondriacus
