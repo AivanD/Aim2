@@ -28,6 +28,20 @@ def _get_retry_after(response) -> int:
             return wait_time + 2  # Add a 2-second buffer to be safe
         except ValueError:
             pass
+        
+    # Fallback for OpenAI headers like 'x-ratelimit-reset-tokens'
+    reset_tokens_header = response.headers.get("x-ratelimit-reset-tokens")
+    if reset_tokens_header:
+        match = re.match(r"(\d*\.?\d+)(s|ms)", reset_tokens_header)
+        if match:
+            value = float(match.group(1))
+            unit = match.group(2)
+            if unit == "ms":
+                wait_time = value / 1000
+            else: # 's'
+                wait_time = value
+            return int(wait_time) + 2 # Add a 2-second buffer
+
     return 60 # Default to 60 seconds
 
 def _parse_retry_after(error_message: str) -> int:
