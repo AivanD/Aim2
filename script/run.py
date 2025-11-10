@@ -83,23 +83,22 @@ async def process_pair_for_re(semaphore, body, client):
             try:
                 prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
                 # OPTION 1: OPENAI inference
-                # result = await gpt_inference_async(
-                #     client,
-                #     body=prompt_body,
-                #     task='re',
-                #     API_MODEL=GPT_MODEL_NER,
-                #     json_object=SimpleRelation
-                # )
-                # return result
-
-                # # OPTION 2: GROQ inference (async)
-                result = await groq_inference_async(
-                    client, 
-                    body=prompt_body, 
-                    task='re', 
-                    API_MODEL=GROQ_MODEL,
+                result = await gpt_inference_async(
+                    client,
+                    body=prompt_body,
+                    task='re',
+                    API_MODEL='gpt-4.1',
                     json_object=SimpleRelation
                 )
+
+                # # OPTION 2: GROQ inference (async)
+                # result = await groq_inference_async(
+                #     client, 
+                #     body=prompt_body, 
+                #     task='re', 
+                #     API_MODEL=GROQ_MODEL,
+                #     json_object=SimpleRelation
+                # )
 
                 # Validate the result immediately.
                 validated_result = SimpleRelation.model_validate_json(result)
@@ -434,7 +433,7 @@ async def amain():
                     pair_details.append({"compound": compound, "other_entity": other_entity, "category": category, "context": context_str})
 
                     # # OPTION 1: API (async)
-                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), GROQ_client)
+                    # task = process_pair_for_re(re_semaphore, (compound, other_entity, category, context_texts), OPENAI_client)
                     # tasks.append(task)
                 
                 # Execute all API calls concurrently
