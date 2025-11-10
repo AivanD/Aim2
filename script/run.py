@@ -180,7 +180,7 @@ async def amain():
     # TODO: finetune these
     normalization_thresholds = {
         "compounds": 0.90,          # for chemont
-        "pathways": 0.70,
+        "pathways": 0.80,
         "anatomical_structures": 0.90,
         "plant_traits": 0.75, # Plant traits can be more descriptive and varied
         "molecular_traits": 0.85,
