@@ -520,7 +520,7 @@ async def amain():
                     logger.error(f"Invalid raw relations object in {raw_re_output_path}: {e}")
                     continue
 
-                semaphore_self_evaluation = asyncio.Semaphore(15)
+                semaphore_self_evaluation = asyncio.Semaphore(20)
                 tasks = []
                 prompts_re_evaluation = []
 
