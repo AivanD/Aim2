@@ -4,7 +4,7 @@ import argparse
 import logging
 import sys
 
-from aim2.utils.config import RAW_RE_OUTPUT_DIR
+from aim2.utils.config import PROCESSED_RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 
 def simplify_re_output(input_path: str, output_path: str):
@@ -48,6 +48,7 @@ def simplify_re_output(input_path: str, output_path: str):
                 "subject_alt_names": subject.get("alt_names"),
                 "predicate": relation.get("predicate"),
                 "object_name": object_entity.get("name"),
+                "category": relation.get("category"),
                 "object_ontology_id": ontology_id,
                 "object_alt_names": object_entity.get("alt_names"),
                 "justification": relation.get("justification"),
@@ -85,13 +86,13 @@ def main():
     )
     args = parser.parse_args()
 
-    input_file = os.path.join(RAW_RE_OUTPUT_DIR, args.filename)
+    input_file = os.path.join(PROCESSED_RE_OUTPUT_DIR, args.filename)
 
     if args.output:
-        output_file = os.path.join(RAW_RE_OUTPUT_DIR, args.output)
+        output_file = os.path.join(PROCESSED_RE_OUTPUT_DIR, args.output)
     else:
         base_name = os.path.splitext(args.filename)[0]
-        output_file = os.path.join(RAW_RE_OUTPUT_DIR, f"{base_name}_simple.json")
+        output_file = os.path.join(PROCESSED_RE_OUTPUT_DIR, f"{base_name}_simple.json")
 
     simplify_re_output(input_file, output_file)
 
