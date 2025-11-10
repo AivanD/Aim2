@@ -389,41 +389,41 @@ async def amain():
                     # 3. Use the text from the best sentences as context for relation extraction
                     # If sentence selection gives good results, use it.
                     # Otherwise, fall back to using the entire text of the single best paragraph.
+                    context_texts = []
+                    used_paragraph_starts = set()
+
                     if best_sentences:
                         # 3.1 context window construction with surrounding sentences.
-                        # Create a quick lookup from offset to index for all sentences
                         offset_to_index = {offset: i for i, (text, offset) in enumerate(sentences_w_offsets)}
-                        
-                        # Use a set to automatically handle duplicates and maintain order
                         context_indices = set()
                         
                         for s_text, s_start, score, diag in best_sentences:
                             if s_start in offset_to_index:
                                 best_sent_idx = offset_to_index[s_start]
-                                # Add the sentence before (if it exists)
-                                if best_sent_idx > 0:
-                                    context_indices.add(best_sent_idx - 1)
-                                # Add the best sentence itself
-                                context_indices.add(best_sent_idx)
-                                # Add the sentence after (if it exists)
-                                if best_sent_idx < len(sentences_w_offsets) - 1:
-                                    context_indices.add(best_sent_idx + 1)
-                        
-                        # Sort indices and build the final context string
-                        sorted_indices = sorted(list(context_indices))
-                        context_texts = [sentences_w_offsets[i][0] for i in sorted_indices]
-                        context_str = "\n".join(context_texts)
-                    else:
-                        # Fallback to the top-ranked paragraph's full text
-                        # logger.warning(f"No single sentence found with both entities for pair ({compound['name']}, {other_entity['name']}). Falling back to top paragraph context.")
-                        # Option 1: take all k top paragraphs' text
-                        context_texts = [p[0] for p in top_paragraphs]
-                        context_str = "\n".join(context_texts)
+                                context_indices.update(range(max(0, best_sent_idx - 1), min(len(sentences_w_offsets), best_sent_idx + 2)))
 
-                        # Option 2: take only the text of the top paragraph
-                        # top_paragraph_text = top_paragraphs[0][0]
-                        # context_texts = [top_paragraph_text]
-                        # context_str = top_paragraph_text
+                            # Track which paragraph this sentence came from
+                            for p_text, _, p_diag in top_paragraphs:
+                                p_start, p_end = p_diag.get("unit_start"), p_diag.get("unit_end")
+                                if p_start is not None and p_start <= s_start < p_end:
+                                    used_paragraph_starts.add(p_start)
+                        
+                        sorted_indices = sorted(list(context_indices))
+                        context_texts.extend([sentences_w_offsets[i][0] for i in sorted_indices])
+
+                    # 3.2 Hybrid approach: Add full text of any top paragraphs that did NOT contribute a "best sentence"
+                    for p_text, _, p_diag in top_paragraphs:
+                        p_start = p_diag.get("unit_start")
+                        if p_start not in used_paragraph_starts:
+                            # To avoid duplicating content, only add if not already in context_texts
+                            if p_text not in context_texts:
+                                context_texts.append(p_text)
+                    
+                    # 3.3 Fallback: If context is still empty, use all top paragraphs
+                    if not context_texts and top_paragraphs:
+                        context_texts = [p[0] for p in top_paragraphs]
+
+                    context_str = "\n".join(context_texts)
 
                     # If context is still empty, skip
                     if not context_str.strip():
