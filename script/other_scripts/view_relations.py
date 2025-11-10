@@ -92,13 +92,4 @@ def main():
     view_relations_by_subject(input_file)
 
 if __name__ == "__main__":
-    # Add the project root to sys.path to allow imports from src
-    import sys
-    # This is a common pattern: go up from script/ to the project root.
-    project_root = os.path.dirname(os.path.abspath(__file__))
-    if os.path.basename(project_root) == 'script':
-        project_root = os.path.dirname(project_root)
-    if project_root not in sys.path:
-        sys.path.insert(0, project_root)
-    
     main()

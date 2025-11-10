@@ -179,12 +179,12 @@ async def amain():
     # Define custom thresholds for normalization 
     # TODO: finetune these
     normalization_thresholds = {
-        "compounds": 0.90,
-        "pathways": 0.80,
+        "compounds": 0.90,          # for chemont
+        "pathways": 0.70,
         "anatomical_structures": 0.90,
         "plant_traits": 0.75, # Plant traits can be more descriptive and varied
         "molecular_traits": 0.85,
-        "experimental_conditions": 0.88,
+        "experimental_conditions": 0.80,
     }
 
     # Initialize the SapbertNormalizaer with the model and custom thresholds
