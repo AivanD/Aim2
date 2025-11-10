@@ -3,6 +3,7 @@
 __pycache__
 
 *.db
+*.log
 # *.obo
 *.safetensors
 *gz
