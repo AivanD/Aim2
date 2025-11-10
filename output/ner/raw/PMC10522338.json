@@ -1,0 +1,1982 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "glycoalkaloids"
+			},
+			{
+				"name": "tetraose steroidal glycoalkaloids"
+			},
+			{
+				"name": "SGA"
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthesis of plant defence compounds"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tissues"
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "innate disease and pest resistance"
+			},
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Alternaria solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance to early blight disease"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "steroidal glycoalkaloids"
+			},
+			{
+				"name": "glycoalkaloids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistant behaviour"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glycoalkaloids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "tested in the laboratory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glycoalkaloids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant to early blight disease"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "affect humans"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "nucleotide-binding"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "disease resistance"
+			},
+			{
+				"name": "qualitative disease resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "NLRs"
+			},
+			{
+				"name": "PRRs"
+			},
+			{
+				"name": "S genes"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "disease resistance"
+			},
+			{
+				"name": "broad-spectrum"
+			},
+			{
+				"name": "durable"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "pleiotropic effects"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucosinolates"
+			},
+			{
+				"name": "benzoxazinoids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "pathogen attack"
+			},
+			{
+				"name": "herbivory"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "saponins"
+			},
+			{
+				"name": "steroidal alkaloid aglycone"
+			},
+			{
+				"name": "oligosaccharide"
+			},
+			{
+				"name": "steroidal glycoalkaloids"
+			},
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "membrane sterols"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "inhibitory effect on cholinesterase enzymes"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "antimicrobial activity"
+			},
+			{
+				"name": "anti-insect activity"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum malmeanum"
+			},
+			{
+				"name": "S. commersonii subsp. malmeanum"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "polygenic trait"
+			},
+			{
+				"name": "dominant resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "chromosome 12"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. malmeanum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "bulk segregant RNA-Seq (BSR-Seq) approach"
+			},
+			{
+				"name": "in vitro"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferases"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistance to early blight"
+			},
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "A. solani"
+			},
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. malmeanum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "disease screen"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "early blight resistance"
+			},
+			{
+				"name": "resistance phenotypes"
+			},
+			{
+				"name": "resistant"
+			},
+			{
+				"name": "susceptible"
+			},
+			{
+				"name": "intermediate"
+			},
+			{
+				"name": "segregation for resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S commersonii"
+			},
+			{
+				"name": "A.solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "Resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "inoculations"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant"
+			},
+			{
+				"name": "susceptible"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "chromosome 12"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant"
+			},
+			{
+				"name": "susceptible"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "early blight resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "chromosomes"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. malmeanum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculation"
+			},
+			{
+				"name": "spray-inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "susceptibility"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "A. solani"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "susceptibility"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "chromosome 12"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "BSR-Seq analysis"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "early blight resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "early blight disease symptoms"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drop inoculation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			},
+			{
+				"name": "ScGTS"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferase activity"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "steroidal glycoalkaloid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "steroidal glycoalkaloid biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			},
+			{
+				"name": "ScGTS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. tuberosum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "agroinfiltration"
+			},
+			{
+				"name": "expression constructs"
+			},
+			{
+				"name": "empty vector"
+			},
+			{
+				"name": "inoculated"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "glycosyltransferase"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistant haplotype"
+			},
+			{
+				"name": "susceptible haplotype"
+			},
+			{
+				"name": "resistant progeny"
+			},
+			{
+				"name": "susceptible progeny"
+			},
+			{
+				"name": "lesion diameters"
+			},
+			{
+				"name": "lesion sizes"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "zeatin"
+			},
+			{
+				"name": "alpha-tomatine"
+			}
+		],
+		"pathways": [
+			{
+				"name": "zeatin biosynthesis"
+			},
+			{
+				"name": "biosynthesis of the SGA alpha-tomatine"
+			}
+		],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			},
+			{
+				"name": "GAME17"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			},
+			{
+				"name": "ScGTS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "S. tuberosum"
+			},
+			{
+				"name": "A. solani"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "agroinfiltration"
+			},
+			{
+				"name": "drop inoculated"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "susceptible"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "saccharides"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "growth inhibition assay"
+			},
+			{
+				"name": "autoclaved (at 121 C)"
+			},
+			{
+				"name": "semi-sterilised at 60 C"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "susceptible"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "Leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "autoclaved"
+			},
+			{
+				"name": "semi-sterilised for 15 min at 60 C"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phytoanticipins"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "growth inhibition assay"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistant"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "alpha-solanine"
+			},
+			{
+				"name": "solanidine-Gal-Glu-Rha"
+			},
+			{
+				"name": "alpha-chaconine"
+			},
+			{
+				"name": "solanidine-Glu-Rha-Rha"
+			},
+			{
+				"name": "commersonine"
+			},
+			{
+				"name": "demissidine-Gal-Glu-Glu-Glu"
+			},
+			{
+				"name": "dehydrocommersonine"
+			},
+			{
+				"name": "solanidine-Gal-Glu-Glu-Glu"
+			},
+			{
+				"name": "demissine"
+			},
+			{
+				"name": "demissidine-Gal-Glu-Glu-Xyl"
+			},
+			{
+				"name": "dehydrodemissine"
+			},
+			{
+				"name": "solanidine-Gal-Glu-Glu-Xyl"
+			},
+			{
+				"name": "alpha-tomatine"
+			},
+			{
+				"name": "tomatidine-Gal-Glu-Glu-Xyl"
+			},
+			{
+				"name": "solanidine-Gal-Glu-Glu"
+			},
+			{
+				"name": "demissidine-Gal-Glu-Glu"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "S. tuberosum"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "ultra high-performance liquid chromatography (UPLC) coupled to mass spectrometry (MS)"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "PCR"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			},
+			{
+				"name": "EF1alpha"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "solanidine"
+			},
+			{
+				"name": "demissidine"
+			},
+			{
+				"name": "steroidal glycoalkaloids"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Solanum commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "metabolic variation"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Tetraose steroidal glycoalkaloids"
+			},
+			{
+				"name": "SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "triose SGAs"
+			},
+			{
+				"name": "hexose"
+			},
+			{
+				"name": "commertetraose"
+			},
+			{
+				"name": "Gal-Glu-Glu-Glu"
+			},
+			{
+				"name": "pentose"
+			},
+			{
+				"name": "lycotetraose"
+			},
+			{
+				"name": "Gal-Glu-Glu-Xyl"
+			},
+			{
+				"name": "glucose"
+			},
+			{
+				"name": "xylose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "S. tuberosum"
+			},
+			{
+				"name": "A. solani"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "inoculated with Alternaria solani altNL03003"
+			},
+			{
+				"name": "challenged with five Colorado potato beetle larvae each"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance to A. solani"
+			},
+			{
+				"name": "resistance to Colorado potato beetle"
+			},
+			{
+				"name": "susceptible to Colorado potato beetle"
+			},
+			{
+				"name": "susceptible to A. solani"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "triose SGAs"
+			},
+			{
+				"name": "hexose"
+			},
+			{
+				"name": "commertetraose"
+			},
+			{
+				"name": "pentose"
+			},
+			{
+				"name": "lycotetraose"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "A. solani"
+			},
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in planta"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "glucosyltransferase activity"
+			},
+			{
+				"name": "xylosyltransferase activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Leptine"
+			},
+			{
+				"name": "dehydrocommersonine"
+			},
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "triose SGAs"
+			},
+			{
+				"name": "tetraose SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ScGTR1"
+			},
+			{
+				"name": "ScGTR2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance to insects"
+			},
+			{
+				"name": "susceptible"
+			},
+			{
+				"name": "resistant"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "protection against insects"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "A. solani"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "in vitro"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			},
+			{
+				"name": "disease resistance"
+			},
+			{
+				"name": "pest resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tubers"
+			}
+		],
+		"species": [
+			{
+				"name": "potato"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "disease resistance"
+			},
+			{
+				"name": "resistance to biotic stress"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "flavour"
+			},
+			{
+				"name": "taste"
+			},
+			{
+				"name": "dietary benefits"
+			},
+			{
+				"name": "toxicity"
+			},
+			{
+				"name": "human toxicity"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "solanidine"
+			},
+			{
+				"name": "demissidine"
+			},
+			{
+				"name": "lycotetraose"
+			},
+			{
+				"name": "commertetraose"
+			},
+			{
+				"name": "alpha-solanine"
+			},
+			{
+				"name": "alpha-chaconine"
+			},
+			{
+				"name": "alpha-tomatine"
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthesis pathways"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Solanum"
+			},
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. chacoense"
+			},
+			{
+				"name": "S. chomatophilum"
+			},
+			{
+				"name": "S. oplocense"
+			},
+			{
+				"name": "S. paucisectum"
+			},
+			{
+				"name": "S. piurae"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "SGAs"
+			},
+			{
+				"name": "alpha-tomatine"
+			},
+			{
+				"name": "esculeoside A"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tomato fruit"
+			},
+			{
+				"name": "seeds"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "fruit ripening"
+			},
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "alpha-tomatine"
+			},
+			{
+				"name": "avenacin A-1"
+			},
+			{
+				"name": "saponins"
+			},
+			{
+				"name": "SGAs"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tubers"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "defence compounds"
+			},
+			{
+				"name": "SGA variants"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "S. commersonii"
+			},
+			{
+				"name": "S. tuberosum"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "resistance to early blight"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "human health"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "tetraose SGAs"
+			},
+			{
+				"name": "defence compounds"
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthesis pathway"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "tissues"
+			},
+			{
+				"name": "plant tissues"
+			}
+		],
+		"species": [
+			{
+				"name": "S. commersonii"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant immunity"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "toxicity"
+			}
+		]
+	}
+]

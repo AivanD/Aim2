@@ -3,6 +3,17 @@ import sys
 from .config import LOGS_DIR # Import the logs directory path
 from .config import ensure_dirs
 
+class LevelFilter(logging.Filter):
+    """
+    Filters log records to allow only those of a specific level.
+    """
+    def __init__(self, level):
+        super().__init__()
+        self.__level = level
+
+    def filter(self, record):
+        return record.levelno == self.__level
+    
 def setup_logging(level=logging.INFO):
     """
     Configures logging for the application to output to both console and a file.
@@ -26,6 +37,8 @@ def setup_logging(level=logging.INFO):
     # Create a handler for console output (stdout)
     stream_handler = logging.StreamHandler(sys.stdout)
     stream_handler.setFormatter(formatter)
+    # Add a filter to the stream handler to only show INFO level messages
+    stream_handler.addFilter(LevelFilter(logging.INFO))
     root_logger.addHandler(stream_handler)
 
     # Create a handler for file output

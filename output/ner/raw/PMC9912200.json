@@ -1,0 +1,1790 @@
+[
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			},
+			{
+				"name": "Oryza sativa"
+			},
+			{
+				"name": "Zea mays"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "energy efficiency"
+			},
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought responses"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "flavonoids"
+			},
+			{
+				"name": "terpenoids"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "triterpenoid"
+			},
+			{
+				"name": "oxygenated furanoditerpenoids"
+			}
+		],
+		"pathways": [
+			{
+				"name": "carbohydrate metabolism"
+			},
+			{
+				"name": "amino acid metabolism"
+			},
+			{
+				"name": "diterpenoid-biosynthetic"
+			},
+			{
+				"name": "triterpenoid pathways"
+			},
+			{
+				"name": "phenylpropanoid pathways"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought-susceptible"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "diterpenoids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "drought stress"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought responses"
+			},
+			{
+				"name": "drought stress tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "crop production"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "chlorophyll"
+			},
+			{
+				"name": "amino acids"
+			},
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "organic acids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "stem"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "rhizosheath"
+			}
+		],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "taller phenotypes"
+			},
+			{
+				"name": "later flowering time"
+			},
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "agroeconomic value"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "terpenoid"
+			},
+			{
+				"name": "phenylpropanoid"
+			},
+			{
+				"name": "steroidal saponins"
+			},
+			{
+				"name": "sesquiterpenoids"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "flavonoids"
+			},
+			{
+				"name": "monoterpenoids"
+			},
+			{
+				"name": "plant hormones"
+			}
+		],
+		"pathways": [
+			{
+				"name": "terpenoid-metabolic"
+			}
+		],
+		"genes": [
+			{
+				"name": "terpene synthase (TPS)"
+			},
+			{
+				"name": "cytochrome P450 monooxygenase (P450)"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "P. virgatum"
+			},
+			{
+				"name": "Zea mays"
+			},
+			{
+				"name": "Oryza sativa"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought-induced"
+			},
+			{
+				"name": "ultraviolet (UV) radiation"
+			},
+			{
+				"name": "oxidative stress"
+			},
+			{
+				"name": "herbivore stress"
+			},
+			{
+				"name": "treatment with defense-related plant hormones"
+			},
+			{
+				"name": "drought stress"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "abiotic stress tolerance"
+			},
+			{
+				"name": "biotic stress tolerance"
+			},
+			{
+				"name": "abiotic stress adaptation"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought responses"
+			},
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "biofuel"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "Leaf"
+			},
+			{
+				"name": "root tissue"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought treatment"
+			},
+			{
+				"name": "well-watered control"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought-tolerant"
+			},
+			{
+				"name": "drought-susceptible"
+			},
+			{
+				"name": "wilting phenotype"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought treatment"
+			},
+			{
+				"name": "normal watering"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Alamo"
+			},
+			{
+				"name": "Cave-in-Rock"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "control"
+			},
+			{
+				"name": "drought-treated"
+			},
+			{
+				"name": "drought treatment"
+			},
+			{
+				"name": "well-watered control"
+			},
+			{
+				"name": "watering withdrawal"
+			},
+			{
+				"name": "stress treatment"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "phenotypic drought symptoms"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "abscisic acid"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Pavir.9NG553200"
+			},
+			{
+				"name": "Pavir.5NG603383"
+			},
+			{
+				"name": "dehydrin"
+			},
+			{
+				"name": "AWPM19-like"
+			},
+			{
+				"name": "Pavir.2NG274300"
+			},
+			{
+				"name": "Pavir.9NG018700"
+			},
+			{
+				"name": "caspases"
+			},
+			{
+				"name": "proteases"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought response"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "wilting phenotype"
+			},
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "carotenoid"
+			},
+			{
+				"name": "steroid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "carbohydrate metabolism"
+			},
+			{
+				"name": "plant signal transduction process"
+			},
+			{
+				"name": "endoplasmic reticulum protein processing"
+			},
+			{
+				"name": "nitrogen metabolism"
+			},
+			{
+				"name": "carbon metabolism"
+			},
+			{
+				"name": "amino acid metabolism"
+			},
+			{
+				"name": "phenylpropanoid biosynthesis"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "drought stress"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "DNA-binding"
+			},
+			{
+				"name": "electron carrier processes"
+			},
+			{
+				"name": "hydrolase activities"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [
+			{
+				"name": "KEGG pathway"
+			},
+			{
+				"name": "kegg pathways"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "terpenoid"
+			},
+			{
+				"name": "phenylpropanoid"
+			},
+			{
+				"name": "steroidal saponins"
+			},
+			{
+				"name": "flavonoids"
+			},
+			{
+				"name": "squalene"
+			},
+			{
+				"name": "geranylgeranyl pyrophosphate"
+			},
+			{
+				"name": "phenylalanine"
+			},
+			{
+				"name": "cinnamate"
+			},
+			{
+				"name": "4-coumaroyl-CoA"
+			}
+		],
+		"pathways": [
+			{
+				"name": "terpenoid-metabolic pathways"
+			},
+			{
+				"name": "phenylpropanoid-metabolic pathways"
+			},
+			{
+				"name": "methylerythritol phosphate (MEP) pathway"
+			},
+			{
+				"name": "phenylpropanoid metabolism"
+			}
+		],
+		"genes": [
+			{
+				"name": "1-deoxyxylulose 5-phosphate synthase (DXS)"
+			},
+			{
+				"name": "Pavir.3KG128241"
+			},
+			{
+				"name": "Pavir.3NG140939"
+			},
+			{
+				"name": "squalene synthase"
+			},
+			{
+				"name": "Pavir.4NG340500"
+			},
+			{
+				"name": "geranylgeranyl pyrophosphate synthase (GGPPS)"
+			},
+			{
+				"name": "Pavir.6Ng089000"
+			},
+			{
+				"name": "phenylalanine ammonia lyase (PAL)"
+			},
+			{
+				"name": "cinnamate-4-hydroxylase (C4H)"
+			},
+			{
+				"name": "4-coumaroyl-CoA ligase (4CL)"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Alamo"
+			},
+			{
+				"name": "Cave-in-Rock"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "UV irradiation"
+			},
+			{
+				"name": "oxidative stress"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression"
+			},
+			{
+				"name": "transcript abundance"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "1-deoxyxylulose 5-phosphate"
+			},
+			{
+				"name": "HMG-CoA"
+			},
+			{
+				"name": "farnesyl pyrophosphate"
+			},
+			{
+				"name": "geranylgeranyl pyrophosphate"
+			},
+			{
+				"name": "squalene"
+			},
+			{
+				"name": "phenylalanine"
+			},
+			{
+				"name": "cinnamate"
+			},
+			{
+				"name": "4-coumaroyl-CoA"
+			},
+			{
+				"name": "chalcone"
+			}
+		],
+		"pathways": [
+			{
+				"name": "terpenoid backbone biosynthesis"
+			},
+			{
+				"name": "flavonoid backbone biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "DXS"
+			},
+			{
+				"name": "DXR"
+			},
+			{
+				"name": "HMGR"
+			},
+			{
+				"name": "FPPS"
+			},
+			{
+				"name": "GGPPS"
+			},
+			{
+				"name": "SQS"
+			},
+			{
+				"name": "SQE"
+			},
+			{
+				"name": "PAL"
+			},
+			{
+				"name": "C4H"
+			},
+			{
+				"name": "4CL"
+			},
+			{
+				"name": "CHS"
+			},
+			{
+				"name": "CHI"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought-treated"
+			},
+			{
+				"name": "well-watered control"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "triterpenoid"
+			},
+			{
+				"name": "steroid saponins"
+			},
+			{
+				"name": "cycloartenol"
+			},
+			{
+				"name": "lanosterol"
+			},
+			{
+				"name": "beta-amyrin"
+			},
+			{
+				"name": "diosgenin"
+			}
+		],
+		"pathways": [
+			{
+				"name": "triterpenoid metabolism"
+			},
+			{
+				"name": "biosynthesis of triterpenoid saponins"
+			}
+		],
+		"genes": [
+			{
+				"name": "cycloartenol synthases"
+			},
+			{
+				"name": "CAS"
+			},
+			{
+				"name": "lanosterol synthases"
+			},
+			{
+				"name": "LAS"
+			},
+			{
+				"name": "beta-amyrin synthases"
+			},
+			{
+				"name": "BAS"
+			},
+			{
+				"name": "CYP71A"
+			},
+			{
+				"name": "CYP90B"
+			},
+			{
+				"name": "CYP94D"
+			},
+			{
+				"name": "sterol 3-beta-glucosyltransferases"
+			},
+			{
+				"name": "triterpenoid synthase"
+			},
+			{
+				"name": "TTS"
+			},
+			{
+				"name": "CYP72A"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Alamo"
+			},
+			{
+				"name": "Cave-in-Rock"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "triterpenoid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "triterpenoid biosynthesis"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "well-watered control"
+			},
+			{
+				"name": "drought-stressed"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "gene expression"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "syn-pimarane"
+			},
+			{
+				"name": "furanoditerpenoid"
+			},
+			{
+				"name": "cis-trans-clerodienyl pyrophosphate"
+			},
+			{
+				"name": "syn-pimaradiene"
+			}
+		],
+		"pathways": [
+			{
+				"name": "MEP pathway"
+			},
+			{
+				"name": "mevalonate pathway"
+			},
+			{
+				"name": "diterpenoid pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "PvCPS1"
+			},
+			{
+				"name": "CYP71Z25"
+			},
+			{
+				"name": "CYP71Z26"
+			},
+			{
+				"name": "CYP71Z28"
+			},
+			{
+				"name": "PvCPS9"
+			},
+			{
+				"name": "PvCPS10"
+			},
+			{
+				"name": "PvKSL4"
+			},
+			{
+				"name": "PvKSL5"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Alamo"
+			},
+			{
+				"name": "Cave-in-Rock"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "well-watered"
+			},
+			{
+				"name": "water deficiency"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "diterpenoid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "diterpenoid biosynthesis"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "well-watered control"
+			},
+			{
+				"name": "drought-stressed"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "root"
+			},
+			{
+				"name": "tissues"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought-stressed"
+			},
+			{
+				"name": "well-watered conditions"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "phospholipids"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "triterpenoids"
+			},
+			{
+				"name": "carbohydrates"
+			},
+			{
+				"name": "acids"
+			},
+			{
+				"name": "alcohols"
+			},
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought-treatment"
+			},
+			{
+				"name": "control"
+			},
+			{
+				"name": "drought treatment"
+			},
+			{
+				"name": "water deprivation"
+			},
+			{
+				"name": "drought-stressed"
+			},
+			{
+				"name": "drought stress"
+			},
+			{
+				"name": "drought-treated"
+			},
+			{
+				"name": "water deficient conditions"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought stress"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "abscisic acid"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),14-triene"
+			},
+			{
+				"name": "panicoloid A"
+			},
+			{
+				"name": "15,16-epoxy-2-oxo-5beta8alpha-cleroda-3,13(16),14-triene"
+			},
+			{
+				"name": "panicoloid B"
+			},
+			{
+				"name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,15-olide"
+			},
+			{
+				"name": "panicoloid C"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			}
+		],
+		"species": [
+			{
+				"name": "Panicum virgatum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought-stressed"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "steroidal saponins"
+			},
+			{
+				"name": "triterpenoid saponins"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "flavonoid glycosides"
+			},
+			{
+				"name": "terpenoid metabolites"
+			},
+			{
+				"name": "triterpenoids"
+			},
+			{
+				"name": "labdane-related diterpenoids"
+			},
+			{
+				"name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),l4-triene"
+			},
+			{
+				"name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,l5-olide"
+			},
+			{
+				"name": "panicoloid A"
+			},
+			{
+				"name": "panicoloid B"
+			},
+			{
+				"name": "panicoloid C"
+			},
+			{
+				"name": "panicoloid D"
+			},
+			{
+				"name": "switchgrass furanoditerpenoids"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "root tissue"
+			},
+			{
+				"name": "leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Alamo"
+			},
+			{
+				"name": "Cave-in-Rock"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "drought stress"
+			},
+			{
+				"name": "drought-stressed roots"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "physiological stress symptoms"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "terpenoids"
+			},
+			{
+				"name": "phenylpropanoids"
+			},
+			{
+				"name": "oxylipins"
+			},
+			{
+				"name": "benzoxazinoids"
+			},
+			{
+				"name": "diterpenoid metabolites"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Sorghum bicolor"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought adaptation"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought tolerance"
+			},
+			{
+				"name": "low drought tolerance"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "harvest loss"
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "sugar"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "LEA genes"
+			},
+			{
+				"name": "dehydrin"
+			},
+			{
+				"name": "Pavir.8KG003520"
+			},
+			{
+				"name": "AWPM-19-like ABA influx transporters"
+			},
+			{
+				"name": "AWPM-19-like genes"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "tissue"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			},
+			{
+				"name": "Gossypium spec."
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought treatment"
+			},
+			{
+				"name": "drought stress"
+			},
+			{
+				"name": "control plants"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "differential expression"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "wilting phenotype"
+			},
+			{
+				"name": "drought tolerance"
+			},
+			{
+				"name": "drought-susceptible"
+			},
+			{
+				"name": "phenotypic changes"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "sucrose"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "phospholipids"
+			},
+			{
+				"name": "flavonoid glycosides"
+			},
+			{
+				"name": "steroidal saponins"
+			},
+			{
+				"name": "triterpenoid saponins"
+			},
+			{
+				"name": "triterpenoid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "general metabolism"
+			},
+			{
+				"name": "specialized metabolism"
+			},
+			{
+				"name": "membrane lipid systems"
+			},
+			{
+				"name": "cell wall biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "CHS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			},
+			{
+				"name": "root tissue"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "membrane"
+			},
+			{
+				"name": "leaf cuticular waxes"
+			}
+		],
+		"species": [
+			{
+				"name": "Triticum aestivum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought stress"
+			},
+			{
+				"name": "drought"
+			},
+			{
+				"name": "water deficiency"
+			},
+			{
+				"name": "drought-stressed"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "steroidal saponins"
+			},
+			{
+				"name": "triterpenoid saponins"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "terpenoid precursors"
+			},
+			{
+				"name": "diosgenin"
+			},
+			{
+				"name": "triterpenoids"
+			},
+			{
+				"name": "sterol 3-beta-glucosyltransferases"
+			},
+			{
+				"name": "saponins"
+			}
+		],
+		"pathways": [
+			{
+				"name": "MEP pathway"
+			},
+			{
+				"name": "MVA pathway"
+			},
+			{
+				"name": "terpenoid backbone pathways"
+			},
+			{
+				"name": "triterpenoid-metabolic pathway"
+			},
+			{
+				"name": "triterpenoid-biosynthetic gene clusters"
+			},
+			{
+				"name": "triterpenoid pathways"
+			}
+		],
+		"genes": [
+			{
+				"name": "GGPPS"
+			},
+			{
+				"name": "Pavir.6NG089000"
+			},
+			{
+				"name": "TTS genes"
+			},
+			{
+				"name": "P450 genes"
+			},
+			{
+				"name": "CYP71A"
+			},
+			{
+				"name": "CYP94D"
+			},
+			{
+				"name": "CYP90B"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "root exudates"
+			}
+		],
+		"species": [
+			{
+				"name": "Glycine max"
+			},
+			{
+				"name": "Solanum lycopersicum"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought-stressed"
+			},
+			{
+				"name": "drought"
+			},
+			{
+				"name": "drought conditions"
+			},
+			{
+				"name": "drought stress"
+			},
+			{
+				"name": "water deficiency"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "antioxidant functions"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "drought-stress responses"
+			},
+			{
+				"name": "robustness against environmental stresses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "triterpenoids"
+			},
+			{
+				"name": "diterpenoids"
+			},
+			{
+				"name": "oxygenated clerodane furanoditerpenoids"
+			},
+			{
+				"name": "panicoloid A"
+			},
+			{
+				"name": "panicoloid B"
+			},
+			{
+				"name": "panicoloid C"
+			},
+			{
+				"name": "furanoditerpenoid"
+			},
+			{
+				"name": "kauralexin"
+			},
+			{
+				"name": "dolabralexin"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "diTPS"
+			},
+			{
+				"name": "PvCPS1"
+			},
+			{
+				"name": "CYP71Z25"
+			},
+			{
+				"name": "CYP71Z26"
+			},
+			{
+				"name": "CYP71Z28"
+			},
+			{
+				"name": "CYP99"
+			},
+			{
+				"name": "PvCPS9"
+			},
+			{
+				"name": "PvCPS10"
+			},
+			{
+				"name": "PvKSL4"
+			},
+			{
+				"name": "PvKSL5"
+			},
+			{
+				"name": "an2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "roots"
+			},
+			{
+				"name": "root"
+			}
+		],
+		"species": [
+			{
+				"name": "Croton campestris"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought-induced"
+			},
+			{
+				"name": "drought"
+			},
+			{
+				"name": "oxidative"
+			},
+			{
+				"name": "salinity stress"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "stress resilience"
+			},
+			{
+				"name": "wilting phenotype"
+			},
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "terpenoids"
+			},
+			{
+				"name": "specialized metabolites"
+			}
+		],
+		"pathways": [
+			{
+				"name": "plant specialized pathways"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "switchgrass"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought tolerance"
+			}
+		],
+		"human_traits": []
+	}
+]

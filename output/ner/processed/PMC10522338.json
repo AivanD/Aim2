@@ -1,0 +1,3334 @@
+{
+  "compounds": [
+    {
+      "name": "SGA",
+      "spans": [
+        [
+          730,
+          733
+        ]
+      ],
+      "CID": 444635,
+      "SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)OS(=O)(=O)O)O)O",
+      "InChIKey": "HHRMGTRTCHNCRO-FDROIEKHSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Monosaccharides"
+        ],
+        "Np_superclass": [
+          "Saccharides"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Organic oxygen compounds",
+        "Class": "Organooxygen compounds",
+        "Subclass": "Carbohydrates and carbohydrate conjugates"
+      }
+    },
+    {
+      "name": "tetraose steroidal glycoalkaloids",
+      "spans": [
+        [
+          695,
+          728
+        ],
+        [
+          30696,
+          30729
+        ]
+      ]
+    },
+    {
+      "name": "glycoalkaloids",
+      "spans": [
+        [
+          523,
+          537
+        ],
+        [
+          714,
+          728
+        ],
+        [
+          2581,
+          2595
+        ],
+        [
+          2709,
+          2723
+        ],
+        [
+          2847,
+          2861
+        ],
+        [
+          3354,
+          3368
+        ],
+        [
+          3404,
+          3418
+        ]
+      ]
+    },
+    {
+      "name": "steroidal glycoalkaloids",
+      "spans": [
+        [
+          2571,
+          2595
+        ],
+        [
+          6576,
+          6600
+        ],
+        [
+          6603,
+          6607
+        ],
+        [
+          6635,
+          6639
+        ],
+        [
+          6902,
+          6906
+        ],
+        [
+          8240,
+          8244
+        ],
+        [
+          8352,
+          8356
+        ],
+        [
+          8522,
+          8526
+        ],
+        [
+          27699,
+          27703
+        ],
+        [
+          27821,
+          27825
+        ],
+        [
+          27938,
+          27942
+        ],
+        [
+          28231,
+          28235
+        ],
+        [
+          28497,
+          28501
+        ],
+        [
+          28701,
+          28705
+        ],
+        [
+          28811,
+          28815
+        ],
+        [
+          28905,
+          28909
+        ],
+        [
+          29078,
+          29082
+        ],
+        [
+          29156,
+          29160
+        ],
+        [
+          29297,
+          29301
+        ],
+        [
+          29373,
+          29377
+        ],
+        [
+          30634,
+          30658
+        ],
+        [
+          30731,
+          30735
+        ],
+        [
+          34764,
+          34768
+        ],
+        [
+          34876,
+          34880
+        ],
+        [
+          35367,
+          35371
+        ],
+        [
+          35400,
+          35404
+        ],
+        [
+          36536,
+          36540
+        ],
+        [
+          36939,
+          36943
+        ],
+        [
+          37139,
+          37143
+        ],
+        [
+          37252,
+          37256
+        ],
+        [
+          37975,
+          37979
+        ],
+        [
+          38175,
+          38179
+        ],
+        [
+          38356,
+          38360
+        ],
+        [
+          38466,
+          38470
+        ],
+        [
+          38861,
+          38865
+        ],
+        [
+          39517,
+          39521
+        ],
+        [
+          39571,
+          39575
+        ],
+        [
+          40066,
+          40070
+        ],
+        [
+          40085,
+          40089
+        ]
+      ],
+      "alt_names": [
+        "SGAs"
+      ]
+    },
+    {
+      "name": "benzoxazinoids",
+      "spans": [
+        [
+          5680,
+          5694
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0001396",
+      "normalized_name": "Benzoxazines",
+      "score": 0.9360015392303467
+    },
+    {
+      "name": "glucosinolates",
+      "spans": [
+        [
+          5625,
+          5639
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0000373",
+      "normalized_name": "Glucosinolates",
+      "score": 0.9999997615814209
+    },
+    {
+      "name": "oligosaccharide",
+      "spans": [
+        [
+          6553,
+          6568
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0000198",
+      "normalized_name": "Oligosaccharides",
+      "score": 1.0
+    },
+    {
+      "name": "membrane sterols",
+      "spans": [
+        [
+          6682,
+          6698
+        ]
+      ]
+    },
+    {
+      "name": "steroidal alkaloid aglycone",
+      "spans": [
+        [
+          6503,
+          6530
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0004156",
+      "normalized_name": "Steroidal alkaloid glycosides",
+      "score": 0.9109036922454834
+    },
+    {
+      "name": "saponins",
+      "spans": [
+        [
+          6466,
+          6474
+        ],
+        [
+          39024,
+          39032
+        ],
+        [
+          39246,
+          39254
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0002358",
+      "normalized_name": "Triterpene saponins",
+      "score": 0.9102000594139099
+    },
+    {
+      "name": "tetraose SGAs",
+      "spans": [
+        [
+          8231,
+          8244
+        ],
+        [
+          8513,
+          8526
+        ],
+        [
+          30959,
+          30972
+        ],
+        [
+          32170,
+          32183
+        ],
+        [
+          32740,
+          32753
+        ],
+        [
+          32985,
+          32998
+        ],
+        [
+          33244,
+          33257
+        ],
+        [
+          35391,
+          35404
+        ],
+        [
+          35781,
+          35794
+        ],
+        [
+          35949,
+          35962
+        ],
+        [
+          36160,
+          36173
+        ],
+        [
+          37243,
+          37256
+        ],
+        [
+          38347,
+          38360
+        ],
+        [
+          41072,
+          41085
+        ]
+      ]
+    },
+    {
+      "name": "steroidal glycoalkaloid",
+      "spans": [
+        [
+          20015,
+          20038
+        ]
+      ]
+    },
+    {
+      "name": "zeatin",
+      "spans": [
+        [
+          23082,
+          23088
+        ]
+      ],
+      "CID": 449093,
+      "SMILES": "C/C(=C\\CNC1=NC=NC2=C1NC=N2)/CO",
+      "InChIKey": "UZKQTCBAMSWPJD-FARCUNLSSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Purine alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Organoheterocyclic compounds",
+        "Class": "Imidazopyrimidines",
+        "Subclass": "Purines and purine derivatives"
+      }
+    },
+    {
+      "name": "alpha-tomatine",
+      "spans": [
+        [
+          23165,
+          23179
+        ],
+        [
+          28175,
+          28189
+        ],
+        [
+          37880,
+          37894
+        ],
+        [
+          38657,
+          38671
+        ],
+        [
+          38945,
+          38959
+        ]
+      ],
+      "CID": 28523,
+      "SMILES": "C[C@H]1CC[C@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)C)C)C)NC1",
+      "InChIKey": "REJLGAUYTKNVJM-SGXCCWNXSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal alkaloids"
+      }
+    },
+    {
+      "name": "saccharides",
+      "spans": [
+        [
+          24366,
+          24377
+        ]
+      ]
+    },
+    {
+      "name": "phytoanticipins",
+      "spans": [
+        [
+          27460,
+          27475
+        ]
+      ]
+    },
+    {
+      "name": "demissidine-Gal-Glu-Glu-Glu",
+      "spans": [
+        [
+          28003,
+          28030
+        ]
+      ]
+    },
+    {
+      "name": "dehydrodemissine",
+      "spans": [
+        [
+          28124,
+          28140
+        ]
+      ]
+    },
+    {
+      "name": "alpha-solanine",
+      "spans": [
+        [
+          27826,
+          27840
+        ],
+        [
+          28502,
+          28516
+        ],
+        [
+          37786,
+          37800
+        ]
+      ],
+      "CID": 9549171,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+      "InChIKey": "ZGVSETXHNHBTRK-UDJLNJFBSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal glycosides"
+      }
+    },
+    {
+      "name": "solanidine-Gal-Glu-Glu-Xyl",
+      "spans": [
+        [
+          28142,
+          28168
+        ]
+      ]
+    },
+    {
+      "name": "alpha-chaconine",
+      "spans": [
+        [
+          27870,
+          27885
+        ],
+        [
+          28521,
+          28536
+        ],
+        [
+          37805,
+          37820
+        ]
+      ],
+      "CID": 442971,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@@H]([C@H]([C@@H](O8)C)O)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+      "InChIKey": "TYNQWWGVEGFKRU-AJDPQWBVSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal glycosides"
+      }
+    },
+    {
+      "name": "dehydrocommersonine",
+      "spans": [
+        [
+          28033,
+          28052
+        ],
+        [
+          34744,
+          34763
+        ]
+      ],
+      "CID": 101699426,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O)O)C)C)C",
+      "InChIKey": "PNSNMPAXFQRVOV-LUBYFOPBSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal glycosides"
+      }
+    },
+    {
+      "name": "commersonine",
+      "spans": [
+        [
+          27989,
+          28001
+        ],
+        [
+          28955,
+          28967
+        ]
+      ],
+      "CID": 185997,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O)O)C)C)C",
+      "InChIKey": "JNFOOEMBPCLHEP-NLRYXJPGSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal glycosides"
+      }
+    },
+    {
+      "name": "solanidine-Gal-Glu-Glu",
+      "spans": [
+        [
+          28054,
+          28076
+        ],
+        [
+          28142,
+          28164
+        ],
+        [
+          29162,
+          29184
+        ]
+      ]
+    },
+    {
+      "name": "demissidine-Gal-Glu-Glu",
+      "spans": [
+        [
+          28003,
+          28026
+        ],
+        [
+          28094,
+          28117
+        ],
+        [
+          29189,
+          29212
+        ]
+      ]
+    },
+    {
+      "name": "solanidine-Gal-Glu-Glu-Glu",
+      "spans": [
+        [
+          28054,
+          28080
+        ]
+      ]
+    },
+    {
+      "name": "demissidine-Gal-Glu-Glu-Xyl",
+      "spans": [
+        [
+          28094,
+          28121
+        ]
+      ]
+    },
+    {
+      "name": "solanidine-Gal-Glu-Rha",
+      "spans": [
+        [
+          27842,
+          27864
+        ]
+      ]
+    },
+    {
+      "name": "demissine",
+      "spans": [
+        [
+          28083,
+          28092
+        ],
+        [
+          28983,
+          28992
+        ]
+      ],
+      "CID": 442975,
+      "SMILES": "C[C@H]1CC[C@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O[C@H]9[C@@H]([C@H]([C@@H](CO9)O)O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O)O)C)C)C",
+      "InChIKey": "KWRYHKRVKRBBBU-RDQTZTQHSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal glycosides"
+      }
+    },
+    {
+      "name": "tomatidine-Gal-Glu-Glu-Xyl",
+      "spans": [
+        [
+          28191,
+          28217
+        ]
+      ]
+    },
+    {
+      "name": "solanidine-Glu-Rha-Rha",
+      "spans": [
+        [
+          27887,
+          27909
+        ]
+      ]
+    },
+    {
+      "name": "solanidine",
+      "spans": [
+        [
+          30668,
+          30678
+        ],
+        [
+          37658,
+          37668
+        ],
+        [
+          37744,
+          37754
+        ]
+      ],
+      "CID": 65727,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C",
+      "InChIKey": "JVKYZPBMZPJNAJ-OQFNDJACSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal alkaloids"
+      }
+    },
+    {
+      "name": "demissidine",
+      "spans": [
+        [
+          30679,
+          30690
+        ],
+        [
+          37672,
+          37683
+        ]
+      ],
+      "CID": 101379,
+      "SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C",
+      "InChIKey": "JALVTHFTYRPDMB-HRRTYWNUSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal alkaloids"
+      }
+    },
+    {
+      "name": "hexose",
+      "spans": [
+        [
+          31211,
+          31217
+        ],
+        [
+          33449,
+          33455
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0001498",
+      "normalized_name": "Hexoses",
+      "score": 1.0000001192092896
+    },
+    {
+      "name": "commertetraose",
+      "spans": [
+        [
+          31269,
+          31283
+        ],
+        [
+          33511,
+          33525
+        ],
+        [
+          33873,
+          33887
+        ],
+        [
+          37715,
+          37729
+        ]
+      ]
+    },
+    {
+      "name": "pentose",
+      "spans": [
+        [
+          31359,
+          31366
+        ],
+        [
+          33584,
+          33591
+        ]
+      ],
+      "ontology_id": "CHEMONTID:0001497",
+      "normalized_name": "Pentoses",
+      "score": 1.0
+    },
+    {
+      "name": "xylose",
+      "spans": [
+        [
+          32792,
+          32798
+        ]
+      ],
+      "CID": 135191,
+      "SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+      "InChIKey": "SRBFZHDQGSBBOR-IOVATXLUSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Monosaccharides"
+        ],
+        "Np_superclass": [
+          "Saccharides"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Organic oxygen compounds",
+        "Class": "Organooxygen compounds",
+        "Subclass": "Carbohydrates and carbohydrate conjugates"
+      }
+    },
+    {
+      "name": "Gal-Glu-Glu-Glu",
+      "spans": [
+        [
+          31285,
+          31300
+        ]
+      ]
+    },
+    {
+      "name": "glucose",
+      "spans": [
+        [
+          32781,
+          32788
+        ]
+      ],
+      "CID": 5793,
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+      "InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Disaccharides",
+          "Flavones",
+          "Monosaccharides",
+          "Polysaccharides"
+        ],
+        "Np_superclass": [
+          "Saccharides",
+          "Flavonoids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Organic oxygen compounds",
+        "Class": "Organooxygen compounds",
+        "Subclass": "Carbohydrates and carbohydrate conjugates"
+      }
+    },
+    {
+      "name": "lycotetraose",
+      "spans": [
+        [
+          31383,
+          31395
+        ],
+        [
+          33612,
+          33624
+        ],
+        [
+          33821,
+          33833
+        ],
+        [
+          37699,
+          37711
+        ],
+        [
+          37844,
+          37856
+        ]
+      ],
+      "CID": 91860151,
+      "SMILES": "C1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@@H]2O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O[C@H]4[C@H](OC([C@@H]([C@H]4O)O)O)CO)CO)O)O)O)O",
+      "InChIKey": "DPSWBCAAYVEQQC-OQRKSSCTSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Disaccharides",
+          "Polysaccharides"
+        ],
+        "Np_superclass": [
+          "Saccharides"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Organic oxygen compounds",
+        "Class": "Organooxygen compounds",
+        "Subclass": "Carbohydrates and carbohydrate conjugates"
+      }
+    },
+    {
+      "name": "Gal-Glu-Glu-Xyl",
+      "spans": [
+        [
+          31397,
+          31412
+        ]
+      ]
+    },
+    {
+      "name": "triose SGAs",
+      "spans": [
+        [
+          31143,
+          31154
+        ],
+        [
+          31225,
+          31236
+        ],
+        [
+          32573,
+          32584
+        ],
+        [
+          32693,
+          32704
+        ],
+        [
+          33279,
+          33290
+        ],
+        [
+          33463,
+          33474
+        ],
+        [
+          35360,
+          35371
+        ]
+      ]
+    },
+    {
+      "name": "Leptine",
+      "spans": [
+        [
+          34732,
+          34739
+        ]
+      ]
+    },
+    {
+      "name": "esculeoside A",
+      "spans": [
+        [
+          38688,
+          38701
+        ]
+      ],
+      "CID": 10887728,
+      "SMILES": "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@]2(CC[C@H]4[C@H]3CC[C@@H]5[C@@]4(CC[C@@H](C5)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O)C)C)O[C@]11[C@H](C[C@@H](CN1)CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)OC(=O)C",
+      "InChIKey": "VSQBWNYALURFOT-ZSFCQSFNSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Steroidal alkaloids"
+        ],
+        "Np_superclass": [
+          "Pseudoalkaloids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Steroids and steroid derivatives",
+        "Subclass": "Steroidal alkaloids"
+      }
+    },
+    {
+      "name": "avenacin A-1",
+      "spans": [
+        [
+          38964,
+          38976
+        ]
+      ],
+      "CID": 441907,
+      "SMILES": "C[C@]12CC[C@@H]([C@@]([C@@H]1CC[C@@]3([C@@H]2C[C@@H]4[C@]5([C@]3(C[C@@H]([C@@]6([C@H]5C[C@@]([C@H](C6)OC(=O)C7=CC=CC=C7NC)(C)C=O)C)O)C)O4)C)(C)CO)O[C@H]8[C@@H]([C@H]([C@H](CO8)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O",
+      "InChIKey": "SYXUBXTYGFJFEH-PFTGTSLFSA-N",
+      "Natural_product_class": {
+        "Np_class": [
+          "Oleanane triterpenoids"
+        ],
+        "Np_superclass": [
+          "Triterpenoids"
+        ]
+      },
+      "Classyfire": {
+        "Kingdom": "Organic compounds",
+        "Superclass": "Lipids and lipid-like molecules",
+        "Class": "Prenol lipids",
+        "Subclass": "Triterpenoids"
+      }
+    },
+    {
+      "name": "SGA variants",
+      "spans": [
+        [
+          40900,
+          40912
+        ]
+      ]
+    },
+    {
+      "name": "defence compounds",
+      "spans": [
+        [
+          40477,
+          40494
+        ],
+        [
+          41292,
+          41309
+        ],
+        [
+          41437,
+          41454
+        ]
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "name": "biosynthesis of plant defence compounds",
+      "spans": [
+        [
+          997,
+          1036
+        ]
+      ]
+    },
+    {
+      "name": "zeatin biosynthesis",
+      "spans": [
+        [
+          23082,
+          23101
+        ]
+      ],
+      "ontology_id": "PWY-2681",
+      "normalized_name": "<i>trans</i>-zeatin biosynthesis",
+      "score": 0.9516115784645081
+    },
+    {
+      "name": "biosynthesis of the SGA alpha-tomatine",
+      "spans": [
+        [
+          23141,
+          23179
+        ]
+      ],
+      "ontology_id": "PWY18C3-3",
+      "normalized_name": "&alpha;-tomatine biosynthesis",
+      "score": 0.8918433785438538
+    },
+    {
+      "name": "biosynthesis pathways",
+      "spans": [
+        [
+          37912,
+          37933
+        ]
+      ]
+    },
+    {
+      "name": "biosynthesis pathway",
+      "spans": [
+        [
+          41044,
+          41064
+        ]
+      ]
+    }
+  ],
+  "anatomical_structures": [
+    {
+      "name": "tissues",
+      "spans": [
+        [
+          1050,
+          1057
+        ],
+        [
+          41264,
+          41271
+        ],
+        [
+          41481,
+          41494
+        ],
+        [
+          41487,
+          41494
+        ]
+      ],
+      "ontology_id": "PO:0009007",
+      "normalized_name": "portion of plant tissue",
+      "score": 0.9782681465148926,
+      "alt_names": [
+        "plant tissues"
+      ]
+    },
+    {
+      "name": "chromosome 12",
+      "spans": [
+        [
+          7977,
+          7990
+        ],
+        [
+          10459,
+          10472
+        ],
+        [
+          11093,
+          11106
+        ],
+        [
+          14315,
+          14328
+        ],
+        [
+          14474,
+          14487
+        ],
+        [
+          14673,
+          14686
+        ]
+      ]
+    },
+    {
+      "name": "leaves",
+      "spans": [
+        [
+          9911,
+          9917
+        ],
+        [
+          9953,
+          9957
+        ],
+        [
+          11399,
+          11405
+        ],
+        [
+          12135,
+          12141
+        ],
+        [
+          19361,
+          19367
+        ],
+        [
+          21510,
+          21516
+        ],
+        [
+          23509,
+          23515
+        ],
+        [
+          24572,
+          24576
+        ],
+        [
+          24632,
+          24636
+        ],
+        [
+          24760,
+          24764
+        ],
+        [
+          24923,
+          24929
+        ],
+        [
+          25089,
+          25095
+        ],
+        [
+          25151,
+          25157
+        ],
+        [
+          25193,
+          25199
+        ],
+        [
+          25301,
+          25305
+        ],
+        [
+          25420,
+          25424
+        ],
+        [
+          25658,
+          25662
+        ],
+        [
+          25945,
+          25949
+        ],
+        [
+          26232,
+          26236
+        ],
+        [
+          26418,
+          26422
+        ],
+        [
+          26616,
+          26620
+        ],
+        [
+          26753,
+          26759
+        ],
+        [
+          26987,
+          26991
+        ],
+        [
+          27203,
+          27207
+        ],
+        [
+          27309,
+          27313
+        ],
+        [
+          27485,
+          27491
+        ],
+        [
+          27676,
+          27682
+        ],
+        [
+          28305,
+          28311
+        ],
+        [
+          30183,
+          30189
+        ],
+        [
+          31638,
+          31644
+        ]
+      ],
+      "ontology_id": "PO:0025034",
+      "normalized_name": "leaf",
+      "score": 0.9324457049369812,
+      "alt_names": [
+        "Leaf",
+        "leaf"
+      ]
+    },
+    {
+      "name": "chromosomes",
+      "spans": [
+        [
+          12750,
+          12761
+        ]
+      ]
+    },
+    {
+      "name": "tubers",
+      "spans": [
+        [
+          36747,
+          36753
+        ],
+        [
+          39588,
+          39594
+        ]
+      ],
+      "ontology_id": "PO:0025522",
+      "normalized_name": "tuber",
+      "score": 0.9853724241256714
+    },
+    {
+      "name": "seeds",
+      "spans": [
+        [
+          38806,
+          38811
+        ]
+      ],
+      "ontology_id": "PO:0009010",
+      "normalized_name": "seed",
+      "score": 0.9715480804443359
+    },
+    {
+      "name": "tomato fruit",
+      "spans": [
+        [
+          38643,
+          38655
+        ]
+      ]
+    }
+  ],
+  "species": [
+    {
+      "name": "Solanum commersonii",
+      "spans": [
+        [
+          450,
+          469
+        ],
+        [
+          2066,
+          2085
+        ],
+        [
+          2390,
+          2404
+        ],
+        [
+          2517,
+          2531
+        ],
+        [
+          2727,
+          2741
+        ],
+        [
+          2867,
+          2881
+        ],
+        [
+          7183,
+          7197
+        ],
+        [
+          7183,
+          7214
+        ],
+        [
+          7705,
+          7719
+        ],
+        [
+          7772,
+          7786
+        ],
+        [
+          8157,
+          8171
+        ],
+        [
+          8532,
+          8546
+        ],
+        [
+          8895,
+          8909
+        ],
+        [
+          9678,
+          9692
+        ],
+        [
+          9760,
+          9773
+        ],
+        [
+          11030,
+          11044
+        ],
+        [
+          11272,
+          11286
+        ],
+        [
+          13608,
+          13622
+        ],
+        [
+          14785,
+          14799
+        ],
+        [
+          15574,
+          15588
+        ],
+        [
+          15734,
+          15748
+        ],
+        [
+          16099,
+          16113
+        ],
+        [
+          17317,
+          17331
+        ],
+        [
+          17672,
+          17686
+        ],
+        [
+          18027,
+          18041
+        ],
+        [
+          18380,
+          18394
+        ],
+        [
+          19468,
+          19482
+        ],
+        [
+          21322,
+          21336
+        ],
+        [
+          22064,
+          22078
+        ],
+        [
+          22492,
+          22506
+        ],
+        [
+          24136,
+          24150
+        ],
+        [
+          24439,
+          24453
+        ],
+        [
+          24616,
+          24630
+        ],
+        [
+          25113,
+          25127
+        ],
+        [
+          25331,
+          25345
+        ],
+        [
+          26765,
+          26779
+        ],
+        [
+          27505,
+          27519
+        ],
+        [
+          27973,
+          27987
+        ],
+        [
+          28262,
+          28276
+        ],
+        [
+          28352,
+          28366
+        ],
+        [
+          28664,
+          28678
+        ],
+        [
+          28719,
+          28733
+        ],
+        [
+          28766,
+          28780
+        ],
+        [
+          28915,
+          28929
+        ],
+        [
+          30015,
+          30034
+        ],
+        [
+          30301,
+          30320
+        ],
+        [
+          30742,
+          30761
+        ],
+        [
+          32722,
+          32736
+        ],
+        [
+          34669,
+          34683
+        ],
+        [
+          34886,
+          34900
+        ],
+        [
+          35608,
+          35622
+        ],
+        [
+          35798,
+          35812
+        ],
+        [
+          35968,
+          35982
+        ],
+        [
+          36179,
+          36193
+        ],
+        [
+          37201,
+          37215
+        ],
+        [
+          37607,
+          37621
+        ],
+        [
+          38185,
+          38199
+        ],
+        [
+          38476,
+          38490
+        ],
+        [
+          39346,
+          39360
+        ],
+        [
+          39431,
+          39445
+        ],
+        [
+          40006,
+          40020
+        ],
+        [
+          40758,
+          40772
+        ],
+        [
+          41098,
+          41112
+        ]
+      ],
+      "taxonomy_id": 4109,
+      "alt_names": [
+        "S commersonii",
+        "S. commersonii",
+        "S. commersonii subsp. malmeanum"
+      ]
+    },
+    {
+      "name": "Alternaria solani",
+      "spans": [
+        [
+          1583,
+          1600
+        ],
+        [
+          8810,
+          8819
+        ],
+        [
+          10312,
+          10321
+        ],
+        [
+          10927,
+          10936
+        ],
+        [
+          10977,
+          10986
+        ],
+        [
+          12868,
+          12877
+        ],
+        [
+          13042,
+          13051
+        ],
+        [
+          13278,
+          13287
+        ],
+        [
+          14883,
+          14892
+        ],
+        [
+          19012,
+          19021
+        ],
+        [
+          19435,
+          19444
+        ],
+        [
+          23725,
+          23734
+        ],
+        [
+          23834,
+          23843
+        ],
+        [
+          24457,
+          24466
+        ],
+        [
+          24829,
+          24838
+        ],
+        [
+          25288,
+          25297
+        ],
+        [
+          31952,
+          31961
+        ],
+        [
+          32634,
+          32643
+        ],
+        [
+          32895,
+          32904
+        ],
+        [
+          34469,
+          34478
+        ],
+        [
+          35499,
+          35508
+        ],
+        [
+          35626,
+          35635
+        ],
+        [
+          35892,
+          35901
+        ],
+        [
+          36041,
+          36050
+        ]
+      ],
+      "taxonomy_id": 48100,
+      "alt_names": [
+        "A. solani"
+      ]
+    },
+    {
+      "name": "Solanum malmeanum",
+      "spans": [
+        [
+          7144,
+          7161
+        ],
+        [
+          7791,
+          7803
+        ],
+        [
+          8914,
+          8926
+        ],
+        [
+          11291,
+          11303
+        ]
+      ],
+      "taxonomy_id": 223891,
+      "alt_names": [
+        "S. malmeanum"
+      ]
+    },
+    {
+      "name": "A.solani",
+      "spans": [
+        [
+          9840,
+          9848
+        ]
+      ]
+    },
+    {
+      "name": "S. tuberosum",
+      "spans": [
+        [
+          21293,
+          21305
+        ],
+        [
+          22102,
+          22114
+        ],
+        [
+          23571,
+          23583
+        ],
+        [
+          24174,
+          24186
+        ],
+        [
+          27778,
+          27790
+        ],
+        [
+          28552,
+          28564
+        ],
+        [
+          31073,
+          31085
+        ],
+        [
+          36546,
+          36552
+        ],
+        [
+          36692,
+          36698
+        ],
+        [
+          36947,
+          36953
+        ],
+        [
+          40775,
+          40787
+        ]
+      ],
+      "taxonomy_id": 4113,
+      "alt_names": [
+        "potato"
+      ]
+    },
+    {
+      "name": "Solanum",
+      "spans": [
+        [
+          37147,
+          37154
+        ],
+        [
+          37373,
+          37380
+        ]
+      ],
+      "taxonomy_id": 4081
+    },
+    {
+      "name": "S. piurae",
+      "spans": [
+        [
+          37463,
+          37472
+        ]
+      ],
+      "taxonomy_id": 205571
+    },
+    {
+      "name": "S. paucisectum",
+      "spans": [
+        [
+          37429,
+          37441
+        ],
+        [
+          37443,
+          37457
+        ]
+      ],
+      "taxonomy_id": 4932,
+      "alt_names": [
+        "S. oplocense"
+      ]
+    },
+    {
+      "name": "S. chomatophilum",
+      "spans": [
+        [
+          37411,
+          37427
+        ]
+      ],
+      "taxonomy_id": 317820
+    },
+    {
+      "name": "S. chacoense",
+      "spans": [
+        [
+          37397,
+          37409
+        ]
+      ],
+      "taxonomy_id": 4108
+    }
+  ],
+  "experimental_conditions": [
+    {
+      "name": "in vitro",
+      "spans": [
+        [
+          757,
+          765
+        ],
+        [
+          8257,
+          8265
+        ],
+        [
+          35914,
+          35922
+        ]
+      ]
+    },
+    {
+      "name": "tested in the laboratory",
+      "spans": [
+        [
+          2961,
+          2985
+        ]
+      ]
+    },
+    {
+      "name": "pathogen attack",
+      "spans": [
+        [
+          5344,
+          5359
+        ]
+      ]
+    },
+    {
+      "name": "herbivory",
+      "spans": [
+        [
+          5363,
+          5372
+        ]
+      ]
+    },
+    {
+      "name": "disease screen",
+      "spans": [
+        [
+          8790,
+          8804
+        ]
+      ]
+    },
+    {
+      "name": "inoculations",
+      "spans": [
+        [
+          9936,
+          9948
+        ]
+      ]
+    },
+    {
+      "name": "spray-inoculation",
+      "spans": [
+        [
+          11992,
+          12009
+        ]
+      ]
+    },
+    {
+      "name": "inoculation",
+      "spans": [
+        [
+          11527,
+          11538
+        ],
+        [
+          11998,
+          12009
+        ],
+        [
+          12268,
+          12279
+        ]
+      ]
+    },
+    {
+      "name": "BSR-Seq analysis",
+      "spans": [
+        [
+          13763,
+          13779
+        ]
+      ]
+    },
+    {
+      "name": "drop inoculation",
+      "spans": [
+        [
+          19403,
+          19419
+        ]
+      ]
+    },
+    {
+      "name": "agroinfiltration",
+      "spans": [
+        [
+          21638,
+          21654
+        ],
+        [
+          21849,
+          21865
+        ],
+        [
+          23609,
+          23625
+        ],
+        [
+          23637,
+          23653
+        ]
+      ]
+    },
+    {
+      "name": "inoculated",
+      "spans": [
+        [
+          21572,
+          21582
+        ]
+      ]
+    },
+    {
+      "name": "expression constructs",
+      "spans": [
+        [
+          21389,
+          21410
+        ],
+        [
+          21871,
+          21892
+        ]
+      ]
+    },
+    {
+      "name": "empty vector",
+      "spans": [
+        [
+          21445,
+          21457
+        ]
+      ]
+    },
+    {
+      "name": "drop inoculated",
+      "spans": [
+        [
+          23682,
+          23697
+        ]
+      ]
+    },
+    {
+      "name": "growth inhibition assay",
+      "spans": [
+        [
+          24536,
+          24559
+        ],
+        [
+          26841,
+          26864
+        ]
+      ]
+    },
+    {
+      "name": "autoclaved (at 121 C)",
+      "spans": [
+        [
+          24695,
+          24716
+        ]
+      ]
+    },
+    {
+      "name": "semi-sterilised at 60 C",
+      "spans": [
+        [
+          24720,
+          24743
+        ]
+      ]
+    },
+    {
+      "name": "autoclaved",
+      "spans": [
+        [
+          25501,
+          25511
+        ],
+        [
+          25647,
+          25657
+        ],
+        [
+          26221,
+          26231
+        ]
+      ]
+    },
+    {
+      "name": "semi-sterilised for 15 min at 60 C",
+      "spans": [
+        [
+          25522,
+          25556
+        ]
+      ]
+    },
+    {
+      "name": "ultra high-performance liquid chromatography (UPLC) coupled to mass spectrometry (MS)",
+      "spans": [
+        [
+          28370,
+          28455
+        ]
+      ]
+    },
+    {
+      "name": "PCR",
+      "spans": [
+        [
+          29505,
+          29508
+        ]
+      ]
+    },
+    {
+      "name": "inoculated with Alternaria solani altNL03003",
+      "spans": [
+        [
+          31540,
+          31584
+        ]
+      ]
+    },
+    {
+      "name": "challenged with five Colorado potato beetle larvae each",
+      "spans": [
+        [
+          32109,
+          32164
+        ]
+      ]
+    },
+    {
+      "name": "in planta",
+      "spans": [
+        [
+          33647,
+          33656
+        ]
+      ]
+    }
+  ],
+  "plant_traits": [
+    {
+      "name": "resistance",
+      "spans": [
+        [
+          154,
+          164
+        ],
+        [
+          382,
+          392
+        ],
+        [
+          580,
+          590
+        ],
+        [
+          610,
+          620
+        ],
+        [
+          927,
+          937
+        ],
+        [
+          4149,
+          4167
+        ],
+        [
+          4415,
+          4445
+        ],
+        [
+          4427,
+          4445
+        ],
+        [
+          4858,
+          4876
+        ],
+        [
+          7229,
+          7239
+        ],
+        [
+          7351,
+          7361
+        ],
+        [
+          7460,
+          7470
+        ],
+        [
+          7661,
+          7680
+        ],
+        [
+          7670,
+          7680
+        ],
+        [
+          7851,
+          7861
+        ],
+        [
+          7946,
+          7956
+        ],
+        [
+          8131,
+          8141
+        ],
+        [
+          8190,
+          8200
+        ],
+        [
+          8376,
+          8386
+        ],
+        [
+          8573,
+          8583
+        ],
+        [
+          8990,
+          9011
+        ],
+        [
+          9242,
+          9253
+        ],
+        [
+          9746,
+          9756
+        ],
+        [
+          10267,
+          10278
+        ],
+        [
+          10280,
+          10290
+        ],
+        [
+          10688,
+          10699
+        ],
+        [
+          10912,
+          10923
+        ],
+        [
+          11699,
+          11709
+        ],
+        [
+          11741,
+          11755
+        ],
+        [
+          11787,
+          11797
+        ],
+        [
+          11872,
+          11882
+        ],
+        [
+          11924,
+          11934
+        ],
+        [
+          11961,
+          11975
+        ],
+        [
+          12985,
+          12995
+        ],
+        [
+          13134,
+          13144
+        ],
+        [
+          13534,
+          13544
+        ],
+        [
+          14962,
+          14972
+        ],
+        [
+          15008,
+          15018
+        ],
+        [
+          16085,
+          16095
+        ],
+        [
+          16450,
+          16460
+        ],
+        [
+          17454,
+          17464
+        ],
+        [
+          17809,
+          17819
+        ],
+        [
+          18162,
+          18172
+        ],
+        [
+          18516,
+          18526
+        ],
+        [
+          18617,
+          18627
+        ],
+        [
+          18998,
+          19008
+        ],
+        [
+          19038,
+          19048
+        ],
+        [
+          19156,
+          19166
+        ],
+        [
+          19522,
+          19532
+        ],
+        [
+          20281,
+          20291
+        ],
+        [
+          22520,
+          22530
+        ],
+        [
+          22788,
+          22798
+        ],
+        [
+          23333,
+          23343
+        ],
+        [
+          23475,
+          23486
+        ],
+        [
+          23544,
+          23555
+        ],
+        [
+          23855,
+          23866
+        ],
+        [
+          23976,
+          23987
+        ],
+        [
+          24006,
+          24017
+        ],
+        [
+          24110,
+          24120
+        ],
+        [
+          24124,
+          24135
+        ],
+        [
+          24425,
+          24435
+        ],
+        [
+          24604,
+          24615
+        ],
+        [
+          24935,
+          24946
+        ],
+        [
+          25101,
+          25112
+        ],
+        [
+          28248,
+          28258
+        ],
+        [
+          30770,
+          30780
+        ],
+        [
+          33033,
+          33043
+        ],
+        [
+          34400,
+          34410
+        ],
+        [
+          35139,
+          35150
+        ],
+        [
+          35594,
+          35604
+        ],
+        [
+          35720,
+          35730
+        ],
+        [
+          35878,
+          35888
+        ],
+        [
+          36214,
+          36224
+        ],
+        [
+          36868,
+          36886
+        ],
+        [
+          37533,
+          37543
+        ],
+        [
+          38913,
+          38923
+        ],
+        [
+          39332,
+          39342
+        ],
+        [
+          40162,
+          40172
+        ]
+      ],
+      "ontology_id": "TO:0000112",
+      "normalized_name": "microbial disease response",
+      "score": 0.7535034418106079,
+      "alt_names": [
+        "disease resistance",
+        "dominant resistance",
+        "qualitative disease resistance",
+        "resistance phenotypes",
+        "susceptibility",
+        "susceptible"
+      ]
+    },
+    {
+      "name": "innate disease and pest resistance",
+      "spans": [
+        [
+          130,
+          164
+        ],
+        [
+          36209,
+          36224
+        ]
+      ],
+      "ontology_id": "TO:0000054",
+      "normalized_name": "animal damage response trait",
+      "score": 0.8236106634140015,
+      "alt_names": [
+        "pest resistance"
+      ]
+    },
+    {
+      "name": "resistance to early blight disease",
+      "spans": [
+        [
+          2099,
+          2133
+        ],
+        [
+          3164,
+          3197
+        ],
+        [
+          7851,
+          7877
+        ],
+        [
+          8750,
+          8773
+        ],
+        [
+          11158,
+          11181
+        ],
+        [
+          14607,
+          14630
+        ],
+        [
+          40801,
+          40827
+        ]
+      ],
+      "ontology_id": "TO:0000770",
+      "normalized_name": "bacterial blight disease resistance",
+      "score": 0.8728408217430115,
+      "alt_names": [
+        "early blight resistance",
+        "resistance to early blight",
+        "resistant to early blight disease"
+      ]
+    },
+    {
+      "name": "resistant behaviour",
+      "spans": [
+        [
+          2367,
+          2386
+        ]
+      ]
+    },
+    {
+      "name": "resistant",
+      "spans": [
+        [
+          3009,
+          3018
+        ],
+        [
+          9097,
+          9106
+        ],
+        [
+          10207,
+          10216
+        ],
+        [
+          10642,
+          10651
+        ],
+        [
+          10964,
+          10973
+        ],
+        [
+          25321,
+          25330
+        ],
+        [
+          27495,
+          27504
+        ],
+        [
+          35256,
+          35265
+        ]
+      ]
+    },
+    {
+      "name": "broad-spectrum",
+      "spans": [
+        [
+          4964,
+          4978
+        ]
+      ]
+    },
+    {
+      "name": "durable",
+      "spans": [
+        [
+          4983,
+          4990
+        ]
+      ]
+    },
+    {
+      "name": "anti-insect activity",
+      "spans": [
+        [
+          6939,
+          6959
+        ]
+      ]
+    },
+    {
+      "name": "polygenic trait",
+      "spans": [
+        [
+          7525,
+          7540
+        ]
+      ]
+    },
+    {
+      "name": "segregation for resistance",
+      "spans": [
+        [
+          9555,
+          9581
+        ]
+      ]
+    },
+    {
+      "name": "intermediate",
+      "spans": [
+        [
+          9302,
+          9314
+        ]
+      ]
+    },
+    {
+      "name": "early blight disease symptoms",
+      "spans": [
+        [
+          19266,
+          19295
+        ]
+      ]
+    },
+    {
+      "name": "susceptible haplotype",
+      "spans": [
+        [
+          21087,
+          21108
+        ]
+      ]
+    },
+    {
+      "name": "resistant haplotype",
+      "spans": [
+        [
+          20337,
+          20356
+        ],
+        [
+          20630,
+          20649
+        ],
+        [
+          21007,
+          21026
+        ]
+      ]
+    },
+    {
+      "name": "resistant progeny",
+      "spans": [
+        [
+          21229,
+          21246
+        ]
+      ]
+    },
+    {
+      "name": "lesion diameters",
+      "spans": [
+        [
+          21659,
+          21675
+        ]
+      ]
+    },
+    {
+      "name": "susceptible progeny",
+      "spans": [
+        [
+          21268,
+          21287
+        ]
+      ]
+    },
+    {
+      "name": "lesion sizes",
+      "spans": [
+        [
+          21715,
+          21727
+        ],
+        [
+          22007,
+          22019
+        ]
+      ]
+    },
+    {
+      "name": "metabolic variation",
+      "spans": [
+        [
+          30488,
+          30507
+        ]
+      ]
+    },
+    {
+      "name": "resistance to A. solani",
+      "spans": [
+        [
+          31938,
+          31961
+        ]
+      ]
+    },
+    {
+      "name": "susceptible to Colorado potato beetle",
+      "spans": [
+        [
+          32592,
+          32629
+        ]
+      ]
+    },
+    {
+      "name": "resistance to Colorado potato beetle",
+      "spans": [
+        [
+          32226,
+          32262
+        ],
+        [
+          32854,
+          32890
+        ]
+      ],
+      "ontology_id": "TO:0000273",
+      "normalized_name": "armyworm resistance",
+      "score": 0.7658982276916504
+    },
+    {
+      "name": "resistance to insects",
+      "spans": [
+        [
+          34827,
+          34848
+        ]
+      ],
+      "ontology_id": "TO:0000261",
+      "normalized_name": "insect damage response trait",
+      "score": 0.9467493295669556
+    },
+    {
+      "name": "resistance to biotic stress",
+      "spans": [
+        [
+          36980,
+          37007
+        ]
+      ],
+      "ontology_id": "TO:0000179",
+      "normalized_name": "biotic plant stress trait",
+      "score": 0.8642435073852539
+    },
+    {
+      "name": "fruit ripening",
+      "spans": [
+        [
+          38709,
+          38723
+        ]
+      ],
+      "ontology_id": "TO:0002633",
+      "normalized_name": "fruit ripening trait",
+      "score": 0.9999998807907104
+    },
+    {
+      "name": "plant immunity",
+      "spans": [
+        [
+          41611,
+          41625
+        ],
+        [
+          41734,
+          41748
+        ]
+      ]
+    }
+  ],
+  "human_traits": [
+    {
+      "name": "toxicity",
+      "spans": [
+        [
+          1065,
+          1073
+        ],
+        [
+          36780,
+          36788
+        ],
+        [
+          36967,
+          36975
+        ],
+        [
+          39085,
+          39093
+        ],
+        [
+          41502,
+          41510
+        ],
+        [
+          41630,
+          41638
+        ]
+      ]
+    },
+    {
+      "name": "affect humans",
+      "spans": [
+        [
+          3369,
+          3382
+        ]
+      ]
+    },
+    {
+      "name": "pleiotropic effects",
+      "spans": [
+        [
+          5139,
+          5158
+        ]
+      ]
+    },
+    {
+      "name": "taste",
+      "spans": [
+        [
+          36472,
+          36477
+        ]
+      ]
+    },
+    {
+      "name": "dietary benefits",
+      "spans": [
+        [
+          36496,
+          36512
+        ]
+      ]
+    },
+    {
+      "name": "human toxicity",
+      "spans": [
+        [
+          36961,
+          36975
+        ]
+      ]
+    },
+    {
+      "name": "flavour",
+      "spans": [
+        [
+          36461,
+          36468
+        ]
+      ]
+    },
+    {
+      "name": "human health",
+      "spans": [
+        [
+          40916,
+          40928
+        ]
+      ]
+    }
+  ],
+  "molecular_traits": [
+    {
+      "name": "nucleotide-binding",
+      "spans": [
+        [
+          4287,
+          4305
+        ]
+      ],
+      "ontology_id": "GO:0000166",
+      "normalized_name": "nucleotide binding",
+      "score": 0.9946086406707764
+    },
+    {
+      "name": "inhibitory effect on cholinesterase enzymes",
+      "spans": [
+        [
+          6839,
+          6882
+        ]
+      ]
+    },
+    {
+      "name": "glycosyltransferases",
+      "spans": [
+        [
+          8087,
+          8107
+        ]
+      ]
+    },
+    {
+      "name": "glycosyltransferase",
+      "spans": [
+        [
+          20706,
+          20725
+        ],
+        [
+          20789,
+          20808
+        ]
+      ],
+      "ontology_id": "GO:0016757",
+      "normalized_name": "glycosyltransferase activity",
+      "score": 0.8781706690788269
+    }
+  ],
+  "genes": [
+    {
+      "name": "NLRs",
+      "spans": [
+        [
+          4620,
+          4624
+        ],
+        [
+          4832,
+          4836
+        ]
+      ]
+    },
+    {
+      "name": "PRRs",
+      "spans": [
+        [
+          4714,
+          4718
+        ],
+        [
+          4823,
+          4827
+        ]
+      ]
+    },
+    {
+      "name": "S genes",
+      "spans": [
+        [
+          5053,
+          5060
+        ],
+        [
+          5121,
+          5128
+        ]
+      ]
+    },
+    {
+      "name": "ScGTR1",
+      "spans": [
+        [
+          19534,
+          19540
+        ],
+        [
+          19923,
+          19929
+        ],
+        [
+          20733,
+          20739
+        ],
+        [
+          20894,
+          20900
+        ],
+        [
+          21185,
+          21191
+        ],
+        [
+          21415,
+          21421
+        ],
+        [
+          21897,
+          21903
+        ],
+        [
+          22484,
+          22490
+        ],
+        [
+          22800,
+          22806
+        ],
+        [
+          23411,
+          23417
+        ],
+        [
+          23771,
+          23777
+        ],
+        [
+          24081,
+          24087
+        ],
+        [
+          29467,
+          29473
+        ],
+        [
+          29597,
+          29603
+        ],
+        [
+          29730,
+          29736
+        ],
+        [
+          30193,
+          30199
+        ],
+        [
+          31046,
+          31052
+        ],
+        [
+          31174,
+          31180
+        ],
+        [
+          31900,
+          31906
+        ],
+        [
+          32196,
+          32202
+        ],
+        [
+          32645,
+          32651
+        ],
+        [
+          32946,
+          32952
+        ],
+        [
+          33082,
+          33088
+        ],
+        [
+          33201,
+          33207
+        ],
+        [
+          33336,
+          33342
+        ],
+        [
+          33412,
+          33418
+        ],
+        [
+          33680,
+          33686
+        ],
+        [
+          33899,
+          33905
+        ],
+        [
+          34139,
+          34145
+        ],
+        [
+          34415,
+          34421
+        ],
+        [
+          34520,
+          34526
+        ],
+        [
+          35086,
+          35092
+        ],
+        [
+          35235,
+          35241
+        ],
+        [
+          35449,
+          35455
+        ]
+      ]
+    },
+    {
+      "name": "ScGTR2",
+      "spans": [
+        [
+          19542,
+          19548
+        ],
+        [
+          19934,
+          19940
+        ],
+        [
+          20744,
+          20750
+        ],
+        [
+          20905,
+          20911
+        ],
+        [
+          21196,
+          21202
+        ],
+        [
+          21426,
+          21432
+        ],
+        [
+          21908,
+          21914
+        ],
+        [
+          22538,
+          22544
+        ],
+        [
+          22811,
+          22817
+        ],
+        [
+          23422,
+          23428
+        ],
+        [
+          23789,
+          23795
+        ],
+        [
+          24092,
+          24098
+        ],
+        [
+          29478,
+          29484
+        ],
+        [
+          29624,
+          29630
+        ],
+        [
+          29737,
+          29743
+        ],
+        [
+          30215,
+          30221
+        ],
+        [
+          31053,
+          31059
+        ],
+        [
+          31327,
+          31333
+        ],
+        [
+          31911,
+          31917
+        ],
+        [
+          32207,
+          32213
+        ],
+        [
+          32656,
+          32662
+        ],
+        [
+          32957,
+          32963
+        ],
+        [
+          33093,
+          33099
+        ],
+        [
+          33212,
+          33218
+        ],
+        [
+          33347,
+          33353
+        ],
+        [
+          33552,
+          33558
+        ],
+        [
+          33721,
+          33727
+        ],
+        [
+          33942,
+          33948
+        ],
+        [
+          34150,
+          34156
+        ],
+        [
+          34426,
+          34432
+        ],
+        [
+          34531,
+          34537
+        ],
+        [
+          35096,
+          35102
+        ],
+        [
+          35245,
+          35251
+        ],
+        [
+          35460,
+          35466
+        ]
+      ]
+    },
+    {
+      "name": "ScGTS",
+      "spans": [
+        [
+          19554,
+          19559
+        ],
+        [
+          19631,
+          19636
+        ],
+        [
+          21434,
+          21439
+        ],
+        [
+          23498,
+          23503
+        ],
+        [
+          23891,
+          23896
+        ]
+      ]
+    },
+    {
+      "name": "GAME17",
+      "spans": [
+        [
+          23111,
+          23117
+        ]
+      ]
+    },
+    {
+      "name": "EF1alpha",
+      "spans": [
+        [
+          29661,
+          29669
+        ]
+      ]
+    }
+  ]
+}

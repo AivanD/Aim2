@@ -1,0 +1,1756 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "acylsugars",
+				"spans": [
+					[167, 177],
+					[375, 385],
+					[1205, 1215]
+				]
+			},
+			{
+				"name": "aromatic acyl chains",
+				"spans": [[506, 526]]
+			},
+			{
+				"name": "sugars",
+				"spans": [[1497, 1503]]
+			},
+			{
+				"name": "hydroxyacyl chain",
+				"spans": [
+					[455, 472],
+					[1367, 1384],
+					[1505, 1522]
+				]
+			},
+			{
+				"name": "oligosaccharide cores",
+				"spans": [[432, 453]]
+			},
+			{
+				"name": "resin glycosides",
+				"spans": [[393, 409]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "biosynthetic pathways",
+				"spans": [[851, 872]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[964, 968]]
+			},
+			{
+				"name": "leaf",
+				"spans": [[973, 977]]
+			}
+		],
+		"species": [
+			{
+				"name": "Dichondra argentea",
+				"spans": [[1233, 1251]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Liquid chromatography coupled with tandem mass spectrometry (LC-MS/MS)",
+				"spans": [[874, 944]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant defense",
+				"spans": [[193, 206]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acylsugars",
+				"spans": [
+					[2337, 2347],
+					[2640, 2650],
+					[3150, 3160],
+					[3183, 3193],
+					[3290, 3300]
+				]
+			},
+			{
+				"name": "inositol",
+				"spans": [[2853, 2861]]
+			},
+			{
+				"name": "sucrose",
+				"spans": [[2820, 2827]]
+			},
+			{
+				"name": "coenzyme A-activated acyl groups",
+				"spans": [[3436, 3468]]
+			},
+			{
+				"name": "fatty acid",
+				"spans": [[2897, 2907]]
+			},
+			{
+				"name": "glucosinolates",
+				"spans": [[2300, 2314]]
+			},
+			{
+				"name": "cardenolides",
+				"spans": [[2352, 2364]]
+			},
+			{
+				"name": "alkaloids",
+				"spans": [[2316, 2325]]
+			},
+			{
+				"name": "branched amino acid",
+				"spans": [[2911, 2930]]
+			},
+			{
+				"name": "terpenes",
+				"spans": [[2327, 2335]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[2842, 2849]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "branched amino acid metabolism",
+				"spans": [[2911, 2941]]
+			}
+		],
+		"genes": [
+			{
+				"name": "BAHD acyltransferases",
+				"spans": [[3356, 3377]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "leaves",
+				"spans": [[3175, 3181]]
+			},
+			{
+				"name": "trichomes",
+				"spans": [[2705, 2714]]
+			}
+		],
+		"species": [
+			{
+				"name": "Salpiglossis sinuata",
+				"spans": [[3086, 3106]]
+			},
+			{
+				"name": "Nicotiana alata",
+				"spans": [[3111, 3126]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "defense",
+				"spans": [[2498, 2505]]
+			},
+			{
+				"name": "pollination",
+				"spans": [[2485, 2496]]
+			},
+			{
+				"name": "resilience to abiotic stress conditions",
+				"spans": [[2511, 2550]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acylsugars",
+				"spans": [
+					[3511, 3521],
+					[4187, 4197],
+					[4222, 4232],
+					[4253, 4263],
+					[4307, 4317],
+					[4366, 4376]
+				]
+			},
+			{
+				"name": "hydroxyacyl chains",
+				"spans": [[4077, 4095]]
+			},
+			{
+				"name": "deoxyhexoses",
+				"spans": [[4842, 4854]]
+			},
+			{
+				"name": "pentoses",
+				"spans": [[4832, 4840]]
+			},
+			{
+				"name": "resin glycosides",
+				"spans": [
+					[4450, 4466],
+					[5487, 5503]
+				]
+			},
+			{
+				"name": "dihydroxy fatty acid",
+				"spans": [[4906, 4926]]
+			},
+			{
+				"name": "hydroxy fatty acid",
+				"spans": [[4908, 4926]]
+			},
+			{
+				"name": "aliphatic acyl side chains",
+				"spans": [[5016, 5042]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[4055, 4062]]
+			},
+			{
+				"name": "RGs",
+				"spans": [
+					[4468, 4471],
+					[5079, 5082],
+					[5155, 5158],
+					[5383, 5386]
+				]
+			},
+			{
+				"name": "hexoses",
+				"spans": [[4860, 4867]]
+			},
+			{
+				"name": "acylated sugar compounds",
+				"spans": [
+					[3697, 3721],
+					[3952, 3976]
+				]
+			},
+			{
+				"name": "acyl chains",
+				"spans": [[4084, 4095]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [
+					[5465, 5469],
+					[5523, 5527]
+				]
+			}
+		],
+		"species": [
+			{
+				"name": "Ibicella lutea",
+				"spans": [[3781, 3795]]
+			},
+			{
+				"name": "Cerastium glomeratum",
+				"spans": [[3846, 3866]]
+			},
+			{
+				"name": "Geranium carolinianum",
+				"spans": [[3890, 3911]]
+			},
+			{
+				"name": "Silene gallica",
+				"spans": [[3812, 3826]]
+			},
+			{
+				"name": "Ipomoea purga",
+				"spans": [[5451, 5464]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "allelopathic interactions",
+				"spans": [[5356, 5381]]
+			},
+			{
+				"name": "herbivory defense",
+				"spans": [[5286, 5303]]
+			}
+		],
+		"human_traits": [
+			{
+				"name": "purgative properties",
+				"spans": [[5416, 5436]]
+			}
+		]
+	},
+	{
+		"compounds": [
+			{
+				"name": "acylsugars",
+				"spans": [
+					[6038, 6048],
+					[6371, 6381]
+				]
+			},
+			{
+				"name": "hydroxyacyl chains",
+				"spans": [[6212, 6230]]
+			},
+			{
+				"name": "ester decorations",
+				"spans": [[6244, 6261]]
+			},
+			{
+				"name": "sugar cores",
+				"spans": [[6199, 6210]]
+			},
+			{
+				"name": "resin glycosides",
+				"spans": [
+					[5645, 5661],
+					[6277, 6293]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "RG",
+				"spans": [
+					[7350, 7352],
+					[7630, 7632],
+					[7943, 7945],
+					[8090, 8092]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "D. argentea",
+				"spans": [[7368, 7379]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "matK",
+				"spans": [[8663, 8667]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "plastid DNA",
+				"spans": [[8690, 8701]]
+			}
+		],
+		"species": [
+			{
+				"name": "Convolvulus sp.",
+				"spans": [[8917, 8932]]
+			},
+			{
+				"name": "Distimake quinquefolius",
+				"spans": [[8796, 8819]]
+			},
+			{
+				"name": "Ipomoea sp.",
+				"spans": [[8886, 8897]]
+			},
+			{
+				"name": "Calystegia sepium",
+				"spans": [[8844, 8861]]
+			},
+			{
+				"name": "Merremia sp.",
+				"spans": [[8899, 8911]]
+			},
+			{
+				"name": "Ipomoea pubescens",
+				"spans": [[8821, 8838]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [[9650, 9677]]
+			},
+			{
+				"name": "C16-OH",
+				"spans": [[9679, 9685]]
+			},
+			{
+				"name": "jalapinolic acid",
+				"spans": [[9632, 9648]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf",
+				"spans": [[8980, 8984]]
+			},
+			{
+				"name": "Root",
+				"spans": [[8971, 8975]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "growth chambers",
+				"spans": [[9023, 9038]]
+			},
+			{
+				"name": "greenhouses",
+				"spans": [[9043, 9054]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "growth stage",
+				"spans": [[9371, 9383]]
+			},
+			{
+				"name": "growth habits",
+				"spans": [[9479, 9492]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Dichondrin D",
+				"spans": [[10051, 10063]]
+			},
+			{
+				"name": "jalapinolic acid",
+				"spans": [[9970, 9986]]
+			},
+			{
+				"name": "resin glycoside",
+				"spans": [[9844, 9859]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "root",
+				"spans": [[10142, 10146]]
+			},
+			{
+				"name": "leaf",
+				"spans": [[10151, 10155]]
+			}
+		],
+		"species": [
+			{
+				"name": "D. argentea",
+				"spans": [[10079, 10090]]
+			},
+			{
+				"name": "C. arvensis",
+				"spans": [[10008, 10019]]
+			},
+			{
+				"name": "I. purpurea",
+				"spans": [[9992, 10003]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "deoxyhexose",
+				"spans": [[10615, 10626]]
+			},
+			{
+				"name": "dihydroxy-acyl chain",
+				"spans": [[10520, 10540]]
+			},
+			{
+				"name": "pentose",
+				"spans": [[10606, 10613]]
+			},
+			{
+				"name": "hydroxy-acyl chain",
+				"spans": [[10522, 10540]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[10630, 10636]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Convolvulus arvensis",
+				"spans": [[11741, 11761]]
+			},
+			{
+				"name": "C. arvensis",
+				"spans": [[11845, 11856]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "deoxyhexose",
+				"spans": [[12315, 12326]]
+			},
+			{
+				"name": "pentose",
+				"spans": [[12306, 12313]]
+			},
+			{
+				"name": "resin glycoside",
+				"spans": [[11939, 11954]]
+			},
+			{
+				"name": "macrolactone ring",
+				"spans": [[12408, 12425]]
+			},
+			{
+				"name": "acetic acid",
+				"spans": [[12967, 12978]]
+			},
+			{
+				"name": "hydroxyacyl chain",
+				"spans": [[12376, 12393]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[12331, 12337]]
+			},
+			{
+				"name": "acyl chain",
+				"spans": [
+					[12383, 12393],
+					[12694, 12704],
+					[12749, 12759],
+					[12833, 12843],
+					[12913, 12923],
+					[13164, 13174]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "matK",
+				"spans": [[12107, 12111]]
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "organ",
+				"spans": [
+					[11900, 11905],
+					[12161, 12166]
+				]
+			},
+			{
+				"name": "seed",
+				"spans": [[12031, 12035]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "glucose",
+				"spans": [[13804, 13811]]
+			},
+			{
+				"name": "jalapinolic acid",
+				"spans": [[13565, 13581]]
+			},
+			{
+				"name": "hydroxyacyl chain",
+				"spans": [[13843, 13860]]
+			},
+			{
+				"name": "rhamnose",
+				"spans": [[13496, 13504]]
+			},
+			{
+				"name": "fucose",
+				"spans": [[13468, 13474]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "D. argentea",
+				"spans": [[13345, 13356]]
+			},
+			{
+				"name": "Dichondra repens",
+				"spans": [[13690, 13706]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Calystegia",
+				"spans": [[14803, 14813]]
+			},
+			{
+				"name": "Dichondra",
+				"spans": [
+					[14455, 14464],
+					[14824, 14833]
+				]
+			},
+			{
+				"name": "Merremia",
+				"spans": [[14839, 14847]]
+			},
+			{
+				"name": "Argyreia",
+				"spans": [[15263, 15271]]
+			},
+			{
+				"name": "Aniseia",
+				"spans": [[15240, 15247]]
+			},
+			{
+				"name": "Convolvulus",
+				"spans": [
+					[14790, 14801],
+					[15096, 15107]
+				]
+			},
+			{
+				"name": "Ipomoea",
+				"spans": [
+					[14815, 14822],
+					[15084, 15091]
+				]
+			},
+			{
+				"name": "Jacquemontia",
+				"spans": [
+					[14469, 14481],
+					[15249, 15261]
+				]
+			},
+			{
+				"name": "Cuscuta",
+				"spans": [[14516, 14523]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "sampling conditions",
+				"spans": [[15014, 15033]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "RG diversity",
+				"spans": [
+					[14317, 14329],
+					[14974, 14986]
+				]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acylsugars",
+				"spans": [[16104, 16114]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Convolvulus equitans",
+				"spans": [[15475, 15495]]
+			},
+			{
+				"name": "Solanum habrochaites",
+				"spans": [[16133, 16153]]
+			},
+			{
+				"name": "C. arvensis",
+				"spans": [[15610, 15621]]
+			},
+			{
+				"name": "Solanum pennellii",
+				"spans": [[16158, 16175]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "RG profiles",
+				"spans": [[15841, 15852]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "RGs",
+				"spans": [
+					[16333, 16336],
+					[16674, 16677],
+					[16903, 16906],
+					[16972, 16975],
+					[17037, 17040]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [
+					[16256, 16261],
+					[16397, 16402],
+					[16547, 16552],
+					[16681, 16686],
+					[16731, 16736],
+					[16925, 16930],
+					[16996, 17001]
+				]
+			},
+			{
+				"name": "leaves",
+				"spans": [
+					[16245, 16251],
+					[16384, 16390],
+					[16536, 16542],
+					[16691, 16697],
+					[16741, 16747],
+					[17066, 17072]
+				]
+			},
+			{
+				"name": "organs",
+				"spans": [[16475, 16481]]
+			}
+		],
+		"species": [
+			{
+				"name": "Ipomoea purpurea",
+				"spans": [[16872, 16888]]
+			},
+			{
+				"name": "Merremia sp.",
+				"spans": [[16792, 16804]]
+			},
+			{
+				"name": "Ipomoea trifida",
+				"spans": [[16855, 16870]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "hydroxyacyl chains",
+				"spans": [
+					[17307, 17325],
+					[17403, 17421],
+					[17698, 17716]
+				]
+			},
+			{
+				"name": "hydroxypentadecanoic acid",
+				"spans": [[17831, 17856]]
+			},
+			{
+				"name": "hydroxyoctadecanoic acid",
+				"spans": [[17941, 17965]]
+			},
+			{
+				"name": "oligosaccharide",
+				"spans": [[17282, 17297]]
+			},
+			{
+				"name": "dihydroxyhexadecanoic acid",
+				"spans": [[17883, 17909]]
+			},
+			{
+				"name": "jalapinolic acid",
+				"spans": [[17647, 17663]]
+			},
+			{
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [[17618, 17645]]
+			},
+			{
+				"name": "acyl chains",
+				"spans": [
+					[17314, 17325],
+					[17346, 17357],
+					[17410, 17421],
+					[17528, 17539],
+					[17705, 17716]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "C. equitans",
+				"spans": [[17814, 17825]]
+			},
+			{
+				"name": "C. arvensis",
+				"spans": [[17798, 17809]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "structural diversity",
+				"spans": [[17229, 17249]]
+			},
+			{
+				"name": "RG diversity",
+				"spans": [[17785, 17797]]
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "pentose",
+				"spans": [
+					[18617, 18624],
+					[18754, 18761],
+					[19365, 19372],
+					[19559, 19566],
+					[20017, 20024]
+				]
+			},
+			{
+				"name": "quinovose",
+				"spans": [
+					[18385, 18394],
+					[19023, 19032]
+				]
+			},
+			{
+				"name": "hexose",
+				"spans": [
+					[18551, 18557],
+					[18645, 18651],
+					[18886, 18892],
+					[19011, 19017],
+					[19281, 19287],
+					[19377, 19383],
+					[19526, 19532],
+					[20007, 20013]
+				]
+			},
+			{
+				"name": "xylose",
+				"spans": [[18344, 18350]]
+			},
+			{
+				"name": "glucose",
+				"spans": [
+					[18410, 18417],
+					[18580, 18587],
+					[19000, 19007],
+					[19758, 19765]
+				]
+			},
+			{
+				"name": "C16-OH",
+				"spans": [[18139, 18145]]
+			},
+			{
+				"name": "hydroxyacyl chain",
+				"spans": [
+					[18234, 18251],
+					[19216, 19233],
+					[19612, 19629],
+					[19730, 19747],
+					[19834, 19851]
+				]
+			},
+			{
+				"name": "rhamnose",
+				"spans": [[18367, 18375]]
+			},
+			{
+				"name": "deoxyhexose",
+				"spans": [
+					[18158, 18169],
+					[18629, 18640],
+					[18738, 18749],
+					[18870, 18881],
+					[19036, 19047],
+					[19196, 19207],
+					[19544, 19555]
+				]
+			},
+			{
+				"name": "fucose",
+				"spans": [[18377, 18383]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "RG biosynthesis",
+				"spans": [[19958, 19973]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Operculina turpethum",
+				"spans": [[19700, 19720]]
+			},
+			{
+				"name": "D. argentea",
+				"spans": [[19409, 19420]]
+			},
+			{
+				"name": "Xenostegia tridentata",
+				"spans": [[19500, 19521]]
+			},
+			{
+				"name": "Operculina macrocarpa",
+				"spans": [[19674, 19695]]
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "electrospray ionization",
+				"spans": [[19291, 19314]]
+			},
+			{
+				"name": "LC-MS",
+				"spans": [[19353, 19358]]
+			},
+			{
+				"name": "collision-induced dissociation",
+				"spans": [[19319, 19349]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "methylbutyric",
+				"spans": [[20769, 20782]]
+			},
+			{
+				"name": "acyl CoAs",
+				"spans": [[20265, 20274]]
+			},
+			{
+				"name": "pentanoic",
+				"spans": [
+					[20796, 20805],
+					[20859, 20868]
+				]
+			},
+			{
+				"name": "acetoacetic",
+				"spans": [[20979, 20990]]
+			},
+			{
+				"name": "isovaleric",
+				"spans": [[20784, 20794]]
+			},
+			{
+				"name": "crotonic",
+				"spans": [[20965, 20973]]
+			},
+			{
+				"name": "acrylic",
+				"spans": [[20956, 20963]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "sugar hydroxyl groups",
+				"spans": [[20199, 20220]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "unsaturated fatty acids",
+				"spans": [[22258, 22281]]
+			},
+			{
+				"name": "tiglic",
+				"spans": [
+					[21853, 21859],
+					[22114, 22120]
+				]
+			},
+			{
+				"name": "pentanoic acid",
+				"spans": [[21565, 21579]]
+			},
+			{
+				"name": "2S-methylbutyric acid",
+				"spans": [[21958, 21979]]
+			},
+			{
+				"name": "short-chain fatty acids",
+				"spans": [[22165, 22188]]
+			},
+			{
+				"name": "HMBA",
+				"spans": [[21515, 21519]]
+			},
+			{
+				"name": "cinnamic acid",
+				"spans": [
+					[21614, 21627],
+					[21687, 21700]
+				]
+			},
+			{
+				"name": "hydroxymethylbutyric acid",
+				"spans": [[21488, 21513]]
+			},
+			{
+				"name": "trans-cinnamic acid",
+				"spans": [[21681, 21700]]
+			},
+			{
+				"name": "2S-methylbutyric",
+				"spans": [
+					[21958, 21974],
+					[22092, 22108]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Calystegia",
+				"spans": [
+					[21743, 21753],
+					[21809, 21819],
+					[21908, 21918]
+				]
+			},
+			{
+				"name": "Calystegia soldanella",
+				"spans": [[21809, 21830]]
+			},
+			{
+				"name": "Calystegia hederacea",
+				"spans": [[21908, 21928]]
+			},
+			{
+				"name": "Convolvulus",
+				"spans": [[21435, 21446]]
+			},
+			{
+				"name": "C. soldanella",
+				"spans": [[21933, 21946]]
+			},
+			{
+				"name": "Ipomoea",
+				"spans": [
+					[21538, 21545],
+					[21652, 21659]
+				]
+			},
+			{
+				"name": "Operculina",
+				"spans": [
+					[22045, 22055],
+					[22134, 22144]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "hepta-saccharides",
+				"spans": [[23510, 23527]]
+			},
+			{
+				"name": "tetra-saccharides",
+				"spans": [[23555, 23572]]
+			},
+			{
+				"name": "RGs",
+				"spans": [
+					[22451, 22454],
+					[22627, 22630],
+					[22650, 22653],
+					[23020, 23023],
+					[23296, 23299],
+					[23373, 23376],
+					[23453, 23456]
+				]
+			},
+			{
+				"name": "acyl chain",
+				"spans": [[23640, 23650]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "C. arvensis",
+				"spans": [[23462, 23473]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "resin glycosides",
+				"spans": [[23769, 23785]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "CO2",
+				"spans": [[25616, 25619]]
+			},
+			{
+				"name": "water",
+				"spans": [
+					[25682, 25687],
+					[25714, 25719]
+				]
+			},
+			{
+				"name": "formate",
+				"spans": [[25592, 25599]]
+			},
+			{
+				"name": "hydroxyacyl",
+				"spans": [[25516, 25527]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "macrolactone ring",
+				"spans": [[25760, 25777]]
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "electrospray ionization",
+				"spans": [[25944, 25967]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Convolvulus equitans",
+				"spans": [[26036, 26056]]
+			},
+			{
+				"name": "Dichondra argentea",
+				"spans": [[26088, 26106]]
+			},
+			{
+				"name": "Ipomoea tricolor",
+				"spans": [[26062, 26078]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "acyl chains",
+				"spans": [
+					[27230, 27241],
+					[27390, 27401]
+				]
+			},
+			{
+				"name": "water",
+				"spans": [[27422, 27427]]
+			},
+			{
+				"name": "formate",
+				"spans": [
+					[27437, 27444],
+					[27448, 27455],
+					[27774, 27781]
+				]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Merremin D",
+				"spans": [[28124, 28134]]
+			},
+			{
+				"name": "Tricolorin A",
+				"spans": [
+					[28340, 28352],
+					[28647, 28659]
+				]
+			},
+			{
+				"name": "methylbutyric acid",
+				"spans": [[28463, 28481]]
+			},
+			{
+				"name": "Tricolorins E",
+				"spans": [[28605, 28618]]
+			},
+			{
+				"name": "formate",
+				"spans": [[28554, 28561]]
+			},
+			{
+				"name": "glucose",
+				"spans": [[28417, 28424]]
+			},
+			{
+				"name": "rhamnoses",
+				"spans": [[28390, 28399]]
+			},
+			{
+				"name": "Dichondrin D",
+				"spans": [[28069, 28081]]
+			},
+			{
+				"name": "decanoic acid",
+				"spans": [
+					[28146, 28159],
+					[28246, 28259],
+					[28440, 28453]
+				]
+			},
+			{
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [[28426, 28453]]
+			},
+			{
+				"name": "fucose",
+				"spans": [[28405, 28411]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "tricolorins",
+				"spans": [[28949, 28960]]
+			},
+			{
+				"name": "water",
+				"spans": [[29106, 29111]]
+			},
+			{
+				"name": "tricolorin A",
+				"spans": [[28967, 28979]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Ipomoea tricolor",
+				"spans": [[29058, 29074]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "pentanoic acid",
+				"spans": [[30011, 30025]]
+			},
+			{
+				"name": "hydroxymethylbutyric acid",
+				"spans": [[30079, 30104]]
+			},
+			{
+				"name": "hexose",
+				"spans": [[30068, 30074]]
+			},
+			{
+				"name": "formate",
+				"spans": [[30239, 30246]]
+			},
+			{
+				"name": "deoxyhexose",
+				"spans": [[29995, 30006]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Ipomoea tricolor",
+				"spans": [[31309, 31325]]
+			},
+			{
+				"name": "Merremia",
+				"spans": [[31288, 31296]]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "even-chain fatty acids",
+				"spans": [[32431, 32453]]
+			},
+			{
+				"name": "C16-OHOH",
+				"spans": [[31852, 31860]]
+			},
+			{
+				"name": "acylsugars",
+				"spans": [[32372, 32382]]
+			},
+			{
+				"name": "propionyl coA",
+				"spans": [[32234, 32247]]
+			},
+			{
+				"name": "hydroxyheptadecanoic acid",
+				"spans": [
+					[32704, 32729],
+					[32867, 32892]
+				]
+			},
+			{
+				"name": "12-Hydroxyhexadecanoic acid",
+				"spans": [[32666, 32693]]
+			},
+			{
+				"name": "odd-chain fatty acids",
+				"spans": [
+					[31862, 31883],
+					[32176, 32197]
+				]
+			},
+			{
+				"name": "11(S)-hydroxyheptadecanoic acid",
+				"spans": [[32698, 32729]]
+			},
+			{
+				"name": "fatty acids",
+				"spans": [
+					[31872, 31883],
+					[32186, 32197],
+					[32352, 32363],
+					[32442, 32453]
+				]
+			},
+			{
+				"name": "C15",
+				"spans": [
+					[31823, 31826],
+					[31885, 31888],
+					[32132, 32135]
+				]
+			},
+			{
+				"name": "C16-OH",
+				"spans": [[31740, 31746]]
+			},
+			{
+				"name": "hydroxylated C17 fatty acid",
+				"spans": [[32000, 32027]]
+			},
+			{
+				"name": "jalapinolic acid",
+				"spans": [[33045, 33061]]
+			},
+			{
+				"name": "hydroxyacyl groups",
+				"spans": [[31653, 31671]]
+			},
+			{
+				"name": "acetyl coA",
+				"spans": [[32306, 32316]]
+			},
+			{
+				"name": "C17",
+				"spans": [
+					[31828, 31831],
+					[31890, 31893],
+					[32013, 32016]
+				]
+			}
+		],
+		"pathways": [
+			{
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]]
+			},
+			{
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "roots",
+				"spans": [[31619, 31624]]
+			}
+		],
+		"species": [
+			{
+				"name": "O. turpethum",
+				"spans": [[32765, 32777]]
+			},
+			{
+				"name": "C. arvensis",
+				"spans": [
+					[32096, 32107],
+					[32782, 32793]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "3-methylbutyric acid",
+				"spans": [[33289, 33309]]
+			},
+			{
+				"name": "isobutyric acid",
+				"spans": [[33367, 33382]]
+			},
+			{
+				"name": "tiglic",
+				"spans": [[33401, 33407]]
+			},
+			{
+				"name": "valeric acid",
+				"spans": [[33253, 33265]]
+			},
+			{
+				"name": "n-butyric acid",
+				"spans": [[33384, 33398]]
+			},
+			{
+				"name": "acetic",
+				"spans": [[33412, 33418]]
+			},
+			{
+				"name": "2-methylbutyric acid",
+				"spans": [[33267, 33287]]
+			}
+		],
+		"pathways": [
+			{
+				"name": "Solanaceae acylsugar biosynthetic pathway",
+				"spans": [[33778, 33819]]
+			},
+			{
+				"name": "branched chain amino acid biosynthesis",
+				"spans": [[33552, 33590]]
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "pentanoic",
+				"spans": [[34814, 34823]]
+			},
+			{
+				"name": "HMBA",
+				"spans": [[34805, 34809]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Ipomoea",
+				"spans": [
+					[34544, 34551],
+					[34791, 34798]
+				]
+			},
+			{
+				"name": "Convolvulus",
+				"spans": [
+					[34556, 34567],
+					[34711, 34722],
+					[34775, 34786]
+				]
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "acyltransferases",
+				"spans": [[34895, 34911]]
+			},
+			{
+				"name": "glycosyl",
+				"spans": [[34882, 34890]]
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "flavonoids",
+				"spans": [[35791, 35801]]
+			},
+			{
+				"name": "lipids",
+				"spans": [[35593, 35599]]
+			},
+			{
+				"name": "acylsugars",
+				"spans": [[36208, 36218]]
+			},
+			{
+				"name": "anthocyanins",
+				"spans": [[35806, 35818]]
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "untargeted LC-MS/MS data",
+				"spans": [[35719, 35743]]
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	}
+]

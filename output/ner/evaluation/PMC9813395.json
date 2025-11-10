@@ -1,0 +1,4897 @@
+[
+  {
+    "compounds": [
+      {
+        "name": "GA",
+        "spans": [
+          [
+            171,
+            173
+          ],
+          [
+            381,
+            383
+          ],
+          [
+            655,
+            657
+          ],
+          [
+            1110,
+            1112
+          ]
+        ]
+      },
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            588,
+            591
+          ]
+        ]
+      },
+      {
+        "name": "gibberellic acid",
+        "spans": [
+          [
+            153,
+            169
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA signaling",
+        "spans": [
+          [
+            381,
+            393
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            455,
+            461
+          ],
+          [
+            550,
+            556
+          ],
+          [
+            703,
+            709
+          ],
+          [
+            798,
+            804
+          ],
+          [
+            917,
+            923
+          ],
+          [
+            931,
+            937
+          ],
+          [
+            962,
+            968
+          ],
+          [
+            1076,
+            1082
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            603,
+            609
+          ]
+        ]
+      },
+      {
+        "name": "flag leaves",
+        "spans": [
+          [
+            902,
+            913
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Oryza sativa",
+        "spans": [
+          [
+            498,
+            510
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "GA application",
+        "spans": [
+          [
+            655,
+            669
+          ]
+        ]
+      },
+      {
+        "name": "Ac/Ds knockout system",
+        "spans": [
+          [
+            523,
+            544
+          ]
+        ]
+      },
+      {
+        "name": "osgasd knockout (Ko) mutation",
+        "spans": [
+          [
+            550,
+            579
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            683,
+            695
+          ],
+          [
+            827,
+            839
+          ]
+        ]
+      },
+      {
+        "name": "grain yield",
+        "spans": [
+          [
+            844,
+            855
+          ]
+        ]
+      },
+      {
+        "name": "plant development",
+        "spans": [
+          [
+            1137,
+            1154
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            192,
+            204
+          ],
+          [
+            280,
+            292
+          ],
+          [
+            621,
+            633
+          ]
+        ]
+      },
+      {
+        "name": "cell elongation",
+        "spans": [
+          [
+            304,
+            319
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "productivity",
+        "spans": [
+          [
+            209,
+            221
+          ],
+          [
+            1190,
+            1202
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "SPIKELET NUMBER",
+        "spans": [
+          [
+            1950,
+            1965
+          ],
+          [
+            2010,
+            2025
+          ]
+        ]
+      },
+      {
+        "name": "SPIKE",
+        "spans": [
+          [
+            1967,
+            1972
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            1771,
+            1777
+          ],
+          [
+            1803,
+            1809
+          ]
+        ]
+      },
+      {
+        "name": "Flag leaves",
+        "spans": [
+          [
+            1798,
+            1809
+          ]
+        ]
+      },
+      {
+        "name": "floral organ",
+        "spans": [
+          [
+            1869,
+            1881
+          ]
+        ]
+      },
+      {
+        "name": "flowers",
+        "spans": [
+          [
+            1759,
+            1766
+          ]
+        ]
+      },
+      {
+        "name": "cell",
+        "spans": [
+          [
+            2116,
+            2120
+          ]
+        ]
+      },
+      {
+        "name": "seed",
+        "spans": [
+          [
+            1886,
+            1890
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Oryza sativa",
+        "spans": [
+          [
+            1279,
+            1291
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "Plant morphology",
+        "spans": [
+          [
+            2082,
+            2098
+          ]
+        ]
+      },
+      {
+        "name": "spikelet number",
+        "spans": [
+          [
+            1950,
+            1965
+          ],
+          [
+            2010,
+            2025
+          ]
+        ]
+      },
+      {
+        "name": "filling rate",
+        "spans": [
+          [
+            1422,
+            1434
+          ],
+          [
+            1617,
+            1629
+          ],
+          [
+            1646,
+            1658
+          ]
+        ]
+      },
+      {
+        "name": "yield",
+        "spans": [
+          [
+            2048,
+            2053
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            1388,
+            1400
+          ]
+        ]
+      },
+      {
+        "name": "total grain weight",
+        "spans": [
+          [
+            1469,
+            1487
+          ],
+          [
+            1559,
+            1577
+          ]
+        ]
+      },
+      {
+        "name": "flag leaf size",
+        "spans": [
+          [
+            1991,
+            2005
+          ]
+        ]
+      },
+      {
+        "name": "plant architecture",
+        "spans": [
+          [
+            1217,
+            1235
+          ]
+        ]
+      },
+      {
+        "name": "number of panicles",
+        "spans": [
+          [
+            1402,
+            1420
+          ]
+        ]
+      },
+      {
+        "name": "thousand-grain weight",
+        "spans": [
+          [
+            1489,
+            1510
+          ]
+        ]
+      },
+      {
+        "name": "number of spikelets per panicle",
+        "spans": [
+          [
+            1436,
+            1467
+          ]
+        ]
+      },
+      {
+        "name": "grain size",
+        "spans": [
+          [
+            1516,
+            1526
+          ],
+          [
+            1602,
+            1612
+          ],
+          [
+            1631,
+            1641
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ARPC1",
+        "spans": [
+          [
+            2441,
+            2446
+          ]
+        ]
+      },
+      {
+        "name": "ARPC5",
+        "spans": [
+          [
+            2450,
+            2455
+          ]
+        ]
+      },
+      {
+        "name": "ARPC2",
+        "spans": [
+          [
+            2521,
+            2526
+          ],
+          [
+            2700,
+            2705
+          ],
+          [
+            2970,
+            2975
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            2909,
+            2915
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            2809,
+            2814
+          ]
+        ]
+      },
+      {
+        "name": "stems",
+        "spans": [
+          [
+            2917,
+            2922
+          ]
+        ]
+      },
+      {
+        "name": "cell wall",
+        "spans": [
+          [
+            2500,
+            2509
+          ]
+        ]
+      },
+      {
+        "name": "cytoskeleton",
+        "spans": [
+          [
+            2612,
+            2624
+          ]
+        ]
+      },
+      {
+        "name": "microtubules",
+        "spans": [
+          [
+            2592,
+            2604
+          ]
+        ]
+      },
+      {
+        "name": "cell",
+        "spans": [
+          [
+            2500,
+            2504
+          ],
+          [
+            2649,
+            2653
+          ],
+          [
+            2667,
+            2671
+          ],
+          [
+            2780,
+            2784
+          ]
+        ]
+      },
+      {
+        "name": "seed",
+        "spans": [
+          [
+            3008,
+            3012
+          ]
+        ]
+      },
+      {
+        "name": "floral organs",
+        "spans": [
+          [
+            2928,
+            2941
+          ]
+        ]
+      },
+      {
+        "name": "filaments",
+        "spans": [
+          [
+            2578,
+            2587
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis thaliana",
+        "spans": [
+          [
+            2722,
+            2742
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "shoot growth",
+        "spans": [
+          [
+            2809,
+            2821
+          ]
+        ]
+      },
+      {
+        "name": "developmental phenotypes",
+        "spans": [
+          [
+            2863,
+            2887
+          ]
+        ]
+      },
+      {
+        "name": "cell division",
+        "spans": [
+          [
+            2649,
+            2662
+          ]
+        ]
+      },
+      {
+        "name": "cell elongation",
+        "spans": [
+          [
+            2667,
+            2682
+          ]
+        ]
+      },
+      {
+        "name": "seed yield",
+        "spans": [
+          [
+            3008,
+            3018
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ent-kaurene",
+        "spans": [
+          [
+            3573,
+            3584
+          ],
+          [
+            3703,
+            3714
+          ]
+        ]
+      },
+      {
+        "name": "Gibberellic acids",
+        "spans": [
+          [
+            3020,
+            3037
+          ]
+        ]
+      },
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            3253,
+            3256
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "signaling pathways",
+        "spans": [
+          [
+            3339,
+            3357
+          ]
+        ]
+      },
+      {
+        "name": "GA biosynthesis pathway",
+        "spans": [
+          [
+            3538,
+            3561
+          ],
+          [
+            3732,
+            3755
+          ]
+        ]
+      },
+      {
+        "name": "GA metabolism",
+        "spans": [
+          [
+            3321,
+            3334
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "GA20ox",
+        "spans": [
+          [
+            3936,
+            3942
+          ],
+          [
+            3977,
+            3983
+          ],
+          [
+            4040,
+            4046
+          ],
+          [
+            4190,
+            4196
+          ]
+        ]
+      },
+      {
+        "name": "GA3ox",
+        "spans": [
+          [
+            3926,
+            3931
+          ]
+        ]
+      },
+      {
+        "name": "ent-kaurene gene",
+        "spans": [
+          [
+            3703,
+            3719
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Arabidopsis",
+        "spans": [
+          [
+            4022,
+            4033
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "applying GA3",
+        "spans": [
+          [
+            3244,
+            3256
+          ]
+        ]
+      },
+      {
+        "name": "GA-deficient",
+        "spans": [
+          [
+            3138,
+            3150
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "different expression patterns",
+        "spans": [
+          [
+            3944,
+            3973
+          ]
+        ]
+      },
+      {
+        "name": "increased expression",
+        "spans": [
+          [
+            3675,
+            3695
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "plant elongation",
+        "spans": [
+          [
+            3120,
+            3136
+          ]
+        ]
+      },
+      {
+        "name": "height",
+        "spans": [
+          [
+            3208,
+            3214
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            4122,
+            4134
+          ]
+        ]
+      },
+      {
+        "name": "dwarf phenotype",
+        "spans": [
+          [
+            4212,
+            4227
+          ]
+        ]
+      },
+      {
+        "name": "phenotypic variation",
+        "spans": [
+          [
+            3998,
+            4018
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GAs",
+        "spans": [
+          [
+            4894,
+            4897
+          ]
+        ]
+      },
+      {
+        "name": "gibberellic acid",
+        "spans": [
+          [
+            4451,
+            4467
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA biosynthetic pathway",
+        "spans": [
+          [
+            4728,
+            4751
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            4519,
+            4525
+          ],
+          [
+            4603,
+            4609
+          ],
+          [
+            4634,
+            4640
+          ],
+          [
+            4702,
+            4708
+          ]
+        ]
+      },
+      {
+        "name": "ARP genes",
+        "spans": [
+          [
+            4880,
+            4889
+          ]
+        ]
+      },
+      {
+        "name": "ARPC2",
+        "spans": [
+          [
+            4421,
+            4426
+          ]
+        ]
+      },
+      {
+        "name": "GASD",
+        "spans": [
+          [
+            4485,
+            4489
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "Ac/Ds knockout system",
+        "spans": [
+          [
+            4264,
+            4285
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "growth defects",
+        "spans": [
+          [
+            4337,
+            4351
+          ]
+        ]
+      },
+      {
+        "name": "productivity",
+        "spans": [
+          [
+            4809,
+            4821
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            4792,
+            4804
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "osgasd",
+        "spans": [
+          [
+            12946,
+            12952
+          ]
+        ]
+      },
+      {
+        "name": "Os04g0512300",
+        "spans": [
+          [
+            12367,
+            12379
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "Ac/Ds transposon insertion mutagenesis",
+        "spans": [
+          [
+            12048,
+            12086
+          ]
+        ]
+      },
+      {
+        "name": "T-DNA insertion",
+        "spans": [
+          [
+            12021,
+            12036
+          ],
+          [
+            12219,
+            12234
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "dwarf phenotype",
+        "spans": [
+          [
+            12116,
+            12131
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            13124,
+            13130
+          ],
+          [
+            13170,
+            13176
+          ],
+          [
+            13682,
+            13688
+          ],
+          [
+            13708,
+            13714
+          ],
+          [
+            14115,
+            14121
+          ],
+          [
+            14233,
+            14239
+          ]
+        ]
+      },
+      {
+        "name": "OsActin1",
+        "spans": [
+          [
+            13748,
+            13756
+          ]
+        ]
+      },
+      {
+        "name": "Os04g0512300",
+        "spans": [
+          [
+            13256,
+            13268
+          ]
+        ]
+      },
+      {
+        "name": "Os03g0718100",
+        "spans": [
+          [
+            13758,
+            13770
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "panicles neck node",
+        "spans": [
+          [
+            14073,
+            14091
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            14203,
+            14208
+          ]
+        ]
+      },
+      {
+        "name": "spikelet",
+        "spans": [
+          [
+            14096,
+            14104
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "MS media",
+        "spans": [
+          [
+            14316,
+            14324
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "shoot length",
+        "spans": [
+          [
+            14203,
+            14215
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            14401,
+            14407
+          ],
+          [
+            14461,
+            14467
+          ],
+          [
+            14828,
+            14834
+          ],
+          [
+            14931,
+            14937
+          ],
+          [
+            15019,
+            15025
+          ]
+        ]
+      },
+      {
+        "name": "GUS",
+        "spans": [
+          [
+            14667,
+            14670
+          ],
+          [
+            14691,
+            14694
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            14917,
+            14923
+          ]
+        ]
+      },
+      {
+        "name": "spikelets",
+        "spans": [
+          [
+            14811,
+            14820
+          ]
+        ]
+      },
+      {
+        "name": "panicle neck nodes",
+        "spans": [
+          [
+            14788,
+            14806
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "RT-qPCR",
+        "spans": [
+          [
+            14447,
+            14454
+          ]
+        ]
+      },
+      {
+        "name": "histochemical staining",
+        "spans": [
+          [
+            14640,
+            14662
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "GUS activity",
+        "spans": [
+          [
+            14667,
+            14679
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "shoot growth",
+        "spans": [
+          [
+            15043,
+            15055
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "4',6-diamidino-2-phenylindole",
+        "spans": [
+          [
+            15989,
+            16018
+          ]
+        ]
+      },
+      {
+        "name": "DAPI",
+        "spans": [
+          [
+            15983,
+            15987
+          ],
+          [
+            16141,
+            16145
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            15106,
+            15112
+          ],
+          [
+            15178,
+            15184
+          ],
+          [
+            15283,
+            15289
+          ],
+          [
+            15465,
+            15471
+          ],
+          [
+            15972,
+            15978
+          ],
+          [
+            16116,
+            16122
+          ],
+          [
+            16167,
+            16173
+          ],
+          [
+            16234,
+            16240
+          ]
+        ]
+      },
+      {
+        "name": "AtARPC2B",
+        "spans": [
+          [
+            15709,
+            15717
+          ]
+        ]
+      },
+      {
+        "name": "GASD",
+        "spans": [
+          [
+            15422,
+            15426
+          ]
+        ]
+      },
+      {
+        "name": "OsARPC2B",
+        "spans": [
+          [
+            15722,
+            15730
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "nucleus",
+        "spans": [
+          [
+            15853,
+            15860
+          ],
+          [
+            16177,
+            16184
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis thaliana",
+        "spans": [
+          [
+            15554,
+            15574
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "rice protoplast transient expression system",
+        "spans": [
+          [
+            16057,
+            16100
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant development",
+        "spans": [
+          [
+            16286,
+            16303
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            16671,
+            16674
+          ],
+          [
+            16833,
+            16836
+          ]
+        ]
+      },
+      {
+        "name": "Gibberellic acid",
+        "spans": [
+          [
+            16653,
+            16669
+          ],
+          [
+            16815,
+            16831
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            16380,
+            16386
+          ],
+          [
+            16482,
+            16488
+          ],
+          [
+            16595,
+            16601
+          ],
+          [
+            16724,
+            16730
+          ],
+          [
+            16876,
+            16882
+          ],
+          [
+            16953,
+            16959
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            16745,
+            16751
+          ],
+          [
+            16886,
+            16892
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            16760,
+            16765
+          ],
+          [
+            16905,
+            16910
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "Gibberellic acid (GA3) treatment",
+        "spans": [
+          [
+            16815,
+            16847
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "dwarf phenotype",
+        "spans": [
+          [
+            16403,
+            16418
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            17298,
+            17301
+          ],
+          [
+            17852,
+            17855
+          ]
+        ]
+      },
+      {
+        "name": "GA",
+        "spans": [
+          [
+            17084,
+            17086
+          ],
+          [
+            17223,
+            17225
+          ],
+          [
+            17350,
+            17352
+          ],
+          [
+            17820,
+            17822
+          ],
+          [
+            18255,
+            18257
+          ],
+          [
+            18295,
+            18297
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            17003,
+            17009
+          ],
+          [
+            17035,
+            17041
+          ],
+          [
+            17138,
+            17144
+          ],
+          [
+            17192,
+            17198
+          ],
+          [
+            17655,
+            17661
+          ],
+          [
+            17753,
+            17759
+          ],
+          [
+            18219,
+            18225
+          ]
+        ]
+      },
+      {
+        "name": "OsActin1",
+        "spans": [
+          [
+            17384,
+            17392
+          ]
+        ]
+      },
+      {
+        "name": "Os03g0718100",
+        "spans": [
+          [
+            17394,
+            17406
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "internodes",
+        "spans": [
+          [
+            18076,
+            18086
+          ],
+          [
+            18175,
+            18185
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            17148,
+            17153
+          ]
+        ]
+      },
+      {
+        "name": "panicle",
+        "spans": [
+          [
+            17717,
+            17724
+          ],
+          [
+            18013,
+            18020
+          ],
+          [
+            18025,
+            18032
+          ],
+          [
+            18163,
+            18170
+          ]
+        ]
+      },
+      {
+        "name": "root",
+        "spans": [
+          [
+            17158,
+            17162
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "grown on green house",
+        "spans": [
+          [
+            17678,
+            17698
+          ]
+        ]
+      },
+      {
+        "name": "WT plants did not treat with GA",
+        "spans": [
+          [
+            18266,
+            18297
+          ]
+        ]
+      },
+      {
+        "name": "treated with the indicated concentration of GA for 1, 10, 20 mg/L (ppm)",
+        "spans": [
+          [
+            17776,
+            17847
+          ]
+        ]
+      },
+      {
+        "name": "osgasd knockout mutant",
+        "spans": [
+          [
+            17035,
+            17057
+          ],
+          [
+            17655,
+            17677
+          ],
+          [
+            17753,
+            17775
+          ],
+          [
+            18219,
+            18241
+          ]
+        ]
+      },
+      {
+        "name": "Control plants were not treated with GA",
+        "spans": [
+          [
+            17313,
+            17352
+          ]
+        ]
+      },
+      {
+        "name": "GA3 solution were sprayed with distilled water as control",
+        "spans": [
+          [
+            17852,
+            17909
+          ]
+        ]
+      },
+      {
+        "name": "wild-type seedlings",
+        "spans": [
+          [
+            17239,
+            17258
+          ]
+        ]
+      },
+      {
+        "name": "treated with 100 microM GA3 for 15min",
+        "spans": [
+          [
+            17274,
+            17311
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "relative expression levels",
+        "spans": [
+          [
+            17444,
+            17470
+          ]
+        ]
+      },
+      {
+        "name": "transcript level",
+        "spans": [
+          [
+            17172,
+            17188
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "internodes length",
+        "spans": [
+          [
+            18175,
+            18192
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            17930,
+            17942
+          ],
+          [
+            18145,
+            18157
+          ]
+        ]
+      },
+      {
+        "name": "panicle length",
+        "spans": [
+          [
+            18025,
+            18039
+          ]
+        ]
+      },
+      {
+        "name": "tiller number",
+        "spans": [
+          [
+            18198,
+            18211
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            18906,
+            18909
+          ],
+          [
+            18985,
+            18988
+          ],
+          [
+            19194,
+            19197
+          ]
+        ]
+      },
+      {
+        "name": "GA",
+        "spans": [
+          [
+            18595,
+            18597
+          ],
+          [
+            18654,
+            18656
+          ],
+          [
+            18716,
+            18718
+          ],
+          [
+            19466,
+            19468
+          ],
+          [
+            19549,
+            19551
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA biosynthesis",
+        "spans": [
+          [
+            19549,
+            19564
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            18498,
+            18504
+          ],
+          [
+            18523,
+            18529
+          ],
+          [
+            18748,
+            18754
+          ],
+          [
+            18862,
+            18868
+          ],
+          [
+            18948,
+            18954
+          ],
+          [
+            19142,
+            19148
+          ],
+          [
+            19451,
+            19457
+          ],
+          [
+            19488,
+            19494
+          ],
+          [
+            19519,
+            19525
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "internode",
+        "spans": [
+          [
+            19079,
+            19088
+          ]
+        ]
+      },
+      {
+        "name": "panicle",
+        "spans": [
+          [
+            19101,
+            19108
+          ],
+          [
+            19317,
+            19324
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "GA treatment",
+        "spans": [
+          [
+            18654,
+            18666
+          ]
+        ]
+      },
+      {
+        "name": "GA spray treatment",
+        "spans": [
+          [
+            18716,
+            18734
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "tiller number",
+        "spans": [
+          [
+            19121,
+            19134
+          ],
+          [
+            19371,
+            19384
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            18778,
+            18790
+          ],
+          [
+            18834,
+            18846
+          ]
+        ]
+      },
+      {
+        "name": "panicle length",
+        "spans": [
+          [
+            19101,
+            19115
+          ],
+          [
+            19317,
+            19331
+          ]
+        ]
+      },
+      {
+        "name": "internode elongation",
+        "spans": [
+          [
+            19079,
+            19099
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            19676,
+            19682
+          ],
+          [
+            19754,
+            19760
+          ],
+          [
+            20006,
+            20012
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "callus",
+        "spans": [
+          [
+            19822,
+            19828
+          ]
+        ]
+      },
+      {
+        "name": "internode",
+        "spans": [
+          [
+            20072,
+            20081
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            19686,
+            19690
+          ],
+          [
+            19716,
+            19720
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "Agrobacterium-mediated transformation",
+        "spans": [
+          [
+            19781,
+            19818
+          ]
+        ]
+      },
+      {
+        "name": "antibiotic selection",
+        "spans": [
+          [
+            19842,
+            19862
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            20055,
+            20067
+          ]
+        ]
+      },
+      {
+        "name": "internode length",
+        "spans": [
+          [
+            20072,
+            20088
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            20181,
+            20184
+          ],
+          [
+            20341,
+            20344
+          ],
+          [
+            20410,
+            20413
+          ],
+          [
+            20488,
+            20491
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA biosynthesis",
+        "spans": [
+          [
+            20218,
+            20233
+          ],
+          [
+            20650,
+            20665
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            20157,
+            20163
+          ],
+          [
+            20243,
+            20249
+          ],
+          [
+            20254,
+            20260
+          ],
+          [
+            20304,
+            20310
+          ],
+          [
+            20376,
+            20382
+          ],
+          [
+            20517,
+            20523
+          ],
+          [
+            20531,
+            20537
+          ],
+          [
+            20629,
+            20635
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            20356,
+            20362
+          ],
+          [
+            20669,
+            20675
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            20508,
+            20513
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ent-kaurene",
+        "spans": [
+          [
+            21091,
+            21102
+          ]
+        ]
+      },
+      {
+        "name": "copalyl diphosphate",
+        "spans": [
+          [
+            21057,
+            21076
+          ]
+        ]
+      },
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            20692,
+            20695
+          ],
+          [
+            20826,
+            20829
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "Os03g0718100",
+        "spans": [
+          [
+            21251,
+            21263
+          ]
+        ]
+      },
+      {
+        "name": "GA20",
+        "spans": [
+          [
+            21177,
+            21181
+          ]
+        ]
+      },
+      {
+        "name": "CPS",
+        "spans": [
+          [
+            21052,
+            21055
+          ]
+        ]
+      },
+      {
+        "name": "OsActin1",
+        "spans": [
+          [
+            21241,
+            21249
+          ]
+        ]
+      },
+      {
+        "name": "GA2",
+        "spans": [
+          [
+            21198,
+            21201
+          ]
+        ]
+      },
+      {
+        "name": "KO",
+        "spans": [
+          [
+            20894,
+            20896
+          ],
+          [
+            21030,
+            21032
+          ],
+          [
+            21113,
+            21115
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            20751,
+            20757
+          ],
+          [
+            20778,
+            20784
+          ]
+        ]
+      },
+      {
+        "name": "KAO",
+        "spans": [
+          [
+            21139,
+            21142
+          ]
+        ]
+      },
+      {
+        "name": "KS",
+        "spans": [
+          [
+            21087,
+            21089
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            20866,
+            20872
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            20881,
+            20886
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            21021,
+            21026
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "MS media",
+        "spans": [
+          [
+            20924,
+            20932
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "transcriptional expression levels",
+        "spans": [
+          [
+            20984,
+            21017
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ent-kaurene",
+        "spans": [
+          [
+            21689,
+            21700
+          ]
+        ]
+      },
+      {
+        "name": "copalyl diphosphate",
+        "spans": [
+          [
+            21653,
+            21672
+          ]
+        ]
+      },
+      {
+        "name": "ent-kaurenoic acid",
+        "spans": [
+          [
+            21716,
+            21734
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA biosynthesis",
+        "spans": [
+          [
+            21523,
+            21538
+          ],
+          [
+            21604,
+            21619
+          ],
+          [
+            21866,
+            21881
+          ],
+          [
+            22217,
+            22232
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "GA20",
+        "spans": [
+          [
+            21769,
+            21773
+          ],
+          [
+            21975,
+            21979
+          ],
+          [
+            22075,
+            22079
+          ]
+        ]
+      },
+      {
+        "name": "CPS",
+        "spans": [
+          [
+            21683,
+            21686
+          ]
+        ]
+      },
+      {
+        "name": "GA2",
+        "spans": [
+          [
+            21794,
+            21797
+          ],
+          [
+            21984,
+            21987
+          ],
+          [
+            22084,
+            22087
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            21501,
+            21507
+          ],
+          [
+            21571,
+            21577
+          ],
+          [
+            21924,
+            21930
+          ],
+          [
+            21938,
+            21944
+          ],
+          [
+            22021,
+            22027
+          ],
+          [
+            22120,
+            22126
+          ],
+          [
+            22195,
+            22201
+          ]
+        ]
+      },
+      {
+        "name": "KAO",
+        "spans": [
+          [
+            21748,
+            21751
+          ],
+          [
+            21970,
+            21973
+          ],
+          [
+            22070,
+            22073
+          ]
+        ]
+      },
+      {
+        "name": "KS",
+        "spans": [
+          [
+            21711,
+            21713
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            21542,
+            21548
+          ],
+          [
+            21895,
+            21901
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "osgasd Ko",
+        "spans": [
+          [
+            21938,
+            21947
+          ],
+          [
+            22120,
+            22129
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD Ox",
+        "spans": [
+          [
+            21924,
+            21933
+          ],
+          [
+            22021,
+            22030
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GAs",
+        "spans": [
+          [
+            22314,
+            22317
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            22403,
+            22409
+          ],
+          [
+            22529,
+            22535
+          ],
+          [
+            22540,
+            22546
+          ],
+          [
+            22586,
+            22592
+          ],
+          [
+            22733,
+            22739
+          ],
+          [
+            23102,
+            23108
+          ],
+          [
+            23213,
+            23219
+          ],
+          [
+            23306,
+            23312
+          ],
+          [
+            23446,
+            23452
+          ],
+          [
+            23503,
+            23509
+          ],
+          [
+            23671,
+            23677
+          ],
+          [
+            23702,
+            23708
+          ],
+          [
+            23889,
+            23895
+          ],
+          [
+            24034,
+            24040
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "grains",
+        "spans": [
+          [
+            22517,
+            22523
+          ],
+          [
+            23272,
+            23278
+          ],
+          [
+            23649,
+            23655
+          ],
+          [
+            23963,
+            23969
+          ]
+        ]
+      },
+      {
+        "name": "internodes",
+        "spans": [
+          [
+            22491,
+            22501
+          ]
+        ]
+      },
+      {
+        "name": "panicles",
+        "spans": [
+          [
+            22503,
+            22511
+          ],
+          [
+            22914,
+            22922
+          ],
+          [
+            23058,
+            23066
+          ],
+          [
+            23170,
+            23178
+          ]
+        ]
+      },
+      {
+        "name": "seeds",
+        "spans": [
+          [
+            24068,
+            24073
+          ]
+        ]
+      },
+      {
+        "name": "whole plants",
+        "spans": [
+          [
+            22477,
+            22489
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "seed size",
+        "spans": [
+          [
+            23760,
+            23769
+          ]
+        ]
+      },
+      {
+        "name": "panicle length",
+        "spans": [
+          [
+            23930,
+            23944
+          ]
+        ]
+      },
+      {
+        "name": "filling rate",
+        "spans": [
+          [
+            22924,
+            22936
+          ],
+          [
+            23418,
+            23430
+          ]
+        ]
+      },
+      {
+        "name": "grain weight",
+        "spans": [
+          [
+            22707,
+            22719
+          ],
+          [
+            22977,
+            22989
+          ],
+          [
+            23001,
+            23013
+          ],
+          [
+            23237,
+            23249
+          ],
+          [
+            23290,
+            23302
+          ],
+          [
+            23609,
+            23621
+          ],
+          [
+            23780,
+            23792
+          ],
+          [
+            23975,
+            23987
+          ]
+        ]
+      },
+      {
+        "name": "1,000-grain weight",
+        "spans": [
+          [
+            22995,
+            23013
+          ],
+          [
+            23284,
+            23302
+          ],
+          [
+            23774,
+            23792
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            22655,
+            22667
+          ]
+        ]
+      },
+      {
+        "name": "total grain weight",
+        "spans": [
+          [
+            22971,
+            22989
+          ],
+          [
+            23231,
+            23249
+          ],
+          [
+            23603,
+            23621
+          ]
+        ]
+      },
+      {
+        "name": "grain yield",
+        "spans": [
+          [
+            23874,
+            23885
+          ]
+        ]
+      },
+      {
+        "name": "plant productivity",
+        "spans": [
+          [
+            22348,
+            22366
+          ]
+        ]
+      },
+      {
+        "name": "internode length",
+        "spans": [
+          [
+            22669,
+            22685
+          ]
+        ]
+      },
+      {
+        "name": "number of panicles",
+        "spans": [
+          [
+            22904,
+            22922
+          ],
+          [
+            23048,
+            23066
+          ],
+          [
+            23160,
+            23178
+          ]
+        ]
+      },
+      {
+        "name": "number of spikelets per panicle",
+        "spans": [
+          [
+            22938,
+            22969
+          ]
+        ]
+      },
+      {
+        "name": "number of filled grains",
+        "spans": [
+          [
+            23255,
+            23278
+          ],
+          [
+            23632,
+            23655
+          ],
+          [
+            23946,
+            23969
+          ]
+        ]
+      },
+      {
+        "name": "panicle number",
+        "spans": [
+          [
+            22687,
+            22701
+          ]
+        ]
+      },
+      {
+        "name": "grain size",
+        "spans": [
+          [
+            22623,
+            22633
+          ],
+          [
+            22779,
+            22789
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            24117,
+            24123
+          ],
+          [
+            24227,
+            24233
+          ],
+          [
+            24259,
+            24265
+          ],
+          [
+            24672,
+            24678
+          ],
+          [
+            25169,
+            25175
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "grain",
+        "spans": [
+          [
+            24580,
+            24585
+          ],
+          [
+            25028,
+            25033
+          ],
+          [
+            25058,
+            25063
+          ]
+        ]
+      },
+      {
+        "name": "spikelet",
+        "spans": [
+          [
+            24996,
+            25004
+          ]
+        ]
+      },
+      {
+        "name": "internode",
+        "spans": [
+          [
+            24914,
+            24923
+          ]
+        ]
+      },
+      {
+        "name": "panicle",
+        "spans": [
+          [
+            24404,
+            24411
+          ],
+          [
+            24416,
+            24423
+          ],
+          [
+            24605,
+            24612
+          ],
+          [
+            24935,
+            24942
+          ],
+          [
+            24948,
+            24955
+          ],
+          [
+            25009,
+            25016
+          ]
+        ]
+      },
+      {
+        "name": "seed",
+        "spans": [
+          [
+            25092,
+            25096
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "normal growth conditions",
+        "spans": [
+          [
+            24155,
+            24179
+          ]
+        ]
+      },
+      {
+        "name": "grown in the field",
+        "spans": [
+          [
+            24293,
+            24311
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "number of spikelet per panicle",
+        "spans": [
+          [
+            24986,
+            25016
+          ]
+        ]
+      },
+      {
+        "name": "seed length",
+        "spans": [
+          [
+            25092,
+            25103
+          ]
+        ]
+      },
+      {
+        "name": "filling rate",
+        "spans": [
+          [
+            24968,
+            24980
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            24896,
+            24908
+          ]
+        ]
+      },
+      {
+        "name": "total grain weight",
+        "spans": [
+          [
+            25022,
+            25040
+          ]
+        ]
+      },
+      {
+        "name": "internode length",
+        "spans": [
+          [
+            24914,
+            24930
+          ]
+        ]
+      },
+      {
+        "name": "thousand grain weight",
+        "spans": [
+          [
+            25049,
+            25070
+          ]
+        ]
+      },
+      {
+        "name": "panicle number",
+        "spans": [
+          [
+            24948,
+            24962
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            25682,
+            25688
+          ],
+          [
+            25794,
+            25800
+          ],
+          [
+            25883,
+            25889
+          ],
+          [
+            25946,
+            25952
+          ],
+          [
+            25957,
+            25963
+          ],
+          [
+            26106,
+            26112
+          ],
+          [
+            26154,
+            26160
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "flag leaf",
+        "spans": [
+          [
+            25630,
+            25639
+          ],
+          [
+            25745,
+            25754
+          ],
+          [
+            25893,
+            25902
+          ]
+        ]
+      },
+      {
+        "name": "flag leaves",
+        "spans": [
+          [
+            25843,
+            25854
+          ],
+          [
+            26047,
+            26058
+          ],
+          [
+            26164,
+            26175
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "width of flag leaves",
+        "spans": [
+          [
+            26038,
+            26058
+          ]
+        ]
+      },
+      {
+        "name": "rice productivity",
+        "spans": [
+          [
+            25660,
+            25677
+          ],
+          [
+            25712,
+            25729
+          ]
+        ]
+      },
+      {
+        "name": "morphology of flag leaves",
+        "spans": [
+          [
+            25829,
+            25854
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            26298,
+            26304
+          ],
+          [
+            26325,
+            26331
+          ],
+          [
+            26416,
+            26422
+          ],
+          [
+            26448,
+            26454
+          ],
+          [
+            26639,
+            26645
+          ],
+          [
+            26653,
+            26659
+          ],
+          [
+            26863,
+            26869
+          ],
+          [
+            26874,
+            26880
+          ]
+        ]
+      },
+      {
+        "name": "osgasd",
+        "spans": [
+          [
+            26298,
+            26304
+          ],
+          [
+            26325,
+            26331
+          ],
+          [
+            26416,
+            26422
+          ],
+          [
+            26448,
+            26454
+          ],
+          [
+            26639,
+            26645
+          ],
+          [
+            26653,
+            26659
+          ],
+          [
+            26863,
+            26869
+          ],
+          [
+            26874,
+            26880
+          ]
+        ]
+      },
+      {
+        "name": "OsActin1",
+        "spans": [
+          [
+            27073,
+            27081
+          ]
+        ]
+      },
+      {
+        "name": "Os03g0718100",
+        "spans": [
+          [
+            27083,
+            27095
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "flag leaf",
+        "spans": [
+          [
+            26227,
+            26236
+          ],
+          [
+            26387,
+            26396
+          ],
+          [
+            26513,
+            26522
+          ],
+          [
+            26531,
+            26540
+          ],
+          [
+            26622,
+            26631
+          ],
+          [
+            26850,
+            26859
+          ]
+        ]
+      },
+      {
+        "name": "flag leaf surface",
+        "spans": [
+          [
+            26531,
+            26548
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "field",
+        "spans": [
+          [
+            26495,
+            26500
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "transcriptional expression levels",
+        "spans": [
+          [
+            26962,
+            26995
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "length",
+        "spans": [
+          [
+            26596,
+            26602
+          ]
+        ]
+      },
+      {
+        "name": "plant development",
+        "spans": [
+          [
+            26252,
+            26269
+          ],
+          [
+            26723,
+            26740
+          ]
+        ]
+      },
+      {
+        "name": "width",
+        "spans": [
+          [
+            26609,
+            26614
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA",
+        "spans": [
+          [
+            29154,
+            29156
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsTEM1",
+        "spans": [
+          [
+            28290,
+            28296
+          ],
+          [
+            28818,
+            28824
+          ]
+        ]
+      },
+      {
+        "name": "OsNCED3",
+        "spans": [
+          [
+            28630,
+            28637
+          ]
+        ]
+      },
+      {
+        "name": "OsCCR5",
+        "spans": [
+          [
+            28165,
+            28171
+          ],
+          [
+            28622,
+            28628
+          ]
+        ]
+      },
+      {
+        "name": "OsGH3-9",
+        "spans": [
+          [
+            28156,
+            28163
+          ],
+          [
+            28720,
+            28727
+          ]
+        ]
+      },
+      {
+        "name": "OsUFGT",
+        "spans": [
+          [
+            28177,
+            28183
+          ],
+          [
+            28642,
+            28648
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            27416,
+            27422
+          ],
+          [
+            27427,
+            27433
+          ],
+          [
+            27638,
+            27644
+          ],
+          [
+            27669,
+            27675
+          ],
+          [
+            27744,
+            27750
+          ],
+          [
+            27773,
+            27779
+          ],
+          [
+            28376,
+            28382
+          ],
+          [
+            28669,
+            28675
+          ],
+          [
+            28700,
+            28706
+          ],
+          [
+            28747,
+            28753
+          ],
+          [
+            28786,
+            28792
+          ],
+          [
+            28860,
+            28866
+          ],
+          [
+            28889,
+            28895
+          ],
+          [
+            28942,
+            28948
+          ],
+          [
+            29138,
+            29144
+          ]
+        ]
+      },
+      {
+        "name": "OsGrx-C7",
+        "spans": [
+          [
+            28303,
+            28311
+          ],
+          [
+            28829,
+            28837
+          ]
+        ]
+      },
+      {
+        "name": "OsKS8",
+        "spans": [
+          [
+            28282,
+            28287
+          ],
+          [
+            28811,
+            28816
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "cell",
+        "spans": [
+          [
+            28249,
+            28253
+          ]
+        ]
+      },
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            28200,
+            28205
+          ]
+        ]
+      },
+      {
+        "name": "flag leaves",
+        "spans": [
+          [
+            27399,
+            27410
+          ]
+        ]
+      },
+      {
+        "name": "flag leaf",
+        "spans": [
+          [
+            29021,
+            29030
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis",
+        "spans": [
+          [
+            28072,
+            28083
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "transcriptome sequencing",
+        "spans": [
+          [
+            27496,
+            27520
+          ]
+        ]
+      },
+      {
+        "name": "RT-qPCR",
+        "spans": [
+          [
+            28545,
+            28552
+          ]
+        ]
+      },
+      {
+        "name": "RNA-seq",
+        "spans": [
+          [
+            27522,
+            27529
+          ],
+          [
+            28587,
+            28594
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "shoot growth",
+        "spans": [
+          [
+            28200,
+            28212
+          ]
+        ]
+      },
+      {
+        "name": "seed formation",
+        "spans": [
+          [
+            28217,
+            28231
+          ]
+        ]
+      },
+      {
+        "name": "cell development",
+        "spans": [
+          [
+            28249,
+            28265
+          ]
+        ]
+      },
+      {
+        "name": "dwarf stature",
+        "spans": [
+          [
+            28405,
+            28418
+          ]
+        ]
+      },
+      {
+        "name": "plant development",
+        "spans": [
+          [
+            27960,
+            27977
+          ],
+          [
+            28977,
+            28994
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            28428,
+            28440
+          ],
+          [
+            29111,
+            29123
+          ]
+        ]
+      },
+      {
+        "name": "plant productivity",
+        "spans": [
+          [
+            29047,
+            29065
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "DIS2",
+        "spans": [
+          [
+            29324,
+            29328
+          ]
+        ]
+      },
+      {
+        "name": "DISTORTED2",
+        "spans": [
+          [
+            29312,
+            29322
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            29414,
+            29420
+          ],
+          [
+            29472,
+            29478
+          ],
+          [
+            29588,
+            29594
+          ],
+          [
+            29759,
+            29765
+          ],
+          [
+            29816,
+            29822
+          ],
+          [
+            29908,
+            29914
+          ],
+          [
+            29986,
+            29992
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            29629,
+            29635
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            29644,
+            29649
+          ]
+        ]
+      },
+      {
+        "name": "grain",
+        "spans": [
+          [
+            29696,
+            29701
+          ],
+          [
+            29717,
+            29722
+          ]
+        ]
+      },
+      {
+        "name": "walled cells",
+        "spans": [
+          [
+            29233,
+            29245
+          ]
+        ]
+      },
+      {
+        "name": "trichomes",
+        "spans": [
+          [
+            29371,
+            29380
+          ]
+        ]
+      },
+      {
+        "name": "flag leaves",
+        "spans": [
+          [
+            29881,
+            29892
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "rice",
+        "spans": [
+          [
+            29463,
+            29467
+          ],
+          [
+            29780,
+            29784
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [
+      {
+        "name": "ARPC2 activity",
+        "spans": [
+          [
+            29341,
+            29355
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "shoot growth",
+        "spans": [
+          [
+            29489,
+            29501
+          ]
+        ]
+      },
+      {
+        "name": "width of flag leaves",
+        "spans": [
+          [
+            29872,
+            29892
+          ]
+        ]
+      },
+      {
+        "name": "seed development",
+        "spans": [
+          [
+            30018,
+            30034
+          ]
+        ]
+      },
+      {
+        "name": "branch structure",
+        "spans": [
+          [
+            29250,
+            29266
+          ]
+        ]
+      },
+      {
+        "name": "total grain weight",
+        "spans": [
+          [
+            29711,
+            29729
+          ]
+        ]
+      },
+      {
+        "name": "dwarf phenotype",
+        "spans": [
+          [
+            29528,
+            29543
+          ]
+        ]
+      },
+      {
+        "name": "grain size",
+        "spans": [
+          [
+            29696,
+            29706
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "ent-kaurene",
+        "spans": [
+          [
+            30972,
+            30983
+          ]
+        ]
+      },
+      {
+        "name": "ent-kaurenoic acid",
+        "spans": [
+          [
+            30988,
+            31006
+          ]
+        ]
+      },
+      {
+        "name": "GA3",
+        "spans": [
+          [
+            30544,
+            30547
+          ],
+          [
+            30626,
+            30629
+          ],
+          [
+            30663,
+            30666
+          ]
+        ]
+      },
+      {
+        "name": "GA",
+        "spans": [
+          [
+            30219,
+            30221
+          ],
+          [
+            30290,
+            30292
+          ],
+          [
+            30458,
+            30460
+          ],
+          [
+            30831,
+            30833
+          ],
+          [
+            31039,
+            31041
+          ],
+          [
+            31095,
+            31097
+          ],
+          [
+            31157,
+            31159
+          ],
+          [
+            31449,
+            31451
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "GA biosynthetic pathway",
+        "spans": [
+          [
+            31039,
+            31062
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "GA20",
+        "spans": [
+          [
+            31197,
+            31201
+          ],
+          [
+            31229,
+            31233
+          ]
+        ]
+      },
+      {
+        "name": "CPS",
+        "spans": [
+          [
+            31179,
+            31182
+          ],
+          [
+            31319,
+            31322
+          ]
+        ]
+      },
+      {
+        "name": "GA2",
+        "spans": [
+          [
+            31207,
+            31210
+          ],
+          [
+            31239,
+            31242
+          ]
+        ]
+      },
+      {
+        "name": "AtCPS",
+        "spans": [
+          [
+            30884,
+            30889
+          ],
+          [
+            30895,
+            30900
+          ]
+        ]
+      },
+      {
+        "name": "AtKS",
+        "spans": [
+          [
+            30901,
+            30905
+          ]
+        ]
+      },
+      {
+        "name": "KO",
+        "spans": [
+          [
+            30406,
+            30408
+          ],
+          [
+            30606,
+            30608
+          ],
+          [
+            30718,
+            30720
+          ],
+          [
+            31188,
+            31190
+          ],
+          [
+            31220,
+            31222
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            30186,
+            30192
+          ],
+          [
+            30399,
+            30405
+          ],
+          [
+            30516,
+            30522
+          ],
+          [
+            30599,
+            30605
+          ],
+          [
+            30697,
+            30703
+          ],
+          [
+            30711,
+            30717
+          ],
+          [
+            30809,
+            30815
+          ],
+          [
+            31283,
+            31289
+          ],
+          [
+            31403,
+            31409
+          ]
+        ]
+      },
+      {
+        "name": "KAO",
+        "spans": [
+          [
+            31192,
+            31195
+          ],
+          [
+            31224,
+            31227
+          ]
+        ]
+      },
+      {
+        "name": "KS",
+        "spans": [
+          [
+            31184,
+            31186
+          ],
+          [
+            31327,
+            31329
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "internodes",
+        "spans": [
+          [
+            30381,
+            30391
+          ]
+        ]
+      },
+      {
+        "name": "shoots",
+        "spans": [
+          [
+            30252,
+            30258
+          ],
+          [
+            30506,
+            30512
+          ],
+          [
+            30565,
+            30571
+          ],
+          [
+            30585,
+            30591
+          ],
+          [
+            30646,
+            30652
+          ],
+          [
+            30855,
+            30861
+          ],
+          [
+            31267,
+            31273
+          ],
+          [
+            31461,
+            31467
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            30268,
+            30273
+          ],
+          [
+            30683,
+            30688
+          ]
+        ]
+      },
+      {
+        "name": "panicles",
+        "spans": [
+          [
+            30368,
+            30376
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis",
+        "spans": [
+          [
+            30866,
+            30877
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "GA treatment",
+        "spans": [
+          [
+            30290,
+            30302
+          ],
+          [
+            30458,
+            30470
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            30336,
+            30348
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA",
+        "spans": [
+          [
+            31993,
+            31995
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsTEM1",
+        "spans": [
+          [
+            31864,
+            31870
+          ]
+        ]
+      },
+      {
+        "name": "OsCCR5",
+        "spans": [
+          [
+            31792,
+            31798
+          ]
+        ]
+      },
+      {
+        "name": "OsGH3-9",
+        "spans": [
+          [
+            31783,
+            31790
+          ]
+        ]
+      },
+      {
+        "name": "OsUFGT",
+        "spans": [
+          [
+            31804,
+            31810
+          ]
+        ]
+      },
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            31536,
+            31542
+          ],
+          [
+            31550,
+            31556
+          ],
+          [
+            31619,
+            31625
+          ],
+          [
+            31831,
+            31837
+          ],
+          [
+            31964,
+            31970
+          ]
+        ]
+      },
+      {
+        "name": "OsGrx-C7",
+        "spans": [
+          [
+            31875,
+            31883
+          ]
+        ]
+      },
+      {
+        "name": "OsKS8",
+        "spans": [
+          [
+            31857,
+            31862
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "rice shoots",
+        "spans": [
+          [
+            32032,
+            32043
+          ]
+        ]
+      },
+      {
+        "name": "flag leaves",
+        "spans": [
+          [
+            31560,
+            31571
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "RNA-seq",
+        "spans": [
+          [
+            31575,
+            31582
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "elongation",
+        "spans": [
+          [
+            31695,
+            31705
+          ]
+        ]
+      },
+      {
+        "name": "yield",
+        "spans": [
+          [
+            31641,
+            31646
+          ]
+        ]
+      },
+      {
+        "name": "cell-development",
+        "spans": [
+          [
+            31673,
+            31689
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "lignin",
+        "spans": [
+          [
+            32322,
+            32328
+          ]
+        ]
+      },
+      {
+        "name": "GA",
+        "spans": [
+          [
+            32708,
+            32710
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "RAV1",
+        "spans": [
+          [
+            32780,
+            32784
+          ]
+        ]
+      },
+      {
+        "name": "GH3",
+        "spans": [
+          [
+            32193,
+            32196
+          ]
+        ]
+      },
+      {
+        "name": "cCCR",
+        "spans": [
+          [
+            32443,
+            32447
+          ]
+        ]
+      },
+      {
+        "name": "GSA1",
+        "spans": [
+          [
+            32561,
+            32565
+          ]
+        ]
+      },
+      {
+        "name": "AtCPS",
+        "spans": [
+          [
+            32673,
+            32678
+          ]
+        ]
+      },
+      {
+        "name": "AtKS",
+        "spans": [
+          [
+            32683,
+            32687
+          ]
+        ]
+      },
+      {
+        "name": "GRX6",
+        "spans": [
+          [
+            32958,
+            32962
+          ]
+        ]
+      },
+      {
+        "name": "CCR",
+        "spans": [
+          [
+            32296,
+            32299
+          ]
+        ]
+      },
+      {
+        "name": "UFGT",
+        "spans": [
+          [
+            32603,
+            32607
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "cell",
+        "spans": [
+          [
+            32116,
+            32120
+          ],
+          [
+            32360,
+            32364
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            32805,
+            32809
+          ],
+          [
+            32882,
+            32886
+          ]
+        ]
+      },
+      {
+        "name": "cell wall",
+        "spans": [
+          [
+            32360,
+            32369
+          ]
+        ]
+      },
+      {
+        "name": "floral organ",
+        "spans": [
+          [
+            32498,
+            32510
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis",
+        "spans": [
+          [
+            32451,
+            32462
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "hypocotyl elongation",
+        "spans": [
+          [
+            32245,
+            32265
+          ]
+        ]
+      },
+      {
+        "name": "plant height",
+        "spans": [
+          [
+            32994,
+            33006
+          ]
+        ]
+      },
+      {
+        "name": "grain yield",
+        "spans": [
+          [
+            32978,
+            32989
+          ]
+        ]
+      },
+      {
+        "name": "plant growth",
+        "spans": [
+          [
+            32082,
+            32094
+          ],
+          [
+            32732,
+            32744
+          ]
+        ]
+      },
+      {
+        "name": "cell elongation",
+        "spans": [
+          [
+            32116,
+            32131
+          ]
+        ]
+      },
+      {
+        "name": "dwarfism",
+        "spans": [
+          [
+            32475,
+            32483
+          ]
+        ]
+      },
+      {
+        "name": "grain size",
+        "spans": [
+          [
+            32624,
+            32634
+          ],
+          [
+            33035,
+            33045
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "GA",
+        "spans": [
+          [
+            33146,
+            33148
+          ],
+          [
+            33338,
+            33340
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "OsGASD",
+        "spans": [
+          [
+            33114,
+            33120
+          ],
+          [
+            33256,
+            33262
+          ]
+        ]
+      },
+      {
+        "name": "ARPC2",
+        "spans": [
+          [
+            33100,
+            33105
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "shoot",
+        "spans": [
+          [
+            33273,
+            33278
+          ]
+        ]
+      },
+      {
+        "name": "cell",
+        "spans": [
+          [
+            33172,
+            33176
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "high productivity",
+        "spans": [
+          [
+            33380,
+            33397
+          ]
+        ]
+      },
+      {
+        "name": "grain size",
+        "spans": [
+          [
+            33295,
+            33305
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  }
+]

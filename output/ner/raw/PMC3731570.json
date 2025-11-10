@@ -1,0 +1,1287 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "Abscisic acid"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			}
+		],
+		"pathways": [
+			{
+				"name": "ABA signaling"
+			}
+		],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "cold"
+			},
+			{
+				"name": "soil salinity"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "leaf water loss"
+			},
+			{
+				"name": "drought resistance"
+			},
+			{
+				"name": "water loss"
+			},
+			{
+				"name": "drought stress"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "drought"
+			},
+			{
+				"name": "salt"
+			},
+			{
+				"name": "cold"
+			},
+			{
+				"name": "abiotic stresses"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant development"
+			},
+			{
+				"name": "growth"
+			},
+			{
+				"name": "responses to abiotic stresses"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL"
+			},
+			{
+				"name": "RCARs"
+			},
+			{
+				"name": "PP2Cs"
+			},
+			{
+				"name": "ABI1"
+			},
+			{
+				"name": "ABI2"
+			},
+			{
+				"name": "HAB1"
+			},
+			{
+				"name": "SnRK2 kinases"
+			},
+			{
+				"name": "SnRK2s"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "dephosphorylation"
+			},
+			{
+				"name": "phosphorylate"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "stress-response programs"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "ligand-binding pocket"
+			},
+			{
+				"name": "loops"
+			},
+			{
+				"name": "gate"
+			},
+			{
+				"name": "latch"
+			},
+			{
+				"name": "active site"
+			},
+			{
+				"name": "receptor pocket"
+			}
+		],
+		"species": [
+			{
+				"name": "rice"
+			},
+			{
+				"name": "maize"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "ABA analogs"
+			},
+			{
+				"name": "ABA mimic"
+			},
+			{
+				"name": "AM1"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "abiotic stresses"
+			},
+			{
+				"name": "drought"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "sulfonamide"
+			},
+			{
+				"name": "ABA mimics 1"
+			},
+			{
+				"name": "ABA mimics 2"
+			},
+			{
+				"name": "ABA mimics 3"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "AM3"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "HAB1"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AlphaScreen assay"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Pyrabactin"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "AM3"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			},
+			{
+				"name": "HAB1"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			},
+			{
+				"name": "PYL3"
+			},
+			{
+				"name": "PYL5"
+			},
+			{
+				"name": "PYL7"
+			},
+			{
+				"name": "HAB1"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "yeast-two-hybrid assay"
+			},
+			{
+				"name": "PP2C inhibition experiments"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL4"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AM compounds"
+			},
+			{
+				"name": "ABA at 50 muM for 6 h"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "ABA signal transduction"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "abiotic stress response"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "HAB1"
+			},
+			{
+				"name": "SnRK2.6"
+			},
+			{
+				"name": "ABF2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "protoplast cells"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "ABA-induced stress-response program"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM compounds"
+			},
+			{
+				"name": "Pyrabactin"
+			},
+			{
+				"name": "DMSO"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "RNA-seq"
+			},
+			{
+				"name": "10-day-old Arabidopsis seedlings treated with 50 muM of AM compounds and ABA"
+			},
+			{
+				"name": "DMSO control sample"
+			},
+			{
+				"name": "AM1 treatment"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL4"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Col-0"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "ABA treatments"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "DMSO"
+			},
+			{
+				"name": "AM2"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "rosette leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AM1 treatments"
+			},
+			{
+				"name": "ABA treatments"
+			},
+			{
+				"name": "DMSO treatments"
+			},
+			{
+				"name": "AM2 treatments"
+			},
+			{
+				"name": "re-watering"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "drought resistance"
+			},
+			{
+				"name": "vegetative growth stage"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "AM3"
+			},
+			{
+				"name": "dihydro-quinolinone"
+			},
+			{
+				"name": "sulfonamide"
+			},
+			{
+				"name": "benzyl"
+			},
+			{
+				"name": "propyl"
+			},
+			{
+				"name": "methyl benzyl"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "Pyrabactin"
+			},
+			{
+				"name": "sulfonamide"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "gate loop"
+			},
+			{
+				"name": "latch loop"
+			},
+			{
+				"name": "pocket"
+			},
+			{
+				"name": "active site"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "stress-response programs"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "Pyrabactin"
+			},
+			{
+				"name": "sulfonamide"
+			},
+			{
+				"name": "ketone oxygen"
+			},
+			{
+				"name": "cyclohexenone oxygen"
+			},
+			{
+				"name": "carboxylate group"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			},
+			{
+				"name": "PP2C"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "drought resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			},
+			{
+				"name": "PYL3"
+			},
+			{
+				"name": "PYL4"
+			},
+			{
+				"name": "PYL5"
+			},
+			{
+				"name": "PYL7"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "guard cells"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "germination assays"
+			},
+			{
+				"name": "water loss experiments"
+			},
+			{
+				"name": "AlphaScreen protein interaction"
+			},
+			{
+				"name": "PP2C inhibition assays"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "leaf transpiration"
+			},
+			{
+				"name": "drought resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "mild UV light"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "drought resistance"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "AM3"
+			},
+			{
+				"name": "sulfonamide"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "para-methyl group"
+			},
+			{
+				"name": "propyl group"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "benzyl ring"
+			},
+			{
+				"name": "dihydro-quinolinone ring"
+			},
+			{
+				"name": "PYL2 receptor"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "plant assays"
+			},
+			{
+				"name": "drought stress management"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "AM3"
+			},
+			{
+				"name": "dihydro-quinolinone"
+			},
+			{
+				"name": "sulfonamide"
+			},
+			{
+				"name": "benzyl"
+			},
+			{
+				"name": "DMSO"
+			},
+			{
+				"name": "(+)-ABA"
+			},
+			{
+				"name": "Pyrabactin"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "HAB1"
+			},
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "100 muM compound"
+			},
+			{
+				"name": "0.1% DMSO"
+			},
+			{
+				"name": "10 muM (+)-ABA"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "DMSO"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "HAB1"
+			},
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL2"
+			},
+			{
+				"name": "PYL3"
+			},
+			{
+				"name": "PYL4"
+			},
+			{
+				"name": "PYL5"
+			},
+			{
+				"name": "PYL6"
+			},
+			{
+				"name": "PYL7"
+			},
+			{
+				"name": "PYL8"
+			},
+			{
+				"name": "PYL9"
+			},
+			{
+				"name": "PYL10"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "yeast-two-hybrid assay"
+			},
+			{
+				"name": "-Leu/-Trp/-His SD media"
+			},
+			{
+				"name": "-Leu/-Trp SD media"
+			},
+			{
+				"name": "0.1% DMSO"
+			},
+			{
+				"name": "phosphatase activity assay"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "DMSO"
+			}
+		],
+		"pathways": [
+			{
+				"name": "ABA signal transduction pathway"
+			},
+			{
+				"name": "ABA signaling pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "PYR1"
+			},
+			{
+				"name": "PYL1"
+			},
+			{
+				"name": "PYL4"
+			},
+			{
+				"name": "HAB1"
+			},
+			{
+				"name": "SnRK2.6"
+			},
+			{
+				"name": "ABF2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "seedlings"
+			},
+			{
+				"name": "protoplasts"
+			}
+		],
+		"species": [
+			{
+				"name": "Col-0"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AM1 treatment"
+			},
+			{
+				"name": "AM2 treatment"
+			},
+			{
+				"name": "(+)-ABA"
+			},
+			{
+				"name": "0.05% DMSO"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "DMSO"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AM1 treatment"
+			},
+			{
+				"name": "ABA treatment"
+			},
+			{
+				"name": "DMSO control"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "DMSO"
+			},
+			{
+				"name": "sucrose"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "cotyledons"
+			},
+			{
+				"name": "seed"
+			}
+		],
+		"species": [
+			{
+				"name": "Col-0"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "AM1 treatments"
+			},
+			{
+				"name": "half-strength MS (1% sucrose) plate"
+			},
+			{
+				"name": "0.1% DMSO"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "seed germination"
+			},
+			{
+				"name": "germination frequency"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "AM2"
+			},
+			{
+				"name": "(+)-ABA"
+			},
+			{
+				"name": "Tween-20"
+			},
+			{
+				"name": "DMSO"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "rosettes"
+			},
+			{
+				"name": "rosette leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "AM1 treatment"
+			},
+			{
+				"name": "Rapid dehydration"
+			},
+			{
+				"name": "Well-irrigated"
+			},
+			{
+				"name": "drought stress assay"
+			},
+			{
+				"name": "short-day condition"
+			},
+			{
+				"name": "water withdrawal"
+			},
+			{
+				"name": "re-watering"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "water loss"
+			},
+			{
+				"name": "drought resistance"
+			},
+			{
+				"name": "survival rates"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "propyl"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "ABA"
+			},
+			{
+				"name": "AM1"
+			},
+			{
+				"name": "Pyrabactin"
+			},
+			{
+				"name": "water"
+			}
+		],
+		"pathways": [],
+		"genes": [],
+		"anatomical_structures": [
+			{
+				"name": "PYL2 binding pocket"
+			},
+			{
+				"name": "PYR1 binding pocket"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	}
+]

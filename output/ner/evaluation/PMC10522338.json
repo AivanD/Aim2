@@ -1,0 +1,4845 @@
+[
+  {
+    "compounds": [
+      {
+        "name": "tetraose steroidal glycoalkaloids",
+        "spans": [
+          [
+            695,
+            728
+          ]
+        ]
+      },
+      {
+        "name": "SGA",
+        "spans": [
+          [
+            730,
+            733
+          ]
+        ]
+      },
+      {
+        "name": "glycoalkaloids",
+        "spans": [
+          [
+            523,
+            537
+          ],
+          [
+            714,
+            728
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "biosynthesis of plant defence compounds",
+        "spans": [
+          [
+            997,
+            1036
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "tissues",
+        "spans": [
+          [
+            1050,
+            1057
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Solanum commersonii",
+        "spans": [
+          [
+            450,
+            469
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "in vitro",
+        "spans": [
+          [
+            757,
+            765
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            154,
+            164
+          ],
+          [
+            382,
+            392
+          ],
+          [
+            580,
+            590
+          ],
+          [
+            610,
+            620
+          ],
+          [
+            927,
+            937
+          ]
+        ]
+      },
+      {
+        "name": "innate disease and pest resistance",
+        "spans": [
+          [
+            130,
+            164
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "toxicity",
+        "spans": [
+          [
+            1065,
+            1073
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Alternaria solani",
+        "spans": [
+          [
+            1583,
+            1600
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Solanum commersonii",
+        "spans": [
+          [
+            2066,
+            2085
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance to early blight disease",
+        "spans": [
+          [
+            2099,
+            2133
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "steroidal glycoalkaloids",
+        "spans": [
+          [
+            2571,
+            2595
+          ]
+        ]
+      },
+      {
+        "name": "glycoalkaloids",
+        "spans": [
+          [
+            2581,
+            2595
+          ],
+          [
+            2709,
+            2723
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            2390,
+            2404
+          ],
+          [
+            2517,
+            2531
+          ],
+          [
+            2727,
+            2741
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant behaviour",
+        "spans": [
+          [
+            2367,
+            2386
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "glycoalkaloids",
+        "spans": [
+          [
+            2847,
+            2861
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            2867,
+            2881
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "tested in the laboratory",
+        "spans": [
+          [
+            2961,
+            2985
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            3009,
+            3018
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "glycoalkaloids",
+        "spans": [
+          [
+            3354,
+            3368
+          ],
+          [
+            3404,
+            3418
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant to early blight disease",
+        "spans": [
+          [
+            3164,
+            3197
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "affect humans",
+        "spans": [
+          [
+            3369,
+            3382
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [
+      {
+        "name": "nucleotide-binding",
+        "spans": [
+          [
+            4287,
+            4305
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "qualitative disease resistance",
+        "spans": [
+          [
+            4415,
+            4445
+          ]
+        ]
+      },
+      {
+        "name": "disease resistance",
+        "spans": [
+          [
+            4149,
+            4167
+          ],
+          [
+            4427,
+            4445
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "PRRs",
+        "spans": [
+          [
+            4714,
+            4718
+          ],
+          [
+            4823,
+            4827
+          ]
+        ]
+      },
+      {
+        "name": "S genes",
+        "spans": [
+          [
+            5053,
+            5060
+          ],
+          [
+            5121,
+            5128
+          ]
+        ]
+      },
+      {
+        "name": "NLRs",
+        "spans": [
+          [
+            4620,
+            4624
+          ],
+          [
+            4832,
+            4836
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "broad-spectrum",
+        "spans": [
+          [
+            4964,
+            4978
+          ]
+        ]
+      },
+      {
+        "name": "disease resistance",
+        "spans": [
+          [
+            4858,
+            4876
+          ]
+        ]
+      },
+      {
+        "name": "durable",
+        "spans": [
+          [
+            4983,
+            4990
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "pleiotropic effects",
+        "spans": [
+          [
+            5139,
+            5158
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "glucosinolates",
+        "spans": [
+          [
+            5625,
+            5639
+          ]
+        ]
+      },
+      {
+        "name": "benzoxazinoids",
+        "spans": [
+          [
+            5680,
+            5694
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "herbivory",
+        "spans": [
+          [
+            5363,
+            5372
+          ]
+        ]
+      },
+      {
+        "name": "pathogen attack",
+        "spans": [
+          [
+            5344,
+            5359
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "oligosaccharide",
+        "spans": [
+          [
+            6553,
+            6568
+          ]
+        ]
+      },
+      {
+        "name": "steroidal glycoalkaloids",
+        "spans": [
+          [
+            6576,
+            6600
+          ]
+        ]
+      },
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            6603,
+            6607
+          ],
+          [
+            6635,
+            6639
+          ],
+          [
+            6902,
+            6906
+          ]
+        ]
+      },
+      {
+        "name": "steroidal alkaloid aglycone",
+        "spans": [
+          [
+            6503,
+            6530
+          ]
+        ]
+      },
+      {
+        "name": "saponins",
+        "spans": [
+          [
+            6466,
+            6474
+          ]
+        ]
+      },
+      {
+        "name": "membrane sterols",
+        "spans": [
+          [
+            6682,
+            6698
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [
+      {
+        "name": "inhibitory effect on cholinesterase enzymes",
+        "spans": [
+          [
+            6839,
+            6882
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "anti-insect activity",
+        "spans": [
+          [
+            6939,
+            6959
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Solanum malmeanum",
+        "spans": [
+          [
+            7144,
+            7161
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            7183,
+            7197
+          ],
+          [
+            7705,
+            7719
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii subsp. malmeanum",
+        "spans": [
+          [
+            7183,
+            7214
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            7229,
+            7239
+          ],
+          [
+            7351,
+            7361
+          ],
+          [
+            7460,
+            7470
+          ],
+          [
+            7670,
+            7680
+          ]
+        ]
+      },
+      {
+        "name": "polygenic trait",
+        "spans": [
+          [
+            7525,
+            7540
+          ]
+        ]
+      },
+      {
+        "name": "dominant resistance",
+        "spans": [
+          [
+            7661,
+            7680
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            8240,
+            8244
+          ],
+          [
+            8352,
+            8356
+          ],
+          [
+            8522,
+            8526
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            8231,
+            8244
+          ],
+          [
+            8513,
+            8526
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chromosome 12",
+        "spans": [
+          [
+            7977,
+            7990
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            7772,
+            7786
+          ],
+          [
+            8157,
+            8171
+          ],
+          [
+            8532,
+            8546
+          ]
+        ]
+      },
+      {
+        "name": "S. malmeanum",
+        "spans": [
+          [
+            7791,
+            7803
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "in vitro",
+        "spans": [
+          [
+            8257,
+            8265
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "glycosyltransferases",
+        "spans": [
+          [
+            8087,
+            8107
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            7851,
+            7861
+          ],
+          [
+            7946,
+            7956
+          ],
+          [
+            8131,
+            8141
+          ],
+          [
+            8190,
+            8200
+          ],
+          [
+            8376,
+            8386
+          ],
+          [
+            8573,
+            8583
+          ]
+        ]
+      },
+      {
+        "name": "resistance to early blight",
+        "spans": [
+          [
+            7851,
+            7877
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            8810,
+            8819
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            8895,
+            8909
+          ],
+          [
+            9678,
+            9692
+          ]
+        ]
+      },
+      {
+        "name": "S. malmeanum",
+        "spans": [
+          [
+            8914,
+            8926
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "disease screen",
+        "spans": [
+          [
+            8790,
+            8804
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            9097,
+            9106
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            9242,
+            9253
+          ]
+        ]
+      },
+      {
+        "name": "intermediate",
+        "spans": [
+          [
+            9302,
+            9314
+          ]
+        ]
+      },
+      {
+        "name": "segregation for resistance",
+        "spans": [
+          [
+            9555,
+            9581
+          ]
+        ]
+      },
+      {
+        "name": "early blight resistance",
+        "spans": [
+          [
+            8750,
+            8773
+          ]
+        ]
+      },
+      {
+        "name": "resistance phenotypes",
+        "spans": [
+          [
+            8990,
+            9011
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S commersonii",
+        "spans": [
+          [
+            9760,
+            9773
+          ]
+        ]
+      },
+      {
+        "name": "A.solani",
+        "spans": [
+          [
+            9840,
+            9848
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "Resistance",
+        "spans": [
+          [
+            9746,
+            9756
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            9953,
+            9957
+          ]
+        ]
+      },
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            9911,
+            9917
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "inoculations",
+        "spans": [
+          [
+            9936,
+            9948
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            10207,
+            10216
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            10267,
+            10278
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            10312,
+            10321
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            10280,
+            10290
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chromosome 12",
+        "spans": [
+          [
+            10459,
+            10472
+          ],
+          [
+            11093,
+            11106
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            10927,
+            10936
+          ],
+          [
+            10977,
+            10986
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            11030,
+            11044
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            10642,
+            10651
+          ],
+          [
+            10964,
+            10973
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            10688,
+            10699
+          ],
+          [
+            10912,
+            10923
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "early blight resistance",
+        "spans": [
+          [
+            11158,
+            11181
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chromosomes",
+        "spans": [
+          [
+            12750,
+            12761
+          ]
+        ]
+      },
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            11399,
+            11405
+          ],
+          [
+            12135,
+            12141
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            11272,
+            11286
+          ]
+        ]
+      },
+      {
+        "name": "S. malmeanum",
+        "spans": [
+          [
+            11291,
+            11303
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "inoculation",
+        "spans": [
+          [
+            11527,
+            11538
+          ],
+          [
+            11998,
+            12009
+          ],
+          [
+            12268,
+            12279
+          ]
+        ]
+      },
+      {
+        "name": "spray-inoculation",
+        "spans": [
+          [
+            11992,
+            12009
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            11699,
+            11709
+          ],
+          [
+            11787,
+            11797
+          ],
+          [
+            11872,
+            11882
+          ],
+          [
+            11924,
+            11934
+          ]
+        ]
+      },
+      {
+        "name": "susceptibility",
+        "spans": [
+          [
+            11741,
+            11755
+          ],
+          [
+            11961,
+            11975
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            12868,
+            12877
+          ],
+          [
+            13042,
+            13051
+          ],
+          [
+            13278,
+            13287
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            13608,
+            13622
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            12985,
+            12995
+          ],
+          [
+            13134,
+            13144
+          ],
+          [
+            13534,
+            13544
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "chromosome 12",
+        "spans": [
+          [
+            14315,
+            14328
+          ],
+          [
+            14474,
+            14487
+          ],
+          [
+            14673,
+            14686
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "BSR-Seq analysis",
+        "spans": [
+          [
+            13763,
+            13779
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "early blight resistance",
+        "spans": [
+          [
+            14607,
+            14630
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            14883,
+            14892
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            14785,
+            14799
+          ],
+          [
+            15574,
+            15588
+          ],
+          [
+            15734,
+            15748
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            14962,
+            14972
+          ],
+          [
+            15008,
+            15018
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            16099,
+            16113
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            16085,
+            16095
+          ],
+          [
+            16450,
+            16460
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            17317,
+            17331
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            17454,
+            17464
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            17672,
+            17686
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            17809,
+            17819
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            18027,
+            18041
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            18162,
+            18172
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            18380,
+            18394
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            18516,
+            18526
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            18617,
+            18627
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            19012,
+            19021
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            18998,
+            19008
+          ],
+          [
+            19038,
+            19048
+          ],
+          [
+            19156,
+            19166
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "early blight disease symptoms",
+        "spans": [
+          [
+            19266,
+            19295
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            19361,
+            19367
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            19435,
+            19444
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drop inoculation",
+        "spans": [
+          [
+            19403,
+            19419
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            19468,
+            19482
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            19522,
+            19532
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTS",
+        "spans": [
+          [
+            19554,
+            19559
+          ],
+          [
+            19631,
+            19636
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            19534,
+            19540
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            19542,
+            19548
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "steroidal glycoalkaloid",
+        "spans": [
+          [
+            20015,
+            20038
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            19923,
+            19929
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            19934,
+            19940
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            20281,
+            20291
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTS",
+        "spans": [
+          [
+            21434,
+            21439
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            20733,
+            20739
+          ],
+          [
+            20894,
+            20900
+          ],
+          [
+            21185,
+            21191
+          ],
+          [
+            21415,
+            21421
+          ],
+          [
+            21897,
+            21903
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            20744,
+            20750
+          ],
+          [
+            20905,
+            20911
+          ],
+          [
+            21196,
+            21202
+          ],
+          [
+            21426,
+            21432
+          ],
+          [
+            21908,
+            21914
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            21510,
+            21516
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            21322,
+            21336
+          ],
+          [
+            22064,
+            22078
+          ]
+        ]
+      },
+      {
+        "name": "S. tuberosum",
+        "spans": [
+          [
+            21293,
+            21305
+          ],
+          [
+            22102,
+            22114
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "inoculated",
+        "spans": [
+          [
+            21572,
+            21582
+          ]
+        ]
+      },
+      {
+        "name": "agroinfiltration",
+        "spans": [
+          [
+            21638,
+            21654
+          ],
+          [
+            21849,
+            21865
+          ]
+        ]
+      },
+      {
+        "name": "expression constructs",
+        "spans": [
+          [
+            21389,
+            21410
+          ],
+          [
+            21871,
+            21892
+          ]
+        ]
+      },
+      {
+        "name": "empty vector",
+        "spans": [
+          [
+            21445,
+            21457
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "glycosyltransferase",
+        "spans": [
+          [
+            20706,
+            20725
+          ],
+          [
+            20789,
+            20808
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "lesion diameters",
+        "spans": [
+          [
+            21659,
+            21675
+          ]
+        ]
+      },
+      {
+        "name": "susceptible haplotype",
+        "spans": [
+          [
+            21087,
+            21108
+          ]
+        ]
+      },
+      {
+        "name": "resistant haplotype",
+        "spans": [
+          [
+            20337,
+            20356
+          ],
+          [
+            20630,
+            20649
+          ],
+          [
+            21007,
+            21026
+          ]
+        ]
+      },
+      {
+        "name": "susceptible progeny",
+        "spans": [
+          [
+            21268,
+            21287
+          ]
+        ]
+      },
+      {
+        "name": "lesion sizes",
+        "spans": [
+          [
+            21715,
+            21727
+          ],
+          [
+            22007,
+            22019
+          ]
+        ]
+      },
+      {
+        "name": "resistant progeny",
+        "spans": [
+          [
+            21229,
+            21246
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "alpha-tomatine",
+        "spans": [
+          [
+            23165,
+            23179
+          ]
+        ]
+      },
+      {
+        "name": "zeatin",
+        "spans": [
+          [
+            23082,
+            23088
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "biosynthesis of the SGA alpha-tomatine",
+        "spans": [
+          [
+            23141,
+            23179
+          ]
+        ]
+      },
+      {
+        "name": "zeatin biosynthesis",
+        "spans": [
+          [
+            23082,
+            23101
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "GAME17",
+        "spans": [
+          [
+            23111,
+            23117
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            22484,
+            22490
+          ],
+          [
+            22800,
+            22806
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            22538,
+            22544
+          ],
+          [
+            22811,
+            22817
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            22492,
+            22506
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            22520,
+            22530
+          ],
+          [
+            22788,
+            22798
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTS",
+        "spans": [
+          [
+            23498,
+            23503
+          ],
+          [
+            23891,
+            23896
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            23411,
+            23417
+          ],
+          [
+            23771,
+            23777
+          ],
+          [
+            24081,
+            24087
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            23422,
+            23428
+          ],
+          [
+            23789,
+            23795
+          ],
+          [
+            24092,
+            24098
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            23509,
+            23515
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            23725,
+            23734
+          ],
+          [
+            23834,
+            23843
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            24136,
+            24150
+          ]
+        ]
+      },
+      {
+        "name": "S. tuberosum",
+        "spans": [
+          [
+            23571,
+            23583
+          ],
+          [
+            24174,
+            24186
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "agroinfiltration",
+        "spans": [
+          [
+            23609,
+            23625
+          ],
+          [
+            23637,
+            23653
+          ]
+        ]
+      },
+      {
+        "name": "drop inoculated",
+        "spans": [
+          [
+            23682,
+            23697
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            23333,
+            23343
+          ],
+          [
+            24110,
+            24120
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            23475,
+            23486
+          ],
+          [
+            23544,
+            23555
+          ],
+          [
+            23855,
+            23866
+          ],
+          [
+            23976,
+            23987
+          ],
+          [
+            24006,
+            24017
+          ],
+          [
+            24124,
+            24135
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "saccharides",
+        "spans": [
+          [
+            24366,
+            24377
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            24572,
+            24576
+          ],
+          [
+            24632,
+            24636
+          ],
+          [
+            24760,
+            24764
+          ]
+        ]
+      },
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            24923,
+            24929
+          ],
+          [
+            25089,
+            25095
+          ],
+          [
+            25151,
+            25157
+          ],
+          [
+            25193,
+            25199
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            24457,
+            24466
+          ],
+          [
+            24829,
+            24838
+          ],
+          [
+            25288,
+            25297
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            24439,
+            24453
+          ],
+          [
+            24616,
+            24630
+          ],
+          [
+            25113,
+            25127
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "growth inhibition assay",
+        "spans": [
+          [
+            24536,
+            24559
+          ]
+        ]
+      },
+      {
+        "name": "semi-sterilised at 60 C",
+        "spans": [
+          [
+            24720,
+            24743
+          ]
+        ]
+      },
+      {
+        "name": "autoclaved (at 121 C)",
+        "spans": [
+          [
+            24695,
+            24716
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            24425,
+            24435
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            24604,
+            24615
+          ],
+          [
+            24935,
+            24946
+          ],
+          [
+            25101,
+            25112
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "Leaf",
+        "spans": [
+          [
+            25301,
+            25305
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            25331,
+            25345
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            25321,
+            25330
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            25420,
+            25424
+          ],
+          [
+            25658,
+            25662
+          ],
+          [
+            25945,
+            25949
+          ],
+          [
+            26232,
+            26236
+          ],
+          [
+            26418,
+            26422
+          ],
+          [
+            26616,
+            26620
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "semi-sterilised for 15 min at 60 C",
+        "spans": [
+          [
+            25522,
+            25556
+          ]
+        ]
+      },
+      {
+        "name": "autoclaved",
+        "spans": [
+          [
+            25501,
+            25511
+          ],
+          [
+            25647,
+            25657
+          ],
+          [
+            26221,
+            26231
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "phytoanticipins",
+        "spans": [
+          [
+            27460,
+            27475
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            26987,
+            26991
+          ],
+          [
+            27203,
+            27207
+          ],
+          [
+            27309,
+            27313
+          ]
+        ]
+      },
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            26753,
+            26759
+          ],
+          [
+            27485,
+            27491
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            26765,
+            26779
+          ],
+          [
+            27505,
+            27519
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "growth inhibition assay",
+        "spans": [
+          [
+            26841,
+            26864
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            27495,
+            27504
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "demissidine-Gal-Glu-Glu-Xyl",
+        "spans": [
+          [
+            28094,
+            28121
+          ]
+        ]
+      },
+      {
+        "name": "alpha-tomatine",
+        "spans": [
+          [
+            28175,
+            28189
+          ]
+        ]
+      },
+      {
+        "name": "solanidine-Glu-Rha-Rha",
+        "spans": [
+          [
+            27887,
+            27909
+          ]
+        ]
+      },
+      {
+        "name": "tomatidine-Gal-Glu-Glu-Xyl",
+        "spans": [
+          [
+            28191,
+            28217
+          ]
+        ]
+      },
+      {
+        "name": "demissidine-Gal-Glu-Glu-Glu",
+        "spans": [
+          [
+            28003,
+            28030
+          ]
+        ]
+      },
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            27699,
+            27703
+          ],
+          [
+            27821,
+            27825
+          ],
+          [
+            27938,
+            27942
+          ],
+          [
+            28231,
+            28235
+          ],
+          [
+            28497,
+            28501
+          ],
+          [
+            28701,
+            28705
+          ],
+          [
+            28811,
+            28815
+          ],
+          [
+            28905,
+            28909
+          ],
+          [
+            29078,
+            29082
+          ],
+          [
+            29156,
+            29160
+          ],
+          [
+            29297,
+            29301
+          ],
+          [
+            29373,
+            29377
+          ]
+        ]
+      },
+      {
+        "name": "solanidine-Gal-Glu-Glu",
+        "spans": [
+          [
+            28054,
+            28076
+          ],
+          [
+            28142,
+            28164
+          ],
+          [
+            29162,
+            29184
+          ]
+        ]
+      },
+      {
+        "name": "dehydrodemissine",
+        "spans": [
+          [
+            28124,
+            28140
+          ]
+        ]
+      },
+      {
+        "name": "solanidine-Gal-Glu-Rha",
+        "spans": [
+          [
+            27842,
+            27864
+          ]
+        ]
+      },
+      {
+        "name": "demissidine-Gal-Glu-Glu",
+        "spans": [
+          [
+            28003,
+            28026
+          ],
+          [
+            28094,
+            28117
+          ],
+          [
+            29189,
+            29212
+          ]
+        ]
+      },
+      {
+        "name": "alpha-chaconine",
+        "spans": [
+          [
+            27870,
+            27885
+          ],
+          [
+            28521,
+            28536
+          ]
+        ]
+      },
+      {
+        "name": "solanidine-Gal-Glu-Glu-Xyl",
+        "spans": [
+          [
+            28142,
+            28168
+          ]
+        ]
+      },
+      {
+        "name": "commersonine",
+        "spans": [
+          [
+            27989,
+            28001
+          ],
+          [
+            28955,
+            28967
+          ]
+        ]
+      },
+      {
+        "name": "dehydrocommersonine",
+        "spans": [
+          [
+            28033,
+            28052
+          ]
+        ]
+      },
+      {
+        "name": "solanidine-Gal-Glu-Glu-Glu",
+        "spans": [
+          [
+            28054,
+            28080
+          ]
+        ]
+      },
+      {
+        "name": "alpha-solanine",
+        "spans": [
+          [
+            27826,
+            27840
+          ],
+          [
+            28502,
+            28516
+          ]
+        ]
+      },
+      {
+        "name": "demissine",
+        "spans": [
+          [
+            28083,
+            28092
+          ],
+          [
+            28983,
+            28992
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            27676,
+            27682
+          ],
+          [
+            28305,
+            28311
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            27973,
+            27987
+          ],
+          [
+            28262,
+            28276
+          ],
+          [
+            28352,
+            28366
+          ],
+          [
+            28664,
+            28678
+          ],
+          [
+            28719,
+            28733
+          ],
+          [
+            28766,
+            28780
+          ],
+          [
+            28915,
+            28929
+          ]
+        ]
+      },
+      {
+        "name": "S. tuberosum",
+        "spans": [
+          [
+            27778,
+            27790
+          ],
+          [
+            28552,
+            28564
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "ultra high-performance liquid chromatography (UPLC) coupled to mass spectrometry (MS)",
+        "spans": [
+          [
+            28370,
+            28455
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            28248,
+            28258
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            29467,
+            29473
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            29478,
+            29484
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "PCR",
+        "spans": [
+          [
+            29505,
+            29508
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "EF1alpha",
+        "spans": [
+          [
+            29661,
+            29669
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            29597,
+            29603
+          ],
+          [
+            29730,
+            29736
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            29624,
+            29630
+          ],
+          [
+            29737,
+            29743
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Solanum commersonii",
+        "spans": [
+          [
+            30015,
+            30034
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "demissidine",
+        "spans": [
+          [
+            30679,
+            30690
+          ]
+        ]
+      },
+      {
+        "name": "solanidine",
+        "spans": [
+          [
+            30668,
+            30678
+          ]
+        ]
+      },
+      {
+        "name": "steroidal glycoalkaloids",
+        "spans": [
+          [
+            30634,
+            30658
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            30193,
+            30199
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            30215,
+            30221
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            30183,
+            30189
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Solanum commersonii",
+        "spans": [
+          [
+            30301,
+            30320
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "metabolic variation",
+        "spans": [
+          [
+            30488,
+            30507
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            30731,
+            30735
+          ]
+        ]
+      },
+      {
+        "name": "Tetraose steroidal glycoalkaloids",
+        "spans": [
+          [
+            30696,
+            30729
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Solanum commersonii",
+        "spans": [
+          [
+            30742,
+            30761
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            30770,
+            30780
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "pentose",
+        "spans": [
+          [
+            31359,
+            31366
+          ]
+        ]
+      },
+      {
+        "name": "glucose",
+        "spans": [
+          [
+            32781,
+            32788
+          ]
+        ]
+      },
+      {
+        "name": "Gal-Glu-Glu-Xyl",
+        "spans": [
+          [
+            31397,
+            31412
+          ]
+        ]
+      },
+      {
+        "name": "Gal-Glu-Glu-Glu",
+        "spans": [
+          [
+            31285,
+            31300
+          ]
+        ]
+      },
+      {
+        "name": "commertetraose",
+        "spans": [
+          [
+            31269,
+            31283
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            30959,
+            30972
+          ],
+          [
+            32170,
+            32183
+          ],
+          [
+            32740,
+            32753
+          ]
+        ]
+      },
+      {
+        "name": "lycotetraose",
+        "spans": [
+          [
+            31383,
+            31395
+          ]
+        ]
+      },
+      {
+        "name": "hexose",
+        "spans": [
+          [
+            31211,
+            31217
+          ]
+        ]
+      },
+      {
+        "name": "triose SGAs",
+        "spans": [
+          [
+            31143,
+            31154
+          ],
+          [
+            31225,
+            31236
+          ],
+          [
+            32573,
+            32584
+          ],
+          [
+            32693,
+            32704
+          ]
+        ]
+      },
+      {
+        "name": "xylose",
+        "spans": [
+          [
+            32792,
+            32798
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            31046,
+            31052
+          ],
+          [
+            31174,
+            31180
+          ],
+          [
+            31900,
+            31906
+          ],
+          [
+            32196,
+            32202
+          ],
+          [
+            32645,
+            32651
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            31053,
+            31059
+          ],
+          [
+            31327,
+            31333
+          ],
+          [
+            31911,
+            31917
+          ],
+          [
+            32207,
+            32213
+          ],
+          [
+            32656,
+            32662
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            31638,
+            31644
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            31952,
+            31961
+          ],
+          [
+            32634,
+            32643
+          ],
+          [
+            32895,
+            32904
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            32722,
+            32736
+          ]
+        ]
+      },
+      {
+        "name": "S. tuberosum",
+        "spans": [
+          [
+            31073,
+            31085
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "challenged with five Colorado potato beetle larvae each",
+        "spans": [
+          [
+            32109,
+            32164
+          ]
+        ]
+      },
+      {
+        "name": "inoculated with Alternaria solani altNL03003",
+        "spans": [
+          [
+            31540,
+            31584
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance to A. solani",
+        "spans": [
+          [
+            31938,
+            31961
+          ]
+        ]
+      },
+      {
+        "name": "resistance to Colorado potato beetle",
+        "spans": [
+          [
+            32226,
+            32262
+          ],
+          [
+            32854,
+            32890
+          ]
+        ]
+      },
+      {
+        "name": "susceptible to Colorado potato beetle",
+        "spans": [
+          [
+            32592,
+            32629
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "pentose",
+        "spans": [
+          [
+            33584,
+            33591
+          ]
+        ]
+      },
+      {
+        "name": "commertetraose",
+        "spans": [
+          [
+            33511,
+            33525
+          ],
+          [
+            33873,
+            33887
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            32985,
+            32998
+          ],
+          [
+            33244,
+            33257
+          ]
+        ]
+      },
+      {
+        "name": "lycotetraose",
+        "spans": [
+          [
+            33612,
+            33624
+          ],
+          [
+            33821,
+            33833
+          ]
+        ]
+      },
+      {
+        "name": "hexose",
+        "spans": [
+          [
+            33449,
+            33455
+          ]
+        ]
+      },
+      {
+        "name": "triose SGAs",
+        "spans": [
+          [
+            33279,
+            33290
+          ],
+          [
+            33463,
+            33474
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            32946,
+            32952
+          ],
+          [
+            33082,
+            33088
+          ],
+          [
+            33201,
+            33207
+          ],
+          [
+            33336,
+            33342
+          ],
+          [
+            33412,
+            33418
+          ],
+          [
+            33680,
+            33686
+          ],
+          [
+            33899,
+            33905
+          ],
+          [
+            34139,
+            34145
+          ],
+          [
+            34415,
+            34421
+          ],
+          [
+            34520,
+            34526
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            32957,
+            32963
+          ],
+          [
+            33093,
+            33099
+          ],
+          [
+            33212,
+            33218
+          ],
+          [
+            33347,
+            33353
+          ],
+          [
+            33552,
+            33558
+          ],
+          [
+            33721,
+            33727
+          ],
+          [
+            33942,
+            33948
+          ],
+          [
+            34150,
+            34156
+          ],
+          [
+            34426,
+            34432
+          ],
+          [
+            34531,
+            34537
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            34469,
+            34478
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            34669,
+            34683
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "in planta",
+        "spans": [
+          [
+            33647,
+            33656
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            33033,
+            33043
+          ],
+          [
+            34400,
+            34410
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "Leptine",
+        "spans": [
+          [
+            34732,
+            34739
+          ]
+        ]
+      },
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            34764,
+            34768
+          ],
+          [
+            34876,
+            34880
+          ],
+          [
+            35367,
+            35371
+          ],
+          [
+            35400,
+            35404
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            35391,
+            35404
+          ]
+        ]
+      },
+      {
+        "name": "dehydrocommersonine",
+        "spans": [
+          [
+            34744,
+            34763
+          ]
+        ]
+      },
+      {
+        "name": "triose SGAs",
+        "spans": [
+          [
+            35360,
+            35371
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "ScGTR1",
+        "spans": [
+          [
+            35086,
+            35092
+          ],
+          [
+            35235,
+            35241
+          ],
+          [
+            35449,
+            35455
+          ]
+        ]
+      },
+      {
+        "name": "ScGTR2",
+        "spans": [
+          [
+            35096,
+            35102
+          ],
+          [
+            35245,
+            35251
+          ],
+          [
+            35460,
+            35466
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            35499,
+            35508
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            34886,
+            34900
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistant",
+        "spans": [
+          [
+            35256,
+            35265
+          ]
+        ]
+      },
+      {
+        "name": "resistance to insects",
+        "spans": [
+          [
+            34827,
+            34848
+          ]
+        ]
+      },
+      {
+        "name": "susceptible",
+        "spans": [
+          [
+            35139,
+            35150
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            35781,
+            35794
+          ],
+          [
+            35949,
+            35962
+          ],
+          [
+            36160,
+            36173
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "A. solani",
+        "spans": [
+          [
+            35626,
+            35635
+          ],
+          [
+            35892,
+            35901
+          ],
+          [
+            36041,
+            36050
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            35608,
+            35622
+          ],
+          [
+            35798,
+            35812
+          ],
+          [
+            35968,
+            35982
+          ],
+          [
+            36179,
+            36193
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "in vitro",
+        "spans": [
+          [
+            35914,
+            35922
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            35594,
+            35604
+          ],
+          [
+            35720,
+            35730
+          ],
+          [
+            35878,
+            35888
+          ],
+          [
+            36214,
+            36224
+          ]
+        ]
+      },
+      {
+        "name": "pest resistance",
+        "spans": [
+          [
+            36209,
+            36224
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            36536,
+            36540
+          ],
+          [
+            36939,
+            36943
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "tubers",
+        "spans": [
+          [
+            36747,
+            36753
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "potato",
+        "spans": [
+          [
+            36546,
+            36552
+          ],
+          [
+            36692,
+            36698
+          ],
+          [
+            36947,
+            36953
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "disease resistance",
+        "spans": [
+          [
+            36868,
+            36886
+          ]
+        ]
+      },
+      {
+        "name": "resistance to biotic stress",
+        "spans": [
+          [
+            36980,
+            37007
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "toxicity",
+        "spans": [
+          [
+            36780,
+            36788
+          ],
+          [
+            36967,
+            36975
+          ]
+        ]
+      },
+      {
+        "name": "dietary benefits",
+        "spans": [
+          [
+            36496,
+            36512
+          ]
+        ]
+      },
+      {
+        "name": "human toxicity",
+        "spans": [
+          [
+            36961,
+            36975
+          ]
+        ]
+      },
+      {
+        "name": "flavour",
+        "spans": [
+          [
+            36461,
+            36468
+          ]
+        ]
+      },
+      {
+        "name": "taste",
+        "spans": [
+          [
+            36472,
+            36477
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "alpha-tomatine",
+        "spans": [
+          [
+            37880,
+            37894
+          ]
+        ]
+      },
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            37139,
+            37143
+          ],
+          [
+            37252,
+            37256
+          ],
+          [
+            37975,
+            37979
+          ],
+          [
+            38175,
+            38179
+          ]
+        ]
+      },
+      {
+        "name": "solanidine",
+        "spans": [
+          [
+            37658,
+            37668
+          ],
+          [
+            37744,
+            37754
+          ]
+        ]
+      },
+      {
+        "name": "alpha-chaconine",
+        "spans": [
+          [
+            37805,
+            37820
+          ]
+        ]
+      },
+      {
+        "name": "commertetraose",
+        "spans": [
+          [
+            37715,
+            37729
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            37243,
+            37256
+          ]
+        ]
+      },
+      {
+        "name": "demissidine",
+        "spans": [
+          [
+            37672,
+            37683
+          ]
+        ]
+      },
+      {
+        "name": "lycotetraose",
+        "spans": [
+          [
+            37699,
+            37711
+          ],
+          [
+            37844,
+            37856
+          ]
+        ]
+      },
+      {
+        "name": "alpha-solanine",
+        "spans": [
+          [
+            37786,
+            37800
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "biosynthesis pathways",
+        "spans": [
+          [
+            37912,
+            37933
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. paucisectum",
+        "spans": [
+          [
+            37443,
+            37457
+          ]
+        ]
+      },
+      {
+        "name": "S. piurae",
+        "spans": [
+          [
+            37463,
+            37472
+          ]
+        ]
+      },
+      {
+        "name": "S. chomatophilum",
+        "spans": [
+          [
+            37411,
+            37427
+          ]
+        ]
+      },
+      {
+        "name": "Solanum",
+        "spans": [
+          [
+            37147,
+            37154
+          ],
+          [
+            37373,
+            37380
+          ]
+        ]
+      },
+      {
+        "name": "S. oplocense",
+        "spans": [
+          [
+            37429,
+            37441
+          ]
+        ]
+      },
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            37201,
+            37215
+          ],
+          [
+            37607,
+            37621
+          ],
+          [
+            38185,
+            38199
+          ]
+        ]
+      },
+      {
+        "name": "S. chacoense",
+        "spans": [
+          [
+            37397,
+            37409
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            37533,
+            37543
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            38356,
+            38360
+          ],
+          [
+            38466,
+            38470
+          ],
+          [
+            38861,
+            38865
+          ]
+        ]
+      },
+      {
+        "name": "alpha-tomatine",
+        "spans": [
+          [
+            38657,
+            38671
+          ]
+        ]
+      },
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            38347,
+            38360
+          ]
+        ]
+      },
+      {
+        "name": "esculeoside A",
+        "spans": [
+          [
+            38688,
+            38701
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "tomato fruit",
+        "spans": [
+          [
+            38643,
+            38655
+          ]
+        ]
+      },
+      {
+        "name": "seeds",
+        "spans": [
+          [
+            38806,
+            38811
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            38476,
+            38490
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            38913,
+            38923
+          ]
+        ]
+      },
+      {
+        "name": "fruit ripening",
+        "spans": [
+          [
+            38709,
+            38723
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGAs",
+        "spans": [
+          [
+            39517,
+            39521
+          ],
+          [
+            39571,
+            39575
+          ],
+          [
+            40066,
+            40070
+          ],
+          [
+            40085,
+            40089
+          ]
+        ]
+      },
+      {
+        "name": "alpha-tomatine",
+        "spans": [
+          [
+            38945,
+            38959
+          ]
+        ]
+      },
+      {
+        "name": "saponins",
+        "spans": [
+          [
+            39024,
+            39032
+          ],
+          [
+            39246,
+            39254
+          ]
+        ]
+      },
+      {
+        "name": "avenacin A-1",
+        "spans": [
+          [
+            38964,
+            38976
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "tubers",
+        "spans": [
+          [
+            39588,
+            39594
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            39346,
+            39360
+          ],
+          [
+            39431,
+            39445
+          ],
+          [
+            40006,
+            40020
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance",
+        "spans": [
+          [
+            39332,
+            39342
+          ],
+          [
+            40162,
+            40172
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "toxicity",
+        "spans": [
+          [
+            39085,
+            39093
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "SGA variants",
+        "spans": [
+          [
+            40900,
+            40912
+          ]
+        ]
+      },
+      {
+        "name": "defence compounds",
+        "spans": [
+          [
+            40477,
+            40494
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            40758,
+            40772
+          ]
+        ]
+      },
+      {
+        "name": "S. tuberosum",
+        "spans": [
+          [
+            40775,
+            40787
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "resistance to early blight",
+        "spans": [
+          [
+            40801,
+            40827
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "human health",
+        "spans": [
+          [
+            40916,
+            40928
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "tetraose SGAs",
+        "spans": [
+          [
+            41072,
+            41085
+          ]
+        ]
+      },
+      {
+        "name": "defence compounds",
+        "spans": [
+          [
+            41292,
+            41309
+          ],
+          [
+            41437,
+            41454
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "biosynthesis pathway",
+        "spans": [
+          [
+            41044,
+            41064
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "tissues",
+        "spans": [
+          [
+            41264,
+            41271
+          ],
+          [
+            41487,
+            41494
+          ]
+        ]
+      },
+      {
+        "name": "plant tissues",
+        "spans": [
+          [
+            41481,
+            41494
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "S. commersonii",
+        "spans": [
+          [
+            41098,
+            41112
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "plant immunity",
+        "spans": [
+          [
+            41611,
+            41625
+          ],
+          [
+            41734,
+            41748
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "toxicity",
+        "spans": [
+          [
+            41502,
+            41510
+          ],
+          [
+            41630,
+            41638
+          ]
+        ]
+      }
+    ]
+  }
+]

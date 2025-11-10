@@ -1,0 +1,1549 @@
+[
+	{
+		"compounds": [
+			{
+				"name": "gibberellic acid"
+			},
+			{
+				"name": "GA"
+			},
+			{
+				"name": "GA3"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA signaling"
+			},
+			{
+				"name": "GA biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "flag leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "Oryza sativa"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Ac/Ds knockout system"
+			},
+			{
+				"name": "osgasd knockout (Ko) mutation"
+			},
+			{
+				"name": "GA application"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "grain yield"
+			},
+			{
+				"name": "cell elongation"
+			},
+			{
+				"name": "plant development"
+			}
+		],
+		"human_traits": [
+			{
+				"name": "productivity"
+			}
+		]
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "SPIKELET NUMBER"
+			},
+			{
+				"name": "SPIKE"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flowers"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "Flag leaves"
+			},
+			{
+				"name": "floral organ"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "cell"
+			}
+		],
+		"species": [
+			{
+				"name": "Oryza sativa"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant architecture"
+			},
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "number of panicles"
+			},
+			{
+				"name": "filling rate"
+			},
+			{
+				"name": "number of spikelets per panicle"
+			},
+			{
+				"name": "total grain weight"
+			},
+			{
+				"name": "thousand-grain weight"
+			},
+			{
+				"name": "grain size"
+			},
+			{
+				"name": "flag leaf size"
+			},
+			{
+				"name": "spikelet number"
+			},
+			{
+				"name": "yield"
+			},
+			{
+				"name": "Plant morphology"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ARPC2"
+			},
+			{
+				"name": "ARPC1"
+			},
+			{
+				"name": "ARPC3"
+			},
+			{
+				"name": "ARPC4"
+			},
+			{
+				"name": "ARPC5"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "filaments"
+			},
+			{
+				"name": "microtubules"
+			},
+			{
+				"name": "cytoskeleton"
+			},
+			{
+				"name": "cell"
+			},
+			{
+				"name": "leaves"
+			},
+			{
+				"name": "stems"
+			},
+			{
+				"name": "floral organs"
+			},
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "seed"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis thaliana"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "cell division"
+			},
+			{
+				"name": "cell elongation"
+			},
+			{
+				"name": "developmental phenotypes"
+			},
+			{
+				"name": "seed yield"
+			},
+			{
+				"name": "shoot growth"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Gibberellic acids"
+			},
+			{
+				"name": "GA3"
+			},
+			{
+				"name": "ent-kaurene"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA metabolism"
+			},
+			{
+				"name": "GA biosynthesis pathway"
+			},
+			{
+				"name": "signaling pathways"
+			}
+		],
+		"genes": [
+			{
+				"name": "GA3ox"
+			},
+			{
+				"name": "GA20ox"
+			},
+			{
+				"name": "ent-kaurene gene"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "GA-deficient"
+			},
+			{
+				"name": "applying GA3"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "increased expression"
+			},
+			{
+				"name": "different expression patterns"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plant elongation"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "phenotypic variation"
+			},
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "dwarf phenotype"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "gibberellic acid"
+			},
+			{
+				"name": "GAs"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA biosynthetic pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "ARPC2"
+			},
+			{
+				"name": "GASD"
+			},
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "ARP genes"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "Ac/Ds knockout system"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "growth defects"
+			},
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "productivity"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Os04g0512300"
+			},
+			{
+				"name": "osgasd"
+			}
+		],
+		"anatomical_structures": [],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "T-DNA insertion"
+			},
+			{
+				"name": "Ac/Ds transposon insertion mutagenesis"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "dwarf phenotype"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "Os04g0512300"
+			},
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "OsActin1"
+			},
+			{
+				"name": "Os03g0718100"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "panicles neck node"
+			},
+			{
+				"name": "spikelet"
+			},
+			{
+				"name": "shoot"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "MS media"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "shoot length"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "GUS"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "panicle neck nodes"
+			},
+			{
+				"name": "spikelets"
+			},
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "RT-qPCR"
+			},
+			{
+				"name": "histochemical staining"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "GUS activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "shoot growth"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "DAPI"
+			},
+			{
+				"name": "4',6-diamidino-2-phenylindole"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "GASD"
+			},
+			{
+				"name": "AtARPC2B"
+			},
+			{
+				"name": "OsARPC2B"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "nucleus"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis thaliana"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "rice protoplast transient expression system"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant development"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "Gibberellic acid"
+			},
+			{
+				"name": "GA3"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "Gibberellic acid (GA3) treatment"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "dwarf phenotype"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			},
+			{
+				"name": "GA3"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "OsActin1"
+			},
+			{
+				"name": "Os03g0718100"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "root"
+			},
+			{
+				"name": "panicle"
+			},
+			{
+				"name": "internodes"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "osgasd knockout mutant"
+			},
+			{
+				"name": "wild-type seedlings"
+			},
+			{
+				"name": "treated with 100 microM GA3 for 15min"
+			},
+			{
+				"name": "Control plants were not treated with GA"
+			},
+			{
+				"name": "grown on green house"
+			},
+			{
+				"name": "treated with the indicated concentration of GA for 1, 10, 20 mg/L (ppm)"
+			},
+			{
+				"name": "GA3 solution were sprayed with distilled water as control"
+			},
+			{
+				"name": "WT plants did not treat with GA"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcript level"
+			},
+			{
+				"name": "relative expression levels"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "panicle length"
+			},
+			{
+				"name": "internodes length"
+			},
+			{
+				"name": "tiller number"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			},
+			{
+				"name": "GA3"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "internode"
+			},
+			{
+				"name": "panicle"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "GA treatment"
+			},
+			{
+				"name": "GA spray treatment"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "internode elongation"
+			},
+			{
+				"name": "panicle length"
+			},
+			{
+				"name": "tiller number"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "callus"
+			},
+			{
+				"name": "internode"
+			}
+		],
+		"species": [
+			{
+				"name": "rice"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "Agrobacterium-mediated transformation"
+			},
+			{
+				"name": "antibiotic selection"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "internode length"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA3"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA3"
+			},
+			{
+				"name": "copalyl diphosphate"
+			},
+			{
+				"name": "ent-kaurene"
+			},
+			{
+				"name": "ent-kaurenoic acid"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "CPS"
+			},
+			{
+				"name": "KS"
+			},
+			{
+				"name": "KO"
+			},
+			{
+				"name": "KAO"
+			},
+			{
+				"name": "GA20"
+			},
+			{
+				"name": "GA2"
+			},
+			{
+				"name": "OsActin1"
+			},
+			{
+				"name": "Os03g0718100"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "shoot"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "MS media"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcriptional expression levels"
+			}
+		],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "copalyl diphosphate"
+			},
+			{
+				"name": "ent-kaurene"
+			},
+			{
+				"name": "ent-kaurenoic acid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA biosynthesis"
+			}
+		],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "CPS"
+			},
+			{
+				"name": "KS"
+			},
+			{
+				"name": "KAO"
+			},
+			{
+				"name": "GA20"
+			},
+			{
+				"name": "GA2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "OsGASD Ox"
+			},
+			{
+				"name": "osgasd Ko"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GAs"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "whole plants"
+			},
+			{
+				"name": "internodes"
+			},
+			{
+				"name": "panicles"
+			},
+			{
+				"name": "grains"
+			},
+			{
+				"name": "seeds"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant productivity"
+			},
+			{
+				"name": "plant size"
+			},
+			{
+				"name": "grain size"
+			},
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "internode length"
+			},
+			{
+				"name": "panicle number"
+			},
+			{
+				"name": "grain weight"
+			},
+			{
+				"name": "number of panicles"
+			},
+			{
+				"name": "filling rate"
+			},
+			{
+				"name": "number of spikelets per panicle"
+			},
+			{
+				"name": "total grain weight"
+			},
+			{
+				"name": "1,000-grain weight"
+			},
+			{
+				"name": "number of filled grains"
+			},
+			{
+				"name": "seed size"
+			},
+			{
+				"name": "grain yield"
+			},
+			{
+				"name": "panicle length"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "panicle"
+			},
+			{
+				"name": "internode"
+			},
+			{
+				"name": "spikelet"
+			},
+			{
+				"name": "seed"
+			},
+			{
+				"name": "grain"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "normal growth conditions"
+			},
+			{
+				"name": "grown in the field"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "internode length"
+			},
+			{
+				"name": "panicle number"
+			},
+			{
+				"name": "filling rate"
+			},
+			{
+				"name": "number of spikelet per panicle"
+			},
+			{
+				"name": "total grain weight"
+			},
+			{
+				"name": "thousand grain weight"
+			},
+			{
+				"name": "seed length"
+			},
+			{
+				"name": "seed width"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flag leaf"
+			},
+			{
+				"name": "flag leaves"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "rice productivity"
+			},
+			{
+				"name": "morphology of flag leaves"
+			},
+			{
+				"name": "length of flag leaves"
+			},
+			{
+				"name": "width of flag leaves"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "osgasd"
+			},
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "OsActin1"
+			},
+			{
+				"name": "Os03g0718100"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flag leaf"
+			},
+			{
+				"name": "flag leaf surface"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "field"
+			}
+		],
+		"molecular_traits": [
+			{
+				"name": "transcriptional expression levels"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "plant development"
+			},
+			{
+				"name": "length"
+			},
+			{
+				"name": "width"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "OsGH3-9"
+			},
+			{
+				"name": "OsCCR5"
+			},
+			{
+				"name": "OsUFGT"
+			},
+			{
+				"name": "OsKS8"
+			},
+			{
+				"name": "OsTEM1"
+			},
+			{
+				"name": "OsGrx-C7"
+			},
+			{
+				"name": "OsNCED3"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flag leaves"
+			},
+			{
+				"name": "shoot"
+			},
+			{
+				"name": "cell"
+			},
+			{
+				"name": "flag leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "transcriptome sequencing"
+			},
+			{
+				"name": "RNA-seq"
+			},
+			{
+				"name": "RT-qPCR"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant development"
+			},
+			{
+				"name": "shoot growth"
+			},
+			{
+				"name": "seed formation"
+			},
+			{
+				"name": "cell development"
+			},
+			{
+				"name": "cell elongation"
+			},
+			{
+				"name": "dwarf stature"
+			},
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "plant productivity"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "DISTORTED2"
+			},
+			{
+				"name": "DIS2"
+			},
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "walled cells"
+			},
+			{
+				"name": "trichomes"
+			},
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "grain"
+			},
+			{
+				"name": "flag leaves"
+			}
+		],
+		"species": [
+			{
+				"name": "rice"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [
+			{
+				"name": "ARPC2 activity"
+			}
+		],
+		"plant_traits": [
+			{
+				"name": "branch structure"
+			},
+			{
+				"name": "shoot growth"
+			},
+			{
+				"name": "dwarf phenotype"
+			},
+			{
+				"name": "grain size"
+			},
+			{
+				"name": "total grain weight"
+			},
+			{
+				"name": "length of flag leaves"
+			},
+			{
+				"name": "width of flag leaves"
+			},
+			{
+				"name": "seed development"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			},
+			{
+				"name": "GA3"
+			},
+			{
+				"name": "ent-kaurene"
+			},
+			{
+				"name": "ent-kaurenoic acid"
+			}
+		],
+		"pathways": [
+			{
+				"name": "GA biosynthetic pathway"
+			}
+		],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "AtCPS"
+			},
+			{
+				"name": "AtKS"
+			},
+			{
+				"name": "CPS"
+			},
+			{
+				"name": "KS"
+			},
+			{
+				"name": "KO"
+			},
+			{
+				"name": "KAO"
+			},
+			{
+				"name": "GA20"
+			},
+			{
+				"name": "GA2"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "shoots"
+			},
+			{
+				"name": "roots"
+			},
+			{
+				"name": "panicles"
+			},
+			{
+				"name": "internodes"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [
+			{
+				"name": "GA treatment"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant height"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "OsGASD"
+			},
+			{
+				"name": "OsGH3-9"
+			},
+			{
+				"name": "OsCCR5"
+			},
+			{
+				"name": "OsUFGT"
+			},
+			{
+				"name": "OsKS8"
+			},
+			{
+				"name": "OsTEM1"
+			},
+			{
+				"name": "OsGrx-C7"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "flag leaves"
+			},
+			{
+				"name": "rice shoots"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [
+			{
+				"name": "RNA-seq"
+			}
+		],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "yield"
+			},
+			{
+				"name": "cell-development"
+			},
+			{
+				"name": "elongation"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "lignin"
+			},
+			{
+				"name": "GA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "GH3"
+			},
+			{
+				"name": "CCR"
+			},
+			{
+				"name": "cCCR"
+			},
+			{
+				"name": "GSA1"
+			},
+			{
+				"name": "UFGT"
+			},
+			{
+				"name": "AtCPS"
+			},
+			{
+				"name": "AtKS"
+			},
+			{
+				"name": "RAV1"
+			},
+			{
+				"name": "GRX6"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "cell"
+			},
+			{
+				"name": "cell wall"
+			},
+			{
+				"name": "floral organ"
+			},
+			{
+				"name": "leaf"
+			}
+		],
+		"species": [
+			{
+				"name": "Arabidopsis"
+			}
+		],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "plant growth"
+			},
+			{
+				"name": "cell elongation"
+			},
+			{
+				"name": "hypocotyl elongation"
+			},
+			{
+				"name": "dwarfism"
+			},
+			{
+				"name": "grain size"
+			},
+			{
+				"name": "plant height"
+			},
+			{
+				"name": "grain yield"
+			},
+			{
+				"name": "grain weight"
+			}
+		],
+		"human_traits": []
+	},
+	{
+		"compounds": [
+			{
+				"name": "GA"
+			}
+		],
+		"pathways": [],
+		"genes": [
+			{
+				"name": "ARPC2"
+			},
+			{
+				"name": "OsGASD"
+			}
+		],
+		"anatomical_structures": [
+			{
+				"name": "cell"
+			},
+			{
+				"name": "shoot"
+			}
+		],
+		"species": [],
+		"experimental_conditions": [],
+		"molecular_traits": [],
+		"plant_traits": [
+			{
+				"name": "grain size"
+			},
+			{
+				"name": "high productivity"
+			}
+		],
+		"human_traits": []
+	}
+]

@@ -1,0 +1,5196 @@
+[
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Zea mays",
+        "spans": [
+          [
+            314,
+            322
+          ]
+        ]
+      },
+      {
+        "name": "Oryza sativa",
+        "spans": [
+          [
+            289,
+            301
+          ]
+        ]
+      },
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            155,
+            171
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "energy efficiency",
+        "spans": [
+          [
+            214,
+            231
+          ]
+        ]
+      },
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            236,
+            253
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought responses",
+        "spans": [
+          [
+            516,
+            533
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            681,
+            698
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "oxygenated furanoditerpenoids",
+        "spans": [
+          [
+            1558,
+            1587
+          ]
+        ]
+      },
+      {
+        "name": "flavonoids",
+        "spans": [
+          [
+            1276,
+            1286
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid",
+        "spans": [
+          [
+            1172,
+            1184
+          ],
+          [
+            1430,
+            1442
+          ]
+        ]
+      },
+      {
+        "name": "terpenoids",
+        "spans": [
+          [
+            1291,
+            1301
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            1360,
+            1372
+          ],
+          [
+            1542,
+            1554
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "phenylpropanoid pathways",
+        "spans": [
+          [
+            1189,
+            1213
+          ]
+        ]
+      },
+      {
+        "name": "amino acid metabolism",
+        "spans": [
+          [
+            1027,
+            1048
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoid-biosynthetic",
+        "spans": [
+          [
+            1059,
+            1083
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "roots",
+        "spans": [
+          [
+            1135,
+            1140
+          ]
+        ]
+      },
+      {
+        "name": "root",
+        "spans": [
+          [
+            1355,
+            1359
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            715,
+            722
+          ],
+          [
+            869,
+            876
+          ],
+          [
+            1097,
+            1104
+          ],
+          [
+            1392,
+            1399
+          ],
+          [
+            1523,
+            1530
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought-susceptible",
+        "spans": [
+          [
+            715,
+            734
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            1798,
+            1810
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "root",
+        "spans": [
+          [
+            1793,
+            1797
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            1605,
+            1612
+          ],
+          [
+            1746,
+            1753
+          ],
+          [
+            1868,
+            1875
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            1868,
+            1882
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought stress tolerance",
+        "spans": [
+          [
+            1868,
+            1892
+          ]
+        ]
+      },
+      {
+        "name": "drought responses",
+        "spans": [
+          [
+            1746,
+            1763
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            2183,
+            2190
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "crop production",
+        "spans": [
+          [
+            1981,
+            1996
+          ],
+          [
+            2256,
+            2271
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "chlorophyll",
+        "spans": [
+          [
+            4123,
+            4134
+          ]
+        ]
+      },
+      {
+        "name": "amino acids",
+        "spans": [
+          [
+            4297,
+            4308
+          ]
+        ]
+      },
+      {
+        "name": "organic acids",
+        "spans": [
+          [
+            4328,
+            4341
+          ]
+        ]
+      },
+      {
+        "name": "carbohydrates",
+        "spans": [
+          [
+            4310,
+            4323
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            4093,
+            4097
+          ]
+        ]
+      },
+      {
+        "name": "rhizosheath",
+        "spans": [
+          [
+            4243,
+            4254
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            2513,
+            2529
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            3847,
+            3854
+          ],
+          [
+            3981,
+            3988
+          ],
+          [
+            4357,
+            4364
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "taller phenotypes",
+        "spans": [
+          [
+            3189,
+            3206
+          ]
+        ]
+      },
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            3847,
+            3864
+          ]
+        ]
+      },
+      {
+        "name": "later flowering time",
+        "spans": [
+          [
+            3232,
+            3252
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "agroeconomic value",
+        "spans": [
+          [
+            2607,
+            2625
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "monoterpenoids",
+        "spans": [
+          [
+            5371,
+            5385
+          ]
+        ]
+      },
+      {
+        "name": "steroidal saponins",
+        "spans": [
+          [
+            4798,
+            4816
+          ]
+        ]
+      },
+      {
+        "name": "flavonoids",
+        "spans": [
+          [
+            4854,
+            4864
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid",
+        "spans": [
+          [
+            4602,
+            4611
+          ],
+          [
+            4927,
+            4936
+          ]
+        ]
+      },
+      {
+        "name": "sesquiterpenoids",
+        "spans": [
+          [
+            4818,
+            4834
+          ],
+          [
+            5390,
+            5406
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            4836,
+            4848
+          ],
+          [
+            5139,
+            5151
+          ]
+        ]
+      },
+      {
+        "name": "phenylpropanoid",
+        "spans": [
+          [
+            4616,
+            4631
+          ]
+        ]
+      },
+      {
+        "name": "plant hormones",
+        "spans": [
+          [
+            5511,
+            5525
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "terpenoid-metabolic",
+        "spans": [
+          [
+            4927,
+            4946
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "cytochrome P450 monooxygenase (P450)",
+        "spans": [
+          [
+            4974,
+            5010
+          ]
+        ]
+      },
+      {
+        "name": "terpene synthase (TPS)",
+        "spans": [
+          [
+            4947,
+            4969
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            5208,
+            5214
+          ],
+          [
+            5437,
+            5443
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            5219,
+            5224
+          ],
+          [
+            5448,
+            5453
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Zea mays",
+        "spans": [
+          [
+            5719,
+            5727
+          ]
+        ]
+      },
+      {
+        "name": "P. virgatum",
+        "spans": [
+          [
+            5020,
+            5031
+          ]
+        ]
+      },
+      {
+        "name": "Oryza sativa",
+        "spans": [
+          [
+            5739,
+            5751
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "treatment with defense-related plant hormones",
+        "spans": [
+          [
+            5480,
+            5525
+          ]
+        ]
+      },
+      {
+        "name": "oxidative stress",
+        "spans": [
+          [
+            5267,
+            5283
+          ]
+        ]
+      },
+      {
+        "name": "drought-induced",
+        "spans": [
+          [
+            4571,
+            4586
+          ]
+        ]
+      },
+      {
+        "name": "herbivore stress",
+        "spans": [
+          [
+            5459,
+            5475
+          ]
+        ]
+      },
+      {
+        "name": "ultraviolet (UV) radiation",
+        "spans": [
+          [
+            5236,
+            5262
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            5823,
+            5837
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "abiotic stress adaptation",
+        "spans": [
+          [
+            5956,
+            5981
+          ]
+        ]
+      },
+      {
+        "name": "abiotic stress tolerance",
+        "spans": [
+          [
+            5852,
+            5876
+          ]
+        ]
+      },
+      {
+        "name": "biotic stress tolerance",
+        "spans": [
+          [
+            5680,
+            5703
+          ],
+          [
+            5853,
+            5876
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            6201,
+            6208
+          ],
+          [
+            6549,
+            6556
+          ],
+          [
+            6630,
+            6637
+          ]
+        ]
+      },
+      {
+        "name": "drought responses",
+        "spans": [
+          [
+            6201,
+            6218
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            6630,
+            6647
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "biofuel",
+        "spans": [
+          [
+            6269,
+            6276
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "Leaf",
+        "spans": [
+          [
+            15794,
+            15798
+          ]
+        ]
+      },
+      {
+        "name": "root tissue",
+        "spans": [
+          [
+            15803,
+            15814
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought treatment",
+        "spans": [
+          [
+            15576,
+            15593
+          ],
+          [
+            16059,
+            16076
+          ],
+          [
+            16200,
+            16217
+          ],
+          [
+            16354,
+            16371
+          ]
+        ]
+      },
+      {
+        "name": "well-watered control",
+        "spans": [
+          [
+            15676,
+            15696
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "wilting phenotype",
+        "spans": [
+          [
+            16262,
+            16279
+          ]
+        ]
+      },
+      {
+        "name": "drought-tolerant",
+        "spans": [
+          [
+            15368,
+            15384
+          ]
+        ]
+      },
+      {
+        "name": "drought-susceptible",
+        "spans": [
+          [
+            15389,
+            15408
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            16677,
+            16683
+          ],
+          [
+            16702,
+            16708
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            16720,
+            16725
+          ],
+          [
+            16747,
+            16752
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            16459,
+            16475
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought treatment",
+        "spans": [
+          [
+            16521,
+            16538
+          ]
+        ]
+      },
+      {
+        "name": "normal watering",
+        "spans": [
+          [
+            16547,
+            16562
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            17892,
+            17898
+          ],
+          [
+            18154,
+            18160
+          ],
+          [
+            18235,
+            18241
+          ],
+          [
+            18469,
+            18475
+          ],
+          [
+            18570,
+            18576
+          ],
+          [
+            18767,
+            18773
+          ],
+          [
+            18891,
+            18897
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            17870,
+            17875
+          ],
+          [
+            18131,
+            18136
+          ],
+          [
+            18225,
+            18230
+          ],
+          [
+            18480,
+            18485
+          ],
+          [
+            18581,
+            18586
+          ],
+          [
+            18756,
+            18761
+          ],
+          [
+            18901,
+            18906
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Alamo",
+        "spans": [
+          [
+            17279,
+            17284
+          ],
+          [
+            17454,
+            17459
+          ],
+          [
+            17566,
+            17571
+          ],
+          [
+            17946,
+            17951
+          ],
+          [
+            18219,
+            18224
+          ],
+          [
+            18362,
+            18367
+          ],
+          [
+            18564,
+            18569
+          ]
+        ]
+      },
+      {
+        "name": "Cave-in-Rock",
+        "spans": [
+          [
+            17289,
+            17301
+          ],
+          [
+            17584,
+            17596
+          ],
+          [
+            18042,
+            18054
+          ],
+          [
+            18280,
+            18292
+          ],
+          [
+            18456,
+            18468
+          ],
+          [
+            18667,
+            18679
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "stress treatment",
+        "spans": [
+          [
+            19031,
+            19047
+          ]
+        ]
+      },
+      {
+        "name": "drought treatment",
+        "spans": [
+          [
+            17973,
+            17990
+          ]
+        ]
+      },
+      {
+        "name": "control",
+        "spans": [
+          [
+            17777,
+            17784
+          ],
+          [
+            18016,
+            18023
+          ]
+        ]
+      },
+      {
+        "name": "watering withdrawal",
+        "spans": [
+          [
+            18383,
+            18402
+          ]
+        ]
+      },
+      {
+        "name": "drought-treated",
+        "spans": [
+          [
+            17789,
+            17804
+          ]
+        ]
+      },
+      {
+        "name": "well-watered control",
+        "spans": [
+          [
+            18003,
+            18023
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "phenotypic drought symptoms",
+        "spans": [
+          [
+            18636,
+            18663
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "abscisic acid",
+        "spans": [
+          [
+            20074,
+            20087
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "AWPM19-like",
+        "spans": [
+          [
+            20035,
+            20046
+          ],
+          [
+            20248,
+            20259
+          ],
+          [
+            20413,
+            20424
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.2NG274300",
+        "spans": [
+          [
+            20315,
+            20330
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.9NG018700",
+        "spans": [
+          [
+            20343,
+            20358
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.9NG553200",
+        "spans": [
+          [
+            19556,
+            19571
+          ]
+        ]
+      },
+      {
+        "name": "dehydrin",
+        "spans": [
+          [
+            19889,
+            19897
+          ]
+        ]
+      },
+      {
+        "name": "caspases",
+        "spans": [
+          [
+            20726,
+            20734
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.5NG603383",
+        "spans": [
+          [
+            19613,
+            19628
+          ]
+        ]
+      },
+      {
+        "name": "proteases",
+        "spans": [
+          [
+            20739,
+            20748
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "roots",
+        "spans": [
+          [
+            19865,
+            19870
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought response",
+        "spans": [
+          [
+            19820,
+            19836
+          ],
+          [
+            20504,
+            20520
+          ],
+          [
+            20919,
+            20935
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            20130,
+            20147
+          ]
+        ]
+      },
+      {
+        "name": "wilting phenotype",
+        "spans": [
+          [
+            20569,
+            20586
+          ],
+          [
+            20624,
+            20641
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "carotenoid",
+        "spans": [
+          [
+            22484,
+            22494
+          ]
+        ]
+      },
+      {
+        "name": "steroid",
+        "spans": [
+          [
+            22496,
+            22503
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "nitrogen metabolism",
+        "spans": [
+          [
+            22212,
+            22231
+          ]
+        ]
+      },
+      {
+        "name": "amino acid metabolism",
+        "spans": [
+          [
+            22450,
+            22471
+          ]
+        ]
+      },
+      {
+        "name": "plant signal transduction process",
+        "spans": [
+          [
+            21999,
+            22032
+          ]
+        ]
+      },
+      {
+        "name": "endoplasmic reticulum protein processing",
+        "spans": [
+          [
+            22167,
+            22207
+          ]
+        ]
+      },
+      {
+        "name": "phenylpropanoid biosynthesis",
+        "spans": [
+          [
+            22509,
+            22537
+          ]
+        ]
+      },
+      {
+        "name": "carbohydrate metabolism",
+        "spans": [
+          [
+            21427,
+            21450
+          ],
+          [
+            21582,
+            21605
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            21335,
+            21341
+          ],
+          [
+            21636,
+            21642
+          ],
+          [
+            22104,
+            22110
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            21470,
+            21475
+          ],
+          [
+            21505,
+            21510
+          ],
+          [
+            22312,
+            22317
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            21105,
+            21112
+          ],
+          [
+            21161,
+            21168
+          ],
+          [
+            21612,
+            21619
+          ],
+          [
+            22138,
+            22145
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            21612,
+            21626
+          ],
+          [
+            22138,
+            22152
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "hydrolase activities",
+        "spans": [
+          [
+            21697,
+            21717
+          ]
+        ]
+      },
+      {
+        "name": "DNA-binding",
+        "spans": [
+          [
+            21342,
+            21353
+          ],
+          [
+            21681,
+            21692
+          ]
+        ]
+      },
+      {
+        "name": "electron carrier processes",
+        "spans": [
+          [
+            21358,
+            21384
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [
+      {
+        "name": "KEGG pathway",
+        "spans": [
+          [
+            22998,
+            23010
+          ]
+        ]
+      },
+      {
+        "name": "kegg pathways",
+        "spans": [
+          [
+            22998,
+            23011
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            22715,
+            22731
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "4-coumaroyl-CoA",
+        "spans": [
+          [
+            25076,
+            25091
+          ]
+        ]
+      },
+      {
+        "name": "steroidal saponins",
+        "spans": [
+          [
+            23346,
+            23364
+          ]
+        ]
+      },
+      {
+        "name": "flavonoids",
+        "spans": [
+          [
+            23369,
+            23379
+          ]
+        ]
+      },
+      {
+        "name": "geranylgeranyl pyrophosphate",
+        "spans": [
+          [
+            24760,
+            24788
+          ]
+        ]
+      },
+      {
+        "name": "phenylalanine",
+        "spans": [
+          [
+            25006,
+            25019
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid",
+        "spans": [
+          [
+            23230,
+            23239
+          ],
+          [
+            23458,
+            23467
+          ],
+          [
+            23784,
+            23793
+          ]
+        ]
+      },
+      {
+        "name": "phenylpropanoid",
+        "spans": [
+          [
+            23244,
+            23259
+          ],
+          [
+            23473,
+            23488
+          ],
+          [
+            23798,
+            23813
+          ],
+          [
+            24956,
+            24971
+          ]
+        ]
+      },
+      {
+        "name": "squalene",
+        "spans": [
+          [
+            24538,
+            24546
+          ]
+        ]
+      },
+      {
+        "name": "cinnamate",
+        "spans": [
+          [
+            25041,
+            25050
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "phenylpropanoid metabolism",
+        "spans": [
+          [
+            23244,
+            23270
+          ],
+          [
+            24956,
+            24982
+          ]
+        ]
+      },
+      {
+        "name": "phenylpropanoid-metabolic pathways",
+        "spans": [
+          [
+            23473,
+            23507
+          ]
+        ]
+      },
+      {
+        "name": "methylerythritol phosphate (MEP) pathway",
+        "spans": [
+          [
+            24323,
+            24363
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "Pavir.6Ng089000",
+        "spans": [
+          [
+            24807,
+            24822
+          ]
+        ]
+      },
+      {
+        "name": "geranylgeranyl pyrophosphate synthase (GGPPS)",
+        "spans": [
+          [
+            24760,
+            24805
+          ]
+        ]
+      },
+      {
+        "name": "cinnamate-4-hydroxylase (C4H)",
+        "spans": [
+          [
+            25041,
+            25070
+          ]
+        ]
+      },
+      {
+        "name": "squalene synthase",
+        "spans": [
+          [
+            24538,
+            24555
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.4NG340500",
+        "spans": [
+          [
+            24557,
+            24572
+          ]
+        ]
+      },
+      {
+        "name": "4-coumaroyl-CoA ligase (4CL)",
+        "spans": [
+          [
+            25076,
+            25104
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.3NG140939",
+        "spans": [
+          [
+            24399,
+            24414
+          ]
+        ]
+      },
+      {
+        "name": "phenylalanine ammonia lyase (PAL)",
+        "spans": [
+          [
+            25006,
+            25039
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.3KG128241",
+        "spans": [
+          [
+            24379,
+            24394
+          ]
+        ]
+      },
+      {
+        "name": "1-deoxyxylulose 5-phosphate synthase (DXS)",
+        "spans": [
+          [
+            24267,
+            24309
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            24433,
+            24439
+          ],
+          [
+            24602,
+            24608
+          ],
+          [
+            25161,
+            25167
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            24466,
+            24471
+          ],
+          [
+            24636,
+            24641
+          ],
+          [
+            24873,
+            24878
+          ],
+          [
+            25140,
+            25145
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Alamo",
+        "spans": [
+          [
+            23973,
+            23978
+          ],
+          [
+            24126,
+            24131
+          ],
+          [
+            24480,
+            24485
+          ],
+          [
+            24846,
+            24851
+          ],
+          [
+            25176,
+            25181
+          ]
+        ]
+      },
+      {
+        "name": "Cave-in-Rock",
+        "spans": [
+          [
+            23880,
+            23892
+          ],
+          [
+            24136,
+            24148
+          ],
+          [
+            24490,
+            24502
+          ],
+          [
+            24860,
+            24872
+          ],
+          [
+            25186,
+            25198
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "oxidative stress",
+        "spans": [
+          [
+            23551,
+            23567
+          ]
+        ]
+      },
+      {
+        "name": "drought",
+        "spans": [
+          [
+            23523,
+            23530
+          ],
+          [
+            23680,
+            23687
+          ],
+          [
+            24168,
+            24175
+          ]
+        ]
+      },
+      {
+        "name": "UV irradiation",
+        "spans": [
+          [
+            23532,
+            23546
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "gene expression",
+        "spans": [
+          [
+            24184,
+            24199
+          ],
+          [
+            24617,
+            24632
+          ],
+          [
+            24909,
+            24924
+          ]
+        ]
+      },
+      {
+        "name": "transcript abundance",
+        "spans": [
+          [
+            23743,
+            23763
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "1-deoxyxylulose 5-phosphate",
+        "spans": [
+          [
+            25864,
+            25891
+          ],
+          [
+            25907,
+            25934
+          ]
+        ]
+      },
+      {
+        "name": "HMG-CoA",
+        "spans": [
+          [
+            25952,
+            25959
+          ]
+        ]
+      },
+      {
+        "name": "4-coumaroyl-CoA",
+        "spans": [
+          [
+            26174,
+            26189
+          ]
+        ]
+      },
+      {
+        "name": "farnesyl pyrophosphate",
+        "spans": [
+          [
+            25977,
+            25999
+          ]
+        ]
+      },
+      {
+        "name": "geranylgeranyl pyrophosphate",
+        "spans": [
+          [
+            26017,
+            26045
+          ]
+        ]
+      },
+      {
+        "name": "phenylalanine",
+        "spans": [
+          [
+            26110,
+            26123
+          ]
+        ]
+      },
+      {
+        "name": "squalene",
+        "spans": [
+          [
+            26061,
+            26069
+          ],
+          [
+            26085,
+            26093
+          ]
+        ]
+      },
+      {
+        "name": "cinnamate",
+        "spans": [
+          [
+            26144,
+            26153
+          ]
+        ]
+      },
+      {
+        "name": "chalcone",
+        "spans": [
+          [
+            26203,
+            26211
+          ],
+          [
+            26227,
+            26235
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "flavonoid backbone biosynthesis",
+        "spans": [
+          [
+            25400,
+            25431
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid backbone biosynthesis",
+        "spans": [
+          [
+            25360,
+            25391
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "CHS",
+        "spans": [
+          [
+            26198,
+            26201
+          ]
+        ]
+      },
+      {
+        "name": "PAL",
+        "spans": [
+          [
+            26105,
+            26108
+          ]
+        ]
+      },
+      {
+        "name": "DXS",
+        "spans": [
+          [
+            25859,
+            25862
+          ]
+        ]
+      },
+      {
+        "name": "SQE",
+        "spans": [
+          [
+            26080,
+            26083
+          ]
+        ]
+      },
+      {
+        "name": "HMGR",
+        "spans": [
+          [
+            25946,
+            25950
+          ]
+        ]
+      },
+      {
+        "name": "4CL",
+        "spans": [
+          [
+            26169,
+            26172
+          ]
+        ]
+      },
+      {
+        "name": "C4H",
+        "spans": [
+          [
+            26139,
+            26142
+          ]
+        ]
+      },
+      {
+        "name": "GGPPS",
+        "spans": [
+          [
+            26010,
+            26015
+          ]
+        ]
+      },
+      {
+        "name": "DXR",
+        "spans": [
+          [
+            25902,
+            25905
+          ]
+        ]
+      },
+      {
+        "name": "CHI",
+        "spans": [
+          [
+            26222,
+            26225
+          ]
+        ]
+      },
+      {
+        "name": "SQS",
+        "spans": [
+          [
+            26056,
+            26059
+          ]
+        ]
+      },
+      {
+        "name": "FPPS",
+        "spans": [
+          [
+            25971,
+            25975
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            25515,
+            25531
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought-treated",
+        "spans": [
+          [
+            25454,
+            25469
+          ]
+        ]
+      },
+      {
+        "name": "well-watered control",
+        "spans": [
+          [
+            25477,
+            25497
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "gene expression",
+        "spans": [
+          [
+            25294,
+            25309
+          ],
+          [
+            25570,
+            25585
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "steroid saponins",
+        "spans": [
+          [
+            26620,
+            26636
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid",
+        "spans": [
+          [
+            26603,
+            26615
+          ],
+          [
+            26950,
+            26962
+          ],
+          [
+            27124,
+            27136
+          ],
+          [
+            27457,
+            27469
+          ],
+          [
+            27645,
+            27657
+          ]
+        ]
+      },
+      {
+        "name": "beta-amyrin",
+        "spans": [
+          [
+            26781,
+            26792
+          ]
+        ]
+      },
+      {
+        "name": "diosgenin",
+        "spans": [
+          [
+            27487,
+            27496
+          ]
+        ]
+      },
+      {
+        "name": "lanosterol",
+        "spans": [
+          [
+            26753,
+            26763
+          ]
+        ]
+      },
+      {
+        "name": "cycloartenol",
+        "spans": [
+          [
+            26723,
+            26735
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "triterpenoid metabolism",
+        "spans": [
+          [
+            26950,
+            26973
+          ]
+        ]
+      },
+      {
+        "name": "biosynthesis of triterpenoid saponins",
+        "spans": [
+          [
+            27441,
+            27478
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "CYP94D",
+        "spans": [
+          [
+            26855,
+            26861
+          ],
+          [
+            27391,
+            27397
+          ]
+        ]
+      },
+      {
+        "name": "TTS",
+        "spans": [
+          [
+            27147,
+            27150
+          ],
+          [
+            27330,
+            27333
+          ]
+        ]
+      },
+      {
+        "name": "cycloartenol synthases",
+        "spans": [
+          [
+            26723,
+            26745
+          ]
+        ]
+      },
+      {
+        "name": "LAS",
+        "spans": [
+          [
+            26775,
+            26778
+          ]
+        ]
+      },
+      {
+        "name": "beta-amyrin synthases",
+        "spans": [
+          [
+            26781,
+            26802
+          ]
+        ]
+      },
+      {
+        "name": "CYP72A",
+        "spans": [
+          [
+            27173,
+            27179
+          ],
+          [
+            27383,
+            27389
+          ]
+        ]
+      },
+      {
+        "name": "CAS",
+        "spans": [
+          [
+            26747,
+            26750
+          ]
+        ]
+      },
+      {
+        "name": "BAS",
+        "spans": [
+          [
+            26804,
+            26807
+          ]
+        ]
+      },
+      {
+        "name": "lanosterol synthases",
+        "spans": [
+          [
+            26753,
+            26773
+          ]
+        ]
+      },
+      {
+        "name": "sterol 3-beta-glucosyltransferases",
+        "spans": [
+          [
+            26891,
+            26925
+          ]
+        ]
+      },
+      {
+        "name": "CYP90B",
+        "spans": [
+          [
+            26844,
+            26850
+          ],
+          [
+            27402,
+            27408
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid synthase",
+        "spans": [
+          [
+            27124,
+            27145
+          ]
+        ]
+      },
+      {
+        "name": "CYP71A",
+        "spans": [
+          [
+            26836,
+            26842
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            27237,
+            27243
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            27303,
+            27308
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Alamo",
+        "spans": [
+          [
+            26392,
+            26397
+          ],
+          [
+            27231,
+            27236
+          ],
+          [
+            27297,
+            27302
+          ]
+        ]
+      },
+      {
+        "name": "Cave-in-Rock",
+        "spans": [
+          [
+            26402,
+            26414
+          ],
+          [
+            27700,
+            27712
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            27264,
+            27271
+          ],
+          [
+            27575,
+            27582
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "triterpenoid",
+        "spans": [
+          [
+            27840,
+            27852
+          ],
+          [
+            28047,
+            28059
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "triterpenoid biosynthesis",
+        "spans": [
+          [
+            27840,
+            27865
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            28338,
+            28344
+          ],
+          [
+            28478,
+            28484
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            28425,
+            28430
+          ],
+          [
+            28528,
+            28533
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            27882,
+            27898
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "well-watered control",
+        "spans": [
+          [
+            28348,
+            28368
+          ],
+          [
+            28434,
+            28454
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            28488,
+            28504
+          ],
+          [
+            28537,
+            28553
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "gene expression",
+        "spans": [
+          [
+            28182,
+            28197
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "furanoditerpenoid",
+        "spans": [
+          [
+            28814,
+            28831
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            28773,
+            28785
+          ]
+        ]
+      },
+      {
+        "name": "syn-pimaradiene",
+        "spans": [
+          [
+            29653,
+            29668
+          ]
+        ]
+      },
+      {
+        "name": "cis-trans-clerodienyl pyrophosphate",
+        "spans": [
+          [
+            29300,
+            29335
+          ]
+        ]
+      },
+      {
+        "name": "syn-pimarane",
+        "spans": [
+          [
+            28797,
+            28809
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "diterpenoid pathway",
+        "spans": [
+          [
+            30018,
+            30037
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "CYP71Z28",
+        "spans": [
+          [
+            29403,
+            29411
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS10",
+        "spans": [
+          [
+            29581,
+            29588
+          ]
+        ]
+      },
+      {
+        "name": "PvKSL4",
+        "spans": [
+          [
+            29620,
+            29626
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS9",
+        "spans": [
+          [
+            29570,
+            29576
+          ]
+        ]
+      },
+      {
+        "name": "CYP71Z26",
+        "spans": [
+          [
+            29389,
+            29397
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS1",
+        "spans": [
+          [
+            29352,
+            29358
+          ]
+        ]
+      },
+      {
+        "name": "PvKSL5",
+        "spans": [
+          [
+            29631,
+            29637
+          ]
+        ]
+      },
+      {
+        "name": "CYP71Z25",
+        "spans": [
+          [
+            29379,
+            29387
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            30062,
+            30068
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            29289,
+            29294
+          ],
+          [
+            29712,
+            29717
+          ],
+          [
+            29962,
+            29967
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Alamo",
+        "spans": [
+          [
+            29247,
+            29252
+          ],
+          [
+            29283,
+            29288
+          ]
+        ]
+      },
+      {
+        "name": "Cave-in-Rock",
+        "spans": [
+          [
+            29257,
+            29269
+          ],
+          [
+            29787,
+            29799
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            29517,
+            29524
+          ],
+          [
+            29746,
+            29753
+          ],
+          [
+            29972,
+            29979
+          ]
+        ]
+      },
+      {
+        "name": "water deficiency",
+        "spans": [
+          [
+            29875,
+            29891
+          ]
+        ]
+      },
+      {
+        "name": "well-watered",
+        "spans": [
+          [
+            29851,
+            29863
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "diterpenoid",
+        "spans": [
+          [
+            30213,
+            30224
+          ],
+          [
+            30468,
+            30479
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "diterpenoid biosynthesis",
+        "spans": [
+          [
+            30213,
+            30237
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            30836,
+            30842
+          ],
+          [
+            30976,
+            30982
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            30923,
+            30928
+          ],
+          [
+            31026,
+            31031
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            30254,
+            30270
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "well-watered control",
+        "spans": [
+          [
+            30846,
+            30866
+          ],
+          [
+            30932,
+            30952
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            30986,
+            31002
+          ],
+          [
+            31035,
+            31051
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "root",
+        "spans": [
+          [
+            31205,
+            31209
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            31196,
+            31200
+          ]
+        ]
+      },
+      {
+        "name": "tissues",
+        "spans": [
+          [
+            31614,
+            31621
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "well-watered conditions",
+        "spans": [
+          [
+            31282,
+            31305
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            31261,
+            31277
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "triterpenoids",
+        "spans": [
+          [
+            33295,
+            33308
+          ]
+        ]
+      },
+      {
+        "name": "phospholipids",
+        "spans": [
+          [
+            32834,
+            32847
+          ],
+          [
+            33050,
+            33063
+          ]
+        ]
+      },
+      {
+        "name": "alcohols",
+        "spans": [
+          [
+            33756,
+            33764
+          ]
+        ]
+      },
+      {
+        "name": "carbohydrates",
+        "spans": [
+          [
+            33731,
+            33744
+          ]
+        ]
+      },
+      {
+        "name": "acids",
+        "spans": [
+          [
+            33746,
+            33751
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            33278,
+            33290
+          ]
+        ]
+      },
+      {
+        "name": "ABA",
+        "spans": [
+          [
+            33915,
+            33918
+          ],
+          [
+            33992,
+            33995
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            32550,
+            32556
+          ],
+          [
+            32720,
+            32726
+          ],
+          [
+            33103,
+            33109
+          ],
+          [
+            33214,
+            33220
+          ],
+          [
+            33835,
+            33841
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            32585,
+            32590
+          ],
+          [
+            33439,
+            33444
+          ],
+          [
+            33846,
+            33851
+          ]
+        ]
+      }
+    ],
+    "species": [],
+    "experimental_conditions": [
+      {
+        "name": "drought-treatment",
+        "spans": [
+          [
+            32168,
+            32185
+          ]
+        ]
+      },
+      {
+        "name": "water deficient conditions",
+        "spans": [
+          [
+            33879,
+            33905
+          ]
+        ]
+      },
+      {
+        "name": "drought treatment",
+        "spans": [
+          [
+            32356,
+            32373
+          ],
+          [
+            32605,
+            32622
+          ],
+          [
+            32948,
+            32965
+          ]
+        ]
+      },
+      {
+        "name": "control",
+        "spans": [
+          [
+            32189,
+            32196
+          ],
+          [
+            32779,
+            32786
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            33116,
+            33130
+          ],
+          [
+            33489,
+            33503
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            32791,
+            32807
+          ]
+        ]
+      },
+      {
+        "name": "drought-treated",
+        "spans": [
+          [
+            33185,
+            33200
+          ]
+        ]
+      },
+      {
+        "name": "water deprivation",
+        "spans": [
+          [
+            32505,
+            32522
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [],
+    "experimental_conditions": [],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            34576,
+            34592
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            34545,
+            34559
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "panicoloid B",
+        "spans": [
+          [
+            35547,
+            35559
+          ]
+        ]
+      },
+      {
+        "name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,15-olide",
+        "spans": [
+          [
+            35565,
+            35613
+          ]
+        ]
+      },
+      {
+        "name": "sucrose",
+        "spans": [
+          [
+            35132,
+            35139
+          ]
+        ]
+      },
+      {
+        "name": "abscisic acid",
+        "spans": [
+          [
+            35144,
+            35157
+          ]
+        ]
+      },
+      {
+        "name": "15,16-epoxy-2-oxo-5beta8alpha-cleroda-3,13(16),14-triene",
+        "spans": [
+          [
+            35480,
+            35536
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid A",
+        "spans": [
+          [
+            35465,
+            35477
+          ]
+        ]
+      },
+      {
+        "name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),14-triene",
+        "spans": [
+          [
+            35397,
+            35454
+          ]
+        ]
+      },
+      {
+        "name": "ABA",
+        "spans": [
+          [
+            35159,
+            35162
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid C",
+        "spans": [
+          [
+            35624,
+            35636
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "roots",
+        "spans": [
+          [
+            35682,
+            35687
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Panicum virgatum",
+        "spans": [
+          [
+            35113,
+            35129
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            35653,
+            35669
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "triterpenoids",
+        "spans": [
+          [
+            37141,
+            37154
+          ]
+        ]
+      },
+      {
+        "name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,l5-olide",
+        "spans": [
+          [
+            38573,
+            38621
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid B",
+        "spans": [
+          [
+            38660,
+            38672
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid metabolites",
+        "spans": [
+          [
+            36473,
+            36494
+          ]
+        ]
+      },
+      {
+        "name": "switchgrass furanoditerpenoids",
+        "spans": [
+          [
+            39138,
+            39168
+          ]
+        ]
+      },
+      {
+        "name": "steroidal saponins",
+        "spans": [
+          [
+            36813,
+            36831
+          ]
+        ]
+      },
+      {
+        "name": "labdane-related diterpenoids",
+        "spans": [
+          [
+            37899,
+            37927
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid D",
+        "spans": [
+          [
+            39049,
+            39061
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid A",
+        "spans": [
+          [
+            38646,
+            38658
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            35948,
+            35960
+          ],
+          [
+            37194,
+            37206
+          ],
+          [
+            37401,
+            37413
+          ],
+          [
+            37915,
+            37927
+          ],
+          [
+            38026,
+            38038
+          ],
+          [
+            38411,
+            38423
+          ],
+          [
+            39078,
+            39090
+          ]
+        ]
+      },
+      {
+        "name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),l4-triene",
+        "spans": [
+          [
+            38427,
+            38484
+          ]
+        ]
+      },
+      {
+        "name": "flavonoid glycosides",
+        "spans": [
+          [
+            36224,
+            36244
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid C",
+        "spans": [
+          [
+            38678,
+            38690
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid saponins",
+        "spans": [
+          [
+            35922,
+            35943
+          ],
+          [
+            36599,
+            36620
+          ],
+          [
+            36691,
+            36712
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            36264,
+            36270
+          ],
+          [
+            36739,
+            36745
+          ],
+          [
+            36848,
+            36854
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            36046,
+            36051
+          ],
+          [
+            36862,
+            36867
+          ],
+          [
+            37278,
+            37283
+          ],
+          [
+            37518,
+            37523
+          ],
+          [
+            38092,
+            38097
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            36099,
+            36103
+          ]
+        ]
+      },
+      {
+        "name": "root tissue",
+        "spans": [
+          [
+            36323,
+            36334
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Alamo",
+        "spans": [
+          [
+            36023,
+            36028
+          ],
+          [
+            36274,
+            36279
+          ],
+          [
+            36754,
+            36759
+          ],
+          [
+            36905,
+            36910
+          ],
+          [
+            37272,
+            37277
+          ],
+          [
+            37431,
+            37436
+          ]
+        ]
+      },
+      {
+        "name": "Cave-in-Rock",
+        "spans": [
+          [
+            36033,
+            36045
+          ],
+          [
+            36284,
+            36296
+          ],
+          [
+            36764,
+            36776
+          ],
+          [
+            36914,
+            36926
+          ],
+          [
+            37334,
+            37346
+          ],
+          [
+            37441,
+            37453
+          ],
+          [
+            38079,
+            38091
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought-stressed roots",
+        "spans": [
+          [
+            37501,
+            37523
+          ]
+        ]
+      },
+      {
+        "name": "drought",
+        "spans": [
+          [
+            36136,
+            36143
+          ],
+          [
+            36399,
+            36406
+          ],
+          [
+            37068,
+            37075
+          ],
+          [
+            37501,
+            37508
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            37068,
+            37082
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "physiological stress symptoms",
+        "spans": [
+          [
+            36154,
+            36183
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "phenylpropanoids",
+        "spans": [
+          [
+            39859,
+            39875
+          ]
+        ]
+      },
+      {
+        "name": "terpenoids",
+        "spans": [
+          [
+            39847,
+            39857
+          ]
+        ]
+      },
+      {
+        "name": "benzoxazinoids",
+        "spans": [
+          [
+            39892,
+            39906
+          ]
+        ]
+      },
+      {
+        "name": "oxylipins",
+        "spans": [
+          [
+            39877,
+            39886
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoid metabolites",
+        "spans": [
+          [
+            40467,
+            40490
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "Sorghum bicolor",
+        "spans": [
+          [
+            39768,
+            39783
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought adaptation",
+        "spans": [
+          [
+            40138,
+            40156
+          ],
+          [
+            40530,
+            40548
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "low drought tolerance",
+        "spans": [
+          [
+            40353,
+            40374
+          ]
+        ]
+      },
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            40357,
+            40374
+          ]
+        ]
+      }
+    ],
+    "human_traits": [
+      {
+        "name": "harvest loss",
+        "spans": [
+          [
+            39651,
+            39663
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "compounds": [
+      {
+        "name": "ABA",
+        "spans": [
+          [
+            41922,
+            41925
+          ],
+          [
+            42080,
+            42083
+          ],
+          [
+            42196,
+            42199
+          ],
+          [
+            42307,
+            42310
+          ]
+        ]
+      },
+      {
+        "name": "sugar",
+        "spans": [
+          [
+            42204,
+            42209
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "LEA genes",
+        "spans": [
+          [
+            41587,
+            41596
+          ]
+        ]
+      },
+      {
+        "name": "AWPM-19-like genes",
+        "spans": [
+          [
+            41996,
+            42014
+          ]
+        ]
+      },
+      {
+        "name": "AWPM-19-like ABA influx transporters",
+        "spans": [
+          [
+            41909,
+            41945
+          ]
+        ]
+      },
+      {
+        "name": "dehydrin",
+        "spans": [
+          [
+            41608,
+            41616
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.8KG003520",
+        "spans": [
+          [
+            41768,
+            41783
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "tissue",
+        "spans": [
+          [
+            40879,
+            40885
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Arabidopsis",
+        "spans": [
+          [
+            41654,
+            41665
+          ]
+        ]
+      },
+      {
+        "name": "Gossypium spec.",
+        "spans": [
+          [
+            41678,
+            41693
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought treatment",
+        "spans": [
+          [
+            41041,
+            41058
+          ],
+          [
+            41467,
+            41484
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            42138,
+            42152
+          ],
+          [
+            42314,
+            42328
+          ]
+        ]
+      },
+      {
+        "name": "control plants",
+        "spans": [
+          [
+            42428,
+            42442
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "differential expression",
+        "spans": [
+          [
+            41961,
+            41984
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            41633,
+            41650
+          ],
+          [
+            41808,
+            41825
+          ]
+        ]
+      },
+      {
+        "name": "phenotypic changes",
+        "spans": [
+          [
+            41518,
+            41536
+          ]
+        ]
+      },
+      {
+        "name": "wilting phenotype",
+        "spans": [
+          [
+            41009,
+            41026
+          ]
+        ]
+      },
+      {
+        "name": "drought-susceptible",
+        "spans": [
+          [
+            41249,
+            41268
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "phospholipids",
+        "spans": [
+          [
+            43248,
+            43261
+          ]
+        ]
+      },
+      {
+        "name": "sucrose",
+        "spans": [
+          [
+            43062,
+            43069
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid",
+        "spans": [
+          [
+            44157,
+            44169
+          ],
+          [
+            44399,
+            44411
+          ]
+        ]
+      },
+      {
+        "name": "ABA",
+        "spans": [
+          [
+            43074,
+            43077
+          ]
+        ]
+      },
+      {
+        "name": "flavonoid glycosides",
+        "spans": [
+          [
+            43941,
+            43961
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid saponins",
+        "spans": [
+          [
+            44157,
+            44178
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "membrane lipid systems",
+        "spans": [
+          [
+            43373,
+            43395
+          ]
+        ]
+      },
+      {
+        "name": "cell wall biosynthesis",
+        "spans": [
+          [
+            43400,
+            43422
+          ]
+        ]
+      },
+      {
+        "name": "specialized metabolism",
+        "spans": [
+          [
+            42860,
+            42882
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "CHS",
+        "spans": [
+          [
+            44100,
+            44103
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            43290,
+            43296
+          ],
+          [
+            44210,
+            44216
+          ]
+        ]
+      },
+      {
+        "name": "leaf",
+        "spans": [
+          [
+            43024,
+            43028
+          ],
+          [
+            43936,
+            43940
+          ],
+          [
+            44265,
+            44269
+          ]
+        ]
+      },
+      {
+        "name": "membrane",
+        "spans": [
+          [
+            43373,
+            43381
+          ],
+          [
+            43574,
+            43582
+          ]
+        ]
+      },
+      {
+        "name": "leaf cuticular waxes",
+        "spans": [
+          [
+            44265,
+            44285
+          ]
+        ]
+      },
+      {
+        "name": "cell wall",
+        "spans": [
+          [
+            43400,
+            43409
+          ]
+        ]
+      },
+      {
+        "name": "root tissue",
+        "spans": [
+          [
+            43033,
+            43044
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Triticum aestivum",
+        "spans": [
+          [
+            43872,
+            43889
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            42965,
+            42972
+          ],
+          [
+            43167,
+            43174
+          ],
+          [
+            43449,
+            43456
+          ],
+          [
+            43529,
+            43536
+          ],
+          [
+            43610,
+            43617
+          ],
+          [
+            43737,
+            43744
+          ],
+          [
+            43812,
+            43819
+          ],
+          [
+            43996,
+            44003
+          ],
+          [
+            44107,
+            44114
+          ],
+          [
+            44301,
+            44308
+          ],
+          [
+            44382,
+            44389
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            42965,
+            42979
+          ]
+        ]
+      },
+      {
+        "name": "water deficiency",
+        "spans": [
+          [
+            43696,
+            43712
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            44107,
+            44123
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            43529,
+            43546
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "triterpenoids",
+        "spans": [
+          [
+            46052,
+            46065
+          ],
+          [
+            46574,
+            46587
+          ],
+          [
+            46821,
+            46834
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid precursors",
+        "spans": [
+          [
+            44858,
+            44878
+          ]
+        ]
+      },
+      {
+        "name": "diosgenin",
+        "spans": [
+          [
+            46109,
+            46118
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            44579,
+            44591
+          ]
+        ]
+      },
+      {
+        "name": "sterol 3-beta-glucosyltransferases",
+        "spans": [
+          [
+            45889,
+            45923
+          ]
+        ]
+      },
+      {
+        "name": "saponins",
+        "spans": [
+          [
+            44559,
+            44567
+          ],
+          [
+            46152,
+            46160
+          ],
+          [
+            47223,
+            47231
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid saponins",
+        "spans": [
+          [
+            44546,
+            44567
+          ],
+          [
+            46139,
+            46160
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "triterpenoid-metabolic pathway",
+        "spans": [
+          [
+            45390,
+            45420
+          ]
+        ]
+      },
+      {
+        "name": "MVA pathway",
+        "spans": [
+          [
+            44696,
+            44707
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid-biosynthetic gene clusters",
+        "spans": [
+          [
+            45490,
+            45529
+          ]
+        ]
+      },
+      {
+        "name": "triterpenoid pathways",
+        "spans": [
+          [
+            46463,
+            46484
+          ]
+        ]
+      },
+      {
+        "name": "terpenoid backbone pathways",
+        "spans": [
+          [
+            45145,
+            45172
+          ]
+        ]
+      }
+    ],
+    "genes": [
+      {
+        "name": "CYP94D",
+        "spans": [
+          [
+            45954,
+            45960
+          ]
+        ]
+      },
+      {
+        "name": "GGPPS",
+        "spans": [
+          [
+            44940,
+            44945
+          ]
+        ]
+      },
+      {
+        "name": "P450 genes",
+        "spans": [
+          [
+            45928,
+            45938
+          ]
+        ]
+      },
+      {
+        "name": "TTS genes",
+        "spans": [
+          [
+            45868,
+            45877
+          ]
+        ]
+      },
+      {
+        "name": "CYP90B",
+        "spans": [
+          [
+            45965,
+            45971
+          ]
+        ]
+      },
+      {
+        "name": "CYP71A",
+        "spans": [
+          [
+            45946,
+            45952
+          ]
+        ]
+      },
+      {
+        "name": "Pavir.6NG089000",
+        "spans": [
+          [
+            44947,
+            44962
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "leaves",
+        "spans": [
+          [
+            44518,
+            44524
+          ],
+          [
+            45330,
+            45336
+          ]
+        ]
+      },
+      {
+        "name": "roots",
+        "spans": [
+          [
+            44672,
+            44677
+          ],
+          [
+            45012,
+            45017
+          ],
+          [
+            45341,
+            45346
+          ],
+          [
+            46164,
+            46169
+          ],
+          [
+            46838,
+            46843
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Glycine max",
+        "spans": [
+          [
+            46865,
+            46876
+          ]
+        ]
+      },
+      {
+        "name": "Solanum lycopersicum",
+        "spans": [
+          [
+            46890,
+            46910
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought conditions",
+        "spans": [
+          [
+            45443,
+            45461
+          ]
+        ]
+      },
+      {
+        "name": "drought",
+        "spans": [
+          [
+            44655,
+            44662
+          ],
+          [
+            44750,
+            44757
+          ],
+          [
+            44901,
+            44908
+          ],
+          [
+            45123,
+            45130
+          ],
+          [
+            45443,
+            45450
+          ],
+          [
+            46391,
+            46398
+          ],
+          [
+            46517,
+            46524
+          ],
+          [
+            47087,
+            47094
+          ]
+        ]
+      },
+      {
+        "name": "drought stress",
+        "spans": [
+          [
+            47087,
+            47101
+          ]
+        ]
+      },
+      {
+        "name": "drought-stressed",
+        "spans": [
+          [
+            44655,
+            44671
+          ]
+        ]
+      },
+      {
+        "name": "water deficiency",
+        "spans": [
+          [
+            46655,
+            46671
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [
+      {
+        "name": "antioxidant functions",
+        "spans": [
+          [
+            46594,
+            46615
+          ]
+        ]
+      }
+    ],
+    "plant_traits": [
+      {
+        "name": "robustness against environmental stresses",
+        "spans": [
+          [
+            46967,
+            47008
+          ]
+        ]
+      },
+      {
+        "name": "drought-stress responses",
+        "spans": [
+          [
+            46517,
+            46541
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "triterpenoids",
+        "spans": [
+          [
+            47338,
+            47351
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid B",
+        "spans": [
+          [
+            48203,
+            48215
+          ],
+          [
+            48580,
+            48592
+          ],
+          [
+            48906,
+            48918
+          ]
+        ]
+      },
+      {
+        "name": "dolabralexin",
+        "spans": [
+          [
+            50243,
+            50255
+          ],
+          [
+            50740,
+            50752
+          ]
+        ]
+      },
+      {
+        "name": "oxygenated clerodane furanoditerpenoids",
+        "spans": [
+          [
+            47952,
+            47991
+          ]
+        ]
+      },
+      {
+        "name": "furanoditerpenoid",
+        "spans": [
+          [
+            48058,
+            48075
+          ]
+        ]
+      },
+      {
+        "name": "kauralexin",
+        "spans": [
+          [
+            50228,
+            50238
+          ],
+          [
+            50724,
+            50734
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid A",
+        "spans": [
+          [
+            48004,
+            48016
+          ]
+        ]
+      },
+      {
+        "name": "diterpenoids",
+        "spans": [
+          [
+            47405,
+            47417
+          ],
+          [
+            47552,
+            47564
+          ],
+          [
+            49173,
+            49185
+          ],
+          [
+            49366,
+            49378
+          ],
+          [
+            49459,
+            49471
+          ],
+          [
+            49933,
+            49945
+          ],
+          [
+            50256,
+            50268
+          ],
+          [
+            50558,
+            50570
+          ]
+        ]
+      },
+      {
+        "name": "panicoloid C",
+        "spans": [
+          [
+            48220,
+            48232
+          ]
+        ]
+      }
+    ],
+    "pathways": [],
+    "genes": [
+      {
+        "name": "CYP71Z28",
+        "spans": [
+          [
+            48529,
+            48537
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS10",
+        "spans": [
+          [
+            49304,
+            49311
+          ]
+        ]
+      },
+      {
+        "name": "PvKSL4",
+        "spans": [
+          [
+            49380,
+            49386
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS9",
+        "spans": [
+          [
+            49296,
+            49302
+          ]
+        ]
+      },
+      {
+        "name": "CYP99",
+        "spans": [
+          [
+            48653,
+            48658
+          ]
+        ]
+      },
+      {
+        "name": "CYP71Z26",
+        "spans": [
+          [
+            48516,
+            48524
+          ]
+        ]
+      },
+      {
+        "name": "PvCPS1",
+        "spans": [
+          [
+            48337,
+            48343
+          ],
+          [
+            48480,
+            48486
+          ]
+        ]
+      },
+      {
+        "name": "diTPS",
+        "spans": [
+          [
+            48289,
+            48294
+          ],
+          [
+            48474,
+            48479
+          ],
+          [
+            49339,
+            49344
+          ]
+        ]
+      },
+      {
+        "name": "PvKSL5",
+        "spans": [
+          [
+            49388,
+            49394
+          ]
+        ]
+      },
+      {
+        "name": "an2",
+        "spans": [
+          [
+            50769,
+            50772
+          ]
+        ]
+      },
+      {
+        "name": "CYP71Z25",
+        "spans": [
+          [
+            48506,
+            48514
+          ]
+        ]
+      }
+    ],
+    "anatomical_structures": [
+      {
+        "name": "roots",
+        "spans": [
+          [
+            47421,
+            47426
+          ],
+          [
+            49201,
+            49206
+          ]
+        ]
+      },
+      {
+        "name": "root",
+        "spans": [
+          [
+            47333,
+            47337
+          ],
+          [
+            50625,
+            50629
+          ]
+        ]
+      }
+    ],
+    "species": [
+      {
+        "name": "Croton campestris",
+        "spans": [
+          [
+            49661,
+            49678
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought-induced",
+        "spans": [
+          [
+            47365,
+            47380
+          ],
+          [
+            48345,
+            48360
+          ],
+          [
+            49443,
+            49458
+          ],
+          [
+            49813,
+            49828
+          ]
+        ]
+      },
+      {
+        "name": "oxidative",
+        "spans": [
+          [
+            50284,
+            50293
+          ]
+        ]
+      },
+      {
+        "name": "drought",
+        "spans": [
+          [
+            47365,
+            47372
+          ],
+          [
+            47446,
+            47453
+          ],
+          [
+            47767,
+            47774
+          ],
+          [
+            48345,
+            48352
+          ],
+          [
+            49015,
+            49022
+          ],
+          [
+            49106,
+            49113
+          ],
+          [
+            49208,
+            49215
+          ],
+          [
+            49443,
+            49450
+          ],
+          [
+            49813,
+            49820
+          ],
+          [
+            49977,
+            49984
+          ],
+          [
+            50066,
+            50073
+          ],
+          [
+            50295,
+            50302
+          ],
+          [
+            50516,
+            50523
+          ]
+        ]
+      },
+      {
+        "name": "salinity stress",
+        "spans": [
+          [
+            50307,
+            50322
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            49977,
+            49994
+          ]
+        ]
+      },
+      {
+        "name": "stress resilience",
+        "spans": [
+          [
+            47633,
+            47650
+          ]
+        ]
+      },
+      {
+        "name": "wilting phenotype",
+        "spans": [
+          [
+            47858,
+            47875
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  },
+  {
+    "compounds": [
+      {
+        "name": "specialized metabolites",
+        "spans": [
+          [
+            51427,
+            51450
+          ]
+        ]
+      },
+      {
+        "name": "terpenoids",
+        "spans": [
+          [
+            51406,
+            51416
+          ]
+        ]
+      }
+    ],
+    "pathways": [
+      {
+        "name": "plant specialized pathways",
+        "spans": [
+          [
+            51011,
+            51037
+          ]
+        ]
+      }
+    ],
+    "genes": [],
+    "anatomical_structures": [],
+    "species": [
+      {
+        "name": "switchgrass",
+        "spans": [
+          [
+            51220,
+            51231
+          ],
+          [
+            51454,
+            51465
+          ]
+        ]
+      }
+    ],
+    "experimental_conditions": [
+      {
+        "name": "drought",
+        "spans": [
+          [
+            51183,
+            51190
+          ],
+          [
+            51257,
+            51264
+          ],
+          [
+            51466,
+            51473
+          ]
+        ]
+      }
+    ],
+    "molecular_traits": [],
+    "plant_traits": [
+      {
+        "name": "drought tolerance",
+        "spans": [
+          [
+            51257,
+            51274
+          ],
+          [
+            51466,
+            51483
+          ]
+        ]
+      }
+    ],
+    "human_traits": []
+  }
+]
