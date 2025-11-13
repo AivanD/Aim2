@@ -14,14 +14,14 @@ class LevelFilter(logging.Filter):
     def filter(self, record):
         return record.levelno == self.__level
     
-def setup_logging(level=logging.INFO):
+def setup_logging(level=logging.INFO, log_file_name="app.log"):
     """
     Configures logging for the application to output to both console and a file.
     """
     ensure_dirs()  # Ensure that the logs directory exists before creating the log file
 
     # Define the log file path
-    log_file = LOGS_DIR / "app.log"
+    log_file = LOGS_DIR / log_file_name
 
     # Get the root logger
     root_logger = logging.getLogger()

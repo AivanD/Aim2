@@ -34,7 +34,7 @@ def main():
     """
     Main function to load data, perform comparison, and generate evaluation metrics.
     """
-    setup_logging()
+    setup_logging(log_file_name="evaluation.log")
     logging.info("Starting relation extraction evaluation...")
 
     # 1. Load Gold Standard data
