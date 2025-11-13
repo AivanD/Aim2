@@ -264,8 +264,8 @@ async def amain():
                     raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
-                with open(raw_ner_output_path, 'w') as f:
-                    json.dump(raw_result_list, f, indent=2)
+                with open(raw_ner_output_path, 'w', encoding='utf-8') as f:
+                    json.dump(raw_result_list, f, indent=2, ensure_ascii=False)
                 logger.info(f"Raw results saved to {raw_ner_output_path}")
                 end_ner_time = time.time()
                 logger.info(f"Ner processing time for {filename}: {end_ner_time - start_ner_time:.2f} seconds")
@@ -298,8 +298,8 @@ async def amain():
 
                 # --- SAVE INTERMEDIATE FILE FOR NER EVALUATION if it doesnt exists ---
                 if not os.path.exists(eval_ner_output_path):
-                    with open(eval_ner_output_path, 'w') as f:
-                        json.dump(processed_result_list, f, indent=2)
+                    with open(eval_ner_output_path, 'w', encoding='utf-8') as f:
+                        json.dump(processed_result_list, f, indent=2, ensure_ascii=False)
                 logger.info(f"NER evaluation file saved to {eval_ner_output_path}")
 
                 # 2. normalize
@@ -337,8 +337,8 @@ async def amain():
                     logger.error(f"An unexpected error occurred while merging: {e}")
                 
                 # save the processed results to the output file
-                with open(processed_ner_output_path, 'w') as f:
-                    json.dump(final_entities, f, indent=2)
+                with open(processed_ner_output_path, 'w', encoding='utf-8') as f:
+                    json.dump(final_entities, f, indent=2, ensure_ascii=False)
                 logger.info(f"Processed results saved to {processed_ner_output_path}")
                 end_ner_post_time = time.time()
                 logger.info(f"Ner post-processing time for {filename}: {end_ner_post_time - start_ner_post_time:.2f} seconds")
@@ -492,11 +492,11 @@ async def amain():
                         logger.error(f"Failed to validate or process RE result: {e}\nResult was: {result_json}")
             
                 # 5. Save all found relations to a file
-                with open(raw_re_output_path, 'w') as f:
-                    f.write(all_relations.model_dump_json(indent=2))
+                with open(raw_re_output_path, 'w', encoding='utf-8') as f:
+                    json.dump(all_relations.model_dump(), f, indent=2, ensure_ascii=False)
                 re_no_output_path = raw_re_output_path.replace('.json', '_no_relationships.json')
-                with open(re_no_output_path, 'w') as f:
-                    f.write(all_no_relations.model_dump_json(indent=2))
+                with open(re_no_output_path, 'w', encoding='utf-8') as f:
+                    json.dump(all_no_relations.model_dump(), f, indent=2, ensure_ascii=False)
 
                 logger.info(f"Saved {len(all_relations.relations)} relations to {raw_re_output_path}")
             
@@ -559,12 +559,12 @@ async def amain():
                             not_evaluated_relations.relations.append(relations_to_evaluate[i])
                     except Exception as e:
                         logger.error(f"Failed to process self-evaluation result: {e}\nResult was: {self_eval_result_json}")
-                with open(processed_re_output_path, 'w') as f:
-                    f.write(evaluated_relations.model_dump_json(indent=2))
+                with open(processed_re_output_path, 'w', encoding='utf-8') as f:
+                    json.dump(evaluated_relations.model_dump(), f, indent=2, ensure_ascii=False)
                 logger.info(f"Saved {len(evaluated_relations.relations)} evaluated relations to {processed_re_output_path}")
                 processed_re_output_path_not_evaluated = processed_re_output_path.replace('.json', '_not_evaluated.json')
-                with open(processed_re_output_path_not_evaluated, 'w') as f:
-                    f.write(not_evaluated_relations.model_dump_json(indent=2))
+                with open(processed_re_output_path_not_evaluated, 'w', encoding='utf-8') as f:
+                    json.dump(not_evaluated_relations.model_dump(), f, indent=2, ensure_ascii=False)
                 logger.info(f"Saved {len(not_evaluated_relations.relations)} not evaluated relations to {processed_re_output_path_not_evaluated}")
 
             end_re_eval_time = time.time()
