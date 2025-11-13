@@ -1,26 +1,6 @@
 {
 	"compounds": [
 		{
-			"name": "amino acids",
-			"spans": [
-				[1621, 1632],
-				[8470, 8481],
-				[37657, 37668],
-				[41666, 41677],
-				[42000, 42011],
-				[42169, 42180],
-				[42616, 42627],
-				[42702, 42713],
-				[52029, 52040],
-				[52477, 52488],
-				[53987, 53998],
-				[54006, 54017]
-			],
-			"ontology_id": "CHEMONTID:0000347",
-			"normalized_name": "Amino acids and derivatives",
-			"score": 1.0
-		},
-		{
 			"name": "starch",
 			"spans": [
 				[1407, 1413],
@@ -100,6 +80,26 @@
 			"alt_names": ["sugar"]
 		},
 		{
+			"name": "amino acids",
+			"spans": [
+				[1621, 1632],
+				[8470, 8481],
+				[37657, 37668],
+				[41666, 41677],
+				[42000, 42011],
+				[42169, 42180],
+				[42616, 42627],
+				[42702, 42713],
+				[52029, 52040],
+				[52477, 52488],
+				[53987, 53998],
+				[54006, 54017]
+			],
+			"ontology_id": "CHEMONTID:0000347",
+			"normalized_name": "Amino acids and derivatives",
+			"score": 1.0
+		},
+		{
 			"name": "nectar",
 			"spans": [
 				[2215, 2221],
@@ -162,35 +162,11 @@
 			}
 		},
 		{
-			"name": "diols",
-			"spans": [[8507, 8512]],
-			"CID": 11150526,
-			"SMILES": "CC1(O[C@@H]2CN(C[C@]([C@H]2O1)(CO)O)CC3=CC=CC=C3)C",
-			"InChIKey": "KUHSTSBQRXUAPJ-IJEWVQPXSA-N",
-			"Natural_product_class": {
-				"Np_class": [],
-				"Np_superclass": []
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organoheterocyclic compounds",
-				"Class": "Piperidines",
-				"Subclass": "Benzylpiperidines"
-			}
-		},
-		{
 			"name": "sugar alcohols",
 			"spans": [[8483, 8497]],
 			"ontology_id": "CHEMONTID:0002210",
 			"normalized_name": "Sugar alcohols",
 			"score": 1.0
-		},
-		{
-			"name": "esters",
-			"spans": [[8529, 8535]],
-			"ontology_id": "CHEMONTID:0002354",
-			"normalized_name": "Enol esters",
-			"score": 0.9516139626502991
 		},
 		{
 			"name": "lipids",
@@ -219,14 +195,63 @@
 			"score": 0.9267414808273315
 		},
 		{
-			"name": "leucine",
+			"name": "diols",
+			"spans": [[8507, 8512]],
+			"CID": 11150526,
+			"SMILES": "CC1(O[C@@H]2CN(C[C@]([C@H]2O1)(CO)O)CC3=CC=CC=C3)C",
+			"InChIKey": "KUHSTSBQRXUAPJ-IJEWVQPXSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organoheterocyclic compounds",
+				"Class": "Piperidines",
+				"Subclass": "Benzylpiperidines"
+			}
+		},
+		{
+			"name": "esters",
+			"spans": [[8529, 8535]],
+			"ontology_id": "CHEMONTID:0002354",
+			"normalized_name": "Enol esters",
+			"score": 0.9516139626502991
+		},
+		{
+			"name": "gamma-aminobutyric acid",
 			"spans": [
-				[11249, 11256],
-				[52231, 52238]
+				[11289, 11312],
+				[11314, 11318],
+				[52124, 52128],
+				[52164, 52168],
+				[52554, 52558]
 			],
-			"CID": 6106,
-			"SMILES": "CC(C)C[C@@H](C(=O)O)N",
-			"InChIKey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
+			"CID": 119,
+			"SMILES": "C(CC(=O)O)CN",
+			"InChIKey": "BTCSSZJGUNDROE-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			},
+			"alt_names": ["GABA"]
+		},
+		{
+			"name": "phenylalanine",
+			"spans": [
+				[11258, 11271],
+				[42747, 42760],
+				[52106, 52119]
+			],
+			"CID": 6140,
+			"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+			"InChIKey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -239,15 +264,14 @@
 			}
 		},
 		{
-			"name": "phenylalanine",
+			"name": "leucine",
 			"spans": [
-				[11258, 11271],
-				[42747, 42760],
-				[52106, 52119]
+				[11249, 11256],
+				[52231, 52238]
 			],
-			"CID": 6140,
-			"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
-			"InChIKey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
+			"CID": 6106,
+			"SMILES": "CC(C)C[C@@H](C(=O)O)N",
+			"InChIKey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -283,38 +307,11 @@
 			"alt_names": ["aspartate"]
 		},
 		{
-			"name": "gamma-aminobutyric acid",
-			"spans": [
-				[11289, 11312],
-				[11314, 11318],
-				[52124, 52128],
-				[52164, 52168],
-				[52554, 52558]
-			],
-			"CID": 119,
-			"SMILES": "C(CC(=O)O)CN",
-			"InChIKey": "BTCSSZJGUNDROE-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			},
-			"alt_names": ["GABA"]
-		},
-		{
-			"name": "tryptophan",
-			"spans": [
-				[11273, 11283],
-				[52243, 52253]
-			],
-			"CID": 6305,
-			"SMILES": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N",
-			"InChIKey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
+			"name": "beta-alanine",
+			"spans": [[11611, 11623]],
+			"CID": 239,
+			"SMILES": "C(CN)C(=O)O",
+			"InChIKey": "UCMIRNVEIXFBKS-UHFFFAOYSA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -344,11 +341,14 @@
 			}
 		},
 		{
-			"name": "beta-alanine",
-			"spans": [[11611, 11623]],
-			"CID": 239,
-			"SMILES": "C(CN)C(=O)O",
-			"InChIKey": "UCMIRNVEIXFBKS-UHFFFAOYSA-N",
+			"name": "tryptophan",
+			"spans": [
+				[11273, 11283],
+				[52243, 52253]
+			],
+			"CID": 6305,
+			"SMILES": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N",
+			"InChIKey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -445,6 +445,13 @@
 			}
 		},
 		{
+			"name": "fatty acid",
+			"spans": [[33450, 33460]],
+			"ontology_id": "CHEMONTID:0000421",
+			"normalized_name": "Methoxy fatty acids",
+			"score": 1.0
+		},
+		{
 			"name": "pectin",
 			"spans": [
 				[33821, 33827],
@@ -466,20 +473,6 @@
 			"alt_names": ["pectins"]
 		},
 		{
-			"name": "fatty acid",
-			"spans": [[33450, 33460]],
-			"ontology_id": "CHEMONTID:0000421",
-			"normalized_name": "Methoxy fatty acids",
-			"score": 1.0
-		},
-		{
-			"name": "monosaccharides",
-			"spans": [[35882, 35897]],
-			"ontology_id": "CHEMONTID:0001540",
-			"normalized_name": "Monosaccharides",
-			"score": 0.9999999403953552
-		},
-		{
 			"name": "hexoses",
 			"spans": [
 				[35526, 35533],
@@ -493,6 +486,13 @@
 			"normalized_name": "Hexoses",
 			"score": 1.0,
 			"alt_names": ["hexose"]
+		},
+		{
+			"name": "monosaccharides",
+			"spans": [[35882, 35897]],
+			"ontology_id": "CHEMONTID:0001540",
+			"normalized_name": "Monosaccharides",
+			"score": 0.9999999403953552
 		},
 		{
 			"name": "UDP-galactose",
@@ -509,34 +509,6 @@
 				"Superclass": "Nucleosides, nucleotides, and analogues",
 				"Class": "Pyrimidine nucleotides",
 				"Subclass": "Pyrimidine ribonucleotides"
-			}
-		},
-		{
-			"name": "chloride",
-			"spans": [[37733, 37741]],
-			"ontology_id": "CHEMONTID:0000558",
-			"normalized_name": "Actinide chlorides",
-			"score": 0.9319663047790527
-		},
-		{
-			"name": "calcium",
-			"spans": [
-				[37724, 37731],
-				[50923, 50930],
-				[51060, 51067]
-			],
-			"CID": 5460341,
-			"SMILES": "[Ca]",
-			"InChIKey": "OYPRJOBELJOOCE-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": [],
-				"Np_superclass": []
-			},
-			"Classyfire": {
-				"Kingdom": null,
-				"Superclass": null,
-				"Class": null,
-				"Subclass": null
 			}
 		},
 		{
@@ -560,8 +532,77 @@
 			}
 		},
 		{
+			"name": "zinc",
+			"spans": [[37764, 37768]],
+			"CID": 23994,
+			"SMILES": "[Zn]",
+			"InChIKey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": null,
+				"Superclass": null,
+				"Class": null,
+				"Subclass": null
+			}
+		},
+		{
+			"name": "calcium",
+			"spans": [
+				[37724, 37731],
+				[50923, 50930],
+				[51060, 51067]
+			],
+			"CID": 5460341,
+			"SMILES": "[Ca]",
+			"InChIKey": "OYPRJOBELJOOCE-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": null,
+				"Superclass": null,
+				"Class": null,
+				"Subclass": null
+			}
+		},
+		{
 			"name": "sugars",
 			"spans": [[37649, 37655]]
+		},
+		{
+			"name": "chloride",
+			"spans": [[37733, 37741]],
+			"ontology_id": "CHEMONTID:0000558",
+			"normalized_name": "Actinide chlorides",
+			"score": 0.9319663047790527
+		},
+		{
+			"name": "borate",
+			"spans": [[37695, 37701]],
+			"ontology_id": "CHEMONTID:0000875",
+			"normalized_name": "Actinide borates",
+			"score": 0.9776619672775269
+		},
+		{
+			"name": "potassium",
+			"spans": [[37749, 37758]],
+			"CID": 5462222,
+			"SMILES": "[K]",
+			"InChIKey": "ZLMJMSJWJFRBEC-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": [],
+				"Np_superclass": []
+			},
+			"Classyfire": {
+				"Kingdom": null,
+				"Superclass": null,
+				"Class": null,
+				"Subclass": null
+			}
 		},
 		{
 			"name": "iron",
@@ -598,65 +639,11 @@
 			}
 		},
 		{
-			"name": "potassium",
-			"spans": [[37749, 37758]],
-			"CID": 5462222,
-			"SMILES": "[K]",
-			"InChIKey": "ZLMJMSJWJFRBEC-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": [],
-				"Np_superclass": []
-			},
-			"Classyfire": {
-				"Kingdom": null,
-				"Superclass": null,
-				"Class": null,
-				"Subclass": null
-			}
-		},
-		{
 			"name": "phosphate",
 			"spans": [[37703, 37712]],
 			"ontology_id": "CHEMONTID:0000616",
 			"normalized_name": "Actinide phosphates",
 			"score": 0.9240223169326782
-		},
-		{
-			"name": "zinc",
-			"spans": [[37764, 37768]],
-			"CID": 23994,
-			"SMILES": "[Zn]",
-			"InChIKey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": [],
-				"Np_superclass": []
-			},
-			"Classyfire": {
-				"Kingdom": null,
-				"Superclass": null,
-				"Class": null,
-				"Subclass": null
-			}
-		},
-		{
-			"name": "borate",
-			"spans": [[37695, 37701]],
-			"ontology_id": "CHEMONTID:0000875",
-			"normalized_name": "Actinide borates",
-			"score": 0.9776619672775269
-		},
-		{
-			"name": "nitrate",
-			"spans": [
-				[38692, 38699],
-				[38824, 38831],
-				[39059, 39066],
-				[39141, 39148],
-				[53487, 53494]
-			],
-			"ontology_id": "CHEMONTID:0000488",
-			"normalized_name": "Organic nitric acids and derivatives",
-			"score": 0.9532438516616821
 		},
 		{
 			"name": "glutamate",
@@ -682,6 +669,19 @@
 				"Class": "Carboxylic acids and derivatives",
 				"Subclass": "Amino acids, peptides, and analogues"
 			}
+		},
+		{
+			"name": "nitrate",
+			"spans": [
+				[38692, 38699],
+				[38824, 38831],
+				[39059, 39066],
+				[39141, 39148],
+				[53487, 53494]
+			],
+			"ontology_id": "CHEMONTID:0000488",
+			"normalized_name": "Organic nitric acids and derivatives",
+			"score": 0.9532438516616821
 		},
 		{
 			"name": "ammonium",
@@ -745,57 +745,6 @@
 			"score": 1.0000001192092896
 		},
 		{
-			"name": "glycine",
-			"spans": [[42141, 42148]],
-			"CID": 750,
-			"SMILES": "C(C(=O)O)N",
-			"InChIKey": "DHMQDGOQFOQNFH-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			}
-		},
-		{
-			"name": "alanine",
-			"spans": [[42121, 42128]],
-			"CID": 5950,
-			"SMILES": "C[C@@H](C(=O)O)N",
-			"InChIKey": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			}
-		},
-		{
-			"name": "branched chain amino acids",
-			"spans": [[42154, 42180]],
-			"CID": 9886134,
-			"SMILES": "CCC(C)C(C(=O)O)N.CC(C)CC(C(=O)O)N.CC(C)C(C(=O)O)N",
-			"InChIKey": "OCUSNPIJIZCRSZ-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			}
-		},
-		{
 			"name": "oxaloacetate",
 			"spans": [[42552, 42564]],
 			"CID": 970,
@@ -834,12 +783,55 @@
 			}
 		},
 		{
-			"name": "hemicellulose",
-			"spans": [[43991, 44004]]
+			"name": "alanine",
+			"spans": [[42121, 42128]],
+			"CID": 5950,
+			"SMILES": "C[C@@H](C(=O)O)N",
+			"InChIKey": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
 		},
 		{
-			"name": "cutin",
-			"spans": [[44196, 44201]]
+			"name": "glycine",
+			"spans": [[42141, 42148]],
+			"CID": 750,
+			"SMILES": "C(C(=O)O)N",
+			"InChIKey": "DHMQDGOQFOQNFH-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
+		},
+		{
+			"name": "branched chain amino acids",
+			"spans": [[42154, 42180]],
+			"CID": 9886134,
+			"SMILES": "CCC(C)C(C(=O)O)N.CC(C)CC(C(=O)O)N.CC(C)C(C(=O)O)N",
+			"InChIKey": "OCUSNPIJIZCRSZ-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
 		},
 		{
 			"name": "callose",
@@ -862,6 +854,14 @@
 				"Class": "Organooxygen compounds",
 				"Subclass": "Carbohydrates and carbohydrate conjugates"
 			}
+		},
+		{
+			"name": "cutin",
+			"spans": [[44196, 44201]]
+		},
+		{
+			"name": "hemicellulose",
+			"spans": [[43991, 44004]]
 		},
 		{
 			"name": "nitric oxide",
@@ -887,6 +887,10 @@
 	],
 	"pathways": [
 		{
+			"name": "de novo biosynthesis of amino acids",
+			"spans": [[1597, 1632]]
+		},
+		{
 			"name": "sucrose biosynthesis",
 			"spans": [
 				[1453, 1473],
@@ -896,16 +900,6 @@
 			"normalized_name": "UDP-glucose biosynthesis (from sucrose)",
 			"score": 0.8754677772521973,
 			"alt_names": ["sucrose synthesis"]
-		},
-		{
-			"name": "starch degradation",
-			"spans": [
-				[1430, 1448],
-				[49415, 49433]
-			],
-			"ontology_id": "PWY-842",
-			"normalized_name": "starch degradation I",
-			"score": 0.833290159702301
 		},
 		{
 			"name": "starch biosynthesis",
@@ -919,12 +913,14 @@
 			"alt_names": ["starch synthesis"]
 		},
 		{
-			"name": "de novo biosynthesis of amino acids",
-			"spans": [[1597, 1632]]
-		},
-		{
-			"name": "lipid transport",
-			"spans": [[27858, 27873]]
+			"name": "starch degradation",
+			"spans": [
+				[1430, 1448],
+				[49415, 49433]
+			],
+			"ontology_id": "PWY-842",
+			"normalized_name": "starch degradation I",
+			"score": 0.833290159702301
 		},
 		{
 			"name": "isoprenoid biosynthesis",
@@ -938,20 +934,24 @@
 			"spans": [[27879, 27912]]
 		},
 		{
-			"name": "metabolism of sulfurous compounds",
-			"spans": [[27823, 27856]]
-		},
-		{
 			"name": "generation of precursor metabolites and energy metabolism",
 			"spans": [[26912, 26969]]
 		},
 		{
-			"name": "fatty acid catabolism",
-			"spans": [[33450, 33471]]
+			"name": "lipid transport",
+			"spans": [[27858, 27873]]
+		},
+		{
+			"name": "metabolism of sulfurous compounds",
+			"spans": [[27823, 27856]]
 		},
 		{
 			"name": "autophagy",
 			"spans": [[33667, 33676]]
+		},
+		{
+			"name": "fatty acid catabolism",
+			"spans": [[33450, 33471]]
 		},
 		{
 			"name": "lipid catabolism",
@@ -965,12 +965,12 @@
 			"spans": [[33681, 33712]]
 		},
 		{
-			"name": "sugar metabolism",
-			"spans": [[34105, 34121]]
-		},
-		{
 			"name": "starch metabolism",
 			"spans": [[34133, 34150]]
+		},
+		{
+			"name": "sugar metabolism",
+			"spans": [[34105, 34121]]
 		},
 		{
 			"name": "carbohydrate metabolic events",
@@ -1008,15 +1008,15 @@
 			]
 		},
 		{
-			"name": "nitrogen reduction",
-			"spans": [[53353, 53371]]
-		},
-		{
 			"name": "ammonium assimilation",
 			"spans": [[53890, 53911]],
 			"ontology_id": "PWY-5986",
 			"normalized_name": "ammonium transport",
 			"score": 0.8769968748092651
+		},
+		{
+			"name": "nitrogen reduction",
+			"spans": [[53353, 53371]]
 		},
 		{
 			"name": "nitrogen metabolism",
@@ -1167,6 +1167,13 @@
 			"alt_names": ["nectar", "nectaries"]
 		},
 		{
+			"name": "plasma membranes",
+			"spans": [
+				[1208, 1224],
+				[48270, 48286]
+			]
+		},
+		{
 			"name": "vesicles",
 			"spans": [
 				[1185, 1193],
@@ -1174,23 +1181,6 @@
 				[47668, 47676],
 				[48251, 48259],
 				[48721, 48729]
-			]
-		},
-		{
-			"name": "rough endoplasmic reticulum",
-			"spans": [
-				[1100, 1127],
-				[16608, 16635],
-				[16986, 17013],
-				[20070, 20097],
-				[48112, 48139]
-			]
-		},
-		{
-			"name": "plasma membranes",
-			"spans": [
-				[1208, 1224],
-				[48270, 48286]
 			]
 		},
 		{
@@ -1209,6 +1199,16 @@
 				[1155, 1165],
 				[48167, 48177],
 				[48967, 48977]
+			]
+		},
+		{
+			"name": "rough endoplasmic reticulum",
+			"spans": [
+				[1100, 1127],
+				[16608, 16635],
+				[16986, 17013],
+				[20070, 20097],
+				[48112, 48139]
 			]
 		},
 		{
@@ -1238,6 +1238,72 @@
 			"normalized_name": "extrafloral nectary",
 			"score": 0.9809824824333191,
 			"alt_names": ["extrafloral nectars"]
+		},
+		{
+			"name": "boll",
+			"spans": [[2733, 2737]],
+			"ontology_id": "PO:0009047",
+			"normalized_name": "stem",
+			"score": 0.9586398005485535
+		},
+		{
+			"name": "lint",
+			"spans": [[2742, 2746]]
+		},
+		{
+			"name": "multicellular glandular trichome",
+			"spans": [[2259, 2291]],
+			"ontology_id": "PO:0025162",
+			"normalized_name": "multicellular trichome",
+			"score": 0.9311957955360413
+		},
+		{
+			"name": "papillae",
+			"spans": [
+				[2239, 2247],
+				[6213, 6221],
+				[6942, 6950],
+				[12104, 12112],
+				[12207, 12215],
+				[12471, 12479],
+				[12650, 12658],
+				[12734, 12742],
+				[12792, 12800],
+				[12860, 12868],
+				[13569, 13577],
+				[13893, 13901],
+				[13969, 13977],
+				[14019, 14027],
+				[14574, 14582],
+				[14940, 14948],
+				[14998, 15006],
+				[15303, 15311],
+				[15732, 15740],
+				[15848, 15856],
+				[15951, 15959],
+				[16028, 16036],
+				[16082, 16090],
+				[16311, 16319],
+				[16486, 16494],
+				[16893, 16901],
+				[17132, 17140],
+				[17587, 17595],
+				[18850, 18858],
+				[18939, 18947],
+				[19089, 19097],
+				[19336, 19344],
+				[45074, 45082],
+				[48342, 48350],
+				[49063, 49071],
+				[54083, 54091]
+			]
+		},
+		{
+			"name": "trichome",
+			"spans": [[2283, 2291]],
+			"ontology_id": "PO:0000282",
+			"normalized_name": "trichome",
+			"score": 1.0
 		},
 		{
 			"name": "floral nectaries",
@@ -1290,72 +1356,6 @@
 			"alt_names": ["floral nectar", "floral nectary"]
 		},
 		{
-			"name": "boll",
-			"spans": [[2733, 2737]],
-			"ontology_id": "PO:0009047",
-			"normalized_name": "stem",
-			"score": 0.9586398005485535
-		},
-		{
-			"name": "papillae",
-			"spans": [
-				[2239, 2247],
-				[6213, 6221],
-				[6942, 6950],
-				[12104, 12112],
-				[12207, 12215],
-				[12471, 12479],
-				[12650, 12658],
-				[12734, 12742],
-				[12792, 12800],
-				[12860, 12868],
-				[13569, 13577],
-				[13893, 13901],
-				[13969, 13977],
-				[14019, 14027],
-				[14574, 14582],
-				[14940, 14948],
-				[14998, 15006],
-				[15303, 15311],
-				[15732, 15740],
-				[15848, 15856],
-				[15951, 15959],
-				[16028, 16036],
-				[16082, 16090],
-				[16311, 16319],
-				[16486, 16494],
-				[16893, 16901],
-				[17132, 17140],
-				[17587, 17595],
-				[18850, 18858],
-				[18939, 18947],
-				[19089, 19097],
-				[19336, 19344],
-				[45074, 45082],
-				[48342, 48350],
-				[49063, 49071],
-				[54083, 54091]
-			]
-		},
-		{
-			"name": "multicellular glandular trichome",
-			"spans": [[2259, 2291]],
-			"ontology_id": "PO:0025162",
-			"normalized_name": "multicellular trichome",
-			"score": 0.9311957955360413
-		},
-		{
-			"name": "trichome",
-			"spans": [[2283, 2291]],
-			"ontology_id": "PO:0000282",
-			"normalized_name": "trichome",
-			"score": 1.0
-		},
-		{
-			"name": "lint",
-			"spans": [[2742, 2746]]
-		},
-		{
 			"name": "plasma membrane",
 			"spans": [
 				[3455, 3470],
@@ -1370,6 +1370,22 @@
 				[48605, 48620],
 				[50582, 50597],
 				[51162, 51177]
+			]
+		},
+		{
+			"name": "endoplasmic reticulum",
+			"spans": [
+				[3386, 3407],
+				[7680, 7701],
+				[19942, 19963],
+				[20076, 20097]
+			]
+		},
+		{
+			"name": "Golgi",
+			"spans": [
+				[3411, 3416],
+				[7714, 7719]
 			]
 		},
 		{
@@ -1437,33 +1453,8 @@
 			]
 		},
 		{
-			"name": "endoplasmic reticulum",
-			"spans": [
-				[3386, 3407],
-				[7680, 7701],
-				[19942, 19963],
-				[20076, 20097]
-			]
-		},
-		{
-			"name": "Golgi",
-			"spans": [
-				[3411, 3416],
-				[7714, 7719]
-			]
-		},
-		{
 			"name": "nectar droplets",
 			"spans": [[4965, 4980]]
-		},
-		{
-			"name": "nectarostomata",
-			"spans": [
-				[4480, 4494],
-				[4550, 4564],
-				[44884, 44898],
-				[44993, 45007]
-			]
 		},
 		{
 			"name": "terminal cells",
@@ -1515,6 +1506,27 @@
 			"score": 1.0
 		},
 		{
+			"name": "nectarostomata",
+			"spans": [
+				[4480, 4494],
+				[4550, 4564],
+				[44884, 44898],
+				[44993, 45007]
+			]
+		},
+		{
+			"name": "foliar nectary",
+			"spans": [
+				[6310, 6324],
+				[6404, 6418],
+				[12217, 12231],
+				[18248, 18262],
+				[36674, 36688],
+				[36964, 36978],
+				[45661, 45675]
+			]
+		},
+		{
 			"name": "calyx surface",
 			"spans": [
 				[6766, 6779],
@@ -1522,15 +1534,15 @@
 			]
 		},
 		{
-			"name": "adaxial calyx surface",
-			"spans": [[6866, 6887]]
+			"name": "basal circumference",
+			"spans": [[6902, 6921]]
 		},
 		{
-			"name": "leaf midrib",
-			"spans": [[6460, 6471]],
-			"ontology_id": "PO:0030072",
-			"normalized_name": "costa",
-			"score": 0.9038139581680298
+			"name": "stellate trichomes",
+			"spans": [
+				[6972, 6990],
+				[12161, 12179]
+			]
 		},
 		{
 			"name": "bract",
@@ -1542,13 +1554,6 @@
 		{
 			"name": "bracts",
 			"spans": [[6799, 6805]]
-		},
-		{
-			"name": "flowers",
-			"spans": [[6576, 6583]],
-			"ontology_id": "PO:0009046",
-			"normalized_name": "flower",
-			"score": 0.92800372838974
 		},
 		{
 			"name": "bracteal nectaries",
@@ -1575,6 +1580,43 @@
 			]
 		},
 		{
+			"name": "secretory papillae",
+			"spans": [
+				[6932, 6950],
+				[17577, 17595],
+				[19326, 19344]
+			]
+		},
+		{
+			"name": "leaf midrib",
+			"spans": [[6460, 6471]],
+			"ontology_id": "PO:0030072",
+			"normalized_name": "costa",
+			"score": 0.9038139581680298
+		},
+		{
+			"name": "flowers",
+			"spans": [[6576, 6583]],
+			"ontology_id": "PO:0009046",
+			"normalized_name": "flower",
+			"score": 0.92800372838974
+		},
+		{
+			"name": "cotton boll",
+			"spans": [
+				[6680, 6691],
+				[46566, 46577]
+			]
+		},
+		{
+			"name": "adaxial calyx surface",
+			"spans": [[6866, 6887]]
+		},
+		{
+			"name": "abaxial surface",
+			"spans": [[6437, 6452]]
+		},
+		{
 			"name": "circumbracteal nectaries",
 			"spans": [
 				[6362, 6386],
@@ -1595,45 +1637,10 @@
 			]
 		},
 		{
-			"name": "secretory papillae",
+			"name": "nectary tissue",
 			"spans": [
-				[6932, 6950],
-				[17577, 17595],
-				[19326, 19344]
-			]
-		},
-		{
-			"name": "abaxial surface",
-			"spans": [[6437, 6452]]
-		},
-		{
-			"name": "foliar nectary",
-			"spans": [
-				[6310, 6324],
-				[6404, 6418],
-				[12217, 12231],
-				[18248, 18262],
-				[36674, 36688],
-				[36964, 36978],
-				[45661, 45675]
-			]
-		},
-		{
-			"name": "basal circumference",
-			"spans": [[6902, 6921]]
-		},
-		{
-			"name": "cotton boll",
-			"spans": [
-				[6680, 6691],
-				[46566, 46577]
-			]
-		},
-		{
-			"name": "stellate trichomes",
-			"spans": [
-				[6972, 6990],
-				[12161, 12179]
+				[7169, 7183],
+				[17263, 17277]
 			]
 		},
 		{
@@ -1653,13 +1660,6 @@
 			]
 		},
 		{
-			"name": "nectary tissue",
-			"spans": [
-				[7169, 7183],
-				[17263, 17277]
-			]
-		},
-		{
 			"name": "foliar nectaries",
 			"spans": [
 				[8838, 8854],
@@ -1673,6 +1673,15 @@
 				[44475, 44491],
 				[44615, 44631],
 				[49961, 49977]
+			]
+		},
+		{
+			"name": "floral",
+			"spans": [
+				[9056, 9062],
+				[19412, 19418],
+				[37514, 37520],
+				[38198, 38204]
 			]
 		},
 		{
@@ -1692,12 +1701,23 @@
 			"spans": [[9094, 9116]]
 		},
 		{
-			"name": "floral",
+			"name": "pit",
+			"spans": [[12082, 12085]]
+		},
+		{
+			"name": "circumbracteal nectary",
 			"spans": [
-				[9056, 9062],
-				[19412, 19418],
-				[37514, 37520],
-				[38198, 38204]
+				[12279, 12301],
+				[19101, 19123],
+				[19652, 19674],
+				[43499, 43521]
+			]
+		},
+		{
+			"name": "ring",
+			"spans": [
+				[12153, 12157],
+				[12199, 12203]
 			]
 		},
 		{
@@ -1716,23 +1736,10 @@
 			]
 		},
 		{
-			"name": "ring",
+			"name": "floral papillae",
 			"spans": [
-				[12153, 12157],
-				[12199, 12203]
-			]
-		},
-		{
-			"name": "pit",
-			"spans": [[12082, 12085]]
-		},
-		{
-			"name": "circumbracteal nectary",
-			"spans": [
-				[12279, 12301],
-				[19101, 19123],
-				[19652, 19674],
-				[43499, 43521]
+				[12643, 12658],
+				[12785, 12800]
 			]
 		},
 		{
@@ -1745,6 +1752,16 @@
 				[19636, 19646],
 				[19696, 19706],
 				[19925, 19935]
+			]
+		},
+		{
+			"name": "stalk cells",
+			"spans": [
+				[12609, 12620],
+				[13810, 13821],
+				[14120, 14131],
+				[16150, 16161],
+				[19449, 19460]
 			]
 		},
 		{
@@ -1768,27 +1785,6 @@
 			"spans": [[12638, 12658]]
 		},
 		{
-			"name": "floral papillae",
-			"spans": [
-				[12643, 12658],
-				[12785, 12800]
-			]
-		},
-		{
-			"name": "stalk cells",
-			"spans": [
-				[12609, 12620],
-				[13810, 13821],
-				[14120, 14131],
-				[16150, 16161],
-				[19449, 19460]
-			]
-		},
-		{
-			"name": "cell periphery",
-			"spans": [[14201, 14215]]
-		},
-		{
 			"name": "vacuoles",
 			"spans": [
 				[13869, 13877],
@@ -1804,6 +1800,10 @@
 				[13661, 13670],
 				[17712, 17721]
 			]
+		},
+		{
+			"name": "cell periphery",
+			"spans": [[14201, 14215]]
 		},
 		{
 			"name": "cells",
@@ -1843,6 +1843,14 @@
 			"spans": [[15282, 15295]]
 		},
 		{
+			"name": "cell wall ingrowths",
+			"spans": [[15636, 15655]]
+		},
+		{
+			"name": "circumbracteal papillae head cells",
+			"spans": [[15717, 15751]]
+		},
+		{
 			"name": "microchannels",
 			"spans": [
 				[15203, 15216],
@@ -1854,14 +1862,6 @@
 		{
 			"name": "bracteal papillae head cells",
 			"spans": [[15723, 15751]]
-		},
-		{
-			"name": "cell wall ingrowths",
-			"spans": [[15636, 15655]]
-		},
-		{
-			"name": "circumbracteal papillae head cells",
-			"spans": [[15717, 15751]]
 		},
 		{
 			"name": "basal cells",
@@ -1884,29 +1884,10 @@
 			"spans": [[16780, 16792]]
 		},
 		{
-			"name": "peridermal walls",
-			"spans": [
-				[17327, 17343],
-				[49039, 49055]
-			]
-		},
-		{
 			"name": "papillae glands",
 			"spans": [
 				[16311, 16326],
 				[16893, 16908]
-			]
-		},
-		{
-			"name": "Golgi bodies",
-			"spans": [[16679, 16691]]
-		},
-		{
-			"name": "plasmodesmata",
-			"spans": [
-				[17279, 17292],
-				[19569, 19582],
-				[19826, 19839]
 			]
 		},
 		{
@@ -1918,16 +1899,19 @@
 			]
 		},
 		{
-			"name": "tissues",
+			"name": "peridermal walls",
 			"spans": [
-				[17353, 17360],
-				[23784, 23790],
-				[28389, 28395]
-			],
-			"ontology_id": "PO:0009007",
-			"normalized_name": "portion of plant tissue",
-			"score": 0.9782681465148926,
-			"alt_names": ["tissue"]
+				[17327, 17343],
+				[49039, 49055]
+			]
+		},
+		{
+			"name": "plasmodesmata",
+			"spans": [
+				[17279, 17292],
+				[19569, 19582],
+				[19826, 19839]
+			]
 		},
 		{
 			"name": "cotton nectaries",
@@ -1947,15 +1931,35 @@
 			]
 		},
 		{
-			"name": "isodiametric cells",
-			"spans": [[17621, 17639]]
+			"name": "Golgi bodies",
+			"spans": [[16679, 16691]]
 		},
 		{
-			"name": "phloem rays",
+			"name": "tissues",
 			"spans": [
-				[18170, 18181],
-				[18805, 18816]
-			]
+				[17353, 17360],
+				[23784, 23790],
+				[28389, 28395]
+			],
+			"ontology_id": "PO:0009007",
+			"normalized_name": "portion of plant tissue",
+			"score": 0.9782681465148926,
+			"alt_names": ["tissue"]
+		},
+		{
+			"name": "vascular bundles",
+			"spans": [
+				[18099, 18115],
+				[18502, 18518],
+				[18657, 18673],
+				[18826, 18842],
+				[20557, 20573],
+				[23498, 23513]
+			],
+			"ontology_id": "PO:0005020",
+			"normalized_name": "vascular bundle",
+			"score": 0.933212161064148,
+			"alt_names": ["vascular bundle"]
 		},
 		{
 			"name": "subnectariferous parenchyma",
@@ -1982,19 +1986,35 @@
 			]
 		},
 		{
-			"name": "vascular bundles",
+			"name": "phloem rays",
 			"spans": [
-				[18099, 18115],
-				[18502, 18518],
-				[18657, 18673],
-				[18826, 18842],
-				[20557, 20573],
-				[23498, 23513]
-			],
-			"ontology_id": "PO:0005020",
-			"normalized_name": "vascular bundle",
-			"score": 0.933212161064148,
-			"alt_names": ["vascular bundle"]
+				[18170, 18181],
+				[18805, 18816]
+			]
+		},
+		{
+			"name": "isodiametric cells",
+			"spans": [[17621, 17639]]
+		},
+		{
+			"name": "Golgi body",
+			"spans": [[19970, 19980]]
+		},
+		{
+			"name": "secretory nectary",
+			"spans": [[19222, 19239]]
+		},
+		{
+			"name": "amyloplast",
+			"spans": [[19488, 19498]]
+		},
+		{
+			"name": "vacuole",
+			"spans": [[20129, 20136]]
+		},
+		{
+			"name": "junction",
+			"spans": [[19679, 19687]]
 		},
 		{
 			"name": "subcuticular space",
@@ -2004,44 +2024,16 @@
 			]
 		},
 		{
-			"name": "chloroplast",
-			"spans": [[19892, 19903]]
-		},
-		{
-			"name": "amyloplast",
-			"spans": [[19488, 19498]]
-		},
-		{
-			"name": "Golgi body",
-			"spans": [[19970, 19980]]
-		},
-		{
-			"name": "internal stalk cell",
-			"spans": [[19612, 19631]]
-		},
-		{
-			"name": "secretory nectary",
-			"spans": [[19222, 19239]]
-		},
-		{
-			"name": "nucleus",
-			"spans": [[20004, 20011]]
-		},
-		{
-			"name": "vacuole",
-			"spans": [[20129, 20136]]
-		},
-		{
-			"name": "organelles",
-			"spans": [[19510, 19520]]
-		},
-		{
 			"name": "stalk cell",
 			"spans": [
 				[19449, 19459],
 				[19524, 19534],
 				[19621, 19631]
 			]
+		},
+		{
+			"name": "nucleus",
+			"spans": [[20004, 20011]]
 		},
 		{
 			"name": "bracteal",
@@ -2054,8 +2046,20 @@
 			]
 		},
 		{
-			"name": "junction",
-			"spans": [[19679, 19687]]
+			"name": "chloroplast",
+			"spans": [[19892, 19903]]
+		},
+		{
+			"name": "organelles",
+			"spans": [[19510, 19520]]
+		},
+		{
+			"name": "internal stalk cell",
+			"spans": [[19612, 19631]]
+		},
+		{
+			"name": "non-nectary tissue",
+			"spans": [[21405, 21423]]
 		},
 		{
 			"name": "non-nectary control tissues",
@@ -2067,10 +2071,6 @@
 				[21089, 21103],
 				[56734, 56748]
 			]
-		},
-		{
-			"name": "non-nectary tissue",
-			"spans": [[21405, 21423]]
 		},
 		{
 			"name": "nectary tissues",
@@ -2103,15 +2103,15 @@
 			"spans": [[34324, 34335]]
 		},
 		{
-			"name": "secretory organs",
-			"spans": [[37359, 37375]]
-		},
-		{
 			"name": "circumbracteal",
 			"spans": [
 				[37550, 37564],
 				[38220, 38234]
 			]
+		},
+		{
+			"name": "secretory organs",
+			"spans": [[37359, 37375]]
 		},
 		{
 			"name": "reproductive extrafloral nectaries",
@@ -2159,18 +2159,18 @@
 			"score": 1.0
 		},
 		{
-			"name": "shoots",
-			"spans": [[54341, 54347]],
-			"ontology_id": "PO:0009006",
-			"normalized_name": "shoot system",
-			"score": 0.9062654376029968
-		},
-		{
 			"name": "roots",
 			"spans": [[54302, 54307]],
 			"ontology_id": "PO:0025025",
 			"normalized_name": "root system",
 			"score": 0.9691017270088196
+		},
+		{
+			"name": "shoots",
+			"spans": [[54341, 54347]],
+			"ontology_id": "PO:0009006",
+			"normalized_name": "shoot system",
+			"score": 0.9062654376029968
 		},
 		{
 			"name": "papillae head cells",
@@ -2219,8 +2219,14 @@
 			"spans": [
 				[3581, 3595],
 				[44804, 44818]
-			],
-			"taxonomy_id": 4090
+			]
+		},
+		{
+			"name": "Arabidopsis",
+			"spans": [
+				[3548, 3559],
+				[44788, 44799]
+			]
 		},
 		{
 			"name": "Cucurbita pepo",
@@ -2232,14 +2238,9 @@
 			"alt_names": ["C. pepo"]
 		},
 		{
-			"name": "Arabidopsis",
-			"spans": [
-				[3548, 3559],
-				[21615, 21635],
-				[44788, 44799]
-			],
-			"taxonomy_id": 3702,
-			"alt_names": ["Arabidopsis thaliana"]
+			"name": "Arabidopsis thaliana",
+			"spans": [[21615, 21635]],
+			"taxonomy_id": 3702
 		},
 		{
 			"name": "Thlaspi arvense",
@@ -2248,6 +2249,14 @@
 		}
 	],
 	"plant_traits": [
+		{
+			"name": "nectar production",
+			"spans": [[588, 605]]
+		},
+		{
+			"name": "nectar composition",
+			"spans": [[610, 628]]
+		},
 		{
 			"name": "plant fitness",
 			"spans": [
@@ -2261,14 +2270,6 @@
 				[171, 191],
 				[3086, 3106]
 			]
-		},
-		{
-			"name": "nectar production",
-			"spans": [[588, 605]]
-		},
-		{
-			"name": "nectar composition",
-			"spans": [[610, 628]]
 		},
 		{
 			"name": "self-pollinating",
@@ -2293,12 +2294,12 @@
 			"spans": [[5318, 5342]]
 		},
 		{
-			"name": "morphology",
-			"spans": [[5286, 5296]]
-		},
-		{
 			"name": "ultrastructure",
 			"spans": [[5298, 5312]]
+		},
+		{
+			"name": "morphology",
+			"spans": [[5286, 5296]]
 		},
 		{
 			"name": "papillae length",
@@ -2325,15 +2326,15 @@
 			"score": 0.8134345412254333
 		},
 		{
+			"name": "nectary papillae dimensions",
+			"spans": [[15943, 15970]]
+		},
+		{
 			"name": "width",
 			"spans": [[15998, 16003]],
 			"ontology_id": "TO:0000975",
 			"normalized_name": "grain width",
 			"score": 0.7863617539405823
-		},
-		{
-			"name": "nectary papillae dimensions",
-			"spans": [[15943, 15970]]
 		},
 		{
 			"name": "nectary development",
@@ -2351,12 +2352,12 @@
 			]
 		},
 		{
-			"name": "cellular organization",
-			"spans": [[33755, 33776]]
-		},
-		{
 			"name": "production and secretion of nectar",
 			"spans": [[33012, 33046]]
+		},
+		{
+			"name": "cellular organization",
+			"spans": [[33755, 33776]]
 		},
 		{
 			"name": "nectar",
@@ -2400,16 +2401,25 @@
 			"spans": [[7900, 7920]]
 		},
 		{
-			"name": "toluidine blue O",
-			"spans": [[17805, 17821]]
+			"name": "osmium tetroxide",
+			"spans": [[17826, 17842]]
 		},
 		{
 			"name": "Periodic Acid Schiff's (PAS) staining",
 			"spans": [[18412, 18449]]
 		},
 		{
-			"name": "osmium tetroxide",
-			"spans": [[17826, 17842]]
+			"name": "toluidine blue O",
+			"spans": [[17805, 17821]]
+		},
+		{
+			"name": "pre-secretory",
+			"spans": [
+				[25591, 25604],
+				[26130, 26143],
+				[40957, 40970],
+				[41585, 41598]
+			]
 		},
 		{
 			"name": "secretory",
@@ -2433,15 +2443,6 @@
 				[25637, 25651],
 				[40987, 41001],
 				[41624, 41638]
-			]
-		},
-		{
-			"name": "pre-secretory",
-			"spans": [
-				[25591, 25604],
-				[26130, 26143],
-				[40957, 40970],
-				[41585, 41598]
 			]
 		},
 		{
@@ -2511,29 +2512,6 @@
 			]
 		},
 		{
-			"name": "Cell Wall Invertase 4",
-			"spans": [
-				[25267, 25288],
-				[35777, 35798]
-			]
-		},
-		{
-			"name": "Expansin1",
-			"spans": [[25297, 25306]]
-		},
-		{
-			"name": "GDSL-like Lipase/acylhydrolase",
-			"spans": [[25390, 25420]]
-		},
-		{
-			"name": "Sugars Will Eventually be Exported Transporter 9",
-			"spans": [[25435, 25483]]
-		},
-		{
-			"name": "long chain acyl-CoA synthetase 4-like",
-			"spans": [[25344, 25381]]
-		},
-		{
 			"name": "CWINV4",
 			"spans": [
 				[25259, 25265],
@@ -2546,19 +2524,42 @@
 			]
 		},
 		{
-			"name": "GDSL",
-			"spans": [
-				[25384, 25388],
-				[25390, 25394]
-			]
+			"name": "EXP1",
+			"spans": [[25291, 25295]]
 		},
 		{
 			"name": "LCAS4",
 			"spans": [[25337, 25342]]
 		},
 		{
-			"name": "EXP1",
-			"spans": [[25291, 25295]]
+			"name": "Expansin1",
+			"spans": [[25297, 25306]]
+		},
+		{
+			"name": "GDSL-like Lipase/acylhydrolase",
+			"spans": [[25390, 25420]]
+		},
+		{
+			"name": "long chain acyl-CoA synthetase 4-like",
+			"spans": [[25344, 25381]]
+		},
+		{
+			"name": "Sugars Will Eventually be Exported Transporter 9",
+			"spans": [[25435, 25483]]
+		},
+		{
+			"name": "Cell Wall Invertase 4",
+			"spans": [
+				[25267, 25288],
+				[35777, 35798]
+			]
+		},
+		{
+			"name": "GDSL",
+			"spans": [
+				[25384, 25388],
+				[25390, 25394]
+			]
 		},
 		{
 			"name": "AT5G23960.2",
@@ -2569,12 +2570,11 @@
 			"spans": [[31370, 31389]]
 		},
 		{
-			"name": "BMY3",
-			"spans": [[35707, 35711]]
-		},
-		{
-			"name": "beta-Amylase 3",
-			"spans": [[35713, 35727]]
+			"name": "SUS4",
+			"spans": [
+				[35730, 35734],
+				[36332, 36336]
+			]
 		},
 		{
 			"name": "Starch Synthase 2",
@@ -2585,50 +2585,44 @@
 			"spans": [[35736, 35754]]
 		},
 		{
+			"name": "BMY3",
+			"spans": [[35707, 35711]]
+		},
+		{
 			"name": "SS2",
 			"spans": [[35618, 35621]]
 		},
 		{
-			"name": "SUS4",
-			"spans": [
-				[35730, 35734],
-				[36332, 36336]
-			]
-		},
-		{
-			"name": "SUT2",
-			"spans": [[36405, 36409]]
-		},
-		{
-			"name": "AT5G59740",
-			"spans": [[36467, 36476]]
-		},
-		{
-			"name": "RS5",
-			"spans": [[36341, 36344]]
-		},
-		{
-			"name": "STP13",
-			"spans": [[36417, 36422]]
-		},
-		{
-			"name": "STP14",
-			"spans": [[36428, 36433]]
+			"name": "beta-Amylase 3",
+			"spans": [[35713, 35727]]
 		},
 		{
 			"name": "STP1",
 			"spans": [[36411, 36415]]
 		},
 		{
-			"name": "AT2G37170",
-			"spans": [[38004, 38013]]
+			"name": "AT5G59740",
+			"spans": [[36467, 36476]]
 		},
 		{
-			"name": "PROT1",
-			"spans": [
-				[38089, 38094],
-				[42887, 42892]
-			]
+			"name": "STP13",
+			"spans": [[36417, 36422]]
+		},
+		{
+			"name": "RS5",
+			"spans": [[36341, 36344]]
+		},
+		{
+			"name": "SUT2",
+			"spans": [[36405, 36409]]
+		},
+		{
+			"name": "STP14",
+			"spans": [[36428, 36433]]
+		},
+		{
+			"name": "AT3G56200",
+			"spans": [[38123, 38132]]
 		},
 		{
 			"name": "AT3G53420",
@@ -2639,10 +2633,6 @@
 			"spans": [[38026, 38035]]
 		},
 		{
-			"name": "AT3G56200",
-			"spans": [[38123, 38132]]
-		},
-		{
 			"name": "AT2G39890",
 			"spans": [
 				[38096, 38105],
@@ -2650,28 +2640,43 @@
 			]
 		},
 		{
+			"name": "PROT1",
+			"spans": [
+				[38089, 38094],
+				[42887, 42892]
+			]
+		},
+		{
 			"name": "AT1G47670",
 			"spans": [[38108, 38117]]
 		},
 		{
-			"name": "NR2",
-			"spans": [[39159, 39162]]
+			"name": "AT2G37170",
+			"spans": [[38004, 38013]]
 		},
 		{
-			"name": "AT2G15620",
-			"spans": [[39202, 39211]]
+			"name": "AT5G37600",
+			"spans": [[39310, 39319]]
 		},
 		{
 			"name": "GLU1",
 			"spans": [[39345, 39349]]
 		},
 		{
-			"name": "TIP2;1",
-			"spans": [[39443, 39449]]
+			"name": "AT2G15620",
+			"spans": [[39202, 39211]]
 		},
 		{
 			"name": "AT1G69850",
 			"spans": [[38852, 38861]]
+		},
+		{
+			"name": "GLN1",
+			"spans": [[39304, 39308]]
+		},
+		{
+			"name": "NR2",
+			"spans": [[39159, 39162]]
 		},
 		{
 			"name": "NRT1.5",
@@ -2682,80 +2687,76 @@
 			"spans": [[39164, 39173]]
 		},
 		{
-			"name": "AT5G37600",
-			"spans": [[39310, 39319]]
-		},
-		{
-			"name": "GLN1",
-			"spans": [[39304, 39308]]
+			"name": "TIP2;1",
+			"spans": [[39443, 39449]]
 		},
 		{
 			"name": "proline transporter PROT1",
 			"spans": [[42867, 42892]]
 		},
 		{
-			"name": "ASP3",
-			"spans": [[42382, 42386]]
-		},
-		{
-			"name": "aspartate aminotransferase 3",
-			"spans": [[42352, 42380]]
+			"name": "AT3G07630",
+			"spans": [[42821, 42830]]
 		},
 		{
 			"name": "AT5G11520",
 			"spans": [[42388, 42397]]
 		},
 		{
-			"name": "ADT2",
-			"spans": [[42815, 42819]]
-		},
-		{
-			"name": "AT3G07630",
-			"spans": [[42821, 42830]]
+			"name": "aspartate aminotransferase 3",
+			"spans": [[42352, 42380]]
 		},
 		{
 			"name": "arogenate dehydratase 2",
 			"spans": [[42790, 42813]]
 		},
 		{
-			"name": "EXLA1",
-			"spans": [[43875, 43880]]
+			"name": "ASP3",
+			"spans": [[42382, 42386]]
 		},
 		{
-			"name": "AT3G45970",
-			"spans": [[43882, 43891]]
-		},
-		{
-			"name": "AT3G07160",
-			"spans": [[43979, 43988]]
-		},
-		{
-			"name": "GALT6",
-			"spans": [[44006, 44011]]
-		},
-		{
-			"name": "AT2G45220",
-			"spans": [[44045, 44054]]
+			"name": "ADT2",
+			"spans": [[42815, 42819]]
 		},
 		{
 			"name": "PME17",
 			"spans": [[44038, 44043]]
 		},
 		{
-			"name": "GSL10",
-			"spans": [[43972, 43977]]
+			"name": "AT2G45220",
+			"spans": [[44045, 44054]]
+		},
+		{
+			"name": "EXLA1",
+			"spans": [[43875, 43880]]
 		},
 		{
 			"name": "AT1G17840",
 			"spans": [[44222, 44231]]
 		},
 		{
-			"name": "AT5G62620",
-			"spans": [[44013, 44022]]
+			"name": "GALT6",
+			"spans": [[44006, 44011]]
+		},
+		{
+			"name": "GSL10",
+			"spans": [[43972, 43977]]
+		},
+		{
+			"name": "AT3G07160",
+			"spans": [[43979, 43988]]
+		},
+		{
+			"name": "AT3G45970",
+			"spans": [[43882, 43891]]
 		},
 		{
 			"name": "ABCG11",
 			"spans": [[44214, 44220]]
+		},
+		{
+			"name": "AT5G62620",
+			"spans": [[44013, 44022]]
 		},
 		{
 			"name": "cuticle deposition genes",
@@ -2805,13 +2806,6 @@
 			]
 		},
 		{
-			"name": "ATPase transmembrane transporters",
-			"spans": [[50766, 50799]],
-			"ontology_id": "GO:0140358",
-			"normalized_name": "P-type transmembrane transporter activity",
-			"score": 0.8516049981117249
-		},
-		{
 			"name": "proton gradients",
 			"spans": [[50804, 50820]]
 		},
@@ -2823,18 +2817,25 @@
 			"score": 0.8774772882461548
 		},
 		{
-			"name": "H+-ATPase",
-			"spans": [[50598, 50607]],
-			"ontology_id": "GO:0008553",
-			"normalized_name": "P-type proton-exporting transporter activity",
-			"score": 0.9658749103546143
-		},
-		{
 			"name": "lipid transmembrane transporters",
 			"spans": [[50663, 50695]],
 			"ontology_id": "GO:0170055",
 			"normalized_name": "lipid transmembrane transporter activity",
 			"score": 0.8853707313537598
+		},
+		{
+			"name": "ATPase transmembrane transporters",
+			"spans": [[50766, 50799]],
+			"ontology_id": "GO:0140358",
+			"normalized_name": "P-type transmembrane transporter activity",
+			"score": 0.8516049981117249
+		},
+		{
+			"name": "H+-ATPase",
+			"spans": [[50598, 50607]],
+			"ontology_id": "GO:0008553",
+			"normalized_name": "P-type proton-exporting transporter activity",
+			"score": 0.9658749103546143
 		},
 		{
 			"name": "amino acid transporters",

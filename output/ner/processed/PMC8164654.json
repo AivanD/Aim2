@@ -62,6 +62,26 @@
 			"alt_names": ["betaSito"]
 		},
 		{
+			"name": "amino acids",
+			"spans": [
+				[1741, 1752],
+				[5466, 5477],
+				[6170, 6181],
+				[31655, 31666],
+				[32580, 32591],
+				[32924, 32935],
+				[33147, 33158],
+				[41893, 41904],
+				[44570, 44581],
+				[44706, 44717],
+				[45634, 45645],
+				[48427, 48438]
+			],
+			"ontology_id": "CHEMONTID:0000347",
+			"normalized_name": "Amino acids and derivatives",
+			"score": 1.0
+		},
+		{
 			"name": "chlorophyll",
 			"spans": [
 				[1251, 1262],
@@ -84,41 +104,6 @@
 			}
 		},
 		{
-			"name": "sugars",
-			"spans": [
-				[1733, 1739],
-				[5446, 5452],
-				[31639, 31645],
-				[32206, 32212],
-				[32522, 32528],
-				[32572, 32578],
-				[32912, 32918],
-				[33135, 33141],
-				[41885, 41891],
-				[48419, 48425]
-			]
-		},
-		{
-			"name": "amino acids",
-			"spans": [
-				[1741, 1752],
-				[5466, 5477],
-				[6170, 6181],
-				[31655, 31666],
-				[32580, 32591],
-				[32924, 32935],
-				[33147, 33158],
-				[41893, 41904],
-				[44570, 44581],
-				[44706, 44717],
-				[45634, 45645],
-				[48427, 48438]
-			],
-			"ontology_id": "CHEMONTID:0000347",
-			"normalized_name": "Amino acids and derivatives",
-			"score": 1.0
-		},
-		{
 			"name": "organic acids",
 			"spans": [
 				[1718, 1731],
@@ -139,24 +124,18 @@
 			"score": 0.9664109945297241
 		},
 		{
-			"name": "hydroxyl radicals",
-			"spans": [[3980, 3997]]
-		},
-		{
-			"name": "superoxide anions",
+			"name": "sugars",
 			"spans": [
-				[4008, 4025],
-				[26871, 26888]
-			],
-			"ontology_id": "CHEMONTID:0000230",
-			"normalized_name": "Organic superoxides",
-			"score": 0.9584238529205322
-		},
-		{
-			"name": "reactive oxygen species",
-			"spans": [
-				[3815, 3838],
-				[4928, 4951]
+				[1733, 1739],
+				[5446, 5452],
+				[31639, 31645],
+				[32206, 32212],
+				[32522, 32528],
+				[32572, 32578],
+				[32912, 32918],
+				[33135, 33141],
+				[41885, 41891],
+				[48419, 48425]
 			]
 		},
 		{
@@ -175,6 +154,17 @@
 				"Class": "Organic oxides",
 				"Subclass": "Organic oxides"
 			}
+		},
+		{
+			"name": "phytohormones",
+			"spans": [[4356, 4369]]
+		},
+		{
+			"name": "reactive oxygen species",
+			"spans": [
+				[3815, 3838],
+				[4928, 4951]
+			]
 		},
 		{
 			"name": "hydrogen peroxide",
@@ -202,20 +192,61 @@
 			"alt_names": ["H2O2"]
 		},
 		{
-			"name": "phytohormones",
-			"spans": [[4356, 4369]]
+			"name": "superoxide anions",
+			"spans": [
+				[4008, 4025],
+				[26871, 26888]
+			],
+			"ontology_id": "CHEMONTID:0000230",
+			"normalized_name": "Organic superoxides",
+			"score": 0.9584238529205322
 		},
 		{
-			"name": "salicylic acid",
+			"name": "hydroxyl radicals",
+			"spans": [[3980, 3997]]
+		},
+		{
+			"name": "inositol",
 			"spans": [
-				[6417, 6431],
-				[34334, 34348],
-				[42415, 42429],
-				[42846, 42860]
+				[6343, 6351],
+				[6353, 6365],
+				[6357, 6365]
 			],
-			"ontology_id": "CHEMONTID:0002514",
-			"normalized_name": "Salicylic acids",
-			"score": 0.9133334755897522
+			"CID": 892,
+			"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+			"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Cyclitols"],
+				"Np_superclass": ["Polyols"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Alcohols and polyols"
+			},
+			"alt_names": ["myo-inositol"]
+		},
+		{
+			"name": "iso-leucine",
+			"spans": [
+				[6201, 6212],
+				[35275, 35285]
+			],
+			"CID": 6306,
+			"SMILES": "CC[C@H](C)[C@@H](C(=O)O)N",
+			"InChIKey": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			},
+			"alt_names": ["isoleucine"]
 		},
 		{
 			"name": "GABA",
@@ -243,17 +274,14 @@
 			"alt_names": ["gamma-amino-N-butyric acid", "gamma-aminobutyric acid"]
 		},
 		{
-			"name": "tryptophan",
+			"name": "leucine",
 			"spans": [
-				[6214, 6224],
-				[35072, 35082],
-				[35263, 35273],
-				[44982, 44992],
-				[45293, 45303]
+				[6192, 6199],
+				[6205, 6212]
 			],
-			"CID": 6305,
-			"SMILES": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N",
-			"InChIKey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
+			"CID": 6106,
+			"SMILES": "CC(C)C[C@@H](C(=O)O)N",
+			"InChIKey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -266,38 +294,24 @@
 			}
 		},
 		{
-			"name": "amines",
-			"spans": [[6227, 6233]],
-			"ontology_id": "CHEMONTID:0002449",
-			"normalized_name": "Amines",
-			"score": 1.0
-		},
-		{
-			"name": "ferulaic acid",
+			"name": "sucrose",
 			"spans": [
-				[6433, 6446],
-				[34023, 34036]
+				[6311, 6318],
+				[43291, 43298]
 			],
-			"CID": 445858,
-			"SMILES": "COC1=C(C=CC(=C1)/C=C/C(=O)O)O",
-			"InChIKey": "KSEBMYQBYZTDHS-HWKANZROSA-N",
+			"CID": 5988,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
 			"Natural_product_class": {
-				"Np_class": ["Cinnamic acids and derivatives"],
-				"Np_superclass": ["Phenylpropanoids (C6-C3)"]
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
 			},
 			"Classyfire": {
 				"Kingdom": "Organic compounds",
-				"Superclass": "Phenylpropanoids and polyketides",
-				"Class": "Cinnamic acids and derivatives",
-				"Subclass": "Hydroxycinnamic acids and derivatives"
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
 			}
-		},
-		{
-			"name": "carbohydrates",
-			"spans": [[6287, 6300]],
-			"ontology_id": "CHEMONTID:0000011",
-			"normalized_name": "Carbohydrates and carbohydrate conjugates",
-			"score": 1.0
 		},
 		{
 			"name": "fructose",
@@ -323,14 +337,146 @@
 			}
 		},
 		{
-			"name": "iso-leucine",
+			"name": "alkaloids",
 			"spans": [
-				[6201, 6212],
-				[35275, 35285]
+				[5355, 5364],
+				[45457, 45466]
 			],
-			"CID": 6306,
-			"SMILES": "CC[C@H](C)[C@@H](C(=O)O)N",
-			"InChIKey": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
+			"ontology_id": "CHEMONTID:0000279",
+			"normalized_name": "Alkaloids and derivatives",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "polyols",
+			"spans": [[6334, 6341]],
+			"ontology_id": "CHEMONTID:0002286",
+			"normalized_name": "Polyols",
+			"score": 1.000000238418579
+		},
+		{
+			"name": "oxalic acid",
+			"spans": [
+				[6404, 6415],
+				[33970, 33981],
+				[34267, 34278],
+				[42348, 42359],
+				[42696, 42707]
+			],
+			"CID": 971,
+			"SMILES": "C(=O)(C(=O)O)O",
+			"InChIKey": "MUBZPKHOEPUJKR-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Dicarboxylic acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Dicarboxylic acids and derivatives"
+			}
+		},
+		{
+			"name": "ferulaic acid",
+			"spans": [
+				[6433, 6446],
+				[34023, 34036]
+			],
+			"CID": 445858,
+			"SMILES": "COC1=C(C=CC(=C1)/C=C/C(=O)O)O",
+			"InChIKey": "KSEBMYQBYZTDHS-HWKANZROSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Cinnamic acids and derivatives"],
+				"Np_superclass": ["Phenylpropanoids (C6-C3)"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Phenylpropanoids and polyketides",
+				"Class": "Cinnamic acids and derivatives",
+				"Subclass": "Hydroxycinnamic acids and derivatives"
+			}
+		},
+		{
+			"name": "salicylic acid",
+			"spans": [
+				[6417, 6431],
+				[34334, 34348],
+				[42415, 42429],
+				[42846, 42860]
+			],
+			"ontology_id": "CHEMONTID:0002514",
+			"normalized_name": "Salicylic acids",
+			"score": 0.9133334755897522
+		},
+		{
+			"name": "amines",
+			"spans": [[6227, 6233]],
+			"ontology_id": "CHEMONTID:0002449",
+			"normalized_name": "Amines",
+			"score": 1.0
+		},
+		{
+			"name": "flavonoids",
+			"spans": [[5378, 5388]],
+			"ontology_id": "CHEMONTID:0000334",
+			"normalized_name": "Flavonoids",
+			"score": 1.0
+		},
+		{
+			"name": "terpenoids",
+			"spans": [[5366, 5376]],
+			"ontology_id": "CHEMONTID:0001283",
+			"normalized_name": "Terpene lactones",
+			"score": 0.9030272364616394
+		},
+		{
+			"name": "proline",
+			"spans": [
+				[6183, 6190],
+				[35445, 35452],
+				[44804, 44811],
+				[45152, 45159]
+			],
+			"CID": 145742,
+			"SMILES": "C1C[C@H](NC1)C(=O)O",
+			"InChIKey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids", "Dipeptides"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
+		},
+		{
+			"name": "lipids",
+			"spans": [[5454, 5460]],
+			"ontology_id": "CHEMONTID:0000012",
+			"normalized_name": "Lipids and lipid-like molecules",
+			"score": 1.0
+		},
+		{
+			"name": "carbohydrates",
+			"spans": [[6287, 6300]],
+			"ontology_id": "CHEMONTID:0000011",
+			"normalized_name": "Carbohydrates and carbohydrate conjugates",
+			"score": 1.0
+		},
+		{
+			"name": "tryptophan",
+			"spans": [
+				[6214, 6224],
+				[35072, 35082],
+				[35263, 35273],
+				[44982, 44992],
+				[45293, 45303]
+			],
+			"CID": 6305,
+			"SMILES": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N",
+			"InChIKey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
 			"Natural_product_class": {
 				"Np_class": ["Aminoacids"],
 				"Np_superclass": ["Small peptides"]
@@ -340,37 +486,7 @@
 				"Superclass": "Organic acids and derivatives",
 				"Class": "Carboxylic acids and derivatives",
 				"Subclass": "Amino acids, peptides, and analogues"
-			},
-			"alt_names": ["isoleucine"]
-		},
-		{
-			"name": "inositol",
-			"spans": [
-				[6343, 6351],
-				[6353, 6365],
-				[6357, 6365]
-			],
-			"CID": 892,
-			"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
-			"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Cyclitols"],
-				"Np_superclass": ["Polyols"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Alcohols and polyols"
-			},
-			"alt_names": ["myo-inositol"]
-		},
-		{
-			"name": "flavonoids",
-			"spans": [[5378, 5388]],
-			"ontology_id": "CHEMONTID:0000334",
-			"normalized_name": "Flavonoids",
-			"score": 1.0
+			}
 		},
 		{
 			"name": "glucose",
@@ -403,127 +519,8 @@
 			}
 		},
 		{
-			"name": "leucine",
-			"spans": [
-				[6192, 6199],
-				[6205, 6212]
-			],
-			"CID": 6106,
-			"SMILES": "CC(C)C[C@@H](C(=O)O)N",
-			"InChIKey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			}
-		},
-		{
-			"name": "terpenoids",
-			"spans": [[5366, 5376]],
-			"ontology_id": "CHEMONTID:0001283",
-			"normalized_name": "Terpene lactones",
-			"score": 0.9030272364616394
-		},
-		{
-			"name": "alkaloids",
-			"spans": [
-				[5355, 5364],
-				[45457, 45466]
-			],
-			"ontology_id": "CHEMONTID:0000279",
-			"normalized_name": "Alkaloids and derivatives",
-			"score": 1.0000001192092896
-		},
-		{
-			"name": "lipids",
-			"spans": [[5454, 5460]],
-			"ontology_id": "CHEMONTID:0000012",
-			"normalized_name": "Lipids and lipid-like molecules",
-			"score": 1.0
-		},
-		{
-			"name": "oxalic acid",
-			"spans": [
-				[6404, 6415],
-				[33970, 33981],
-				[34267, 34278],
-				[42348, 42359],
-				[42696, 42707]
-			],
-			"CID": 971,
-			"SMILES": "C(=O)(C(=O)O)O",
-			"InChIKey": "MUBZPKHOEPUJKR-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Dicarboxylic acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Dicarboxylic acids and derivatives"
-			}
-		},
-		{
-			"name": "sucrose",
-			"spans": [
-				[6311, 6318],
-				[43291, 43298]
-			],
-			"CID": 5988,
-			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
-			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Ethers"
-			}
-		},
-		{
-			"name": "polyols",
-			"spans": [[6334, 6341]],
-			"ontology_id": "CHEMONTID:0002286",
-			"normalized_name": "Polyols",
-			"score": 1.000000238418579
-		},
-		{
-			"name": "proline",
-			"spans": [
-				[6183, 6190],
-				[35445, 35452],
-				[44804, 44811],
-				[45152, 45159]
-			],
-			"CID": 145742,
-			"SMILES": "C1C[C@H](NC1)C(=O)O",
-			"InChIKey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids", "Dipeptides"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
-			}
-		},
-		{
-			"name": "phytosterols",
-			"spans": [
-				[6680, 6692],
-				[8215, 8227]
-			]
+			"name": "phytosterol",
+			"spans": [[6540, 6551]]
 		},
 		{
 			"name": "plant sterols",
@@ -543,8 +540,43 @@
 			}
 		},
 		{
-			"name": "phytosterol",
-			"spans": [[6540, 6551]]
+			"name": "phytosterols",
+			"spans": [
+				[6680, 6692],
+				[8215, 8227]
+			]
+		},
+		{
+			"name": "total chlorophyll",
+			"spans": [
+				[22276, 22293],
+				[23591, 23608],
+				[23772, 23789]
+			]
+		},
+		{
+			"name": "Chlorophyll a",
+			"spans": [
+				[22226, 22239],
+				[22241, 22246],
+				[23008, 23013],
+				[23577, 23582],
+				[23765, 23770]
+			],
+			"CID": 12085802,
+			"SMILES": "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5[C@H]([C@@H](C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OC/C=C(\\C)/CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@H](C4=O)C(=O)OC)C)C.[Mg+2]",
+			"InChIKey": "ATNHDLDRLWWWCB-AENOIHSZSA-M",
+			"Natural_product_class": {
+				"Np_class": ["Prenyl quinone meroterpenoids"],
+				"Np_superclass": ["Meroterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organoheterocyclic compounds",
+				"Class": "Tetrapyrroles and derivatives",
+				"Subclass": "Metallotetrapyrroles"
+			},
+			"alt_names": ["Chl a"]
 		},
 		{
 			"name": "chlorophyll b",
@@ -588,35 +620,13 @@
 			"alt_names": ["Caro", "carotenoid"]
 		},
 		{
-			"name": "Chlorophyll a",
+			"name": "MDA",
 			"spans": [
-				[22226, 22239],
-				[22241, 22246],
-				[23008, 23013],
-				[23577, 23582],
-				[23765, 23770]
-			],
-			"CID": 12085802,
-			"SMILES": "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5[C@H]([C@@H](C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OC/C=C(\\C)/CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@H](C4=O)C(=O)OC)C)C.[Mg+2]",
-			"InChIKey": "ATNHDLDRLWWWCB-AENOIHSZSA-M",
-			"Natural_product_class": {
-				"Np_class": ["Prenyl quinone meroterpenoids"],
-				"Np_superclass": ["Meroterpenoids"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organoheterocyclic compounds",
-				"Class": "Tetrapyrroles and derivatives",
-				"Subclass": "Metallotetrapyrroles"
-			},
-			"alt_names": ["Chl a"]
-		},
-		{
-			"name": "total chlorophyll",
-			"spans": [
-				[22276, 22293],
-				[23591, 23608],
-				[23772, 23789]
+				[27120, 27123],
+				[28506, 28509],
+				[28592, 28595],
+				[39542, 39545],
+				[39660, 39663]
 			]
 		},
 		{
@@ -642,16 +652,6 @@
 				"Class": "Organic oxides",
 				"Subclass": "Organic oxides"
 			}
-		},
-		{
-			"name": "MDA",
-			"spans": [
-				[27120, 27123],
-				[28506, 28509],
-				[28592, 28595],
-				[39542, 39545],
-				[39660, 39663]
-			]
 		},
 		{
 			"name": "ROS",
@@ -689,6 +689,122 @@
 			]
 		},
 		{
+			"name": "malic acid",
+			"spans": [[33983, 33993]],
+			"CID": 525,
+			"SMILES": "C(C(C(=O)O)O)C(=O)O",
+			"InChIKey": "BJEPYKJPYRNKOW-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Dicarboxylic acids", "Hydroxy fatty acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Hydroxy acids and derivatives",
+				"Subclass": "Beta hydroxy acids and derivatives"
+			}
+		},
+		{
+			"name": "mannitol",
+			"spans": [
+				[34683, 34691],
+				[43549, 43557],
+				[43996, 44004]
+			],
+			"CID": 6251,
+			"SMILES": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O",
+			"InChIKey": "FBPFZTCFMRRESA-KVTDHHQDSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "1-hexadecanol",
+			"spans": [[35739, 35752]],
+			"CID": 2682,
+			"SMILES": "CCCCCCCCCCCCCCCCO",
+			"InChIKey": "BXWNKGSJHAJOGX-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty alcohols"],
+				"Np_superclass": ["Fatty acyls"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty alcohols"
+			}
+		},
+		{
+			"name": "2-aminoadipic acid",
+			"spans": [[35757, 35775]],
+			"CID": 469,
+			"SMILES": "C(CC(C(=O)O)N)CC(=O)O",
+			"InChIKey": "OYIFNHCXNCRBQI-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
+		},
+		{
+			"name": "trehalose",
+			"spans": [
+				[34517, 34526],
+				[34672, 34681],
+				[43538, 43547],
+				[43888, 43897]
+			],
+			"CID": 7427,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O",
+			"InChIKey": "HDTRYLNUVZCQOY-LIZSDCNHSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
+			"name": "pyruvic acid",
+			"spans": [
+				[34042, 34054],
+				[34421, 34433],
+				[42502, 42514],
+				[44374, 44386]
+			],
+			"CID": 1060,
+			"SMILES": "CC(=O)C(=O)O",
+			"InChIKey": "LCTONWCANYUPML-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Oxo fatty acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Keto acids and derivatives",
+				"Subclass": "Alpha-keto acids and derivatives"
+			}
+		},
+		{
 			"name": "fumaric acid",
 			"spans": [
 				[33956, 33968],
@@ -707,23 +823,6 @@
 				"Superclass": "Organic acids and derivatives",
 				"Class": "Carboxylic acids and derivatives",
 				"Subclass": "Dicarboxylic acids and derivatives"
-			}
-		},
-		{
-			"name": "2-aminoadipic acid",
-			"spans": [[35757, 35775]],
-			"CID": 469,
-			"SMILES": "C(CC(C(=O)O)N)CC(=O)O",
-			"InChIKey": "OYIFNHCXNCRBQI-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Carboxylic acids and derivatives",
-				"Subclass": "Amino acids, peptides, and analogues"
 			}
 		},
 		{
@@ -778,125 +877,6 @@
 			}
 		},
 		{
-			"name": "mannitol",
-			"spans": [
-				[34683, 34691],
-				[43549, 43557],
-				[43996, 44004]
-			],
-			"CID": 6251,
-			"SMILES": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O",
-			"InChIKey": "FBPFZTCFMRRESA-KVTDHHQDSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Monosaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
-			}
-		},
-		{
-			"name": "1-hexadecanol",
-			"spans": [[35739, 35752]],
-			"CID": 2682,
-			"SMILES": "CCCCCCCCCCCCCCCCO",
-			"InChIKey": "BXWNKGSJHAJOGX-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Fatty alcohols"],
-				"Np_superclass": ["Fatty acyls"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Fatty Acyls",
-				"Subclass": "Fatty alcohols"
-			}
-		},
-		{
-			"name": "malic acid",
-			"spans": [[33983, 33993]],
-			"CID": 525,
-			"SMILES": "C(C(C(=O)O)O)C(=O)O",
-			"InChIKey": "BJEPYKJPYRNKOW-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Dicarboxylic acids", "Hydroxy fatty acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Hydroxy acids and derivatives",
-				"Subclass": "Beta hydroxy acids and derivatives"
-			}
-		},
-		{
-			"name": "trehalose",
-			"spans": [
-				[34517, 34526],
-				[34672, 34681],
-				[43538, 43547],
-				[43888, 43897]
-			],
-			"CID": 7427,
-			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O",
-			"InChIKey": "HDTRYLNUVZCQOY-LIZSDCNHSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
-			}
-		},
-		{
-			"name": "pyruvic acid",
-			"spans": [
-				[34042, 34054],
-				[34421, 34433],
-				[42502, 42514],
-				[44374, 44386]
-			],
-			"CID": 1060,
-			"SMILES": "CC(=O)C(=O)O",
-			"InChIKey": "LCTONWCANYUPML-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Oxo fatty acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic acids and derivatives",
-				"Class": "Keto acids and derivatives",
-				"Subclass": "Alpha-keto acids and derivatives"
-			}
-		},
-		{
-			"name": "raffinose",
-			"spans": [
-				[34716, 34725],
-				[43582, 43591]
-			],
-			"CID": 439242,
-			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@H](O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O",
-			"InChIKey": "MUPFEKGTMRGPLJ-ZQSKZDJDSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides", "Polysaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Ethers"
-			}
-		},
-		{
 			"name": "sorbitol",
 			"spans": [[34503, 34511]],
 			"CID": 5780,
@@ -924,20 +904,23 @@
 			"score": 0.9213589429855347
 		},
 		{
-			"name": "squalene",
-			"spans": [[38709, 38717]],
-			"CID": 638072,
-			"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)/C)C",
-			"InChIKey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+			"name": "raffinose",
+			"spans": [
+				[34716, 34725],
+				[43582, 43591]
+			],
+			"CID": 439242,
+			"SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@H](O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O",
+			"InChIKey": "MUPFEKGTMRGPLJ-ZQSKZDJDSA-N",
 			"Natural_product_class": {
-				"Np_class": ["Acyclic triterpenoids"],
-				"Np_superclass": ["Triterpenoids"]
+				"Np_class": ["Disaccharides", "Polysaccharides"],
+				"Np_superclass": ["Saccharides"]
 			},
 			"Classyfire": {
 				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Prenol lipids",
-				"Subclass": "Triterpenoids"
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
 			}
 		},
 		{
@@ -958,19 +941,29 @@
 			}
 		},
 		{
+			"name": "squalene",
+			"spans": [[38709, 38717]],
+			"CID": 638072,
+			"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)/C)C",
+			"InChIKey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Acyclic triterpenoids"],
+				"Np_superclass": ["Triterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Triterpenoids"
+			}
+		},
+		{
 			"name": "O2 -",
 			"spans": [[39018, 39022]]
 		},
 		{
 			"name": "phytoalexins",
 			"spans": [[45420, 45432]]
-		},
-		{
-			"name": "serotonin",
-			"spans": [[45472, 45481]],
-			"ontology_id": "CHEMONTID:0001637",
-			"normalized_name": "Serotonins",
-			"score": 0.9713443517684937
 		},
 		{
 			"name": "indole glucosinolates",
@@ -988,6 +981,13 @@
 				"Class": "Indoles and derivatives",
 				"Subclass": "Indoles"
 			}
+		},
+		{
+			"name": "serotonin",
+			"spans": [[45472, 45481]],
+			"ontology_id": "CHEMONTID:0001637",
+			"normalized_name": "Serotonins",
+			"score": 0.9713443517684937
 		}
 	],
 	"species": [
@@ -1017,26 +1017,11 @@
 				[46626, 46630],
 				[47945, 47949],
 				[48547, 48551]
-			],
-			"taxonomy_id": 3052764
+			]
 		},
 		{
 			"name": "wheat",
-			"spans": [[40922, 40927]],
-			"taxonomy_id": 31741
-		},
-		{
-			"name": "Nbetans",
-			"spans": [
-				[43843, 43850],
-				[44647, 44654],
-				[44775, 44782],
-				[44866, 44873],
-				[44891, 44898],
-				[44953, 44960],
-				[45049, 45056],
-				[45115, 45122]
-			]
+			"spans": [[40922, 40927]]
 		},
 		{
 			"name": "Sbetauvs",
@@ -1048,6 +1033,13 @@
 				[44940, 44948],
 				[45073, 45081],
 				[45102, 45110]
+			]
+		},
+		{
+			"name": "Sbeta",
+			"spans": [
+				[44419, 44424],
+				[46314, 46319]
 			]
 		},
 		{
@@ -1064,14 +1056,66 @@
 			]
 		},
 		{
-			"name": "Sbeta",
+			"name": "Nbetans",
 			"spans": [
-				[44419, 44424],
-				[46314, 46319]
+				[43843, 43850],
+				[44647, 44654],
+				[44775, 44782],
+				[44866, 44873],
+				[44891, 44898],
+				[44953, 44960],
+				[45049, 45056],
+				[45115, 45122]
 			]
 		}
 	],
 	"experimental_conditions": [
+		{
+			"name": "ultraviolet-B (UV-B) radiation",
+			"spans": [
+				[165, 195],
+				[2837, 2867],
+				[3298, 3319],
+				[3721, 3737],
+				[5278, 5294],
+				[8938, 8964],
+				[24329, 24345],
+				[26135, 26151],
+				[26618, 26644],
+				[26628, 26644],
+				[27800, 27826],
+				[30443, 30463],
+				[35978, 35993],
+				[36831, 36841],
+				[37087, 37101],
+				[37272, 37298],
+				[38951, 38965],
+				[39578, 39591],
+				[40381, 40397],
+				[41628, 41642],
+				[47164, 47187],
+				[48312, 48325]
+			],
+			"ontology_id": "PECO:0007001",
+			"normalized_name": "UV-B light exposure",
+			"score": 0.8479604721069336,
+			"alt_names": [
+				"UV-B exposure",
+				"UV-B irradiation",
+				"UV-B irradiation stress",
+				"UV-B light",
+				"UV-B radiation",
+				"high UV-B irradiation",
+				"high UV-B light",
+				"prolonged UV-B irradiation",
+				"prolonged UV-B light",
+				"ultraviolet B (UV-B) radiation"
+			]
+		},
+		{
+			"name": "supplemented with betaSito (Sbeta)",
+			"spans": [[777, 811]]
+		},
 		{
 			"name": "UV-B stress",
 			"spans": [
@@ -1130,12 +1174,12 @@
 			]
 		},
 		{
-			"name": "supplemented with betaSito (Sbeta)",
-			"spans": [[777, 811]]
-		},
-		{
 			"name": "exogenous application of beta-sitosterol",
 			"spans": [[516, 556]]
+		},
+		{
+			"name": "not supplemented with betaSito (Nbeta)",
+			"spans": [[728, 766]]
 		},
 		{
 			"name": "prolonged UV-B stress",
@@ -1150,14 +1194,6 @@
 				[46645, 46666],
 				[47964, 47985]
 			]
-		},
-		{
-			"name": "ultraviolet-B (UV-B) radiation",
-			"spans": [[165, 195]]
-		},
-		{
-			"name": "not supplemented with betaSito (Nbeta)",
-			"spans": [[728, 766]]
 		},
 		{
 			"name": "non-stress",
@@ -1199,34 +1235,11 @@
 			]
 		},
 		{
-			"name": "ultraviolet B (UV-B) radiation",
-			"spans": [[2837, 2867]]
-		},
-		{
-			"name": "high UV-B irradiation",
-			"spans": [[3298, 3319]]
-		},
-		{
 			"name": "ultraviolet (UV) radiation",
-			"spans": [[2493, 2519]]
-		},
-		{
-			"name": "UV-B irradiation",
-			"spans": [
-				[3721, 3737],
-				[5278, 5294],
-				[24329, 24345],
-				[26135, 26151],
-				[26628, 26644],
-				[36831, 36841],
-				[39578, 39591],
-				[40381, 40397],
-				[48312, 48325]
-			],
-			"ontology_id": "PECO:0007001",
-			"normalized_name": "UV-B light exposure",
-			"score": 0.9130200147628784,
-			"alt_names": ["UV-B exposure", "UV-B light"]
+			"spans": [[2493, 2519]],
+			"ontology_id": "PECO:0007222",
+			"normalized_name": "UV light exposure",
+			"score": 0.8407144546508789
 		},
 		{
 			"name": "osmotic stress",
@@ -1237,39 +1250,36 @@
 		},
 		{
 			"name": "salt stress",
-			"spans": [[7133, 7144]]
+			"spans": [[7133, 7144]],
+			"ontology_id": "PECO:0007185",
+			"normalized_name": "salt exposure",
+			"score": 0.8532933592796326
 		},
 		{
 			"name": "water stress",
 			"spans": [[7116, 7128]]
 		},
 		{
-			"name": "supplementation of betaSito",
-			"spans": [[8480, 8507]]
-		},
-		{
 			"name": "exogenous application of phytosterols",
 			"spans": [[8190, 8227]]
 		},
 		{
-			"name": "prolonged UV-B irradiation",
-			"spans": [
-				[8938, 8964],
-				[26618, 26644],
-				[27800, 27826],
-				[37272, 37298]
-			]
+			"name": "supplementation of betaSito",
+			"spans": [[8480, 8507]]
+		},
+		{
+			"name": "prolonged UV-B irradiation stress",
+			"spans": [[21305, 21338]]
 		},
 		{
 			"name": "normal light",
 			"spans": [
 				[19705, 19717],
 				[20909, 20921]
-			]
-		},
-		{
-			"name": "prolonged UV-B irradiation stress",
-			"spans": [[21305, 21338]]
+			],
+			"ontology_id": "PECO:0007196",
+			"normalized_name": "light exposure",
+			"score": 0.8129658699035645
 		},
 		{
 			"name": "stress conditions",
@@ -1303,10 +1313,6 @@
 		{
 			"name": "UV-B-stressed",
 			"spans": [[27489, 27502]]
-		},
-		{
-			"name": "prolonged UV-B light",
-			"spans": [[30443, 30463]]
 		},
 		{
 			"name": "exogenous application of betaSito",
@@ -1347,48 +1353,35 @@
 			]
 		},
 		{
-			"name": "high UV-B light",
-			"spans": [[35978, 35993]]
-		},
-		{
-			"name": "UV-B radiation",
-			"spans": [
-				[37087, 37101],
-				[38951, 38965],
-				[41628, 41642]
-			]
+			"name": "drought stress",
+			"spans": [[38881, 38895]],
+			"ontology_id": "PECO:0007404",
+			"normalized_name": "drought environment exposure",
+			"score": 0.8390799760818481
 		},
 		{
 			"name": "low temperature",
 			"spans": [[38861, 38876]]
 		},
 		{
-			"name": "drought stress",
-			"spans": [[38881, 38895]]
+			"name": "stress application",
+			"spans": [[40530, 40548]]
 		},
 		{
 			"name": "pretreatment",
 			"spans": [[40618, 40630]]
 		},
 		{
-			"name": "stress application",
-			"spans": [[40530, 40548]]
-		},
-		{
 			"name": "water stress conditions",
 			"spans": [[40895, 40918]]
 		},
 		{
-			"name": "UV-B irradiation stress",
-			"spans": [[47164, 47187]]
+			"name": "environmental stresses",
+			"spans": [[48844, 48866]]
 		},
 		{
 			"name": "exogenous application of the beta-sitosterol",
 			"spans": [[46518, 46562]]
-		},
-		{
-			"name": "environmental stresses",
-			"spans": [[48844, 48866]]
 		}
 	],
 	"plant_traits": [
@@ -1402,6 +1395,54 @@
 		{
 			"name": "growth improvement",
 			"spans": [[571, 589]]
+		},
+		{
+			"name": "photosynthetic-related parameters",
+			"spans": [[1277, 1310]],
+			"ontology_id": "TO:0001015",
+			"normalized_name": "photosynthetic rate",
+			"score": 0.8311333656311035
+		},
+		{
+			"name": "oxidative stress tolerance",
+			"spans": [
+				[1402, 1428],
+				[30521, 30547],
+				[41230, 41246]
+			],
+			"ontology_id": "TO:0002657",
+			"normalized_name": "oxidative stress",
+			"score": 0.8257240653038025,
+			"alt_names": ["oxidative status"]
+		},
+		{
+			"name": "growth",
+			"spans": [
+				[1171, 1177],
+				[37385, 37407],
+				[47894, 47941],
+				[48655, 48677]
+			],
+			"ontology_id": "TO:0002756",
+			"normalized_name": "shoot growth angle",
+			"score": 0.8177176713943481,
+			"alt_names": [
+				"growth and development",
+				"growth- and development-related characteristics"
+			]
+		},
+		{
+			"name": "root length",
+			"spans": [
+				[1212, 1223],
+				[18874, 18885],
+				[20310, 20321],
+				[20459, 20470],
+				[46689, 46700]
+			],
+			"ontology_id": "TO:0000227",
+			"normalized_name": "root length",
+			"score": 1.0
 		},
 		{
 			"name": "development",
@@ -1424,54 +1465,6 @@
 			"normalized_name": "plant dry weight",
 			"score": 0.7947552800178528,
 			"alt_names": ["plant biomass"]
-		},
-		{
-			"name": "root length",
-			"spans": [
-				[1212, 1223],
-				[18874, 18885],
-				[20310, 20321],
-				[20459, 20470],
-				[46689, 46700]
-			],
-			"ontology_id": "TO:0000227",
-			"normalized_name": "root length",
-			"score": 1.0
-		},
-		{
-			"name": "oxidative stress tolerance",
-			"spans": [
-				[1402, 1428],
-				[30521, 30547],
-				[41230, 41246]
-			],
-			"ontology_id": "TO:0002657",
-			"normalized_name": "oxidative stress",
-			"score": 0.8257240653038025,
-			"alt_names": ["oxidative status"]
-		},
-		{
-			"name": "photosynthetic-related parameters",
-			"spans": [[1277, 1310]],
-			"ontology_id": "TO:0001015",
-			"normalized_name": "photosynthetic rate",
-			"score": 0.8311333656311035
-		},
-		{
-			"name": "growth",
-			"spans": [
-				[1171, 1177],
-				[37385, 37407],
-				[47894, 47941],
-				[48655, 48677]
-			],
-			"ontology_id": "TO:0002756",
-			"normalized_name": "shoot growth angle",
-			"score": 0.8177176713943481,
-			"alt_names": [
-				"growth and development",
-				"growth- and development-related characteristics"
-			]
 		},
 		{
 			"name": "plasticity",
@@ -1505,18 +1498,15 @@
 			"spans": [[1969, 1987]]
 		},
 		{
+			"name": "crop productivity",
+			"spans": [[2789, 2806]]
+		},
+		{
 			"name": "seedling growth",
 			"spans": [[3105, 3120]],
 			"ontology_id": "TO:0000949",
 			"normalized_name": "seedling growth and development trait",
 			"score": 0.9000377655029297
-		},
-		{
-			"name": "hypocotyl growth",
-			"spans": [[3074, 3090]],
-			"ontology_id": "TO:0000757",
-			"normalized_name": "hypocotyl morphology trait",
-			"score": 0.819942831993103
 		},
 		{
 			"name": "plant yield",
@@ -1542,16 +1532,19 @@
 			"score": 0.8307162523269653
 		},
 		{
-			"name": "crop productivity",
-			"spans": [[2789, 2806]]
-		},
-		{
-			"name": "developmental processes",
-			"spans": [[4381, 4404]]
+			"name": "hypocotyl growth",
+			"spans": [[3074, 3090]],
+			"ontology_id": "TO:0000757",
+			"normalized_name": "hypocotyl morphology trait",
+			"score": 0.819942831993103
 		},
 		{
 			"name": "cell death",
 			"spans": [[4219, 4229]]
+		},
+		{
+			"name": "developmental processes",
+			"spans": [[4381, 4404]]
 		},
 		{
 			"name": "plant resistance",
@@ -1561,11 +1554,7 @@
 			"score": 0.7635146379470825
 		},
 		{
-			"name": "productivity",
-			"spans": [[7949, 7961]]
-		},
-		{
-			"name": "tolerance",
+			"name": "resistance",
 			"spans": [
 				[7920, 7930],
 				[8002, 8011],
@@ -1575,18 +1564,12 @@
 			],
 			"ontology_id": "TO:0000112",
 			"normalized_name": "microbial disease response",
-			"score": 0.8703145980834961,
-			"alt_names": ["resistance"]
+			"score": 0.7535034418106079,
+			"alt_names": ["tolerance"]
 		},
 		{
-			"name": "shoot length",
-			"spans": [
-				[18858, 18870],
-				[46672, 46684]
-			],
-			"ontology_id": "TO:0000207",
-			"normalized_name": "plant height",
-			"score": 0.9122410416603088
+			"name": "productivity",
+			"spans": [[7949, 7961]]
 		},
 		{
 			"name": "relative water contents",
@@ -1598,6 +1581,16 @@
 			"normalized_name": "leaf relative water content",
 			"score": 0.7719516754150391,
 			"alt_names": ["leaf relative water content"]
+		},
+		{
+			"name": "shoot length",
+			"spans": [
+				[18858, 18870],
+				[46672, 46684]
+			],
+			"ontology_id": "TO:0000207",
+			"normalized_name": "plant height",
+			"score": 0.9122410416603088
 		},
 		{
 			"name": "growth performance",
@@ -1640,15 +1633,15 @@
 			"spans": [[28467, 28482]]
 		},
 		{
-			"name": "tolerance mechanism against UV-B",
+			"name": "UV-B stress tolerance",
 			"spans": [
 				[36267, 36288],
 				[36414, 36446]
 			],
 			"ontology_id": "TO:0000601",
 			"normalized_name": "UV-B light sensitivity",
-			"score": 0.7913950085639954,
-			"alt_names": ["UV-B stress tolerance"]
+			"score": 0.858961284160614,
+			"alt_names": ["tolerance mechanism against UV-B"]
 		},
 		{
 			"name": "UV tolerance",
@@ -1662,12 +1655,12 @@
 			"spans": [[39826, 39840]]
 		},
 		{
-			"name": "defense level",
-			"spans": [[42769, 42782]]
-		},
-		{
 			"name": "defense system",
 			"spans": [[41754, 41768]]
+		},
+		{
+			"name": "defense level",
+			"spans": [[42769, 42782]]
 		},
 		{
 			"name": "acclimatization",
@@ -1697,13 +1690,6 @@
 		}
 	],
 	"anatomical_structures": [
-		{
-			"name": "whole plant",
-			"spans": [[1230, 1241]],
-			"ontology_id": "PO:0000003",
-			"normalized_name": "whole plant",
-			"score": 1.0
-		},
 		{
 			"name": "shoot",
 			"spans": [
@@ -1735,10 +1721,17 @@
 			"score": 1.0000001192092896
 		},
 		{
-			"name": "seedling",
-			"spans": [[3105, 3113]],
-			"ontology_id": "PO:0008037",
-			"normalized_name": "seedling",
+			"name": "whole plant",
+			"spans": [[1230, 1241]],
+			"ontology_id": "PO:0000003",
+			"normalized_name": "whole plant",
+			"score": 1.0
+		},
+		{
+			"name": "hypocotyl",
+			"spans": [[3074, 3083]],
+			"ontology_id": "PO:0020100",
+			"normalized_name": "hypocotyl",
 			"score": 1.0
 		},
 		{
@@ -1759,17 +1752,6 @@
 			"alt_names": ["leaves"]
 		},
 		{
-			"name": "PSII reaction center proteins",
-			"spans": [[3341, 3370]]
-		},
-		{
-			"name": "hypocotyl",
-			"spans": [[3074, 3083]],
-			"ontology_id": "PO:0020100",
-			"normalized_name": "hypocotyl",
-			"score": 1.0
-		},
-		{
 			"name": "cell",
 			"spans": [
 				[3040, 3044],
@@ -1785,8 +1767,11 @@
 			"alt_names": ["cells"]
 		},
 		{
-			"name": "electron transport chain",
-			"spans": [[3379, 3403]]
+			"name": "seedling",
+			"spans": [[3105, 3113]],
+			"ontology_id": "PO:0008037",
+			"normalized_name": "seedling",
+			"score": 1.0
 		},
 		{
 			"name": "stomatal conductance",
@@ -1794,6 +1779,14 @@
 				[3573, 3593],
 				[24958, 24978]
 			]
+		},
+		{
+			"name": "PSII reaction center proteins",
+			"spans": [[3341, 3370]]
+		},
+		{
+			"name": "electron transport chain",
+			"spans": [[3379, 3403]]
 		},
 		{
 			"name": "cellular milieu",
@@ -1818,18 +1811,18 @@
 			"score": 0.9691017270088196
 		},
 		{
+			"name": "chloroplasts",
+			"spans": [
+				[22410, 22422],
+				[24257, 24269]
+			]
+		},
+		{
 			"name": "chloroplast",
 			"spans": [
 				[22149, 22160],
 				[24066, 24077],
 				[24525, 24536]
-			]
-		},
-		{
-			"name": "chloroplasts",
-			"spans": [
-				[22410, 22422],
-				[24257, 24269]
 			]
 		},
 		{
@@ -1861,25 +1854,22 @@
 			"spans": [[41475, 41494]]
 		},
 		{
-			"name": "stem tissues",
-			"spans": [[43954, 43966]]
-		},
-		{
 			"name": "cytoplasm",
 			"spans": [[43322, 43331]]
+		},
+		{
+			"name": "stem tissues",
+			"spans": [[43954, 43966]]
 		}
 	],
 	"molecular_traits": [
 		{
-			"name": "APX",
-			"spans": [[1591, 1594]]
+			"name": "Pn",
+			"spans": [[1312, 1314]]
 		},
 		{
-			"name": "SOD",
-			"spans": [[1572, 1575]],
-			"ontology_id": "GO:0004784",
-			"normalized_name": "superoxide dismutase activity",
-			"score": 1.0000001192092896
+			"name": "POD",
+			"spans": [[1577, 1580]]
 		},
 		{
 			"name": "Fv/Fm",
@@ -1894,10 +1884,6 @@
 			"spans": [[1316, 1318]]
 		},
 		{
-			"name": "RWC",
-			"spans": [[1225, 1228]]
-		},
-		{
 			"name": "CAT",
 			"spans": [[1582, 1585]],
 			"ontology_id": "GO:0004096",
@@ -1905,20 +1891,27 @@
 			"score": 1.0
 		},
 		{
-			"name": "Pn",
-			"spans": [[1312, 1314]]
+			"name": "SOD",
+			"spans": [[1572, 1575]],
+			"ontology_id": "GO:0004784",
+			"normalized_name": "superoxide dismutase activity",
+			"score": 1.0000001192092896
 		},
 		{
-			"name": "POD",
-			"spans": [[1577, 1580]]
+			"name": "RWC",
+			"spans": [[1225, 1228]]
 		},
 		{
-			"name": "cell proliferation",
-			"spans": [[3040, 3058]]
+			"name": "APX",
+			"spans": [[1591, 1594]]
 		},
 		{
 			"name": "photosynthetic processes",
 			"spans": [[3193, 3217]]
+		},
+		{
+			"name": "cell proliferation",
+			"spans": [[3040, 3058]]
 		},
 		{
 			"name": "signaling molecule",
@@ -1956,20 +1949,24 @@
 			"spans": [[24553, 24574]]
 		},
 		{
-			"name": "water use efficiency",
-			"spans": [
-				[1324, 1328],
-				[24987, 25007]
-			],
-			"alt_names": ["WUEi"]
-		},
-		{
 			"name": "non-photochemical quenching",
 			"spans": [
 				[1341, 1344],
 				[25022, 25049]
 			],
 			"alt_names": ["NPQ"]
+		},
+		{
+			"name": "net photosynthetic rate",
+			"spans": [[24872, 24895]]
+		},
+		{
+			"name": "water use efficiency",
+			"spans": [
+				[1324, 1328],
+				[24987, 25007]
+			],
+			"alt_names": ["WUEi"]
 		},
 		{
 			"name": "PSII efficiency",
@@ -1984,20 +1981,16 @@
 			"alt_names": ["Tr"]
 		},
 		{
-			"name": "net photosynthetic rate",
-			"spans": [[24872, 24895]]
-		},
-		{
-			"name": "ROS accumulation",
-			"spans": [[26740, 26756]]
-		},
-		{
 			"name": "lipid peroxidation",
 			"spans": [
 				[27072, 27090],
 				[28486, 28504],
 				[28780, 28798]
 			]
+		},
+		{
+			"name": "ROS accumulation",
+			"spans": [[26740, 26756]]
 		},
 		{
 			"name": "oxidative stability",
@@ -2020,8 +2013,8 @@
 			"spans": [[41016, 41042]]
 		},
 		{
-			"name": "antioxidant capacity",
-			"spans": [[41659, 41679]]
+			"name": "activation of antioxidant enzymes",
+			"spans": [[42911, 42944]]
 		},
 		{
 			"name": "redox balance",
@@ -2031,8 +2024,8 @@
 			"score": 0.8723511099815369
 		},
 		{
-			"name": "activation of antioxidant enzymes",
-			"spans": [[42911, 42944]]
+			"name": "antioxidant capacity",
+			"spans": [[41659, 41679]]
 		},
 		{
 			"name": "enzyme modulators",
@@ -2092,15 +2085,15 @@
 			"alt_names": ["TCA cycle"]
 		},
 		{
-			"name": "amino acid metabolism",
-			"spans": [[33712, 33733]]
-		},
-		{
 			"name": "GABA shunt",
 			"spans": [
 				[33735, 33745],
 				[36645, 36655]
 			]
+		},
+		{
+			"name": "amino acid metabolism",
+			"spans": [[33712, 33733]]
 		},
 		{
 			"name": "sugar and amino acid metabolism",
@@ -2115,26 +2108,11 @@
 			"spans": [[42663, 42674]]
 		},
 		{
-			"name": "phenylpropanoid pathways",
-			"spans": [[45267, 45291]],
-			"ontology_id": "PWY-2181",
-			"normalized_name": "free phenylpropanoid acid biosynthesis",
-			"score": 0.8429077863693237
-		},
-		{
 			"name": "glycolytic pathway",
 			"spans": [[44539, 44557]],
 			"ontology_id": "GLYCOLYSIS",
 			"normalized_name": "glycolysis I (from glucose 6-phosphate)",
 			"score": 0.8173885941505432
-		},
-		{
-			"name": "primary and secondary metabolism",
-			"spans": [[46406, 46438]]
-		},
-		{
-			"name": "TCA",
-			"spans": [[45255, 45258]]
 		},
 		{
 			"name": "glycolysis",
@@ -2145,12 +2123,31 @@
 			"ontology_id": "PWY-1042",
 			"normalized_name": "glycolysis IV",
 			"score": 0.8658570051193237
+		},
+		{
+			"name": "primary and secondary metabolism",
+			"spans": [[46406, 46438]]
+		},
+		{
+			"name": "TCA",
+			"spans": [[45255, 45258]]
+		},
+		{
+			"name": "phenylpropanoid pathways",
+			"spans": [[45267, 45291]],
+			"ontology_id": "PWY-2181",
+			"normalized_name": "free phenylpropanoid acid biosynthesis",
+			"score": 0.8429077863693237
 		}
 	],
 	"genes": [
 		{
-			"name": "APX",
-			"spans": [[40108, 40111]]
+			"name": "POD",
+			"spans": [[40098, 40101]]
+		},
+		{
+			"name": "CAT",
+			"spans": [[40103, 40106]]
 		},
 		{
 			"name": "dehydrin",
@@ -2164,12 +2161,8 @@
 			]
 		},
 		{
-			"name": "CAT",
-			"spans": [[40103, 40106]]
-		},
-		{
-			"name": "POD",
-			"spans": [[40098, 40101]]
+			"name": "APX",
+			"spans": [[40108, 40111]]
 		}
 	]
 }

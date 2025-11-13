@@ -1,8 +1,30 @@
 {
 	"compounds": [
 		{
-			"name": "aromatic acyl chains",
-			"spans": [[506, 526]]
+			"name": "resin glycosides",
+			"spans": [
+				[393, 409],
+				[4450, 4466],
+				[5487, 5503],
+				[5645, 5661],
+				[6277, 6293],
+				[23769, 23785]
+			]
+		},
+		{
+			"name": "hydroxyacyl chain",
+			"spans": [
+				[455, 472],
+				[1367, 1384],
+				[1505, 1522],
+				[12376, 12393],
+				[13843, 13860],
+				[18234, 18251],
+				[19216, 19233],
+				[19612, 19629],
+				[19730, 19747],
+				[19834, 19851]
+			]
 		},
 		{
 			"name": "acylsugars",
@@ -32,38 +54,93 @@
 			"score": 0.9327501058578491
 		},
 		{
-			"name": "resin glycosides",
-			"spans": [
-				[393, 409],
-				[4450, 4466],
-				[5487, 5503],
-				[5645, 5661],
-				[6277, 6293],
-				[23769, 23785]
-			]
+			"name": "oligosaccharide cores",
+			"spans": [[432, 453]]
+		},
+		{
+			"name": "aromatic acyl chains",
+			"spans": [[506, 526]]
 		},
 		{
 			"name": "sugars",
 			"spans": [[1497, 1503]]
 		},
 		{
-			"name": "hydroxyacyl chain",
-			"spans": [
-				[455, 472],
-				[1367, 1384],
-				[1505, 1522],
-				[12376, 12393],
-				[13843, 13860],
-				[18234, 18251],
-				[19216, 19233],
-				[19612, 19629],
-				[19730, 19747],
-				[19834, 19851]
-			]
+			"name": "inositol",
+			"spans": [[2853, 2861]],
+			"CID": 892,
+			"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+			"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Cyclitols"],
+				"Np_superclass": ["Polyols"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Alcohols and polyols"
+			}
 		},
 		{
-			"name": "oligosaccharide cores",
-			"spans": [[432, 453]]
+			"name": "alkaloids",
+			"spans": [[2316, 2325]],
+			"ontology_id": "CHEMONTID:0000279",
+			"normalized_name": "Alkaloids and derivatives",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "fatty acid",
+			"spans": [[2897, 2907]],
+			"ontology_id": "CHEMONTID:0000421",
+			"normalized_name": "Methoxy fatty acids",
+			"score": 1.0
+		},
+		{
+			"name": "coenzyme A-activated acyl groups",
+			"spans": [[3436, 3468]]
+		},
+		{
+			"name": "glucosinolates",
+			"spans": [[2300, 2314]],
+			"ontology_id": "CHEMONTID:0000373",
+			"normalized_name": "Glucosinolates",
+			"score": 0.9999997615814209
+		},
+		{
+			"name": "cardenolides",
+			"spans": [[2352, 2364]],
+			"ontology_id": "CHEMONTID:0001555",
+			"normalized_name": "Cardenolides and derivatives",
+			"score": 1.0
+		},
+		{
+			"name": "sucrose",
+			"spans": [[2820, 2827]],
+			"CID": 5988,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
+			}
+		},
+		{
+			"name": "terpenes",
+			"spans": [[2327, 2335]],
+			"ontology_id": "CHEMONTID:0001283",
+			"normalized_name": "Terpene lactones",
+			"score": 1.0
+		},
+		{
+			"name": "branched amino acid",
+			"spans": [[2911, 2930]]
 		},
 		{
 			"name": "glucose",
@@ -97,85 +174,70 @@
 			}
 		},
 		{
-			"name": "alkaloids",
-			"spans": [[2316, 2325]],
-			"ontology_id": "CHEMONTID:0000279",
-			"normalized_name": "Alkaloids and derivatives",
-			"score": 1.0000001192092896
-		},
-		{
-			"name": "coenzyme A-activated acyl groups",
-			"spans": [[3436, 3468]]
-		},
-		{
-			"name": "terpenes",
-			"spans": [[2327, 2335]],
-			"ontology_id": "CHEMONTID:0001283",
-			"normalized_name": "Terpene lactones",
-			"score": 1.0
-		},
-		{
-			"name": "inositol",
-			"spans": [[2853, 2861]],
-			"CID": 892,
-			"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
-			"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Cyclitols"],
-				"Np_superclass": ["Polyols"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Alcohols and polyols"
-			}
-		},
-		{
-			"name": "fatty acid",
-			"spans": [[2897, 2907]],
-			"ontology_id": "CHEMONTID:0000421",
-			"normalized_name": "Methoxy fatty acids",
-			"score": 1.0
-		},
-		{
-			"name": "glucosinolates",
-			"spans": [[2300, 2314]],
-			"ontology_id": "CHEMONTID:0000373",
-			"normalized_name": "Glucosinolates",
-			"score": 0.9999997615814209
-		},
-		{
-			"name": "branched amino acid",
-			"spans": [[2911, 2930]]
-		},
-		{
-			"name": "cardenolides",
-			"spans": [[2352, 2364]],
-			"ontology_id": "CHEMONTID:0001555",
-			"normalized_name": "Cardenolides and derivatives",
-			"score": 1.0
-		},
-		{
-			"name": "sucrose",
-			"spans": [[2820, 2827]],
-			"CID": 5988,
-			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
-			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Ethers"
-			}
+			"name": "hexoses",
+			"spans": [
+				[4860, 4867],
+				[10630, 10636],
+				[12331, 12337],
+				[18551, 18557],
+				[18645, 18651],
+				[18886, 18892],
+				[19011, 19017],
+				[19281, 19287],
+				[19377, 19383],
+				[19526, 19532],
+				[20007, 20013],
+				[30068, 30074]
+			],
+			"ontology_id": "CHEMONTID:0001498",
+			"normalized_name": "Hexoses",
+			"score": 1.0,
+			"alt_names": ["hexose"]
 		},
 		{
 			"name": "aliphatic acyl side chains",
 			"spans": [[5016, 5042]]
+		},
+		{
+			"name": "pentoses",
+			"spans": [
+				[4832, 4840],
+				[10606, 10613],
+				[12306, 12313],
+				[18617, 18624],
+				[18754, 18761],
+				[19365, 19372],
+				[19559, 19566],
+				[20017, 20024]
+			],
+			"ontology_id": "CHEMONTID:0001497",
+			"normalized_name": "Pentoses",
+			"score": 1.0,
+			"alt_names": ["pentose"]
+		},
+		{
+			"name": "acyl chains",
+			"spans": [
+				[4084, 4095],
+				[17314, 17325],
+				[17346, 17357],
+				[17410, 17421],
+				[17528, 17539],
+				[17705, 17716],
+				[27230, 27241],
+				[27390, 27401]
+			]
+		},
+		{
+			"name": "acylated sugar compounds",
+			"spans": [
+				[3697, 3721],
+				[3952, 3976]
+			]
+		},
+		{
+			"name": "deoxyhexoses",
+			"spans": [[4842, 4854]]
 		},
 		{
 			"name": "hydroxyacyl chains",
@@ -192,8 +254,11 @@
 			"spans": [[4906, 4926]]
 		},
 		{
-			"name": "deoxyhexoses",
-			"spans": [[4842, 4854]]
+			"name": "hydroxy fatty acid",
+			"spans": [[4908, 4926]],
+			"ontology_id": "CHEMONTID:0000030",
+			"normalized_name": "Hydroxyeicosatrienoic acids",
+			"score": 1.0
 		},
 		{
 			"name": "RGs",
@@ -230,71 +295,6 @@
 			}
 		},
 		{
-			"name": "hexoses",
-			"spans": [
-				[4860, 4867],
-				[10630, 10636],
-				[12331, 12337],
-				[18551, 18557],
-				[18645, 18651],
-				[18886, 18892],
-				[19011, 19017],
-				[19281, 19287],
-				[19377, 19383],
-				[19526, 19532],
-				[20007, 20013],
-				[30068, 30074]
-			],
-			"ontology_id": "CHEMONTID:0001498",
-			"normalized_name": "Hexoses",
-			"score": 1.0,
-			"alt_names": ["hexose"]
-		},
-		{
-			"name": "acylated sugar compounds",
-			"spans": [
-				[3697, 3721],
-				[3952, 3976]
-			]
-		},
-		{
-			"name": "hydroxy fatty acid",
-			"spans": [[4908, 4926]],
-			"ontology_id": "CHEMONTID:0000030",
-			"normalized_name": "Hydroxyeicosatrienoic acids",
-			"score": 1.0
-		},
-		{
-			"name": "acyl chains",
-			"spans": [
-				[4084, 4095],
-				[17314, 17325],
-				[17346, 17357],
-				[17410, 17421],
-				[17528, 17539],
-				[17705, 17716],
-				[27230, 27241],
-				[27390, 27401]
-			]
-		},
-		{
-			"name": "pentoses",
-			"spans": [
-				[4832, 4840],
-				[10606, 10613],
-				[12306, 12313],
-				[18617, 18624],
-				[18754, 18761],
-				[19365, 19372],
-				[19559, 19566],
-				[20017, 20024]
-			],
-			"ontology_id": "CHEMONTID:0001497",
-			"normalized_name": "Pentoses",
-			"score": 1.0,
-			"alt_names": ["pentose"]
-		},
-		{
 			"name": "ester decorations",
 			"spans": [[6244, 6261]]
 		},
@@ -309,6 +309,14 @@
 				[7630, 7632],
 				[7943, 7945],
 				[8090, 8092]
+			]
+		},
+		{
+			"name": "C16-OH",
+			"spans": [
+				[9679, 9685],
+				[18139, 18145],
+				[31740, 31746]
 			]
 		},
 		{
@@ -339,11 +347,10 @@
 			"alt_names": ["jalapinolic acid"]
 		},
 		{
-			"name": "C16-OH",
+			"name": "resin glycoside",
 			"spans": [
-				[9679, 9685],
-				[18139, 18145],
-				[31740, 31746]
+				[9844, 9859],
+				[11939, 11954]
 			]
 		},
 		{
@@ -352,17 +359,6 @@
 				[10051, 10063],
 				[28069, 28081]
 			]
-		},
-		{
-			"name": "resin glycoside",
-			"spans": [
-				[9844, 9859],
-				[11939, 11954]
-			]
-		},
-		{
-			"name": "hydroxy-acyl chain",
-			"spans": [[10522, 10540]]
 		},
 		{
 			"name": "deoxyhexose",
@@ -395,6 +391,10 @@
 		{
 			"name": "dihydroxy-acyl chain",
 			"spans": [[10520, 10540]]
+		},
+		{
+			"name": "hydroxy-acyl chain",
+			"spans": [[10522, 10540]]
 		},
 		{
 			"name": "acyl chain",
@@ -430,6 +430,26 @@
 			}
 		},
 		{
+			"name": "rhamnose",
+			"spans": [
+				[13496, 13504],
+				[18367, 18375]
+			],
+			"CID": 25310,
+			"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
+			"InChIKey": "SHZGCJCMOBCMKK-JFNONXLTSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides", "Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
+		},
+		{
 			"name": "fucose",
 			"spans": [
 				[13468, 13474],
@@ -451,35 +471,8 @@
 			}
 		},
 		{
-			"name": "rhamnose",
-			"spans": [
-				[13496, 13504],
-				[18367, 18375]
-			],
-			"CID": 25310,
-			"SMILES": "C[C@H]1[C@@H]([C@H]([C@H](C(O1)O)O)O)O",
-			"InChIKey": "SHZGCJCMOBCMKK-JFNONXLTSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Disaccharides", "Monosaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
-			}
-		},
-		{
 			"name": "hydroxypentadecanoic acid",
 			"spans": [[17831, 17856]]
-		},
-		{
-			"name": "oligosaccharide",
-			"spans": [[17282, 17297]],
-			"ontology_id": "CHEMONTID:0000198",
-			"normalized_name": "Oligosaccharides",
-			"score": 1.0
 		},
 		{
 			"name": "hydroxyoctadecanoic acid",
@@ -499,6 +492,13 @@
 			}
 		},
 		{
+			"name": "oligosaccharide",
+			"spans": [[17282, 17297]],
+			"ontology_id": "CHEMONTID:0000198",
+			"normalized_name": "Oligosaccharides",
+			"score": 1.0
+		},
+		{
 			"name": "dihydroxyhexadecanoic acid",
 			"spans": [[17883, 17909]],
 			"CID": 53866632,
@@ -513,23 +513,6 @@
 				"Superclass": "Lipids and lipid-like molecules",
 				"Class": "Fatty Acyls",
 				"Subclass": "Fatty acids and conjugates"
-			}
-		},
-		{
-			"name": "xylose",
-			"spans": [[18344, 18350]],
-			"CID": 135191,
-			"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
-			"InChIKey": "SRBFZHDQGSBBOR-IOVATXLUSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Monosaccharides"],
-				"Np_superclass": ["Saccharides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organooxygen compounds",
-				"Subclass": "Carbohydrates and carbohydrate conjugates"
 			}
 		},
 		{
@@ -553,31 +536,25 @@
 			}
 		},
 		{
-			"name": "acyl CoAs",
-			"spans": [[20265, 20274]],
-			"ontology_id": "CHEMONTID:0001090",
-			"normalized_name": "Acyl CoAs",
-			"score": 0.9999998807907104
+			"name": "xylose",
+			"spans": [[18344, 18350]],
+			"CID": 135191,
+			"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+			"InChIKey": "SRBFZHDQGSBBOR-IOVATXLUSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Monosaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Carbohydrates and carbohydrate conjugates"
+			}
 		},
 		{
 			"name": "acrylic",
 			"spans": [[20956, 20963]]
-		},
-		{
-			"name": "pentanoic",
-			"spans": [
-				[20796, 20805],
-				[20859, 20868],
-				[34814, 34823]
-			]
-		},
-		{
-			"name": "isovaleric",
-			"spans": [[20784, 20794]]
-		},
-		{
-			"name": "crotonic",
-			"spans": [[20965, 20973]]
 		},
 		{
 			"name": "methylbutyric",
@@ -588,21 +565,34 @@
 			"spans": [[20979, 20990]]
 		},
 		{
-			"name": "trans-cinnamic acid",
-			"spans": [[21681, 21700]],
-			"CID": 444539,
-			"SMILES": "C1=CC=C(C=C1)/C=C/C(=O)O",
-			"InChIKey": "WBYWAXJHAXSJNI-VOTSOKGWSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Cinnamic acids and derivatives"],
-				"Np_superclass": ["Phenylpropanoids (C6-C3)"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Phenylpropanoids and polyketides",
-				"Class": "Cinnamic acids and derivatives",
-				"Subclass": "Cinnamic acids and derivatives"
-			}
+			"name": "acyl CoAs",
+			"spans": [[20265, 20274]],
+			"ontology_id": "CHEMONTID:0001090",
+			"normalized_name": "Acyl CoAs",
+			"score": 0.9999998807907104
+		},
+		{
+			"name": "isovaleric",
+			"spans": [[20784, 20794]]
+		},
+		{
+			"name": "crotonic",
+			"spans": [[20965, 20973]]
+		},
+		{
+			"name": "pentanoic",
+			"spans": [
+				[20796, 20805],
+				[20859, 20868],
+				[34814, 34823]
+			]
+		},
+		{
+			"name": "hydroxymethylbutyric acid",
+			"spans": [
+				[21488, 21513],
+				[30079, 30104]
+			]
 		},
 		{
 			"name": "pentanoic acid",
@@ -627,10 +617,39 @@
 			"alt_names": ["valeric acid"]
 		},
 		{
-			"name": "hydroxymethylbutyric acid",
+			"name": "trans-cinnamic acid",
+			"spans": [[21681, 21700]],
+			"CID": 444539,
+			"SMILES": "C1=CC=C(C=C1)/C=C/C(=O)O",
+			"InChIKey": "WBYWAXJHAXSJNI-VOTSOKGWSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Cinnamic acids and derivatives"],
+				"Np_superclass": ["Phenylpropanoids (C6-C3)"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Phenylpropanoids and polyketides",
+				"Class": "Cinnamic acids and derivatives",
+				"Subclass": "Cinnamic acids and derivatives"
+			}
+		},
+		{
+			"name": "2S-methylbutyric",
 			"spans": [
-				[21488, 21513],
-				[30079, 30104]
+				[21958, 21974],
+				[22092, 22108]
+			]
+		},
+		{
+			"name": "2S-methylbutyric acid",
+			"spans": [[21958, 21979]]
+		},
+		{
+			"name": "tiglic",
+			"spans": [
+				[21853, 21859],
+				[22114, 22120],
+				[33401, 33407]
 			]
 		},
 		{
@@ -641,11 +660,11 @@
 			"score": 0.9999999403953552
 		},
 		{
-			"name": "2S-methylbutyric",
-			"spans": [
-				[21958, 21974],
-				[22092, 22108]
-			]
+			"name": "short-chain fatty acids",
+			"spans": [[22165, 22188]],
+			"ontology_id": "CHEMONTID:0002949",
+			"normalized_name": "Long-chain fatty acids",
+			"score": 0.9020376205444336
 		},
 		{
 			"name": "cinnamic acid",
@@ -678,53 +697,12 @@
 			}
 		},
 		{
-			"name": "tiglic",
-			"spans": [
-				[21853, 21859],
-				[22114, 22120],
-				[33401, 33407]
-			]
-		},
-		{
-			"name": "short-chain fatty acids",
-			"spans": [[22165, 22188]],
-			"ontology_id": "CHEMONTID:0002949",
-			"normalized_name": "Long-chain fatty acids",
-			"score": 0.9020376205444336
-		},
-		{
-			"name": "2S-methylbutyric acid",
-			"spans": [[21958, 21979]]
-		},
-		{
 			"name": "tetra-saccharides",
 			"spans": [[23555, 23572]]
 		},
 		{
 			"name": "hepta-saccharides",
 			"spans": [[23510, 23527]]
-		},
-		{
-			"name": "water",
-			"spans": [
-				[25682, 25687],
-				[25714, 25719],
-				[27422, 27427],
-				[29106, 29111]
-			],
-			"CID": 962,
-			"SMILES": "O",
-			"InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Aminoacids"],
-				"Np_superclass": ["Small peptides"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Organic oxygen compounds",
-				"Class": "Organic oxides",
-				"Subclass": "Organic oxides"
-			}
 		},
 		{
 			"name": "formate",
@@ -751,6 +729,28 @@
 			}
 		},
 		{
+			"name": "water",
+			"spans": [
+				[25682, 25687],
+				[25714, 25719],
+				[27422, 27427],
+				[29106, 29111]
+			],
+			"CID": 962,
+			"SMILES": "O",
+			"InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organic oxides",
+				"Subclass": "Organic oxides"
+			}
+		},
+		{
 			"name": "CO2",
 			"spans": [[25616, 25619]],
 			"CID": 280,
@@ -772,25 +772,8 @@
 			"spans": [[25516, 25527]]
 		},
 		{
-			"name": "decanoic acid",
-			"spans": [
-				[28146, 28159],
-				[28246, 28259],
-				[28440, 28453]
-			],
-			"CID": 2969,
-			"SMILES": "CCCCCCCCCC(=O)O",
-			"InChIKey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Branched fatty acids", "Unsaturated fatty acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Fatty Acyls",
-				"Subclass": "Fatty acids and conjugates"
-			}
+			"name": "Tricolorins E",
+			"spans": [[28605, 28618]]
 		},
 		{
 			"name": "Tricolorin A",
@@ -814,14 +797,6 @@
 			}
 		},
 		{
-			"name": "rhamnoses",
-			"spans": [[28390, 28399]]
-		},
-		{
-			"name": "Tricolorins E",
-			"spans": [[28605, 28618]]
-		},
-		{
 			"name": "methylbutyric acid",
 			"spans": [
 				[28463, 28481],
@@ -843,6 +818,31 @@
 			"alt_names": ["2-methylbutyric acid"]
 		},
 		{
+			"name": "decanoic acid",
+			"spans": [
+				[28146, 28159],
+				[28246, 28259],
+				[28440, 28453]
+			],
+			"CID": 2969,
+			"SMILES": "CCCCCCCCCC(=O)O",
+			"InChIKey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Branched fatty acids", "Unsaturated fatty acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acids and conjugates"
+			}
+		},
+		{
+			"name": "rhamnoses",
+			"spans": [[28390, 28399]]
+		},
+		{
 			"name": "Merremin D",
 			"spans": [[28124, 28134]]
 		},
@@ -851,8 +851,8 @@
 			"spans": [[28949, 28960]]
 		},
 		{
-			"name": "11(S)-hydroxyheptadecanoic acid",
-			"spans": [[32698, 32729]]
+			"name": "hydroxylated C17 fatty acid",
+			"spans": [[32000, 32027]]
 		},
 		{
 			"name": "propionyl coA",
@@ -872,25 +872,19 @@
 			}
 		},
 		{
-			"name": "12-Hydroxyhexadecanoic acid",
-			"spans": [[32666, 32693]],
-			"CID": 15569770,
-			"SMILES": "CCCCC(CCCCCCCCCCC(=O)O)O",
-			"InChIKey": "VXLJMBUCOXFMGJ-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Hydroxy fatty acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Fatty Acyls",
-				"Subclass": "Fatty acids and conjugates"
-			}
+			"name": "C16-OHOH",
+			"spans": [[31852, 31860]]
 		},
 		{
 			"name": "even-chain fatty acids",
 			"spans": [[32431, 32453]]
+		},
+		{
+			"name": "hydroxyheptadecanoic acid",
+			"spans": [
+				[32704, 32729],
+				[32867, 32892]
+			]
 		},
 		{
 			"name": "C17",
@@ -931,16 +925,21 @@
 			}
 		},
 		{
-			"name": "C15",
-			"spans": [
-				[31823, 31826],
-				[31885, 31888],
-				[32132, 32135]
-			]
-		},
-		{
-			"name": "hydroxyacyl groups",
-			"spans": [[31653, 31671]]
+			"name": "12-Hydroxyhexadecanoic acid",
+			"spans": [[32666, 32693]],
+			"CID": 15569770,
+			"SMILES": "CCCCC(CCCCCCCCCCC(=O)O)O",
+			"InChIKey": "VXLJMBUCOXFMGJ-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Hydroxy fatty acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acids and conjugates"
+			}
 		},
 		{
 			"name": "fatty acids",
@@ -955,10 +954,6 @@
 			"score": 1.0
 		},
 		{
-			"name": "hydroxylated C17 fatty acid",
-			"spans": [[32000, 32027]]
-		},
-		{
 			"name": "odd-chain fatty acids",
 			"spans": [
 				[31862, 31883],
@@ -966,15 +961,24 @@
 			]
 		},
 		{
-			"name": "C16-OHOH",
-			"spans": [[31852, 31860]]
+			"name": "11(S)-hydroxyheptadecanoic acid",
+			"spans": [[32698, 32729]]
 		},
 		{
-			"name": "hydroxyheptadecanoic acid",
+			"name": "C15",
 			"spans": [
-				[32704, 32729],
-				[32867, 32892]
+				[31823, 31826],
+				[31885, 31888],
+				[32132, 32135]
 			]
+		},
+		{
+			"name": "hydroxyacyl groups",
+			"spans": [[31653, 31671]]
+		},
+		{
+			"name": "acetic",
+			"spans": [[33412, 33418]]
 		},
 		{
 			"name": "n-butyric acid",
@@ -984,6 +988,23 @@
 			"InChIKey": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
 			"Natural_product_class": {
 				"Np_class": ["Branched fatty acids", "Unsaturated fatty acids"],
+				"Np_superclass": ["Fatty Acids and Conjugates"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acids and conjugates"
+			}
+		},
+		{
+			"name": "3-methylbutyric acid",
+			"spans": [[33289, 33309]],
+			"CID": 10430,
+			"SMILES": "CC(C)CC(=O)O",
+			"InChIKey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Branched fatty acids"],
 				"Np_superclass": ["Fatty Acids and Conjugates"]
 			},
 			"Classyfire": {
@@ -1011,27 +1032,6 @@
 			}
 		},
 		{
-			"name": "acetic",
-			"spans": [[33412, 33418]]
-		},
-		{
-			"name": "3-methylbutyric acid",
-			"spans": [[33289, 33309]],
-			"CID": 10430,
-			"SMILES": "CC(C)CC(=O)O",
-			"InChIKey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
-			"Natural_product_class": {
-				"Np_class": ["Branched fatty acids"],
-				"Np_superclass": ["Fatty Acids and Conjugates"]
-			},
-			"Classyfire": {
-				"Kingdom": "Organic compounds",
-				"Superclass": "Lipids and lipid-like molecules",
-				"Class": "Fatty Acyls",
-				"Subclass": "Fatty acids and conjugates"
-			}
-		},
-		{
 			"name": "lipids",
 			"spans": [[35593, 35599]],
 			"ontology_id": "CHEMONTID:0000012",
@@ -1039,17 +1039,17 @@
 			"score": 1.0
 		},
 		{
-			"name": "anthocyanins",
-			"spans": [[35806, 35818]],
-			"ontology_id": "CHEMONTID:0001361",
-			"normalized_name": "Anthocyanins",
-			"score": 1.0
-		},
-		{
 			"name": "flavonoids",
 			"spans": [[35791, 35801]],
 			"ontology_id": "CHEMONTID:0000334",
 			"normalized_name": "Flavonoids",
+			"score": 1.0
+		},
+		{
+			"name": "anthocyanins",
+			"spans": [[35806, 35818]],
+			"ontology_id": "CHEMONTID:0001361",
+			"normalized_name": "Anthocyanins",
 			"score": 1.0
 		}
 	],
@@ -1074,12 +1074,12 @@
 			"spans": [[19958, 19973]]
 		},
 		{
-			"name": "fatty acid elongation pathway",
-			"spans": [[32265, 32294]]
-		},
-		{
 			"name": "alpha oxidation",
 			"spans": [[32394, 32409]]
+		},
+		{
+			"name": "fatty acid elongation pathway",
+			"spans": [[32265, 32294]]
 		},
 		{
 			"name": "Solanaceae acylsugar biosynthetic pathway",
@@ -1087,19 +1087,6 @@
 		}
 	],
 	"anatomical_structures": [
-		{
-			"name": "root",
-			"spans": [
-				[964, 968],
-				[5465, 5469],
-				[5523, 5527],
-				[8971, 8975],
-				[10142, 10146]
-			],
-			"ontology_id": "PO:0009005",
-			"normalized_name": "root",
-			"score": 1.0000001192092896
-		},
 		{
 			"name": "leaf",
 			"spans": [
@@ -1118,6 +1105,19 @@
 			"normalized_name": "leaf",
 			"score": 0.9999999403953552,
 			"alt_names": ["leaves"]
+		},
+		{
+			"name": "root",
+			"spans": [
+				[964, 968],
+				[5465, 5469],
+				[5523, 5527],
+				[8971, 8975],
+				[10142, 10146]
+			],
+			"ontology_id": "PO:0009005",
+			"normalized_name": "root",
+			"score": 1.0000001192092896
 		},
 		{
 			"name": "trichomes",
@@ -1182,24 +1182,41 @@
 				[7368, 7379],
 				[10079, 10090],
 				[13345, 13356],
-				[13690, 13706],
-				[14455, 14464],
-				[14824, 14833],
 				[19409, 19420],
 				[26088, 26106]
 			],
-			"taxonomy_id": 1053343,
-			"alt_names": ["D. argentea", "Dichondra", "Dichondra repens"]
+			"taxonomy_id": 2490664,
+			"alt_names": ["D. argentea"]
 		},
 		{
 			"name": "Nicotiana alata",
 			"spans": [[3111, 3126]],
-			"taxonomy_id": 4090
+			"taxonomy_id": 4087
 		},
 		{
 			"name": "Salpiglossis sinuata",
 			"spans": [[3086, 3106]],
-			"taxonomy_id": 1593329
+			"taxonomy_id": 33121
+		},
+		{
+			"name": "Ibicella lutea",
+			"spans": [[3781, 3795]],
+			"taxonomy_id": 204345
+		},
+		{
+			"name": "Silene gallica",
+			"spans": [[3812, 3826]],
+			"taxonomy_id": 3575
+		},
+		{
+			"name": "Geranium carolinianum",
+			"spans": [[3890, 3911]],
+			"taxonomy_id": 554690
+		},
+		{
+			"name": "Ipomoea purga",
+			"spans": [[5451, 5464]],
+			"taxonomy_id": 264534
 		},
 		{
 			"name": "Cerastium glomeratum",
@@ -1207,91 +1224,35 @@
 			"taxonomy_id": 3580
 		},
 		{
-			"name": "Silene gallica",
-			"spans": [[3812, 3826]],
-			"taxonomy_id": 42043
-		},
-		{
-			"name": "Geranium carolinianum",
-			"spans": [[3890, 3911]],
-			"taxonomy_id": 4031
-		},
-		{
-			"name": "Ipomoea purga",
-			"spans": [
-				[5451, 5464],
-				[8821, 8838],
-				[8886, 8897],
-				[26062, 26078],
-				[29058, 29074],
-				[31309, 31325]
-			],
-			"taxonomy_id": 54803,
-			"alt_names": ["Ipomoea pubescens", "Ipomoea sp.", "Ipomoea tricolor"]
-		},
-		{
-			"name": "Ibicella lutea",
-			"spans": [[3781, 3795]],
-			"taxonomy_id": 1321669
-		},
-		{
-			"name": "Convolvulus sp.",
-			"spans": [
-				[8917, 8932],
-				[15475, 15495],
-				[17814, 17825],
-				[26036, 26056]
-			],
-			"taxonomy_id": 76029,
-			"alt_names": ["C. equitans", "Convolvulus equitans"]
-		},
-		{
-			"name": "Distimake quinquefolius",
-			"spans": [[8796, 8819]],
-			"taxonomy_id": 44588
-		},
-		{
-			"name": "Calystegia sepium",
-			"spans": [
-				[8844, 8861],
-				[14803, 14813],
-				[21743, 21753],
-				[21809, 21819],
-				[21809, 21830],
-				[21908, 21918],
-				[21933, 21946]
-			],
-			"taxonomy_id": 136204,
-			"alt_names": ["C. soldanella", "Calystegia", "Calystegia soldanella"]
+			"name": "Ipomoea sp.",
+			"spans": [[8886, 8897]],
+			"taxonomy_id": 3446922
 		},
 		{
 			"name": "Merremia sp.",
 			"spans": [
 				[8899, 8911],
 				[16792, 16804]
-			],
-			"taxonomy_id": 1835031
+			]
 		},
 		{
-			"name": "C. arvensis",
-			"spans": [
-				[10008, 10019],
-				[11741, 11761],
-				[11845, 11856],
-				[14790, 14801],
-				[15096, 15107],
-				[15610, 15621],
-				[17798, 17809],
-				[21435, 21446],
-				[23462, 23473],
-				[32096, 32107],
-				[32782, 32793],
-				[34556, 34567],
-				[34711, 34722],
-				[34775, 34786]
-			],
-			"taxonomy_id": 4123,
-			"alt_names": ["Convolvulus", "Convolvulus arvensis"]
+			"name": "Ipomoea pubescens",
+			"spans": [[8821, 8838]],
+			"taxonomy_id": 264533
+		},
+		{
+			"name": "Convolvulus sp.",
+			"spans": [[8917, 8932]]
+		},
+		{
+			"name": "Distimake quinquefolius",
+			"spans": [[8796, 8819]],
+			"taxonomy_id": 714082
+		},
+		{
+			"name": "Calystegia sepium",
+			"spans": [[8844, 8861]],
+			"taxonomy_id": 47519
 		},
 		{
 			"name": "I. purpurea",
@@ -1303,21 +1264,35 @@
 			"alt_names": ["Ipomoea purpurea"]
 		},
 		{
-			"name": "Aniseia",
-			"spans": [[15240, 15247]]
-		},
-		{
-			"name": "Jacquemontia",
+			"name": "C. arvensis",
 			"spans": [
-				[14469, 14481],
-				[15249, 15261]
+				[10008, 10019],
+				[11741, 11761],
+				[11845, 11856],
+				[15610, 15621],
+				[17798, 17809],
+				[23462, 23473],
+				[32096, 32107],
+				[32782, 32793]
 			],
-			"taxonomy_id": 1198450
+			"taxonomy_id": 4123,
+			"alt_names": ["Convolvulus arvensis"]
 		},
 		{
-			"name": "Cuscuta",
-			"spans": [[14516, 14523]],
-			"taxonomy_id": 132261
+			"name": "Dichondra repens",
+			"spans": [[13690, 13706]],
+			"taxonomy_id": 555419
+		},
+		{
+			"name": "Convolvulus",
+			"spans": [
+				[14790, 14801],
+				[15096, 15107],
+				[21435, 21446],
+				[34556, 34567],
+				[34711, 34722],
+				[34775, 34786]
+			]
 		},
 		{
 			"name": "Ipomoea",
@@ -1328,26 +1303,49 @@
 				[21652, 21659],
 				[34544, 34551],
 				[34791, 34798]
-			],
-			"taxonomy_id": 4120
+			]
+		},
+		{
+			"name": "Jacquemontia",
+			"spans": [
+				[14469, 14481],
+				[15249, 15261]
+			]
+		},
+		{
+			"name": "Cuscuta",
+			"spans": [[14516, 14523]]
 		},
 		{
 			"name": "Merremia",
 			"spans": [
 				[14839, 14847],
 				[31288, 31296]
-			],
-			"taxonomy_id": 77813
+			]
+		},
+		{
+			"name": "Dichondra",
+			"spans": [
+				[14455, 14464],
+				[14824, 14833]
+			]
+		},
+		{
+			"name": "Calystegia",
+			"spans": [
+				[14803, 14813],
+				[21743, 21753],
+				[21809, 21819],
+				[21908, 21918]
+			]
+		},
+		{
+			"name": "Aniseia",
+			"spans": [[15240, 15247]]
 		},
 		{
 			"name": "Argyreia",
-			"spans": [[15263, 15271]],
-			"taxonomy_id": 2847854
-		},
-		{
-			"name": "Solanum pennellii",
-			"spans": [[16158, 16175]],
-			"taxonomy_id": 28526
+			"spans": [[15263, 15271]]
 		},
 		{
 			"name": "Solanum habrochaites",
@@ -1355,23 +1353,57 @@
 			"taxonomy_id": 62890
 		},
 		{
+			"name": "Solanum pennellii",
+			"spans": [[16158, 16175]],
+			"taxonomy_id": 28526
+		},
+		{
+			"name": "Convolvulus equitans",
+			"spans": [
+				[15475, 15495],
+				[17814, 17825],
+				[26036, 26056]
+			],
+			"taxonomy_id": 1428906,
+			"alt_names": ["C. equitans"]
+		},
+		{
 			"name": "Ipomoea trifida",
 			"spans": [[16855, 16870]],
 			"taxonomy_id": 35884
 		},
 		{
-			"name": "Operculina macrocarpa",
-			"spans": [[19674, 19695]],
-			"taxonomy_id": 223762
+			"name": "Xenostegia tridentata",
+			"spans": [[19500, 19521]],
+			"taxonomy_id": 197454
 		},
 		{
 			"name": "Operculina turpethum",
-			"spans": [[19700, 19720]]
+			"spans": [
+				[19700, 19720],
+				[32765, 32777]
+			],
+			"taxonomy_id": 197426,
+			"alt_names": ["O. turpethum"]
 		},
 		{
-			"name": "Xenostegia tridentata",
-			"spans": [[19500, 19521]],
-			"taxonomy_id": 66636
+			"name": "Operculina macrocarpa",
+			"spans": [[19674, 19695]],
+			"taxonomy_id": 1393932
+		},
+		{
+			"name": "Calystegia hederacea",
+			"spans": [[21908, 21928]],
+			"taxonomy_id": 480913
+		},
+		{
+			"name": "C. soldanella",
+			"spans": [
+				[21809, 21830],
+				[21933, 21946]
+			],
+			"taxonomy_id": 136204,
+			"alt_names": ["Calystegia soldanella"]
 		},
 		{
 			"name": "Operculina",
@@ -1381,13 +1413,13 @@
 			]
 		},
 		{
-			"name": "Calystegia hederacea",
-			"spans": [[21908, 21928]],
-			"taxonomy_id": 480913
-		},
-		{
-			"name": "O. turpethum",
-			"spans": [[32765, 32777]]
+			"name": "Ipomoea tricolor",
+			"spans": [
+				[26062, 26078],
+				[29058, 29074],
+				[31309, 31325]
+			],
+			"taxonomy_id": 89664
 		}
 	],
 	"experimental_conditions": [
@@ -1397,15 +1429,25 @@
 		},
 		{
 			"name": "growth chambers",
-			"spans": [[9023, 9038]]
+			"spans": [[9023, 9038]],
+			"ontology_id": "PECO:0007269",
+			"normalized_name": "growth chamber study",
+			"score": 0.8153578639030457
 		},
 		{
 			"name": "greenhouses",
-			"spans": [[9043, 9054]]
+			"spans": [[9043, 9054]],
+			"ontology_id": "PECO:0007248",
+			"normalized_name": "greenhouse study",
+			"score": 0.856489896774292
 		},
 		{
 			"name": "sampling conditions",
 			"spans": [[15014, 15033]]
+		},
+		{
+			"name": "collision-induced dissociation",
+			"spans": [[19319, 19349]]
 		},
 		{
 			"name": "LC-MS",
@@ -1417,10 +1459,6 @@
 				[19291, 19314],
 				[25944, 25967]
 			]
-		},
-		{
-			"name": "collision-induced dissociation",
-			"spans": [[19319, 19349]]
 		},
 		{
 			"name": "untargeted LC-MS/MS data",
@@ -1437,15 +1475,15 @@
 			"spans": [[2498, 2505]]
 		},
 		{
-			"name": "pollination",
-			"spans": [[2485, 2496]]
-		},
-		{
 			"name": "resilience to abiotic stress conditions",
 			"spans": [[2511, 2550]],
 			"ontology_id": "TO:0000168",
 			"normalized_name": "abiotic plant stress response trait",
 			"score": 0.8604185581207275
+		},
+		{
+			"name": "pollination",
+			"spans": [[2485, 2496]]
 		},
 		{
 			"name": "allelopathic interactions",

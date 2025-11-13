@@ -1,4212 +1,1874 @@
 {
-  "species": [
-    {
-      "name": "Zea mays",
-      "spans": [
-        [
-          314,
-          322
-        ],
-        [
-          5719,
-          5727
-        ]
-      ],
-      "taxonomy_id": 4577
-    },
-    {
-      "name": "Oryza sativa",
-      "spans": [
-        [
-          289,
-          301
-        ],
-        [
-          5739,
-          5751
-        ]
-      ],
-      "taxonomy_id": 4530
-    },
-    {
-      "name": "Panicum virgatum",
-      "spans": [
-        [
-          155,
-          171
-        ],
-        [
-          2513,
-          2529
-        ],
-        [
-          5020,
-          5031
-        ],
-        [
-          16459,
-          16475
-        ],
-        [
-          22715,
-          22731
-        ],
-        [
-          25515,
-          25531
-        ],
-        [
-          27882,
-          27898
-        ],
-        [
-          30254,
-          30270
-        ],
-        [
-          34576,
-          34592
-        ],
-        [
-          35113,
-          35129
-        ],
-        [
-          51220,
-          51231
-        ],
-        [
-          51454,
-          51465
-        ]
-      ],
-      "taxonomy_id": 38727,
-      "alt_names": [
-        "P. virgatum",
-        "switchgrass"
-      ]
-    },
-    {
-      "name": "Alamo",
-      "spans": [
-        [
-          17279,
-          17284
-        ],
-        [
-          17454,
-          17459
-        ],
-        [
-          17566,
-          17571
-        ],
-        [
-          17946,
-          17951
-        ],
-        [
-          18219,
-          18224
-        ],
-        [
-          18362,
-          18367
-        ],
-        [
-          18564,
-          18569
-        ],
-        [
-          23973,
-          23978
-        ],
-        [
-          24126,
-          24131
-        ],
-        [
-          24480,
-          24485
-        ],
-        [
-          24846,
-          24851
-        ],
-        [
-          25176,
-          25181
-        ],
-        [
-          26392,
-          26397
-        ],
-        [
-          27231,
-          27236
-        ],
-        [
-          27297,
-          27302
-        ],
-        [
-          29247,
-          29252
-        ],
-        [
-          29283,
-          29288
-        ],
-        [
-          36023,
-          36028
-        ],
-        [
-          36274,
-          36279
-        ],
-        [
-          36754,
-          36759
-        ],
-        [
-          36905,
-          36910
-        ],
-        [
-          37272,
-          37277
-        ],
-        [
-          37431,
-          37436
-        ]
-      ]
-    },
-    {
-      "name": "Cave-in-Rock",
-      "spans": [
-        [
-          17289,
-          17301
-        ],
-        [
-          17584,
-          17596
-        ],
-        [
-          18042,
-          18054
-        ],
-        [
-          18280,
-          18292
-        ],
-        [
-          18456,
-          18468
-        ],
-        [
-          18667,
-          18679
-        ],
-        [
-          23880,
-          23892
-        ],
-        [
-          24136,
-          24148
-        ],
-        [
-          24490,
-          24502
-        ],
-        [
-          24860,
-          24872
-        ],
-        [
-          25186,
-          25198
-        ],
-        [
-          26402,
-          26414
-        ],
-        [
-          27700,
-          27712
-        ],
-        [
-          29257,
-          29269
-        ],
-        [
-          29787,
-          29799
-        ],
-        [
-          36033,
-          36045
-        ],
-        [
-          36284,
-          36296
-        ],
-        [
-          36764,
-          36776
-        ],
-        [
-          36914,
-          36926
-        ],
-        [
-          37334,
-          37346
-        ],
-        [
-          37441,
-          37453
-        ],
-        [
-          38079,
-          38091
-        ]
-      ],
-      "taxonomy_id": 39097
-    },
-    {
-      "name": "Sorghum bicolor",
-      "spans": [
-        [
-          39768,
-          39783
-        ]
-      ],
-      "taxonomy_id": 4558
-    },
-    {
-      "name": "Arabidopsis",
-      "spans": [
-        [
-          41654,
-          41665
-        ]
-      ],
-      "taxonomy_id": 3702
-    },
-    {
-      "name": "Gossypium spec.",
-      "spans": [
-        [
-          41678,
-          41693
-        ]
-      ],
-      "taxonomy_id": 3635
-    },
-    {
-      "name": "Triticum aestivum",
-      "spans": [
-        [
-          43872,
-          43889
-        ]
-      ],
-      "taxonomy_id": 4565
-    },
-    {
-      "name": "Glycine max",
-      "spans": [
-        [
-          46865,
-          46876
-        ]
-      ],
-      "taxonomy_id": 3847
-    },
-    {
-      "name": "Solanum lycopersicum",
-      "spans": [
-        [
-          46890,
-          46910
-        ]
-      ],
-      "taxonomy_id": 4081
-    },
-    {
-      "name": "Croton campestris",
-      "spans": [
-        [
-          49661,
-          49678
-        ]
-      ],
-      "taxonomy_id": 29747
-    }
-  ],
-  "plant_traits": [
-    {
-      "name": "energy efficiency",
-      "spans": [
-        [
-          214,
-          231
-        ]
-      ]
-    },
-    {
-      "name": "drought tolerance",
-      "spans": [
-        [
-          236,
-          253
-        ],
-        [
-          681,
-          698
-        ],
-        [
-          1868,
-          1892
-        ],
-        [
-          3847,
-          3864
-        ],
-        [
-          6630,
-          6647
-        ],
-        [
-          15368,
-          15384
-        ],
-        [
-          20130,
-          20147
-        ],
-        [
-          40353,
-          40374
-        ],
-        [
-          40357,
-          40374
-        ],
-        [
-          41633,
-          41650
-        ],
-        [
-          41808,
-          41825
-        ],
-        [
-          43529,
-          43546
-        ],
-        [
-          49977,
-          49994
-        ],
-        [
-          51257,
-          51274
-        ],
-        [
-          51466,
-          51483
-        ]
-      ],
-      "ontology_id": "TO:0000276",
-      "normalized_name": "drought tolerance",
-      "score": 0.9999998211860657,
-      "alt_names": [
-        "drought stress tolerance",
-        "drought-tolerant",
-        "low drought tolerance"
-      ]
-    },
-    {
-      "name": "drought-susceptible",
-      "spans": [
-        [
-          715,
-          734
-        ],
-        [
-          15389,
-          15408
-        ],
-        [
-          18636,
-          18663
-        ],
-        [
-          41249,
-          41268
-        ]
-      ],
-      "ontology_id": "TO:0000188",
-      "normalized_name": "drought sensitivity",
-      "score": 0.9229962229728699,
-      "alt_names": [
-        "phenotypic drought symptoms"
-      ]
-    },
-    {
-      "name": "drought responses",
-      "spans": [
-        [
-          1746,
-          1763
-        ],
-        [
-          46517,
-          46541
-        ]
-      ],
-      "ontology_id": "TO:0000394",
-      "normalized_name": "drought stress response trait",
-      "score": 0.8976737260818481,
-      "alt_names": [
-        "drought-stress responses"
-      ]
-    },
-    {
-      "name": "crop production",
-      "spans": [
-        [
-          1981,
-          1996
-        ],
-        [
-          2256,
-          2271
-        ]
-      ]
-    },
-    {
-      "name": "taller phenotypes",
-      "spans": [
-        [
-          3189,
-          3206
-        ]
-      ]
-    },
-    {
-      "name": "later flowering time",
-      "spans": [
-        [
-          3232,
-          3252
-        ]
-      ],
-      "ontology_id": "TO:0000344",
-      "normalized_name": "days to flowering trait",
-      "score": 0.910222589969635
-    },
-    {
-      "name": "abiotic stress adaptation",
-      "spans": [
-        [
-          5852,
-          5876
-        ],
-        [
-          5956,
-          5981
-        ]
-      ],
-      "ontology_id": "TO:0000168",
-      "normalized_name": "abiotic plant stress response trait",
-      "score": 0.883698582649231,
-      "alt_names": [
-        "abiotic stress tolerance"
-      ]
-    },
-    {
-      "name": "biotic stress tolerance",
-      "spans": [
-        [
-          5680,
-          5703
-        ],
-        [
-          5853,
-          5876
-        ]
-      ],
-      "ontology_id": "TO:0000179",
-      "normalized_name": "biotic plant stress trait",
-      "score": 0.889626681804657
-    },
-    {
-      "name": "wilting phenotype",
-      "spans": [
-        [
-          16262,
-          16279
-        ],
-        [
-          20569,
-          20586
-        ],
-        [
-          20624,
-          20641
-        ],
-        [
-          41009,
-          41026
-        ],
-        [
-          47858,
-          47875
-        ]
-      ],
-      "ontology_id": "TO:0000085",
-      "normalized_name": "leaf rolling",
-      "score": 0.9121484160423279
-    },
-    {
-      "name": "physiological stress symptoms",
-      "spans": [
-        [
-          36154,
-          36183
-        ]
-      ]
-    },
-    {
-      "name": "phenotypic changes",
-      "spans": [
-        [
-          41518,
-          41536
-        ]
-      ]
-    },
-    {
-      "name": "robustness against environmental stresses",
-      "spans": [
-        [
-          46967,
-          47008
-        ],
-        [
-          47633,
-          47650
-        ]
-      ],
-      "ontology_id": "TO:0000164",
-      "normalized_name": "plant stress response trait",
-      "score": 0.7618184089660645,
-      "alt_names": [
-        "stress resilience"
-      ]
-    }
-  ],
-  "experimental_conditions": [
-    {
-      "name": "drought responses",
-      "spans": [
-        [
-          516,
-          533
-        ],
-        [
-          6201,
-          6218
-        ]
-      ]
-    },
-    {
-      "name": "drought",
-      "spans": [
-        [
-          715,
-          722
-        ],
-        [
-          869,
-          876
-        ],
-        [
-          1097,
-          1104
-        ],
-        [
-          1392,
-          1399
-        ],
-        [
-          1523,
-          1530
-        ],
-        [
-          1605,
-          1612
-        ],
-        [
-          1746,
-          1753
-        ],
-        [
-          1868,
-          1875
-        ],
-        [
-          2183,
-          2190
-        ],
-        [
-          3847,
-          3854
-        ],
-        [
-          3981,
-          3988
-        ],
-        [
-          4357,
-          4364
-        ],
-        [
-          6201,
-          6208
-        ],
-        [
-          6549,
-          6556
-        ],
-        [
-          6630,
-          6637
-        ],
-        [
-          21105,
-          21112
-        ],
-        [
-          21161,
-          21168
-        ],
-        [
-          21612,
-          21619
-        ],
-        [
-          22138,
-          22145
-        ],
-        [
-          23523,
-          23530
-        ],
-        [
-          23680,
-          23687
-        ],
-        [
-          24168,
-          24175
-        ],
-        [
-          27264,
-          27271
-        ],
-        [
-          27575,
-          27582
-        ],
-        [
-          29517,
-          29524
-        ],
-        [
-          29746,
-          29753
-        ],
-        [
-          29972,
-          29979
-        ],
-        [
-          36136,
-          36143
-        ],
-        [
-          36399,
-          36406
-        ],
-        [
-          37068,
-          37075
-        ],
-        [
-          37501,
-          37508
-        ],
-        [
-          42965,
-          42972
-        ],
-        [
-          43167,
-          43174
-        ],
-        [
-          43449,
-          43456
-        ],
-        [
-          43529,
-          43536
-        ],
-        [
-          43610,
-          43617
-        ],
-        [
-          43737,
-          43744
-        ],
-        [
-          43812,
-          43819
-        ],
-        [
-          43996,
-          44003
-        ],
-        [
-          44107,
-          44114
-        ],
-        [
-          44301,
-          44308
-        ],
-        [
-          44382,
-          44389
-        ],
-        [
-          44655,
-          44662
-        ],
-        [
-          44750,
-          44757
-        ],
-        [
-          44901,
-          44908
-        ],
-        [
-          45123,
-          45130
-        ],
-        [
-          45443,
-          45450
-        ],
-        [
-          46391,
-          46398
-        ],
-        [
-          46517,
-          46524
-        ],
-        [
-          47087,
-          47094
-        ],
-        [
-          47365,
-          47372
-        ],
-        [
-          47446,
-          47453
-        ],
-        [
-          47767,
-          47774
-        ],
-        [
-          48345,
-          48352
-        ],
-        [
-          49015,
-          49022
-        ],
-        [
-          49106,
-          49113
-        ],
-        [
-          49208,
-          49215
-        ],
-        [
-          49443,
-          49450
-        ],
-        [
-          49813,
-          49820
-        ],
-        [
-          49977,
-          49984
-        ],
-        [
-          50066,
-          50073
-        ],
-        [
-          50295,
-          50302
-        ],
-        [
-          50516,
-          50523
-        ],
-        [
-          51183,
-          51190
-        ],
-        [
-          51257,
-          51264
-        ],
-        [
-          51466,
-          51473
-        ]
-      ]
-    },
-    {
-      "name": "drought stress",
-      "spans": [
-        [
-          1868,
-          1882
-        ],
-        [
-          5823,
-          5837
-        ],
-        [
-          21612,
-          21626
-        ],
-        [
-          22138,
-          22152
-        ],
-        [
-          33116,
-          33130
-        ],
-        [
-          33489,
-          33503
-        ],
-        [
-          34545,
-          34559
-        ],
-        [
-          37068,
-          37082
-        ],
-        [
-          42138,
-          42152
-        ],
-        [
-          42314,
-          42328
-        ],
-        [
-          42965,
-          42979
-        ],
-        [
-          47087,
-          47101
-        ]
-      ]
-    },
-    {
-      "name": "treatment with defense-related plant hormones",
-      "spans": [
-        [
-          5480,
-          5525
-        ]
-      ]
-    },
-    {
-      "name": "oxidative stress",
-      "spans": [
-        [
-          5267,
-          5283
-        ],
-        [
-          23551,
-          23567
-        ]
-      ]
-    },
-    {
-      "name": "drought-induced",
-      "spans": [
-        [
-          4571,
-          4586
-        ],
-        [
-          47365,
-          47380
-        ],
-        [
-          48345,
-          48360
-        ],
-        [
-          49443,
-          49458
-        ],
-        [
-          49813,
-          49828
-        ]
-      ]
-    },
-    {
-      "name": "herbivore stress",
-      "spans": [
-        [
-          5459,
-          5475
-        ]
-      ]
-    },
-    {
-      "name": "ultraviolet (UV) radiation",
-      "spans": [
-        [
-          5236,
-          5262
-        ]
-      ]
-    },
-    {
-      "name": "drought treatment",
-      "spans": [
-        [
-          15576,
-          15593
-        ],
-        [
-          16059,
-          16076
-        ],
-        [
-          16200,
-          16217
-        ],
-        [
-          16354,
-          16371
-        ],
-        [
-          16521,
-          16538
-        ],
-        [
-          17973,
-          17990
-        ],
-        [
-          32168,
-          32185
-        ],
-        [
-          32356,
-          32373
-        ],
-        [
-          32605,
-          32622
-        ],
-        [
-          32948,
-          32965
-        ],
-        [
-          41041,
-          41058
-        ],
-        [
-          41467,
-          41484
-        ]
-      ],
-      "ontology_id": "PECO:0007404",
-      "normalized_name": "drought environment exposure",
-      "score": 0.9349443912506104,
-      "alt_names": [
-        "drought-treatment"
-      ]
-    },
-    {
-      "name": "well-watered control",
-      "spans": [
-        [
-          15676,
-          15696
-        ],
-        [
-          18003,
-          18023
-        ],
-        [
-          25477,
-          25497
-        ],
-        [
-          28348,
-          28368
-        ],
-        [
-          28434,
-          28454
-        ],
-        [
-          30846,
-          30866
-        ],
-        [
-          30932,
-          30952
-        ]
-      ]
-    },
-    {
-      "name": "normal watering",
-      "spans": [
-        [
-          16547,
-          16562
-        ]
-      ]
-    },
-    {
-      "name": "stress treatment",
-      "spans": [
-        [
-          19031,
-          19047
-        ]
-      ]
-    },
-    {
-      "name": "control",
-      "spans": [
-        [
-          17777,
-          17784
-        ],
-        [
-          18016,
-          18023
-        ],
-        [
-          32189,
-          32196
-        ],
-        [
-          32779,
-          32786
-        ]
-      ],
-      "ontology_id": "PECO:0001062",
-      "normalized_name": "control exposure",
-      "score": 0.9122663140296936
-    },
-    {
-      "name": "watering withdrawal",
-      "spans": [
-        [
-          18383,
-          18402
-        ]
-      ]
-    },
-    {
-      "name": "drought-treated",
-      "spans": [
-        [
-          17789,
-          17804
-        ],
-        [
-          25454,
-          25469
-        ],
-        [
-          33185,
-          33200
-        ]
-      ]
-    },
-    {
-      "name": "drought response",
-      "spans": [
-        [
-          19820,
-          19836
-        ],
-        [
-          20504,
-          20520
-        ],
-        [
-          20919,
-          20935
-        ]
-      ]
-    },
-    {
-      "name": "UV irradiation",
-      "spans": [
-        [
-          23532,
-          23546
-        ]
-      ],
-      "ontology_id": "PECO:0007222",
-      "normalized_name": "UV light exposure",
-      "score": 0.9137461185455322
-    },
-    {
-      "name": "drought-stressed",
-      "spans": [
-        [
-          28488,
-          28504
-        ],
-        [
-          28537,
-          28553
-        ],
-        [
-          30986,
-          31002
-        ],
-        [
-          31035,
-          31051
-        ],
-        [
-          31261,
-          31277
-        ],
-        [
-          32791,
-          32807
-        ],
-        [
-          35653,
-          35669
-        ],
-        [
-          44107,
-          44123
-        ],
-        [
-          44655,
-          44671
-        ]
-      ]
-    },
-    {
-      "name": "water deficiency",
-      "spans": [
-        [
-          29875,
-          29891
-        ],
-        [
-          43696,
-          43712
-        ],
-        [
-          46655,
-          46671
-        ]
-      ]
-    },
-    {
-      "name": "well-watered",
-      "spans": [
-        [
-          29851,
-          29863
-        ]
-      ]
-    },
-    {
-      "name": "well-watered conditions",
-      "spans": [
-        [
-          31282,
-          31305
-        ]
-      ]
-    },
-    {
-      "name": "water deficient conditions",
-      "spans": [
-        [
-          33879,
-          33905
-        ]
-      ]
-    },
-    {
-      "name": "water deprivation",
-      "spans": [
-        [
-          32505,
-          32522
-        ]
-      ]
-    },
-    {
-      "name": "drought-stressed roots",
-      "spans": [
-        [
-          37501,
-          37523
-        ]
-      ]
-    },
-    {
-      "name": "drought adaptation",
-      "spans": [
-        [
-          40138,
-          40156
-        ],
-        [
-          40530,
-          40548
-        ]
-      ]
-    },
-    {
-      "name": "control plants",
-      "spans": [
-        [
-          42428,
-          42442
-        ]
-      ]
-    },
-    {
-      "name": "drought conditions",
-      "spans": [
-        [
-          45443,
-          45461
-        ]
-      ]
-    },
-    {
-      "name": "oxidative",
-      "spans": [
-        [
-          50284,
-          50293
-        ]
-      ]
-    },
-    {
-      "name": "salinity stress",
-      "spans": [
-        [
-          50307,
-          50322
-        ]
-      ]
-    }
-  ],
-  "compounds": [
-    {
-      "name": "oxygenated furanoditerpenoids",
-      "spans": [
-        [
-          1558,
-          1587
-        ]
-      ]
-    },
-    {
-      "name": "flavonoids",
-      "spans": [
-        [
-          1276,
-          1286
-        ],
-        [
-          4854,
-          4864
-        ],
-        [
-          23369,
-          23379
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000334",
-      "normalized_name": "Flavonoids",
-      "score": 1.0
-    },
-    {
-      "name": "triterpenoid",
-      "spans": [
-        [
-          1172,
-          1184
-        ],
-        [
-          1430,
-          1442
-        ],
-        [
-          26603,
-          26615
-        ],
-        [
-          26950,
-          26962
-        ],
-        [
-          27124,
-          27136
-        ],
-        [
-          27457,
-          27469
-        ],
-        [
-          27645,
-          27657
-        ],
-        [
-          27840,
-          27852
-        ],
-        [
-          28047,
-          28059
-        ],
-        [
-          44157,
-          44169
-        ],
-        [
-          44399,
-          44411
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000180",
-      "normalized_name": "Oleanane triterpenoids",
-      "score": 0.9999998807907104
-    },
-    {
-      "name": "terpenoids",
-      "spans": [
-        [
-          1291,
-          1301
-        ],
-        [
-          4602,
-          4611
-        ],
-        [
-          4927,
-          4936
-        ],
-        [
-          23230,
-          23239
-        ],
-        [
-          23458,
-          23467
-        ],
-        [
-          23784,
-          23793
-        ],
-        [
-          39847,
-          39857
-        ],
-        [
-          51406,
-          51416
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001283",
-      "normalized_name": "Terpene lactones",
-      "score": 0.9030272364616394,
-      "alt_names": [
-        "terpenoid"
-      ]
-    },
-    {
-      "name": "diterpenoids",
-      "spans": [
-        [
-          1360,
-          1372
-        ],
-        [
-          1542,
-          1554
-        ],
-        [
-          1798,
-          1810
-        ],
-        [
-          4836,
-          4848
-        ],
-        [
-          5139,
-          5151
-        ],
-        [
-          28773,
-          28785
-        ],
-        [
-          33278,
-          33290
-        ],
-        [
-          35948,
-          35960
-        ],
-        [
-          37194,
-          37206
-        ],
-        [
-          37401,
-          37413
-        ],
-        [
-          37915,
-          37927
-        ],
-        [
-          38026,
-          38038
-        ],
-        [
-          38411,
-          38423
-        ],
-        [
-          39078,
-          39090
-        ],
-        [
-          44579,
-          44591
-        ],
-        [
-          47405,
-          47417
-        ],
-        [
-          47552,
-          47564
-        ],
-        [
-          49173,
-          49185
-        ],
-        [
-          49366,
-          49378
-        ],
-        [
-          49459,
-          49471
-        ],
-        [
-          49933,
-          49945
-        ],
-        [
-          50256,
-          50268
-        ],
-        [
-          50558,
-          50570
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001551",
-      "normalized_name": "Diterpenoids",
-      "score": 1.0000001192092896
-    },
-    {
-      "name": "chlorophyll",
-      "spans": [
-        [
-          4123,
-          4134
-        ]
-      ],
-      "CID": 156620228,
-      "SMILES": "CCC\\1=C(C\\2=[NH+]/C1=C\\C3=C(C4=C([C@@H](C(=C4[N-]3)C5=[NH+]C(=C([C@@H]5CCC(=O)OC/C=C(\\C)/CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)/C=C\\6/C(=C(/C(=C2)/[N-]6)C=C)C)C(=O)OC)O)C)C.[Mg+2]",
-      "InChIKey": "KPJIJGZVAWIZMG-LEGXGVPYSA-P",
-      "Natural_product_class": {
-        "Np_class": [
-          "Prenyl quinone meroterpenoids"
-        ],
-        "Np_superclass": [
-          "Meroterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Organoheterocyclic compounds",
-        "Class": "Tetrapyrroles and derivatives",
-        "Subclass": "Metallotetrapyrroles"
-      }
-    },
-    {
-      "name": "amino acids",
-      "spans": [
-        [
-          4297,
-          4308
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000347",
-      "normalized_name": "Amino acids and derivatives",
-      "score": 1.0
-    },
-    {
-      "name": "organic acids",
-      "spans": [
-        [
-          4328,
-          4341
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0002899",
-      "normalized_name": "Sulfinohydrazonoperoxoic acids",
-      "score": 0.9664109945297241
-    },
-    {
-      "name": "carbohydrates",
-      "spans": [
-        [
-          4310,
-          4323
-        ],
-        [
-          33731,
-          33744
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000011",
-      "normalized_name": "Carbohydrates and carbohydrate conjugates",
-      "score": 1.0
-    },
-    {
-      "name": "monoterpenoids",
-      "spans": [
-        [
-          5371,
-          5385
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001549",
-      "normalized_name": "Monoterpenoids",
-      "score": 1.0
-    },
-    {
-      "name": "steroidal saponins",
-      "spans": [
-        [
-          4798,
-          4816
-        ],
-        [
-          23346,
-          23364
-        ],
-        [
-          26620,
-          26636
-        ],
-        [
-          36813,
-          36831
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0002364",
-      "normalized_name": "Steroidal saponins",
-      "score": 0.9999998807907104,
-      "alt_names": [
-        "steroid saponins"
-      ]
-    },
-    {
-      "name": "sesquiterpenoids",
-      "spans": [
-        [
-          4818,
-          4834
-        ],
-        [
-          5390,
-          5406
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001550",
-      "normalized_name": "Sesquiterpenoids",
-      "score": 1.0
-    },
-    {
-      "name": "phenylpropanoid",
-      "spans": [
-        [
-          4616,
-          4631
-        ],
-        [
-          23244,
-          23259
-        ],
-        [
-          23473,
-          23488
-        ],
-        [
-          23798,
-          23813
-        ],
-        [
-          24956,
-          24971
-        ],
-        [
-          39859,
-          39875
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0004559",
-      "normalized_name": "Avenanthramides",
-      "score": 1.0,
-      "alt_names": [
-        "phenylpropanoids"
-      ]
-    },
-    {
-      "name": "plant hormones",
-      "spans": [
-        [
-          5511,
-          5525
-        ]
-      ]
-    },
-    {
-      "name": "abscisic acid",
-      "spans": [
-        [
-          20074,
-          20087
-        ],
-        [
-          33915,
-          33918
-        ],
-        [
-          33992,
-          33995
-        ],
-        [
-          35144,
-          35157
-        ],
-        [
-          35159,
-          35162
-        ],
-        [
-          41922,
-          41925
-        ],
-        [
-          42080,
-          42083
-        ],
-        [
-          42196,
-          42199
-        ],
-        [
-          42307,
-          42310
-        ],
-        [
-          43074,
-          43077
-        ]
-      ],
-      "CID": 5280896,
-      "SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
-      "InChIKey": "JLIDBLDQVAYHNE-YKALOCIXSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Apocarotenoids(\u03b5-)"
-        ],
-        "Np_superclass": [
-          "Apocarotenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Sesquiterpenoids"
-      },
-      "alt_names": [
-        "ABA"
-      ]
-    },
-    {
-      "name": "carotenoid",
-      "spans": [
-        [
-          22484,
-          22494
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001277",
-      "normalized_name": "Carotenoids",
-      "score": 1.0
-    },
-    {
-      "name": "steroid",
-      "spans": [
-        [
-          22496,
-          22503
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000258",
-      "normalized_name": "Steroids and steroid derivatives",
-      "score": 0.9999998807907104
-    },
-    {
-      "name": "4-coumaroyl-CoA",
-      "spans": [
-        [
-          25076,
-          25091
-        ],
-        [
-          26174,
-          26189
-        ]
-      ],
-      "CID": 6440013,
-      "SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)/C=C/C4=CC=C(C=C4)O)O",
-      "InChIKey": "DMZOKBALNZWDKI-MATMFAIHSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Fatty acyl CoAs"
-        ],
-        "Np_superclass": [
-          "Fatty esters"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Fatty Acyls",
-        "Subclass": "Fatty acyl thioesters"
-      }
-    },
-    {
-      "name": "geranylgeranyl pyrophosphate",
-      "spans": [
-        [
-          24760,
-          24788
-        ],
-        [
-          26017,
-          26045
-        ]
-      ],
-      "CID": 447277,
-      "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)/C)C",
-      "InChIKey": "OINNEUNVOZHBOX-QIRCYJPOSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Bactoprenols",
-          "Farnesane sesquiterpenoids"
-        ],
-        "Np_superclass": [
-          "Sesquiterpenoids",
-          "Polyprenols"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Diterpenoids"
-      }
-    },
-    {
-      "name": "phenylalanine",
-      "spans": [
-        [
-          25006,
-          25019
-        ],
-        [
-          26110,
-          26123
-        ]
-      ],
-      "CID": 6140,
-      "SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
-      "InChIKey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Aminoacids"
-        ],
-        "Np_superclass": [
-          "Small peptides"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Organic acids and derivatives",
-        "Class": "Carboxylic acids and derivatives",
-        "Subclass": "Amino acids, peptides, and analogues"
-      }
-    },
-    {
-      "name": "squalene",
-      "spans": [
-        [
-          24538,
-          24546
-        ],
-        [
-          26061,
-          26069
-        ],
-        [
-          26085,
-          26093
-        ]
-      ],
-      "CID": 638072,
-      "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)/C)C",
-      "InChIKey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Acyclic triterpenoids"
-        ],
-        "Np_superclass": [
-          "Triterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Triterpenoids"
-      }
-    },
-    {
-      "name": "cinnamate",
-      "spans": [
-        [
-          25041,
-          25050
-        ],
-        [
-          26144,
-          26153
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000465",
-      "normalized_name": "Coumaric acid esters",
-      "score": 0.946799635887146
-    },
-    {
-      "name": "1-deoxyxylulose 5-phosphate",
-      "spans": [
-        [
-          25864,
-          25891
-        ],
-        [
-          25907,
-          25934
-        ]
-      ]
-    },
-    {
-      "name": "HMG-CoA",
-      "spans": [
-        [
-          25952,
-          25959
-        ]
-      ],
-      "CID": 445127,
-      "SMILES": "C[C@](CC(=O)O)(CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O",
-      "InChIKey": "CABVTRNMFUVUDM-VRHQGPGLSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Fatty acyl CoAs"
-        ],
-        "Np_superclass": [
-          "Fatty esters"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Fatty Acyls",
-        "Subclass": "Fatty acyl thioesters"
-      }
-    },
-    {
-      "name": "farnesyl pyrophosphate",
-      "spans": [
-        [
-          25977,
-          25999
-        ]
-      ],
-      "CID": 445713,
-      "SMILES": "CC(=CCC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)C",
-      "InChIKey": "VWFJDQUYCIWHTN-YFVJMOTDSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Farnesane sesquiterpenoids"
-        ],
-        "Np_superclass": [
-          "Sesquiterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Sesquiterpenoids"
-      }
-    },
-    {
-      "name": "chalcone",
-      "spans": [
-        [
-          26203,
-          26211
-        ],
-        [
-          26227,
-          26235
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0003472",
-      "normalized_name": "2'-Hydroxychalcones",
-      "score": 0.9433363676071167
-    },
-    {
-      "name": "beta-amyrin",
-      "spans": [
-        [
-          26781,
-          26792
-        ]
-      ],
-      "CID": 73145,
-      "SMILES": "C[C@@]12CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]1CC(CC2)(C)C)C",
-      "InChIKey": "JFSHUTJDVKUMTJ-QHPUVITPSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Oleanane triterpenoids"
-        ],
-        "Np_superclass": [
-          "Triterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Triterpenoids"
-      }
-    },
-    {
-      "name": "diosgenin",
-      "spans": [
-        [
-          27487,
-          27496
-        ],
-        [
-          46109,
-          46118
-        ]
-      ],
-      "CID": 99474,
-      "SMILES": "C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1",
-      "InChIKey": "WQLVFSAGQJTQCK-VKROHFNGSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Spirostane steroids"
-        ],
-        "Np_superclass": [
-          "Steroids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Steroids and steroid derivatives",
-        "Subclass": "Hydroxysteroids"
-      }
-    },
-    {
-      "name": "lanosterol",
-      "spans": [
-        [
-          26753,
-          26763
-        ]
-      ],
-      "CID": 246983,
-      "SMILES": "C[C@H](CCC=C(C)C)[C@H]1CC[C@@]2([C@@]1(CCC3=C2CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O)C)C)C",
-      "InChIKey": "CAHGCLMLTWQZNJ-BQNIITSRSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Lanostane, Tirucallane and Euphane triterpenoids"
-        ],
-        "Np_superclass": [
-          "Triterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Steroids and steroid derivatives",
-        "Subclass": "Hydroxysteroids"
-      }
-    },
-    {
-      "name": "cycloartenol",
-      "spans": [
-        [
-          26723,
-          26735
-        ]
-      ],
-      "CID": 92110,
-      "SMILES": "C[C@H](CCC=C(C)C)[C@H]1CC[C@@]2([C@@]1(CC[C@]34[C@H]2CC[C@@H]5[C@]3(C4)CC[C@@H](C5(C)C)O)C)C",
-      "InChIKey": "ONQRKEUAIJMULO-YBXTVTTCSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Cycloartane triterpenoids",
-          "Lanostane, Tirucallane and Euphane triterpenoids"
-        ],
-        "Np_superclass": [
-          "Triterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Steroids and steroid derivatives",
-        "Subclass": "Cycloartanols and derivatives"
-      }
-    },
-    {
-      "name": "furanoditerpenoid",
-      "spans": [
-        [
-          28814,
-          28831
-        ],
-        [
-          48058,
-          48075
-        ]
-      ]
-    },
-    {
-      "name": "syn-pimaradiene",
-      "spans": [
-        [
-          29653,
-          29668
-        ]
-      ],
-      "CID": 6432169,
-      "SMILES": "C[C@]1(CCC2C(=CCC3[C@@]2(CCCC3(C)C)C)C1)C=C",
-      "InChIKey": "VCOVNILQQQZROK-OTGCGEFBSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Pimarane and Isopimarane diterpenoids"
-        ],
-        "Np_superclass": [
-          "Diterpenoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Prenol lipids",
-        "Subclass": "Diterpenoids"
-      }
-    },
-    {
-      "name": "cis-trans-clerodienyl pyrophosphate",
-      "spans": [
-        [
-          29300,
-          29335
-        ]
-      ]
-    },
-    {
-      "name": "syn-pimarane",
-      "spans": [
-        [
-          28797,
-          28809
-        ]
-      ]
-    },
-    {
-      "name": "diterpenoid",
-      "spans": [
-        [
-          30213,
-          30224
-        ],
-        [
-          30468,
-          30479
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000351",
-      "normalized_name": "Biflorane and serrulatane diterpenoids",
-      "score": 1.0
-    },
-    {
-      "name": "triterpenoids",
-      "spans": [
-        [
-          33295,
-          33308
-        ],
-        [
-          37141,
-          37154
-        ],
-        [
-          46052,
-          46065
-        ],
-        [
-          46574,
-          46587
-        ],
-        [
-          46821,
-          46834
-        ],
-        [
-          47338,
-          47351
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001553",
-      "normalized_name": "Triterpenoids",
-      "score": 1.0
-    },
-    {
-      "name": "phospholipids",
-      "spans": [
-        [
-          32834,
-          32847
-        ],
-        [
-          33050,
-          33063
-        ],
-        [
-          43248,
-          43261
-        ]
-      ]
-    },
-    {
-      "name": "alcohols",
-      "spans": [
-        [
-          33756,
-          33764
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0000129",
-      "normalized_name": "Alcohols and polyols",
-      "score": 0.9128007292747498
-    },
-    {
-      "name": "acids",
-      "spans": [
-        [
-          33746,
-          33751
-        ]
-      ]
-    },
-    {
-      "name": "panicoloid B",
-      "spans": [
-        [
-          35547,
-          35559
-        ],
-        [
-          38660,
-          38672
-        ],
-        [
-          48203,
-          48215
-        ],
-        [
-          48580,
-          48592
-        ],
-        [
-          48906,
-          48918
-        ]
-      ]
-    },
-    {
-      "name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,15-olide",
-      "spans": [
-        [
-          35565,
-          35613
-        ]
-      ]
-    },
-    {
-      "name": "sucrose",
-      "spans": [
-        [
-          35132,
-          35139
-        ],
-        [
-          42204,
-          42209
-        ],
-        [
-          43062,
-          43069
-        ]
-      ],
-      "CID": 5988,
-      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
-      "InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Disaccharides"
-        ],
-        "Np_superclass": [
-          "Saccharides"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Organic oxygen compounds",
-        "Class": "Organooxygen compounds",
-        "Subclass": "Ethers"
-      },
-      "alt_names": [
-        "sugar"
-      ]
-    },
-    {
-      "name": "15,16-epoxy-2-oxo-5beta8alpha-cleroda-3,13(16),14-triene",
-      "spans": [
-        [
-          35480,
-          35536
-        ]
-      ]
-    },
-    {
-      "name": "panicoloid A",
-      "spans": [
-        [
-          35465,
-          35477
-        ],
-        [
-          38646,
-          38658
-        ],
-        [
-          48004,
-          48016
-        ]
-      ]
-    },
-    {
-      "name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),14-triene",
-      "spans": [
-        [
-          35397,
-          35454
-        ]
-      ]
-    },
-    {
-      "name": "panicoloid C",
-      "spans": [
-        [
-          35624,
-          35636
-        ],
-        [
-          38678,
-          38690
-        ],
-        [
-          48220,
-          48232
-        ]
-      ]
-    },
-    {
-      "name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,l5-olide",
-      "spans": [
-        [
-          38573,
-          38621
-        ]
-      ]
-    },
-    {
-      "name": "terpenoid metabolites",
-      "spans": [
-        [
-          36473,
-          36494
-        ]
-      ]
-    },
-    {
-      "name": "switchgrass furanoditerpenoids",
-      "spans": [
-        [
-          39138,
-          39168
-        ]
-      ]
-    },
-    {
-      "name": "labdane-related diterpenoids",
-      "spans": [
-        [
-          37899,
-          37927
-        ]
-      ]
-    },
-    {
-      "name": "panicoloid D",
-      "spans": [
-        [
-          39049,
-          39061
-        ]
-      ]
-    },
-    {
-      "name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),l4-triene",
-      "spans": [
-        [
-          38427,
-          38484
-        ]
-      ]
-    },
-    {
-      "name": "flavonoid glycosides",
-      "spans": [
-        [
-          36224,
-          36244
-        ],
-        [
-          43941,
-          43961
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001111",
-      "normalized_name": "Flavonoid glycosides",
-      "score": 1.0000001192092896
-    },
-    {
-      "name": "triterpenoid saponins",
-      "spans": [
-        [
-          35922,
-          35943
-        ],
-        [
-          36599,
-          36620
-        ],
-        [
-          36691,
-          36712
-        ],
-        [
-          44157,
-          44178
-        ],
-        [
-          44546,
-          44567
-        ],
-        [
-          44559,
-          44567
-        ],
-        [
-          46139,
-          46160
-        ],
-        [
-          46152,
-          46160
-        ],
-        [
-          47223,
-          47231
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0002358",
-      "normalized_name": "Triterpene saponins",
-      "score": 0.9937528967857361,
-      "alt_names": [
-        "saponins"
-      ]
-    },
-    {
-      "name": "benzoxazinoids",
-      "spans": [
-        [
-          39892,
-          39906
-        ]
-      ],
-      "ontology_id": "CHEMONTID:0001396",
-      "normalized_name": "Benzoxazines",
-      "score": 0.9360015392303467
-    },
-    {
-      "name": "oxylipins",
-      "spans": [
-        [
-          39877,
-          39886
-        ]
-      ],
-      "CID": 44581450,
-      "SMILES": "CCCCC/C=C\\C=C\\C(C/C=C\\C/C=C\\C/C=C\\CCCCC(=O)O)O",
-      "InChIKey": "WCPFNHAOKQUJEV-YQUHDJBSSA-N",
-      "Natural_product_class": {
-        "Np_class": [
-          "Hydroxy-hydroperoxyeicosatetraenoic acids"
-        ],
-        "Np_superclass": [
-          "Eicosanoids"
-        ]
-      },
-      "Classyfire": {
-        "Kingdom": "Organic compounds",
-        "Superclass": "Lipids and lipid-like molecules",
-        "Class": "Fatty Acyls",
-        "Subclass": "Fatty acids and conjugates"
-      }
-    },
-    {
-      "name": "diterpenoid metabolites",
-      "spans": [
-        [
-          40467,
-          40490
-        ]
-      ]
-    },
-    {
-      "name": "terpenoid precursors",
-      "spans": [
-        [
-          44858,
-          44878
-        ]
-      ]
-    },
-    {
-      "name": "sterol 3-beta-glucosyltransferases",
-      "spans": [
-        [
-          45889,
-          45923
-        ]
-      ]
-    },
-    {
-      "name": "dolabralexin",
-      "spans": [
-        [
-          50243,
-          50255
-        ],
-        [
-          50740,
-          50752
-        ]
-      ]
-    },
-    {
-      "name": "oxygenated clerodane furanoditerpenoids",
-      "spans": [
-        [
-          47952,
-          47991
-        ]
-      ]
-    },
-    {
-      "name": "kauralexin",
-      "spans": [
-        [
-          50228,
-          50238
-        ],
-        [
-          50724,
-          50734
-        ]
-      ]
-    },
-    {
-      "name": "specialized metabolites",
-      "spans": [
-        [
-          51427,
-          51450
-        ]
-      ]
-    }
-  ],
-  "pathways": [
-    {
-      "name": "phenylpropanoid pathways",
-      "spans": [
-        [
-          1189,
-          1213
-        ],
-        [
-          22509,
-          22537
-        ],
-        [
-          23473,
-          23507
-        ]
-      ],
-      "ontology_id": "PWY-2181",
-      "normalized_name": "free phenylpropanoid acid biosynthesis",
-      "score": 0.8429077863693237,
-      "alt_names": [
-        "phenylpropanoid biosynthesis",
-        "phenylpropanoid-metabolic pathways"
-      ]
-    },
-    {
-      "name": "amino acid metabolism",
-      "spans": [
-        [
-          1027,
-          1048
-        ],
-        [
-          22450,
-          22471
-        ]
-      ]
-    },
-    {
-      "name": "diterpenoid-biosynthetic",
-      "spans": [
-        [
-          1059,
-          1083
-        ]
-      ]
-    },
-    {
-      "name": "terpenoid-metabolic",
-      "spans": [
-        [
-          4927,
-          4946
-        ]
-      ]
-    },
-    {
-      "name": "nitrogen metabolism",
-      "spans": [
-        [
-          22212,
-          22231
-        ]
-      ]
-    },
-    {
-      "name": "plant signal transduction process",
-      "spans": [
-        [
-          21999,
-          22032
-        ]
-      ]
-    },
-    {
-      "name": "endoplasmic reticulum protein processing",
-      "spans": [
-        [
-          22167,
-          22207
-        ]
-      ]
-    },
-    {
-      "name": "carbohydrate metabolism",
-      "spans": [
-        [
-          21427,
-          21450
-        ],
-        [
-          21582,
-          21605
-        ]
-      ]
-    },
-    {
-      "name": "KEGG pathway",
-      "spans": [
-        [
-          22998,
-          23010
-        ]
-      ]
-    },
-    {
-      "name": "kegg pathways",
-      "spans": [
-        [
-          22998,
-          23011
-        ]
-      ]
-    },
-    {
-      "name": "phenylpropanoid metabolism",
-      "spans": [
-        [
-          23244,
-          23270
-        ],
-        [
-          24956,
-          24982
-        ]
-      ]
-    },
-    {
-      "name": "methylerythritol phosphate (MEP) pathway",
-      "spans": [
-        [
-          24323,
-          24363
-        ]
-      ],
-      "ontology_id": "NONMEVIPP-PWY",
-      "normalized_name": "methylerythritol phosphate pathway I",
-      "score": 0.8915464282035828
-    },
-    {
-      "name": "flavonoid backbone biosynthesis",
-      "spans": [
-        [
-          25400,
-          25431
-        ]
-      ],
-      "ontology_id": "PWY1F-FLAVSYN",
-      "normalized_name": "flavonoid biosynthesis",
-      "score": 0.9351024627685547
-    },
-    {
-      "name": "terpenoid backbone biosynthesis",
-      "spans": [
-        [
-          25360,
-          25391
-        ]
-      ],
-      "ontology_id": "PWY-3041",
-      "normalized_name": "monoterpene biosynthesis",
-      "score": 0.8049432635307312
-    },
-    {
-      "name": "triterpenoid metabolism",
-      "spans": [
-        [
-          26950,
-          26973
-        ]
-      ]
-    },
-    {
-      "name": "biosynthesis of triterpenoid saponins",
-      "spans": [
-        [
-          27441,
-          27478
-        ]
-      ]
-    },
-    {
-      "name": "triterpenoid biosynthesis",
-      "spans": [
-        [
-          27840,
-          27865
-        ]
-      ]
-    },
-    {
-      "name": "diterpenoid pathway",
-      "spans": [
-        [
-          30018,
-          30037
-        ]
-      ]
-    },
-    {
-      "name": "diterpenoid biosynthesis",
-      "spans": [
-        [
-          30213,
-          30237
-        ]
-      ],
-      "ontology_id": "PWY-2981",
-      "normalized_name": "diterpene phytoalexins precursors biosynthesis",
-      "score": 0.8109759092330933
-    },
-    {
-      "name": "membrane lipid systems",
-      "spans": [
-        [
-          43373,
-          43395
-        ]
-      ]
-    },
-    {
-      "name": "cell wall biosynthesis",
-      "spans": [
-        [
-          43400,
-          43422
-        ]
-      ]
-    },
-    {
-      "name": "specialized metabolism",
-      "spans": [
-        [
-          42860,
-          42882
-        ]
-      ]
-    },
-    {
-      "name": "triterpenoid-metabolic pathway",
-      "spans": [
-        [
-          45390,
-          45420
-        ]
-      ]
-    },
-    {
-      "name": "MVA pathway",
-      "spans": [
-        [
-          44696,
-          44707
-        ]
-      ],
-      "ontology_id": "PWY-922",
-      "normalized_name": "mevalonate pathway I (eukaryotes and bacteria)",
-      "score": 0.8044727444648743
-    },
-    {
-      "name": "triterpenoid-biosynthetic gene clusters",
-      "spans": [
-        [
-          45490,
-          45529
-        ]
-      ]
-    },
-    {
-      "name": "triterpenoid pathways",
-      "spans": [
-        [
-          46463,
-          46484
-        ]
-      ]
-    },
-    {
-      "name": "terpenoid backbone pathways",
-      "spans": [
-        [
-          45145,
-          45172
-        ]
-      ]
-    },
-    {
-      "name": "plant specialized pathways",
-      "spans": [
-        [
-          51011,
-          51037
-        ]
-      ]
-    }
-  ],
-  "anatomical_structures": [
-    {
-      "name": "roots",
-      "spans": [
-        [
-          1135,
-          1140
-        ],
-        [
-          5219,
-          5224
-        ],
-        [
-          5448,
-          5453
-        ],
-        [
-          16720,
-          16725
-        ],
-        [
-          16747,
-          16752
-        ],
-        [
-          17870,
-          17875
-        ],
-        [
-          18131,
-          18136
-        ],
-        [
-          18225,
-          18230
-        ],
-        [
-          18480,
-          18485
-        ],
-        [
-          18581,
-          18586
-        ],
-        [
-          18756,
-          18761
-        ],
-        [
-          18901,
-          18906
-        ],
-        [
-          19865,
-          19870
-        ],
-        [
-          21470,
-          21475
-        ],
-        [
-          21505,
-          21510
-        ],
-        [
-          22312,
-          22317
-        ],
-        [
-          24466,
-          24471
-        ],
-        [
-          24636,
-          24641
-        ],
-        [
-          24873,
-          24878
-        ],
-        [
-          25140,
-          25145
-        ],
-        [
-          27303,
-          27308
-        ],
-        [
-          28425,
-          28430
-        ],
-        [
-          28528,
-          28533
-        ],
-        [
-          29289,
-          29294
-        ],
-        [
-          29712,
-          29717
-        ],
-        [
-          29962,
-          29967
-        ],
-        [
-          30923,
-          30928
-        ],
-        [
-          31026,
-          31031
-        ],
-        [
-          32585,
-          32590
-        ],
-        [
-          33439,
-          33444
-        ],
-        [
-          33846,
-          33851
-        ],
-        [
-          35682,
-          35687
-        ],
-        [
-          36046,
-          36051
-        ],
-        [
-          36862,
-          36867
-        ],
-        [
-          37278,
-          37283
-        ],
-        [
-          37518,
-          37523
-        ],
-        [
-          38092,
-          38097
-        ],
-        [
-          44672,
-          44677
-        ],
-        [
-          45012,
-          45017
-        ],
-        [
-          45341,
-          45346
-        ],
-        [
-          46164,
-          46169
-        ],
-        [
-          46838,
-          46843
-        ],
-        [
-          47421,
-          47426
-        ],
-        [
-          49201,
-          49206
-        ]
-      ],
-      "ontology_id": "PO:0025025",
-      "normalized_name": "root system",
-      "score": 0.9691017270088196
-    },
-    {
-      "name": "root",
-      "spans": [
-        [
-          1355,
-          1359
-        ],
-        [
-          1793,
-          1797
-        ],
-        [
-          31205,
-          31209
-        ],
-        [
-          47333,
-          47337
-        ],
-        [
-          50625,
-          50629
-        ]
-      ],
-      "ontology_id": "PO:0009005",
-      "normalized_name": "root",
-      "score": 1.0000001192092896
-    },
-    {
-      "name": "leaf",
-      "spans": [
-        [
-          4093,
-          4097
-        ],
-        [
-          5208,
-          5214
-        ],
-        [
-          5437,
-          5443
-        ],
-        [
-          15794,
-          15798
-        ],
-        [
-          16677,
-          16683
-        ],
-        [
-          16702,
-          16708
-        ],
-        [
-          17892,
-          17898
-        ],
-        [
-          18154,
-          18160
-        ],
-        [
-          18235,
-          18241
-        ],
-        [
-          18469,
-          18475
-        ],
-        [
-          18570,
-          18576
-        ],
-        [
-          18767,
-          18773
-        ],
-        [
-          18891,
-          18897
-        ],
-        [
-          21335,
-          21341
-        ],
-        [
-          21636,
-          21642
-        ],
-        [
-          22104,
-          22110
-        ],
-        [
-          24433,
-          24439
-        ],
-        [
-          24602,
-          24608
-        ],
-        [
-          25161,
-          25167
-        ],
-        [
-          27237,
-          27243
-        ],
-        [
-          28338,
-          28344
-        ],
-        [
-          28478,
-          28484
-        ],
-        [
-          30062,
-          30068
-        ],
-        [
-          30836,
-          30842
-        ],
-        [
-          30976,
-          30982
-        ],
-        [
-          31196,
-          31200
-        ],
-        [
-          32550,
-          32556
-        ],
-        [
-          32720,
-          32726
-        ],
-        [
-          33103,
-          33109
-        ],
-        [
-          33214,
-          33220
-        ],
-        [
-          33835,
-          33841
-        ],
-        [
-          36099,
-          36103
-        ],
-        [
-          36264,
-          36270
-        ],
-        [
-          36739,
-          36745
-        ],
-        [
-          36848,
-          36854
-        ],
-        [
-          43024,
-          43028
-        ],
-        [
-          43290,
-          43296
-        ],
-        [
-          43936,
-          43940
-        ],
-        [
-          44210,
-          44216
-        ],
-        [
-          44265,
-          44269
-        ],
-        [
-          44518,
-          44524
-        ],
-        [
-          45330,
-          45336
-        ]
-      ],
-      "ontology_id": "PO:0025034",
-      "normalized_name": "leaf",
-      "score": 0.9999999403953552,
-      "alt_names": [
-        "leaves"
-      ]
-    },
-    {
-      "name": "rhizosheath",
-      "spans": [
-        [
-          4243,
-          4254
-        ]
-      ]
-    },
-    {
-      "name": "root tissue",
-      "spans": [
-        [
-          15803,
-          15814
-        ],
-        [
-          36323,
-          36334
-        ],
-        [
-          43033,
-          43044
-        ]
-      ],
-      "ontology_id": "PO:0025095",
-      "normalized_name": "root parenchyma",
-      "score": 0.9079657196998596
-    },
-    {
-      "name": "tissues",
-      "spans": [
-        [
-          31614,
-          31621
-        ],
-        [
-          40879,
-          40885
-        ]
-      ],
-      "ontology_id": "PO:0009007",
-      "normalized_name": "portion of plant tissue",
-      "score": 0.9782681465148926,
-      "alt_names": [
-        "tissue"
-      ]
-    },
-    {
-      "name": "membrane",
-      "spans": [
-        [
-          43373,
-          43381
-        ],
-        [
-          43574,
-          43582
-        ]
-      ]
-    },
-    {
-      "name": "leaf cuticular waxes",
-      "spans": [
-        [
-          44265,
-          44285
-        ]
-      ]
-    },
-    {
-      "name": "cell wall",
-      "spans": [
-        [
-          43400,
-          43409
-        ]
-      ]
-    }
-  ],
-  "human_traits": [
-    {
-      "name": "agroeconomic value",
-      "spans": [
-        [
-          2607,
-          2625
-        ]
-      ]
-    },
-    {
-      "name": "biofuel",
-      "spans": [
-        [
-          6269,
-          6276
-        ]
-      ]
-    },
-    {
-      "name": "harvest loss",
-      "spans": [
-        [
-          39651,
-          39663
-        ]
-      ]
-    }
-  ],
-  "genes": [
-    {
-      "name": "cytochrome P450 monooxygenase (P450)",
-      "spans": [
-        [
-          4974,
-          5010
-        ]
-      ]
-    },
-    {
-      "name": "terpene synthase (TPS)",
-      "spans": [
-        [
-          4947,
-          4969
-        ]
-      ]
-    },
-    {
-      "name": "AWPM19-like",
-      "spans": [
-        [
-          20035,
-          20046
-        ],
-        [
-          20248,
-          20259
-        ],
-        [
-          20413,
-          20424
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.2NG274300",
-      "spans": [
-        [
-          20315,
-          20330
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.9NG018700",
-      "spans": [
-        [
-          20343,
-          20358
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.9NG553200",
-      "spans": [
-        [
-          19556,
-          19571
-        ]
-      ]
-    },
-    {
-      "name": "dehydrin",
-      "spans": [
-        [
-          19889,
-          19897
-        ],
-        [
-          41608,
-          41616
-        ]
-      ]
-    },
-    {
-      "name": "caspases",
-      "spans": [
-        [
-          20726,
-          20734
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.5NG603383",
-      "spans": [
-        [
-          19613,
-          19628
-        ]
-      ]
-    },
-    {
-      "name": "proteases",
-      "spans": [
-        [
-          20739,
-          20748
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.6Ng089000",
-      "spans": [
-        [
-          24807,
-          24822
-        ],
-        [
-          44947,
-          44962
-        ]
-      ]
-    },
-    {
-      "name": "geranylgeranyl pyrophosphate synthase (GGPPS)",
-      "spans": [
-        [
-          24760,
-          24805
-        ]
-      ]
-    },
-    {
-      "name": "cinnamate-4-hydroxylase (C4H)",
-      "spans": [
-        [
-          25041,
-          25070
-        ]
-      ]
-    },
-    {
-      "name": "squalene synthase",
-      "spans": [
-        [
-          24538,
-          24555
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.4NG340500",
-      "spans": [
-        [
-          24557,
-          24572
-        ]
-      ]
-    },
-    {
-      "name": "4-coumaroyl-CoA ligase (4CL)",
-      "spans": [
-        [
-          25076,
-          25104
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.3NG140939",
-      "spans": [
-        [
-          24399,
-          24414
-        ]
-      ]
-    },
-    {
-      "name": "phenylalanine ammonia lyase (PAL)",
-      "spans": [
-        [
-          25006,
-          25039
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.3KG128241",
-      "spans": [
-        [
-          24379,
-          24394
-        ]
-      ]
-    },
-    {
-      "name": "1-deoxyxylulose 5-phosphate synthase (DXS)",
-      "spans": [
-        [
-          24267,
-          24309
-        ]
-      ]
-    },
-    {
-      "name": "CHS",
-      "spans": [
-        [
-          26198,
-          26201
-        ],
-        [
-          44100,
-          44103
-        ]
-      ]
-    },
-    {
-      "name": "PAL",
-      "spans": [
-        [
-          26105,
-          26108
-        ]
-      ]
-    },
-    {
-      "name": "DXS",
-      "spans": [
-        [
-          25859,
-          25862
-        ]
-      ]
-    },
-    {
-      "name": "SQE",
-      "spans": [
-        [
-          26080,
-          26083
-        ]
-      ]
-    },
-    {
-      "name": "HMGR",
-      "spans": [
-        [
-          25946,
-          25950
-        ]
-      ]
-    },
-    {
-      "name": "4CL",
-      "spans": [
-        [
-          26169,
-          26172
-        ]
-      ]
-    },
-    {
-      "name": "C4H",
-      "spans": [
-        [
-          26139,
-          26142
-        ]
-      ]
-    },
-    {
-      "name": "GGPPS",
-      "spans": [
-        [
-          26010,
-          26015
-        ],
-        [
-          44940,
-          44945
-        ]
-      ]
-    },
-    {
-      "name": "DXR",
-      "spans": [
-        [
-          25902,
-          25905
-        ]
-      ]
-    },
-    {
-      "name": "CHI",
-      "spans": [
-        [
-          26222,
-          26225
-        ]
-      ]
-    },
-    {
-      "name": "SQS",
-      "spans": [
-        [
-          26056,
-          26059
-        ]
-      ]
-    },
-    {
-      "name": "FPPS",
-      "spans": [
-        [
-          25971,
-          25975
-        ]
-      ]
-    },
-    {
-      "name": "CYP94D",
-      "spans": [
-        [
-          26855,
-          26861
-        ],
-        [
-          27391,
-          27397
-        ],
-        [
-          45954,
-          45960
-        ]
-      ]
-    },
-    {
-      "name": "TTS",
-      "spans": [
-        [
-          27147,
-          27150
-        ],
-        [
-          27330,
-          27333
-        ]
-      ]
-    },
-    {
-      "name": "cycloartenol synthases",
-      "spans": [
-        [
-          26723,
-          26745
-        ]
-      ]
-    },
-    {
-      "name": "beta-amyrin synthases",
-      "spans": [
-        [
-          26781,
-          26802
-        ],
-        [
-          26804,
-          26807
-        ]
-      ],
-      "alt_names": [
-        "BAS"
-      ]
-    },
-    {
-      "name": "CYP72A",
-      "spans": [
-        [
-          27173,
-          27179
-        ],
-        [
-          27383,
-          27389
-        ]
-      ]
-    },
-    {
-      "name": "CAS",
-      "spans": [
-        [
-          26747,
-          26750
-        ]
-      ]
-    },
-    {
-      "name": "lanosterol synthases",
-      "spans": [
-        [
-          26753,
-          26773
-        ],
-        [
-          26775,
-          26778
-        ]
-      ],
-      "alt_names": [
-        "LAS"
-      ]
-    },
-    {
-      "name": "sterol 3-beta-glucosyltransferases",
-      "spans": [
-        [
-          26891,
-          26925
-        ]
-      ]
-    },
-    {
-      "name": "CYP90B",
-      "spans": [
-        [
-          26844,
-          26850
-        ],
-        [
-          27402,
-          27408
-        ],
-        [
-          45965,
-          45971
-        ]
-      ]
-    },
-    {
-      "name": "triterpenoid synthase",
-      "spans": [
-        [
-          27124,
-          27145
-        ]
-      ]
-    },
-    {
-      "name": "CYP71A",
-      "spans": [
-        [
-          26836,
-          26842
-        ],
-        [
-          45946,
-          45952
-        ]
-      ]
-    },
-    {
-      "name": "CYP71Z28",
-      "spans": [
-        [
-          29403,
-          29411
-        ],
-        [
-          48529,
-          48537
-        ]
-      ]
-    },
-    {
-      "name": "PvCPS10",
-      "spans": [
-        [
-          29581,
-          29588
-        ],
-        [
-          49304,
-          49311
-        ]
-      ]
-    },
-    {
-      "name": "PvKSL4",
-      "spans": [
-        [
-          29620,
-          29626
-        ],
-        [
-          49380,
-          49386
-        ]
-      ]
-    },
-    {
-      "name": "PvCPS9",
-      "spans": [
-        [
-          29570,
-          29576
-        ],
-        [
-          49296,
-          49302
-        ]
-      ]
-    },
-    {
-      "name": "CYP71Z26",
-      "spans": [
-        [
-          29389,
-          29397
-        ],
-        [
-          48516,
-          48524
-        ]
-      ]
-    },
-    {
-      "name": "PvCPS1",
-      "spans": [
-        [
-          29352,
-          29358
-        ],
-        [
-          48337,
-          48343
-        ],
-        [
-          48480,
-          48486
-        ]
-      ]
-    },
-    {
-      "name": "PvKSL5",
-      "spans": [
-        [
-          29631,
-          29637
-        ],
-        [
-          49388,
-          49394
-        ]
-      ]
-    },
-    {
-      "name": "CYP71Z25",
-      "spans": [
-        [
-          29379,
-          29387
-        ],
-        [
-          48506,
-          48514
-        ]
-      ]
-    },
-    {
-      "name": "LEA genes",
-      "spans": [
-        [
-          41587,
-          41596
-        ]
-      ]
-    },
-    {
-      "name": "AWPM-19-like genes",
-      "spans": [
-        [
-          41996,
-          42014
-        ]
-      ]
-    },
-    {
-      "name": "AWPM-19-like ABA influx transporters",
-      "spans": [
-        [
-          41909,
-          41945
-        ]
-      ]
-    },
-    {
-      "name": "Pavir.8KG003520",
-      "spans": [
-        [
-          41768,
-          41783
-        ]
-      ]
-    },
-    {
-      "name": "P450 genes",
-      "spans": [
-        [
-          45928,
-          45938
-        ]
-      ]
-    },
-    {
-      "name": "TTS genes",
-      "spans": [
-        [
-          45868,
-          45877
-        ]
-      ]
-    },
-    {
-      "name": "CYP99",
-      "spans": [
-        [
-          48653,
-          48658
-        ]
-      ]
-    },
-    {
-      "name": "diTPS",
-      "spans": [
-        [
-          48289,
-          48294
-        ],
-        [
-          48474,
-          48479
-        ],
-        [
-          49339,
-          49344
-        ]
-      ]
-    },
-    {
-      "name": "an2",
-      "spans": [
-        [
-          50769,
-          50772
-        ]
-      ]
-    }
-  ],
-  "molecular_traits": [
-    {
-      "name": "hydrolase activities",
-      "spans": [
-        [
-          21697,
-          21717
-        ]
-      ],
-      "ontology_id": "GO:0016787",
-      "normalized_name": "hydrolase activity",
-      "score": 0.9935795068740845
-    },
-    {
-      "name": "DNA-binding",
-      "spans": [
-        [
-          21342,
-          21353
-        ],
-        [
-          21681,
-          21692
-        ]
-      ],
-      "ontology_id": "GO:0003677",
-      "normalized_name": "DNA binding",
-      "score": 0.9969567060470581
-    },
-    {
-      "name": "electron carrier processes",
-      "spans": [
-        [
-          21358,
-          21384
-        ]
-      ],
-      "ontology_id": "GO:0009055",
-      "normalized_name": "electron transfer activity",
-      "score": 0.8871889710426331
-    },
-    {
-      "name": "gene expression",
-      "spans": [
-        [
-          24184,
-          24199
-        ],
-        [
-          24617,
-          24632
-        ],
-        [
-          24909,
-          24924
-        ],
-        [
-          25294,
-          25309
-        ],
-        [
-          25570,
-          25585
-        ],
-        [
-          28182,
-          28197
-        ]
-      ]
-    },
-    {
-      "name": "transcript abundance",
-      "spans": [
-        [
-          23743,
-          23763
-        ]
-      ]
-    },
-    {
-      "name": "differential expression",
-      "spans": [
-        [
-          41961,
-          41984
-        ]
-      ]
-    },
-    {
-      "name": "antioxidant functions",
-      "spans": [
-        [
-          46594,
-          46615
-        ]
-      ],
-      "ontology_id": "GO:0016209",
-      "normalized_name": "antioxidant activity",
-      "score": 0.938340961933136
-    }
-  ]
+	"species": [
+		{
+			"name": "Oryza sativa",
+			"spans": [
+				[289, 301],
+				[5739, 5751]
+			],
+			"taxonomy_id": 4530
+		},
+		{
+			"name": "Panicum virgatum",
+			"spans": [
+				[155, 171],
+				[2513, 2529],
+				[5020, 5031],
+				[16459, 16475],
+				[22715, 22731],
+				[25515, 25531],
+				[27882, 27898],
+				[30254, 30270],
+				[34576, 34592],
+				[35113, 35129],
+				[51220, 51231],
+				[51454, 51465]
+			],
+			"taxonomy_id": 38727,
+			"alt_names": ["P. virgatum", "switchgrass"]
+		},
+		{
+			"name": "Zea mays",
+			"spans": [
+				[314, 322],
+				[5719, 5727]
+			],
+			"taxonomy_id": 4577
+		},
+		{
+			"name": "Alamo",
+			"spans": [
+				[17279, 17284],
+				[17454, 17459],
+				[17566, 17571],
+				[17946, 17951],
+				[18219, 18224],
+				[18362, 18367],
+				[18564, 18569],
+				[23973, 23978],
+				[24126, 24131],
+				[24480, 24485],
+				[24846, 24851],
+				[25176, 25181],
+				[26392, 26397],
+				[27231, 27236],
+				[27297, 27302],
+				[29247, 29252],
+				[29283, 29288],
+				[36023, 36028],
+				[36274, 36279],
+				[36754, 36759],
+				[36905, 36910],
+				[37272, 37277],
+				[37431, 37436]
+			]
+		},
+		{
+			"name": "Cave-in-Rock",
+			"spans": [
+				[17289, 17301],
+				[17584, 17596],
+				[18042, 18054],
+				[18280, 18292],
+				[18456, 18468],
+				[18667, 18679],
+				[23880, 23892],
+				[24136, 24148],
+				[24490, 24502],
+				[24860, 24872],
+				[25186, 25198],
+				[26402, 26414],
+				[27700, 27712],
+				[29257, 29269],
+				[29787, 29799],
+				[36033, 36045],
+				[36284, 36296],
+				[36764, 36776],
+				[36914, 36926],
+				[37334, 37346],
+				[37441, 37453],
+				[38079, 38091]
+			]
+		},
+		{
+			"name": "Sorghum bicolor",
+			"spans": [[39768, 39783]],
+			"taxonomy_id": 4558
+		},
+		{
+			"name": "Arabidopsis",
+			"spans": [[41654, 41665]]
+		},
+		{
+			"name": "Gossypium spec.",
+			"spans": [[41678, 41693]]
+		},
+		{
+			"name": "Triticum aestivum",
+			"spans": [[43872, 43889]],
+			"taxonomy_id": 4565
+		},
+		{
+			"name": "Solanum lycopersicum",
+			"spans": [[46890, 46910]],
+			"taxonomy_id": 4081
+		},
+		{
+			"name": "Glycine max",
+			"spans": [[46865, 46876]],
+			"taxonomy_id": 3847
+		},
+		{
+			"name": "Croton campestris",
+			"spans": [[49661, 49678]],
+			"taxonomy_id": 2896013
+		}
+	],
+	"plant_traits": [
+		{
+			"name": "energy efficiency",
+			"spans": [[214, 231]]
+		},
+		{
+			"name": "drought tolerance",
+			"spans": [
+				[236, 253],
+				[681, 698],
+				[1868, 1892],
+				[3847, 3864],
+				[6630, 6647],
+				[15368, 15384],
+				[20130, 20147],
+				[40353, 40374],
+				[40357, 40374],
+				[41633, 41650],
+				[41808, 41825],
+				[43529, 43546],
+				[49977, 49994],
+				[51257, 51274],
+				[51466, 51483]
+			],
+			"ontology_id": "TO:0000276",
+			"normalized_name": "drought tolerance",
+			"score": 0.9999998211860657,
+			"alt_names": [
+				"drought stress tolerance",
+				"drought-tolerant",
+				"low drought tolerance"
+			]
+		},
+		{
+			"name": "drought-susceptible",
+			"spans": [
+				[715, 734],
+				[15389, 15408],
+				[18636, 18663],
+				[41249, 41268]
+			],
+			"ontology_id": "TO:0000188",
+			"normalized_name": "drought sensitivity",
+			"score": 0.9229962229728699,
+			"alt_names": ["phenotypic drought symptoms"]
+		},
+		{
+			"name": "drought responses",
+			"spans": [
+				[1746, 1763],
+				[46517, 46541]
+			],
+			"ontology_id": "TO:0000394",
+			"normalized_name": "drought stress response trait",
+			"score": 0.8976737260818481,
+			"alt_names": ["drought-stress responses"]
+		},
+		{
+			"name": "crop production",
+			"spans": [
+				[1981, 1996],
+				[2256, 2271]
+			]
+		},
+		{
+			"name": "taller phenotypes",
+			"spans": [[3189, 3206]]
+		},
+		{
+			"name": "later flowering time",
+			"spans": [[3232, 3252]],
+			"ontology_id": "TO:0000344",
+			"normalized_name": "days to flowering trait",
+			"score": 0.910222589969635
+		},
+		{
+			"name": "biotic stress tolerance",
+			"spans": [
+				[5680, 5703],
+				[5853, 5876]
+			],
+			"ontology_id": "TO:0000179",
+			"normalized_name": "biotic plant stress trait",
+			"score": 0.889626681804657
+		},
+		{
+			"name": "abiotic stress tolerance",
+			"spans": [
+				[5852, 5876],
+				[5956, 5981]
+			],
+			"ontology_id": "TO:0000168",
+			"normalized_name": "abiotic plant stress response trait",
+			"score": 1.0000001192092896,
+			"alt_names": ["abiotic stress adaptation"]
+		},
+		{
+			"name": "wilting phenotype",
+			"spans": [
+				[16262, 16279],
+				[20569, 20586],
+				[20624, 20641],
+				[41009, 41026],
+				[47858, 47875]
+			],
+			"ontology_id": "TO:0000085",
+			"normalized_name": "leaf rolling",
+			"score": 0.9121484160423279
+		},
+		{
+			"name": "physiological stress symptoms",
+			"spans": [[36154, 36183]]
+		},
+		{
+			"name": "phenotypic changes",
+			"spans": [[41518, 41536]]
+		},
+		{
+			"name": "robustness against environmental stresses",
+			"spans": [
+				[46967, 47008],
+				[47633, 47650]
+			],
+			"ontology_id": "TO:0000164",
+			"normalized_name": "plant stress response trait",
+			"score": 0.7618184089660645,
+			"alt_names": ["stress resilience"]
+		}
+	],
+	"experimental_conditions": [
+		{
+			"name": "drought responses",
+			"spans": [
+				[516, 533],
+				[6201, 6218]
+			]
+		},
+		{
+			"name": "drought",
+			"spans": [
+				[715, 722],
+				[869, 876],
+				[1097, 1104],
+				[1392, 1399],
+				[1523, 1530],
+				[1605, 1612],
+				[1746, 1753],
+				[1868, 1875],
+				[1868, 1882],
+				[2183, 2190],
+				[3847, 3854],
+				[3981, 3988],
+				[4357, 4364],
+				[5823, 5837],
+				[6201, 6208],
+				[6549, 6556],
+				[6630, 6637],
+				[15576, 15593],
+				[16059, 16076],
+				[16200, 16217],
+				[16354, 16371],
+				[16521, 16538],
+				[17789, 17804],
+				[17973, 17990],
+				[21105, 21112],
+				[21161, 21168],
+				[21612, 21619],
+				[21612, 21626],
+				[22138, 22145],
+				[22138, 22152],
+				[23523, 23530],
+				[23680, 23687],
+				[24168, 24175],
+				[25454, 25469],
+				[27264, 27271],
+				[27575, 27582],
+				[28488, 28504],
+				[28537, 28553],
+				[29517, 29524],
+				[29746, 29753],
+				[29972, 29979],
+				[30986, 31002],
+				[31035, 31051],
+				[31261, 31277],
+				[32168, 32185],
+				[32356, 32373],
+				[32605, 32622],
+				[32791, 32807],
+				[32948, 32965],
+				[33116, 33130],
+				[33185, 33200],
+				[33489, 33503],
+				[34545, 34559],
+				[35653, 35669],
+				[36136, 36143],
+				[36399, 36406],
+				[37068, 37075],
+				[37068, 37082],
+				[37501, 37508],
+				[40138, 40156],
+				[40530, 40548],
+				[41041, 41058],
+				[41467, 41484],
+				[42138, 42152],
+				[42314, 42328],
+				[42965, 42972],
+				[42965, 42979],
+				[43167, 43174],
+				[43449, 43456],
+				[43529, 43536],
+				[43610, 43617],
+				[43737, 43744],
+				[43812, 43819],
+				[43996, 44003],
+				[44107, 44114],
+				[44107, 44123],
+				[44301, 44308],
+				[44382, 44389],
+				[44655, 44662],
+				[44655, 44671],
+				[44750, 44757],
+				[44901, 44908],
+				[45123, 45130],
+				[45443, 45450],
+				[45443, 45461],
+				[46391, 46398],
+				[46517, 46524],
+				[47087, 47094],
+				[47087, 47101],
+				[47365, 47372],
+				[47446, 47453],
+				[47767, 47774],
+				[48345, 48352],
+				[49015, 49022],
+				[49106, 49113],
+				[49208, 49215],
+				[49443, 49450],
+				[49813, 49820],
+				[49977, 49984],
+				[50066, 50073],
+				[50295, 50302],
+				[50516, 50523],
+				[51183, 51190],
+				[51257, 51264],
+				[51466, 51473]
+			],
+			"ontology_id": "PECO:0007404",
+			"normalized_name": "drought environment exposure",
+			"score": 0.8477427959442139,
+			"alt_names": [
+				"drought adaptation",
+				"drought conditions",
+				"drought stress",
+				"drought treatment",
+				"drought-stressed",
+				"drought-treated",
+				"drought-treatment"
+			]
+		},
+		{
+			"name": "ultraviolet (UV) radiation",
+			"spans": [
+				[5236, 5262],
+				[23532, 23546]
+			],
+			"ontology_id": "PECO:0007222",
+			"normalized_name": "UV light exposure",
+			"score": 0.8407144546508789,
+			"alt_names": ["UV irradiation"]
+		},
+		{
+			"name": "treatment with defense-related plant hormones",
+			"spans": [[5480, 5525]]
+		},
+		{
+			"name": "herbivore stress",
+			"spans": [[5459, 5475]]
+		},
+		{
+			"name": "oxidative stress",
+			"spans": [
+				[5267, 5283],
+				[23551, 23567]
+			],
+			"ontology_id": "PECO:0001037",
+			"normalized_name": "oxidative stress exposure",
+			"score": 0.8784432411193848
+		},
+		{
+			"name": "drought-induced",
+			"spans": [
+				[4571, 4586],
+				[47365, 47380],
+				[48345, 48360],
+				[49443, 49458],
+				[49813, 49828]
+			]
+		},
+		{
+			"name": "well-watered control",
+			"spans": [
+				[15676, 15696],
+				[18003, 18023],
+				[25477, 25497],
+				[28348, 28368],
+				[28434, 28454],
+				[30846, 30866],
+				[30932, 30952]
+			]
+		},
+		{
+			"name": "normal watering",
+			"spans": [[16547, 16562]]
+		},
+		{
+			"name": "watering withdrawal",
+			"spans": [[18383, 18402]]
+		},
+		{
+			"name": "stress treatment",
+			"spans": [[19031, 19047]]
+		},
+		{
+			"name": "control",
+			"spans": [
+				[17777, 17784],
+				[18016, 18023],
+				[32189, 32196],
+				[32779, 32786]
+			],
+			"ontology_id": "PECO:0001062",
+			"normalized_name": "control exposure",
+			"score": 0.9122663140296936
+		},
+		{
+			"name": "drought response",
+			"spans": [
+				[19820, 19836],
+				[20504, 20520],
+				[20919, 20935]
+			]
+		},
+		{
+			"name": "well-watered",
+			"spans": [[29851, 29863]]
+		},
+		{
+			"name": "water deficiency",
+			"spans": [
+				[29875, 29891],
+				[43696, 43712],
+				[46655, 46671]
+			]
+		},
+		{
+			"name": "well-watered conditions",
+			"spans": [[31282, 31305]]
+		},
+		{
+			"name": "water deficient conditions",
+			"spans": [[33879, 33905]]
+		},
+		{
+			"name": "water deprivation",
+			"spans": [[32505, 32522]]
+		},
+		{
+			"name": "drought-stressed roots",
+			"spans": [[37501, 37523]]
+		},
+		{
+			"name": "control plants",
+			"spans": [[42428, 42442]]
+		},
+		{
+			"name": "salinity stress",
+			"spans": [[50307, 50322]]
+		},
+		{
+			"name": "oxidative",
+			"spans": [[50284, 50293]]
+		}
+	],
+	"compounds": [
+		{
+			"name": "flavonoids",
+			"spans": [
+				[1276, 1286],
+				[4854, 4864],
+				[23369, 23379]
+			],
+			"ontology_id": "CHEMONTID:0000334",
+			"normalized_name": "Flavonoids",
+			"score": 1.0
+		},
+		{
+			"name": "terpenoids",
+			"spans": [
+				[1291, 1301],
+				[4602, 4611],
+				[4927, 4936],
+				[23230, 23239],
+				[23458, 23467],
+				[23784, 23793],
+				[39847, 39857],
+				[51406, 51416]
+			],
+			"ontology_id": "CHEMONTID:0001283",
+			"normalized_name": "Terpene lactones",
+			"score": 0.9030272364616394,
+			"alt_names": ["terpenoid"]
+		},
+		{
+			"name": "diterpenoids",
+			"spans": [
+				[1360, 1372],
+				[1542, 1554],
+				[1798, 1810],
+				[4836, 4848],
+				[5139, 5151],
+				[28773, 28785],
+				[33278, 33290],
+				[35948, 35960],
+				[37194, 37206],
+				[37401, 37413],
+				[37915, 37927],
+				[38026, 38038],
+				[38411, 38423],
+				[39078, 39090],
+				[44579, 44591],
+				[47405, 47417],
+				[47552, 47564],
+				[49173, 49185],
+				[49366, 49378],
+				[49459, 49471],
+				[49933, 49945],
+				[50256, 50268],
+				[50558, 50570]
+			],
+			"ontology_id": "CHEMONTID:0001551",
+			"normalized_name": "Diterpenoids",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "triterpenoid",
+			"spans": [
+				[1172, 1184],
+				[1430, 1442],
+				[26603, 26615],
+				[26950, 26962],
+				[27124, 27136],
+				[27457, 27469],
+				[27645, 27657],
+				[27840, 27852],
+				[28047, 28059],
+				[44157, 44169],
+				[44399, 44411]
+			],
+			"ontology_id": "CHEMONTID:0000180",
+			"normalized_name": "Oleanane triterpenoids",
+			"score": 0.9999998807907104
+		},
+		{
+			"name": "oxygenated furanoditerpenoids",
+			"spans": [[1558, 1587]]
+		},
+		{
+			"name": "carbohydrates",
+			"spans": [
+				[4310, 4323],
+				[33731, 33744]
+			],
+			"ontology_id": "CHEMONTID:0000011",
+			"normalized_name": "Carbohydrates and carbohydrate conjugates",
+			"score": 1.0
+		},
+		{
+			"name": "organic acids",
+			"spans": [[4328, 4341]],
+			"ontology_id": "CHEMONTID:0002899",
+			"normalized_name": "Sulfinohydrazonoperoxoic acids",
+			"score": 0.9664109945297241
+		},
+		{
+			"name": "chlorophyll",
+			"spans": [[4123, 4134]],
+			"CID": 156620228,
+			"SMILES": "CCC\\1=C(C\\2=[NH+]/C1=C\\C3=C(C4=C([C@@H](C(=C4[N-]3)C5=[NH+]C(=C([C@@H]5CCC(=O)OC/C=C(\\C)/CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)/C=C\\6/C(=C(/C(=C2)/[N-]6)C=C)C)C(=O)OC)O)C)C.[Mg+2]",
+			"InChIKey": "KPJIJGZVAWIZMG-LEGXGVPYSA-P",
+			"Natural_product_class": {
+				"Np_class": ["Prenyl quinone meroterpenoids"],
+				"Np_superclass": ["Meroterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organoheterocyclic compounds",
+				"Class": "Tetrapyrroles and derivatives",
+				"Subclass": "Metallotetrapyrroles"
+			}
+		},
+		{
+			"name": "amino acids",
+			"spans": [[4297, 4308]],
+			"ontology_id": "CHEMONTID:0000347",
+			"normalized_name": "Amino acids and derivatives",
+			"score": 1.0
+		},
+		{
+			"name": "sesquiterpenoids",
+			"spans": [
+				[4818, 4834],
+				[5390, 5406]
+			],
+			"ontology_id": "CHEMONTID:0001550",
+			"normalized_name": "Sesquiterpenoids",
+			"score": 1.0
+		},
+		{
+			"name": "steroidal saponins",
+			"spans": [
+				[4798, 4816],
+				[23346, 23364],
+				[26620, 26636],
+				[36813, 36831]
+			],
+			"ontology_id": "CHEMONTID:0002364",
+			"normalized_name": "Steroidal saponins",
+			"score": 0.9999998807907104,
+			"alt_names": ["steroid saponins"]
+		},
+		{
+			"name": "monoterpenoids",
+			"spans": [[5371, 5385]],
+			"ontology_id": "CHEMONTID:0001549",
+			"normalized_name": "Monoterpenoids",
+			"score": 1.0
+		},
+		{
+			"name": "plant hormones",
+			"spans": [[5511, 5525]]
+		},
+		{
+			"name": "phenylpropanoid",
+			"spans": [
+				[4616, 4631],
+				[23244, 23259],
+				[23473, 23488],
+				[23798, 23813],
+				[24956, 24971],
+				[39859, 39875]
+			],
+			"ontology_id": "CHEMONTID:0004559",
+			"normalized_name": "Avenanthramides",
+			"score": 1.0,
+			"alt_names": ["phenylpropanoids"]
+		},
+		{
+			"name": "abscisic acid",
+			"spans": [
+				[20074, 20087],
+				[33915, 33918],
+				[33992, 33995],
+				[35144, 35157],
+				[35159, 35162],
+				[41922, 41925],
+				[42080, 42083],
+				[42196, 42199],
+				[42307, 42310],
+				[43074, 43077]
+			],
+			"CID": 5280896,
+			"SMILES": "CC1=CC(=O)CC([C@]1(/C=C/C(=C\\C(=O)O)/C)O)(C)C",
+			"InChIKey": "JLIDBLDQVAYHNE-YKALOCIXSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Apocarotenoids(ε-)"],
+				"Np_superclass": ["Apocarotenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Sesquiterpenoids"
+			},
+			"alt_names": ["ABA"]
+		},
+		{
+			"name": "steroid",
+			"spans": [[22496, 22503]],
+			"ontology_id": "CHEMONTID:0000258",
+			"normalized_name": "Steroids and steroid derivatives",
+			"score": 0.9999998807907104
+		},
+		{
+			"name": "carotenoid",
+			"spans": [[22484, 22494]],
+			"ontology_id": "CHEMONTID:0001277",
+			"normalized_name": "Carotenoids",
+			"score": 1.0
+		},
+		{
+			"name": "phenylalanine",
+			"spans": [
+				[25006, 25019],
+				[26110, 26123]
+			],
+			"CID": 6140,
+			"SMILES": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+			"InChIKey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Aminoacids"],
+				"Np_superclass": ["Small peptides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic acids and derivatives",
+				"Class": "Carboxylic acids and derivatives",
+				"Subclass": "Amino acids, peptides, and analogues"
+			}
+		},
+		{
+			"name": "geranylgeranyl pyrophosphate",
+			"spans": [
+				[24760, 24788],
+				[26017, 26045]
+			],
+			"CID": 447277,
+			"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)/C)C",
+			"InChIKey": "OINNEUNVOZHBOX-QIRCYJPOSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Bactoprenols", "Farnesane sesquiterpenoids"],
+				"Np_superclass": ["Sesquiterpenoids", "Polyprenols"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Diterpenoids"
+			}
+		},
+		{
+			"name": "squalene",
+			"spans": [
+				[24538, 24546],
+				[26061, 26069],
+				[26085, 26093]
+			],
+			"CID": 638072,
+			"SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C=C(/CC/C=C(/CCC=C(C)C)\\C)\\C)/C)/C)C",
+			"InChIKey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Acyclic triterpenoids"],
+				"Np_superclass": ["Triterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Triterpenoids"
+			}
+		},
+		{
+			"name": "cinnamate",
+			"spans": [
+				[25041, 25050],
+				[26144, 26153]
+			],
+			"ontology_id": "CHEMONTID:0000465",
+			"normalized_name": "Coumaric acid esters",
+			"score": 0.946799635887146
+		},
+		{
+			"name": "4-coumaroyl-CoA",
+			"spans": [
+				[25076, 25091],
+				[26174, 26189]
+			],
+			"CID": 6440013,
+			"SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)/C=C/C4=CC=C(C=C4)O)O",
+			"InChIKey": "DMZOKBALNZWDKI-MATMFAIHSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "chalcone",
+			"spans": [
+				[26203, 26211],
+				[26227, 26235]
+			],
+			"ontology_id": "CHEMONTID:0003472",
+			"normalized_name": "2'-Hydroxychalcones",
+			"score": 0.9433363676071167
+		},
+		{
+			"name": "HMG-CoA",
+			"spans": [[25952, 25959]],
+			"CID": 445127,
+			"SMILES": "C[C@](CC(=O)O)(CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O",
+			"InChIKey": "CABVTRNMFUVUDM-VRHQGPGLSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Fatty acyl CoAs"],
+				"Np_superclass": ["Fatty esters"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acyl thioesters"
+			}
+		},
+		{
+			"name": "1-deoxyxylulose 5-phosphate",
+			"spans": [
+				[25864, 25891],
+				[25907, 25934]
+			]
+		},
+		{
+			"name": "farnesyl pyrophosphate",
+			"spans": [[25977, 25999]],
+			"CID": 445713,
+			"SMILES": "CC(=CCC/C(=C/CC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)/C)C",
+			"InChIKey": "VWFJDQUYCIWHTN-YFVJMOTDSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Farnesane sesquiterpenoids"],
+				"Np_superclass": ["Sesquiterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Sesquiterpenoids"
+			}
+		},
+		{
+			"name": "lanosterol",
+			"spans": [[26753, 26763]],
+			"CID": 246983,
+			"SMILES": "C[C@H](CCC=C(C)C)[C@H]1CC[C@@]2([C@@]1(CCC3=C2CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O)C)C)C",
+			"InChIKey": "CAHGCLMLTWQZNJ-BQNIITSRSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Lanostane, Tirucallane and Euphane triterpenoids"],
+				"Np_superclass": ["Triterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Hydroxysteroids"
+			}
+		},
+		{
+			"name": "beta-amyrin",
+			"spans": [[26781, 26792]],
+			"CID": 73145,
+			"SMILES": "C[C@@]12CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]1CC(CC2)(C)C)C",
+			"InChIKey": "JFSHUTJDVKUMTJ-QHPUVITPSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Oleanane triterpenoids"],
+				"Np_superclass": ["Triterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Triterpenoids"
+			}
+		},
+		{
+			"name": "diosgenin",
+			"spans": [
+				[27487, 27496],
+				[46109, 46118]
+			],
+			"CID": 99474,
+			"SMILES": "C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1",
+			"InChIKey": "WQLVFSAGQJTQCK-VKROHFNGSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Spirostane steroids"],
+				"Np_superclass": ["Steroids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Hydroxysteroids"
+			}
+		},
+		{
+			"name": "cycloartenol",
+			"spans": [[26723, 26735]],
+			"CID": 92110,
+			"SMILES": "C[C@H](CCC=C(C)C)[C@H]1CC[C@@]2([C@@]1(CC[C@]34[C@H]2CC[C@@H]5[C@]3(C4)CC[C@@H](C5(C)C)O)C)C",
+			"InChIKey": "ONQRKEUAIJMULO-YBXTVTTCSA-N",
+			"Natural_product_class": {
+				"Np_class": [
+					"Cycloartane triterpenoids",
+					"Lanostane, Tirucallane and Euphane triterpenoids"
+				],
+				"Np_superclass": ["Triterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Steroids and steroid derivatives",
+				"Subclass": "Cycloartanols and derivatives"
+			}
+		},
+		{
+			"name": "cis-trans-clerodienyl pyrophosphate",
+			"spans": [[29300, 29335]]
+		},
+		{
+			"name": "syn-pimarane",
+			"spans": [[28797, 28809]]
+		},
+		{
+			"name": "furanoditerpenoid",
+			"spans": [
+				[28814, 28831],
+				[48058, 48075]
+			]
+		},
+		{
+			"name": "syn-pimaradiene",
+			"spans": [[29653, 29668]],
+			"CID": 6432169,
+			"SMILES": "C[C@]1(CCC2C(=CCC3[C@@]2(CCCC3(C)C)C)C1)C=C",
+			"InChIKey": "VCOVNILQQQZROK-OTGCGEFBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Pimarane and Isopimarane diterpenoids"],
+				"Np_superclass": ["Diterpenoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Prenol lipids",
+				"Subclass": "Diterpenoids"
+			}
+		},
+		{
+			"name": "diterpenoid",
+			"spans": [
+				[30213, 30224],
+				[30468, 30479]
+			],
+			"ontology_id": "CHEMONTID:0000351",
+			"normalized_name": "Biflorane and serrulatane diterpenoids",
+			"score": 1.0
+		},
+		{
+			"name": "triterpenoids",
+			"spans": [
+				[33295, 33308],
+				[37141, 37154],
+				[46052, 46065],
+				[46574, 46587],
+				[46821, 46834],
+				[47338, 47351]
+			],
+			"ontology_id": "CHEMONTID:0001553",
+			"normalized_name": "Triterpenoids",
+			"score": 1.0
+		},
+		{
+			"name": "phospholipids",
+			"spans": [
+				[32834, 32847],
+				[33050, 33063],
+				[43248, 43261]
+			]
+		},
+		{
+			"name": "alcohols",
+			"spans": [[33756, 33764]],
+			"ontology_id": "CHEMONTID:0000129",
+			"normalized_name": "Alcohols and polyols",
+			"score": 0.9128007292747498
+		},
+		{
+			"name": "acids",
+			"spans": [[33746, 33751]]
+		},
+		{
+			"name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),14-triene",
+			"spans": [[35397, 35454]]
+		},
+		{
+			"name": "15,16-epoxy-2-oxo-5beta8alpha-cleroda-3,13(16),14-triene",
+			"spans": [[35480, 35536]]
+		},
+		{
+			"name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,15-olide",
+			"spans": [[35565, 35613]]
+		},
+		{
+			"name": "panicoloid B",
+			"spans": [
+				[35547, 35559],
+				[38660, 38672],
+				[48203, 48215],
+				[48580, 48592],
+				[48906, 48918]
+			]
+		},
+		{
+			"name": "panicoloid C",
+			"spans": [
+				[35624, 35636],
+				[38678, 38690],
+				[48220, 48232]
+			]
+		},
+		{
+			"name": "panicoloid A",
+			"spans": [
+				[35465, 35477],
+				[38646, 38658],
+				[48004, 48016]
+			]
+		},
+		{
+			"name": "sucrose",
+			"spans": [
+				[35132, 35139],
+				[42204, 42209],
+				[43062, 43069]
+			],
+			"CID": 5988,
+			"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+			"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Disaccharides"],
+				"Np_superclass": ["Saccharides"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Organic oxygen compounds",
+				"Class": "Organooxygen compounds",
+				"Subclass": "Ethers"
+			},
+			"alt_names": ["sugar"]
+		},
+		{
+			"name": "labdane-related diterpenoids",
+			"spans": [[37899, 37927]]
+		},
+		{
+			"name": "2-oxo-5alpha8alpha-cleroda-3,13-dien-16,l5-olide",
+			"spans": [[38573, 38621]]
+		},
+		{
+			"name": "15,16-epoxy-2-oxo-5alpha8alpha-cleroda-3,13(16),l4-triene",
+			"spans": [[38427, 38484]]
+		},
+		{
+			"name": "terpenoid metabolites",
+			"spans": [[36473, 36494]]
+		},
+		{
+			"name": "triterpenoid saponins",
+			"spans": [
+				[35922, 35943],
+				[36599, 36620],
+				[36691, 36712],
+				[44157, 44178],
+				[44546, 44567],
+				[44559, 44567],
+				[46139, 46160],
+				[46152, 46160],
+				[47223, 47231]
+			],
+			"ontology_id": "CHEMONTID:0002358",
+			"normalized_name": "Triterpene saponins",
+			"score": 0.9937528967857361,
+			"alt_names": ["saponins"]
+		},
+		{
+			"name": "panicoloid D",
+			"spans": [[39049, 39061]]
+		},
+		{
+			"name": "flavonoid glycosides",
+			"spans": [
+				[36224, 36244],
+				[43941, 43961]
+			],
+			"ontology_id": "CHEMONTID:0001111",
+			"normalized_name": "Flavonoid glycosides",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "switchgrass furanoditerpenoids",
+			"spans": [[39138, 39168]]
+		},
+		{
+			"name": "benzoxazinoids",
+			"spans": [[39892, 39906]],
+			"ontology_id": "CHEMONTID:0001396",
+			"normalized_name": "Benzoxazines",
+			"score": 0.9360015392303467
+		},
+		{
+			"name": "oxylipins",
+			"spans": [[39877, 39886]],
+			"CID": 44581450,
+			"SMILES": "CCCCC/C=C\\C=C\\C(C/C=C\\C/C=C\\C/C=C\\CCCCC(=O)O)O",
+			"InChIKey": "WCPFNHAOKQUJEV-YQUHDJBSSA-N",
+			"Natural_product_class": {
+				"Np_class": ["Hydroxy-hydroperoxyeicosatetraenoic acids"],
+				"Np_superclass": ["Eicosanoids"]
+			},
+			"Classyfire": {
+				"Kingdom": "Organic compounds",
+				"Superclass": "Lipids and lipid-like molecules",
+				"Class": "Fatty Acyls",
+				"Subclass": "Fatty acids and conjugates"
+			}
+		},
+		{
+			"name": "diterpenoid metabolites",
+			"spans": [[40467, 40490]]
+		},
+		{
+			"name": "sterol 3-beta-glucosyltransferases",
+			"spans": [[45889, 45923]]
+		},
+		{
+			"name": "terpenoid precursors",
+			"spans": [[44858, 44878]]
+		},
+		{
+			"name": "kauralexin",
+			"spans": [
+				[50228, 50238],
+				[50724, 50734]
+			]
+		},
+		{
+			"name": "oxygenated clerodane furanoditerpenoids",
+			"spans": [[47952, 47991]]
+		},
+		{
+			"name": "dolabralexin",
+			"spans": [
+				[50243, 50255],
+				[50740, 50752]
+			]
+		},
+		{
+			"name": "specialized metabolites",
+			"spans": [[51427, 51450]]
+		}
+	],
+	"pathways": [
+		{
+			"name": "diterpenoid-biosynthetic",
+			"spans": [[1059, 1083]]
+		},
+		{
+			"name": "amino acid metabolism",
+			"spans": [
+				[1027, 1048],
+				[22450, 22471]
+			]
+		},
+		{
+			"name": "phenylpropanoid pathways",
+			"spans": [
+				[1189, 1213],
+				[22509, 22537],
+				[23473, 23507]
+			],
+			"ontology_id": "PWY-2181",
+			"normalized_name": "free phenylpropanoid acid biosynthesis",
+			"score": 0.8429077863693237,
+			"alt_names": [
+				"phenylpropanoid biosynthesis",
+				"phenylpropanoid-metabolic pathways"
+			]
+		},
+		{
+			"name": "terpenoid-metabolic",
+			"spans": [[4927, 4946]]
+		},
+		{
+			"name": "nitrogen metabolism",
+			"spans": [[22212, 22231]]
+		},
+		{
+			"name": "plant signal transduction process",
+			"spans": [[21999, 22032]]
+		},
+		{
+			"name": "endoplasmic reticulum protein processing",
+			"spans": [[22167, 22207]]
+		},
+		{
+			"name": "carbohydrate metabolism",
+			"spans": [
+				[21427, 21450],
+				[21582, 21605]
+			]
+		},
+		{
+			"name": "KEGG pathway",
+			"spans": [[22998, 23010]]
+		},
+		{
+			"name": "kegg pathways",
+			"spans": [[22998, 23011]]
+		},
+		{
+			"name": "methylerythritol phosphate (MEP) pathway",
+			"spans": [[24323, 24363]],
+			"ontology_id": "NONMEVIPP-PWY",
+			"normalized_name": "methylerythritol phosphate pathway I",
+			"score": 0.8915464282035828
+		},
+		{
+			"name": "phenylpropanoid metabolism",
+			"spans": [
+				[23244, 23270],
+				[24956, 24982]
+			]
+		},
+		{
+			"name": "terpenoid backbone biosynthesis",
+			"spans": [[25360, 25391]],
+			"ontology_id": "PWY-3041",
+			"normalized_name": "monoterpene biosynthesis",
+			"score": 0.8049432635307312
+		},
+		{
+			"name": "flavonoid backbone biosynthesis",
+			"spans": [[25400, 25431]],
+			"ontology_id": "PWY1F-FLAVSYN",
+			"normalized_name": "flavonoid biosynthesis",
+			"score": 0.9351024627685547
+		},
+		{
+			"name": "triterpenoid metabolism",
+			"spans": [[26950, 26973]]
+		},
+		{
+			"name": "biosynthesis of triterpenoid saponins",
+			"spans": [[27441, 27478]]
+		},
+		{
+			"name": "triterpenoid biosynthesis",
+			"spans": [[27840, 27865]]
+		},
+		{
+			"name": "diterpenoid pathway",
+			"spans": [[30018, 30037]]
+		},
+		{
+			"name": "diterpenoid biosynthesis",
+			"spans": [[30213, 30237]],
+			"ontology_id": "PWY-2981",
+			"normalized_name": "diterpene phytoalexins precursors biosynthesis",
+			"score": 0.8109759092330933
+		},
+		{
+			"name": "specialized metabolism",
+			"spans": [[42860, 42882]]
+		},
+		{
+			"name": "cell wall biosynthesis",
+			"spans": [[43400, 43422]]
+		},
+		{
+			"name": "membrane lipid systems",
+			"spans": [[43373, 43395]]
+		},
+		{
+			"name": "MVA pathway",
+			"spans": [[44696, 44707]],
+			"ontology_id": "PWY-922",
+			"normalized_name": "mevalonate pathway I (eukaryotes and bacteria)",
+			"score": 0.8044727444648743
+		},
+		{
+			"name": "triterpenoid-biosynthetic gene clusters",
+			"spans": [[45490, 45529]]
+		},
+		{
+			"name": "triterpenoid pathways",
+			"spans": [[46463, 46484]]
+		},
+		{
+			"name": "triterpenoid-metabolic pathway",
+			"spans": [[45390, 45420]]
+		},
+		{
+			"name": "terpenoid backbone pathways",
+			"spans": [[45145, 45172]]
+		},
+		{
+			"name": "plant specialized pathways",
+			"spans": [[51011, 51037]]
+		}
+	],
+	"anatomical_structures": [
+		{
+			"name": "root",
+			"spans": [
+				[1355, 1359],
+				[1793, 1797],
+				[31205, 31209],
+				[47333, 47337],
+				[50625, 50629]
+			],
+			"ontology_id": "PO:0009005",
+			"normalized_name": "root",
+			"score": 1.0000001192092896
+		},
+		{
+			"name": "roots",
+			"spans": [
+				[1135, 1140],
+				[5219, 5224],
+				[5448, 5453],
+				[16720, 16725],
+				[16747, 16752],
+				[17870, 17875],
+				[18131, 18136],
+				[18225, 18230],
+				[18480, 18485],
+				[18581, 18586],
+				[18756, 18761],
+				[18901, 18906],
+				[19865, 19870],
+				[21470, 21475],
+				[21505, 21510],
+				[22312, 22317],
+				[24466, 24471],
+				[24636, 24641],
+				[24873, 24878],
+				[25140, 25145],
+				[27303, 27308],
+				[28425, 28430],
+				[28528, 28533],
+				[29289, 29294],
+				[29712, 29717],
+				[29962, 29967],
+				[30923, 30928],
+				[31026, 31031],
+				[32585, 32590],
+				[33439, 33444],
+				[33846, 33851],
+				[35682, 35687],
+				[36046, 36051],
+				[36862, 36867],
+				[37278, 37283],
+				[37518, 37523],
+				[38092, 38097],
+				[44672, 44677],
+				[45012, 45017],
+				[45341, 45346],
+				[46164, 46169],
+				[46838, 46843],
+				[47421, 47426],
+				[49201, 49206]
+			],
+			"ontology_id": "PO:0025025",
+			"normalized_name": "root system",
+			"score": 0.9691017270088196
+		},
+		{
+			"name": "leaf",
+			"spans": [
+				[4093, 4097],
+				[5208, 5214],
+				[5437, 5443],
+				[15794, 15798],
+				[16677, 16683],
+				[16702, 16708],
+				[17892, 17898],
+				[18154, 18160],
+				[18235, 18241],
+				[18469, 18475],
+				[18570, 18576],
+				[18767, 18773],
+				[18891, 18897],
+				[21335, 21341],
+				[21636, 21642],
+				[22104, 22110],
+				[24433, 24439],
+				[24602, 24608],
+				[25161, 25167],
+				[27237, 27243],
+				[28338, 28344],
+				[28478, 28484],
+				[30062, 30068],
+				[30836, 30842],
+				[30976, 30982],
+				[31196, 31200],
+				[32550, 32556],
+				[32720, 32726],
+				[33103, 33109],
+				[33214, 33220],
+				[33835, 33841],
+				[36099, 36103],
+				[36264, 36270],
+				[36739, 36745],
+				[36848, 36854],
+				[43024, 43028],
+				[43290, 43296],
+				[43936, 43940],
+				[44210, 44216],
+				[44265, 44269],
+				[44518, 44524],
+				[45330, 45336]
+			],
+			"ontology_id": "PO:0025034",
+			"normalized_name": "leaf",
+			"score": 0.9999999403953552,
+			"alt_names": ["leaves"]
+		},
+		{
+			"name": "rhizosheath",
+			"spans": [[4243, 4254]]
+		},
+		{
+			"name": "root tissue",
+			"spans": [
+				[15803, 15814],
+				[36323, 36334],
+				[43033, 43044]
+			],
+			"ontology_id": "PO:0025095",
+			"normalized_name": "root parenchyma",
+			"score": 0.9079657196998596
+		},
+		{
+			"name": "tissues",
+			"spans": [
+				[31614, 31621],
+				[40879, 40885]
+			],
+			"ontology_id": "PO:0009007",
+			"normalized_name": "portion of plant tissue",
+			"score": 0.9782681465148926,
+			"alt_names": ["tissue"]
+		},
+		{
+			"name": "membrane",
+			"spans": [
+				[43373, 43381],
+				[43574, 43582]
+			]
+		},
+		{
+			"name": "cell wall",
+			"spans": [[43400, 43409]]
+		},
+		{
+			"name": "leaf cuticular waxes",
+			"spans": [[44265, 44285]]
+		}
+	],
+	"human_traits": [
+		{
+			"name": "agroeconomic value",
+			"spans": [[2607, 2625]]
+		},
+		{
+			"name": "biofuel",
+			"spans": [[6269, 6276]]
+		},
+		{
+			"name": "harvest loss",
+			"spans": [[39651, 39663]]
+		}
+	],
+	"genes": [
+		{
+			"name": "terpene synthase (TPS)",
+			"spans": [[4947, 4969]]
+		},
+		{
+			"name": "cytochrome P450 monooxygenase (P450)",
+			"spans": [[4974, 5010]]
+		},
+		{
+			"name": "Pavir.9NG018700",
+			"spans": [[20343, 20358]]
+		},
+		{
+			"name": "caspases",
+			"spans": [[20726, 20734]]
+		},
+		{
+			"name": "Pavir.9NG553200",
+			"spans": [[19556, 19571]]
+		},
+		{
+			"name": "Pavir.2NG274300",
+			"spans": [[20315, 20330]]
+		},
+		{
+			"name": "Pavir.5NG603383",
+			"spans": [[19613, 19628]]
+		},
+		{
+			"name": "dehydrin",
+			"spans": [
+				[19889, 19897],
+				[41608, 41616]
+			]
+		},
+		{
+			"name": "AWPM19-like",
+			"spans": [
+				[20035, 20046],
+				[20248, 20259],
+				[20413, 20424]
+			]
+		},
+		{
+			"name": "proteases",
+			"spans": [[20739, 20748]]
+		},
+		{
+			"name": "4-coumaroyl-CoA ligase (4CL)",
+			"spans": [[25076, 25104]]
+		},
+		{
+			"name": "1-deoxyxylulose 5-phosphate synthase (DXS)",
+			"spans": [[24267, 24309]]
+		},
+		{
+			"name": "Pavir.3KG128241",
+			"spans": [[24379, 24394]]
+		},
+		{
+			"name": "cinnamate-4-hydroxylase (C4H)",
+			"spans": [[25041, 25070]]
+		},
+		{
+			"name": "phenylalanine ammonia lyase (PAL)",
+			"spans": [[25006, 25039]]
+		},
+		{
+			"name": "Pavir.6Ng089000",
+			"spans": [
+				[24807, 24822],
+				[44947, 44962]
+			]
+		},
+		{
+			"name": "squalene synthase",
+			"spans": [[24538, 24555]]
+		},
+		{
+			"name": "Pavir.3NG140939",
+			"spans": [[24399, 24414]]
+		},
+		{
+			"name": "geranylgeranyl pyrophosphate synthase (GGPPS)",
+			"spans": [[24760, 24805]]
+		},
+		{
+			"name": "Pavir.4NG340500",
+			"spans": [[24557, 24572]]
+		},
+		{
+			"name": "SQE",
+			"spans": [[26080, 26083]]
+		},
+		{
+			"name": "DXS",
+			"spans": [[25859, 25862]]
+		},
+		{
+			"name": "SQS",
+			"spans": [[26056, 26059]]
+		},
+		{
+			"name": "C4H",
+			"spans": [[26139, 26142]]
+		},
+		{
+			"name": "CHI",
+			"spans": [[26222, 26225]]
+		},
+		{
+			"name": "HMGR",
+			"spans": [[25946, 25950]]
+		},
+		{
+			"name": "PAL",
+			"spans": [[26105, 26108]]
+		},
+		{
+			"name": "FPPS",
+			"spans": [[25971, 25975]]
+		},
+		{
+			"name": "CHS",
+			"spans": [
+				[26198, 26201],
+				[44100, 44103]
+			]
+		},
+		{
+			"name": "DXR",
+			"spans": [[25902, 25905]]
+		},
+		{
+			"name": "4CL",
+			"spans": [[26169, 26172]]
+		},
+		{
+			"name": "GGPPS",
+			"spans": [
+				[26010, 26015],
+				[44940, 44945]
+			]
+		},
+		{
+			"name": "TTS",
+			"spans": [
+				[27147, 27150],
+				[27330, 27333]
+			]
+		},
+		{
+			"name": "CYP72A",
+			"spans": [
+				[27173, 27179],
+				[27383, 27389]
+			]
+		},
+		{
+			"name": "beta-amyrin synthases",
+			"spans": [
+				[26781, 26802],
+				[26804, 26807]
+			],
+			"alt_names": ["BAS"]
+		},
+		{
+			"name": "lanosterol synthases",
+			"spans": [
+				[26753, 26773],
+				[26775, 26778]
+			],
+			"alt_names": ["LAS"]
+		},
+		{
+			"name": "sterol 3-beta-glucosyltransferases",
+			"spans": [[26891, 26925]]
+		},
+		{
+			"name": "CAS",
+			"spans": [[26747, 26750]]
+		},
+		{
+			"name": "CYP94D",
+			"spans": [
+				[26855, 26861],
+				[27391, 27397],
+				[45954, 45960]
+			]
+		},
+		{
+			"name": "cycloartenol synthases",
+			"spans": [[26723, 26745]]
+		},
+		{
+			"name": "CYP71A",
+			"spans": [
+				[26836, 26842],
+				[45946, 45952]
+			]
+		},
+		{
+			"name": "CYP90B",
+			"spans": [
+				[26844, 26850],
+				[27402, 27408],
+				[45965, 45971]
+			]
+		},
+		{
+			"name": "triterpenoid synthase",
+			"spans": [[27124, 27145]]
+		},
+		{
+			"name": "CYP71Z25",
+			"spans": [
+				[29379, 29387],
+				[48506, 48514]
+			]
+		},
+		{
+			"name": "PvCPS9",
+			"spans": [
+				[29570, 29576],
+				[49296, 49302]
+			]
+		},
+		{
+			"name": "PvKSL4",
+			"spans": [
+				[29620, 29626],
+				[49380, 49386]
+			]
+		},
+		{
+			"name": "PvKSL5",
+			"spans": [
+				[29631, 29637],
+				[49388, 49394]
+			]
+		},
+		{
+			"name": "CYP71Z26",
+			"spans": [
+				[29389, 29397],
+				[48516, 48524]
+			]
+		},
+		{
+			"name": "PvCPS1",
+			"spans": [
+				[29352, 29358],
+				[48337, 48343],
+				[48480, 48486]
+			]
+		},
+		{
+			"name": "PvCPS10",
+			"spans": [
+				[29581, 29588],
+				[49304, 49311]
+			]
+		},
+		{
+			"name": "CYP71Z28",
+			"spans": [
+				[29403, 29411],
+				[48529, 48537]
+			]
+		},
+		{
+			"name": "Pavir.8KG003520",
+			"spans": [[41768, 41783]]
+		},
+		{
+			"name": "AWPM-19-like ABA influx transporters",
+			"spans": [[41909, 41945]]
+		},
+		{
+			"name": "LEA genes",
+			"spans": [[41587, 41596]]
+		},
+		{
+			"name": "AWPM-19-like genes",
+			"spans": [[41996, 42014]]
+		},
+		{
+			"name": "P450 genes",
+			"spans": [[45928, 45938]]
+		},
+		{
+			"name": "TTS genes",
+			"spans": [[45868, 45877]]
+		},
+		{
+			"name": "diTPS",
+			"spans": [
+				[48289, 48294],
+				[48474, 48479],
+				[49339, 49344]
+			]
+		},
+		{
+			"name": "CYP99",
+			"spans": [[48653, 48658]]
+		},
+		{
+			"name": "an2",
+			"spans": [[50769, 50772]]
+		}
+	],
+	"molecular_traits": [
+		{
+			"name": "electron carrier processes",
+			"spans": [[21358, 21384]],
+			"ontology_id": "GO:0009055",
+			"normalized_name": "electron transfer activity",
+			"score": 0.8871889710426331
+		},
+		{
+			"name": "hydrolase activities",
+			"spans": [[21697, 21717]],
+			"ontology_id": "GO:0016787",
+			"normalized_name": "hydrolase activity",
+			"score": 0.9935795068740845
+		},
+		{
+			"name": "DNA-binding",
+			"spans": [
+				[21342, 21353],
+				[21681, 21692]
+			],
+			"ontology_id": "GO:0003677",
+			"normalized_name": "DNA binding",
+			"score": 0.9969567060470581
+		},
+		{
+			"name": "transcript abundance",
+			"spans": [[23743, 23763]]
+		},
+		{
+			"name": "gene expression",
+			"spans": [
+				[24184, 24199],
+				[24617, 24632],
+				[24909, 24924],
+				[25294, 25309],
+				[25570, 25585],
+				[28182, 28197]
+			]
+		},
+		{
+			"name": "differential expression",
+			"spans": [[41961, 41984]]
+		},
+		{
+			"name": "antioxidant functions",
+			"spans": [[46594, 46615]],
+			"ontology_id": "GO:0016209",
+			"normalized_name": "antioxidant activity",
+			"score": 0.938340961933136
+		}
+	]
 }
