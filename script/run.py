@@ -72,7 +72,6 @@ async def process_passage_for_ner(semaphore, body, client):
                 logging.error(f"An unexpected error occurred while processing a passage: {e}")
                 return None # Or handle as appropriate
 
-# TODO: add retry logic when validation error happens
 async def process_pair_for_re(semaphore, body, client):
     """Helper function to process a single entity pair with semaphore and retry logic."""
     MAX_RETRIES = 5

@@ -12,6 +12,7 @@ compounds: betalamic acid
 compounds: betanin
 compounds: betaxanthins
 compounds: caffeine
+compounds: flavonoid
 compounds: isobetanin
 compounds: l-3,4-dihydroxyphenylalanine
 compounds: l-dopa
@@ -68,6 +69,7 @@ pathways: flavonoid pathway
 plant_traits: anthocyanin pigmentation
 plant_traits: betacyanin pigmentation
 plant_traits: betalain pigmentation
+plant_traits: pigmentation
 species: a. hypochondriacus
 species: amaranthus hypochondriacus
 species: b. vulgaris
