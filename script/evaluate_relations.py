@@ -58,6 +58,10 @@ def main():
             gs_df['object_alt_names'] = ''
         gs_df['object_alt_names'] = gs_df['object_alt_names'].fillna('')
 
+        # Convert empty/NaN relations to 'No_Relationship'
+        gs_df['actual_relation'] = gs_df['actual_relation'].fillna('No_Relationship')
+        gs_df['actual_relation'] = gs_df['actual_relation'].replace('', 'No_Relationship')
+        
         logging.info(f"Successfully loaded {len(gs_df)} gold standard relations.")
     except FileNotFoundError:
         logging.error(f"Gold standard file not found at: {GOLD_STANDARD_FILE}")
