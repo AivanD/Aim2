@@ -1,0 +1,1299 @@
+{
+	"relations": [
+		{
+			"subject_entity": {
+				"CID": 5281166,
+				"name": "jasmonate",
+				"spans": [
+					[1567, 1576],
+					[1586, 1588],
+					[1620, 1622],
+					[1707, 1709],
+					[4020, 4022],
+					[7685, 7694],
+					[31289, 31291],
+					[31362, 31364],
+					[31790, 31792],
+					[31843, 31852],
+					[32004, 32006],
+					[32915, 32917],
+					[33551, 33560],
+					[34595, 34604],
+					[34854, 34863],
+					[34901, 34910],
+					[35003, 35005],
+					[35073, 35075],
+					[35346, 35355],
+					[35412, 35414],
+					[35419, 35421],
+					[35475, 35484],
+					[35597, 35599],
+					[35661, 35663],
+					[35846, 35848],
+					[35854, 35856],
+					[39779, 39788],
+					[39809, 39818],
+					[41174, 41176],
+					[44173, 44175],
+					[48211, 48213],
+					[48215, 48217],
+					[48235, 48237],
+					[48342, 48344],
+					[48779, 48781],
+					[48924, 48926],
+					[48943, 48945],
+					[49058, 49060],
+					[49081, 49083],
+					[49199, 49201],
+					[49311, 49313],
+					[50632, 50634],
+					[50691, 50693],
+					[50717, 50719],
+					[50800, 50802],
+					[50943, 50945],
+					[51066, 51068],
+					[51087, 51089],
+					[51191, 51193],
+					[51537, 51539],
+					[51596, 51598],
+					[51699, 51701],
+					[51845, 51847],
+					[52454, 52456],
+					[53566, 53575]
+				],
+				"SMILES": "CC/C=C\\C[C@@H]1[C@H](CCC1=O)CC(=O)O",
+				"InChIKey": "ZNJFBWYDHIGLCU-HWKXXFMVSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["JA"]
+			},
+			"predicate": "correlates_with",
+			"object_entity": {
+				"name": "AOC",
+				"spans": [
+					[35036, 35039],
+					[35265, 35268]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "simulated herbivory significantly induced most JA biosynthetic genes (LOX, AOS, AOC, OPR, OPCL1, ACX, MFP2, PKT) and JA signaling genes (JAR, JAZ, MYC2) in plants under CT (Fig. 4A)",
+			"context": "The herbivory-induced transcript levels of different jasmonate biosynthesis and signaling genes and jasmonate levels were affected by HT.\nWe observed that simulated herbivory significantly induced most JA biosynthetic genes (LOX, AOS, AOC, OPR, OPCL1, ACX, MFP2, PKT) and JA signaling genes (JAR, JAZ, MYC2) in plants under CT (Fig. 4A).\nSimulated herbivory also induces these genes on plants under HT, albeit to a lesser extent than in CT plants, especially LOX, AOC, and AOS genes."
+		},
+		{
+			"subject_entity": {
+				"CID": 5281166,
+				"name": "jasmonate",
+				"spans": [
+					[1567, 1576],
+					[1586, 1588],
+					[1620, 1622],
+					[1707, 1709],
+					[4020, 4022],
+					[7685, 7694],
+					[31289, 31291],
+					[31362, 31364],
+					[31790, 31792],
+					[31843, 31852],
+					[32004, 32006],
+					[32915, 32917],
+					[33551, 33560],
+					[34595, 34604],
+					[34854, 34863],
+					[34901, 34910],
+					[35003, 35005],
+					[35073, 35075],
+					[35346, 35355],
+					[35412, 35414],
+					[35419, 35421],
+					[35475, 35484],
+					[35597, 35599],
+					[35661, 35663],
+					[35846, 35848],
+					[35854, 35856],
+					[39779, 39788],
+					[39809, 39818],
+					[41174, 41176],
+					[44173, 44175],
+					[48211, 48213],
+					[48215, 48217],
+					[48235, 48237],
+					[48342, 48344],
+					[48779, 48781],
+					[48924, 48926],
+					[48943, 48945],
+					[49058, 49060],
+					[49081, 49083],
+					[49199, 49201],
+					[49311, 49313],
+					[50632, 50634],
+					[50691, 50693],
+					[50717, 50719],
+					[50800, 50802],
+					[50943, 50945],
+					[51066, 51068],
+					[51087, 51089],
+					[51191, 51193],
+					[51537, 51539],
+					[51596, 51598],
+					[51699, 51701],
+					[51845, 51847],
+					[52454, 52456],
+					[53566, 53575]
+				],
+				"SMILES": "CC/C=C\\C[C@@H]1[C@H](CCC1=O)CC(=O)O",
+				"InChIKey": "ZNJFBWYDHIGLCU-HWKXXFMVSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["JA"]
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "untreated",
+				"spans": [
+					[31622, 31631],
+					[32457, 32466]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30).",
+			"context": "The JA signaling was correlated with plant defense against P. operculella on JA-reduced and on MeJA-treated potato plants. The detached leaf bioassays revealed that, compared to WT, P. operculella larvae accumulated more biomass on irAOC plants (Fig. 3A). In contrast, P. operculella larvae accumulated less biomass on MeJA-treated than untreated plants (Fig. 3B). WGCNA analysis revealed four co-expression gene modules (M1-M4) (Fig. 3C). Among them, module M1 was more correlated with herbivory-induced JA levels (Fig. 3D). A total of 1258 genes, or early jasmonate-associated genes, compose this module. A total of 2865 and 534 genes, were related to primary metabolism and specialized metabolism, respectively.\nJA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": 5281166,
+				"name": "jasmonate",
+				"spans": [
+					[1567, 1576],
+					[1586, 1588],
+					[1620, 1622],
+					[1707, 1709],
+					[4020, 4022],
+					[7685, 7694],
+					[31289, 31291],
+					[31362, 31364],
+					[31790, 31792],
+					[31843, 31852],
+					[32004, 32006],
+					[32915, 32917],
+					[33551, 33560],
+					[34595, 34604],
+					[34854, 34863],
+					[34901, 34910],
+					[35003, 35005],
+					[35073, 35075],
+					[35346, 35355],
+					[35412, 35414],
+					[35419, 35421],
+					[35475, 35484],
+					[35597, 35599],
+					[35661, 35663],
+					[35846, 35848],
+					[35854, 35856],
+					[39779, 39788],
+					[39809, 39818],
+					[41174, 41176],
+					[44173, 44175],
+					[48211, 48213],
+					[48215, 48217],
+					[48235, 48237],
+					[48342, 48344],
+					[48779, 48781],
+					[48924, 48926],
+					[48943, 48945],
+					[49058, 49060],
+					[49081, 49083],
+					[49199, 49201],
+					[49311, 49313],
+					[50632, 50634],
+					[50691, 50693],
+					[50717, 50719],
+					[50800, 50802],
+					[50943, 50945],
+					[51066, 51068],
+					[51087, 51089],
+					[51191, 51193],
+					[51537, 51539],
+					[51596, 51598],
+					[51699, 51701],
+					[51845, 51847],
+					[52454, 52456],
+					[53566, 53575]
+				],
+				"SMILES": "CC/C=C\\C[C@@H]1[C@H](CCC1=O)CC(=O)O",
+				"InChIKey": "ZNJFBWYDHIGLCU-HWKXXFMVSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["JA"]
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "poor-nutrient foliage",
+				"spans": [[52160, 52181]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "Similar results were reported in recent studies that the defense mechanism of plants against insect pests is diminished by climate change in aspects of warming-mediated host-plant quality such as poor-nutrient foliage, decreased defensive compounds, and increased sensitivity to attacks.",
+			"context": "To gain insight into the suppression of JA-regulated defense responses associated with increased P. operculella larval weight gain under high temperature, we used JA-reduced irAOC and JA-Ile-elevated irCYP94B3s mutants in insect detached leaf bioassays to investigate the contribution of JA signaling in this context. Firstly, we observed that P. operculella larvae reared on WT leaves previously subjected to insect herbivory accumulated more biomass under high temperature than control temperature. However, this difference between the two temperature regimes was eliminated when the larvae were grown on herbivory-induced detached JA-reduced leaves. Secondly, unlike the reduced biomass on JA-Ile-elevated plants under control temperature, P. operculella larvae accumulated similar biomass on JA-Ile-elevated plants with WT plants under high temperature. We concluded that high temperature diminished plants' herbivory-induced defense and JA signaling participated in this regulation; thus leading to higher biomass of P. operculella under high temperature. Similar results were reported in recent studies that the defense mechanism of plants against insect pests is diminished by climate change in aspects of warming-mediated host-plant quality such as poor-nutrient foliage, decreased defensive compounds, and increased sensitivity to attacks. Future research efforts should focus on strategies to enhance crop defenses against herbivores in warming ecosystems."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "JA-Ile",
+				"spans": [
+					[1620, 1626],
+					[35419, 35425],
+					[35854, 35860],
+					[49058, 49064],
+					[49081, 49087],
+					[51087, 51093],
+					[51596, 51602],
+					[51699, 51705]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "negatively_regulated_by",
+			"object_entity": {
+				"name": "warming-mediated",
+				"spans": [[52116, 52132]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "Similar results were reported in recent studies that the defense mechanism of plants against insect pests is diminished by climate change in aspects of warming-mediated host-plant quality such as poor-nutrient foliage, decreased defensive compounds, and increased sensitivity to attacks.",
+			"context": "To gain insight into the suppression of JA-regulated defense responses associated with increased P. operculella larval weight gain under high temperature, we used JA-reduced irAOC and JA-Ile-elevated irCYP94B3s mutants in insect detached leaf bioassays to investigate the contribution of JA signaling in this context. Firstly, we observed that P. operculella larvae reared on WT leaves previously subjected to insect herbivory accumulated more biomass under high temperature than control temperature. However, this difference between the two temperature regimes was eliminated when the larvae were grown on herbivory-induced detached JA-reduced leaves. Secondly, unlike the reduced biomass on JA-Ile-elevated plants under control temperature, P. operculella larvae accumulated similar biomass on JA-Ile-elevated plants with WT plants under high temperature. We concluded that high temperature diminished plants' herbivory-induced defense and JA signaling participated in this regulation; thus leading to higher biomass of P. operculella under high temperature. Similar results were reported in recent studies that the defense mechanism of plants against insect pests is diminished by climate change in aspects of warming-mediated host-plant quality such as poor-nutrient foliage, decreased defensive compounds, and increased sensitivity to attacks. Future research efforts should focus on strategies to enhance crop defenses against herbivores in warming ecosystems."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "volatile organic compounds",
+				"spans": [
+					[6776, 6802],
+					[49833, 49859]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "JA-signaling",
+				"spans": [
+					[50632, 50644],
+					[50800, 50812]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "plants may differentially regulate the production of volatile and nonvolatile secondary compounds under elevated temperature... We propose that this suppression is related to the JA-signaling in potato plants",
+			"context": "In our study, high temperature suppressed the herbivory-induced accumulation of jasmonates, primary and specialized metabolites in potato plants. The decrease in soluble sugar level and transcript accumulation is possibly attributed to a reduction in photosynthesis parameters due to stomata closure under elevated temperature. Also, our previous research show that the emission of the volatile organic compounds (VOCs) in potato (cv. Lishu 6) leaves were enhanced by high temperature treatment, which subsequently affected the plants' attractiveness to the P. operculella and its egg parasitoid wasp. This distinction might be due to the use of different cultivars, whilst it is also possible that plants may differentially regulate the production of volatile and nonvolatile secondary compounds under elevated temperature. While the alteration of levels of herbivory-induced secondary metabolites (i.e.: polyphenol oxidase and glucosinolates) by high temperature have been found in many plants including tomato and watermelon, evidence for the suppression of herbivory-induced primary metabolism by high temperature remains scarce. We propose that this suppression is related to the JA-signaling in potato plants, since the herbivory-induced JA biosynthetic genes and JA accumulations were suppressed by high temperature. However, whether suppressing JA-signaling could benefit the plant response to high temperature remains to be clarified in future."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "phenolics",
+				"spans": [[6420, 6429]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "leaves",
+				"spans": [
+					[832, 838],
+					[900, 906],
+					[7001, 7007],
+					[11414, 11420],
+					[11482, 11488],
+					[11762, 11768],
+					[11883, 11889],
+					[28454, 28458],
+					[28559, 28565],
+					[28610, 28616],
+					[28681, 28687],
+					[28790, 28796],
+					[28910, 28916],
+					[31421, 31425],
+					[39744, 39748],
+					[39934, 39940],
+					[39992, 39998],
+					[40070, 40076],
+					[40179, 40185],
+					[40391, 40397],
+					[40584, 40590],
+					[40705, 40711],
+					[40847, 40853],
+					[41030, 41036],
+					[41487, 41493],
+					[42555, 42561],
+					[49891, 49897],
+					[51141, 51145],
+					[53777, 53781]
+				],
+				"ontology_id": "PO:0025034",
+				"normalized_name": "leaf",
+				"score": 0.9324457049369812,
+				"alt_names": ["leaf"]
+			},
+			"category": "anatomical_structures",
+			"justification": "the concentration of many specialized metabolites, including flavonoids, phenolics, and terpenoids, are altered in plants grown under high temperatures",
+			"context": "Extreme temperature also significantly impacts plant metabolism, and in turn, modulates plant-herbivore interactions. For instance, the concentration of many specialized metabolites, including flavonoids, phenolics, and terpenoids, are altered in plants grown under high temperatures, which subsequently affects the performance of herbivores on plants. This is partially attributed to high temperature-driven modification of the activity of plant enzymes responsible for the biosynthesis of these metabolites. Apart from endogenous metabolites, the emission of volatile organic compounds is also modulated by temperature. In potato, a cool-weather crop, for instance, high temperature enhances the emission of one key volatile organic compound (ss-caryophyllene) from herbivory-induced leaves, which reduces the attractiveness of this plant to P. operculella adult moths but enhances its recruitment to the parasitoid wasp Trichogramma chilonis of this pest, indicating that temperature can affect potato's induced defenses against these insects."
+		},
+		{
+			"subject_entity": {
+				"CID": 5319693,
+				"name": "MeJA",
+				"spans": [
+					[31380, 31384],
+					[31604, 31608],
+					[32481, 32485],
+					[47417, 47421],
+					[48729, 48733],
+					[49117, 49121]
+				],
+				"SMILES": "CC/C=C\\CC1C(CCC1=O)CC(=O)OC",
+				"InChIKey": "GEWDNTWNSAZUDX-PLNGDYQASA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "untreated",
+				"spans": [
+					[31622, 31631],
+					[32457, 32466]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30).",
+			"context": "The detached leaf bioassays revealed that, compared to WT, P. operculella larvae accumulated more biomass on irAOC plants (Fig. 3A).\nIn contrast, P. operculella larvae accumulated less biomass on MeJA-treated than untreated plants (Fig. 3B).\nWGCNA analysis revealed four co-expression gene modules (M1-M4) (Fig. 3C).\n(A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30).\n(B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30).\nLetters indicate the statistically significant differences (P < 0.05)."
+		},
+		{
+			"subject_entity": {
+				"CID": 5319693,
+				"name": "MeJA",
+				"spans": [
+					[31380, 31384],
+					[31604, 31608],
+					[32481, 32485],
+					[47417, 47421],
+					[48729, 48733],
+					[49117, 49121]
+				],
+				"SMILES": "CC/C=C\\CC1C(CCC1=O)CC(=O)OC",
+				"InChIKey": "GEWDNTWNSAZUDX-PLNGDYQASA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "differential expression",
+				"spans": [[33181, 33204]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05).",
+			"context": "JA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": 5319693,
+				"name": "MeJA",
+				"spans": [
+					[31380, 31384],
+					[31604, 31608],
+					[32481, 32485],
+					[47417, 47421],
+					[48729, 48733],
+					[49117, 49121]
+				],
+				"SMILES": "CC/C=C\\CC1C(CCC1=O)CC(=O)OC",
+				"InChIKey": "GEWDNTWNSAZUDX-PLNGDYQASA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "transcript levels",
+				"spans": [[32142, 32159]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05).",
+			"context": "JA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "lanolin",
+				"spans": [[32468, 32475]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "untreated",
+				"spans": [
+					[31622, 31631],
+					[32457, 32466]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30).",
+			"context": "(A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30).\n(B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30).\nLetters indicate the statistically significant differences (P < 0.05)."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "lanolin",
+				"spans": [[32468, 32475]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "differential expression",
+				"spans": [[33181, 33204]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05).",
+			"context": "JA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "lanolin",
+				"spans": [[32468, 32475]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "transcript levels",
+				"spans": [[32142, 32159]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05).",
+			"context": "JA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "lanolin",
+				"spans": [[32468, 32475]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "defense",
+				"spans": [
+					[1325, 1332],
+					[1517, 1524],
+					[1743, 1750],
+					[1851, 1858],
+					[32033, 32040],
+					[32104, 32111],
+					[32187, 32194],
+					[48020, 48027],
+					[48175, 48182],
+					[48841, 48848],
+					[48990, 48997],
+					[49146, 49153],
+					[49247, 49254]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05).",
+			"context": "JA signaling regulates plant defense against P. operculella, identification of potato plants' early defense signaling genes, and relative transcript levels of herbivory-induced early defense signaling genes (M1), primary metabolism genes and specialized metabolism genes at CT/HT. (A) Larval weight of P. operculella after six days of feeding on wild type (WT) and irAOC plants (n = 30). (B) Larval weight of P. operculella after six days of feeding on untreated, lanolin- and MeJA-treated plants (n = 30). Letters indicate the statistically significant differences (P < 0.05). Error bars indicate the mean +- SE. (C) The cluster dendrogram of the four modules (M1-M4). Each color indicates a different co-expression module. Y-axis indicates the height of the clustering tree. Turquoise: M1, yellow: M2, brown: M3, blue: M4. (D) The average correlation coefficient between each module and the herbivory-induced JA level in potato. Y-axis, the value of average correlation coefficients. Mean and SE are shown for each bar. Stars indicates a significant correlation coefficient (***, P < 0.001, Wilcoxon-Mann-Whitney test). (E) Herbivory-induced genes which showed significantly differential expression (|log2fold-change| >=1 and the adjusted P-value < 0.05) were considered. Ns indicate no significance was found (P > 0.05); * indicates P < 0.05; ** indicates P < 0.01; *** indicates P < 0.001; **** indicates P < 0.0001"
+		},
+		{
+			"subject_entity": {
+				"CID": 5988,
+				"name": "sucrose",
+				"spans": [
+					[36970, 36977],
+					[37828, 37835],
+					[47448, 47453]
+				],
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+				"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Ethers"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["sugar"]
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Solanum lycopersicum",
+				"spans": [[47312, 47332]],
+				"taxonomy_id": 4081,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5)",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 5988,
+				"name": "sucrose",
+				"spans": [
+					[36970, 36977],
+					[37828, 37835],
+					[47448, 47453]
+				],
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+				"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Ethers"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["sugar"]
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "TPI activity",
+				"spans": [
+					[38674, 38686],
+					[39442, 39454],
+					[47870, 47882]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 5988,
+				"name": "sucrose",
+				"spans": [
+					[36970, 36977],
+					[37828, 37835],
+					[47448, 47453]
+				],
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+				"InChIKey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Ethers"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["sugar"]
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "glycolysis",
+				"spans": [[37464, 37474]],
+				"ontology_id": "PWY-1042",
+				"normalized_name": "glycolysis IV",
+				"score": 0.8658570051193237,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Heatmap for transcript accumulations of herbivory-induced genes related to primary metabolism, and soluble sugar levels in potato leaves. (A) The glycolysis and citrate cycle module... (B-H) The concentration of seven soluble sugar (fructose, glucose, galactose, inositol, mannitol, sorbitol and sucrose) at 1 h and 5 h post herbivory at CT/HT.",
+			"context": "Heatmap for transcript accumulations of herbivory-induced genes related to primary metabolism, and soluble sugar levels in potato leaves. (A) The glycolysis and citrate cycle module, and heatmaps for transcript accumulations of critical genes related to these two pathways in different treatments. Herbivory-induced genes which are earlier-primed and suppressed by HT are marked with red triangles. (B-H) The concentration of seven soluble sugar (fructose, glucose, galactose, inositol, mannitol, sorbitol and sucrose) at 1 h and 5 h post herbivory at CT/HT. Different line types and colors represent different treatments. Letters indicate the statistically significant differences (P < 0.05) at each time point. Data points indicate the mean +- SE (n = 6)"
+		},
+		{
+			"subject_entity": {
+				"CID": 5793,
+				"name": "glucose",
+				"spans": [
+					[36920, 36927],
+					[37775, 37782]
+				],
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "citrate cycle",
+				"spans": [
+					[36416, 36429],
+					[37479, 37492]
+				],
+				"ontology_id": "P23-PWY",
+				"normalized_name": "reductive TCA cycle I",
+				"score": 0.8147849440574646,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "The text discusses glucose levels and citrate cycle gene expression in the context of primary metabolism, but does not explicitly state that glucose is made, degraded, or directly involved in the citrate cycle; it only shows that both are measured and modulated under similar conditions.",
+			"context": "Heatmap for transcript accumulations of herbivory-induced genes related to primary metabolism, and soluble sugar levels in potato leaves. (A) The glycolysis and citrate cycle module, and heatmaps for transcript accumulations of critical genes related to these two pathways in different treatments. Herbivory-induced genes which are earlier-primed and suppressed by HT are marked with red triangles. (B-H) The concentration of seven soluble sugar (fructose, glucose, galactose, inositol, mannitol, sorbitol and sucrose) at 1 h and 5 h post herbivory at CT/HT. Different line types and colors represent different treatments. Letters indicate the statistically significant differences (P < 0.05) at each time point. Data points indicate the mean +- SE (n = 6)\nThe herbivory-induced transcript levels of different primary metabolism genes and primary metabolite levels were affected by HT. We observed that the transcripts of most genes of the citrate cycle (CS, ACO, IDH, OGDC, DLD, DLST, SDS, SDH, FH, MDH) were up-regulated by herbivory, and this up-regulation peaked at 5 h post herbivory (Fig. 5A). In HT conditions, while the transcripts of them were suppressed, some copies of these genes (CS, ACO, IDH, OGDC, DLD, DLST, SDS, SDH, MDH) were still transiently induced at 1 h post herbivory. In a similar manner, temperature also modulated the concentration of soluble sugars. More specifically, the concentration of soluble sugars (fructose, glucose, galactose, inositol, mannitol, sorbitol, sucrose) was increased upon herbivory in plants under CT, specially 5 h after simulated herbivory (Fig. 5B-H). The opposite pattern was observed in plants under HT as most of the sugars were reduced 5 h after simulated herbivory (Fig. 5B-H). Together, temperature modulates changes in primary metabolism upon simulated herbivory attack."
+		},
+		{
+			"subject_entity": {
+				"CID": 5793,
+				"name": "glucose",
+				"spans": [
+					[36920, 36927],
+					[37775, 37782]
+				],
+				"SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+				"InChIKey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+				"Natural_product_class": {
+					"Np_class": [
+						"Disaccharides",
+						"Flavones",
+						"Monosaccharides",
+						"Polysaccharides"
+					],
+					"Np_superclass": ["Saccharides", "Flavonoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "glycolysis",
+				"spans": [[37464, 37474]],
+				"ontology_id": "PWY-1042",
+				"normalized_name": "glycolysis IV",
+				"score": 0.8658570051193237,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "The glycolysis and citrate cycle module, and heatmaps for transcript accumulations of critical genes related to these two pathways... (B-H) The concentration of seven soluble sugar (fructose, glucose, galactose, inositol, mannitol, sorbitol and sucrose) at 1 h and 5 h post herbivory...",
+			"context": "Heatmap for transcript accumulations of herbivory-induced genes related to primary metabolism, and soluble sugar levels in potato leaves. (A) The glycolysis and citrate cycle module, and heatmaps for transcript accumulations of critical genes related to these two pathways in different treatments. Herbivory-induced genes which are earlier-primed and suppressed by HT are marked with red triangles. (B-H) The concentration of seven soluble sugar (fructose, glucose, galactose, inositol, mannitol, sorbitol and sucrose) at 1 h and 5 h post herbivory at CT/HT. Different line types and colors represent different treatments. Letters indicate the statistically significant differences (P < 0.05) at each time point. Data points indicate the mean +- SE (n = 6)"
+		},
+		{
+			"subject_entity": {
+				"CID": 9549171,
+				"name": "alpha-solanine",
+				"spans": [
+					[38655, 38669],
+					[39397, 39411]
+				],
+				"SMILES": "C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O[C@H]9[C@@H]([C@@H]([C@H]([C@@H](O9)C)O)O)O)C)C)C",
+				"InChIKey": "ZGVSETXHNHBTRK-UDJLNJFBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Steroidal alkaloids"],
+					"Np_superclass": ["Pseudoalkaloids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Steroids and steroid derivatives",
+					"Subclass": "Steroidal glycosides"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_by",
+			"object_entity": {
+				"name": "SGT2",
+				"spans": [[38446, 38450]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "the transcripts of most of the genes of ... the SGAs biosynthesis (GAME, SGT1, SGT2) ... were up-regulated by herbivory. ... we observed that the induction of alpha-solanine ... was weaker in HT plants compared to CT plants ... temperature influences the accumulation of herbivory-induced specialized metabolites in potato plants, possibly by regulating their biosynthesis.",
+			"context": "Likewise, the herbivory-induced transcript levels of different specialized metabolism genes and specialized metabolite levels were affected by HT. In CT plants, the transcripts of most of the genes of the mevalonate (HMGR, FPPS, SQS, CAS, SSR2), the SGAs biosynthesis (GAME, SGT1, SGT2), and the TPI biosynthesis (TPI) pathways were up-regulated by herbivory. In contrast, the induction of these genes was weaker in HT plants (Fig. 6A and B). Accordingly, we observed that the induction of alpha-solanine and TPI activity was weaker in HT plants compared to CT plants (Fig. 6C and E). The content of alpha-chaconine was not influenced by herbivory or temperature (Fig. 6D). Hence, temperature influences the accumulation of herbivory-induced specialized metabolites in potato plants, possibly by regulating their biosynthesis."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "SGAs",
+				"spans": [
+					[47461, 47465],
+					[47860, 47864],
+					[48507, 48511]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "accumulates_in",
+			"object_entity": {
+				"name": "Solanum lycopersicum",
+				"spans": [[47312, 47332]],
+				"taxonomy_id": 4081,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 6323266,
+				"name": "TPI",
+				"spans": [
+					[47470, 47473],
+					[47870, 47873],
+					[48513, 48516]
+				],
+				"SMILES": "C1CC(=N)N(C1)CC2=C(C(=O)NC(=O)N2)Cl",
+				"InChIKey": "QQHMKNYGKVVGCZ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": ["Pseudoalkaloids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organoheterocyclic compounds",
+					"Class": "Diazines",
+					"Subclass": "Pyrimidines and pyrimidine derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "TPI activity",
+				"spans": [
+					[38674, 38686],
+					[39442, 39454],
+					[47870, 47882]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 6323266,
+				"name": "TPI",
+				"spans": [
+					[47470, 47473],
+					[47870, 47873],
+					[48513, 48516]
+				],
+				"SMILES": "C1CC(=N)N(C1)CC2=C(C(=O)NC(=O)N2)Cl",
+				"InChIKey": "QQHMKNYGKVVGCZ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": ["Pseudoalkaloids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organoheterocyclic compounds",
+					"Class": "Diazines",
+					"Subclass": "Pyrimidines and pyrimidine derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "primary metabolism",
+				"spans": [
+					[36286, 36304],
+					[37255, 37273],
+					[46670, 46688]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants; activation of primary metabolism is a stage in the defense response, and TPI is discussed as part of the metabolites and activities involved",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 6323266,
+				"name": "TPI",
+				"spans": [
+					[47470, 47473],
+					[47870, 47873],
+					[48513, 48516]
+				],
+				"SMILES": "C1CC(=N)N(C1)CC2=C(C(=O)NC(=O)N2)Cl",
+				"InChIKey": "QQHMKNYGKVVGCZ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": ["Pseudoalkaloids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organoheterocyclic compounds",
+					"Class": "Diazines",
+					"Subclass": "Pyrimidines and pyrimidine derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "specialized metabolite biosynthesis",
+				"spans": [[46710, 46745]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants",
+			"context": "(A, B) The left parts of both pictures at CT/HT represent gene transcription while the right represent metabolites biosynthesis cascade.\nFrom the module, (1) herbivory-induced defense responses can be divided into three stages: (i) herbivore attack signal perception and processing, (ii) activation of primary metabolism, (iii) activation of specialized metabolite biosynthesis, which was summarized as an evolutionary 'hourglass' pattern at CT, whereas HT reprogrammed this into 'vase' pattern; (2) the patterns were composed of calculated average herbivory-induced gene ages (iTAI profile, left) and evolutionary constraints (iTDI profile, right) at different stages; each of the profiles showed the same pattern, where gene ages reflect long-term evolutionary changes covering 4 billion years since the origin of life, and evolutionary constraints reflect short-term evolutionary changes covering 7.3-8 million years since the divergence of Solanum lycopersicum, representing ancient and recent selection pressures, respectively; (3) jasmonates (MeJA) had an impact on plants' sugar level, SGAs and TPI accumulations (Fig. S5 and S6); (4) the biosynthesis of defense compounds at each stage were consistent with their biosynthetic gene transcript accumulation; (5) jasmonate-induced soluble sugars were still transiently induced at 1 h post herbivory although their concentration were suppressed at 5 h post herbivory at HT (Fig. 5); (6) the concentration of herbivory-induced jasmonates, SGAs, and TPI activity were suppressed at HT, which led to better P. operculella larvae performance on potato plants\nPlant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta."
+		},
+		{
+			"subject_entity": {
+				"CID": 5281929,
+				"name": "methyl jasmonate",
+				"spans": [[48711, 48727]],
+				"SMILES": "CC/C=C\\C[C@@H]1[C@H](CCC1=O)CC(=O)OC",
+				"InChIKey": "GEWDNTWNSAZUDX-WQMVXFAESA-N",
+				"Natural_product_class": {
+					"Np_class": ["Jasmonic acids"],
+					"Np_superclass": ["Octadecanoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Lineolic acids and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "high temperature",
+				"spans": [
+					[495, 511],
+					[854, 870],
+					[962, 978],
+					[1459, 1475],
+					[1679, 1695],
+					[7476, 7492],
+					[11436, 11452],
+					[13499, 13515],
+					[13638, 13654],
+					[28932, 28948],
+					[40413, 40429],
+					[40869, 40885],
+					[41295, 41311],
+					[46105, 46121],
+					[49405, 49421],
+					[49461, 49477],
+					[49915, 49931],
+					[50395, 50411],
+					[50548, 50564],
+					[50753, 50769],
+					[50849, 50865],
+					[51040, 51056],
+					[51361, 51377],
+					[51743, 51759],
+					[51779, 51795],
+					[51946, 51962],
+					[52427, 52443],
+					[52823, 52839],
+					[52916, 52932]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "Previous studies indicated that JA signaling is also related with HT.",
+			"context": "Plant's herbivory-induced defense responses are fined-tuned by phytohormonal signaling cascades in Planta. Among them, jasmonates are master regulators of several herbivory-induced defense responses. We observed that JA, JA-biosynthesis and JA-signaling genes, are strongly induced upon herbivory in potato plants. Alterations in herbivory-induced JA were usually accompanied by changed accumulation of primary and specialized metabolites in many plants. In our study, the primary (soluble sugars) and secondary (SGAs, TPI) metabolites, together with their biosynthetic genes, are strongly induced upon herbivory. Meanwhile, levels of these metabolites and their related biosynthetic genes were strongly activated by methyl jasmonate (MeJA) treatment (Fig. S5 and S6), indicating that JA-signaling also plays an important role in potato's induced defense against the P. operculella (Fig. 8). Indeed, suppressing herbivory-induced JA accumulation in JA-reduced plants significantly weakened their defense against P. operculella, whereas enhancing herbivory-induced JA-Ile accumulation in JA-Ile-elevated plants and applying MeJA both strengthened their defense against P. operculella. We demonstrated that JA signaling plays an important role in plants' defense against P. operculella. Previous studies indicated that JA signaling is also related with HT. However, the co-stress-induced pattern by herbivory and high temperature remained unclear."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "glucosinolates",
+				"spans": [[50376, 50390]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000373",
+				"normalized_name": "Glucosinolates",
+				"score": 0.9999997615814209,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "leaves",
+				"spans": [
+					[832, 838],
+					[900, 906],
+					[7001, 7007],
+					[11414, 11420],
+					[11482, 11488],
+					[11762, 11768],
+					[11883, 11889],
+					[28454, 28458],
+					[28559, 28565],
+					[28610, 28616],
+					[28681, 28687],
+					[28790, 28796],
+					[28910, 28916],
+					[31421, 31425],
+					[39744, 39748],
+					[39934, 39940],
+					[39992, 39998],
+					[40070, 40076],
+					[40179, 40185],
+					[40391, 40397],
+					[40584, 40590],
+					[40705, 40711],
+					[40847, 40853],
+					[41030, 41036],
+					[41487, 41493],
+					[42555, 42561],
+					[49891, 49897],
+					[51141, 51145],
+					[53777, 53781]
+				],
+				"ontology_id": "PO:0025034",
+				"normalized_name": "leaf",
+				"score": 0.9324457049369812,
+				"alt_names": ["leaf"]
+			},
+			"category": "anatomical_structures",
+			"justification": "alteration of levels of herbivory-induced secondary metabolites (i.e.: polyphenol oxidase and glucosinolates) by high temperature have been found in many plants including tomato and watermelon",
+			"context": "In our study, high temperature suppressed the herbivory-induced accumulation of jasmonates, primary and specialized metabolites in potato plants. The decrease in soluble sugar level and transcript accumulation is possibly attributed to a reduction in photosynthesis parameters due to stomata closure under elevated temperature. Also, our previous research show that the emission of the volatile organic compounds (VOCs) in potato (cv. Lishu 6) leaves were enhanced by high temperature treatment, which subsequently affected the plants' attractiveness to the P. operculella and its egg parasitoid wasp. This distinction might be due to the use of different cultivars, whilst it is also possible that plants may differentially regulate the production of volatile and nonvolatile secondary compounds under elevated temperature. While the alteration of levels of herbivory-induced secondary metabolites (i.e.: polyphenol oxidase and glucosinolates) by high temperature have been found in many plants including tomato and watermelon, evidence for the suppression of herbivory-induced primary metabolism by high temperature remains scarce. We propose that this suppression is related to the JA-signaling in potato plants, since the herbivory-induced JA biosynthetic genes and JA accumulations were suppressed by high temperature. However, whether suppressing JA-signaling could benefit the plant response to high temperature remains to be clarified in future."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "polyphenol oxidase",
+				"spans": [[50353, 50371]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "leaves",
+				"spans": [
+					[832, 838],
+					[900, 906],
+					[7001, 7007],
+					[11414, 11420],
+					[11482, 11488],
+					[11762, 11768],
+					[11883, 11889],
+					[28454, 28458],
+					[28559, 28565],
+					[28610, 28616],
+					[28681, 28687],
+					[28790, 28796],
+					[28910, 28916],
+					[31421, 31425],
+					[39744, 39748],
+					[39934, 39940],
+					[39992, 39998],
+					[40070, 40076],
+					[40179, 40185],
+					[40391, 40397],
+					[40584, 40590],
+					[40705, 40711],
+					[40847, 40853],
+					[41030, 41036],
+					[41487, 41493],
+					[42555, 42561],
+					[49891, 49897],
+					[51141, 51145],
+					[53777, 53781]
+				],
+				"ontology_id": "PO:0025034",
+				"normalized_name": "leaf",
+				"score": 0.9324457049369812,
+				"alt_names": ["leaf"]
+			},
+			"category": "anatomical_structures",
+			"justification": "the alteration of levels of herbivory-induced secondary metabolites (i.e.: polyphenol oxidase and glucosinolates) by high temperature have been found in many plants including tomato and watermelon",
+			"context": "In our study, high temperature suppressed the herbivory-induced accumulation of jasmonates, primary and specialized metabolites in potato plants. The decrease in soluble sugar level and transcript accumulation is possibly attributed to a reduction in photosynthesis parameters due to stomata closure under elevated temperature. Also, our previous research show that the emission of the volatile organic compounds (VOCs) in potato (cv. Lishu 6) leaves were enhanced by high temperature treatment, which subsequently affected the plants' attractiveness to the P. operculella and its egg parasitoid wasp. This distinction might be due to the use of different cultivars, whilst it is also possible that plants may differentially regulate the production of volatile and nonvolatile secondary compounds under elevated temperature. While the alteration of levels of herbivory-induced secondary metabolites (i.e.: polyphenol oxidase and glucosinolates) by high temperature have been found in many plants including tomato and watermelon, evidence for the suppression of herbivory-induced primary metabolism by high temperature remains scarce. We propose that this suppression is related to the JA-signaling in potato plants, since the herbivory-induced JA biosynthetic genes and JA accumulations were suppressed by high temperature. However, whether suppressing JA-signaling could benefit the plant response to high temperature remains to be clarified in future."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "secondary compounds",
+				"spans": [[53141, 53160]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_in",
+			"object_entity": {
+				"name": "Solanum tuberosum",
+				"spans": [
+					[651, 668],
+					[29616, 29628],
+					[52752, 52758],
+					[52897, 52903]
+				],
+				"taxonomy_id": 4113,
+				"alt_names": ["Potato", "S. tuberosum"]
+			},
+			"category": "species",
+			"justification": "a different pattern may occur for their defense signaling activation, resource allocation and defensive secondary compounds production up on herbivory",
+			"context": "In summary, our study shows that transient exposure to high temperature decreases JA signaling mediated plant-induced resistance to herbivore attack by reprogramming plant transcripts and metabolome (Fig. 8). According to previous studies in other plant-insect interacting systems, positive effects of elevated ambient temperature on plants' herbivore defense were also observed. Potato is a cool-weather crop whose physiology is strongly affected by high temperature. It is likely that a 'resource reallocation' happened in potato plants when high temperature and herbivory stresses coexisted. In plants that are more adapted to eco-niche with warmer temperature, a different pattern may occur for their defense signaling activation, resource allocation and defensive secondary compounds production up on herbivory."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "secondary compounds",
+				"spans": [[53141, 53160]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "defensive secondary compounds production",
+				"spans": [[53131, 53171]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "a different pattern may occur for their defense signaling activation, resource allocation and defensive secondary compounds production up on herbivory",
+			"context": "It is likely that a 'resource reallocation' happened in potato plants when high temperature and herbivory stresses coexisted.\nIn plants that are more adapted to eco-niche with warmer temperature, a different pattern may occur for their defense signaling activation, resource allocation and defensive secondary compounds production up on herbivory.\nIn this study, we found that transient exposure to high temperature constrains JA signaling-induced defenses in potato plants against the attacks of P. operculella using two potato varieties."
+		}
+	]
+}

@@ -1,0 +1,2262 @@
+{
+	"relations": [
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyacyl chain",
+				"spans": [
+					[455, 472],
+					[1367, 1384],
+					[1505, 1522],
+					[12376, 12393],
+					[13843, 13860],
+					[18234, 18251],
+					[19216, 19233],
+					[19612, 19629],
+					[19730, 19747],
+					[19834, 19851]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "organ",
+				"spans": [
+					[11900, 11905],
+					[12161, 12166],
+					[16475, 16481]
+				],
+				"ontology_id": "PO:0009008",
+				"normalized_name": "plant organ",
+				"score": 1.0000001192092896,
+				"alt_names": ["organs"]
+			},
+			"category": "anatomical_structures",
+			"justification": "Number of RG peaks split by their organ of occurrence... Number of RG peaks with MS/MS fragments corresponding to the estimated masses of the different hydroxy- and dihydroxyacyl fragments.",
+			"context": "Phylogenetic, organ-wise and structural diversity of resin glycoside. In the phylogenetic tree, the name in brackets is the original name on the seed stock, and the name in italics is the predicted species/genus based on matK phylogeny. (A) Number of RG peaks split by their organ of occurrence. See Methods for details on thresholds used for these definitions. (B) Number of RG peaks with neutral loss corresponding to pentose, deoxyhexose, or hexose groups typically seen attached to the hydroxyacyl chain involved with macrolactone ring formation. (C) Number of RG peaks with MS/MS fragments corresponding to the estimated masses of the different hydroxy- and dihydroxyacyl fragments. Some RG peaks had more than one fragment, as shown in the last three columns. (D) Percentage of RG peaks having a given acyl chain out of all RG peaks in that species with an acyl chain prediction. Numbers do not add up to 100 since each RG may have multiple acyl chain predictions. The percentages provide an idea of the general trend of acyl chain usage in a given species. Inference of the acetic acid group is based on neutral loss while other inferences are based on observation of specific MS/MS fragments. Monoisotopic [M-H]- acyl masses that cannot be confidently assigned to known acyl chain fragments are noted."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acylsugars",
+				"spans": [
+					[167, 177],
+					[375, 385],
+					[1205, 1215],
+					[2337, 2347],
+					[2640, 2650],
+					[3150, 3160],
+					[3183, 3193],
+					[3290, 3300],
+					[3511, 3521],
+					[4187, 4197],
+					[4222, 4232],
+					[4253, 4263],
+					[4307, 4317],
+					[4366, 4376],
+					[6038, 6048],
+					[6371, 6381],
+					[16104, 16114],
+					[32372, 32382],
+					[36208, 36218]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000146",
+				"normalized_name": "Acylaminosugars",
+				"score": 0.9327501058578491,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain.\nBiosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.\nThese observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acylsugars",
+				"spans": [
+					[167, 177],
+					[375, 385],
+					[1205, 1215],
+					[2337, 2347],
+					[2640, 2650],
+					[3150, 3160],
+					[3183, 3193],
+					[3290, 3300],
+					[3511, 3521],
+					[4187, 4197],
+					[4222, 4232],
+					[4253, 4263],
+					[4307, 4317],
+					[4366, 4376],
+					[6038, 6048],
+					[6371, 6381],
+					[16104, 16114],
+					[32372, 32382],
+					[36208, 36218]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000146",
+				"normalized_name": "Acylaminosugars",
+				"score": 0.9327501058578491,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... via one carbon elongation of fatty acids e.g. in acylsugars",
+			"context": "In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain.\nBiosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.\nThese observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acylsugars",
+				"spans": [
+					[167, 177],
+					[375, 385],
+					[1205, 1215],
+					[2337, 2347],
+					[2640, 2650],
+					[3150, 3160],
+					[3183, 3193],
+					[3290, 3300],
+					[3511, 3521],
+					[4187, 4197],
+					[4222, 4232],
+					[4253, 4263],
+					[4307, 4317],
+					[4366, 4376],
+					[6038, 6048],
+					[6371, 6381],
+					[16104, 16114],
+					[32372, 32382],
+					[36208, 36218]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000146",
+				"normalized_name": "Acylaminosugars",
+				"score": 0.9327501058578491,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 892,
+				"name": "inositol",
+				"spans": [[2853, 2861]],
+				"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+				"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Cyclitols"],
+					"Np_superclass": ["Polyols"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Alcohols and polyols"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Nicotiana alata",
+				"spans": [[3111, 3126]],
+				"taxonomy_id": 4087,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "In Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains... are esterified... identified some species, such as... Nicotiana alata, that produce over 600 acylsugars on individual leaves.",
+			"context": "The plant kingdom has historically been a source of numerous metabolites of use in medicines, foods, cosmetics, agriculture, and cultural practices. Many of these metabolite classes e.g. glucosinolates, alkaloids, terpenes, acylsugars, or cardenolides show lineage-specific structural diversification. Such specialized metabolites play important functional roles in plant pollination, defense, and resilience to abiotic stress conditions in the respective plants' ecological niche. One such class of specialized metabolites is acylsugars, which, in the Solanaceae family, are produced in the trichomes of many species. In Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains derived from fatty acid or branched amino acid metabolism are esterified (Fig. 1A). A previous study catalogued acylsugar diversity across 40 species in the family, and identified some species, such as Salpiglossis sinuata and Nicotiana alata, that produce over 600 acylsugars on individual leaves. Acylsugars also show variation among individuals of the same species. This extreme structural diversity of acylsugars is hypothesized to occur due to the promiscuity of the BAHD acyltransferases involved in their biosynthesis, and the diverse precursor coenzyme A-activated acyl groups in the trichome metabolite pool."
+		},
+		{
+			"subject_entity": {
+				"CID": 892,
+				"name": "inositol",
+				"spans": [[2853, 2861]],
+				"SMILES": "C1(C(C(C(C(C1O)O)O)O)O)O",
+				"InChIKey": "CDAISMWEOUEBRE-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Cyclitols"],
+					"Np_superclass": ["Polyols"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Alcohols and polyols"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Salpiglossis sinuata",
+				"spans": [[3086, 3106]],
+				"taxonomy_id": 33121,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "In Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains... are esterified... identified some species, such as Salpiglossis sinuata... that produce over 600 acylsugars on individual leaves.",
+			"context": "The plant kingdom has historically been a source of numerous metabolites of use in medicines, foods, cosmetics, agriculture, and cultural practices. Many of these metabolite classes e.g. glucosinolates, alkaloids, terpenes, acylsugars, or cardenolides show lineage-specific structural diversification. Such specialized metabolites play important functional roles in plant pollination, defense, and resilience to abiotic stress conditions in the respective plants' ecological niche. One such class of specialized metabolites is acylsugars, which, in the Solanaceae family, are produced in the trichomes of many species. In Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains derived from fatty acid or branched amino acid metabolism are esterified (Fig. 1A). A previous study catalogued acylsugar diversity across 40 species in the family, and identified some species, such as Salpiglossis sinuata and Nicotiana alata, that produce over 600 acylsugars on individual leaves. Acylsugars also show variation among individuals of the same species. This extreme structural diversity of acylsugars is hypothesized to occur due to the promiscuity of the BAHD acyltransferases involved in their biosynthesis, and the diverse precursor coenzyme A-activated acyl groups in the trichome metabolite pool."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "fatty acid",
+				"spans": [[2897, 2907]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000421",
+				"normalized_name": "Methoxy fatty acids",
+				"score": 1.0,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "branched amino acid metabolism",
+				"spans": [
+					[2911, 2941],
+					[33552, 33590]
+				],
+				"ontology_id": "BRANCHED-CHAIN-AA-SYN-PWY",
+				"normalized_name": "superpathway of branched chain amino acid biosynthesis",
+				"score": 0.8190120458602905,
+				"alt_names": ["branched chain amino acid biosynthesis"]
+			},
+			"category": "pathways",
+			"justification": "acyl chains derived from fatty acid or branched amino acid metabolism are esterified",
+			"context": "One such class of specialized metabolites is acylsugars, which, in the Solanaceae family, are produced in the trichomes of many species.\nIn Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains derived from fatty acid or branched amino acid metabolism are esterified (Fig. 1A).\nA previous study catalogued acylsugar diversity across 40 species in the family, and identified some species, such as Salpiglossis sinuata and Nicotiana alata, that produce over 600 acylsugars on individual leaves."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "branched amino acid",
+				"spans": [[2911, 2930]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "branched amino acid metabolism",
+				"spans": [
+					[2911, 2941],
+					[33552, 33590]
+				],
+				"ontology_id": "BRANCHED-CHAIN-AA-SYN-PWY",
+				"normalized_name": "superpathway of branched chain amino acid biosynthesis",
+				"score": 0.8190120458602905,
+				"alt_names": ["branched chain amino acid biosynthesis"]
+			},
+			"category": "pathways",
+			"justification": "acyl chains derived from fatty acid or branched amino acid metabolism are esterified",
+			"context": "One such class of specialized metabolites is acylsugars, which, in the Solanaceae family, are produced in the trichomes of many species.\nIn Solanaceae, this class of anti-herbivory compounds comprises a sugar core (usually a sucrose but sometimes glucose or inositol) to which acyl chains derived from fatty acid or branched amino acid metabolism are esterified (Fig. 1A).\nA previous study catalogued acylsugar diversity across 40 species in the family, and identified some species, such as Salpiglossis sinuata and Nicotiana alata, that produce over 600 acylsugars on individual leaves."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hexoses",
+				"spans": [
+					[4860, 4867],
+					[10630, 10636],
+					[12331, 12337],
+					[18551, 18557],
+					[18645, 18651],
+					[18886, 18892],
+					[19011, 19017],
+					[19281, 19287],
+					[19377, 19383],
+					[19526, 19532],
+					[20007, 20013],
+					[30068, 30074]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0001498",
+				"normalized_name": "Hexoses",
+				"score": 1.0,
+				"alt_names": ["hexose"]
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "herbivory defense",
+				"spans": [[5286, 5303]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. ... an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; ...",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "aliphatic acyl side chains",
+				"spans": [[5016, 5042]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "purgative properties",
+				"spans": [[5416, 5436]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "human_traits",
+			"justification": "RGs have also been extensively characterized functionally... RGs are also responsible for the purgative properties of powders of Ipomoea purga root... and they reveal three primary structural elements: ... (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "pentoses",
+				"spans": [
+					[4832, 4840],
+					[10606, 10613],
+					[12306, 12313],
+					[18617, 18624],
+					[18754, 18761],
+					[19365, 19372],
+					[19559, 19566],
+					[20017, 20024]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0001497",
+				"normalized_name": "Pentoses",
+				"score": 1.0,
+				"alt_names": ["pentose"]
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "allelopathic interactions",
+				"spans": [[5356, 5381]],
+				"ontology_id": "TO:0000624",
+				"normalized_name": "allelopathic effect",
+				"score": 0.9115100502967834,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. Over 300 RG structures have been characterized... they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acyl chains",
+				"spans": [
+					[4084, 4095],
+					[17314, 17325],
+					[17346, 17357],
+					[17410, 17421],
+					[17528, 17539],
+					[17705, 17716],
+					[27230, 27241],
+					[27390, 27401]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "accumulates_in",
+			"object_entity": {
+				"name": "root",
+				"spans": [
+					[964, 968],
+					[5465, 5469],
+					[5523, 5527],
+					[8971, 8975],
+					[10142, 10146]
+				],
+				"ontology_id": "PO:0009005",
+				"normalized_name": "root",
+				"score": 1.0000001192092896,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acyl chains",
+				"spans": [
+					[4084, 4095],
+					[17314, 17325],
+					[17346, 17357],
+					[17410, 17421],
+					[17528, 17539],
+					[17705, 17716],
+					[27230, 27241],
+					[27390, 27401]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "allelopathic interactions",
+				"spans": [[5356, 5381]],
+				"ontology_id": "TO:0000624",
+				"normalized_name": "allelopathic effect",
+				"score": 0.9115100502967834,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acyl chains",
+				"spans": [
+					[4084, 4095],
+					[17314, 17325],
+					[17346, 17357],
+					[17410, 17421],
+					[17528, 17539],
+					[17705, 17716],
+					[27230, 27241],
+					[27390, 27401]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "herbivory defense",
+				"spans": [[5286, 5303]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "deoxyhexoses",
+				"spans": [[4842, 4854]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "accumulates_in",
+			"object_entity": {
+				"name": "root",
+				"spans": [
+					[964, 968],
+					[5465, 5469],
+					[5523, 5527],
+					[8971, 8975],
+					[10142, 10146]
+				],
+				"ontology_id": "PO:0009005",
+				"normalized_name": "root",
+				"score": 1.0000001192092896,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "deoxyhexoses",
+				"spans": [[4842, 4854]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "involved_in",
+			"object_entity": {
+				"name": "allelopathic interactions",
+				"spans": [[5356, 5381]],
+				"ontology_id": "TO:0000624",
+				"normalized_name": "allelopathic effect",
+				"score": 0.9115100502967834,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. ... an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; ...",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxy fatty acid",
+				"spans": [[4908, 4926]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000030",
+				"normalized_name": "Hydroxyeicosatrienoic acids",
+				"score": 1.0,
+				"alt_names": null
+			},
+			"predicate": "accumulates_in",
+			"object_entity": {
+				"name": "root",
+				"spans": [
+					[964, 968],
+					[5465, 5469],
+					[5523, 5527],
+					[8971, 8975],
+					[10142, 10146]
+				],
+				"ontology_id": "PO:0009005",
+				"normalized_name": "root",
+				"score": 1.0000001192092896,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine.",
+			"context": "While \"acylsugars\" commonly refers to the class of compounds that is known to be restricted only to members of the Solanaceae family, other structurally and possibly biosynthetically analogous acylated sugar compounds are also documented across the plant kingdom. For example, Ibicella lutea (Martyniaceae), Silene gallica (Caryophyllaceae), Cerastium glomeratum (Caryophyllaceae), and Geranium carolinianum (Geraniaceae) are also known to produce acylated sugar compounds (Fig. 1C-E). In the known examples, the central sugar in these compounds is a glucose, with acyl or hydroxyacyl chains attached via ester and/or ether linkages. Given all these compound classes are technically acylsugars, we refer to Solanaceae acylsugars as \"Solanaceae-type acylsugars\" while referring to the combined class as \"acylsugars\" (Fig. 1). While the extent of the diversity of acylsugars across plants is not known, structures of another similar compound class:resin glycosides (RGs):have been extensively characterized in morning glories (Convolvulaceae) since their discovery in the 1990s (Fig. 1B). Over 300 RG structures have been characterized from several Convolvulaceae species using nuclear magnetic resonance (NMR) (reviewed in), and they reveal three primary structural elements: (i) an oligosaccharide core of 2-7 sugars comprising pentoses, deoxyhexoses, and hexoses; (ii) a 14-18 carbon long hydroxy- or dihydroxy fatty acid that may form an intra-molecular macrolactone ring; and (iii) decorations of aromatic or aliphatic acyl side chains that can be 2-16 carbons long. Some RGs undergo intermolecular condensation to form larger, more complex units. RGs have also been extensively characterized functionally, with studies finding their roles in bacterial and fungal inhibition, in herbivory defense against nematodes and leaf herbivores as well as in allelopathic interactions. RGs are also responsible for the purgative properties of powders of Ipomoea purga root:which accumulate resin glycosides up to 20% of their root dry weight:and which are used in traditional Indian and Mexican medicine."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "leaf",
+				"spans": [
+					[973, 977],
+					[3175, 3181],
+					[8980, 8984],
+					[10151, 10155],
+					[16245, 16251],
+					[16384, 16390],
+					[16536, 16542],
+					[16691, 16697],
+					[16741, 16747],
+					[17066, 17072]
+				],
+				"ontology_id": "PO:0025034",
+				"normalized_name": "leaf",
+				"score": 0.9999999403953552,
+				"alt_names": ["leaves"]
+			},
+			"category": "anatomical_structures",
+			"justification": "Root and leaf extracts of these 31 plants... were obtained at variable stages of growth and assessed using UHPLC-MS/MS... Exploratory analysis revealed substantial profile diversity for jalapinolic acid (11-hydroxyhexadecanoic acid; C16-OH; m/z = 271.2279)-containing compounds",
+			"context": "Root and leaf extracts of these 31 plants, grown in growth chambers and greenhouses, were obtained at variable stages of growth and assessed using UHPLC-MS/MS (Supplementary File 3). The goal of this analysis was to obtain a snapshot of the RG profiles of individual species, similar to the profiling performed for Solanaceae-type acylsugars from the New York Botanical Gardens. Thus, consistency of growth stage and conditions:which is impossible when sampling 26 globally distributed species with variable growth habits and evolutionary adaptations to different environments:was not maintained. Exploratory analysis revealed substantial profile diversity for jalapinolic acid (11-hydroxyhexadecanoic acid; C16-OH; m/z = 271.2279)-containing compounds (Fig. 2A and B; Supplementary Fig. 2A-D), which may indicate species-specific RG patterns."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Dichondra argentea",
+				"spans": [
+					[1233, 1251],
+					[7368, 7379],
+					[10079, 10090],
+					[13345, 13356],
+					[19409, 19420],
+					[26088, 26106]
+				],
+				"taxonomy_id": 2490664,
+				"alt_names": ["D. argentea"]
+			},
+			"category": "species",
+			"justification": "Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B).",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "C. arvensis",
+				"spans": [
+					[10008, 10019],
+					[11741, 11761],
+					[11845, 11856],
+					[15610, 15621],
+					[17798, 17809],
+					[23462, 23473],
+					[32096, 32107],
+					[32782, 32793]
+				],
+				"taxonomy_id": 4123,
+				"alt_names": ["Convolvulus arvensis"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OH",
+				"spans": [
+					[9679, 9685],
+					[18139, 18145],
+					[31740, 31746]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Xenostegia tridentata",
+				"spans": [[19500, 19521]],
+				"taxonomy_id": 197454,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": 3013895,
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [
+					[9632, 9648],
+					[9650, 9677],
+					[9970, 9986],
+					[13565, 13581],
+					[17618, 17645],
+					[17647, 17663],
+					[28426, 28453],
+					[33045, 33061]
+				],
+				"SMILES": "CCCCCC(CCCCCCCCCC(=O)O)O",
+				"InChIKey": "YNQGVRJFSHTULP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["jalapinolic acid"]
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 3013895,
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [
+					[9632, 9648],
+					[9650, 9677],
+					[9970, 9986],
+					[13565, 13581],
+					[17618, 17645],
+					[17647, 17663],
+					[28426, 28453],
+					[33045, 33061]
+				],
+				"SMILES": "CCCCCC(CCCCCCCCCC(=O)O)O",
+				"InChIKey": "YNQGVRJFSHTULP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["jalapinolic acid"]
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA...",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 3013895,
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [
+					[9632, 9648],
+					[9650, 9677],
+					[9970, 9986],
+					[13565, 13581],
+					[17618, 17645],
+					[17647, 17663],
+					[28426, 28453],
+					[33045, 33061]
+				],
+				"SMILES": "CCCCCC(CCCCCCCCCC(=O)O)O",
+				"InChIKey": "YNQGVRJFSHTULP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["jalapinolic acid"]
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Dichondra repens",
+				"spans": [[13690, 13706]],
+				"taxonomy_id": 555419,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "Previous RGs identified from Dichondra repens were also found to contain...open hydroxyacyl chain instead of a macrolactone ring.",
+			"context": "To further confirm the detection of RGs, we purified and structurally elucidated one highly abundant predicted RG peak with [M-H]- m/z 1279.67, from D. argentea Silver Falls using NMR. Its molecular formula was determined to be C62H104O27, with the structure comprising a fucose, two glucoses, and a rhamnose (Fig. 2C, Supplementary Table 1; Supplementary Fig. 5). The jalapinolic acid moiety was found to be in an open structure instead of in a macrolactone ring. Previous RGs identified from Dichondra repens were also found to contain two rhamnoses and glucoses (Dichondrin A, B) or two rhamnoses and one glucose (Dichondrin C), both with open hydroxyacyl chain instead of a macrolactone ring. We thus call this structure Dichondrin D. The MS/MS fragmentation pattern of Dichondrin D could be explained by the characterized structure (Supplementary Fig. 6). This result further confirmed that the fragmentation patterns being assessed were from true RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": 3013895,
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [
+					[9632, 9648],
+					[9650, 9677],
+					[9970, 9986],
+					[13565, 13581],
+					[17618, 17645],
+					[17647, 17663],
+					[28426, 28453],
+					[33045, 33061]
+				],
+				"SMILES": "CCCCCC(CCCCCCCCCC(=O)O)O",
+				"InChIKey": "YNQGVRJFSHTULP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["jalapinolic acid"]
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Convolvulus equitans",
+				"spans": [
+					[15475, 15495],
+					[17814, 17825],
+					[26036, 26056]
+				],
+				"taxonomy_id": 1428906,
+				"alt_names": ["C. equitans"]
+			},
+			"category": "species",
+			"justification": "Overwhelmingly, we saw m/z = 271.2279, which corresponds to 11-hydroxyhexadecanoic acid (jalapinolic acid) (Fig. 3B)... The most diversity in hydroxyacyl chains was found... in... C. equitans...",
+			"context": "The phylogeny-guided sampling of RGs revealed substantial structural diversity in each species at the level of oligosaccharide lengths, hydroxyacyl chains, and the decorating acyl chains. Previous studies have reported existence of hydroxyacyl chains of varying lengths; thus, we computationally scanned the identified RG peaks to identify the type of long acyl chains seen in our data. Overwhelmingly, we saw m/z = 271.2279, which corresponds to 11-hydroxyhexadecanoic acid (jalapinolic acid) (Fig. 3B). The most diversity in hydroxyacyl chains was found, unsurprisingly, in the two species with the most overall RG diversity:C. arvensis and C. equitans:with hydroxypentadecanoic acid (C15-OH; m/z = 257.2122), dihydroxyhexadecanoic acid (C16-OHOH; m/z = 287.2228) and hydroxyoctadecanoic acid (C18-OH; m/z = 299.2586) found in multiple RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": 3013895,
+				"name": "11-hydroxyhexadecanoic acid",
+				"spans": [
+					[9632, 9648],
+					[9650, 9677],
+					[9970, 9986],
+					[13565, 13581],
+					[17618, 17645],
+					[17647, 17663],
+					[28426, 28453],
+					[33045, 33061]
+				],
+				"SMILES": "CCCCCC(CCCCCCCCCC(=O)O)O",
+				"InChIKey": "YNQGVRJFSHTULP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["jalapinolic acid"]
+			},
+			"predicate": "made_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 840,
+				"name": "deoxyhexose",
+				"spans": [
+					[10615, 10626],
+					[12315, 12326],
+					[18158, 18169],
+					[18629, 18640],
+					[18738, 18749],
+					[18870, 18881],
+					[19036, 19047],
+					[19196, 19207],
+					[19544, 19555],
+					[29995, 30006]
+				],
+				"SMILES": "CC1C(C(C(C(O1)O)O)O)O",
+				"InChIKey": "SHZGCJCMOBCMKK-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Dichondra argentea",
+				"spans": [
+					[1233, 1251],
+					[7368, 7379],
+					[10079, 10090],
+					[13345, 13356],
+					[19409, 19420],
+					[26088, 26106]
+				],
+				"taxonomy_id": 2490664,
+				"alt_names": ["D. argentea"]
+			},
+			"category": "species",
+			"justification": "Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B).",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "acyl chain",
+				"spans": [
+					[12383, 12393],
+					[12694, 12704],
+					[12749, 12759],
+					[12833, 12843],
+					[12913, 12923],
+					[13164, 13174],
+					[23640, 23650]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "seed",
+				"spans": [[12031, 12035]],
+				"ontology_id": "PO:0009010",
+				"normalized_name": "seed",
+				"score": 1.0000001192092896,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "The percentages provide an idea of the general trend of acyl chain usage in a given species... each RG may have multiple acyl chain predictions. Inference... is based on observation of specific MS/MS fragments.",
+			"context": "Phylogenetic, organ-wise and structural diversity of resin glycoside. In the phylogenetic tree, the name in brackets is the original name on the seed stock, and the name in italics is the predicted species/genus based on matK phylogeny. (A) Number of RG peaks split by their organ of occurrence. See Methods for details on thresholds used for these definitions. (B) Number of RG peaks with neutral loss corresponding to pentose, deoxyhexose, or hexose groups typically seen attached to the hydroxyacyl chain involved with macrolactone ring formation. (C) Number of RG peaks with MS/MS fragments corresponding to the estimated masses of the different hydroxy- and dihydroxyacyl fragments. Some RG peaks had more than one fragment, as shown in the last three columns. (D) Percentage of RG peaks having a given acyl chain out of all RG peaks in that species with an acyl chain prediction. Numbers do not add up to 100 since each RG may have multiple acyl chain predictions. The percentages provide an idea of the general trend of acyl chain usage in a given species. Inference of the acetic acid group is based on neutral loss while other inferences are based on observation of specific MS/MS fragments. Monoisotopic [M-H]- acyl masses that cannot be confidently assigned to known acyl chain fragments are noted."
+		},
+		{
+			"subject_entity": {
+				"CID": 176,
+				"name": "acetic acid",
+				"spans": [[12967, 12978]],
+				"SMILES": "CC(=O)O",
+				"InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic acids and derivatives",
+					"Class": "Carboxylic acids and derivatives",
+					"Subclass": "Carboxylic acids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "seed",
+				"spans": [[12031, 12035]],
+				"ontology_id": "PO:0009010",
+				"normalized_name": "seed",
+				"score": 1.0000001192092896,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "Inference of the acetic acid group is based on neutral loss while other inferences are based on observation of specific MS/MS fragments.",
+			"context": "Phylogenetic, organ-wise and structural diversity of resin glycoside. In the phylogenetic tree, the name in brackets is the original name on the seed stock, and the name in italics is the predicted species/genus based on matK phylogeny. (A) Number of RG peaks split by their organ of occurrence. See Methods for details on thresholds used for these definitions. (B) Number of RG peaks with neutral loss corresponding to pentose, deoxyhexose, or hexose groups typically seen attached to the hydroxyacyl chain involved with macrolactone ring formation. (C) Number of RG peaks with MS/MS fragments corresponding to the estimated masses of the different hydroxy- and dihydroxyacyl fragments. Some RG peaks had more than one fragment, as shown in the last three columns. (D) Percentage of RG peaks having a given acyl chain out of all RG peaks in that species with an acyl chain prediction. Numbers do not add up to 100 since each RG may have multiple acyl chain predictions. The percentages provide an idea of the general trend of acyl chain usage in a given species. Inference of the acetic acid group is based on neutral loss while other inferences are based on observation of specific MS/MS fragments. Monoisotopic [M-H]- acyl masses that cannot be confidently assigned to known acyl chain fragments are noted."
+		},
+		{
+			"subject_entity": {
+				"CID": 17106,
+				"name": "fucose",
+				"spans": [
+					[13468, 13474],
+					[18377, 18383],
+					[28405, 28411]
+				],
+				"SMILES": "C[C@H]1[C@H]([C@H]([C@@H](C(O1)O)O)O)O",
+				"InChIKey": "SHZGCJCMOBCMKK-DHVFOXMCSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "LC-MS",
+				"spans": [[19353, 19358]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B).",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": 439746,
+				"name": "quinovose",
+				"spans": [
+					[18385, 18394],
+					[19023, 19032]
+				],
+				"SMILES": "C[C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+				"InChIKey": "SHZGCJCMOBCMKK-GASJEMHNSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Disaccharides", "Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Dichondra argentea",
+				"spans": [
+					[1233, 1251],
+					[7368, 7379],
+					[10079, 10090],
+					[13345, 13356],
+					[19409, 19420],
+					[26088, 26106]
+				],
+				"taxonomy_id": 2490664,
+				"alt_names": ["D. argentea"]
+			},
+			"category": "species",
+			"justification": "Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B).",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": 135191,
+				"name": "xylose",
+				"spans": [[18344, 18350]],
+				"SMILES": "C1[C@H]([C@@H]([C@H](C(O1)O)O)O)O",
+				"InChIKey": "SRBFZHDQGSBBOR-IOVATXLUSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Monosaccharides"],
+					"Np_superclass": ["Saccharides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Carbohydrates and carbohydrate conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "collision-induced dissociation",
+				"spans": [[19319, 19349]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS",
+			"context": "The MS/MS peak m/z = 271.2279 co-occurs with m/z = 417.2854 (Supplementary Fig. 4), which corresponds to C16-OH bonded to a deoxyhexose. We thus searched the MS/MS data across all species to identify hydroxyacyl chains of all lengths with the three types of sugars previously reported in RGs, namely pentoses (xylose), deoxyhexoses (rhamnose, fucose, quinovose), and hexoses (glucose) in RGs (Fig. 3B). Most RG peaks had the above-noted m/z peak association; however, a substantial number were also associated with a hexose, which most likely is glucose. The relative frequencies of pentose vs. deoxyhexose vs. hexose were species-dependent. Many Convolvulus and Calystegia species produced >20 RGs with deoxyhexose and pentose as the most and second-most frequent sugars, respectively, while the Merremia and Ipomoea species contained deoxyhexose and hexose (Fig. 3B). Previously identified RGs from Calystegia show the hydroxyacyl macrolactone ring connected to a glucose (a hexose) and quinovose (a deoxyhexose). Since the sugar-hydroxyacyl paired fragment in our study detects only one end of the macrolactone ring connection, the glycosidic linkage between deoxyhexose and the hydroxyacyl chain may be more stable than the ester linkage with hexose in electrospray ionization and collision-induced dissociation in LC-MS. Both pentose and hexose were equally frequent in D. argentea as an alternative sugar (Fig. 3B). In contrast, the two Operculina species and Xenostegia tridentata had hexose instead of deoxyhexose or pentose as their most preferred sugar for adding the hydroxyacyl chain. Eight previously published structures from Operculina macrocarpa and Operculina turpethum with the hydroxyacyl chain bonded to glucose agree with this finding. Based on these observations, we infer that hydroxyacyl chain addition (or at least the glycosidic bond formation) with deoxyhexoses was likely the ancestral state for RG biosynthesis, with lineage-specific shifts to hexose or pentose. The mechanism of this addition is not clear."
+		},
+		{
+			"subject_entity": {
+				"CID": 7991,
+				"name": "pentanoic acid",
+				"spans": [
+					[21565, 21579],
+					[30011, 30025],
+					[33253, 33265]
+				],
+				"SMILES": "CCCCC(=O)O",
+				"InChIKey": "NQPDZGIKBAWPEJ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Branched fatty acids", "Unsaturated fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": ["valeric acid"]
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Calystegia",
+				"spans": [
+					[14803, 14813],
+					[21743, 21753],
+					[21809, 21819],
+					[21908, 21918]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "Calystegia species were all predicted to contain C5 acyls... this pattern is corroborated by studies in Calystegia hederacea and C. soldanella containing 2S-methylbutyric acid as the C5 acyl chain.",
+			"context": "Differences in acyl incorporation between species were observed. RGs from Convolvulus species tended to contain m/z = 117.059 (hydroxymethylbutyric acid, HMBA) while those from Ipomoea had m/z = 101.061 (pentanoic acid) (Fig. 3D; Supplementary Fig. 7). Cinnamic acid was predicted mostly in Ipomoea species; presence of trans-cinnamic acid has been previously reported in Ipomoeas. Calystegia species were all predicted to contain C5 acyls, except Calystegia soldanella also with substantial tiglic RGs. This pattern is corroborated by studies in Calystegia hederacea and C. soldanella containing 2S-methylbutyric acid as the C5 acyl chain. As per prediction here, the two studies in Operculina also demonstrate a dominance of C5 (2S-methylbutyric) and tiglic acids in two Operculina species. Generally, short-chain fatty acids were more represented in RG structures than long-chain saturated and unsaturated fatty acids."
+		},
+		{
+			"subject_entity": {
+				"CID": 283,
+				"name": "formate",
+				"spans": [
+					[25592, 25599],
+					[27437, 27444],
+					[27448, 27455],
+					[27774, 27781],
+					[28554, 28561],
+					[30239, 30246]
+				],
+				"SMILES": "C(=O)[O-]",
+				"InChIKey": "BDAGIHXWWSANSR-UHFFFAOYSA-M",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic acids and derivatives",
+					"Class": "Carboxylic acids and derivatives",
+					"Subclass": "Carboxylic acids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "electrospray ionization",
+				"spans": [
+					[19291, 19314],
+					[25944, 25967]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "formate adduct (-46) or CO2 (-44) losses paired with a specific MS/MS fragment... occurring during electrospray ionization (Fig. 5)",
+			"context": "To facilitate putative component identification, we first attempted to better understand the different types of peaks produced upon fragmentation and any patterns of their co-occurrence. Three types of peaks showed frequent co-occurrences: (i) the hydroxyacyl fragment + one and two sugar (typically, 271-417-561/579); (ii) formate adduct (-46) or CO2 (-44) losses paired with a specific MS/MS fragment; and (iii) water (-18) loss (Fig. 5). This water loss could arise from an open or closed macrolactone ring structure:both forms are found in diverse RG structures across Convolvulaceae and in our NMR results (Fig. 2):or via a dehydration-led rearrangement occurring during electrospray ionization (Fig. 5)."
+		},
+		{
+			"subject_entity": {
+				"CID": 962,
+				"name": "water",
+				"spans": [
+					[25682, 25687],
+					[25714, 25719],
+					[27422, 27427],
+					[29106, 29111]
+				],
+				"SMILES": "O",
+				"InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Aminoacids"],
+					"Np_superclass": ["Small peptides"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organic oxides",
+					"Subclass": "Organic oxides"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Ipomoea tricolor",
+				"spans": [
+					[26062, 26078],
+					[29058, 29074],
+					[31309, 31325]
+				],
+				"taxonomy_id": 89664,
+				"alt_names": null
+			},
+			"category": "species",
+			"justification": "Red arrows show water loss... Observed MS/MS fragmentation pattern of the most abundant tricolorin in Ipomoea tricolor Heavenly Blue.",
+			"context": "Example of component prediction using a knowledge-based approach. (A) Non-isomeric structure of tricolorins (e.g. tricolorin A). (B) Observed MS/MS fragmentation pattern of the most abundant tricolorin in Ipomoea tricolor Heavenly Blue. Red arrows show water loss. (C) Components predicted by comparing the observed MS/MS fragments to database masses. Maximum top 20 fragments based on peak intensity are chosen. Neutral losses are predicted by computing pairwise mass differences between the fragments and comparing them to database masses. The final structure is the combination of the components assigned to the highest mass in (1) and the most likely component combination in (4). Studying (2) and (3) fragments can help confirm or select appropriate predictions."
+		},
+		{
+			"subject_entity": {
+				"CID": 280,
+				"name": "CO2",
+				"spans": [[25616, 25619]],
+				"SMILES": "C(=O)=O",
+				"InChIKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": [],
+					"Np_superclass": []
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Organic oxygen compounds",
+					"Class": "Organooxygen compounds",
+					"Subclass": "Organooxygen compounds"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "electrospray ionization",
+				"spans": [
+					[19291, 19314],
+					[25944, 25967]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "CO2 (-44) losses paired with a specific MS/MS fragment; ... a dehydration-led rearrangement occurring during electrospray ionization (Fig. 5).",
+			"context": "To facilitate putative component identification, we first attempted to better understand the different types of peaks produced upon fragmentation and any patterns of their co-occurrence. Three types of peaks showed frequent co-occurrences: (i) the hydroxyacyl fragment + one and two sugar (typically, 271-417-561/579); (ii) formate adduct (-46) or CO2 (-44) losses paired with a specific MS/MS fragment; and (iii) water (-18) loss (Fig. 5). This water loss could arise from an open or closed macrolactone ring structure:both forms are found in diverse RG structures across Convolvulaceae and in our NMR results (Fig. 2):or via a dehydration-led rearrangement occurring during electrospray ionization (Fig. 5)."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyacyl",
+				"spans": [[25516, 25527]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_under",
+			"object_entity": {
+				"name": "electrospray ionization",
+				"spans": [
+					[19291, 19314],
+					[25944, 25967]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "experimental_conditions",
+			"justification": "hydroxyacyl fragment + one and two sugar ... peaks showed frequent co-occurrences ... occurring during electrospray ionization (Fig. 5).",
+			"context": "To facilitate putative component identification, we first attempted to better understand the different types of peaks produced upon fragmentation and any patterns of their co-occurrence. Three types of peaks showed frequent co-occurrences: (i) the hydroxyacyl fragment + one and two sugar (typically, 271-417-561/579); (ii) formate adduct (-46) or CO2 (-44) losses paired with a specific MS/MS fragment; and (iii) water (-18) loss (Fig. 5). This water loss could arise from an open or closed macrolactone ring structure:both forms are found in diverse RG structures across Convolvulaceae and in our NMR results (Fig. 2):or via a dehydration-led rearrangement occurring during electrospray ionization (Fig. 5)."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxylated C17 fatty acid",
+				"spans": [[32000, 32027]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxylated C17 fatty acid",
+				"spans": [[32000, 32027]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxylated C17 fatty acid",
+				"spans": [[32000, 32027]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OHOH",
+				"spans": [[31852, 31860]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OHOH",
+				"spans": [[31852, 31860]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OHOH",
+				"spans": [[31852, 31860]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "C. arvensis",
+				"spans": [
+					[10008, 10019],
+					[11741, 11761],
+					[11845, 11856],
+					[15610, 15621],
+					[17798, 17809],
+					[23462, 23473],
+					[32096, 32107],
+					[32782, 32793]
+				],
+				"taxonomy_id": 4123,
+				"alt_names": ["Convolvulus arvensis"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C16-OHOH",
+				"spans": [[31852, 31860]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "even-chain fatty acids",
+				"spans": [[32431, 32453]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA... and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain.\nBiosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.\nThese observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyheptadecanoic acid",
+				"spans": [
+					[32704, 32729],
+					[32867, 32892]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyheptadecanoic acid",
+				"spans": [
+					[32704, 32729],
+					[32867, 32892]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA...",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 16750123,
+				"name": "C17",
+				"spans": [
+					[31828, 31831],
+					[31890, 31893],
+					[32013, 32016]
+				],
+				"SMILES": "C1=CC(=CC(=C1)Cl)COC2=CC3=C(C=C2)C(=CC(=O)O3)C=O",
+				"InChIKey": "ZOCADHRNWNJARU-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Simple coumarins"],
+					"Np_superclass": ["Coumarins"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Phenylpropanoids and polyketides",
+					"Class": "Coumarins and derivatives",
+					"Subclass": "Coumarins and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 16750123,
+				"name": "C17",
+				"spans": [
+					[31828, 31831],
+					[31890, 31893],
+					[32013, 32016]
+				],
+				"SMILES": "C1=CC(=CC(=C1)Cl)COC2=CC3=C(C=C2)C(=CC(=O)O3)C=O",
+				"InChIKey": "ZOCADHRNWNJARU-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Simple coumarins"],
+					"Np_superclass": ["Coumarins"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Phenylpropanoids and polyketides",
+					"Class": "Coumarins and derivatives",
+					"Subclass": "Coumarins and derivatives"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 15569770,
+				"name": "12-Hydroxyhexadecanoic acid",
+				"spans": [[32666, 32693]],
+				"SMILES": "CCCCC(CCCCCCCCCCC(=O)O)O",
+				"InChIKey": "VXLJMBUCOXFMGJ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. ... 12-Hydroxyhexadecanoic acid ... have been previously documented ... These observations ... reveal the unique biochemistry of RGs.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 15569770,
+				"name": "12-Hydroxyhexadecanoic acid",
+				"spans": [[32666, 32693]],
+				"SMILES": "CCCCC(CCCCCCCCCCC(=O)O)O",
+				"InChIKey": "VXLJMBUCOXFMGJ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA... 12-Hydroxyhexadecanoic acid ... have been previously documented...",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 15569770,
+				"name": "12-Hydroxyhexadecanoic acid",
+				"spans": [[32666, 32693]],
+				"SMILES": "CCCCC(CCCCCCCCCCC(=O)O)O",
+				"InChIKey": "VXLJMBUCOXFMGJ-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Hydroxy fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "C. arvensis",
+				"spans": [
+					[10008, 10019],
+					[11741, 11761],
+					[11845, 11856],
+					[15610, 15621],
+					[17798, 17809],
+					[23462, 23473],
+					[32096, 32107],
+					[32782, 32793]
+				],
+				"taxonomy_id": 4123,
+				"alt_names": ["Convolvulus arvensis"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs.\n12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs.\nFurthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "fatty acids",
+				"spans": [
+					[31872, 31883],
+					[32186, 32197],
+					[32352, 32363],
+					[32442, 32453]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0000262",
+				"normalized_name": "Fatty acids and conjugates",
+				"score": 1.0,
+				"alt_names": null
+			},
+			"predicate": "degraded_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "alpha oxidation of the more abundant even-chain fatty acids",
+			"context": "In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain.\nBiosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.\nThese observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "odd-chain fatty acids",
+				"spans": [
+					[31862, 31883],
+					[32176, 32197]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "11(S)-hydroxyheptadecanoic acid",
+				"spans": [[32698, 32729]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "11(S)-hydroxyheptadecanoic acid",
+				"spans": [[32698, 32729]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA...",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "11(S)-hydroxyheptadecanoic acid",
+				"spans": [[32698, 32729]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs.\n12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs.\nFurthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C15",
+				"spans": [
+					[31823, 31826],
+					[31885, 31888],
+					[32132, 32135]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur ... (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "C15",
+				"spans": [
+					[31823, 31826],
+					[31885, 31888],
+					[32132, 32135]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "Operculina turpethum",
+				"spans": [
+					[19700, 19720],
+					[32765, 32777]
+				],
+				"taxonomy_id": 197426,
+				"alt_names": ["O. turpethum"]
+			},
+			"category": "species",
+			"justification": "hydroxyacyl chains of C15, C17 length... have previously been described in RGs... 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyacyl groups",
+				"spans": [[31653, 31671]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "alpha oxidation",
+				"spans": [[32394, 32409]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "hydroxyacyl groups",
+				"spans": [[31653, 31671]],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_via",
+			"object_entity": {
+				"name": "fatty acid elongation pathway",
+				"spans": [[32265, 32294]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids.",
+			"context": "Substantial diversity was found in RG structures in each plant, within species as well as between species. All species were found to accumulate RGs in the roots. Evidence of five different hydroxyacyl groups complexed with sugars with occurrence in >10 RGs was obtained, with C16-OH being the most common (Fig. 3C). This was followed by hydroxyacyl chains of C15, C17 length, and then by C16-OHOH. Odd-chain fatty acids (C15, C17) are rarer compared to even-chain ones; however, both have previously been described in RGs. In addition, hydroxylated C17 fatty acid is the second most prevalent macrolactone ring fatty acid except in C. arvensis Yakima, which preferred C15 as the alternate chain. Biosynthesis of odd-chain fatty acids has been proposed to occur (i) from propionyl coA as the primer in fatty acid elongation pathway instead of acetyl coA, (ii) via one carbon elongation of fatty acids e.g. in acylsugars, and (iii) alpha oxidation of the more abundant even-chain fatty acids, but which of these mechanisms is prevalent in morning glories is unknown. These observations:combined with the unusual 11th position hydroxylation in the hydroxyacyl chain:reveal the unique biochemistry of RGs. 12-Hydroxyhexadecanoic acid and 11(S)-hydroxyheptadecanoic acid have been previously documented in O. turpethum and C. arvensis, respectively, but our study reveals the previously unreported extent of hydroxyheptadecanoic acid's prevalence across the Convolvulaceae RGs. Furthermore, based on the chain distribution patterns (Fig. 3C), we predict that a single enzyme:preferring jalapinolic acid and with promiscuous activities with other hydroxy/dihydroxy acyl chains:is responsible for acylation of the oligosaccharide core."
+		},
+		{
+			"subject_entity": {
+				"CID": 10430,
+				"name": "3-methylbutyric acid",
+				"spans": [[33289, 33309]],
+				"SMILES": "CC(C)CC(=O)O",
+				"InChIKey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Branched fatty acids"],
+					"Np_superclass": ["Fatty Acids and Conjugates"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Fatty Acyls",
+					"Subclass": "Fatty acids and conjugates"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "associated_with",
+			"object_entity": {
+				"name": "Solanaceae acylsugar biosynthetic pathway",
+				"spans": [[33778, 33819]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "pathways",
+			"justification": "Such diverse acylations are indicative of the involvement of BAHDs, similar to the promiscuous BAHDs of the Solanaceae acylsugar biosynthetic pathway.",
+			"context": "Among the acyl chains, five-carbon long chains (e.g. valeric acid, 2-methylbutyric acid, 3-methylbutyric acid) were the most frequent while four-carbon moieties (e.g. isobutyric acid, n-butyric acid), tiglic and acetic were also found in >10% of the RGs. Longer saturated acyl chains were not as frequently detected, indicating the predominant role of branched chain amino acid biosynthesis:from which most of the small acyl chains are likely derived:in RG decorations. Such diverse acylations are indicative of the involvement of BAHDs, similar to the promiscuous BAHDs of the Solanaceae acylsugar biosynthetic pathway. Solanaceae-type acylsugar BAHDs as well as anthocyanin sugar acylating BAHDs show conservation of acylation positions in orthologs despite their acceptor promiscuity; however, in RGs, analysis of previously characterized structures does not suggest positional uniformity. Nonetheless, the diversity of acyl chains added to RGs and the variable positions suggests the involvement of one promiscuous or multiple BAHDs in the process. Lineage-specific allelic divergence or gains/losses of the BAHDs may produce the observed lineage-specific patterns of acylation."
+		}
+	]
+}

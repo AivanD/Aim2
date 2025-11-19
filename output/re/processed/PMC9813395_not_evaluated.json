@@ -1,0 +1,703 @@
+{
+	"relations": [
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "gibberellic acid",
+				"spans": [
+					[153, 169],
+					[171, 173],
+					[381, 383],
+					[655, 657],
+					[1110, 1112],
+					[4451, 4467],
+					[16653, 16669],
+					[16815, 16831],
+					[17084, 17086],
+					[17223, 17225],
+					[17350, 17352],
+					[17820, 17822],
+					[18255, 18257],
+					[18295, 18297],
+					[18595, 18597],
+					[18654, 18656],
+					[18716, 18718],
+					[19466, 19468],
+					[19549, 19551],
+					[29154, 29156],
+					[30219, 30221],
+					[30290, 30292],
+					[30458, 30460],
+					[30831, 30833],
+					[31039, 31041],
+					[31095, 31097],
+					[31157, 31159],
+					[31449, 31451],
+					[31993, 31995],
+					[32708, 32710],
+					[33146, 33148],
+					[33338, 33340]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0001767",
+				"normalized_name": "Gibberellins",
+				"score": 0.910297691822052,
+				"alt_names": ["GA"]
+			},
+			"predicate": "made_by",
+			"object_entity": {
+				"name": "KO",
+				"spans": [
+					[20894, 20896],
+					[21030, 21032],
+					[21113, 21115],
+					[30406, 30408],
+					[30606, 30608],
+					[30718, 30720],
+					[31188, 31190],
+					[31220, 31222]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "Here, we analyzed the expression of key genes involved in GA biosynthesis, such CPS, KS, KO, KAO, GA20, and GA2.",
+			"context": "We therefore analyzed OsGASD expression in response to GA, finding that it increased in shoots (but not roots) in response to GA treatment ( Figure 2 ,  S2 ).\nIn addition, plant height and the lengths of panicles and internodes in the osgasd Ko mutant were restored to WT levels in response to GA treatment ( Figures 2B-F ).\nFurthermore, the shoots of OsGASD Ox plants had higher GA3 contents than WT shoots, whereas the shoots of the osgasd Ko mutant had lower GA3 content than WT shoots.\nIn Arabidopsis, both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway, but normal levels of bioactive GA.\nHere, we analyzed the expression of key genes involved in GA biosynthesis, such CPS, KS, KO, KAO, GA20, and GA2.\nWhereas KO, KAO, GA20, and GA2 were upregulated in the shoots of young OsGASD Ox plants, the expression of CPS and KS was not significantly altered ( Figure 3C )."
+		},
+		{
+			"subject_entity": {
+				"CID": 6466,
+				"name": "GA3",
+				"spans": [
+					[588, 591],
+					[3253, 3256],
+					[16671, 16674],
+					[16833, 16836],
+					[17298, 17301],
+					[17852, 17855],
+					[18906, 18909],
+					[18985, 18988],
+					[19194, 19197],
+					[20181, 20184],
+					[20341, 20344],
+					[20410, 20413],
+					[20488, 20491],
+					[20692, 20695],
+					[20826, 20829],
+					[30544, 30547],
+					[30626, 30629],
+					[30663, 30666]
+				],
+				"SMILES": "C[C@@]12[C@H](C=C[C@@]3([C@@H]1[C@@H]([C@]45[C@H]3CC[C@](C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"InChIKey": "IXORZMNAPKEEDV-OBDJNFEBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_by",
+			"object_entity": {
+				"name": "GA20ox",
+				"spans": [
+					[3936, 3942],
+					[3977, 3983],
+					[4040, 4046],
+					[4190, 4196]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "the total biosynthesis of bioactive GA is ultimately controlled by the dioxygenases GA3ox and GA20ox",
+			"context": "Gibberellic acids (GAs) are plant hormones with a wide range of developmental activities, including plant elongation. GA-deficient plants were significantly shorter than the WT, but their height was restored to WT levels by applying GA3. Recent progress has been made in identifying genes involved in GA metabolism and signaling pathways. GA biosynthesis involves a series of pathways in which metabolic enzymes interact. Copalyl diphosphate synthase (CPS), a terpene cyclase, catalyzes the first specific step of the GA biosynthesis pathway to produce ent-kaurene oxidase. Morphology of CPS overexpressing-transgenic rice show similar to the WT, despite increased expression of the ent-kaurene gene. Within the GA biosynthesis pathway, dioxygenases are important for providing GA for various developmental processes, and the total biosynthesis of bioactive GA is ultimately controlled by the dioxygenases GA3ox and GA20ox. Different expression patterns of GA20ox contribute to phenotypic variation in Arabidopsis, with GA20ox overexpression increasing the production of bioactive GAs, which influence plant growth. In rice, meanwhile, functionally deficient mutants of GA20ox show a typical dwarf phenotype."
+		},
+		{
+			"subject_entity": {
+				"CID": 6466,
+				"name": "GA3",
+				"spans": [
+					[588, 591],
+					[3253, 3256],
+					[16671, 16674],
+					[16833, 16836],
+					[17298, 17301],
+					[17852, 17855],
+					[18906, 18909],
+					[18985, 18988],
+					[19194, 19197],
+					[20181, 20184],
+					[20341, 20344],
+					[20410, 20413],
+					[20488, 20491],
+					[20692, 20695],
+					[20826, 20829],
+					[30544, 30547],
+					[30626, 30629],
+					[30663, 30666]
+				],
+				"SMILES": "C[C@@]12[C@H](C=C[C@@]3([C@@H]1[C@@H]([C@]45[C@H]3CC[C@](C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"InChIKey": "IXORZMNAPKEEDV-OBDJNFEBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "degraded_by",
+			"object_entity": {
+				"name": "GA2",
+				"spans": [
+					[21198, 21201],
+					[21794, 21797],
+					[21984, 21987],
+					[22084, 22087],
+					[31207, 31210],
+					[31239, 31242]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "GA2, GA 2 oxidase, is a gene encoding an enzyme that is known to degrade or inactivate GA3 (gibberellin), and the text lists GA2 among 'key genes involved in GA biosynthesis' whose expression was analyzed in relation to GA3 content.",
+			"context": "GAs are closely related to plant growth processes, such as seed and flower development, leaf expansion, and shoot elongation. We therefore analyzed OsGASD expression in response to GA, finding that it increased in shoots (but not roots) in response to GA treatment ( Figure 2 ,  S2 ). In addition, plant height and the lengths of panicles and internodes in the osgasd Ko mutant were restored to WT levels in response to GA treatment ( Figures 2B-F ). Furthermore, the shoots of OsGASD Ox plants had higher GA3 contents than WT shoots, whereas the shoots of the osgasd Ko mutant had lower GA3 content than WT shoots. However, GA3 contents in the roots of both OsGASD Ox and osgasd Ko plants were similar to those of WT plants ( Figures 3A, B ). These results suggest that OsGASD is involved in GA biosynthesis in rice shoots. In Arabidopsis, both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway, but normal levels of bioactive GA. Here, we analyzed the expression of key genes involved in GA biosynthesis, such CPS, KS, KO, KAO, GA20, and GA2. Whereas KO, KAO, GA20, and GA2 were upregulated in the shoots of young OsGASD Ox plants, the expression of CPS and KS was not significantly altered ( Figure 3C ). These results indicate that OsGASD mediates the accumulation of bioactive GA in young shoots during development.\nAnalysis of GA3 concentrations and GA biosynthesis genes expression in osgasd knockout mutant and OsGASD-overexpressing transgenic plants. (A, B) GA3 concentrations were measured in the shoots (A) and roots (B) of Ko, Ox and WT plants grown on MS media for 30 days. (C) RT-qPCR analysis shows changes in transcriptional expression levels in shoot of Ko, Ox and WT plants. CPS, Copalyl diphosphate synthase; KS, ent-kaurene synthase; KO, ent- kaurene oxidase; KAO, ent- kaurenoic acid hydroxylase; GA20, GA 20 oxidase; GA2, GA 2 oxidase. Error bars indicate SD. OsActin1 (Os03g0718100) was used as an internal control and relative expression levels are shown in fold values. Asterisks indicate statistically significant differences between the corresponding samples and their control (p-value<0.1, Student's t-test)."
+		},
+		{
+			"subject_entity": {
+				"CID": 6466,
+				"name": "GA3",
+				"spans": [
+					[588, 591],
+					[3253, 3256],
+					[16671, 16674],
+					[16833, 16836],
+					[17298, 17301],
+					[17852, 17855],
+					[18906, 18909],
+					[18985, 18988],
+					[19194, 19197],
+					[20181, 20184],
+					[20341, 20344],
+					[20410, 20413],
+					[20488, 20491],
+					[20692, 20695],
+					[20826, 20829],
+					[30544, 30547],
+					[30626, 30629],
+					[30663, 30666]
+				],
+				"SMILES": "C[C@@]12[C@H](C=C[C@@]3([C@@H]1[C@@H]([C@]45[C@H]3CC[C@](C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"InChIKey": "IXORZMNAPKEEDV-OBDJNFEBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "present_in",
+			"object_entity": {
+				"name": "internode",
+				"spans": [
+					[19079, 19088],
+					[20072, 20081],
+					[24914, 24923]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "anatomical_structures",
+			"justification": "With increasing GA3 concentration, the lengths of the first, second, third, fourth and fifth internodes in the mutant increased",
+			"context": "Therefore, we expected that the osgasd Ko mutant lacking OsGASD activity would exhibit some morphological changes in response to GA. We analyzed the sensitivity of these mutants and WT to GA treatment ( Figure S3  and  Figures 2C-F ). In response to GA spray treatment, 5-weeks-old osgasd Ko mutants increase of plant height compared to the WT ( Figures S3A, B ). The plant height of 14-week-old osgasd Ko mutants increased with increasing GA3 concentration, with the height of the osgasd Ko plants treated with 10 ppm GA3 being restored to level similar to those of WT plants ( Figures 2C, D ). We also analyzed internode elongation, panicle length, and tiller number in the osgasd Ko mutant ( Figures 2E, F ). With increasing GA3 concentration, the lengths of the first, second, third, fourth and fifth internodes in the mutant increased, while the panicle length was not significantly altered, and the tiller number decreased. These results, together with the expression pattern of OsGASD and the GA sensitivity of the osgasd Ko mutant, suggest that OsGASD function is related to GA biosynthesis during plant growth."
+		},
+		{
+			"subject_entity": {
+				"CID": 6466,
+				"name": "GA3",
+				"spans": [
+					[588, 591],
+					[3253, 3256],
+					[16671, 16674],
+					[16833, 16836],
+					[17298, 17301],
+					[17852, 17855],
+					[18906, 18909],
+					[18985, 18988],
+					[19194, 19197],
+					[20181, 20184],
+					[20341, 20344],
+					[20410, 20413],
+					[20488, 20491],
+					[20692, 20695],
+					[20826, 20829],
+					[30544, 30547],
+					[30626, 30629],
+					[30663, 30666]
+				],
+				"SMILES": "C[C@@]12[C@H](C=C[C@@]3([C@@H]1[C@@H]([C@]45[C@H]3CC[C@](C4)(C(=C)C5)O)C(=O)O)OC2=O)O",
+				"InChIKey": "IXORZMNAPKEEDV-OBDJNFEBSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Gibberellins"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "grain yield",
+				"spans": [
+					[844, 855],
+					[23874, 23885],
+					[32978, 32989]
+				],
+				"ontology_id": "TO:0000396",
+				"normalized_name": "grain yield trait",
+				"score": 0.950758159160614,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "GA application restored the plant height of the osgasd Ko mutant to a height similar to that of the wild type (WT). Rice plants overexpressing OsGASD (Ox) showed increased plant height and grain yield compared to the WT.",
+			"context": "The plant hormone gibberellic acid (GA) is important for plant growth and productivity. Actin-related proteins (ARPs) also play central roles in plant growth, including cell elongation and development. However, the relationships between ARPs and GA signaling and biosynthesis are not fully understood. Here, we isolated OsGASD, encoding an ARP subunit from rice (Oryza sativa), using the Ac/Ds knockout system. The osgasd knockout (Ko) mutation reduced GA3 content in shoots as well as plant growth and height. However, GA application restored the plant height of the osgasd Ko mutant to a height similar to that of the wild type (WT). Rice plants overexpressing OsGASD (Ox) showed increased plant height and grain yield compared to the WT. Transcriptome analysis of flag leaves of OsGASD Ox and osgasd Ko plants revealed that OsGASD regulates cell development and the expression of elongation-related genes. These observations suggest that OsGASD is involved in maintaining GA homeostasis to regulate plant development, thereby affecting rice growth and productivity."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "Gibberellic acids",
+				"spans": [
+					[3020, 3037],
+					[4894, 4897],
+					[22314, 22317]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0004013",
+				"normalized_name": "C19-gibberellin 6-carboxylic acids",
+				"score": 0.9105885624885559,
+				"alt_names": ["GAs"]
+			},
+			"predicate": "positively_regulated_by",
+			"object_entity": {
+				"name": "OsGASD",
+				"spans": [
+					[455, 461],
+					[550, 556],
+					[703, 709],
+					[798, 804],
+					[917, 923],
+					[931, 937],
+					[962, 968],
+					[1076, 1082],
+					[4519, 4525],
+					[4603, 4609],
+					[4634, 4640],
+					[4702, 4708],
+					[12946, 12952],
+					[13124, 13130],
+					[13170, 13176],
+					[13682, 13688],
+					[13708, 13714],
+					[14115, 14121],
+					[14233, 14239],
+					[14401, 14407],
+					[14461, 14467],
+					[14828, 14834],
+					[14931, 14937],
+					[15019, 15025],
+					[15106, 15112],
+					[15178, 15184],
+					[15283, 15289],
+					[15465, 15471],
+					[15972, 15978],
+					[16116, 16122],
+					[16167, 16173],
+					[16234, 16240],
+					[16380, 16386],
+					[16482, 16488],
+					[16595, 16601],
+					[16724, 16730],
+					[16876, 16882],
+					[16953, 16959],
+					[17003, 17009],
+					[17035, 17041],
+					[17138, 17144],
+					[17192, 17198],
+					[17655, 17661],
+					[17753, 17759],
+					[18219, 18225],
+					[18498, 18504],
+					[18523, 18529],
+					[18748, 18754],
+					[18862, 18868],
+					[18948, 18954],
+					[19142, 19148],
+					[19451, 19457],
+					[19488, 19494],
+					[19519, 19525],
+					[19676, 19682],
+					[19754, 19760],
+					[20006, 20012],
+					[20157, 20163],
+					[20243, 20249],
+					[20254, 20260],
+					[20304, 20310],
+					[20376, 20382],
+					[20517, 20523],
+					[20531, 20537],
+					[20629, 20635],
+					[20751, 20757],
+					[20778, 20784],
+					[21501, 21507],
+					[21571, 21577],
+					[21924, 21930],
+					[21938, 21944],
+					[22021, 22027],
+					[22120, 22126],
+					[22195, 22201],
+					[22403, 22409],
+					[22529, 22535],
+					[22540, 22546],
+					[22586, 22592],
+					[22733, 22739],
+					[23102, 23108],
+					[23213, 23219],
+					[23306, 23312],
+					[23446, 23452],
+					[23503, 23509],
+					[23671, 23677],
+					[23702, 23708],
+					[23889, 23895],
+					[24034, 24040],
+					[24117, 24123],
+					[24227, 24233],
+					[24259, 24265],
+					[24672, 24678],
+					[25169, 25175],
+					[25682, 25688],
+					[25794, 25800],
+					[25883, 25889],
+					[25946, 25952],
+					[25957, 25963],
+					[26106, 26112],
+					[26154, 26160],
+					[26298, 26304],
+					[26325, 26331],
+					[26416, 26422],
+					[26448, 26454],
+					[26639, 26645],
+					[26653, 26659],
+					[26863, 26869],
+					[26874, 26880],
+					[27416, 27422],
+					[27427, 27433],
+					[27638, 27644],
+					[27669, 27675],
+					[27744, 27750],
+					[27773, 27779],
+					[28376, 28382],
+					[28669, 28675],
+					[28700, 28706],
+					[28747, 28753],
+					[28786, 28792],
+					[28860, 28866],
+					[28889, 28895],
+					[28942, 28948],
+					[29138, 29144],
+					[29414, 29420],
+					[29472, 29478],
+					[29588, 29594],
+					[29759, 29765],
+					[29816, 29822],
+					[29908, 29914],
+					[29986, 29992],
+					[30186, 30192],
+					[30399, 30405],
+					[30516, 30522],
+					[30599, 30605],
+					[30697, 30703],
+					[30711, 30717],
+					[30809, 30815],
+					[31283, 31289],
+					[31403, 31409],
+					[31536, 31542],
+					[31550, 31556],
+					[31619, 31625],
+					[31831, 31837],
+					[31964, 31970],
+					[33114, 33120],
+					[33256, 33262]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "OsGASD Ox showed increased plant and grain size... Based on our findings, we propose that OsGASD is involved in the GA biosynthetic pathway... our findings also shed light on the interactions between ARP genes and GAs.",
+			"context": "These results point to an association between OsGASD expression and GA biosynthesis in plants.\nSince GAs are phytohormones that affect plant productivity, we expected that the expression of OsGASD would also affect rice productivity.\nAnalysis of the morphology of whole plants, internodes, panicles, and grains from OsGASD Ox, osgasd Ko mutant, and WT plants revealed that OsGASD Ox showed increased plant and grain size, including increased plant height, internode length, panicle number, and grain weight, whereas the osgasd Ko mutants exhibited reduced plant and grain size ( Figures 4A-F, L ;  Table S1 ).\nIn this current study, we used the Ac/Ds knockout system to generate new loss-of-function rice mutants with growth defects. By analyzing these mutants, we identified a novel gene encoding the ARPC2 subunit, which we named gibberellic acid sensitive dwarf (GASD). To investigate the role of OsGASD in plant development, we performed phenotypic and transcriptomic analysis of OsGASD-overexpressing (Ox) and OsGASD knockout (Ko) plants. Based on our findings, we propose that OsGASD is involved in the GA biosynthetic pathway and plays important roles in regulating plant growth and productivity. Our findings also shed light on the interactions between ARP genes and GAs."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "Gibberellic acids",
+				"spans": [
+					[3020, 3037],
+					[4894, 4897],
+					[22314, 22317]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0004013",
+				"normalized_name": "C19-gibberellin 6-carboxylic acids",
+				"score": 0.9105885624885559,
+				"alt_names": ["GAs"]
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "internodes length",
+				"spans": [
+					[18175, 18192],
+					[20072, 20088],
+					[22669, 22685],
+					[24914, 24930]
+				],
+				"ontology_id": "TO:0002691",
+				"normalized_name": "peduncle length",
+				"score": 0.848806619644165,
+				"alt_names": ["internode length"]
+			},
+			"category": "plant_traits",
+			"justification": "GAs are phytohormones that affect plant productivity... OsGASD Ox showed increased plant and grain size, including increased plant height, internode length...",
+			"context": "Since GAs are phytohormones that affect plant productivity, we expected that the expression of OsGASD would also affect rice productivity. Analysis of the morphology of whole plants, internodes, panicles, and grains from OsGASD Ox, osgasd Ko mutant, and WT plants revealed that OsGASD Ox showed increased plant and grain size, including increased plant height, internode length, panicle number, and grain weight, whereas the osgasd Ko mutants exhibited reduced plant and grain size ( Figures 4A-F, L ;  Table S1 ). To further explore rice productivity, we analyzed agronomic traits including the number of panicles, filling rate, number of spikelets per panicle, total grain weight, and 1,000-grain weight ( Figures 4G-K ;  Table S1 ). The number of panicles was approximately 40% lower in the osgasd Ko mutants compared to the WT plants. However, the number of panicles was not significantly elevated in OsGASD Ox plants. Total grain weight, the number of filled grains, and 1,000-grain weight of OsGASD Ox plants increased by approximately 27%, 30% and 13%, respectively, compared to WT plants. However, the filling rate was reduced in OsGASD Ox plants compared to WT plants. By contrast, the osgasd Ko mutants showed reduced values for all parameters compared to WT plants. Consequently, the total grain weight and total number of filled grains were higher in OsGASD Ox plants, but lower in osgasd Ko plants, compared to WT plants. Furthermore, the seed size and 1,000-grain weight differed among lines ( Figures 4K, L ). These results suggest that the increased grain yield in OsGASD Ox is largely due to increases in panicle length, number of filled grains, and grain weight, supporting the notion that the expression of OsGASD affects the development of seeds that form in the panicle."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "Gibberellic acids",
+				"spans": [
+					[3020, 3037],
+					[4894, 4897],
+					[22314, 22317]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0004013",
+				"normalized_name": "C19-gibberellin 6-carboxylic acids",
+				"score": 0.9105885624885559,
+				"alt_names": ["GAs"]
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "number of filled grains",
+				"spans": [
+					[23255, 23278],
+					[23632, 23655],
+					[23946, 23969]
+				],
+				"ontology_id": "TO:0000447",
+				"normalized_name": "filled grain number",
+				"score": 0.9265133142471313,
+				"alt_names": null
+			},
+			"category": "plant_traits",
+			"justification": "Total grain weight, the number of filled grains, and 1,000-grain weight of OsGASD Ox plants increased by approximately 27%, 30% and 13%, respectively, compared to WT plants.",
+			"context": "Since GAs are phytohormones that affect plant productivity, we expected that the expression of OsGASD would also affect rice productivity. Analysis of the morphology of whole plants, internodes, panicles, and grains from OsGASD Ox, osgasd Ko mutant, and WT plants revealed that OsGASD Ox showed increased plant and grain size, including increased plant height, internode length, panicle number, and grain weight, whereas the osgasd Ko mutants exhibited reduced plant and grain size ( Figures 4A-F, L ;  Table S1 ). To further explore rice productivity, we analyzed agronomic traits including the number of panicles, filling rate, number of spikelets per panicle, total grain weight, and 1,000-grain weight ( Figures 4G-K ;  Table S1 ). The number of panicles was approximately 40% lower in the osgasd Ko mutants compared to the WT plants. However, the number of panicles was not significantly elevated in OsGASD Ox plants. Total grain weight, the number of filled grains, and 1,000-grain weight of OsGASD Ox plants increased by approximately 27%, 30% and 13%, respectively, compared to WT plants. However, the filling rate was reduced in OsGASD Ox plants compared to WT plants. By contrast, the osgasd Ko mutants showed reduced values for all parameters compared to WT plants. Consequently, the total grain weight and total number of filled grains were higher in OsGASD Ox plants, but lower in osgasd Ko plants, compared to WT plants. Furthermore, the seed size and 1,000-grain weight differed among lines ( Figures 4K, L ). These results suggest that the increased grain yield in OsGASD Ox is largely due to increases in panicle length, number of filled grains, and grain weight, supporting the notion that the expression of OsGASD affects the development of seeds that form in the panicle."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "Gibberellic acids",
+				"spans": [
+					[3020, 3037],
+					[4894, 4897],
+					[22314, 22317]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0004013",
+				"normalized_name": "C19-gibberellin 6-carboxylic acids",
+				"score": 0.9105885624885559,
+				"alt_names": ["GAs"]
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "different expression patterns",
+				"spans": [[3944, 3973]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "Different expression patterns of GA20ox contribute to phenotypic variation in Arabidopsis, with GA20ox overexpression increasing the production of bioactive GAs, which influence plant growth.",
+			"context": "Gibberellic acids (GAs) are plant hormones with a wide range of developmental activities, including plant elongation. GA-deficient plants were significantly shorter than the WT, but their height was restored to WT levels by applying GA3. Recent progress has been made in identifying genes involved in GA metabolism and signaling pathways. GA biosynthesis involves a series of pathways in which metabolic enzymes interact. Copalyl diphosphate synthase (CPS), a terpene cyclase, catalyzes the first specific step of the GA biosynthesis pathway to produce ent-kaurene oxidase. Morphology of CPS overexpressing-transgenic rice show similar to the WT, despite increased expression of the ent-kaurene gene. Within the GA biosynthesis pathway, dioxygenases are important for providing GA for various developmental processes, and the total biosynthesis of bioactive GA is ultimately controlled by the dioxygenases GA3ox and GA20ox. Different expression patterns of GA20ox contribute to phenotypic variation in Arabidopsis, with GA20ox overexpression increasing the production of bioactive GAs, which influence plant growth. In rice, meanwhile, functionally deficient mutants of GA20ox show a typical dwarf phenotype."
+		},
+		{
+			"subject_entity": {
+				"CID": null,
+				"name": "Gibberellic acids",
+				"spans": [
+					[3020, 3037],
+					[4894, 4897],
+					[22314, 22317]
+				],
+				"SMILES": null,
+				"InChIKey": null,
+				"Natural_product_class": null,
+				"Classyfire": null,
+				"ontology_id": "CHEMONTID:0004013",
+				"normalized_name": "C19-gibberellin 6-carboxylic acids",
+				"score": 0.9105885624885559,
+				"alt_names": ["GAs"]
+			},
+			"predicate": "affects",
+			"object_entity": {
+				"name": "increased expression",
+				"spans": [[3675, 3695]],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "molecular_traits",
+			"justification": "GA20ox overexpression increasing the production of bioactive GAs, which influence plant growth.",
+			"context": "Gibberellic acids (GAs) are plant hormones with a wide range of developmental activities, including plant elongation. GA-deficient plants were significantly shorter than the WT, but their height was restored to WT levels by applying GA3. Recent progress has been made in identifying genes involved in GA metabolism and signaling pathways. GA biosynthesis involves a series of pathways in which metabolic enzymes interact. Copalyl diphosphate synthase (CPS), a terpene cyclase, catalyzes the first specific step of the GA biosynthesis pathway to produce ent-kaurene oxidase. Morphology of CPS overexpressing-transgenic rice show similar to the WT, despite increased expression of the ent-kaurene gene. Within the GA biosynthesis pathway, dioxygenases are important for providing GA for various developmental processes, and the total biosynthesis of bioactive GA is ultimately controlled by the dioxygenases GA3ox and GA20ox. Different expression patterns of GA20ox contribute to phenotypic variation in Arabidopsis, with GA20ox overexpression increasing the production of bioactive GAs, which influence plant growth. In rice, meanwhile, functionally deficient mutants of GA20ox show a typical dwarf phenotype."
+		},
+		{
+			"subject_entity": {
+				"CID": 73062,
+				"name": "ent-kaurenoic acid",
+				"spans": [
+					[21716, 21734],
+					[30988, 31006]
+				],
+				"SMILES": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@H](C3)C(=C)C4)(C)C(=O)O",
+				"InChIKey": "NIKHGUQULKYIGE-OTCXFQBHSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Kaurane and Phyllocladane diterpenoids"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_by",
+			"object_entity": {
+				"name": "AtKS",
+				"spans": [
+					[30901, 30905],
+					[32683, 32687]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway",
+			"context": "These results suggest that OsGASD is involved in GA biosynthesis in rice shoots.\nIn Arabidopsis, both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway, but normal levels of bioactive GA.\nHere, we analyzed the expression of key genes involved in GA biosynthesis, such CPS, KS, KO, KAO, GA20, and GA2."
+		},
+		{
+			"subject_entity": {
+				"CID": 73062,
+				"name": "ent-kaurenoic acid",
+				"spans": [
+					[21716, 21734],
+					[30988, 31006]
+				],
+				"SMILES": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@H](C3)C(=C)C4)(C)C(=O)O",
+				"InChIKey": "NIKHGUQULKYIGE-OTCXFQBHSA-N",
+				"Natural_product_class": {
+					"Np_class": ["Kaurane and Phyllocladane diterpenoids"],
+					"Np_superclass": ["Diterpenoids"]
+				},
+				"Classyfire": {
+					"Kingdom": "Organic compounds",
+					"Superclass": "Lipids and lipid-like molecules",
+					"Class": "Prenol lipids",
+					"Subclass": "Diterpenoids"
+				},
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"predicate": "made_by",
+			"object_entity": {
+				"name": "AtCPS",
+				"spans": [
+					[30884, 30889],
+					[30895, 30900],
+					[32673, 32678]
+				],
+				"ontology_id": null,
+				"normalized_name": null,
+				"score": null,
+				"alt_names": null
+			},
+			"category": "genes",
+			"justification": "both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway",
+			"context": "These results suggest that OsGASD is involved in GA biosynthesis in rice shoots.\nIn Arabidopsis, both AtCPS- and AtCPS/AtKS-overexpressing transgenic plants showed increased accumulation of ent-kaurene and ent-kaurenoic acid, two early intermediates in the GA biosynthetic pathway, but normal levels of bioactive GA.\nHere, we analyzed the expression of key genes involved in GA biosynthesis, such CPS, KS, KO, KAO, GA20, and GA2."
+		}
+	]
+}
