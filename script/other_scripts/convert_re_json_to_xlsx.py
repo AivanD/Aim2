@@ -37,15 +37,15 @@ def process_json_file(json_file_path):
 
     # Process the data
     records = []
-    for relation in data:
+    for relation in data['relations']:
         record = {
             "PMCID": pmcid,
-            "subject_name": relation.get("subject_name"),
-            "subject_cid": relation.get("subject_cid"),
+            "subject_name": relation['subject_entity'].get("name"),
+            "subject_cid": relation['subject_entity'].get("CID"),
             "predicate": relation.get("predicate"),
-            "object_name": relation.get("object_name"),
-            "object_alt_names": str(relation.get("object_alt_names")) if relation.get("object_alt_names") is not None else None,
-            "object_ontology_id": relation.get("object_ontology_id"),
+            "object_name": relation['object_entity'].get("name"),
+            "object_alt_names": relation['object_entity'].get("alt_names"),
+            "object_ontology_id": relation['object_entity'].get("ontology_id"),
             "category": relation.get("category")
         }
         records.append(record)
@@ -62,7 +62,7 @@ def process_all_json_to_excel(input_dir, output_excel_path):
     all_records = []
     file_count = 0
     for filename in sorted(os.listdir(input_dir)):
-        if filename.endswith(".json") and "no_relationships" not in filename:
+        if filename.endswith(".json") and "_not_evaluated" not in filename:
             file_path = os.path.join(input_dir, filename)
             records = process_json_file(file_path)
             if records:
