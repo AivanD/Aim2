@@ -11,10 +11,12 @@ import re
 import asyncio
 from sentence_transformers import SentenceTransformer
 import logging
+import spacy
 
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL, GPT_MODEL_NER, GPT_MODEL_RE_EVAL
 from aim2.entities_types.entities import CustomExtractedEntities
 from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re
+from aim2.abbreviation.custom_abbreviation_detector import AbbreviationDetector
 
 logger = logging.getLogger(__name__)
 
@@ -500,3 +502,23 @@ def load_sapbert():
         raise RuntimeError(f"Error loading SAPBERT model via outlines: {e}")
 
     return model
+
+def load_nlp(use_cpu=False):
+    """
+    Loads and returns a SpaCy NLP model instance using the specified model name.
+    Returns:
+        An instance of the SpaCy NLP model configured with the provided model name.
+    """
+    try: 
+        if torch.cuda.is_available() and not use_cpu:
+            logger.info(f"Using GPU ({torch.cuda.get_device_name(0)}) for loading SpaCy NLP model with {torch.cuda.device_count()} CUDA device(s).")
+            spacy.prefer_gpu()
+            nlp = spacy.load("en_core_sci_scibert", disable=["tagger", "ner", "lemmatizer"])
+        else:
+            logger.info("Using CPU for loading SpaCy NLP model.")
+            nlp = spacy.load("en_core_sci_lg")
+        nlp.add_pipe("custom_abbreviation_detector")
+    except Exception as e:
+        raise RuntimeError(f"Error loading SpaCy NLP model: {e}")
+
+    return nlp

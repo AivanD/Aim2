@@ -1,14 +1,11 @@
 import xml.etree.ElementTree as ET
 import spacy
 import logging
-# from scispacy.abbreviation import AbbreviationDetector
-
-from aim2.abbreviation.custom_abbreviation_detector import AbbreviationDetector
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def parse_xml(file_path, for_sentences=False):
+def parse_xml(file_path, for_sentences=False, nlp=None):
     """
     Parses an XML file and returns a list of sentences using scispacy's TRANSFORMER model (en_core_sci_scibert).
     Can also use en_core_sci_lg for non-transformer models.
@@ -56,16 +53,7 @@ def parse_xml(file_path, for_sentences=False):
 
         # use nlp.pipe with batch processing and using multi core (multi core is only support if you dont need abbreviation)
         # for transformers, leave n_process at 1. For non-transformers, use any nproc processes
-        if for_sentences:
-            # if torch.cuda.is_available():
-            #     logger.info(f"Using GPU ({torch.cuda.get_device_name(0)}) for processing with {torch.cuda.device_count()} CUDA devices.")
-            #     nlp = spacy.load("en_core_sci_scibert", disable=["tagger", "ner", "lemmatizer"]) # just needed parser
-            # else:
-            logger.info("Using CPU for processing...")
-            nlp = spacy.load("en_core_sci_lg", disable=["tagger", "ner", "lemmatizer"])
-            # nlp.add_pipe("abbreviation_detector")
-            nlp.add_pipe("custom_abbreviation_detector")
-
+        if for_sentences and nlp is not None:
             # extracting only the text from all_passages for nlp.pipe
 
             for doc, passage_offset in nlp.pipe(all_passages, as_tuples=True, n_process=1, batch_size=(min(len(all_passages), 128))):
@@ -74,5 +62,9 @@ def parse_xml(file_path, for_sentences=False):
                     all_sentences.append((sent.text, sentence_offset))
                 for abrv in doc._.abbreviations:
                     abbreviations_dict[abrv.text] = str(abrv._.long_form)
+        else:
+            logger.warning("Sentence extraction and abbreviation detection skipped due to missing NLP model or for_sentences=False.")
+            all_sentences = []
+            abbreviations_dict = {}
 
     return all_passages, all_sentences, abbreviations_dict

@@ -22,7 +22,7 @@ from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRe
 from aim2.xml.xml_parser import parse_xml
 from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import load_sapbert, groq_inference, groq_inference_async, load_openai_client_async, load_groq_client_async, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
+from aim2.llm.models import load_nlp, load_sapbert, groq_inference, groq_inference_async, load_openai_client_async, load_groq_client_async, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
 from aim2.llm.prompt import make_prompt, make_re_evaluation_prompt_body_only, make_re_prompt, make_re_evaluation_prompt, make_prompt_body_only, make_re_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
@@ -163,6 +163,7 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
+        nlp_model = load_nlp(use_cpu=False)
         # for NER, RE, EVAL
         OPENAI_client = load_openai_client_async()             
         GROQ_client = load_groq_client_async()     
@@ -209,7 +210,7 @@ async def amain():
             logger.info(f"Processing file: {filename}")
             parsing_time = time.time()
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
-            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True)
+            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True, nlp_model)
             logger.info(f"Parsing time for {filename}: {time.time() - parsing_time:.2f} seconds")
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
