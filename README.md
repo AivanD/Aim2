@@ -1,34 +1,21 @@
 # AIM 2
 
 # Installation instructions
-```bash 
-pip install -e .
-pip install -r requirements.txt # use appropriate OS. 
-
-# for models used for sentence splitting (can be use for other purposes). Pick only one of the two.
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz # for transformer model which requires pytorch cuda
-
-```
-# Installation for Mac (untested)
 ```bash
-pip install -e .
+uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
+pip install -e . # important
 
-pip install scispacy
-# for models used for sentence splitting (can be use for other purposes)
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz # for transformer model which requires pytorch cuda
-pip install dotenv
+pip install vllm==0.11.0 
+pip install scispacy==0.6.2	# ignore the warning about opencv-python-headless
+pip install python-dotenv
+pip install sentence_transformers
 pip install schemic
-pip install openai
-
-# optional 3 (used for local inferencing)
-pip install bitsandbytes # don't know if this works for macOS
-pip install accelerate  # dont know if this works for macOS.
-pip install vllm # future use - has a lot of benefits for local inferencing - relationship step much later.
-
-pip install outlines # ignore the warning!
+pip install outlines==1.2.8
+pip install groq
+# for models used for sentence splitting (can be use for other purposes). 
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
 ```
+
 # API tokens
 use the `.env.example` to create a `.env` file to hold your API keys.
 # How to run (4 relevant steps)
