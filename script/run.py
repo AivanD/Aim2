@@ -1,7 +1,6 @@
 import logging
 import os
 import logging
-import sys
 import warnings
 import json
 from vllm import SamplingParams
@@ -9,8 +8,6 @@ from vllm.sampling_params import StructuredOutputsParams
 import time
 import asyncio
 from tqdm.asyncio import tqdm
-from openai import RateLimitError
-import re
 import pydantic
 
 from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem
@@ -20,13 +17,12 @@ from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
 from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, SelfEvaluationResult
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, PO_OBO, PECO_OBO, TO_OBO, GO_OBO, CHEMONT_OBO, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, RE_OUTPUT_DIR
+from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
-from aim2.llm.models import load_nlp, load_sapbert, groq_inference, groq_inference_async, load_openai_client_async, load_groq_client_async, load_local_model_via_outlines, load_local_model_via_outlinesVLLM, gpt_inference_async
+from aim2.llm.models import load_nlp, load_sapbert, load_openai_client_async, load_groq_client_async, load_local_model_via_outlinesVLLM, gpt_inference_async
 from aim2.llm.prompt import make_prompt, make_re_evaluation_prompt_body_only, make_re_prompt, make_re_evaluation_prompt, make_prompt_body_only, make_re_prompt_body_only
 from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
 from aim2.postprocessing.span_adder import add_spans_to_entities
-from aim2.data.ontology import load_ontology
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
 
