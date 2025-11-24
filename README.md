@@ -2,16 +2,11 @@
 
 # Installation instructions
 ```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh	# installs uv
 uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
-pip install -e . # important
 
-pip install vllm==0.11.0 
-pip install scispacy==0.6.2	# ignore the warning about opencv-python-headless
-pip install python-dotenv
-pip install sentence_transformers
-pip install schemic
-pip install outlines==1.2.8
-pip install groq
+pip install -e . # important
+pip install -r requirements_ln2.txt
 # for models used for sentence splitting (can be use for other purposes). 
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
 ```
