@@ -163,7 +163,7 @@ async def amain():
     # load the models to use
     try:
         sapbert_model = load_sapbert()
-        nlp_model = load_nlp(use_cpu=False)
+        nlp_model = load_nlp(use_cpu=True)
         # for NER, RE, EVAL
         OPENAI_client = load_openai_client_async()             
         GROQ_client = load_groq_client_async()     
