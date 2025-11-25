@@ -47,6 +47,7 @@ def process_json_file(json_file_path):
             "object_alt_names": relation['object_entity'].get("alt_names"),
             "object_ontology_id": relation['object_entity'].get("ontology_id"),
             "category": relation.get("category"),
+            "context": relation.get("context", ""),
             "justification": relation.get("justification", "")
         }
         records.append(record)
@@ -77,7 +78,7 @@ def process_all_json_to_excel(input_dir, output_excel_path):
         # Ensure columns are in the desired order
         column_order = [
             "PMCID", "subject_name", "subject_id", "predicate", 
-            "object_name", "object_alt_names", "object_ontology_id", "category", "justification"
+            "object_name", "object_alt_names", "object_ontology_id", "category", "context", "justification"
         ]
         df = df[column_order]
         
