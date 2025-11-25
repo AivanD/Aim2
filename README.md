@@ -3,8 +3,10 @@
 # Installation instructions
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh	# installs uv
-uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
 
+# navigate to project folder
+uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
+source .cspirit/bin/activate 
 pip install -e . # important
 pip install -r requirements_ln2.txt
 # for models used for sentence splitting (can be use for other purposes). 

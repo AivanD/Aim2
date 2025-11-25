@@ -7,3 +7,5 @@ schemic==1.1.0
 outlines==1.2.8
 groq==0.33.0
 obonet==1.1.1
+pandas==2.3.3
+openpyxl==3.1.5
