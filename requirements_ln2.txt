@@ -1,6 +1,5 @@
 vllm==0.11.0
 scispacy==0.6.2	
-sentence_transformers
 python-dotenv==1.2.1
 sentence_transformers==5.1.1
 schemic==1.1.0
