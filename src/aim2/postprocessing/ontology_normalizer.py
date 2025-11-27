@@ -4,6 +4,7 @@ import torch
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.util import cos_sim
 from typing import List, Dict, Any
+import time
 
 from aim2.utils.config import DATA_DIR
 
@@ -95,6 +96,7 @@ class SapbertNormalizer:
 
     def normalize_entities(self, processed_results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Iterates through results and normalizes relevant entity types using specific thresholds."""
+        ontology_norm_start_time = time.time()
         logger.info("Starting ontology normalization for entities...")
         for passage_entities in processed_results:
             for entity_type, ontology_key in self.entity_to_ontology_map.items():
@@ -107,5 +109,5 @@ class SapbertNormalizer:
                         match = self._find_best_match(entity['name'], ontology_key, threshold, namespace=required_namespace)
                         if match:
                             entity.update(match)
-        logger.info("Ontology normalization complete.")
+        logger.info(f"Ontology normalization complete in {time.time() - ontology_norm_start_time:.2f} seconds.")
         return processed_results

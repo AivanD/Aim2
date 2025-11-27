@@ -229,23 +229,23 @@ async def amain():
                     prompts_ner.append(prompt)
 
                     # OPTION 1: API (async)
-                    task = process_passage_for_ner(semaphore, passage_text, OPENAI_client)
-                    tasks.append(task)
+                    # task = process_passage_for_ner(semaphore, passage_text, OPENAI_client)
+                    # tasks.append(task)
 
                 # wait for all tasks to complete and get their results
-                logger.info(f"Waiting for {len(tasks)} tasks to complete...")
-                results = await tqdm.gather(*tasks, desc="Processing passages")
+                logger.info(f"Waiting for {len(prompts_ner)} tasks to complete...")
+                # results = await tqdm.gather(*tasks, desc="Processing passages")
 
-                # # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
+                # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
                 # comment the API async part as well as the "results await line above" before using local inference
-                # structured_ner_output_params = StructuredOutputsParams(
-                #     json=SimpleExtractedEntities.model_json_schema()
-                # )
-                # results = model.batch(
-                #     model_input=prompts_ner,
-                #     # output_type=SimpleExtractedEntities,
-                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=1024, structured_outputs=structured_ner_output_params),
-                # )
+                structured_ner_output_params = StructuredOutputsParams(
+                    json=SimpleExtractedEntities.model_json_schema()
+                )
+                results = model.generate(
+                    prompts=prompts_ner,
+                    # output_type=SimpleExtractedEntities,
+                    sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=1024, structured_outputs=structured_ner_output_params),
+                )
 
                 for i, result in enumerate(results):
                     if result is None:
@@ -254,8 +254,8 @@ async def amain():
 
                     # parse the json_string result into a pydantic object
                     # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
-                    extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
-                    # extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])  # if using local model
+                    # extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
+                    extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])  # if using local model
 
                     # add the entities to the raw result list to be saved into a file
                     raw_result_list.append(extracted_entities.model_dump())
@@ -441,12 +441,12 @@ async def amain():
                 structured_re_output_params = StructuredOutputsParams(
                     json=SimpleRelation.model_json_schema(),
                 )
-                re_results = model.batch(
-                    model_input=prompts_re,
+                re_results = model.generate(
+                    prompts=prompts_re,
                     # output_type=SimpleRelation,
                     sampling_params=SamplingParams(temperature=1e-67,
                                                    seed=42,
-                                                   max_tokens=512, 
+                                                   max_tokens=256, 
                                                    structured_outputs=structured_re_output_params
                                                    ),
                 )
@@ -525,19 +525,19 @@ async def amain():
                     prompts_re_evaluation.append(prompt)
 
                     # OPTION 1:API (async)
-                    task = process_for_re_evaluation(semaphore_self_evaluation, rel.model_dump(), OPENAI_client)  
-                    tasks.append(task)
+                    # task = process_for_re_evaluation(semaphore_self_evaluation, rel.model_dump(), OPENAI_client)  
+                    # tasks.append(task)
 
                 # Wait for all tasks to complete and get their results
-                logger.info(f"Waiting for {len(tasks)} self-evaluation tasks to complete...")
-                self_evaluation_results = await tqdm.gather(*tasks, desc="Self-evaluating relations")
+                logger.info(f"Waiting for {len(prompts_re_evaluation)} self-evaluation tasks to complete...")
+                # self_evaluation_results = await tqdm.gather(*tasks, desc="Self-evaluating relations")
                 
                 # OPTION 2: LOCAL MODEL via outlines+VLLM (batching)
-                # structured_re_evaluation_params = StructuredOutputsParams(json=SelfEvaluationResult.model_json_schema())
-                # self_evaluation_results = model.batch(
-                #     model_input=prompts_re_evaluation,
-                #     sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_evaluation_params),
-                # )
+                structured_re_evaluation_params = StructuredOutputsParams(json=SelfEvaluationResult.model_json_schema())
+                self_evaluation_results = model.generate(
+                    prompts=prompts_re_evaluation,
+                    sampling_params=SamplingParams(temperature=1e-67, seed=42, max_tokens=32, structured_outputs=structured_re_evaluation_params),
+                )
 
                 evaluated_relations = ExtractedRelations()
                 not_evaluated_relations = ExtractedRelations()
@@ -548,8 +548,8 @@ async def amain():
                             logger.error(f"Self-evaluation for relation index {i} failed after retries.")
                             continue
 
-                        # self_evaluation = SelfEvaluationResult.model_validate_json(val_result_json[0])   # if using local model
-                        self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
+                        self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json[0])   # if using local model
+                        # self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
                         if self_evaluation.decision == "yes":
                             evaluated_relations.relations.append(relations_to_evaluate[i])
                         else:

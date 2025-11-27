@@ -18,6 +18,7 @@ def normalize_species_with_ncbi(processed_results: List[Dict[str, Any]], MAX_ATT
     Normalizes species names using the NCBI Datasets API to fetch a Taxonomy ID and canonical name.
     It resolves abbreviated genus names within the document context before querying and caches results.
     """
+    species_norm_start_time = time.time()
     logger.info("Starting species normalization with NCBI Datasets API...")
 
     # In-memory cache to avoid redundant API calls
@@ -148,5 +149,5 @@ def normalize_species_with_ncbi(processed_results: List[Dict[str, Any]], MAX_ATT
             if cached_result:
                 species_entity.update(cached_result)
 
-    logger.info("Species normalization complete.")
+    logger.info(f"Species normalization complete in {time.time() - species_norm_start_time:.2f} seconds.")
     return processed_results

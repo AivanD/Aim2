@@ -79,7 +79,7 @@ def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-A
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
     # model_name = "meta-llama/Llama-3.1-8B-Instruct"
     try:
-        model = from_vllm_offline(vllm.LLM(
+        model = vllm.LLM(
             model=model_name,                   
             quantization=quantization,              # for quantized models using awq
             # quantization="bitsandbytes",          # for quantized models using bnb
@@ -95,7 +95,7 @@ def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-A
             # guided_decoding_backend="outlines",   # dont use as it gives empty output let it use default xgrammar
             # kv_cache_dtype="fp8_e4m3"             # uses V0 engine. DO NOT USE! BUGGY!
             # kv_cache_memory_bytes=3 * 1024 * 1024 * 1024  # 3GB for kv cache
-        ))
+        )
     except ValueError as e:
         raise ValueError(f"Error loading local model via outlines VLLM: {e}")
     except Exception as e:

@@ -29,6 +29,7 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
         The same list of disctionaries with compound entities uppdated with 'NP_class' and 
         'NP_superclass'.
     """
+    np_start_time = time.time()
     logger.info("Fetching NP classes for compounds...")
     smiles_to_np_class = {}     # cache for SMILES to NP class mapping
 
@@ -82,7 +83,7 @@ def get_np_class(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> Li
                 except Exception as e:
                     logger.error(f"Error querying NPCLASSIFIER for '{original_name}': {e}")
                     break # Non-HTTP error, break loop
-    logger.info("NP class fetching complete.")
+    logger.info(f"NP class fetching complete in {time.time() - np_start_time:.2f} seconds.")
     return processed_results
 
 def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=10) -> List[Dict[str, Any]]:
@@ -102,6 +103,7 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
         The same list of dictionaries with compound entities updated with 'CID'
         and 'SMILES' where found.
     """
+    pubchem_start_time = time.time()
     logger.info("Normalizing compounds with PubChem...")
     # for memoization
     name_to_cid = {}
@@ -190,7 +192,7 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
                     compound['InChIKey'] = properties[0].get("InChIKey")
                     logger.debug(f"Normalized '{original_name}' to CID: {first_cid}")
 
-    logger.info("PubChem normalization complete.")
+    logger.info(f"PubChem normalization complete in {time.time() - pubchem_start_time:.2f} seconds.")
     return processed_results
 
 def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_path='external_tools/Classyfire/Classyfire_2024.jar') -> List[Dict[str, Any]]:
@@ -239,8 +241,6 @@ def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_
         try:
             command = ["java", "-Xmx8G", "-jar", jar_path, input_path, output_path]
             subprocess.run(command, check=True, capture_output=True, text=True)
-            classy_end_time = time.time()
-            logger.info(f"Classyfire_Local took {classy_end_time - classy_start_time}seconds.")
         except FileNotFoundError:
             logger.error(f"Java command not found. Please ensure Java is installed and in your PATH.")
             return processed_results
@@ -270,5 +270,5 @@ def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_
             if compound['InChIKey'] in classification_map:
                 compound['Classyfire'] = classification_map[compound['InChIKey']]
 
-    logger.info("ClassyFire classification complete.")
+    logger.info(f"ClassyFire classification complete in {time.time() - classy_start_time:.2f} seconds.")
     return processed_results
