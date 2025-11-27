@@ -270,8 +270,8 @@ async def amain():
                     # extracted_entities.species = [SimpleSpecies(name=name) for name in xml_passage_annotations.get("species", [])]
                     # # --- End of replacement ---
 
-                    # # add the entities to the raw result list to be saved into a file
-                    # raw_result_list.append(extracted_entities.model_dump())
+                    # add the entities to the raw result list to be saved into a file
+                    raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
                 with open(raw_ner_output_path, 'w', encoding='utf-8') as f:
