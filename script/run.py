@@ -21,7 +21,7 @@ from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_nlp, load_sapbert, load_openai_client_async, load_groq_client_async, load_local_model_via_outlinesVLLM, gpt_inference_async
 from aim2.llm.prompt import make_prompt, make_re_evaluation_prompt_body_only, make_re_prompt, make_re_evaluation_prompt, make_prompt_body_only, make_re_prompt_body_only
-from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
+from aim2.entities_types.entities import CustomExtractedEntities, SimpleCompound, SimpleExtractedEntities, SimpleGenes, SimpleSpecies
 from aim2.postprocessing.span_adder import add_spans_to_entities
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="spacy.language")
@@ -206,7 +206,7 @@ async def amain():
             logger.info(f"Processing file: {filename}")
             parsing_time = time.time()
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
-            passages_w_offsets, sentences_w_offsets, abbreviations = parse_xml(input_path, True, nlp_model)
+            passages_w_offsets, sentences_w_offsets, abbreviations, pubtator_annotations = parse_xml(input_path, True, nlp_model)
             logger.info(f"Parsing time for {filename}: {time.time() - parsing_time:.2f} seconds")
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
@@ -253,12 +253,25 @@ async def amain():
                         continue  # Skip if there was an error processing this passage
 
                     # parse the json_string result into a pydantic object
-                    # TODO: add custom validators in entities.py later to ensure outputs are aligning to what is expected ESPECIALLY FOR LITERALS.
                     # extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
-                    extracted_entities = SimpleExtractedEntities().model_validate_json(result[0])  # if using local model
+                    extracted_entities = SimpleExtractedEntities().model_validate_json(result.outputs[0].text)  # if using local model
 
-                    # add the entities to the raw result list to be saved into a file
-                    raw_result_list.append(extracted_entities.model_dump())
+                    # # --- (OPTIONAL) Replace AI-NER entities with Pubtator annotations (if Pubtator is integrated)---
+                    # # Get the pre-extracted annotations for the current passage
+                    # xml_passage_annotations = pubtator_annotations[i]
+
+                    # # Replace compounds
+                    # extracted_entities.compounds = [SimpleCompound(name=name) for name in xml_passage_annotations.get("compounds", [])]
+                    
+                    # # Replace genes
+                    # extracted_entities.genes = [SimpleGenes(name=name) for name in xml_passage_annotations.get("genes", [])]
+
+                    # # Replace species
+                    # extracted_entities.species = [SimpleSpecies(name=name) for name in xml_passage_annotations.get("species", [])]
+                    # # --- End of replacement ---
+
+                    # # add the entities to the raw result list to be saved into a file
+                    # raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
                 with open(raw_ner_output_path, 'w', encoding='utf-8') as f:
@@ -461,7 +474,7 @@ async def amain():
                         continue
                     
                     try:
-                        simple_relation = SimpleRelation.model_validate_json(result_json[0])   # if using local model
+                        simple_relation = SimpleRelation.model_validate_json(result_json.outputs[0].text)   # if using local model
                         # simple_relation = SimpleRelation.model_validate_json(result_json)
                         if simple_relation.predicate == "No_Relationship":
                             details = pair_details[i]
@@ -548,7 +561,7 @@ async def amain():
                             logger.error(f"Self-evaluation for relation index {i} failed after retries.")
                             continue
 
-                        self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json[0])   # if using local model
+                        self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json.outputs[0].text)   # if using local model
                         # self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
                         if self_evaluation.decision == "yes":
                             evaluated_relations.relations.append(relations_to_evaluate[i])

@@ -22,6 +22,7 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
         all_passages = []       # passages along with their offsets
         all_sentences = []      # sentences from all passages
         abbreviations_dict = {}  # abbreviations from all passages
+        all_annotations = []    # annotations from all passages
 
         # document id (for debugging purposes)
         doc_id_element = document.find('id')
@@ -48,6 +49,44 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
             offset_element = passage.find('offset')
             if text_element is not None and offset_element is not None:
                 all_passages.append((text_element.text, (int(offset_element.text))))
+
+                # ------------------ PUBTATOR ANNOTATIONS EXTRACTION ------------------
+                # extract annotations for this passage
+                passage_annotations = {
+                    "compounds": set(),
+                    "species": set(),
+                    "genes": set(),
+                }
+
+                for annotation in passage.findall('annotation'):
+                    # <infon key="type">Chemical</infon> or <infon key="type">Gene</infon> or <infon key="type">Species</infon>
+                    type_infon = annotation.find("infon[@key='type']")
+                    if type_infon is None:
+                        continue
+
+                    # Chemical, Gene, or Species
+                    annotation_type = type_infon.text
+                    target_set = None
+
+                    # map XML types to internal keys
+                    if annotation_type == 'Chemical':
+                        target_set = passage_annotations["compounds"]
+                    elif annotation_type == 'Gene':
+                        target_set = passage_annotations["genes"]
+                    elif annotation_type == 'Species':
+                        target_set = passage_annotations["species"]
+                    
+                    # extract the text
+                    if target_set is not None:
+                        text_node = annotation.find('text')
+                        if text_node is not None and text_node.text:
+                            target_set.add(text_node.text)
+
+                # Convert sets to lists for the final output
+                all_annotations.append({k: list(v) for k, v in passage_annotations.items()})
+
+                # ------------------ END OF PUBTATOR ANNOTATIONS EXTRACTION ------------------
+                
             else: 
                 continue
 
@@ -67,4 +106,4 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
             all_sentences = []
             abbreviations_dict = {}
 
-    return all_passages, all_sentences, abbreviations_dict
+    return all_passages, all_sentences, abbreviations_dict, all_annotations
