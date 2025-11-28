@@ -4,7 +4,7 @@ import json
 import asyncio
 import argparse
 import time
-
+from tqdm.asyncio import tqdm
 from vllm import SamplingParams
 from vllm.sampling_params import StructuredOutputsParams
 import vllm.reasoning 
