@@ -1,5 +1,6 @@
 import sys
 from outlines import from_transformers, from_openai, from_vllm_offline
+import pydantic
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
 import torch
 import openai
@@ -13,9 +14,10 @@ from sentence_transformers import SentenceTransformer
 import logging
 import spacy
 
+from aim2.relation_types.relations import SelfEvaluationResult, SimpleRelation
 from aim2.utils.config import MODELS_DIR, HF_TOKEN, OPENAI_API_KEY, GROQ_API_KEY, GROQ_MODEL, GPT_MODEL_NER, GPT_MODEL_RE_EVAL
-from aim2.entities_types.entities import CustomExtractedEntities
-from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re
+from aim2.entities_types.entities import CustomExtractedEntities, SimpleExtractedEntities
+from aim2.llm.prompt import _static_header, _static_header_re_evaluation, make_prompt, _static_header_re, make_prompt_body_only, make_re_evaluation_prompt_body_only, make_re_prompt_body_only
 from aim2.abbreviation.custom_abbreviation_detector import AbbreviationDetector
 
 logger = logging.getLogger(__name__)
@@ -413,8 +415,6 @@ async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, js
     
     return response.choices[0].message.content
 
-# TODO: update the synchronous version to match the async one
-# TODO: create a sync openai_inference function 
 def groq_inference(client, body, task=None):
     return DeprecationWarning("Synchronous Groq inference is deprecated. Please use the asynchronous version 'groq_inference_async' instead.")
     MAX_RETRIES = 10
@@ -523,3 +523,127 @@ def load_nlp(use_cpu=False):
         raise RuntimeError(f"Error loading SpaCy NLP model: {e}")
 
     return nlp
+
+async def process_passage_for_ner(semaphore, body, client):
+    """Helper function to process a single passage with semaphore and retry logic."""
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
+
+    async with semaphore:
+        for attempt in range(MAX_RETRIES):
+            try:
+                prompt_body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body=prompt_body,
+                    task='ner',
+                    API_MODEL=GPT_MODEL_NER,
+                    json_object=SimpleExtractedEntities
+                )
+
+                # OPTION 2: GROQ inference (async)
+                # does not support "json_object" param for Llama 3.3 or older
+                # result = await groq_inference_async(
+                #     client,
+                #     body=prompt_body,
+                #     API_MODEL=GROQ_MODEL,
+                #     task='ner', 
+                #     json_object=SimpleExtractedEntities
+                # )
+
+                # Validate the result immediately.
+                validated_result = SimpleExtractedEntities.model_validate_json(result)
+                return result
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid NER result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
+
+async def process_pair_for_re(semaphore, body, client):
+    """Helper function to process a single entity pair with semaphore and retry logic."""
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
+
+    async with semaphore:
+        for attempt in range(MAX_RETRIES):
+            try:
+                prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body=prompt_body,
+                    task='re',
+                    API_MODEL='gpt-4.1',
+                    json_object=SimpleRelation
+                )
+
+                # # OPTION 2: GROQ inference (async)
+                # result = await groq_inference_async(
+                #     client, 
+                #     body=prompt_body, 
+                #     task='re', 
+                #     API_MODEL=GROQ_MODEL,
+                #     json_object=SimpleRelation
+                # )
+
+                # Validate the result immediately.
+                validated_result = SimpleRelation.model_validate_json(result)
+
+                return result
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid relation extraction result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred during relation extraction for a pair: {e}")
+                return None
+
+async def process_for_re_evaluation(semaphore, body, client):
+    MAX_RETRIES = 5
+    RETRY_DELAY = 5  # seconds
+    
+    async with semaphore:
+        for attempt in range(5):
+            try:
+                prompt_body = make_re_evaluation_prompt_body_only(body)
+                # OPTION 1: OPENAI inference
+                result = await gpt_inference_async(
+                    client,
+                    body=prompt_body,
+                    task='re-self-eval',
+                    API_MODEL="gpt-5-mini",
+                    json_object=SelfEvaluationResult
+                )                        
+                # # OPTION 2: GROQ inference (async)
+                # result = await groq_inference_async(
+                #     client,
+                #     body=prompt_body, 
+                #     task='re-self-eval', 
+                #     API_MODEL="openai/gpt-oss-120b",
+                #     json_object=SelfEvaluationResult
+                # )
+
+                # Validate the result immediately.
+                validated_result = SelfEvaluationResult.model_validate_json(result)
+
+                return result 
+            except(pydantic.ValidationError) as e:
+                logging.warning(f"Validation failed on attempt {attempt + 1}/{MAX_RETRIES}. Error: {e}. Retrying in {RETRY_DELAY}s...")
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(RETRY_DELAY)
+                else:
+                    logging.error(f"Failed to get a valid self-evaluation result after {MAX_RETRIES} attempts.")
+                    return None # Give up after final attempt
+            except Exception as e:
+                logging.error(f"An unexpected error occurred while processing a passage: {e}")
+                return None # Or handle as appropriate
