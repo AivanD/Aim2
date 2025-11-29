@@ -7,10 +7,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh	# installs uv
 # navigate to project folder
 uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
 source .cspirit/bin/activate 
-pip install -e . # important as it treats the src/ folder as a package
 pip install -r requirements_ln2.txt
-# for models used for sentence splitting (can be use for other purposes). 
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz # for non-transformer model 
 ```
 
 # API tokens
