@@ -1,5 +1,5 @@
 -e . 
-vllm>=0.11.0
+vllm>=0.11.2
 scispacy==0.6.2	
 python-dotenv==1.2.1
 sentence_transformers==5.1.1
