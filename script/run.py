@@ -132,22 +132,23 @@ async def amain():
                     # extracted_entities = SimpleExtractedEntities().model_validate_json(result)      # if using OPENAI or GROQ
                     extracted_entities = SimpleExtractedEntities().model_validate_json(result.outputs[0].text)  # if using local model
 
-                    # # --- (OPTIONAL) Replace AI-NER entities with Pubtator annotations (if Pubtator is integrated)---
-                    # # Get the pre-extracted annotations for the current passage
-                    # xml_passage_annotations = pubtator_annotations[i]
+                    # --- (OPTIONAL) Replace AI-NER entities with Pubtator annotations (if paper has been pre-annotated by Pubtator)---
+                    # Get the pre-extracted annotations for the current passage
+                    if pubtator_annotations is not None:
+                        xml_passage_annotations = pubtator_annotations[i]
 
-                    # # Replace compounds
-                    # extracted_entities.compounds = [SimpleCompound(name=name) for name in xml_passage_annotations.get("compounds", [])]
-                    
-                    # # Replace genes
-                    # extracted_entities.genes = [SimpleGenes(name=name) for name in xml_passage_annotations.get("genes", [])]
+                        # Replace compounds
+                        extracted_entities.compounds = [SimpleCompound(name=name) for name in xml_passage_annotations.get("compounds", [])]
+                        
+                        # Replace genes
+                        extracted_entities.genes = [SimpleGenes(name=name) for name in xml_passage_annotations.get("genes", [])]
 
-                    # # Replace species
-                    # extracted_entities.species = [SimpleSpecies(name=name) for name in xml_passage_annotations.get("species", [])]
-                    # # --- End of replacement ---
+                        # Replace species
+                        extracted_entities.species = [SimpleSpecies(name=name) for name in xml_passage_annotations.get("species", [])]
+                        # --- End of replacement ---
 
-                    # add the entities to the raw result list to be saved into a file
-                    raw_result_list.append(extracted_entities.model_dump())
+                        # add the entities to the raw result list to be saved into a file
+                        raw_result_list.append(extracted_entities.model_dump())
 
                 # save the results to the output file
                 with open(raw_ner_output_path, 'w', encoding='utf-8') as f:

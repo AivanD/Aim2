@@ -23,6 +23,7 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
         all_sentences = []      # sentences from all passages
         abbreviations_dict = {}  # abbreviations from all passages
         all_annotations = []    # annotations from all passages
+        found_any_annotations = False
 
         # document id (for debugging purposes)
         doc_id_element = document.find('id')
@@ -81,6 +82,7 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
                         text_node = annotation.find('text')
                         if text_node is not None and text_node.text:
                             target_set.add(text_node.text)
+                            found_any_annotations = True
 
                 # Convert sets to lists for the final output
                 all_annotations.append({k: list(v) for k, v in passage_annotations.items()})
@@ -105,5 +107,5 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
             logger.warning("Sentence extraction and abbreviation detection skipped due to missing NLP model or for_sentences=False.")
             all_sentences = []
             abbreviations_dict = {}
-
-    return all_passages, all_sentences, abbreviations_dict, all_annotations
+    final_annotations = all_annotations if found_any_annotations else None
+    return all_passages, all_sentences, abbreviations_dict, final_annotations
