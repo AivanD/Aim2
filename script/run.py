@@ -10,10 +10,10 @@ import asyncio
 from tqdm.asyncio import tqdm
 import pydantic
 
-from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem
+from aim2.postprocessing.compound_normalizer import classify_with_classyfire_local, get_np_class, normalize_compounds_with_pubchem, normalize_compounds_with_pubchem_local
 from aim2.postprocessing.merger import merge_and_deduplicate, merge_entities_by_abbreviation
 from aim2.postprocessing.ontology_normalizer import SapbertNormalizer
-from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi
+from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi, normalize_species_with_ncbi_local
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
 from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, SelfEvaluationResult
 from aim2.xml.xml_parser import parse_xml
@@ -203,14 +203,16 @@ async def amain():
                     processed_result_list = normalizer.normalize_entities(processed_result_list)
 
                     # 2. For compounds NOT classified by ChemOnt, try to find a CID and SMILES via PubChem.
-                    processed_result_list = normalize_compounds_with_pubchem(processed_result_list)
+                    processed_result_list = normalize_compounds_with_pubchem_local(processed_result_list)   # if using local db
+                    # processed_result_list = normalize_compounds_with_pubchem(processed_result_list)       # if using API
 
                     # 3. For compounds with a SMILES and InChIkey strings, get further classification.
-                    processed_result_list = get_np_class(processed_result_list)
+                    # processed_result_list = get_np_class(processed_result_list)
                     processed_result_list = classify_with_classyfire_local(processed_result_list)
 
                     # 4. For species, use NCBI taxonomy to get the taxon id
-                    processed_result_list = normalize_species_with_ncbi(processed_result_list)
+                    processed_result_list = normalize_species_with_ncbi_local(processed_result_list)    # if using local db
+                    # processed_result_list = normalize_species_with_ncbi(processed_result_list)        # if using API
 
                 except Exception as e:
                     logger.error(f"An unexpected error occurred while normalizing: {e}")

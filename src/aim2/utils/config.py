@@ -42,6 +42,7 @@ PECO_OBO        = DATA_DIR / "peco.obo"
 GO_OBO          = DATA_DIR / "go.obo"
 CHEMONT_OBO     = DATA_DIR / "ChemOnt_2_1.obo"
 PATHWAYS_PMN    = DATA_DIR / "All-pathways-of-PlantCyc.txt"
+DATABASE_FILE   = DATA_DIR / "references.sqlite"
 
 HF_TOKEN        = os.getenv("HF_TOKEN", "")
 OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY", "")
@@ -55,6 +56,17 @@ GPT_MODEL_RE_EVAL       = os.getenv("GPT_MODEL_RE_EVAL", "gpt-5-mini")
 
 # VLLM
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
+
+# local databases raw files links
+REFERENCE_FILES_URLS = {
+    # Pubchem reference files
+    "CID-SMILES.gz": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz",
+    "CID-InChI-Key.gz": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-InChI-Key.gz",
+    "CID-Synonym-filtered.gz": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-Synonym-filtered.gz",
+
+    # NCBI Taxonomy dump
+    "taxdump.tar.gz": "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz"
+}
 
 def ensure_dirs():
     """

@@ -1,4 +1,5 @@
 import logging
+import sqlite3
 import time
 from typing import List, Dict, Any
 import requests
@@ -7,6 +8,8 @@ import subprocess
 import tempfile
 import os
 import csv
+
+from aim2.utils.config import DATABASE_FILE
 
 logger = logging.getLogger(__name__)
 
@@ -193,6 +196,92 @@ def normalize_compounds_with_pubchem(processed_results: List[Dict[str, Any]], MA
                     logger.debug(f"Normalized '{original_name}' to CID: {first_cid}")
 
     logger.info(f"PubChem normalization complete in {time.time() - pubchem_start_time:.2f} seconds.")
+    return processed_results
+
+def normalize_compounds_with_pubchem_local(processed_results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Normalizes compound names using the local SQLite database to fetch CID, SMILES, and InChIKey.
+
+    Args:
+        processed_results: A list of dictionaries representing extracted entities.
+
+    Returns:
+        The same list with compound entities updated with 'CID', 'SMILES', and 'InChIKey'.
+    """
+    pubchem_start_time = time.time()
+    logger.info("Normalizing compounds with local PubChem database...")
+
+    if not DATABASE_FILE.exists():
+        logger.error(f"Local database not found at {DATABASE_FILE}. Cannot perform local normalization.")
+        return processed_results
+
+    conn = None
+    try:
+        conn = sqlite3.connect(DATABASE_FILE)
+        cursor = conn.cursor()
+
+        # for memoization within this run
+        name_to_cid = {}
+        cid_to_properties = {}
+
+        for result in processed_results:
+            if "compounds" not in result or not result["compounds"]:
+                continue
+
+            for compound in result["compounds"]:
+                if compound.get("ontology_id"):
+                    continue
+
+                original_name = compound.get("name")
+                if not original_name:
+                    continue
+                
+                first_cid = None
+                # Check cache for CID
+                if original_name in name_to_cid:
+                    first_cid = name_to_cid[original_name]
+                else:
+                    # Query DB for CID from synonym
+                    cursor.execute("SELECT cid FROM pubchem_synonyms WHERE synonym = ? COLLATE NOCASE LIMIT 1", (original_name,))
+                    cid_result = cursor.fetchone()
+                    if cid_result:
+                        first_cid = cid_result[0]
+                        name_to_cid[original_name] = first_cid
+                    else:
+                        logger.warning(f"Could not find local PubChem entry for compound: '{original_name}'")
+                
+                if first_cid:
+                    compound['CID'] = first_cid
+
+                    # Check cache for properties
+                    if first_cid in cid_to_properties:
+                        properties = cid_to_properties[first_cid]
+                    else:
+                        # Query DB for SMILES and InChIKey
+                        cursor.execute("SELECT smiles FROM pubchem_smiles WHERE cid = ?", (first_cid,))
+                        smiles_result = cursor.fetchone()
+                        cursor.execute("SELECT inchikey FROM pubchem_inchikey WHERE cid = ?", (first_cid,))
+                        inchikey_result = cursor.fetchone()
+                        
+                        properties = {
+                            "SMILES": smiles_result[0] if smiles_result else None,
+                            "InChIKey": inchikey_result[0] if inchikey_result else None
+                        }
+                        cid_to_properties[first_cid] = properties
+
+                    if properties:
+                        compound['SMILES'] = properties.get("SMILES")
+                        compound['InChIKey'] = properties.get("InChIKey")
+                        if properties.get("SMILES"):
+                             logger.debug(f"Normalized '{original_name}' to CID: {first_cid}")
+
+    except sqlite3.Error as e:
+        logger.error(f"Database error during local normalization: {e}")
+    finally:
+        if conn:
+            conn.close()
+
+    logger.info(f"Local PubChem normalization complete in {time.time() - pubchem_start_time:.2f} seconds.")
     return processed_results
 
 def classify_with_classyfire_local(processed_results: List[Dict[str, Any]], jar_path='external_tools/Classyfire/Classyfire_2024.jar') -> List[Dict[str, Any]]:

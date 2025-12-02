@@ -1,4 +1,5 @@
 import logging
+import sqlite3
 import time
 from typing import List, Dict, Any
 import requests
@@ -6,12 +7,136 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import re
 
-from aim2.utils.config import NCBI_API_KEY
+from aim2.utils.config import DATABASE_FILE, NCBI_API_KEY
 
 logger = logging.getLogger(__name__)
 
 # New Base URL for NCBI Datasets API
 DATASETS_BASE_URL = "https://api.ncbi.nlm.nih.gov/datasets/v2"
+
+def normalize_species_with_ncbi_local(processed_results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Normalizes species names using the local SQLite database to fetch a Taxonomy ID.
+    It resolves abbreviated genus names and caches results.
+    """
+    species_norm_start_time = time.time()
+    logger.info("Starting species normalization with local NCBI database...")
+
+    if not DATABASE_FILE.exists():
+        logger.error(f"Local database not found at {DATABASE_FILE}. Cannot perform local normalization.")
+        return processed_results
+
+    conn = None
+    try:
+        conn = sqlite3.connect(DATABASE_FILE)
+        cursor = conn.cursor()
+
+        # In-memory cache to avoid redundant DB queries
+        species_cache = {}
+
+        # --- Pass 1: Build an abbreviation map from the entire document ---
+        abbreviation_map = {}
+        all_species_entities = [entity for result in processed_results for entity in result.get("species", [])]
+        full_names = {entity['name'] for entity in all_species_entities if re.match(r'^[A-Z][a-z]+ [a-z]+$', entity['name'])}
+        for full_name in full_names:
+            parts = full_name.split()
+            if len(parts) == 2:
+                genus, species_epithet = parts
+                abbreviation = f"{genus[0]}. {species_epithet}"
+                abbreviation_map[abbreviation.lower()] = full_name
+
+        # --- Pass 2: Collect all unique, un-normalized, un-cached names to query ---
+        names_to_query = set()
+        for result in processed_results:
+            for species_entity in result.get("species", []):
+                if species_entity.get("taxonomy_id"): continue
+                original_name = species_entity.get("name")
+                if not original_name: continue
+                
+                name_to_query = abbreviation_map.get(original_name.lower(), original_name)
+                if name_to_query not in species_cache:
+                    names_to_query.add(name_to_query)
+
+        # --- Pass 3: Perform batch normalization against the local DB ---
+        if names_to_query:
+            for name in names_to_query:
+                # OPTION 1: Original simpler queries (may return non-species ranks)
+                # # Query for scientific name first for higher accuracy (any rank)
+                # cursor.execute("SELECT tax_id FROM taxonomy_names WHERE name = ? AND name_class = 'scientific name' COLLATE NOCASE LIMIT 1", (name,))
+                # tax_id_result = cursor.fetchone()
+                
+                # # If not found, check other name classes (e.g., common name) (any rank)
+                # if not tax_id_result:
+                #     cursor.execute("SELECT tax_id FROM taxonomy_names WHERE name = ? COLLATE NOCASE LIMIT 1", (name,))
+                #     tax_id_result = cursor.fetchone()
+
+                # OPTION 2: Improved queries to ensure species rank only
+                # Query for scientific name first for higher accuracy, ensuring it's a species rank
+                query = """
+                    SELECT T1.tax_id 
+                    FROM taxonomy_names AS T1 
+                    JOIN taxonomy_nodes AS T2 ON T1.tax_id = T2.tax_id 
+                    WHERE T1.name = ? 
+                      AND T2.rank = 'species' 
+                      AND T1.name_class = 'scientific name' 
+                    COLLATE NOCASE 
+                    LIMIT 1
+                """
+                cursor.execute(query, (name,))
+                tax_id_result = cursor.fetchone()
+                
+                # If not found, check other name classes (e.g., common name), still filtering for species rank
+                if not tax_id_result:
+                    fallback_query = """
+                        SELECT T1.tax_id 
+                        FROM taxonomy_names AS T1 
+                        JOIN taxonomy_nodes AS T2 ON T1.tax_id = T2.tax_id 
+                        WHERE T1.name = ? 
+                          AND T2.rank = 'species' 
+                        COLLATE NOCASE 
+                        LIMIT 1
+                    """
+                    cursor.execute(fallback_query, (name,))
+                    tax_id_result = cursor.fetchone()
+
+                if tax_id_result:
+                    tax_id = tax_id_result[0]
+                    # Check if the tax_id has been merged into a new one
+                    cursor.execute("SELECT new_tax_id FROM taxonomy_merged WHERE old_tax_id = ?", (tax_id,))
+                    merged_result = cursor.fetchone()
+                    if merged_result:
+                        final_tax_id = merged_result[0]
+                        logger.debug(f"Resolved merged TaxID {tax_id} -> {final_tax_id} for '{name}'")
+                    else:
+                        final_tax_id = tax_id
+                    
+                    species_cache[name] = {"taxonomy_id": final_tax_id}
+                    logger.debug(f"Normalized '{name}' (TaxID: {final_tax_id})")
+                else:
+                    species_cache[name] = None # Cache failure
+                    logger.warning(f"Could not find local NCBI Taxonomy entry for species: '{name}'")
+
+        # --- Pass 4: Apply cached results to all entities ---
+        for result in processed_results:
+            if "species" not in result or not result["species"]: continue
+            for species_entity in result["species"]:
+                if species_entity.get("taxonomy_id"): continue
+                original_name = species_entity.get("name")
+                if not original_name: continue
+                
+                name_to_query = abbreviation_map.get(original_name.lower(), original_name)
+                cached_result = species_cache.get(name_to_query)
+                if cached_result:
+                    species_entity.update(cached_result)
+
+    except sqlite3.Error as e:
+        logger.error(f"Database error during local species normalization: {e}")
+    finally:
+        if conn:
+            conn.close()
+
+    logger.info(f"Local species normalization complete in {time.time() - species_norm_start_time:.2f} seconds.")
+    return processed_results
 
 def normalize_species_with_ncbi(processed_results: List[Dict[str, Any]], MAX_ATTEMPTS=5, BATCH_SIZE=10) -> List[Dict[str, Any]]:
     """
