@@ -2,10 +2,10 @@
 
 # Installation instructions
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh	# installs uv
+curl -LsSf https://astral.sh/uv/install.sh | sh	# installs uv (not sure if this will work on DRAC but should work on local machines)
 
 # navigate to project folder
-uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method)
+uv venv --python 3.11 --seed -n .cspirit # create virtual environment using uv (or use your own method to create a python 3.11 venv. There might be some difference between uv, venv, conda etc so use at your own discretion)
 source .cspirit/bin/activate 
 pip install -r requirements_ln2.txt
 ```
@@ -14,7 +14,7 @@ pip install -r requirements_ln2.txt
 use the `.env.example` to create a `.env` file to hold your API keys. If youre running locally, you can maybe ignore this part. 
 # How to run (4 relevant steps)
 1. Place your input files in `input/` folder. The input files should be in [BioC XML format](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PMC/).
-2. Run the `cache_ontology_embeddings.py` script using the following command. This would create a few .pkl files in the `data/` folder using [Sapbert](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext) that would be used for entity linking after entity extraction but before relation extraction. This only needs to be run once. 
+2. Run the `cache_ontology_embeddings.py` script using the following command. This would create a few .pkl files in the `data/` folder using [Sapbert](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext) that would be used for entity linking after entity extraction but before relation extraction. 
 ```bash
 python scripts/cache_ontology_embeddings.py # only need to run this once to cache the ontology embeddings. 
 ```
@@ -47,6 +47,10 @@ The output will be in `output/` folder. The output folder will have `ner` and `r
 - run_ner.py - script to run the NER pipeline.
 - self_evaluate_re.py - script to run the relation extraction pipeline (run.py has this built in but if you want to run your own and separate, use this).
 
+# Potential issues
+- Environment creation using any other methods than [uv](https://docs.astral.sh/uv/) might cause issues. [Uv](https://docs.astral.sh/uv/) is what I have tested it on.
+- Make sure you have enough disk space for downloading PubChem and NCBI taxonomy databases.
+- if DRAC only has a certain torch backend, you remove vllm from requirements_ln2.txt and install it separately with the correct backend like `uv pip install vllm --torch-backend=129` for CUDA 12.9.
 
 
 
