@@ -44,8 +44,7 @@ The output will be in `output/` folder. The output folder will have `ner` and `r
 - cache_ontology_embeddings.py - script to cache the ontology embeddings. Only need to run this once.
 - evaluate_ner.py - script to evaluate the NER results.
 - evaluate_relations.py	 - script to evaluate the relation extraction results.
-- run_ner.py - script to run the NER pipeline.
-- self_evaluate_re.py - script to run the relation extraction pipeline (run.py has this built in but if you want to run your own and separate, use this).
+- self_evaluate_re.py - script to run the relation extraction pipeline (run.py has this built in but if you want to run your own and separate, comment out the one in run.py and use this).
 
 # Potential issues
 - Environment creation using any other methods than [uv](https://docs.astral.sh/uv/) might cause issues. [Uv](https://docs.astral.sh/uv/) is what I have tested it on.
