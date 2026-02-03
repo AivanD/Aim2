@@ -164,9 +164,10 @@ def _static_header_re() -> str:
 
         Instructions:
         1. Carefully read the "Text Context" below.
-        2. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship" for the predicate.
-        3. Provide an exact in-text justification for your chosen relationship. Otherwise, write "No justification found".
-        4. Output ONLY a valid JSON object.
+        2. Describe the relationship using a concise phrase.
+        3. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship" for the predicate.
+        4. Provide an exact in-text justification for your chosen relationship. Otherwise, write "No justification found".
+        5. Output ONLY a valid JSON object.
                     
         Output Format (JSON only):
         {{"predicate": "...", "justification": "..."}}
@@ -197,25 +198,35 @@ def make_re_prompt_body_only(compound: Dict[str, Any], other_entity: Dict[str, A
         alt_names_str = ', '.join([f'"{name}"' for name in other_entity_alt_names])
         object_line += f' (also known as: {alt_names_str})'
     
-    # Get the specific guidelines for the given category
-    if category == "compound":
-        guidelines = RELATION_GUIDELINES.get("compounds", {})
-    else:
-        guidelines = RELATION_GUIDELINES.get(category, {})
+    # # Get the specific guidelines for the given category
+    # if category == "compound":
+    #     guidelines = RELATION_GUIDELINES.get("compounds", {})
+    # else:
+    #     guidelines = RELATION_GUIDELINES.get(category, {})
     
-    # Format the guidelines directly as a string with consistent indentation
-    guideline_lines = [f"        - \"{rel}\": {desc}" for rel, desc in guidelines.items()]
-    guideline_block = f"Allowed Relationships:\n" + "\n".join(guideline_lines)
+    # # Format the guidelines directly as a string with consistent indentation
+    # guideline_lines = [f"        - \"{rel}\": {desc}" for rel, desc in guidelines.items()]
+    # guideline_block = f"Allowed Relationships:\n" + "\n".join(guideline_lines)
 
+    # prompt with predicate guidelines removed
     prompt = dedent(f"""           
         Entities:
         {subject_line}
         {object_line}
 
-        {guideline_block}
-
         Text Context:
     """)
+
+    # # prompt with predicate guidelines included
+    # prompt = dedent(f"""           
+    #     Entities:
+    #     {subject_line}
+    #     {object_line}
+
+    #     {guideline_block}
+
+    #     Text Context:
+    # """)
 
     for context_passage in context_passages:
         prompt += context_passage + "\n"

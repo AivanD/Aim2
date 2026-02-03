@@ -37,7 +37,8 @@ class Relation(BaseModel):
     and another entity (object).
     """
     subject_entity: Compound = Field(description="The molecular compound that is the subject of the relationship.")
-    predicate: PredicateType = Field(description="The relationship between the subject and the object.")
+    # predicate: PredicateType = Field(description="The relationship between the subject and the object.")
+    predicate: str = Field(description="The relationship between the subject and the object")
     object_entity: ObjectEntityType = Field(description="The entity that is the object of the relationship.")
     category: str = Field(description="The category of the object entity.")
     justification: str = Field(description="A brief, direct quote from the text that justifies the relationship. If no direct justification is found, state 'No justification found'.")
@@ -45,7 +46,8 @@ class Relation(BaseModel):
 
 class SimpleRelation(SchemicModel):
     """A simplified model for the LLM to output, containing only the predicate and justification."""
-    predicate: PredicateType = Field(description="The relationship between the subject and the object using the 'Allowed Relationships:'.")
+    # predicate: PredicateType = Field(description="The relationship between the subject and the object using the 'Allowed Relationships:'.")
+    predicate: str = Field(description="The relationship between the subject and the object")
     justification: str = Field(description="short in-text justification for the predicate. Otherwise, write 'No justification found'.")
 
 class ExtractedRelations(BaseModel):
