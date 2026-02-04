@@ -80,6 +80,7 @@ def load_local_model_via_outlinesVLLM(model_name="kosbu/Llama-3.3-70B-Instruct-A
     # model_name = "gaunernst/gemma-3-27b-it-int4-awq"
     # model_name = "microsoft/Phi-3-mini-4k-instruct"
     # model_name = "meta-llama/Llama-3.1-8B-Instruct"
+    logger.info(f"Loading local model: {model_name} with quantization: {quantization}")
     try:
         model = vllm.LLM(
             model=model_name,                   

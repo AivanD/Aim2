@@ -164,7 +164,7 @@ def _static_header_re() -> str:
 
         Instructions:
         1. Carefully read the "Text Context" below.
-        2. Describe the relationship using a concise phrase.
+        2. Describe the relationship using a concise verb phrase.
         3. If no relationship is explicitly stated or strongly implied in the text, you must choose "No_Relationship" for the predicate.
         4. Provide an exact in-text justification for your chosen relationship. Otherwise, write "No justification found".
         5. Output ONLY a valid JSON object.
