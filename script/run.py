@@ -1,6 +1,7 @@
 import logging
 import os
 import logging
+import shutil
 import warnings
 import json
 from vllm import SamplingParams
@@ -17,7 +18,7 @@ from aim2.postprocessing.species_normalizer import normalize_species_with_ncbi, 
 from aim2.preprocessing.pairing import find_entity_pairs, rank_passages_for_pair_enhanced, select_best_sentences_from_paragraphs
 from aim2.relation_types.relations import ExtractedRelations, Relation, SimpleRelation, SelfEvaluationResult
 from aim2.xml.xml_parser import parse_xml
-from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR
+from aim2.utils.config import GPT_MODEL_NER, GPT_MODEL_RE_EVAL, GROQ_MODEL, GROQ_MODEL_RE_EVAL, PROCESSED_RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, TARDC_EVAL_NER_OUTPUT_DIR, TARDC_FINISHED_INPUTS, TARDC_INPUT_DIR, TARDC_PROCESSED_NER_OUTPUT_DIR, TARDC_PROCESSED_RE_OUTPUT_DIR, TARDC_RAW_NER_OUTPUT_DIR, TARDC_RAW_RE_OUTPUT_DIR, ensure_dirs, INPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR
 from aim2.utils.logging_cfg import setup_logging
 from aim2.llm.models import load_nlp, load_sapbert, load_openai_client_async, load_groq_client_async, load_local_model_via_outlinesVLLM, process_for_re_evaluation, process_pair_for_re, process_passage_for_ner
 from aim2.llm.prompt import make_prompt, make_re_prompt, make_re_evaluation_prompt
@@ -41,7 +42,7 @@ async def amain():
         GROQ_client = load_groq_client_async()     
         
         # for local RE  
-        model = load_local_model_via_outlinesVLLM()
+        model = load_local_model_via_outlinesVLLM(model_name="/home/aivan-dolor/Documents/models/models--RedHatAI--Llama-3.3-70B-Instruct-FP8-dynamic/snapshots/565debb06c0e301ddc1d54dae00c16b376253fde", quantization=None, max_model_len=10000)
         logger.info(f"Model loaded successfully.")
     except Exception as e:
         logger.error(f"Error loading model: {e}")
@@ -68,21 +69,30 @@ async def amain():
     logger.info("Starting the XML processing...")
     # process each files in the input folder
     start_time = time.time()
-    for filename in os.listdir(INPUT_DIR):
+    for filename in os.listdir(TARDC_INPUT_DIR):
         start_paper_time = time.time()
         start_ner_time = time.time()
         if filename.endswith('.xml'):
             # define the input file and output file
-            input_path = os.path.join(INPUT_DIR, filename)
-            raw_ner_output_path = os.path.join(RAW_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
-            eval_ner_output_path = os.path.join(EVAL_NER_OUTPUT_DIR, filename.replace('.xml', '.json')) # New path for evaluation file
-            processed_ner_output_path = os.path.join(PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            input_path = os.path.join(TARDC_INPUT_DIR, filename)
+            raw_ner_output_path = os.path.join(TARDC_RAW_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            eval_ner_output_path = os.path.join(TARDC_EVAL_NER_OUTPUT_DIR, filename.replace('.xml', '.json')) # New path for evaluation file
+            processed_ner_output_path = os.path.join(TARDC_PROCESSED_NER_OUTPUT_DIR, filename.replace('.xml', '.json'))
 
             # log the processing of the file
-            logger.info(f"Processing file: {filename}")
+            if os.path.exists(processed_ner_output_path):
+                # move it to a different folder called finished_inputs
+                shutil.move(input_path, os.path.join(TARDC_FINISHED_INPUTS, os.path.basename(input_path)))
+                continue
+            
+            logger.info(f"Processing file: {filename} with the path {input_path}")
             parsing_time = time.time()
             # parse the XML file to get the list of passages w/ offsets and sentences. Set True for sentences and abbreviations
             passages_w_offsets, sentences_w_offsets, abbreviations, pubtator_annotations = parse_xml(input_path, True, nlp_model)
+            if passages_w_offsets is None and sentences_w_offsets is None and abbreviations is None and pubtator_annotations is None:
+                logger.info(f"Skipping file {filename} due to parsing error (licensing-related) errors.")
+                continue # Skip to the next file if parsing failed
+
             logger.info(f"Parsing time for {filename}: {time.time() - parsing_time:.2f} seconds")
             # print the number of passages and sentences found
             logger.info(f"Processed {len(passages_w_offsets)} passages and {len(sentences_w_offsets)} sentences from {filename}")
@@ -229,13 +239,14 @@ async def amain():
                 with open(processed_ner_output_path, 'w', encoding='utf-8') as f:
                     json.dump(final_entities, f, indent=2, ensure_ascii=False)
                 logger.info(f"Processed results saved to {processed_ner_output_path}")
+                shutil.move(input_path, os.path.join(TARDC_FINISHED_INPUTS, os.path.basename(input_path)))
                 end_ner_post_time = time.time()
                 logger.info(f"Ner post-processing time for {filename}: {end_ner_post_time - start_ner_post_time:.2f} seconds")
 
             # Relation Extraction
             start_re_time = time.time()
-            raw_re_output_path = os.path.join(RAW_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
-            processed_re_output_path = os.path.join(PROCESSED_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            raw_re_output_path = os.path.join(TARDC_RAW_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
+            processed_re_output_path = os.path.join(TARDC_PROCESSED_RE_OUTPUT_DIR, filename.replace('.xml', '.json'))
             final_entities = None
             
             if not os.path.exists(raw_re_output_path):
@@ -442,7 +453,11 @@ async def amain():
 
                         self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json.outputs[0].text)   # if using local model
                         # self_evaluation = SelfEvaluationResult.model_validate_json(self_eval_result_json)
-                        if self_evaluation.decision == "yes":
+                        # Check for both a "yes" decision and a non-empty justification
+                        # Check for a "yes" decision, a non-empty justification, AND a valid predicate
+                        is_valid_justification = relations_to_evaluate[i].justification and relations_to_evaluate[i].justification.strip() not in ["", "No justification found", "..."]
+                        is_valid_predicate = relations_to_evaluate[i].predicate and relations_to_evaluate[i].predicate.strip() not in ["", "..."]
+                        if self_evaluation.decision == "yes" and is_valid_justification and is_valid_predicate:
                             evaluated_relations.relations.append(relations_to_evaluate[i])
                         else:
                             not_evaluated_relations.relations.append(relations_to_evaluate[i])

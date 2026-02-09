@@ -41,6 +41,13 @@ def setup_logging(level=logging.INFO, log_file_name="app.log"):
     stream_handler.addFilter(LevelFilter(logging.INFO))
     root_logger.addHandler(stream_handler)
 
+    # Create a handler for INFO level file output
+    info_log_file = LOGS_DIR / "info.log"
+    info_file_handler = logging.FileHandler(info_log_file, mode='a')
+    info_file_handler.setFormatter(formatter)
+    info_file_handler.addFilter(LevelFilter(logging.INFO))
+    root_logger.addHandler(info_file_handler)
+
     # Create a handler for file output
     file_handler = logging.FileHandler(log_file, mode='a') # 'a' for append
     file_handler.setFormatter(formatter)

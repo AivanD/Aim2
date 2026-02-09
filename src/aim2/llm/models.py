@@ -495,10 +495,10 @@ def load_sapbert():
     try: 
         device = "cuda" if torch.cuda.is_available() else "cpu"
         model = SentenceTransformer(
-            model_name_or_path="cambridgeltl/SapBERT-from-PubMedBERT-fulltext", 
+            model_name_or_path="/home/aivan-dolor/Documents/models/models--cambridgeltl--SapBERT-from-PubMedBERT-fulltext/snapshots/090663c3ae57bf35ffe4d0d468a2a88d03051a4d", 
             device=device,
             cache_folder=str(MODELS_DIR),
-            # local_files_only=True
+            local_files_only=True
         )
     except Exception as e:
         raise RuntimeError(f"Error loading SAPBERT model via outlines: {e}")
@@ -535,23 +535,23 @@ async def process_passage_for_ner(semaphore, body, client):
             try:
                 prompt_body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
                 # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body=prompt_body,
-                    task='ner',
-                    API_MODEL=GPT_MODEL_NER,
-                    json_object=SimpleExtractedEntities
-                )
+                # result = await gpt_inference_async(
+                #     client,
+                #     body=prompt_body,
+                #     task='ner',
+                #     API_MODEL=GPT_MODEL_NER,
+                #     json_object=SimpleExtractedEntities
+                # )
 
                 # OPTION 2: GROQ inference (async)
                 # does not support "json_object" param for Llama 3.3 or older
-                # result = await groq_inference_async(
-                #     client,
-                #     body=prompt_body,
-                #     API_MODEL=GROQ_MODEL,
-                #     task='ner', 
-                #     json_object=SimpleExtractedEntities
-                # )
+                result = await groq_inference_async(
+                    client,
+                    body=prompt_body,
+                    API_MODEL=GROQ_MODEL,
+                    task='ner', 
+                    json_object=SimpleExtractedEntities
+                )
 
                 # Validate the result immediately.
                 validated_result = SimpleExtractedEntities.model_validate_json(result)

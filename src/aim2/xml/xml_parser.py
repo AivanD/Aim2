@@ -1,6 +1,10 @@
+import os
+import shutil
 import xml.etree.ElementTree as ET
 import spacy
 import logging
+
+from aim2.utils.config import TARDC_INPUT_MALFORMED_DIR
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -15,7 +19,15 @@ def parse_xml(file_path, for_sentences=False, nlp=None):
     Returns:
         list: A list of sentences extracted from the XML file.
     """
-    tree = ET.parse(file_path)
+    try:
+        tree = ET.parse(file_path)
+    except ET.ParseError as e:
+        logger.error(f"XML ParseError in {file_path}: {e}. Moving file to malformed directory.")
+        if not os.path.exists(TARDC_INPUT_MALFORMED_DIR):
+            os.makedirs(TARDC_INPUT_MALFORMED_DIR)
+        shutil.move(file_path, os.path.join(TARDC_INPUT_MALFORMED_DIR, os.path.basename(file_path)))
+        return None, None, None, None # Return None to signal an error
+
     root = tree.getroot()
 
     for document in root.findall('document'):

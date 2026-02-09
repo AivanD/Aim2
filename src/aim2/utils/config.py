@@ -18,7 +18,12 @@ PROJECT_ROOT = find_project_root(__file__)
 load_dotenv(dotenv_path=PROJECT_ROOT / '.env')
 
 INPUT_DIR       = PROJECT_ROOT / "input"
+TARDC_INPUT_DIR   = PROJECT_ROOT / "tardc/input"
+TARDC_FINISHED_INPUTS = PROJECT_ROOT / "tardc/finished_inputs"
+TARDC_INPUT_MALFORMED_DIR = PROJECT_ROOT / "tardc/input_malformed"
+TARDC_INPUT_REALLY_ODD = PROJECT_ROOT / 'tardc/really_odd'
 OUTPUT_DIR      = PROJECT_ROOT / "output"
+TARDC_OUTPUT_DIR  = PROJECT_ROOT / "tardc/output"
 DATA_DIR        = PROJECT_ROOT / "data"
 MODELS_DIR      = PROJECT_ROOT / "models"
 
@@ -35,6 +40,16 @@ PROCESSED_NER_OUTPUT_DIR = NER_OUTPUT_DIR / "processed"
 RE_OUTPUT_DIR = OUTPUT_DIR / "re"
 RAW_RE_OUTPUT_DIR = RE_OUTPUT_DIR / "raw"
 PROCESSED_RE_OUTPUT_DIR = RE_OUTPUT_DIR / "processed"
+
+# tardc-specific directories
+TARDC_NER_OUTPUT_DIR = TARDC_OUTPUT_DIR / "ner"
+TARDC_RAW_NER_OUTPUT_DIR  = TARDC_NER_OUTPUT_DIR / "raw"
+TARDC_EVAL_NER_OUTPUT_DIR = TARDC_NER_OUTPUT_DIR / "evaluation" # For per-passage results used in evaluation
+TARDC_PROCESSED_NER_OUTPUT_DIR = TARDC_NER_OUTPUT_DIR / "processed"
+TARDC_RE_OUTPUT_DIR = TARDC_OUTPUT_DIR / "re"
+TARDC_RAW_RE_OUTPUT_DIR = TARDC_RE_OUTPUT_DIR / "raw"
+TARDC_PROCESSED_RE_OUTPUT_DIR = TARDC_RE_OUTPUT_DIR / "processed"
+
 
 PO_OBO          = DATA_DIR / "plant-ontology.obo"
 TO_OBO          = DATA_DIR / "to.obo"
@@ -72,5 +87,9 @@ def ensure_dirs():
     """
     Ensures that the input and output directories exist.
     """
-    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, PROCESSED_RE_OUTPUT_DIR, LOGS_DIR]:
+    for directory in [INPUT_DIR, OUTPUT_DIR, RAW_NER_OUTPUT_DIR, EVAL_NER_OUTPUT_DIR, PROCESSED_NER_OUTPUT_DIR, MODELS_DIR, NER_OUTPUT_DIR, RE_OUTPUT_DIR, RAW_RE_OUTPUT_DIR, PROCESSED_RE_OUTPUT_DIR, LOGS_DIR,
+                      TARDC_INPUT_DIR, 
+                      TARDC_FINISHED_INPUTS, TARDC_INPUT_MALFORMED_DIR, TARDC_INPUT_REALLY_ODD,
+                      TARDC_OUTPUT_DIR, TARDC_RAW_NER_OUTPUT_DIR, TARDC_EVAL_NER_OUTPUT_DIR, TARDC_PROCESSED_NER_OUTPUT_DIR,
+                      TARDC_RE_OUTPUT_DIR, TARDC_RAW_RE_OUTPUT_DIR, TARDC_PROCESSED_RE_OUTPUT_DIR]:
         directory.mkdir(parents=True, exist_ok=True)
