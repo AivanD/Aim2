@@ -325,8 +325,10 @@ async def groq_inference_async(client, body, task=None, API_MODEL=GROQ_MODEL, js
             system_content = _static_header()
         elif task == "re":
             system_content = _static_header_re()
+        elif task == "re-self-eval":
+            system_content = _static_header_re_evaluation()
         else:
-            raise Exception("GROQ_MODEL model can only be used for 'ner' or 're' tasks.")
+            raise Exception("GROQ_MODEL model can only be used for 'ner', 're', 're-self-eval' tasks.")
     elif API_MODEL == "openai/gpt-oss-20b" or API_MODEL == "openai/gpt-oss-120b":
         temperature = 1e-67
         max_completion_tokens = 4096
@@ -534,24 +536,24 @@ async def process_passage_for_ner(semaphore, body, client):
         for attempt in range(MAX_RETRIES):
             try:
                 prompt_body = make_prompt_body_only(body)      # body for NER that can be used by openai or groq
-                # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body=prompt_body,
-                    task='ner',
-                    API_MODEL=GPT_MODEL_NER,
-                    json_object=SimpleExtractedEntities
-                )
+                # # OPTION 1: OPENAI inference
+                # result = await gpt_inference_async(
+                #     client,
+                #     body=prompt_body,
+                #     task='ner',
+                #     API_MODEL=GPT_MODEL_NER,
+                #     json_object=SimpleExtractedEntities
+                # )
 
                 # OPTION 2: GROQ inference (async)
                 # does not support "json_object" param for Llama 3.3 or older
-                # result = await groq_inference_async(
-                #     client,
-                #     body=prompt_body,
-                #     API_MODEL=GROQ_MODEL,
-                #     task='ner', 
-                #     json_object=SimpleExtractedEntities
-                # )
+                result = await groq_inference_async(
+                    client,
+                    body=prompt_body,
+                    API_MODEL=GROQ_MODEL,
+                    task='ner', 
+                    json_object=SimpleExtractedEntities
+                )
 
                 # Validate the result immediately.
                 validated_result = SimpleExtractedEntities.model_validate_json(result)
@@ -576,23 +578,23 @@ async def process_pair_for_re(semaphore, body, client):
         for attempt in range(MAX_RETRIES):
             try:
                 prompt_body = make_re_prompt_body_only(body[0], body[1], body[2], body[3])
-                # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body=prompt_body,
-                    task='re',
-                    API_MODEL='gpt-4.1',
-                    json_object=SimpleRelation
-                )
-
-                # # OPTION 2: GROQ inference (async)
-                # result = await groq_inference_async(
-                #     client, 
-                #     body=prompt_body, 
-                #     task='re', 
-                #     API_MODEL=GROQ_MODEL,
+                # # OPTION 1: OPENAI inference
+                # result = await gpt_inference_async(
+                #     client,
+                #     body=prompt_body,
+                #     task='re',
+                #     API_MODEL='gpt-4.1',
                 #     json_object=SimpleRelation
                 # )
+
+                # # OPTION 2: GROQ inference (async)
+                result = await groq_inference_async(
+                    client, 
+                    body=prompt_body, 
+                    task='re', 
+                    API_MODEL=GROQ_MODEL,
+                    json_object=SimpleRelation
+                )
 
                 # Validate the result immediately.
                 validated_result = SimpleRelation.model_validate_json(result)
@@ -617,22 +619,22 @@ async def process_for_re_evaluation(semaphore, body, client):
         for attempt in range(5):
             try:
                 prompt_body = make_re_evaluation_prompt_body_only(body)
-                # OPTION 1: OPENAI inference
-                result = await gpt_inference_async(
-                    client,
-                    body=prompt_body,
-                    task='re-self-eval',
-                    API_MODEL="gpt-5-mini",
-                    json_object=SelfEvaluationResult
-                )                        
-                # # OPTION 2: GROQ inference (async)
-                # result = await groq_inference_async(
+                # # OPTION 1: OPENAI inference
+                # result = await gpt_inference_async(
                 #     client,
-                #     body=prompt_body, 
-                #     task='re-self-eval', 
-                #     API_MODEL="openai/gpt-oss-120b",
+                #     body=prompt_body,
+                #     task='re-self-eval',
+                #     API_MODEL="gpt-5-mini",
                 #     json_object=SelfEvaluationResult
-                # )
+                # )                        
+                # OPTION 2: GROQ inference (async)
+                result = await groq_inference_async(
+                    client,
+                    body=prompt_body, 
+                    task='re-self-eval', 
+                    API_MODEL=GROQ_MODEL,
+                    json_object=SelfEvaluationResult
+                )
 
                 # Validate the result immediately.
                 validated_result = SelfEvaluationResult.model_validate_json(result)
